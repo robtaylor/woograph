@@ -11,6 +11,8 @@ import yaml
 from woograph.convert.account import convert_account
 from woograph.convert.pdf import convert_pdf
 from woograph.convert.web import convert_url
+from woograph.extract.ner import extract_entities
+from woograph.graph.fragment import create_fragment
 from woograph.utils.validate import validate_submission
 
 logger = logging.getLogger(__name__)
@@ -161,6 +163,21 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     metadata_path = output_dir / "metadata.json"
     metadata_path.write_text(json.dumps(metadata, indent=2) + "\n")
 
+    # Run NER extraction on the converted markdown
+    md_content = content_path.read_text()
+    source_id = f"source:{slug}"
+    entities = extract_entities(md_content, source_id)
+    logger.info("Extracted %d entities from %s", len(entities), slug)
+
+    # Generate and save JSON-LD fragment
+    fragment = create_fragment(source_id, title, entities)
+    fragments_dir = repo_root / "graph" / "fragments"
+    fragments_dir.mkdir(parents=True, exist_ok=True)
+    fragment_path = fragments_dir / f"{slug}.jsonld"
+    fragment_path.write_text(json.dumps(fragment, indent=2) + "\n")
+
     click.echo(f"Processed: {slug}")
     click.echo(f"  Content: {content_path}")
     click.echo(f"  Metadata: {metadata_path}")
+    click.echo(f"  Entities: {len(entities)}")
+    click.echo(f"  Fragment: {fragment_path}")

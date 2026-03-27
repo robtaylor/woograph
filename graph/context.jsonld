@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "woo": "https://woograph.github.io/ontology/",
+    "entities": "woo:entities",
+    "relationships": "woo:relationships",
+    "source": "woo:source",
+    "confidence": "woo:confidence",
+    "extractedBy": "woo:extractedBy",
+    "mentionedIn": "woo:mentionedIn",
+    "geo": "https://schema.org/GeoCoordinates",
+    "aliases": "woo:aliases",
+    "subject": "woo:subject",
+    "predicate": "woo:predicate",
+    "object": "woo:object"
+  }
+}

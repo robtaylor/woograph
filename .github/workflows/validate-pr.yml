@@ -1,0 +1,29 @@
+name: Validate PR
+on:
+  pull_request:
+    paths: ['submissions/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - name: Install dependencies
+        run: cd pipeline && uv sync
+      - name: Find changed submissions
+        id: changed
+        run: |
+          FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- 'submissions/*.yaml' | grep -v '_schema.yaml' || true)
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      - name: Validate submissions
+        if: steps.changed.outputs.files != ''
+        run: |
+          cd pipeline
+          echo "${{ steps.changed.outputs.files }}" | while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            echo "Validating $f..."
+            uv run woograph validate "../$f"
+          done

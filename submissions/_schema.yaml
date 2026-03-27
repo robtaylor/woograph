@@ -1,0 +1,50 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: WooGraph Source Submission
+type: object
+required: [source]
+properties:
+  source:
+    type: object
+    required: [title, type, date_added]
+    properties:
+      title:
+        type: string
+        minLength: 1
+      type:
+        type: string
+        enum: [pdf, url, account, video]
+      url:
+        type: string
+        format: uri
+      file:
+        type: string
+      author:
+        type: string
+      date_added:
+        type: string
+        format: date
+      tags:
+        type: array
+        items:
+          type: string
+      description:
+        type: string
+    allOf:
+      - if:
+          properties:
+            type:
+              const: url
+        then:
+          required: [url]
+      - if:
+          properties:
+            type:
+              const: video
+        then:
+          required: [url]
+      - if:
+          properties:
+            type:
+              const: pdf
+        then:
+          required: [file]

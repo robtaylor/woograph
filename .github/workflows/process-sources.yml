@@ -32,10 +32,12 @@ jobs:
             echo "Processing $f..."
             uv run woograph process "../$f"
           done
-      - name: Commit processed sources
+      - name: Merge global graph
+        run: cd pipeline && uv run woograph merge
+      - name: Commit processed sources and graph
         run: |
           git config user.name "WooGraph Bot"
           git config user.email "woograph-bot@users.noreply.github.com"
-          git add sources/
-          git diff --staged --quiet || git commit -m "Process sources from submissions"
+          git add sources/ graph/
+          git diff --staged --quiet || git commit -m "Process sources and update global graph"
           git push

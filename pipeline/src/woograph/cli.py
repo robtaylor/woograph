@@ -19,6 +19,7 @@ from woograph.extract.relationships import (
     extract_relationships,
 )
 from woograph.graph.fragment import create_fragment
+from woograph.graph.merge import generate_stats, merge_global_graph
 from woograph.graph.registry import EntityRegistry
 from woograph.utils.cache import LLMCache
 from woograph.utils.validate import validate_submission
@@ -223,3 +224,30 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     click.echo(f"  Entities: {len(entities)}")
     click.echo(f"  Relationships: {len(relationships)}")
     click.echo(f"  Fragment: {fragment_path}")
+
+
+@main.command()
+@click.pass_context
+def merge(ctx: click.Context) -> None:
+    """Merge all graph fragments into global.jsonld."""
+    repo_root: Path = ctx.obj["repo_root"]
+    fragments_dir = repo_root / "graph" / "fragments"
+    context_path = repo_root / "graph" / "context.jsonld"
+
+    global_graph = merge_global_graph(fragments_dir, context_path)
+
+    # Write global.jsonld
+    global_path = repo_root / "graph" / "global.jsonld"
+    global_path.parent.mkdir(parents=True, exist_ok=True)
+    global_path.write_text(json.dumps(global_graph, indent=2) + "\n")
+
+    # Generate and write stats
+    stats = generate_stats(global_graph)
+    stats_path = repo_root / "graph" / "stats.json"
+    stats_path.write_text(json.dumps(stats, indent=2) + "\n")
+
+    click.echo(
+        f"Global graph: {stats['total_entities']} entities, "
+        f"{stats['total_relationships']} relationships "
+        f"from {stats['total_sources']} sources"
+    )

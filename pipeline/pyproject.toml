@@ -10,6 +10,7 @@ dependencies = [
     "jsonschema>=4.20",
     "click>=8.1",
     "spacy>=3.7",
+    "anthropic>=0.40",
 ]
 
 [project.scripts]

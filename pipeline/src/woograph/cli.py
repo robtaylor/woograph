@@ -2,6 +2,7 @@
 
 import json
 import logging
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,8 +12,15 @@ import yaml
 from woograph.convert.account import convert_account
 from woograph.convert.pdf import convert_pdf
 from woograph.convert.web import convert_url
+from woograph.extract.disambiguate import disambiguate_entities
 from woograph.extract.ner import extract_entities
+from woograph.extract.relationships import (
+    chunk_text_with_entities,
+    extract_relationships,
+)
 from woograph.graph.fragment import create_fragment
+from woograph.graph.registry import EntityRegistry
+from woograph.utils.cache import LLMCache
 from woograph.utils.validate import validate_submission
 
 logger = logging.getLogger(__name__)
@@ -169,8 +177,41 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     entities = extract_entities(md_content, source_id)
     logger.info("Extracted %d entities from %s", len(entities), slug)
 
+    # Disambiguate entities against the registry
+    registry_path = repo_root / "graph" / "entities" / "registry.json"
+    registry = EntityRegistry(registry_path)
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    anthropic_client = None
+    if api_key:
+        import anthropic
+
+        anthropic_client = anthropic.Anthropic(api_key=api_key)
+
+    entities = disambiguate_entities(
+        entities, registry, source_context=title, client=anthropic_client
+    )
+    registry.save()
+
+    # Extract relationships (only if API key is set)
+    relationships = []
+    if api_key and anthropic_client is not None:
+        cache_dir = repo_root / "graph" / ".cache" / "llm"
+        cache = LLMCache(cache_dir)
+        chunks = chunk_text_with_entities(md_content, entities)
+        relationships = extract_relationships(
+            chunks, source_id, client=anthropic_client, cache=cache
+        )
+        logger.info("Extracted %d relationships from %s", len(relationships), slug)
+    else:
+        logger.warning(
+            "ANTHROPIC_API_KEY not set, skipping relationship extraction"
+        )
+
     # Generate and save JSON-LD fragment
-    fragment = create_fragment(source_id, title, entities)
+    fragment = create_fragment(
+        source_id, title, entities, relationships=relationships or None
+    )
     fragments_dir = repo_root / "graph" / "fragments"
     fragments_dir.mkdir(parents=True, exist_ok=True)
     fragment_path = fragments_dir / f"{slug}.jsonld"
@@ -180,4 +221,5 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     click.echo(f"  Content: {content_path}")
     click.echo(f"  Metadata: {metadata_path}")
     click.echo(f"  Entities: {len(entities)}")
+    click.echo(f"  Relationships: {len(relationships)}")
     click.echo(f"  Fragment: {fragment_path}")

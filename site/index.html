@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WooGraph - Knowledge Graph Viewer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.4/cytoscape.min.js"></script>
+</head>
+<body>
+  <div id="app-layout" class="app-layout">
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <span class="logo">WooGraph</span>
+      <span class="stat">Entities: <span class="value" id="stat-entities">--</span></span>
+      <span class="stat">Relationships: <span class="value" id="stat-relationships">--</span></span>
+      <span class="stat">Sources: <span class="value" id="stat-sources">--</span></span>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+      <button class="active" data-tab="graph-view">Graph View</button>
+      <button data-tab="map-view">Map View</button>
+      <div class="layout-selector">
+        <label for="layout-select">Layout:</label>
+        <select id="layout-select">
+          <option value="cose" selected>Force-directed</option>
+          <option value="circle">Circle</option>
+          <option value="grid">Grid</option>
+          <option value="breadthfirst">Breadthfirst</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+      <!-- Search -->
+      <div class="search-box">
+        <span class="search-icon">&#x1F50D;</span>
+        <input type="text" id="search-input" placeholder="Search entities...">
+      </div>
+
+      <!-- Entity Type Filters -->
+      <div class="filter-section">
+        <h3>Entity Types</h3>
+        <div class="filter-actions">
+          <button id="filter-select-all">Select All</button>
+          <button id="filter-select-none">Select None</button>
+        </div>
+        <div id="type-filters">
+          <!-- Populated by filters.js -->
+        </div>
+      </div>
+
+      <!-- Confidence Threshold -->
+      <div class="confidence-section">
+        <h3>Confidence Threshold</h3>
+        <div class="slider-row">
+          <input type="range" id="confidence-slider" min="0" max="1" step="0.05" value="0">
+          <span class="slider-value" id="confidence-value">0.00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Graph View -->
+      <div id="graph-view" class="view-panel active">
+        <div id="cy"></div>
+        <div id="loading" class="loading-overlay">
+          <div class="loading-spinner"></div>
+        </div>
+      </div>
+
+      <!-- Map View (placeholder for Phase 6) -->
+      <div id="map-view" class="view-panel">
+        <div class="placeholder-view">
+          <div class="icon">&#x1F5FA;</div>
+          <p>Map view coming in Phase 6</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Panel (right sidebar) -->
+    <div id="detail-panel" class="detail-panel">
+      <div class="detail-header">
+        <h3>Details</h3>
+        <button class="close-btn" id="detail-close">&times;</button>
+      </div>
+      <div class="detail-body" id="detail-body">
+        <!-- Populated by detail-panel.js -->
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

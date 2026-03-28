@@ -1,0 +1,43 @@
+name: Deploy Pages
+
+on:
+  workflow_run:
+    workflows: ["Process Sources"]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths: ['site/**', 'graph/global.jsonld']
+
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare site data
+        run: |
+          mkdir -p site/data
+          cp graph/global.jsonld site/data/ 2>/dev/null || echo '{"entities":[],"relationships":[]}' > site/data/global.jsonld
+          cp graph/context.jsonld site/data/ 2>/dev/null || true
+          cp graph/stats.json site/data/ 2>/dev/null || echo '{}' > site/data/stats.json
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,321 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:jfk-104-10003-10041",
+  "name": "JFK File 104-10003-10041",
+  "entities": [
+    {
+      "@id": "source:jfk-104-10003-10041",
+      "@type": "woo:Source",
+      "name": "JFK File 104-10003-10041"
+    },
+    {
+      "@id": "entity:creativework-the-kennedy-murder",
+      "@type": "CreativeWork",
+      "name": "The Kennedy Murder",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:organization-the-secret-services",
+      "@type": "Organization",
+      "name": "the Secret Services",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:person-arthur-po-iorio",
+      "@type": "Person",
+      "name": "Arthur Po Iorio",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:date-march-1964",
+      "@type": "Date",
+      "name": "March 1964",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:person-forwarded",
+      "@type": "Person",
+      "name": "FORWARDED",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:organization-officer",
+      "@type": "Organization",
+      "name": "OFFICER",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:date-7-march",
+      "@type": "Date",
+      "name": "7 March",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:organization-the-italia-communist-party",
+      "@type": "Organization",
+      "name": "the Italia Communist Party",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:date-weekly",
+      "@type": "Date",
+      "name": "weekly",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:organization-rinascit",
+      "@type": "Organization",
+      "name": "Rinascit",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:person-gianfranco-corsini",
+      "@type": "Person",
+      "name": "Gianfranco Corsini",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:organization-agency",
+      "@type": "Organization",
+      "name": "Agency",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    },
+    {
+      "@id": "entity:person-kennedyo",
+      "@type": "Person",
+      "name": "Kennedyo",
+      "aliases": [],
+      "mentionedIn": "source:jfk-104-10003-10041"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-kennedy-murder"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-secret-services"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arthur-po-iorio"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-march-1964"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-forwarded"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-officer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-7-march"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-italia-communist-party"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-weekly"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rinascit"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gianfranco-corsini"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-agency"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kennedyo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:jfk-104-10003-10041"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-agency"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-kennedyo"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-kennedy-murder"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-officer"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arthur-po-iorio"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-kennedy-murder"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arthur-po-iorio"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-secret-services"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-kennedy-murder"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-march-1964"
+      },
+      "confidence": 0.6,
+      "extractedBy": "deepseek:deepseek-chat"
+    }
+  ]
+}

@@ -145,22 +145,28 @@ def load_llm_config() -> LLMConfig | None:
 
 
 def create_completion(
-    config: LLMConfig, prompt: str, max_tokens: int = 1024
+    config: LLMConfig, prompt: str, max_tokens: int = 1024, json_mode: bool = False
 ) -> str | None:
     """Send a prompt and get text response. Returns None on failure.
 
     For Anthropic: uses the anthropic SDK.
     For all others: uses the openai SDK with appropriate base_url.
 
+    Args:
+        config: LLM provider configuration.
+        prompt: The prompt text.
+        max_tokens: Maximum tokens in the response.
+        json_mode: If True, request JSON response format (prompt must mention "json").
+
     Retries once on failure.
     """
     if config.provider == "anthropic":
         return _create_anthropic_completion(config, prompt, max_tokens)
-    return _create_openai_completion(config, prompt, max_tokens)
+    return _create_openai_completion(config, prompt, max_tokens, json_mode=json_mode)
 
 
 def _create_openai_completion(
-    config: LLMConfig, prompt: str, max_tokens: int
+    config: LLMConfig, prompt: str, max_tokens: int, *, json_mode: bool = False
 ) -> str | None:
     """Use OpenAI-compatible API (DeepSeek, OpenAI, Gemini, Mistral)."""
     client_kwargs: dict[str, str] = {"api_key": config.api_key}
@@ -171,13 +177,16 @@ def _create_openai_completion(
 
     for attempt in range(2):
         try:
-            response = client.chat.completions.create(
-                model=config.model,
-                max_tokens=max_tokens,
-                temperature=config.temperature,
-                messages=[{"role": "user", "content": prompt}],
-                response_format={"type": "json_object"},
-            )
+            create_kwargs: dict = {
+                "model": config.model,
+                "max_tokens": max_tokens,
+                "temperature": config.temperature,
+                "messages": [{"role": "user", "content": prompt}],
+            }
+            if json_mode:
+                create_kwargs["response_format"] = {"type": "json_object"}
+
+            response = client.chat.completions.create(**create_kwargs)
             if response.choices and response.choices[0].message.content:
                 return response.choices[0].message.content
             return None

@@ -14,6 +14,7 @@ dependencies = [
     "anthropic>=0.40",
     "python-dotenv>=1.2.2",
     "openai>=1.50",
+    "marker-pdf>=1.10.2",
 ]
 
 [project.scripts]

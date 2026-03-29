@@ -62,50 +62,52 @@ class TestPdfConverter:
         with pytest.raises(FileNotFoundError):
             convert_pdf(missing, tmp_output)
 
-    @patch("woograph.convert.pdf.pymupdf4llm")
+    @patch("woograph.convert.pdf._convert_with_pymupdf")
+    @patch.dict("os.environ", {"WOOGRAPH_PDF_BACKEND": "pymupdf"})
     def test_converts_pdf_to_markdown(
-        self, mock_pymupdf: MagicMock, tmp_path: Path
+        self, mock_convert: MagicMock, tmp_path: Path
     ) -> None:
-        """PDF converter calls pymupdf4llm and writes content.md."""
-        # Create a fake PDF file (just needs to exist)
+        """PDF converter calls pymupdf backend and writes content.md."""
         pdf_file = tmp_path / "test.pdf"
         pdf_file.write_bytes(b"%PDF-1.4 fake")
         output_dir = tmp_path / "output"
 
-        mock_pymupdf.to_markdown.return_value = "# Extracted Content\n\nSome text.\n"
+        mock_convert.return_value = "# Extracted Content\n\nSome text.\n"
 
         result = convert_pdf(pdf_file, output_dir)
 
         assert result == output_dir / "content.md"
         assert result.exists()
         assert "Extracted Content" in result.read_text()
-        mock_pymupdf.to_markdown.assert_called_once()
+        mock_convert.assert_called_once()
 
-    @patch("woograph.convert.pdf.pymupdf4llm")
+    @patch("woograph.convert.pdf._convert_with_pymupdf")
+    @patch.dict("os.environ", {"WOOGRAPH_PDF_BACKEND": "pymupdf"})
     def test_creates_images_directory(
-        self, mock_pymupdf: MagicMock, tmp_path: Path
+        self, mock_convert: MagicMock, tmp_path: Path
     ) -> None:
-        """PDF converter creates an images/ subdirectory."""
+        """PDF converter creates output directory."""
         pdf_file = tmp_path / "test.pdf"
         pdf_file.write_bytes(b"%PDF-1.4 fake")
         output_dir = tmp_path / "output"
 
-        mock_pymupdf.to_markdown.return_value = "# Content\n"
+        mock_convert.return_value = "# Content\n"
 
         convert_pdf(pdf_file, output_dir)
 
-        assert (output_dir / "images").is_dir()
+        assert output_dir.is_dir()
 
-    @patch("woograph.convert.pdf.pymupdf4llm")
+    @patch("woograph.convert.pdf._convert_with_pymupdf")
+    @patch.dict("os.environ", {"WOOGRAPH_PDF_BACKEND": "pymupdf"})
     def test_handles_conversion_error(
-        self, mock_pymupdf: MagicMock, tmp_path: Path
+        self, mock_convert: MagicMock, tmp_path: Path
     ) -> None:
-        """PDF converter wraps pymupdf4llm errors in RuntimeError."""
+        """PDF converter wraps backend errors in RuntimeError."""
         pdf_file = tmp_path / "corrupt.pdf"
         pdf_file.write_bytes(b"not a pdf")
         output_dir = tmp_path / "output"
 
-        mock_pymupdf.to_markdown.side_effect = Exception("Corrupt PDF")
+        mock_convert.side_effect = Exception("Corrupt PDF")
 
         with pytest.raises(RuntimeError, match="Failed to convert PDF"):
             convert_pdf(pdf_file, output_dir)

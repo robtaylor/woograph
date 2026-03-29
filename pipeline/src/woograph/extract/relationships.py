@@ -232,7 +232,7 @@ def extract_relationships(
 
     def _process_chunk(chunk: dict) -> list[Relationship]:
         prompt = _build_prompt(chunk)
-        response_text = create_completion(llm_config, prompt, max_tokens=1024)
+        response_text = create_completion(llm_config, prompt, max_tokens=1024, json_mode=True)
 
         if response_text is None:
             return []

@@ -296,8 +296,8 @@ class TestCreateCompletion:
             call_kwargs = mock_client.chat.completions.create.call_args[1]
             assert call_kwargs["max_tokens"] == 2048
 
-    def test_json_response_format_for_openai_compatible(self):
-        """OpenAI-compatible providers should request JSON format."""
+    def test_json_response_format_when_json_mode(self):
+        """OpenAI-compatible providers set response_format when json_mode=True."""
         config = LLMConfig(
             provider="deepseek",
             model="deepseek-chat",
@@ -310,9 +310,27 @@ class TestCreateCompletion:
         mock_client.chat.completions.create.return_value = mock_response
 
         with patch("woograph.llm.client.OpenAI", return_value=mock_client):
-            create_completion(config, "test")
+            create_completion(config, "return JSON", json_mode=True)
             call_kwargs = mock_client.chat.completions.create.call_args[1]
             assert call_kwargs["response_format"] == {"type": "json_object"}
+
+    def test_no_json_format_by_default(self):
+        """OpenAI-compatible providers omit response_format by default."""
+        config = LLMConfig(
+            provider="deepseek",
+            model="deepseek-chat",
+            api_key="sk-test",
+            base_url="https://api.deepseek.com",
+        )
+        mock_client = MagicMock()
+        mock_response = MagicMock()
+        mock_response.choices = [MagicMock(message=MagicMock(content="Yes"))]
+        mock_client.chat.completions.create.return_value = mock_response
+
+        with patch("woograph.llm.client.OpenAI", return_value=mock_client):
+            create_completion(config, "test")
+            call_kwargs = mock_client.chat.completions.create.call_args[1]
+            assert "response_format" not in call_kwargs
 
     def test_temperature_passed(self):
         config = LLMConfig(

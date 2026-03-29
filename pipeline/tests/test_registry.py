@@ -99,6 +99,7 @@ class TestEntityRegistry:
         reg = EntityRegistry(path)
         reg.add_alias("entity:person-john-f-kennedy", "Jack Kennedy")
         entry = reg.lookup("entity:person-john-f-kennedy")
+        assert entry is not None
         assert "Jack Kennedy" in entry["aliases"]
 
     def test_add_alias_no_duplicate(self, tmp_path: Path):
@@ -106,6 +107,7 @@ class TestEntityRegistry:
         reg = EntityRegistry(path)
         reg.add_alias("entity:person-john-f-kennedy", "JFK")
         entry = reg.lookup("entity:person-john-f-kennedy")
+        assert entry is not None
         assert entry["aliases"].count("JFK") == 1
 
     def test_find_fuzzy_matches(self, tmp_path: Path):

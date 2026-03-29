@@ -53,7 +53,9 @@ class TestProviderDefaults:
 
     def test_gemini_defaults(self):
         assert "gemini" in PROVIDER_DEFAULTS
-        assert "generativelanguage" in PROVIDER_DEFAULTS["gemini"]["base_url"]
+        base_url = PROVIDER_DEFAULTS["gemini"]["base_url"]
+        assert base_url is not None
+        assert "generativelanguage" in base_url
 
     def test_mistral_defaults(self):
         assert "mistral" in PROVIDER_DEFAULTS

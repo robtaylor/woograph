@@ -2,7 +2,6 @@
 
 import json
 import logging
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -22,6 +21,7 @@ from woograph.extract.relationships import (
 from woograph.graph.fragment import create_fragment
 from woograph.graph.merge import generate_stats, merge_global_graph
 from woograph.graph.registry import EntityRegistry
+from woograph.llm import load_llm_config
 from woograph.utils.cache import LLMCache
 from woograph.utils.validate import validate_submission
 
@@ -187,32 +187,31 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     registry_path = repo_root / "graph" / "entities" / "registry.json"
     registry = EntityRegistry(registry_path)
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    anthropic_client = None
-    if api_key:
-        import anthropic
-
-        anthropic_client = anthropic.Anthropic(api_key=api_key)
+    llm_config = load_llm_config()
+    if llm_config:
+        logger.info(
+            "Using LLM provider: %s (model: %s)",
+            llm_config.provider,
+            llm_config.model,
+        )
+    else:
+        logger.warning("No LLM API key found, skipping LLM-based extraction")
 
     entities = disambiguate_entities(
-        entities, registry, source_context=title, client=anthropic_client
+        entities, registry, source_context=title, llm_config=llm_config
     )
     registry.save()
 
-    # Extract relationships (only if API key is set)
+    # Extract relationships (only if LLM config available)
     relationships = []
-    if api_key and anthropic_client is not None:
+    if llm_config is not None:
         cache_dir = repo_root / "graph" / ".cache" / "llm"
         cache = LLMCache(cache_dir)
         chunks = chunk_text_with_entities(md_content, entities)
         relationships = extract_relationships(
-            chunks, source_id, client=anthropic_client, cache=cache
+            chunks, source_id, llm_config=llm_config, cache=cache
         )
         logger.info("Extracted %d relationships from %s", len(relationships), slug)
-    else:
-        logger.warning(
-            "ANTHROPIC_API_KEY not set, skipping relationship extraction"
-        )
 
     # Generate and save JSON-LD fragment
     fragment = create_fragment(

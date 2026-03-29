@@ -2,10 +2,9 @@
 
 import logging
 
-import anthropic
-
 from woograph.extract.ner import Entity
 from woograph.graph.registry import EntityRegistry
+from woograph.llm.client import LLMConfig, create_completion
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +13,7 @@ def disambiguate_entities(
     new_entities: list[Entity],
     registry: EntityRegistry,
     source_context: str = "",
-    client: anthropic.Anthropic | None = None,
+    llm_config: LLMConfig | None = None,
 ) -> list[Entity]:
     """Disambiguate entities against the registry.
 
@@ -49,10 +48,10 @@ def disambiguate_entities(
             entity.name, entity.entity_type, threshold=0.7
         )
 
-        if fuzzy_matches and client is not None:
+        if fuzzy_matches and llm_config is not None:
             best_match = fuzzy_matches[0]
-            is_same = _ask_claude_disambiguation(
-                client,
+            is_same = _ask_llm_disambiguation(
+                llm_config,
                 entity.name,
                 best_match["name"],
                 best_match.get("canonical_id", ""),
@@ -84,31 +83,22 @@ def _find_canonical_id(registry: EntityRegistry, entry: dict) -> str | None:
     return None
 
 
-def _ask_claude_disambiguation(
-    client: anthropic.Anthropic,
+def _ask_llm_disambiguation(
+    llm_config: LLMConfig,
     new_name: str,
     existing_name: str,
     existing_id: str,
     context: str,
 ) -> bool:
-    """Ask Claude whether two entity names refer to the same entity."""
+    """Ask an LLM whether two entity names refer to the same entity."""
     prompt = (
         f"Is '{new_name}' in the context '{context}' the same entity as "
         f"'{existing_name}' ({existing_id})? "
-        f"Answer only Yes or No."
+        f"Do not guess or infer. Only answer Yes if you are confident they "
+        f"refer to the same real-world entity. Answer only Yes or No."
     )
-    try:
-        response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=10,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text_blocks = [b for b in response.content if hasattr(b, "text")]
-        if not text_blocks:
-            return False
-        text: str = text_blocks[0].text  # type: ignore[union-attr]
-        answer = text.strip().lower()
-        return answer.startswith("yes")
-    except Exception:
-        logger.warning("Claude disambiguation call failed, treating as no match")
+    response_text = create_completion(llm_config, prompt, max_tokens=10)
+    if response_text is None:
         return False
+    answer = response_text.strip().lower()
+    return answer.startswith("yes")

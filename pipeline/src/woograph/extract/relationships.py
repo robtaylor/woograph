@@ -1,12 +1,11 @@
-"""Claude Haiku relationship extraction between entities."""
+"""LLM-based relationship extraction between entities."""
 
 import json
 import logging
 from dataclasses import dataclass
 
-import anthropic
-
 from woograph.extract.ner import Entity
+from woograph.llm.client import LLMConfig, create_completion
 from woograph.utils.cache import LLMCache
 
 logger = logging.getLogger(__name__)
@@ -32,8 +31,6 @@ PREDICATES = [
     "died_in",
 ]
 
-MODEL = "claude-haiku-4-5-20251001"
-
 
 @dataclass
 class Relationship:
@@ -43,7 +40,7 @@ class Relationship:
     predicate: str  # relationship type from PREDICATES
     object: str  # canonical entity ID
     confidence: float
-    extracted_by: str  # "claude-haiku"
+    extracted_by: str  # e.g. "deepseek:deepseek-chat"
     source_id: str
 
 
@@ -108,6 +105,8 @@ def _build_prompt(chunk: dict) -> str:
         f'- "predicate": one of [{predicates_str}]\n'
         f'- "object": entity name (must be one from the list above)\n'
         f'- "confidence": float 0.0-1.0\n\n'
+        f"Extract ONLY relationships that are explicitly stated in the text. "
+        f"Do not infer or guess relationships.\n\n"
         f"Return ONLY a JSON array. If no relationships found, return []."
     )
 
@@ -116,8 +115,9 @@ def _parse_response(
     response_text: str,
     chunk_entities: list[Entity],
     source_id: str,
+    extracted_by: str = "unknown",
 ) -> list[Relationship]:
-    """Parse Claude's JSON response into Relationship objects."""
+    """Parse LLM JSON response into Relationship objects."""
     # Build name -> canonical_id mapping
     name_to_id: dict[str, str] = {}
     for e in chunk_entities:
@@ -127,11 +127,11 @@ def _parse_response(
     try:
         raw = json.loads(response_text)
     except json.JSONDecodeError:
-        logger.warning("Failed to parse Claude response as JSON")
+        logger.warning("Failed to parse LLM response as JSON")
         return []
 
     if not isinstance(raw, list):
-        logger.warning("Claude response is not a JSON array")
+        logger.warning("LLM response is not a JSON array")
         return []
 
     relationships: list[Relationship] = []
@@ -168,7 +168,7 @@ def _parse_response(
                 predicate=predicate,
                 object=object_id,
                 confidence=float(confidence),
-                extracted_by="claude-haiku",
+                extracted_by=extracted_by,
                 source_id=source_id,
             )
         )
@@ -179,10 +179,10 @@ def _parse_response(
 def extract_relationships(
     chunks: list[dict],
     source_id: str,
-    client: anthropic.Anthropic | None = None,
+    llm_config: LLMConfig | None = None,
     cache: LLMCache | None = None,
 ) -> list[Relationship]:
-    """Send each chunk to Claude Haiku to extract relationships.
+    """Send each chunk to an LLM to extract relationships.
 
     For each chunk:
     - Build prompt with entity list + text excerpt
@@ -191,14 +191,12 @@ def extract_relationships(
     - Parse response, map entity names back to canonical IDs
     - Handle API errors gracefully (retry once, then skip chunk)
     """
-    if client is None:
-        try:
-            client = anthropic.Anthropic()
-        except Exception:
-            logger.warning("No Anthropic client available, skipping relationship extraction")
-            return []
+    if llm_config is None:
+        logger.warning("No LLM config provided, skipping relationship extraction")
+        return []
 
     all_relationships: list[Relationship] = []
+    provider_label = f"{llm_config.provider}:{llm_config.model}"
 
     for chunk in chunks:
         entity_names = sorted(e.name for e in chunk["entities"])
@@ -209,33 +207,14 @@ def extract_relationships(
             cached = cache.get(*cache_key_parts)
             if cached is not None:
                 rels = _parse_response(
-                    json.dumps(cached), chunk["entities"], source_id
+                    json.dumps(cached), chunk["entities"], source_id,
+                    extracted_by=provider_label,
                 )
                 all_relationships.extend(rels)
                 continue
 
         prompt = _build_prompt(chunk)
-
-        # Try up to 2 times (initial + 1 retry)
-        response_text = None
-        for attempt in range(2):
-            try:
-                response = client.messages.create(
-                    model=MODEL,
-                    max_tokens=1024,
-                    messages=[{"role": "user", "content": prompt}],
-                )
-                text_blocks = [
-                    b for b in response.content if hasattr(b, "text")
-                ]
-                if text_blocks:
-                    response_text = text_blocks[0].text  # type: ignore[union-attr]
-                break
-            except Exception as exc:
-                if attempt == 0:
-                    logger.warning("API call failed (%s), retrying once...", exc)
-                else:
-                    logger.warning("API call failed on retry (%s), skipping chunk", exc)
+        response_text = create_completion(llm_config, prompt, max_tokens=1024)
 
         if response_text is None:
             continue
@@ -248,7 +227,10 @@ def extract_relationships(
         except json.JSONDecodeError:
             pass
 
-        rels = _parse_response(response_text, chunk["entities"], source_id)
+        rels = _parse_response(
+            response_text, chunk["entities"], source_id,
+            extracted_by=provider_label,
+        )
         all_relationships.extend(rels)
 
     return all_relationships

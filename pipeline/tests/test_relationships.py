@@ -1,8 +1,8 @@
-"""Tests for Claude API relationship extraction."""
+"""Tests for LLM-based relationship extraction."""
 
 import json
 from pathlib import Path
-from unittest.mock import MagicMock
+from unittest.mock import patch
 
 from woograph.extract.ner import Entity
 from woograph.extract.relationships import (
@@ -11,6 +11,7 @@ from woograph.extract.relationships import (
     chunk_text_with_entities,
     extract_relationships,
 )
+from woograph.llm.client import LLMConfig
 from woograph.utils.cache import LLMCache
 
 
@@ -89,18 +90,23 @@ class TestChunkTextWithEntities:
 
 
 class TestExtractRelationships:
-    def _mock_anthropic_response(self, relationships_json: list[dict]):
-        """Create a mock Anthropic client that returns the given JSON."""
-        mock_client = MagicMock()
-        mock_response = MagicMock()
-        mock_response.content = [
-            MagicMock(text=json.dumps(relationships_json))
-        ]
-        mock_client.messages.create.return_value = mock_response
-        return mock_client
+    def _make_config(self) -> LLMConfig:
+        return LLMConfig(
+            provider="deepseek",
+            model="deepseek-chat",
+            api_key="sk-test",
+            base_url="https://api.deepseek.com",
+        )
+
+    def _patch_completion(self, return_value: str):
+        """Patch create_completion to return a fixed string."""
+        return patch(
+            "woograph.extract.relationships.create_completion",
+            return_value=return_value,
+        )
 
     def test_extracts_relationships_from_chunks(self):
-        mock_client = self._mock_anthropic_response([
+        response_json = json.dumps([
             {
                 "subject": "Chester Nimitz",
                 "predicate": "participated_in",
@@ -115,15 +121,16 @@ class TestExtractRelationships:
                 "entities": entities[:2],
             }
         ]
-        rels = extract_relationships(
-            chunks, "source:test", client=mock_client
-        )
+        with self._patch_completion(response_json):
+            rels = extract_relationships(
+                chunks, "source:test", llm_config=self._make_config()
+            )
         assert len(rels) == 1
         assert rels[0].subject == "entity:person-chester-nimitz"
         assert rels[0].predicate == "participated_in"
         assert rels[0].object == "entity:event-battle-of-midway"
         assert rels[0].confidence == 0.95
-        assert rels[0].extracted_by == "claude-haiku"
+        assert rels[0].extracted_by == "deepseek:deepseek-chat"
 
     def test_cache_hit_skips_api_call(self, tmp_path: Path):
         cache = LLMCache(tmp_path / "cache")
@@ -142,27 +149,37 @@ class TestExtractRelationships:
         entity_names = sorted(e.name for e in entities)
         cache.put(cached_data, chunk["text"], str(entity_names))
 
-        mock_client = MagicMock()
-        rels = extract_relationships(
-            [chunk], "source:test", client=mock_client, cache=cache
-        )
-        # API should NOT have been called
-        mock_client.messages.create.assert_not_called()
+        with patch(
+            "woograph.extract.relationships.create_completion"
+        ) as mock_completion:
+            rels = extract_relationships(
+                [chunk], "source:test", llm_config=self._make_config(), cache=cache
+            )
+            # create_completion should NOT have been called
+            mock_completion.assert_not_called()
         assert len(rels) == 1
 
     def test_api_error_skips_chunk_gracefully(self):
-        mock_client = MagicMock()
-        mock_client.messages.create.side_effect = Exception("API error")
         entities = _make_entities()[:2]
         chunks = [{"text": SAMPLE_TEXT, "entities": entities}]
-        rels = extract_relationships(
-            chunks, "source:test", client=mock_client
-        )
+        with patch(
+            "woograph.extract.relationships.create_completion",
+            return_value=None,
+        ):
+            rels = extract_relationships(
+                chunks, "source:test", llm_config=self._make_config()
+            )
         # Should return empty list, not raise
         assert rels == []
 
+    def test_no_config_returns_empty(self):
+        entities = _make_entities()[:2]
+        chunks = [{"text": SAMPLE_TEXT, "entities": entities}]
+        rels = extract_relationships(chunks, "source:test", llm_config=None)
+        assert rels == []
+
     def test_invalid_predicate_filtered(self):
-        mock_client = self._mock_anthropic_response([
+        response_json = json.dumps([
             {
                 "subject": "Chester Nimitz",
                 "predicate": "loves",  # not a valid predicate
@@ -172,13 +189,14 @@ class TestExtractRelationships:
         ])
         entities = _make_entities()[:2]
         chunks = [{"text": SAMPLE_TEXT, "entities": entities}]
-        rels = extract_relationships(
-            chunks, "source:test", client=mock_client
-        )
+        with self._patch_completion(response_json):
+            rels = extract_relationships(
+                chunks, "source:test", llm_config=self._make_config()
+            )
         assert len(rels) == 0
 
     def test_unknown_entity_in_response_skipped(self):
-        mock_client = self._mock_anthropic_response([
+        response_json = json.dumps([
             {
                 "subject": "Unknown Person",
                 "predicate": "participated_in",
@@ -188,9 +206,10 @@ class TestExtractRelationships:
         ])
         entities = _make_entities()[:2]
         chunks = [{"text": SAMPLE_TEXT, "entities": entities}]
-        rels = extract_relationships(
-            chunks, "source:test", client=mock_client
-        )
+        with self._patch_completion(response_json):
+            rels = extract_relationships(
+                chunks, "source:test", llm_config=self._make_config()
+            )
         assert len(rels) == 0
 
 

@@ -2,11 +2,12 @@
 
 import json
 from pathlib import Path
-from unittest.mock import MagicMock
+from unittest.mock import patch
 
 from woograph.extract.disambiguate import disambiguate_entities
 from woograph.extract.ner import Entity
 from woograph.graph.registry import EntityRegistry
+from woograph.llm.client import LLMConfig
 
 
 class TestDisambiguateEntities:
@@ -82,8 +83,16 @@ class TestDisambiguateEntities:
         assert entry is not None
         assert entry["type"] == "EVENT"
 
-    def test_fuzzy_match_with_claude_confirmation(self, tmp_path: Path):
-        """When fuzzy match found, Claude should be asked to confirm."""
+    def _make_llm_config(self) -> LLMConfig:
+        return LLMConfig(
+            provider="deepseek",
+            model="deepseek-chat",
+            api_key="sk-test",
+            base_url="https://api.deepseek.com",
+        )
+
+    def test_fuzzy_match_with_llm_confirmation(self, tmp_path: Path):
+        """When fuzzy match found, LLM should be asked to confirm."""
         registry = self._make_registry(tmp_path)
         # "John Kennedy" is close to "John F. Kennedy"
         entities = [
@@ -94,20 +103,21 @@ class TestDisambiguateEntities:
                 mention_count=1,
             )
         ]
-        mock_client = MagicMock()
-        mock_response = MagicMock()
-        mock_response.content = [MagicMock(text="Yes")]
-        mock_client.messages.create.return_value = mock_response
+        with patch(
+            "woograph.extract.disambiguate.create_completion",
+            return_value="Yes",
+        ) as mock_completion:
+            result = disambiguate_entities(
+                entities, registry,
+                source_context="About JFK's presidency",
+                llm_config=self._make_llm_config(),
+            )
+            # Should have been reassigned to the existing entity
+            assert result[0].canonical_id == "entity:person-john-f-kennedy"
+            mock_completion.assert_called_once()
 
-        result = disambiguate_entities(
-            entities, registry, source_context="About JFK's presidency", client=mock_client
-        )
-        # Should have been reassigned to the existing entity
-        assert result[0].canonical_id == "entity:person-john-f-kennedy"
-        mock_client.messages.create.assert_called_once()
-
-    def test_fuzzy_match_claude_says_no(self, tmp_path: Path):
-        """When Claude says no to fuzzy match, create new entity."""
+    def test_fuzzy_match_llm_says_no(self, tmp_path: Path):
+        """When LLM says no to fuzzy match, create new entity."""
         registry = self._make_registry(tmp_path)
         entities = [
             Entity(
@@ -117,20 +127,21 @@ class TestDisambiguateEntities:
                 mention_count=1,
             )
         ]
-        mock_client = MagicMock()
-        mock_response = MagicMock()
-        mock_response.content = [MagicMock(text="No")]
-        mock_client.messages.create.return_value = mock_response
-
-        updated = disambiguate_entities(
-            entities, registry, source_context="About Bobby Kennedy", client=mock_client
-        )
+        with patch(
+            "woograph.extract.disambiguate.create_completion",
+            return_value="No",
+        ):
+            updated = disambiguate_entities(
+                entities, registry,
+                source_context="About Bobby Kennedy",
+                llm_config=self._make_llm_config(),
+            )
         # Should keep its own ID
         assert updated[0].canonical_id == "entity:person-robert-kennedy"
         assert registry.lookup("entity:person-robert-kennedy") is not None
 
-    def test_no_client_skips_fuzzy_disambiguation(self, tmp_path: Path):
-        """Without an API client, fuzzy matches create new entries."""
+    def test_no_config_skips_fuzzy_disambiguation(self, tmp_path: Path):
+        """Without LLM config, fuzzy matches create new entries."""
         registry = self._make_registry(tmp_path)
         entities = [
             Entity(
@@ -140,8 +151,8 @@ class TestDisambiguateEntities:
                 mention_count=1,
             )
         ]
-        result = disambiguate_entities(entities, registry, client=None)
-        # Without Claude, should create new entry
+        result = disambiguate_entities(entities, registry, llm_config=None)
+        # Without LLM, should create new entry
         assert result[0].canonical_id == "entity:person-john-kennedy"
         assert registry.lookup("entity:person-john-kennedy") is not None
 

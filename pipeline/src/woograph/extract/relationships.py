@@ -2,11 +2,16 @@
 
 import json
 import logging
+import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 
 from woograph.extract.ner import Entity
 from woograph.llm.client import LLMConfig, create_completion
 from woograph.utils.cache import LLMCache
+
+# Default concurrency - conservative to avoid rate limits
+DEFAULT_CONCURRENCY = 3
 
 logger = logging.getLogger(__name__)
 
@@ -197,12 +202,14 @@ def extract_relationships(
 
     all_relationships: list[Relationship] = []
     provider_label = f"{llm_config.provider}:{llm_config.model}"
+    concurrency = int(os.environ.get("WOOGRAPH_LLM_CONCURRENCY", DEFAULT_CONCURRENCY))
 
+    # Separate cached vs uncached chunks
+    uncached_chunks: list[dict] = []
     for chunk in chunks:
         entity_names = sorted(e.name for e in chunk["entities"])
         cache_key_parts = (chunk["text"], str(entity_names))
 
-        # Check cache
         if cache is not None:
             cached = cache.get(*cache_key_parts)
             if cached is not None:
@@ -213,24 +220,43 @@ def extract_relationships(
                 all_relationships.extend(rels)
                 continue
 
+        uncached_chunks.append(chunk)
+
+    if not uncached_chunks:
+        return all_relationships
+
+    logger.info(
+        "Processing %d chunks (%d cached) with concurrency=%d",
+        len(uncached_chunks), len(chunks) - len(uncached_chunks), concurrency,
+    )
+
+    def _process_chunk(chunk: dict) -> list[Relationship]:
         prompt = _build_prompt(chunk)
         response_text = create_completion(llm_config, prompt, max_tokens=1024)
 
         if response_text is None:
-            continue
+            return []
 
         # Cache the raw response
         try:
             parsed_json = json.loads(response_text)
             if cache is not None:
-                cache.put(parsed_json, *cache_key_parts)
+                cache.put(parsed_json, chunk["text"], str(sorted(e.name for e in chunk["entities"])))
         except json.JSONDecodeError:
             pass
 
-        rels = _parse_response(
+        return _parse_response(
             response_text, chunk["entities"], source_id,
             extracted_by=provider_label,
         )
-        all_relationships.extend(rels)
+
+    with ThreadPoolExecutor(max_workers=concurrency) as executor:
+        futures = {executor.submit(_process_chunk, chunk): i for i, chunk in enumerate(uncached_chunks)}
+        for future in as_completed(futures):
+            try:
+                rels = future.result()
+                all_relationships.extend(rels)
+            except Exception as exc:
+                logger.warning("Chunk processing failed: %s", exc)
 
     return all_relationships

@@ -8827,5 +8827,5331 @@
       ]
     }
   ],
-  "relationships": []
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-roswell-army-air-field"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-alamogordo-army-air-field"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-united-states-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1980"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-1990s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-united-states"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-united-states"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-alamogordo-army-air-field"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-w-w"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-corona"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-corona"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brazel"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-corona"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-george-walsh"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-ksws"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-george-walsh"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-associated-press"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-fort-worth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-texas"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wright-field"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-ohio"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-colonel-marcellus-duffy"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-wright-field"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-colonel-marcellus-duffy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-albert-trakowski"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:place-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-colonel-marcellus-duffy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-albert-trakowski"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-alamogordo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-mogul"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-project"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-twin-falls"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-idaho"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-united-states-air-force"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-frank-scully"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-variety"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-mcandrew"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-thomas-bullard"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carr"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-florida"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carr"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-the-gulf-of-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stanton-friedman"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stanton-friedman"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-1978"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-1978"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-december-19-1979"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bob-pratt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bob-pratt"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-national-enquirer"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-september-20-1980"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-leonard-nimoy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ramey"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-a-marcel-jr"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:place-m-d"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-a-marcel-jr"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-friedman"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:person-william-bill-moore"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-william-bill-moore"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:person-charles-berlitz"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles-berlitz"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-william-bill-moore"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-friedman"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:person-charles-berlitz"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lydia-sleppy"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-koat"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-koat"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-albuquerque"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-albuquerque"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-johnny-mcboyle"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-friedman"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kevin-d-randle"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-r-schmitt"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-charles-berlitz"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-october-1980"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-1980s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sheridan-cavitt"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-grady-barney-barnett"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-berlitz"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mac-brazel"
+      },
+      "predicate": "woo:diedIn",
+      "object": {
+        "@id": "entity:date-1963"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-berlitz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-scully"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-scully"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bessie-brazel-schreiber"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-c-doty"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-air-force-intelligence-officers"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-c-doty"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:person-moore"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bob-pratt"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:person-doty"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bob-pratt"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:person-moore"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bob-pratt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-aquarius-project"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-doty"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-aquarius-project"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-aquarius-project"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harry-truman"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-glenn-dennis"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-friedman"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-don-berliner"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-randle"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmitt"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-glenn-dennis"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-army"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dennis"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-unsolved-mysteries"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dennis"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-national"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dennis"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-max-littell"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-national"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-max-littell"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-walter-haut"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-national"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-walter-haut"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karl-pflock"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-what-really-happened-at-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brian-dunning"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-what-really-happened-at-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arthur-exon"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-debris"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-glenn-dennis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barnett"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brazel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:person-crash"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-thomas-dubose"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-us-air-force"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-thomas-dubose"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:person-debris"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stanton-friedman"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-lydia-sleppy"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lydia-sleppy"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-fbi"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-lydia-sleppy"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barnett"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-san-agustin"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-1995"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jim-ragsdale"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-highway-285"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jim-ragsdale"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-trudy-truelove"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-trudy-truelove"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-highway-285"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:person-conspiracy-theories"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-steven-schiff"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-roswell-report"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:caused",
+      "object": {
+        "@id": "entity:person-debris"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-mogul"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-4-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gao"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-cia"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gao"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-majestic-12"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carl-sagan"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-phil-klass"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-fort-worth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-texas"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-eighth-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-the-roswell-report"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ray-santilli"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ray-santilli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ray-santilli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-roswell-crash"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barnett"
+      },
+      "predicate": "woo:diedIn",
+      "object": {
+        "@id": "entity:date-1967"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stan-winston"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ray-santilli"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-london"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fox"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-philip-j-corso"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-day-after-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corso"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-day-after-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corso"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-army"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corso"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-fort-bliss"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corso"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-texas"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-fort-worth-army-air-field"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-fort-worth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmitt"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:person-corso"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corso"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-corso-s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-walter-bosley"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nick-redfern"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacobsen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacobsen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-area-51"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacobsen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-america"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacobsen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-top-secret-military-base"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-josef-mengele"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-joseph-stalin"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-rhodes"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-washington-post"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-cold-war"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacobsen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-project"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-guardian"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-uk"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-kodachrome"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jaime-maussan"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:place-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mesa-verde"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-colorado"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-us"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-new-york-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-alamogordo-army-air-field"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-4"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-corona"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-brazel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-marcel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-thomas-dubose"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-weaver"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sheridan-w-cavitt"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-keel"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-world-war-ii"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-todd"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-project-mogul"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pflock"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell-in-perspective"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-steven-schiff"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-mcandrew"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-mcandrew"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-mogul"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-operation-high-dive"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-operation-high-dive"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-1950s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-operation-high-dive"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-project"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dodge"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-1950s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-1950s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susan-harding"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-1980s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kathleen-stewart"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-1980s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-joe-nickell"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-mcgaha"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles-ziegler"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-corona"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-brazel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-san-agustin"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debris"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-alamagordo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-crash"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-corona"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-crash"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-crash"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-brazel"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-crash"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-crash"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-san-agustin"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-crash"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-alamagordo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-independence-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-roswell-crash"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-indiana-jones"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-x-files"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-deep-throat"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-roswell-crash"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jose-chung-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dark-skies"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-taken"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wb"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-toby-smith"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-futurama"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell-that-ends"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell-that-ends"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-31st-century"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell-that-ends"
+      },
+      "predicate": "woo:caused",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-american-dad"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-roger"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-crash"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-1990s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-alien-autopsy"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:person-santilli"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paul"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-simon-pegg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bill-clinton"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bill-clinton"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barack-obama"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:place-united-states"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barack-obama"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barack-obama"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-stephen-colbert"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-trump"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-new-york-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brazel"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-roswell-army-airfield"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-project-mogul"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-4-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-mexico"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-frank"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2023"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mccusker"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mccusker"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1992"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-federal-reserve-bank"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1800"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pflock"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2001"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-klass"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-kloor"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2019"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-aliens"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2005"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wright"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1998"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-twin-falls"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-goldberg"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2001"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harding"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2003"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stewart"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2003"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-saler"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ziegler"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-levy"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2019"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mendlesohn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2019"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcandrew"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nickell"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2012"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mcgaha"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2012"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-disch"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2000"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-air-force"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1974"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carr"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-roswell-files"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-saler"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ziegler-moore-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ziegler"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ziegler-moore-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-moore"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ziegler-moore-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-frank"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-frank-2023"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jesse-a-marcel"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-army"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-scully"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-west"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-us-government-policy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-project-aquarius"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-project-aquarius"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-mj-twelve"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bennewitz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-nasa"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bennewitz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-ins"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bennewitz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-afosi"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcandrew"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-mcandrew-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-friedman"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-randle"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmitt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-air-force"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-eighth-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-eighth-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-eighth-air-force"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-wright-field"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-abc-news"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-june-24-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-abc-news"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-july-28-2025"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corso"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-klass"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1998"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gerhart"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harding"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2011"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-norris"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2011"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2011"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hukle"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edward-doty"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edward-doty"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-holloman-air-force-base"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-holloman-air-force-base"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edward-doty"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-1948"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-conway"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2012"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lemay"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2008"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmitt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2020"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-laing"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2013"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-howard"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-extraterrestrials"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-howard"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1990"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-extraterrestrials"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-air-force"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-24-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-new-york-times-news-service"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-june-24-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-new-york-times-news-service"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-april-3-2016"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-thomas-e"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2016"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-thomas-e"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-lawrence"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-h"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2005"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-silverplate-bombers"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-jefferson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-silverplate-bombers"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-north-carolina"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-r"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2020"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-r"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-newburyport"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-massachusetts"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-les"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-september-30-2017"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-les"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-curious-case-of-the-alien"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-guardian"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-september-30-2017"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carr"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-july-1997"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-skeptical-inquirer"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-21"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-july-11-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-el-paso-times"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-july-11-1947"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2007"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harvard-university-press"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-cambridge"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harvard-university-press"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-massachusetts"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-david"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-2015"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-aurum-press-ltd"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-london"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-conway"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-february-16-2012"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-paramount"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-february-16-2012"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosy"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-may-12-2022"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cw"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-may-12-2022"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pocket-books"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-terry-j"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-deep-space-nine-companion"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paula-m"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-deep-space-nine-companion"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-simon"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-deep-space-nine-companion"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schuster"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-deep-space-nine-companion"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-reliable-source"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-washington-post"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-a-roswell-requiem"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-gale-academic-onefile"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-goldberg"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-roswell-incident"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-zach"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-star-trek-deep-space-nine-little-green-men-the-sword-of-kahless"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-duke-university-press"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-durham"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-durham"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-north-carolina"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jack"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-no-green-men-here-base-officials-say"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dayton-daily-news"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-no-green-men-here-base-officials-say"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brad"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-beyond-the-textbook-studying-roswell-in-the-social-studies-classroom"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-philip"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-skeptics-ufo-newsletter"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-philip"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-committee-for-skeptical-inquiry"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elizabeth"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-state-university-of-new-york-press"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kal"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-what-really-happened-at-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-what-really-happened-at-roswell"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-skeptical-inquirer"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-the-roswell-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-don"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-the-roswell-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-the-roswell-reports"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-us-air-force"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-randle"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-truth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kevin"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-truth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmitt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-truth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-truth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-truth"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-annie-jacobsen-s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-annie-jacobsen-s"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-the-washington-post"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-alan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-roswell"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-roswell"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-variety"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-variety"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-penske-media"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeremy-r"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-sacred-space"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-space"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-roswell-and-chimayo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-roswell-and-chimayo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-mexico"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-new-zealand-herald"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-james-michael"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-air-power-history"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-wikimedia-commons"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat",
+      "sources": [
+        "source:roswell-wikipedia"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,67 @@
+# Noise entities to filter during extraction.
+# One term per line (case-insensitive). Lines starting with # are comments.
+# This file is loaded during NER extraction and can be updated as new
+# noise patterns are discovered during ingestion.
+
+# Generic web/publishing sources
+google books
+amazon
+world news
+
+# News outlets (too generic as entities)
+the new york times
+the washington post
+the guardian
+bbc
+cnn
+fox news
+reuters
+associated press
+ap
+
+# Wikipedia/reference artifacts
+wikipedia
+wikimedia
+retrieved
+archived
+isbn
+oclc
+
+# Citation artifacts
+et al
+ibid
+op cit
+eds
+vol
+no
+
+# Days of the week
+monday
+tuesday
+wednesday
+thursday
+friday
+saturday
+sunday
+
+# Months (often misclassified as entities)
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+
+# Relative time expressions
+today
+yesterday
+tomorrow
+last year
+this year
+next year

@@ -46,6 +46,8 @@ def convert_pdf(pdf_path: Path, output_dir: Path) -> Path:
         ) from exc
 
     content_path = output_dir / "content.md"
+    if isinstance(md_text, list):
+        md_text = "\n\n".join(str(chunk) for chunk in md_text)
     content_path.write_text(md_text)
 
     logger.info(

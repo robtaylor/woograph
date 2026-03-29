@@ -3,6 +3,7 @@
 import logging
 import re
 from dataclasses import dataclass, field
+from pathlib import Path
 
 import spacy
 from spacy.language import Language
@@ -18,6 +19,49 @@ ENTITY_TYPES = frozenset(
 
 # Context window size (characters on each side of a mention)
 CONTEXT_WINDOW = 100
+
+# Patterns that indicate a reference/citation rather than a real entity
+_REFERENCE_PATTERNS = [
+    re.compile(r"^\d+[\s,]*\d*\s*[\^]"),       # "65, 72^Gildenberg"
+    re.compile(r"^\[\d+\]"),                     # "[123]"
+    re.compile(r"^p\.\s*\d+"),                   # "p. 42"
+    re.compile(r"^\d+[-–]\d+$"),                 # "65-72" (page ranges)
+    re.compile(r"^\(?\d{1,3}\)$"),               # "(42)" or "42"
+    re.compile(r"\^"),                            # anything with a caret
+    re.compile(r"^[A-Z]{1,3}$"),                 # "TX", "US", "NY" (state/country codes)
+    re.compile(r"^\d+$"),                         # pure numbers
+    re.compile(r"^https?://"),                    # URLs
+]
+
+# Noise entities loaded from config file (fallback to empty set)
+_noise_entities: frozenset[str] | None = None
+
+
+def _get_noise_entities(noise_file: Path | None = None) -> frozenset[str]:
+    """Load noise entity terms from config file.
+
+    Searches for graph/entities/noise-terms.txt relative to the repo root.
+    Falls back to an empty set if not found.
+    """
+    global _noise_entities  # noqa: PLW0603
+    if _noise_entities is not None:
+        return _noise_entities
+
+    if noise_file is None:
+        # Walk up from this file to find repo root
+        candidate = Path(__file__).resolve().parent.parent.parent.parent.parent
+        noise_file = candidate / "graph" / "entities" / "noise-terms.txt"
+
+    terms: set[str] = set()
+    if noise_file.exists():
+        for line in noise_file.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#"):
+                terms.add(line.lower())
+        logger.info("Loaded %d noise terms from %s", len(terms), noise_file)
+
+    _noise_entities = frozenset(terms)
+    return _noise_entities
 
 # Module-level model cache
 _nlp: Language | None = None
@@ -105,8 +149,16 @@ def extract_entities(markdown_text: str, source_id: str) -> list[Entity]:
 
         name = ent.text.strip()
 
-        # Filter very short entities (1 char)
-        if len(name) <= 1:
+        # Filter very short entities (1-2 chars)
+        if len(name) <= 2:
+            continue
+
+        # Filter reference/citation patterns
+        if any(p.search(name) for p in _REFERENCE_PATTERNS):
+            continue
+
+        # Filter known noise entities
+        if name.lower() in _get_noise_entities():
             continue
 
         key = (name, ent.label_)

@@ -1,0 +1,5124 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1987-engineering-anomalies-research",
+  "name": "PEAR: 1987 Engineering Anomalies Research",
+  "entities": [
+    {
+      "@id": "source:pear-1987-engineering-anomalies-research",
+      "@type": "woo:Source",
+      "name": "PEAR: 1987 Engineering Anomalies Research"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-expiorauon-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Society for Scientific Expiorauon \n\nEngineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B. J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. NELSON",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-possibie",
+      "@type": "Place",
+      "name": "possibie",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-digital",
+      "@type": "Organization",
+      "name": "Digital",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-several-days",
+      "@type": "Date",
+      "name": "several days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-the-past-eight-years",
+      "@type": "Date",
+      "name": "the past eight years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "The McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-the-john-e-fetzer-foundation",
+      "@type": "Person",
+      "name": "The John E. Fetzer Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-ohrstrom-foundation",
+      "@type": "Organization",
+      "name": "The Ohrstrom Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-helix-investments-ltd",
+      "@type": "Organization",
+      "name": "Helix Investments, Ltd.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-pillsbury-corporation",
+      "@type": "Organization",
+      "name": "The Pillsbury Corporation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-explorers-club",
+      "@type": "Organization",
+      "name": "The Explorers Club",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-institute-for-noetic-sciences",
+      "@type": "Organization",
+      "name": "The Institute for Noetic Sciences",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-foundation-for-survival-research-inc",
+      "@type": "Organization",
+      "name": "Foundation for Survival Research, Inc.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-the-past-century",
+      "@type": "Date",
+      "name": "the past century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-krippner",
+      "@type": "Organization",
+      "name": "Krippner",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-radin",
+      "@type": "Organization",
+      "name": "Radin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-schmidt",
+      "@type": "Person",
+      "name": "Schmidt",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-stanford",
+      "@type": "Organization",
+      "name": "Stanford",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-isplays",
+      "@type": "Organization",
+      "name": "ISPLAYS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-linear",
+      "@type": "Organization",
+      "name": "linear",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-1000-2000-3000",
+      "@type": "Date",
+      "name": "1000 2000 3000",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-1000-2000",
+      "@type": "Date",
+      "name": "1000 2000",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-s-7-0-pk-ot",
+      "@type": "Organization",
+      "name": ">S ~7$0} PK Ot",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-nelson-dunne-jahn",
+      "@type": "Organization",
+      "name": "Nelson, Dunne & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-table",
+      "@type": "Organization",
+      "name": "Table",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-approximately-seven-years",
+      "@type": "Date",
+      "name": "approximately seven years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-99-871",
+      "@type": "Person",
+      "name": "br>99.871",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-1-284",
+      "@type": "Person",
+      "name": "br>-1.284",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-196",
+      "@type": "Person",
+      "name": "br>196",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-br-99-872",
+      "@type": "Place",
+      "name": "br>99.872",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-br-99-163",
+      "@type": "Organization",
+      "name": "br>99.163",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-br-99-984",
+      "@type": "Organization",
+      "name": "br>99.984",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-99-918",
+      "@type": "Person",
+      "name": "br>99.918",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-br-br-1",
+      "@type": "Organization",
+      "name": "br>!<br>1",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-68",
+      "@type": "Person",
+      "name": "br>68",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-0-625",
+      "@type": "Person",
+      "name": "br>-0.625",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-90",
+      "@type": "Person",
+      "name": "br>90",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-i",
+      "@type": "Person",
+      "name": "br>\u2014||I",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-33",
+      "@type": "Person",
+      "name": "br>33",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-br-3",
+      "@type": "Organization",
+      "name": "br>3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-br-br-br-br-br-br-br-14",
+      "@type": "Place",
+      "name": "br><br>\u2014<br><br>\u2014<br><br>\u2014<br>\u2014||14",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-44",
+      "@type": "Person",
+      "name": "br>44",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-99-982",
+      "@type": "Person",
+      "name": "br>99.982",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-br-100-172",
+      "@type": "Organization",
+      "name": "br>100.172",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-0-798",
+      "@type": "Person",
+      "name": "br>0.798",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:creativework-alt-16-243-750-100-004-0-282-389-41-522-450-3-614-2x10-10-4-56-numbers",
+      "@type": "CreativeWork",
+      "name": "|Alt|16|243,750|100.004|0.282|389||41|522,450|3.614|2x10|10(4)|56||\n\n\n\n Numbers",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-bascee",
+      "@type": "Person",
+      "name": "Bascee",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-4-1",
+      "@type": "Date",
+      "name": "4 1",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:creativework-4-0-1-2-3",
+      "@type": "CreativeWork",
+      "name": "4 0 1 2 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-baseline",
+      "@type": "Organization",
+      "name": "BASELINE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-random-mechanical-cascade",
+      "@type": "Organization",
+      "name": "Random Mechanical Cascade",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-10000-20000",
+      "@type": "Date",
+      "name": "10000 20000",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-pseudo-reg",
+      "@type": "Organization",
+      "name": "Pseudo-REG",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-94",
+      "@type": "Person",
+      "name": "br>94",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-99-802",
+      "@type": "Person",
+      "name": "br>99.802",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:event-series",
+      "@type": "Event",
+      "name": "Series",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-bin",
+      "@type": "Person",
+      "name": "bin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-ks0-s60",
+      "@type": "Person",
+      "name": "KS0 S60",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-bt-ose",
+      "@type": "Organization",
+      "name": "BT OSE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-ca-ed",
+      "@type": "Person",
+      "name": "ca ed",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-tofiptte",
+      "@type": "Organization",
+      "name": "Tofiptte",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-lhepie-wy-pxssceprenaeev",
+      "@type": "Organization",
+      "name": "LhePie Wy PxSSceprenaeev",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-toeetfs-baang",
+      "@type": "Person",
+      "name": "toeetfs baang",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-jeft",
+      "@type": "Person",
+      "name": "Jeft",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-operators",
+      "@type": "Organization",
+      "name": "OPERATORS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-ees-z",
+      "@type": "Organization",
+      "name": "ees z",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-10-and-55-01",
+      "@type": "Date",
+      "name": "10 AND 55 01",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-sa-seor-7",
+      "@type": "Organization",
+      "name": "Sa SeOr 7",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-ona-z",
+      "@type": "Organization",
+      "name": ">& ona z",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-toneeepe",
+      "@type": "Person",
+      "name": "Toneeepe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-",
+      "@type": "Person",
+      "name": "|||||||||||#|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-20-2-20-10-0002-10-0226-0505-1-975-031-1-2",
+      "@type": "Organization",
+      "name": "|20|2|20||10.0002|10.0226|.0505|1.975|031|1|2|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-94-3-30-10-0041-9-9977-0557-0-636-265",
+      "@type": "Person",
+      "name": "|94|3|30.10.0041|||9.9977|0557|0.636|(.265)|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-30",
+      "@type": "Person",
+      "name": "br>30",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-64-1-10-10-0164-10-0241-0506-0-482-321-66-1-10-10-0210-10-0017-0590-1-038-163-1",
+      "@type": "Organization",
+      "name": "|64|1|10||10.0164|10.0241|.0506|0.482|(321)|||\n|66|1|10||10.0210|10.0017|0590|\u2014-1.038|163||1|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-continued-3-continued-3-continued",
+      "@type": "Organization",
+      "name": "continued)|3 (continued)|3 (continued)||||\n|---|---|---|---|---|---|---|---|---|---|---|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-bl",
+      "@type": "Person",
+      "name": "|||||||||||#|\n||#|#|BL|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-91",
+      "@type": "Person",
+      "name": "br>91",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-93",
+      "@type": "Person",
+      "name": "br>93",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-40",
+      "@type": "Person",
+      "name": "br>40",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "40 R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-al-br-8000-s",
+      "@type": "Person",
+      "name": "al.<br>8000 -s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-0",
+      "@type": "Organization",
+      "name": "0 &&",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-br-4000-1074",
+      "@type": "Person",
+      "name": "br>4000 1074",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-4-01",
+      "@type": "Organization",
+      "name": "4.01 &",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-ooo-ol-zf",
+      "@type": "Person",
+      "name": "oOo\u00a7Ol zF",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-dunne-bisaha",
+      "@type": "Organization",
+      "name": "Dunne & Bisaha",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-hansen-schlitz-tart",
+      "@type": "Organization",
+      "name": "Hansen, Schlitz, & Tart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-puthoff-targ",
+      "@type": "Organization",
+      "name": "Puthoff & Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-schlitz-gruber",
+      "@type": "Organization",
+      "name": "Schlitz & Gruber",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-tart",
+      "@type": "Organization",
+      "name": "Tart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-puthoff-targ",
+      "@type": "Organization",
+      "name": "Puthoff, & Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-jahn-dunne",
+      "@type": "Organization",
+      "name": "Jahn & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-nelson-jahn",
+      "@type": "Organization",
+      "name": "Nelson, Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-pad",
+      "@type": "Place",
+      "name": "Pad .",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-banris40",
+      "@type": "Person",
+      "name": "BanRIS40",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-vaterene",
+      "@type": "Person",
+      "name": "Vaterene",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-pat",
+      "@type": "Person",
+      "name": "Pat",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-target",
+      "@type": "Organization",
+      "name": "Target",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-glencoe",
+      "@type": "Place",
+      "name": "Glencoe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-illinois",
+      "@type": "Place",
+      "name": "Illinois",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-part-br",
+      "@type": "Place",
+      "name": "part:<br>\u201c|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-clydeburn",
+      "@type": "Person",
+      "name": "Clydeburn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-clayburn",
+      "@type": "Person",
+      "name": "Clayburn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-po-te",
+      "@type": "Organization",
+      "name": "PO Te",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-urquardt-castle",
+      "@type": "Person",
+      "name": "Urquardt Castle,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-loch-ness",
+      "@type": "Organization",
+      "name": "Loch Ness",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-scotland",
+      "@type": "Place",
+      "name": "Scotland",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-york-city",
+      "@type": "Place",
+      "name": ">York City",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-wood",
+      "@type": "Organization",
+      "name": "Wood",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-berene",
+      "@type": "Organization",
+      "name": "BeRENE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-esan",
+      "@type": "Organization",
+      "name": "EsaN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-tretiakovskaia-gallereia",
+      "@type": "Person",
+      "name": "Tretiakovskaia Gallereia",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-moscow",
+      "@type": "Place",
+      "name": "Moscow",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-u-s-s-r",
+      "@type": "Place",
+      "name": "U.S.S.R.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-mavbe",
+      "@type": "Place",
+      "name": "Mavbe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-gaussian",
+      "@type": "Person",
+      "name": "Gaussian",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-kogan",
+      "@type": "Person",
+      "name": "Kogan",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-chari",
+      "@type": "Organization",
+      "name": "Chari",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-persinger-1979",
+      "@type": "Date",
+      "name": "Persinger, 1979",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-chance-scores",
+      "@type": "Organization",
+      "name": "CHANCE SCORES",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-je-dn",
+      "@type": "Person",
+      "name": "JE Dn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-75h",
+      "@type": "Date",
+      "name": "75h",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-2-8",
+      "@type": "Date",
+      "name": "2 8",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-chance-mean",
+      "@type": "Organization",
+      "name": "CHANCE MEAN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-figs",
+      "@type": "Place",
+      "name": "Figs",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-16-and",
+      "@type": "Date",
+      "name": "16 and",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-bohm",
+      "@type": "Person",
+      "name": "Bohm",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-costa-de-beauregard",
+      "@type": "Organization",
+      "name": "Costa de Beauregard",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-feinberg",
+      "@type": "Person",
+      "name": "Feinberg",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-kogan",
+      "@type": "Place",
+      "name": "Kogan",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-rauscher",
+      "@type": "Place",
+      "name": "Rauscher",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-von-lucadou-kornwachs",
+      "@type": "Organization",
+      "name": "von Lucadou & Kornwachs",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-quantum",
+      "@type": "Organization",
+      "name": "Quantum",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-b-implicate",
+      "@type": "Person",
+      "name": "B. Implicate",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics",
+      "@type": "Organization",
+      "name": "Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-c-t-k",
+      "@type": "Person",
+      "name": "C. T. K.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-wolman",
+      "@type": "Person",
+      "name": "Wolman",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-van-nostrand-costa-de-beauregard",
+      "@type": "Organization",
+      "name": "Van Nostrand Costa de Beauregard",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-einstein",
+      "@type": "Person",
+      "name": "Einstein",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-a-puharich",
+      "@type": "Place",
+      "name": "A. Puharich",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-iceland",
+      "@type": "Place",
+      "name": "Iceland",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-essentia-associates",
+      "@type": "Organization",
+      "name": "Essentia Associates",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-j-p",
+      "@type": "Person",
+      "name": "J. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-chicago",
+      "@type": "Place",
+      "name": "Chicago",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-journal-of-parapsychology",
+      "@type": "Organization",
+      "name": "Journal of Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-princeton",
+      "@type": "Organization",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-l-oteri",
+      "@type": "Person",
+      "name": "L. Oteri",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-hansen",
+      "@type": "Person",
+      "name": "Hansen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-g-p-schlitz",
+      "@type": "Person",
+      "name": "G. P., Schlitz",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-c-t",
+      "@type": "Person",
+      "name": "C. T.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-london",
+      "@type": "Place",
+      "name": "London",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-t-a-cook",
+      "@type": "Organization",
+      "name": "T. A. & Cook",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-i-a",
+      "@type": "Person",
+      "name": "I. A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-variance",
+      "@type": "Person",
+      "name": "Variance",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:event-annuai-convention-of",
+      "@type": "Event",
+      "name": "Annuai Convention of",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-the-parapsychological-association",
+      "@type": "Organization",
+      "name": "the Parapsychological Association",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-tufts-university",
+      "@type": "Organization",
+      "name": "Tufts University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-medford",
+      "@type": "Place",
+      "name": "Medford",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-i-m",
+      "@type": "Organization",
+      "name": "I. M",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-radio-engineering",
+      "@type": "Organization",
+      "name": "Radio Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-j-jahn",
+      "@type": "Organization",
+      "name": "J., & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-suciety-for-psychical-research",
+      "@type": "Organization",
+      "name": "Suciety for Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-c-t-tart",
+      "@type": "Person",
+      "name": "C. T. Tart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-h-e-puthoff",
+      "@type": "Person",
+      "name": "H. E. Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-h-e-targ",
+      "@type": "Person",
+      "name": "H. E., & Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-m-j",
+      "@type": "Person",
+      "name": "M. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-part-i-proceedings-of",
+      "@type": "Organization",
+      "name": "Part i. Proceedings of",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-the-28th",
+      "@type": "Date",
+      "name": "the 28th",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:organization-essentia-research-associates",
+      "@type": "Organization",
+      "name": "Essentia Research Associates",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-34-175181",
+      "@type": "Date",
+      "name": "34, 175181",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-stanford",
+      "@type": "Place",
+      "name": "Stanford",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-b-b-wolman",
+      "@type": "Person",
+      "name": "B. B. Wolman",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-tart",
+      "@type": "Place",
+      "name": "Tart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-puthoff",
+      "@type": "Place",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-h-e",
+      "@type": "Person",
+      "name": "H. E.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-von-lucadou",
+      "@type": "Person",
+      "name": "von Lucadou",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:place-the-parascience-conference-london",
+      "@type": "Place",
+      "name": "the Parascience Conference, London",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:person-e-h",
+      "@type": "Person",
+      "name": "E. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    },
+    {
+      "@id": "entity:date-1-49",
+      "@type": "Date",
+      "name": "1~49",
+      "aliases": [],
+      "mentionedIn": "source:pear-1987-engineering-anomalies-research"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-expiorauon-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-possibie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-digital"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-eight-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-the-john-e-fetzer-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-helix-investments-ltd"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-pillsbury-corporation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-explorers-club"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-institute-for-noetic-sciences"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundation-for-survival-research-inc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-krippner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-isplays"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-linear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1000-2000-3000"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1000-2000"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-7-0-pk-ot"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-table"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-approximately-seven-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-99-871"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-1-284"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-196"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-br-99-872"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-99-163"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-99-984"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-99-918"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-br-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-68"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-0-625"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-90"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-i"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-33"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-br-br-br-br-br-br-br-14"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-99-982"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-100-172"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-0-798"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-alt-16-243-750-100-004-0-282-389-41-522-450-3-614-2x10-10-4-56-numbers"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bascee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-4-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-4-0-1-2-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baseline"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10000-20000"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pseudo-reg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-94"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-99-802"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ks0-s60"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bt-ose"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ca-ed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tofiptte"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lhepie-wy-pxssceprenaeev"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-toeetfs-baang"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeft"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ees-z"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-and-55-01"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sa-seor-7"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ona-z"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-toneeepe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-20-2-20-10-0002-10-0226-0505-1-975-031-1-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-94-3-30-10-0041-9-9977-0557-0-636-265"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-30"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-64-1-10-10-0164-10-0241-0506-0-482-321-66-1-10-10-0210-10-0017-0590-1-038-163-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-continued-3-continued-3-continued"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-91"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-93"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-40"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al-br-8000-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-0"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-4000-1074"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-4-01"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ooo-ol-zf"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-hansen-schlitz-tart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz-gruber"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-pad"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-banris40"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-vaterene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pat"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-target"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-glencoe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-illinois"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-part-br"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-clydeburn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-clayburn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-po-te"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-urquardt-castle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-loch-ness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-scotland"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-york-city"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wood"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-berene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-esan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tretiakovskaia-gallereia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-moscow"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-u-s-s-r"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-mavbe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gaussian"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kogan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chari"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-persinger-1979"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chance-scores"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-je-dn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-75h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-8"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chance-mean"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-figs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16-and"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bohm"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-costa-de-beauregard"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-feinberg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-kogan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rauscher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-von-lucadou-kornwachs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-implicate"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t-k"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wolman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-van-nostrand-costa-de-beauregard"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-einstein"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a-puharich"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-iceland"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-essentia-associates"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l-oteri"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-p-schlitz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-t-a-cook"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-variance"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-annuai-convention-of"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-parapsychological-association"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tufts-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-medford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-m"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radio-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-suciety-for-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t-tart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-m-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-part-i-proceedings-of"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-28th"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-essentia-research-associates"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-34-175181"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-stanford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-b-wolman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-tart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-von-lucadou"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-parascience-conference-london"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-49"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1987-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-krippner"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-baseline"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-baseline"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-baseline"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-stanford"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-baseline"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baseline"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-gaussian"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pat"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-tart"
+      },
+      "confidence": 0.6,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-table"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-approximately-seven-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-baseline"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-chance-mean"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-linear"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-tart"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-90"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-93"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-94"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-68"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-33"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-3"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-99-982"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-100-172"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baseline"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-30"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-40"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-table"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-gaussian"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bin"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ks0-s60"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bt-ose"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ca-ed"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-tofiptte"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lhepie-wy-pxssceprenaeev"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-toeetfs-baang"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeft"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-tart"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-tart"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-al-br-8000-s"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-table"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-68"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-90"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-94"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-30"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-91"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-93"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-40"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-bisaha"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-hansen-schlitz-tart"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-hansen"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-hansen-schlitz-tart"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-tart"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff-targ"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-puthoff"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff-targ"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-tart"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pat"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-glencoe"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pat"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-illinois"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-clydeburn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-clayburn"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wood"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-pat"
+      },
+      "confidence": 0.6,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-po-te"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-urquardt-castle"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-loch-ness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-urquardt-castle"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-scotland"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-loch-ness"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-scotland"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tretiakovskaia-gallereia"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-moscow"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-moscow"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-u-s-s-r"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tretiakovskaia-gallereia"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-u-s-s-r"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bohm"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bohm"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    }
+  ]
+}

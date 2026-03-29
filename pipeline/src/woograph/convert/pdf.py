@@ -1,10 +1,22 @@
-"""PDF to markdown conversion with Marker (Surya OCR) and pymupdf4llm fallback."""
+"""PDF to markdown conversion with auto-detection of digital vs scanned PDFs.
+
+Strategy:
+- Try pymupdf4llm first (fast, works on digital/text PDFs)
+- If the extracted text is too short relative to page count, the PDF is likely
+  scanned - fall back to Marker (Surya OCR) for high-quality OCR
+- Override with WOOGRAPH_PDF_BACKEND=pymupdf|marker to force a specific backend
+"""
 
 import logging
 import os
 from pathlib import Path
 
+import pymupdf
+
 logger = logging.getLogger(__name__)
+
+# Minimum chars per page to consider a PDF as having usable digital text
+_MIN_CHARS_PER_PAGE = 200
 
 # Cache Marker models at module level (expensive to load)
 _marker_converter = None
@@ -31,6 +43,27 @@ def _get_marker_converter():
         logger.warning("Failed to load Marker, will use pymupdf4llm: %s", exc)
         _marker_failed = True
         return None
+
+
+def _is_digital_pdf(pdf_path: Path) -> bool:
+    """Check if a PDF has extractable digital text.
+
+    Opens the PDF with pymupdf and checks if the average text per page
+    exceeds a threshold. Scanned PDFs will have little or no extractable text.
+    """
+    try:
+        doc = pymupdf.open(str(pdf_path))
+        total_chars = sum(len(page.get_text()) for page in doc)
+        page_count = max(len(doc), 1)
+        doc.close()
+        chars_per_page = total_chars / page_count
+        logger.debug(
+            "%s: %d chars across %d pages (%.0f chars/page)",
+            pdf_path.name, total_chars, page_count, chars_per_page,
+        )
+        return chars_per_page >= _MIN_CHARS_PER_PAGE
+    except Exception:
+        return False
 
 
 def _convert_with_marker(pdf_path: Path, output_dir: Path) -> str:
@@ -64,11 +97,14 @@ def _convert_with_pymupdf(pdf_path: Path, output_dir: Path) -> str:
 
 
 def convert_pdf(pdf_path: Path, output_dir: Path) -> Path:
-    """Convert a PDF file to markdown.
+    """Convert a PDF file to markdown, auto-detecting the best approach.
 
-    Uses Marker (Surya OCR) by default for high-quality OCR of scanned documents.
-    Falls back to pymupdf4llm if Marker is unavailable or WOOGRAPH_PDF_BACKEND
-    is set to "pymupdf".
+    Auto mode (default):
+    - Checks if PDF has digital text (pymupdf text extraction)
+    - Digital PDFs: uses pymupdf4llm (fast)
+    - Scanned PDFs: uses Marker/Surya OCR (accurate)
+
+    Override with WOOGRAPH_PDF_BACKEND=pymupdf|marker to force a backend.
 
     Args:
         pdf_path: Path to the input PDF file.
@@ -86,17 +122,29 @@ def convert_pdf(pdf_path: Path, output_dir: Path) -> Path:
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    backend = os.environ.get("WOOGRAPH_PDF_BACKEND", "marker").lower()
+    backend = os.environ.get("WOOGRAPH_PDF_BACKEND", "auto").lower()
 
-    logger.info("Converting PDF: %s (backend=%s)", pdf_path.name, backend)
+    if backend == "auto":
+        if _is_digital_pdf(pdf_path):
+            backend = "pymupdf"
+            logger.info("Converting PDF: %s (auto → pymupdf, digital text detected)", pdf_path.name)
+        elif _get_marker_converter() is not None:
+            backend = "marker"
+            logger.info("Converting PDF: %s (auto → marker, scanned/image PDF)", pdf_path.name)
+        else:
+            backend = "pymupdf"
+            logger.info("Converting PDF: %s (auto → pymupdf, marker unavailable)", pdf_path.name)
+    else:
+        logger.info("Converting PDF: %s (backend=%s)", pdf_path.name, backend)
 
     try:
-        if backend == "pymupdf":
-            md_text = _convert_with_pymupdf(pdf_path, output_dir)
-        elif _get_marker_converter() is not None:
-            md_text = _convert_with_marker(pdf_path, output_dir)
+        if backend == "marker":
+            if _get_marker_converter() is not None:
+                md_text = _convert_with_marker(pdf_path, output_dir)
+            else:
+                logger.warning("Marker unavailable, falling back to pymupdf4llm")
+                md_text = _convert_with_pymupdf(pdf_path, output_dir)
         else:
-            logger.info("Marker unavailable, falling back to pymupdf4llm")
             md_text = _convert_with_pymupdf(pdf_path, output_dir)
     except Exception as exc:
         raise RuntimeError(

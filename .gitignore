@@ -17,3 +17,4 @@ graph/cache/
 
 # Temp
 /tmp/
+graph/.cache/

@@ -9,8 +9,12 @@ const TYPE_COLORS = {
   Event: '#E57373',
   CreativeWork: '#BA68C8',
   Date: '#90A4AE',
+  'woo:Source': '#FFD54F',
   Thing: '#BDBDBD',
 };
+
+// Entity types hidden from the graph by default (shown as node attributes instead)
+const HIDDEN_TYPES = new Set(['woo:Source']);
 
 /**
  * Clean a predicate string for display.
@@ -61,20 +65,32 @@ export async function loadGraphData() {
   // Track entity types and counts
   const entityTypes = new Map();
 
-  // Build nodes
-  const nodes = entities.map(entity => {
+  // Build nodes (filter out hidden types like woo:Source)
+  const nodes = [];
+  const allNodeIds = new Set();
+  const visibleNodeIds = new Set();
+
+  for (const entity of entities) {
     const id = entity['@id'];
     const type = entity['@type'] || 'Thing';
+    allNodeIds.add(id);
+
+    // Track type counts for all entities
+    entityTypes.set(type, (entityTypes.get(type) || 0) + 1);
+
+    // Skip hidden types (Source nodes) from the visual graph
+    if (HIDDEN_TYPES.has(type)) continue;
+
+    visibleNodeIds.add(id);
     const name = entity.name || id.split(':').pop().replace(/-/g, ' ');
     const aliases = entity.aliases || [];
-    const mentionedIn = Array.isArray(entity.mentionedIn) ? entity.mentionedIn : [];
+    const mentionedIn = Array.isArray(entity.mentionedIn)
+      ? entity.mentionedIn
+      : entity.mentionedIn ? [entity.mentionedIn] : [];
     const color = TYPE_COLORS[type] || TYPE_COLORS.Thing;
     const mentions = mentionCounts.get(id) || 0;
 
-    // Track type counts
-    entityTypes.set(type, (entityTypes.get(type) || 0) + 1);
-
-    return {
+    nodes.push({
       group: 'nodes',
       data: {
         id,
@@ -87,23 +103,22 @@ export async function loadGraphData() {
         // Scale node size: base 20, +5 per mention, max 60
         size: Math.min(60, 20 + mentions * 5),
       },
-    };
-  });
+    });
+  }
 
-  // Build a set of valid node IDs for filtering dangling edges
-  const nodeIds = new Set(entities.map(e => e['@id']));
-
-  // Build edges
+  // Build edges (skip edges involving hidden nodes or mentionedIn edges)
   const edges = [];
   for (const rel of relationships) {
     const sourceId = resolveId(rel.subject);
     const targetId = resolveId(rel.object);
+    const predicate = rel.predicate || '';
 
     if (!sourceId || !targetId) continue;
-    // Skip edges where nodes don't exist
-    if (!nodeIds.has(sourceId) || !nodeIds.has(targetId)) continue;
+    // Skip edges where either node is hidden (e.g. Source nodes)
+    if (!visibleNodeIds.has(sourceId) || !visibleNodeIds.has(targetId)) continue;
+    // Skip mentionedIn edges (source info is already a node attribute)
+    if (predicate === 'woo:mentionedIn') continue;
 
-    const predicate = rel.predicate || '';
     const confidence = typeof rel.confidence === 'number' ? rel.confidence : 0.5;
     const extractedBy = rel.extractedBy || '';
 

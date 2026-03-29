@@ -32,7 +32,7 @@ PREDICATES = [
     "died_in",
 ]
 
-MODEL = "claude-3-5-haiku-latest"
+MODEL = "claude-haiku-4-5-20251001"
 
 
 @dataclass
@@ -231,11 +231,11 @@ def extract_relationships(
                 if text_blocks:
                     response_text = text_blocks[0].text  # type: ignore[union-attr]
                 break
-            except Exception:
+            except Exception as exc:
                 if attempt == 0:
-                    logger.warning("API call failed, retrying once...")
+                    logger.warning("API call failed (%s), retrying once...", exc)
                 else:
-                    logger.warning("API call failed on retry, skipping chunk")
+                    logger.warning("API call failed on retry (%s), skipping chunk", exc)
 
         if response_text is None:
             continue

@@ -8,6 +8,7 @@ from pathlib import Path
 
 import click
 import yaml
+from dotenv import load_dotenv
 
 from woograph.convert.account import convert_account
 from woograph.convert.pdf import convert_pdf
@@ -47,8 +48,12 @@ def main(ctx: click.Context, repo_root: Path | None, verbose: bool) -> None:
         level=logging.DEBUG if verbose else logging.INFO,
         format="%(levelname)s: %(message)s",
     )
+    # Load .env from repo root
+    resolved_root = repo_root or _default_repo_root()
+    load_dotenv(resolved_root / ".env")
+
     ctx.ensure_object(dict)
-    ctx.obj["repo_root"] = repo_root or _default_repo_root()
+    ctx.obj["repo_root"] = resolved_root
 
 
 @main.command()

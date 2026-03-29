@@ -1,255 +1,28 @@
-| ſ        |                                                                                             | ONLY<br>OUTIN | g and                                 | RECOR     | D SHEET                                                                                                                                                                                                                       |  |
-|----------|---------------------------------------------------------------------------------------------|---------------|---------------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|
-|          | SUBJECT: (Optional) Clipping of article The Kennedy Murder and the Secret Services of the U |               |                                       |           |                                                                                                                                                                                                                               |  |
-|          | FROM: WE/4/INT Arthur Po Iorio                                                              |               |                                       | EXTENSION | DATE 26 March 1964 Gud                                                                                                                                                                                                        |  |
-| 1        | TO: (Officer designation, room number, and building)                                        |               | DATE                                  |           | COMMENTS (Number each comment to show from w                                                                                                                                                                                  |  |
-|          |                                                                                             | RECEIVED      | FORWARDED                             | OFFICER'S | to whom. Draw a line across column after each comm                                                                                                                                                                            |  |
-|          | 1. CI Staff<br>Birch O'Neil<br>Reem 2593                                                    |               |                                       |           | The attached article, which a be of interest to you, appeared the 7 March issue of the Italia Communist Party weekly Rinascit The writer, Gianfranco Corsini, been on and off US corresponder for the Italian Communist press |  |
-|          | 2.                                                                                          |               |                                       |           |                                                                                                                                                                                                                               |  |
-|          | 3.                                                                                          |               |                                       |           |                                                                                                                                                                                                                               |  |
-|          |                                                                                             |               |                                       | 794       |                                                                                                                                                                                                                               |  |
-|          | 5.                                                                                          |               |                                       | :         | in red rumors are referred which suggest that which it was the Agency to organize the murder of                                                                                                                               |  |
-| -        | 6.                                                                                          |               |                                       |           | President Kennedyo                                                                                                                                                                                                            |  |
-| <b> </b> | 7.                                                                                          |               |                                       |           |                                                                                                                                                                                                                               |  |
-|          | <u>- 13 a 1 a 1 a 1 a 1 a 1 a 1 a 1 a 1 a 1 </u>                                            |               | 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 |           |                                                                                                                                                                                                                               |  |
-|          |                                                                                             |               |                                       |           |                                                                                                                                                                                                                               |  |
-|          | 9.                                                                                          | . •           |                                       | 1 · αν    | NY just                                                                                                                                                                                                                       |  |
-|          | 10.                                                                                         |               |                                       | Hupt      | Maired                                                                                                                                                                                                                        |  |
-|          | 11.                                                                                         |               |                                       | ma.       |                                                                                                                                                                                                                               |  |
-|          | 12.                                                                                         |               |                                       |           |                                                                                                                                                                                                                               |  |
-|          | 13.                                                                                         | <u> </u>      |                                       |           | ·                                                                                                                                                                                                                             |  |
+| Clipping of article The Kennedy Murder and the Secret Sarvices relative US  FROM:  ME/L/INT Arthur Po Ierie  TO: (Officer designation, room number, and building)  1. CI Staff Hirch O'Noil  Recem 2E93  The attached article, which me be of interest to you, appeared the 7 March issue of the Italian Communist Party weekly Rizascit The writer, Glanfrance Gersini, been on and eff US corresponden for the Italian Communist press  5.  Note that in the section penc in red rusors are referred which aggest that that it it was the Agency to organize the murder of President Kennedy.  7.  8.  9.  10.  WE/L/INT Arthur Po Ierie  DATE  OFFICERS  INMASS  NOMENTS (Number sech former) to show from the best of interest to you, appeared the 7 March issue the year of interest to you appeared the 7 March issue it was the Agency to organize the murder of President Kennedy.  7.  8.  9.  10.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | ŠUBJECT:               | (Optional)            |             | ROUTIN       |           |             |                                                                | WARE I       |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------------|-------------|--------------|-----------|-------------|----------------------------------------------------------------|--------------|
+| TO: (Officer designation, room number, and building)  1. GI Staff Rirch O'Neil Recensed FORWARDED  3.  3.  5.  6.  7.  8.  8.  9.  10.  10.  10.  10.  10.  10.  10.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | FPOM.                  | Clipping              | of articl   | e The        | ,Kennedy  | 5、一直流域      |                                                                | OS           |
+| Communist Party weeking forwants of the section pend in the section pend for the Italian Communist Press of the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend in the section pend   |                        | 1/20                  |             |              | W         |             | 1                                                              |              |
+| CI Staff   Rirch 0°Neil   Reom 2793                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | TO: (Offi<br>building) | cer designation, room | number, and | DATE         |           |             |                                                                |              |
+| Mirch 0°Neil Reom 2503  The attached article, which me be of interest to you, appeared the 7 March issue of the Italia Communist Party weekly Rizascit The writer, Glanfrance Corsini, been on and off US correspondent for the Italian Communist press  Note that in the section pencial red rumors are referred whice suggest that them it was the Agency to organize the murder of President Kennedy.  7.  8.  9.  10.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                        |                       |             | RECEIVED     | FORWARDED | INITIALS.   | to whom. Draw a line across column after each c                | omm.         |
+| The attached article, which me of interest to you, appeared the 7 March issue of the Italia Communist Party weekly Rimseit The writer, Gianfranco Corsini, been on and off US corresponden for the Italian Communist press  8. Note that in the section pencian red rumors are referred which suggest that there it was the Agency to organize the murder of President Kennedy.  8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1. CI                  | Birch O'Neil          |             |              |           |             |                                                                |              |
+| Communist Party weekly Rizascit The writer, Gianfrance Corsini, been on and off US corresponden for the Italian Communist press  Note that in the section penc in red rumors are referred whice suggest that Mark it was the Agency to organize the murder of President Kennedy.  7.  8.  9.  10.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 2.                     |                       |             |              |           |             | be of interest to you, appear                                  | red          |
+| for the Italian Communist press  Note that in the section penc\nin red rumors are referred which suggest that Mark it was the Agency to organize the murder of President Kennedy.  8.  9.  10.  11.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 3.                     |                       | : '         |              |           |             | Communist Party weekly Rizaso<br>The writer, Gianfranco Corsin | cit<br>ni,   |
+| in red rumors are referred which suggest that was the Agency to organize the murder of President Kennedy.  7.  8.  9.  10.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 4.                     |                       |             |              |           | 2.5         | for the Italian Communist pre                                  | 9 <b>5</b> 8 |
+| 6.  7.  8.  9.  10.  White the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the  | 5.                     |                       |             |              |           |             | in red rumors are referred whe suggest that about it was the   | hic          |
+| 8.  9.  10.  Wight Maried  11.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 6.                     |                       |             |              |           |             |                                                                | r <b>0</b> . |
+| 9. 10. Whitehall is a second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second o | 7.                     |                       |             |              |           |             |                                                                |              |
+| 9. 10. Whitehaland                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                        |                       | . + /       | See 186 Alex | he joint  | <b>医医验验</b> |                                                                |              |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 8.                     |                       |             |              |           | · a .       |                                                                | ·<br>·       |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 9.                     |                       |             |              | ,         | an au       | ny jud                                                         |              |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 10.                    | •                     |             |              |           | Mat 1       | ator                                                           | <b>k</b>     |
+| 12.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 11.                    |                       |             |              |           | Mr.         | ·                                                              |              |
+| n I                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 12.                    |                       |             |              |           |             |                                                                |              |
 
 FORM 610 USE PREVIOUS EDITIONS
 
 15.
 
-SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SECR
- SEC
+SECRET
 
 CONFIDENTIAL
 

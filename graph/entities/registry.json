@@ -6011,7 +6011,139 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-clipping": {
+      "name": "Clipping",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-secret-sarvices": {
+      "name": "the Secret Sarvices",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-arthur-po-ierie": {
+      "name": "Arthur Po Ierie",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ci-staff-hirch-o-noil-recem": {
+      "name": "CI Staff Hirch O'Noil  Recem",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-italian-communist-party": {
+      "name": "the Italian Communist Party",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glanfrance-gersini": {
+      "name": "Glanfrance Gersini",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-we-l": {
+      "name": "WE/L",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-arthur-po-ierie-date": {
+      "name": "Arthur Po Ierie  DATE",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-year": {
+      "name": "the year",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-optional": {
+      "name": "Optional",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-communist-party": {
+      "name": "Communist Party",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-italian-communist-press": {
+      "name": "the Italian Communist Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ci-staff": {
+      "name": "CI Staff",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-neil": {
+      "name": "Neil",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-reom": {
+      "name": "Reom",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-neil-reom-2503": {
+      "name": "Neil Reom 2503",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glanfrance-corsini": {
+      "name": "Glanfrance Corsini",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rimseit": {
+      "name": "Rimseit",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-birch-o-neil": {
+      "name": "Birch O'Neil",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mark": {
+      "name": "Mark",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-rizaso": {
+      "name": "Rizaso",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gianfranco-corsin": {
+      "name": "Gianfranco Corsin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   },
-  "last_updated": "2026-03-29T17:06:29.478004+00:00"
+  "last_updated": "2026-03-29T18:08:02.875497+00:00"
 }

@@ -1,4 +1,5879 @@
 {
-  "entities": {},
-  "last_updated": null
+  "entities": {
+    "entity:person-roswell": {
+      "name": "Roswell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-date": {
+      "name": "Date",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-4-july-10-1947": {
+      "name": "June 4 \u2013 July 10, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-location": {
+      "name": "Location",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-external": {
+      "name": "External",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-debris": {
+      "name": "Debris",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1947": {
+      "name": "1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-roswell": {
+      "name": "Roswell",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-new-mexico": {
+      "name": "New Mexico",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-united-states": {
+      "name": "the United States",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-roswell-army-air-field": {
+      "name": "Roswell Army Air Field",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-united-states-army-air-forces-a-citenote-usaaf-1": {
+      "name": "the United States Army Air Forces[[a]](#citenote-USAAF-1",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-a-day": {
+      "name": "a day",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-alamogordo-army-air-field": {
+      "name": "Alamogordo Army Air Field",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-project-mogul": {
+      "name": "Project Mogul",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1978": {
+      "name": "1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-united-states": {
+      "name": "United States",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jesse-marcel": {
+      "name": "Jesse Marcel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1980": {
+      "name": "1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-roswell-incident": {
+      "name": "The Roswell Incident",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-grey-aliens": {
+      "name": "grey aliens",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-1990s": {
+      "name": "the 1990s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-air-force": {
+      "name": "the Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-us": {
+      "name": "US",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-4": {
+      "name": "June 4",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-w-w": {
+      "name": "W.W.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-brazel": {
+      "name": "Brazel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-corona": {
+      "name": "Corona",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-later-that-month": {
+      "name": "Later that month",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-first-summer": {
+      "name": "the first summer",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-the-cold-war-8-citenote-10": {
+      "name": "the Cold War,[[8]](#citenote-10",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kenneth-arnold-s": {
+      "name": "Kenneth Arnold's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-arnold": {
+      "name": "Arnold",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brazel": {
+      "name": "Brazel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-5": {
+      "name": "July 5",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-hollis-wilson": {
+      "name": "Hollis Wilson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-fourth-of-july-weekend": {
+      "name": "the Fourth of July weekend",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-george-wilcox": {
+      "name": "George Wilcox",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-wilcox": {
+      "name": "Wilcox",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-509th-bomb": {
+      "name": "the 509th Bomb",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-eighth-air-force": {
+      "name": "the Eighth Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sheridan-cavitt": {
+      "name": "Sheridan Cavitt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-blanchard": {
+      "name": "William Blanchard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roger-m-ramey": {
+      "name": "Roger M. Ramey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-8": {
+      "name": "July 8",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-walter-haut": {
+      "name": "Walter Haut",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-robert-porter": {
+      "name": "Robert Porter",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fort-worth-army-air-field": {
+      "name": "Fort Worth Army Air Field",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-texas": {
+      "name": "Texas",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-george-walsh": {
+      "name": "George Walsh",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ksws": {
+      "name": "KSWS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-associated-press": {
+      "name": "the Associated Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-media": {
+      "name": "Media",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-haut": {
+      "name": "Haut",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-yesterday": {
+      "name": "yesterday",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-509th-bomb": {
+      "name": "509th Bomb",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-sometime-last-week": {
+      "name": "sometime last week",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jesse-a-marcel": {
+      "name": "Jesse A. Marcel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-509th-bomb-group-intelligence-office": {
+      "name": "the 509th Bomb Group Intelligence Office",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-associated-press": {
+      "name": "Associated Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-8-1947-21-citenote-23": {
+      "name": "July 8, 1947)[[21]](#citenote-23",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roger-ramey": {
+      "name": "Roger Ramey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-dubose": {
+      "name": "Thomas DuBose",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-irving-newton": {
+      "name": "Irving Newton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-newton": {
+      "name": "Newton",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-9": {
+      "name": "July 9",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-roswell-daily-record": {
+      "name": "the Roswell Daily Record",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-fort-worth": {
+      "name": "Fort Worth",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-fort-worth-star-telegram-1947-7-28-citenote-30": {
+      "name": "Fort-Worth-Star-Telegram-1947-7)[[28]](#citenote-30",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-wright-field": {
+      "name": "Wright Field",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ohio": {
+      "name": "Ohio",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-colonel-marcellus-duffy": {
+      "name": "Colonel Marcellus Duffy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mogul": {
+      "name": "Mogul",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-albert-trakowski": {
+      "name": "Albert Trakowski",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-duffy": {
+      "name": "Duffy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-cold-war": {
+      "name": "Cold War",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-10": {
+      "name": "July 10",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-alamogordo": {
+      "name": "Alamogordo",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-previous-year": {
+      "name": "the previous year",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mogul": {
+      "name": "Mogul",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-united-states-air-force-a-citenote-usaaf-1": {
+      "name": "The United States Air Force[[a]](#citenote-USAAF-1",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-twin-falls": {
+      "name": "Twin Falls",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-hoax-37-citenote-39": {
+      "name": "hoax.[[37]](#citenote-39",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-just-days": {
+      "name": "Just days",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-idaho": {
+      "name": "Idaho",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-decades": {
+      "name": "the decades",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-f-kennedy": {
+      "name": "John F. Kennedy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-the-watergate": {
+      "name": "the Watergate",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1948": {
+      "name": "1948",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-roswell-48-citenote-saler-p13-50-49-citenote-clarke-2015-chpt13-51": {
+      "name": "Roswell.[[48]](#citenote-Saler-p13-50)[[49]](#citenote-Clarke-2015-chpt13-51",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-variety": {
+      "name": "Variety",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-frank-scully": {
+      "name": "Frank Scully",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-earth": {
+      "name": "Earth",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-barney": {
+      "name": "Barney",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-betty-hill": {
+      "name": "Betty Hill",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1997": {
+      "name": "1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-air-force": {
+      "name": "Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-mcandrew": {
+      "name": "James McAndrew",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-roswell-incident": {
+      "name": "the Roswell Incident",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-roswell-56-citenote-58": {
+      "name": "Roswell.[[56]](#citenote-58",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wright": {
+      "name": "Wright",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-scully": {
+      "name": "Scully",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-behind-the-flying-saucers-2-citenote-baker-2024-4": {
+      "name": "Behind the Flying Saucers,[[2]](#citenote-Baker-2024-4",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1966": {
+      "name": "1966",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1968": {
+      "name": "1968",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1974": {
+      "name": "1974",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-robert-spencer-carr": {
+      "name": "Robert Spencer Carr",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-wright-patterson-59-citenote-61": {
+      "name": "Wright-Patterson.[[59]](#citenote-61",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-carr": {
+      "name": "Carr",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-roswell-narrative-61-citenote-63-62-citenote-64": {
+      "name": "the Roswell narrative.[[61]](#citenote-63)[[62]](#citenote-64",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-l-conway-64-citenote-erdmann-p287-66": {
+      "name": "James L. Conway,[[64]](#citenote-Erdmann-p287-66",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-bullard-65-citenote-67": {
+      "name": "Thomas Bullard.[[65]](#citenote-67",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-decades-later": {
+      "name": "Decades later",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-florida": {
+      "name": "Florida",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-gulf-of-mexico": {
+      "name": "the Gulf of Mexico",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stanton-friedman": {
+      "name": "Stanton Friedman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-ziegler16-71": {
+      "name": "Ziegler16-71",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-19-1979": {
+      "name": "December 19, 1979",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bob-pratt": {
+      "name": "Bob Pratt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-national": {
+      "name": "National",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-february-72-citenote-74-73-citenote-75": {
+      "name": "February.[[72]](#citenote-74)[[73]](#citenote-75",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-20-1980": {
+      "name": "September 20, 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-star-trek": {
+      "name": "Star Trek",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-leonard-nimoy": {
+      "name": "Leonard Nimoy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ramey": {
+      "name": "Ramey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jesse-a-marcel-jr": {
+      "name": "Jesse A. Marcel Jr.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-m-d": {
+      "name": "M.D.",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-10-years-old": {
+      "name": "10 years old",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-new-york": {
+      "name": "New York",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-friedman": {
+      "name": "Friedman",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-bill-moore": {
+      "name": "William \"Bill\" Moore",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles-berlitz-81-citenote-83-82-citenote-saler199745-84": {
+      "name": "Charles Berlitz.[[81]](#citenote-83)[[82]](#citenote-Saler199745-84",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-berlitz": {
+      "name": "Berlitz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-moore": {
+      "name": "Moore",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-philadelphia": {
+      "name": "Philadelphia",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-friedman": {
+      "name": "Friedman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bodies-26-citenote-clancy-2007-p93-28": {
+      "name": "bodies,[[26]](#citenote-Clancy-2007-p93-28",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-lydia-sleppy": {
+      "name": "Lydia Sleppy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-koat": {
+      "name": "KOAT",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-albuquerque": {
+      "name": "Albuquerque",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-johnny-mcboyle": {
+      "name": "Johnny McBoyle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-between-1978-and-the-early-1990s": {
+      "name": "Between 1978 and the early 1990s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kevin-d-randle": {
+      "name": "Kevin D. Randle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-donald-r-schmitt": {
+      "name": "Donald R. Schmitt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-1980": {
+      "name": "October 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles-berlitz": {
+      "name": "Charles Berlitz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bill-moore-89-citenote-abc-news-2005-p2-91-90-citenote-92": {
+      "name": "Bill Moore).[[89]](#citenote-ABC-News-2005-p2-91)[[90]](#citenote-92",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles-ziegler": {
+      "name": "Charles Ziegler",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-grady-barney-barnett": {
+      "name": "Grady \"Barney\" Barnett",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-plains-of-san-agustin-98-citenote-goldberg-2001-p196-100-99-citenote-101": {
+      "name": "the Plains of San Agustin.[[98]](#citenote-Goldberg-2001-p196-100)[[99]](#citenote-101",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mac-brazel": {
+      "name": "Mac Brazel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1963": {
+      "name": "1963",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-brazel-jr": {
+      "name": "William Brazel Jr.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bessie-brazel-schreiber": {
+      "name": "Bessie Brazel Schreiber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-schreiber": {
+      "name": "Schreiber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-14": {
+      "name": "14",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bill-moore-116-citenote-119": {
+      "name": "Bill Moore.[[116]](#citenote-119",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard-c-doty": {
+      "name": "Richard C. Doty",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-air-force-intelligence-officers": {
+      "name": "Air Force Intelligence Officers",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-mj-twelve": {
+      "name": "MJ Twelve",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1981": {
+      "name": "1981",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-paul": {
+      "name": "Paul",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1982": {
+      "name": "1982",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-doty": {
+      "name": "Doty",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-aquarius-project": {
+      "name": "The Aquarius Project",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-pratt": {
+      "name": "Pratt",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-that-same-year": {
+      "name": "That same year",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jaime-shandera": {
+      "name": "Jaime Shandera",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bennewitz": {
+      "name": "Bennewitz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-11-1984": {
+      "name": "December 11, 1984",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-shandera": {
+      "name": "Shandera",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-majestic-12": {
+      "name": "Majestic 12",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roswell-debris-124-citenote-127": {
+      "name": "Roswell debris.[[124]](#citenote-127",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1989": {
+      "name": "1989",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fed": {
+      "name": "fed",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-kirtland-air-force-base": {
+      "name": "Kirtland Air Force Base",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-1980s-126-citenote-129": {
+      "name": "the 1980s.[[126]](#citenote-129",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-carl-sagan": {
+      "name": "Carl Sagan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-129-citenote-132": {
+      "name": "\"[[129]](#citenote-132",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-documents-131-citenote-134": {
+      "name": "documents.[[131]](#citenote-134",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-harry-truman": {
+      "name": "Harry Truman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-1-1947": {
+      "name": "October 1, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-vannevar-bush-132-citenote-135": {
+      "name": "Vannevar Bush.[[132]](#citenote-135",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-following-week": {
+      "name": "The following week",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glenn-dennis": {
+      "name": "Glenn Dennis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glenn-dennis-s": {
+      "name": "Glenn Dennis's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-unsolved-mysteries": {
+      "name": "Unsolved Mysteries",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-18": {
+      "name": "September 18",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-barney-barnett": {
+      "name": "Barney\" Barnett",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-pappy-henderson": {
+      "name": "Pappy\" Henderson",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-deaths-134-citenote-137": {
+      "name": "deaths.[[134]](#citenote-137",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-august-5-1989": {
+      "name": "August 5, 1989",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glenn-dennis-135-citenote-mcandrew-1997": {
+      "name": "Glenn Dennis.[[135]](#citenote-McAndrew-1997",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-don-berliner": {
+      "name": "Don Berliner",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-randle": {
+      "name": "Randle",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-mcandrew-1997": {
+      "name": "McAndrew-1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-20-1989": {
+      "name": "September 20, 1989",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1994": {
+      "name": "1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dennis": {
+      "name": "Dennis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roswell-138-citenote-141-139-citenote-rich1994-142": {
+      "name": "Roswell.[[138]](#citenote-141)[[139]](#citenote-Rich1994-142",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1991": {
+      "name": "1991",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-max-littell": {
+      "name": "Max Littell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-walter-haut-141-citenote-144": {
+      "name": "Walter Haut.[[141]](#citenote-144",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-naomi-maria-selff": {
+      "name": "Naomi Maria Selff",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-naomi-sipes": {
+      "name": "Naomi Sipes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-karl-pflock": {
+      "name": "Karl Pflock",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-oliver-stone": {
+      "name": "Oliver Stone",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brian-dunning": {
+      "name": "Brian Dunning",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-40-years": {
+      "name": "40 years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dunning": {
+      "name": "Dunning",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pflock": {
+      "name": "Pflock",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-historian-curtis-peebles": {
+      "name": "Historian Curtis Peebles",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-randle-schmitt": {
+      "name": "Randle\u2013Schmitt",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-barnett": {
+      "name": "Barnett",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1992": {
+      "name": "1992",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-crash": {
+      "name": "Crash",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-corona": {
+      "name": "Corona",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ufo-crash": {
+      "name": "UFO Crash",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-truth": {
+      "name": "The Truth",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kevin-randle": {
+      "name": "Kevin Randle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-donald-schmitt": {
+      "name": "Donald Schmitt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-schmitt": {
+      "name": "Schmitt",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-debris-153-citenote-156": {
+      "name": "debris.[[153]](#citenote-156",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-arthur-exon": {
+      "name": "Arthur Exon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-exon": {
+      "name": "Exon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-depiction-154-citenote-157": {
+      "name": "depiction.[[154]](#citenote-157",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-grady-barnett-s": {
+      "name": "Grady Barnett's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-us-air-force": {
+      "name": "US Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-stanton": {
+      "name": "Stanton",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-crash": {
+      "name": "Crash",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-don": {
+      "name": "Don",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lydia-sleppy": {
+      "name": "Lydia Sleppy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-years-earlier": {
+      "name": "years earlier",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fbi": {
+      "name": "FBI",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-truth": {
+      "name": "The Truth",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-randle-and-schmitt": {
+      "name": "Randle and Schmitt",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dwight-d-eisenhower-165-citenote-168-152-citenote": {
+      "name": "Dwight D. Eisenhower.[[165]](#citenote-168)[[152]](#citenote",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jim-ragsdale": {
+      "name": "Jim Ragsdale",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-frank": {
+      "name": "Frank",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kaufman": {
+      "name": "Kaufman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-steve-mackenzie": {
+      "name": "Steve MacKenzie",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1995": {
+      "name": "1995",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-name-169-citenote-172": {
+      "name": "name.[[169]](#citenote-172",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kaufmann": {
+      "name": "Kaufmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-site-171-citenote-174": {
+      "name": "site.[[171]](#citenote-174",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-highway-285": {
+      "name": "Highway 285",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-trudy-truelove": {
+      "name": "Trudy Truelove",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ragsdale": {
+      "name": "Ragsdale",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kaufman-sites-174-citenote-177": {
+      "name": "Kaufman sites.[[174]](#citenote-177",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-truelove": {
+      "name": "Truelove",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-mid-1990s": {
+      "name": "the mid-1990s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-steven-schiff": {
+      "name": "Steven Schiff",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-general-accounting-office": {
+      "name": "the General Accounting Office",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-following-year": {
+      "name": "the following year",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-roswell-report": {
+      "name": "The Roswell Report",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-mogul": {
+      "name": "Mogul",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-4-1947": {
+      "name": "June 4, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-gao": {
+      "name": "GAO",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cia": {
+      "name": "CIA",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-phil-klass": {
+      "name": "Phil Klass",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-project": {
+      "name": "Project",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-24-1997": {
+      "name": "June 24, 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-roswell-report-case-closed-186-citenote-189": {
+      "name": "The Roswell Report: Case Closed.[[186]](#citenote-189",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-air-force-s": {
+      "name": "the Air Force's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-alien-autopsy": {
+      "name": "Alien Autopsy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ray-santilli": {
+      "name": "Ray Santilli",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-army-air-force-cameraman-191-citenote-194": {
+      "name": "Army Air Force cameraman.[[191]](#citenote-194",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-santilli": {
+      "name": "Santilli",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1967": {
+      "name": "1967",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stan-winston": {
+      "name": "Stan Winston",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2006": {
+      "name": "2006",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-london": {
+      "name": "London",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-fox": {
+      "name": "Fox",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-autopsy": {
+      "name": "Autopsy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-extraterrestrials-199-citenote-202": {
+      "name": "extraterrestrials.[[199]](#citenote-202",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-philip-j-corso": {
+      "name": "Philip J. Corso",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-day-after-roswell-200-citenote-203": {
+      "name": "The Day After Roswell.[[200]](#citenote-203",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-corso": {
+      "name": "Corso",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-claims-201-citenote-204": {
+      "name": "claims.[[201]](#citenote-204",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-day-after-roswell": {
+      "name": "The Day After Roswell",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-fort-bliss": {
+      "name": "Fort Bliss",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-8th-army-air": {
+      "name": "the 8th Army Air",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-army-air-force": {
+      "name": "Army Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fort-worth-army-air": {
+      "name": "Fort Worth Army Air",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-corso-s": {
+      "name": "Corso's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-schmitt": {
+      "name": "Schmitt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-foreign-technology-division": {
+      "name": "the Foreign Technology Division",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-world-war-ii": {
+      "name": "World War II",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-strom": {
+      "name": "Strom",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thurmond": {
+      "name": "Thurmond",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-the-cold-war": {
+      "name": "the Cold War",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ufo-209-citenote-212-210-citenote-213": {
+      "name": "UFO.\"[[209]](#citenote-212)[[210]](#citenote-213",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-walter-bosley": {
+      "name": "Walter Bosley",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nick-redfern": {
+      "name": "Nick Redfern",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-annie-jacobsen-211-citenote-214": {
+      "name": "Annie Jacobsen.[[211]](#citenote-214",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2011": {
+      "name": "2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jacobsen": {
+      "name": "Jacobsen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-america": {
+      "name": "America",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-top-secret-military-base": {
+      "name": "Top Secret Military Base",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-josef-mengele": {
+      "name": "Josef Mengele",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joseph-stalin": {
+      "name": "Joseph Stalin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-federation-of-american": {
+      "name": "the Federation of American",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard-rhodes": {
+      "name": "Richard Rhodes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-washington-post": {
+      "name": "The Washington Post",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-past-60-years": {
+      "name": "the past 60 years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-manhattan": {
+      "name": "Manhattan",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2017": {
+      "name": "2017",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-uk": {
+      "name": "UK",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-guardian": {
+      "name": "Guardian",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-kodachrome": {
+      "name": "Kodachrome",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-mexico": {
+      "name": "Mexico",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jaime-maussan": {
+      "name": "Jaime Maussan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1896": {
+      "name": "1896",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-chapin-mesa-archeological-museum": {
+      "name": "the Chapin Mesa Archeological Museum",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mesa-verde": {
+      "name": "Mesa Verde",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-colorado": {
+      "name": "Colorado",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2020": {
+      "name": "2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-circa-1951": {
+      "name": "circa-1951",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-roswell": {
+      "name": "Roswell",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell": {
+      "name": "Roswell",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-d-gildenberg": {
+      "name": "B. D. Gildenberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-scrutiny-224-citenote-227": {
+      "name": "scrutiny.[[224]](#citenote-227",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kal-korff": {
+      "name": "Kal Korff",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-hollywood": {
+      "name": "Hollywood",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ufology": {
+      "name": "UFOlogy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-project-mogul": {
+      "name": "Project Mogul",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-usaf": {
+      "name": "USAF",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-new-york-university": {
+      "name": "New York University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard-weaver": {
+      "name": "Richard Weaver",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sheridan-w-cavitt": {
+      "name": "Sheridan W. Cavitt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cavitt": {
+      "name": "Cavitt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-1990": {
+      "name": "March 1990",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-keel": {
+      "name": "John Keel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-world-war": {
+      "name": "World War",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-keel": {
+      "name": "Keel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-robert-g-todd": {
+      "name": "Robert G. Todd",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell-in-perspective": {
+      "name": "Roswell in Perspective",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-mogul-231-citenote-saler-p27-234-233-citenote-236": {
+      "name": "Mogul.[[231]](#citenote-Saler-p27-234)[[233]](#citenote-236",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1993": {
+      "name": "1993",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-office-of-the-united-states": {
+      "name": "the Office of the United States",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell-aaf": {
+      "name": "Roswell AAF",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-this-day": {
+      "name": "this day",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1950s": {
+      "name": "1950s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-operation-high-dive": {
+      "name": "Operation High Dive",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-dodge": {
+      "name": "Dodge",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-susan-harding": {
+      "name": "Susan Harding",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kathleen-stewart": {
+      "name": "Kathleen Stewart",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-1980s": {
+      "name": "the 1980s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joe-nickell": {
+      "name": "Joe Nickell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-mcgaha": {
+      "name": "James McGaha",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-alamagordo": {
+      "name": "Alamagordo",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-san-agustin": {
+      "name": "San Agustin",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-kitsch-254-citenote-258": {
+      "name": "kitsch.[[254]](#citenote-258",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-international-ufo-museum-and-research-center-258-citenote-262": {
+      "name": "the International UFO Museum and Research Center.[[258]](#citenote-262",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-government-64-citenote-erdmann-p287-66": {
+      "name": "the government.[[64]](#citenote-Erdmann-p287-66",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-l-conway": {
+      "name": "James L. Conway",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-little-green-men": {
+      "name": "Little Green Men",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-hangar-18-261-citenote-265-262-citenote-266": {
+      "name": "Hangar 18.[[261]](#citenote-265)[[262]](#citenote-266",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1996": {
+      "name": "1996",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-independence-day": {
+      "name": "Independence Day",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2008": {
+      "name": "2008",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-indiana-jones": {
+      "name": "Indiana Jones",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-kingdom-of": {
+      "name": "the Kingdom of",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-x-files": {
+      "name": "The X-Files",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-deep-throat": {
+      "name": "Deep Throat",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jose-chung-s": {
+      "name": "Jose Chung's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-santilli-alien-autopsy": {
+      "name": "Santilli Alien Autopsy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dark-skies": {
+      "name": "Dark Skies",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-taken": {
+      "name": "Taken",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1998": {
+      "name": "1998",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pocket-books": {
+      "name": "Pocket Books",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1999": {
+      "name": "1999",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-wb": {
+      "name": "WB",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2019": {
+      "name": "2019",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-toby-smith": {
+      "name": "Toby Smith",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2001": {
+      "name": "2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-futurama": {
+      "name": "Futurama",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell-that-ends": {
+      "name": "Roswell That Ends",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-31st-century": {
+      "name": "the 31st century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-roswell-incident-272-citenote-276": {
+      "name": "the Roswell incident.[[272]](#citenote-276",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-american-dad": {
+      "name": "American Dad",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roger": {
+      "name": "Roger",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-simon-pegg": {
+      "name": "Simon Pegg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-united-states": {
+      "name": "United States",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2014": {
+      "name": "2014",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bill-clinton": {
+      "name": "Bill Clinton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-clinton": {
+      "name": "Clinton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2015": {
+      "name": "2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-gq": {
+      "name": "GQ",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-barack-obama": {
+      "name": "Barack Obama",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-2020": {
+      "name": "December 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-obama": {
+      "name": "Obama",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stephen-colbert": {
+      "name": "Stephen Colbert",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-2020": {
+      "name": "June 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-donald-trump": {
+      "name": "Donald Trump",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-states-army-air-forcesbecame": {
+      "name": "States Army Air Forcesbecame",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-1947": {
+      "name": "September 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lt-col-james-michael-young": {
+      "name": "Lt Col James Michael Young",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-bullard": {
+      "name": "Thomas Bullard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kathryn-olmsted": {
+      "name": "Kathryn Olmsted",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-klass": {
+      "name": "J. Klass",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-frank-2023": {
+      "name": "Frank 2023",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-roswell-army-airfield": {
+      "name": "Roswell Army Airfield",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-raaf-frazier-2017a": {
+      "name": "RAAF).\"Frazier 2017a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-1947-olmsted-2009": {
+      "name": "June 1947.\"Olmsted 2009",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2003": {
+      "name": "2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-early-june": {
+      "name": "early June",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-century": {
+      "name": "the century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1997a": {
+      "name": "1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fig": {
+      "name": "fig",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1997b": {
+      "name": "1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-mj-twelve-114-citenote-116-milton-william-coopercalled": {
+      "name": "MJ Twelve\".[[114]](#citenote-116)Milton William Coopercalled",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-roswell-incident": {
+      "name": "Roswell Incident",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-majestic": {
+      "name": "Majestic",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-perspective": {
+      "name": "Perspective",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2009": {
+      "name": "2009",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-pp": {
+      "name": "pp",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abcbaker": {
+      "name": "abcBaker",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abcgoldberg": {
+      "name": "abcGoldberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2007": {
+      "name": "2007",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-92-93-frank-2023": {
+      "name": "92\u201393^Frank 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-510-olmsted-2009": {
+      "name": "510^Olmsted 2009",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mccusker": {
+      "name": "McCusker",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-addenda": {
+      "name": "Addenda",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-corrigenda-pdf-american-antiquarian-society": {
+      "name": "Corrigenda(PDF).American Antiquarian Society",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1800": {
+      "name": "1800",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-federal-reserve-bank": {
+      "name": "Federal Reserve Bank",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-minneapolis": {
+      "name": "Minneapolis",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-29": {
+      "name": "February 29",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2024-pflock-2001": {
+      "name": "2024.^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-61": {
+      "name": "61,",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-56": {
+      "name": "56",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-111-klass-1997b": {
+      "name": "111^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-18-19-clarke-2015": {
+      "name": "18\u201319^Clarke 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-23-pflock-2001": {
+      "name": "23^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-29-pflock-2001": {
+      "name": "29^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ziegler-moore-1997": {
+      "name": "Ziegler & Moore 1997",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-considerable-scotch": {
+      "name": "Considerable Scotch",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-20-pflock-2001": {
+      "name": "20^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-178-korff-1997a": {
+      "name": "178^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1-korff-1997a": {
+      "name": "1^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2005": {
+      "name": "2005",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-39-weeks-2015": {
+      "name": "39^Weeks 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-9-peebles-1994": {
+      "name": "9^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-251-saler": {
+      "name": "251^Saler",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-13-peebles-1994": {
+      "name": "13^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-251-peebles-1994": {
+      "name": "251^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-245-goldberg-2001": {
+      "name": "245^Goldberg 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-253-255-olmsted-2009": {
+      "name": "253\u2013255^Olmsted 2009",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-abharding-stewart-2003": {
+      "name": "abHarding & Stewart 2003",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-abcsaler": {
+      "name": "abcSaler",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ziegler-moore": {
+      "name": "Ziegler & Moore",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-251-smith-2000": {
+      "name": "251^Smith 2000",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-136-mcandrew-1997": {
+      "name": "136^McAndrew 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pp": {
+      "name": "pp.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2012": {
+      "name": "2012",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-33-fuller-1966": {
+      "name": "33^Fuller 1966",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-321-peebles-1994": {
+      "name": "321^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-244-disch-2000": {
+      "name": "244^Disch 2000",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1974-jones-1974": {
+      "name": "1974^Jones 1974",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-abcerdmann-block-2000": {
+      "name": "abcErdmann & Block 2000",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2016": {
+      "name": "2016",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-331-carr-1997": {
+      "name": "331^Carr 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-69-peebles-1994": {
+      "name": "69^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-absaler": {
+      "name": "abSaler",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2023": {
+      "name": "2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-520-529-klass-1997b": {
+      "name": "520\u2013529^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-67-gildenberg-2003": {
+      "name": "67^Gildenberg 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-65-pratt-1980": {
+      "name": "65^Pratt 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-8-pflock-2001": {
+      "name": "8^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-285-korff-1997a": {
+      "name": "285^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2013-korff-1997a": {
+      "name": "2013^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-26-klass-1997b": {
+      "name": "26^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-absagan": {
+      "name": "abSagan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-195-klass-1997b": {
+      "name": "195^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-10-klass-1997b": {
+      "name": "10^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1997b-pflock-2001": {
+      "name": "1997b^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-68-olmsted-2009": {
+      "name": "68^Olmsted 2009",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-534-olmsted-2009": {
+      "name": "534^Olmsted 2009",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-184-berlitz-moore-1980": {
+      "name": "184^Berlitz & Moore 1980",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-119-korff-1997a": {
+      "name": "119^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-39-berlitz-moore": {
+      "name": "39^Berlitz & Moore",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-24-berlitz-moore": {
+      "name": "24^Berlitz & Moore",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-75-pflock-2001": {
+      "name": "75^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-170-berlitz-moore": {
+      "name": "170^Berlitz & Moore",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-86-klass-1997b": {
+      "name": "86^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-120-berlitz-moore-1980": {
+      "name": "120^Berlitz & Moore 1980",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-major": {
+      "name": "Major",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-roswell-army-air-base": {
+      "name": "the Roswell Army Air Base",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-249-gildenberg-2003": {
+      "name": "249^Gildenberg 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-66-korff-1997a": {
+      "name": "66^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-62-68-pflock-2001": {
+      "name": "62\u201368^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1990": {
+      "name": "1990",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-us-government-policy": {
+      "name": "US Government Policy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-project-aquarius": {
+      "name": "Project Aquarius",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nasa": {
+      "name": "NASA",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ins": {
+      "name": "INS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-afosi": {
+      "name": "AFOSI",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-9": {
+      "name": "9-",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-170-blum-1990": {
+      "name": "170^Blum 1990",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-240-may-2016": {
+      "name": "240^May 2016",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2016-kloor-2019": {
+      "name": "2016 ^Kloor 2019",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-53-goldberg-2001": {
+      "name": "53^Goldberg 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-214-korff-1997a": {
+      "name": "214^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-171-sagan-1997": {
+      "name": "171^Sagan 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-88-peebles-1994": {
+      "name": "88^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-266-goldberg-2001": {
+      "name": "266^Goldberg 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-19-korff-1997a": {
+      "name": "19^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-50": {
+      "name": "50",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2000": {
+      "name": "2000",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1994-rich-1994-klass-1997b": {
+      "name": "1994^Rich 1994^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-8-klass-1997b": {
+      "name": "8^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-150-pflock-2001": {
+      "name": "150^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-131-134-klass-1997b": {
+      "name": "131\u2013134^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-191-192-pflock-2001": {
+      "name": "191\u2013192^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2007-klass-1997a": {
+      "name": "2007^Klass 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-5-peebles-1994": {
+      "name": "5^Peebles 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abcdgoldberg": {
+      "name": "abcdGoldberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-176-177-pflock-2001": {
+      "name": "176\u2013177^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-84-pflock-2001": {
+      "name": "84^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-132-korff-1997a": {
+      "name": "132^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-12-pflock-2001": {
+      "name": "12^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-25-klass-1997b": {
+      "name": "25^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-97-109-klass-1997b": {
+      "name": "97, 109^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-108-klass-1997b": {
+      "name": "108^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-107-108-korff-1997a": {
+      "name": "107\u2013108^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-97-98-randle-schmitt": {
+      "name": "97\u201398^Randle & Schmitt",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-180-klass-1997b": {
+      "name": "180^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-99-klass-1997b": {
+      "name": "99^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-148-korff-1997a": {
+      "name": "148^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-100-goldberg-2001": {
+      "name": "100^Goldberg 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2017b": {
+      "name": "2017b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-air-force-1994": {
+      "name": "Air Force 1994",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-balloon-research-clarke-2015": {
+      "name": "Balloon Research\"^Clarke 2015",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-152-clarke-2015": {
+      "name": "152^Clarke 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-225-pflock-2001": {
+      "name": "225^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-152-155-klass-1997b": {
+      "name": "152\u2013155^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-117-122-klass-1997b": {
+      "name": "117\u2013122^Klass 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eighth-air-force": {
+      "name": "Eighth Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wright-field": {
+      "name": "Wright Field",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-world-news": {
+      "name": "World News",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-peter-jennings": {
+      "name": "Peter Jennings",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-abc-news": {
+      "name": "ABC News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-28-2025": {
+      "name": "July 28, 2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a3": {
+      "name": "A3-",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mendlesohn": {
+      "name": "& Mendlesohn",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ablavery-hague-cartwright-1996": {
+      "name": "abLavery, Hague & Cartwright 1996",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-203-204-frank-2023": {
+      "name": "203\u2013204^Frank 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1101-korff-1997a": {
+      "name": "1101^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-212-213-korff-1997a": {
+      "name": "212\u2013213^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-213-frank-2023": {
+      "name": "213^Frank 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-50-frank-2023": {
+      "name": "50^Frank 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-250-clarke-2015": {
+      "name": "250^Clarke 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-151-pflock-2001": {
+      "name": "151^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-204-corso-birnes": {
+      "name": "204^Corso & Birnes",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-227-clarke-2015": {
+      "name": "227^Clarke 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-13-pflock-2001": {
+      "name": "13^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1997-pflock-2001": {
+      "name": "1997^Pflock 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-207-208-gulyas-2014": {
+      "name": "207\u2013208^Gulyas 2014",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-8a": {
+      "name": "8A",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-hukle-costello": {
+      "name": "Hukle & Costello",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1997-frank-2023": {
+      "name": "1997^Frank 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-52-joseph-2008": {
+      "name": "52^Joseph 2008",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-132-gildenberg-2003": {
+      "name": "132^Gildenberg 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-223-korff-1997a": {
+      "name": "223^Korff 1997a",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-27-30-gildenberg-2003": {
+      "name": "27\u201330^Gildenberg 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2014-huyghe-2001": {
+      "name": "2014^Huyghe 2001",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-edward-doty": {
+      "name": "Edward Doty",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-holloman-air-force-base": {
+      "name": "Holloman Air Force Base",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-two-years": {
+      "name": "two years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-104-105-gildenberg-2003": {
+      "name": "104\u2013105^Gildenberg 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-65-72-gildenberg-2003": {
+      "name": "65, 72^Gildenberg 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-34": {
+      "name": "34",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-4-6-saler": {
+      "name": "4\u20136^Saler",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-22-24-saler": {
+      "name": "22\u201324^Saler",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2021-ricketts-2011": {
+      "name": "2021^Ricketts 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-248-ricketts-2011": {
+      "name": "248^Ricketts 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-253-ricketts-2011": {
+      "name": "253^Ricketts 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-251-252-ricketts-2011": {
+      "name": "251\u2013252^Ricketts 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-253-clancy-2007": {
+      "name": "253^Clancy 2007",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2013-lemay-2008": {
+      "name": "2013^LeMay 2008",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2013": {
+      "name": "2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-53-54-beeler-2010": {
+      "name": "53\u201354^Beeler 2010",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2022-smith-2000": {
+      "name": "2022^Smith 2000",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2015-meehan-2023": {
+      "name": "2015^Meehan 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-223-225-kopan-2014-clarke-2015": {
+      "name": "223\u2013225^Kopan 2014^Clarke 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2020-madhani-2020": {
+      "name": "2020^Madhani 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-aaf-whips": {
+      "name": "AAF Whips",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-journal-herald": {
+      "name": "The Journal Herald",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-9-1947": {
+      "name": "July 9, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-newspapers-com": {
+      "name": "Newspapers.com",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-changed-roswell": {
+      "name": "Changed Roswell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-24-2005": {
+      "name": "February 24, 2005",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-6-2005": {
+      "name": "March 6, 2005",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-18": {
+      "name": "April 18",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ann-arbor-sun": {
+      "name": "Ann Arbor Sun",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-zodiac-news-service": {
+      "name": "Zodiac News Service",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-1-1974": {
+      "name": "November 1, 1974",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ann-arbor-district": {
+      "name": "Ann Arbor District",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-baker": {
+      "name": "Baker",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nicholson": {
+      "name": "Nicholson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-31-2024": {
+      "name": "January 31, 2024",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-how-we-lost-our-minds": {
+      "name": "\"How We Lost Our Minds",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-new-york-magazine": {
+      "name": "New York Magazine",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stan": {
+      "name": "Stan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2010": {
+      "name": "2010",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-lavery": {
+      "name": "Lavery",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-david": {
+      "name": "David",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-essential-cult-tv-reader": {
+      "name": "The Essential Cult TV Reader",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-press-of-kentucky": {
+      "name": "University Press of Kentucky",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-william-1980-the-roswell-incident": {
+      "name": "William)(1980).The Roswell Incident",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-grosset-dunlap": {
+      "name": "Grosset & Dunlap",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-howard": {
+      "name": "Howard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-extraterrestrials": {
+      "name": "Extraterrestrials",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-simon": {
+      "name": "Simon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-schuster": {
+      "name": "Schuster",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-j-june-24": {
+      "name": "William J.(June 24",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-new-york-times-news-service": {
+      "name": "The New York Times News Service",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-3-2016": {
+      "name": "April 3, 2016",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-google-news-bullard": {
+      "name": "Google News.- Bullard",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-e": {
+      "name": "Thomas E.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lawrence": {
+      "name": "Lawrence",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-press-of-kansas": {
+      "name": "University Press of Kansas",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard-h": {
+      "name": "Richard H.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-silverplate-bombers": {
+      "name": "The Silverplate Bombers",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-enola-gay-and-other-b-29s-configured": {
+      "name": "the Enola Gay and Other B-29s Configured",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-carry-atomic-bombs": {
+      "name": "Carry Atomic Bombs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-jefferson": {
+      "name": "Jefferson",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-north-carolina": {
+      "name": "North Carolina",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mcfarland-company": {
+      "name": "McFarland & Company",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-j": {
+      "name": "Thomas J.;",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-donald-r": {
+      "name": "Donald R.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-newburyport": {
+      "name": "Newburyport",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-massachusetts": {
+      "name": "Massachusetts",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-les": {
+      "name": "Les",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-30-2017": {
+      "name": "September 30, 2017",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-curious-case-of-the-alien": {
+      "name": "The Curious Case of the Alien",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-photo": {
+      "name": "Photo",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-2-2017": {
+      "name": "October 2, 2017",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-timothy": {
+      "name": "Timothy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-1997": {
+      "name": "July 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-story-casts-doubt": {
+      "name": "Story Casts Doubt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-credibility-pdf": {
+      "name": "Credibility\"(PDF",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-skeptical-inquirer": {
+      "name": "Skeptical Inquirer",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-21": {
+      "name": "21",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tom": {
+      "name": "Tom",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-11-1947": {
+      "name": "July 11, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-el-paso-times": {
+      "name": "El Paso Times",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-susan": {
+      "name": "Susan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-aliens": {
+      "name": "Aliens",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-cambridge": {
+      "name": "Cambridge",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-harvard-university-press": {
+      "name": "Harvard University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-aurum-press-ltd": {
+      "name": "Aurum Press Ltd.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-conway": {
+      "name": "Conway",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-l": {
+      "name": "James L.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-16-2012": {
+      "name": "February 16, 2012",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-paramount": {
+      "name": "Paramount",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rosy": {
+      "name": "Rosy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-12-2022": {
+      "name": "May 12, 2022",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cw": {
+      "name": "CW",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-philip": {
+      "name": "Philip",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-j-1997-the-day": {
+      "name": "William J.(1997).The Day",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-1994": {
+      "name": "July 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-air-force-research": {
+      "name": "Air Force Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-eric": {
+      "name": "Eric",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-7-2020": {
+      "name": "December 7, 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nerdist": {
+      "name": "Nerdist",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-27-2021": {
+      "name": "April 27, 2021",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-18-2021": {
+      "name": "April 18, 2021",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-disch": {
+      "name": "Disch",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-m-july-5": {
+      "name": "Thomas M.(July 5",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-2000-the-dreams-our-stuff-is-made-of-how-science-fiction-conquered-the-world": {
+      "name": "2000).The Dreams Our Stuff Is Made of: How Science Fiction Conquered the World",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-brian-december-18": {
+      "name": "Brian)(December 18",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2007-aliens": {
+      "name": "2007).\"Aliens",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-skeptoid": {
+      "name": "Skeptoid",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-9": {
+      "name": "October 9",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-16-2011": {
+      "name": "March 16, 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-phone-home": {
+      "name": "Phone Home",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dude": {
+      "name": "Dude",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rogerebert-com": {
+      "name": "RogerEbert.com",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-erdmann": {
+      "name": "- Erdmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-terry-j": {
+      "name": "Terry J.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-paula-m": {
+      "name": "Paula M.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-deep-space-nine-companion": {
+      "name": "Deep Space Nine Companion",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-fort-worth-star-telegram": {
+      "name": "Fort Worth Star-Telegram",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-tx": {
+      "name": "TX",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-disc-found": {
+      "name": "Disc Found",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-army": {
+      "name": "Army",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-bakersfield-californian": {
+      "name": "The Bakersfield Californian",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-8-1947": {
+      "name": "July 8, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-adam": {
+      "name": "Adam",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-little-book-of-aliens": {
+      "name": "The Little Book of Aliens",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-myth-lives": {
+      "name": "Myth Lives",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-albuquerque-journal": {
+      "name": "Albuquerque Journal",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-11-2022": {
+      "name": "January 11, 2022",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-14": {
+      "name": "September 14",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kendrick": {
+      "name": "Kendrick",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-41": {
+      "name": "41",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-20-2018": {
+      "name": "July 20, 2018",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-stanton": {
+      "name": "Stanton",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-us-military-retrieval": {
+      "name": "The US Military Retrieval",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-marlowe-co": {
+      "name": "Marlowe & Co.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-warwick": {
+      "name": "Warwick",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-laing": {
+      "name": "Laing",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jennifer": {
+      "name": "Jennifer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-9-2013": {
+      "name": "December 9, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abingdon": {
+      "name": "Abingdon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-g-1966-incident": {
+      "name": "John G.(1966).Incident",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-exeter": {
+      "name": "Exeter",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-p-putnam-s": {
+      "name": "G. P. Putnam's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gerhart": {
+      "name": "Gerhart",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ann": {
+      "name": "Ann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-groer": {
+      "name": "Groer",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-6-1997": {
+      "name": "June 6, 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-reliable-source": {
+      "name": "The Reliable Source",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-washington-post": {
+      "name": "Washington Post",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-spring-2003": {
+      "name": "Spring 2003",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-a-roswell-requiem": {
+      "name": "A Roswell Requiem",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-gale-academic-onefile": {
+      "name": "Gale Academic OneFile",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-goldberg": {
+      "name": "Goldberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-robert": {
+      "name": "Robert",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-modern-america": {
+      "name": "Modern America",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-new-haven": {
+      "name": "New Haven",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-connecticut": {
+      "name": "Connecticut",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-yale-university-press": {
+      "name": "Yale University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-aaron-john": {
+      "name": "Aaron John",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-chaos-conundrum-essays-on-ufos": {
+      "name": "The Chaos Conundrum: Essays on UFOs,",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ghosts-other-high-strangeness": {
+      "name": "Ghosts & Other High Strangeness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-atemporal-world": {
+      "name": "Atemporal World",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-luton": {
+      "name": "Luton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bedfordshire": {
+      "name": "Bedfordshire",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-conspiracy-theories": {
+      "name": "Conspiracy Theories",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-propagation-of-paranoid-political-and": {
+      "name": "Propagation of Paranoid Political and",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cultural-narratives": {
+      "name": "Cultural Narratives",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-mcfarland": {
+      "name": "McFarland",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-zach": {
+      "name": "Zach",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-17-2013": {
+      "name": "January 17, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-star-trek-deep-space-nine-little-green-men-the-sword-of-kahless": {
+      "name": "Star Trek: Deep Space Nine: 'Little Green Men'/'The Sword Of Kahless'",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-28-2015": {
+      "name": "May 28, 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-futurama-roswell-that-ends": {
+      "name": "Futurama: 'Roswell that Ends",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-interest-ii": {
+      "name": "Interest II'",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-4-2019": {
+      "name": "November 4, 2019",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-harassed-rancher-who-located-saucer": {
+      "name": "Harassed Rancher Who Located 'Saucer'",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roswell-daily": {
+      "name": "Roswell Daily",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-harding": {
+      "name": "Harding",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stewart": {
+      "name": "Stewart",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kathleen": {
+      "name": "Kathleen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-conspiracy-theory": {
+      "name": "Conspiracy Theory",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-west": {
+      "name": "West",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-harry-g": {
+      "name": "Harry G.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sanders": {
+      "name": "Sanders",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-conspiracy": {
+      "name": "Conspiracy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-durham": {
+      "name": "Durham",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-duke-university-press": {
+      "name": "Duke University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas": {
+      "name": "Thomas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-13-2011": {
+      "name": "May 13, 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell-was-soviet-plot": {
+      "name": "Roswell 'Was Soviet Plot",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-20-2011": {
+      "name": "May 20, 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-6-2013": {
+      "name": "February 6, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-patrick": {
+      "name": "Patrick",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-swamp-gas-times": {
+      "name": "Swamp Gas Times",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-two-decades": {
+      "name": "Two Decades",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jack": {
+      "name": "Jack",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-12-1974": {
+      "name": "October 12, 1974",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-no-green-men-here-base-officials-say": {
+      "name": "No Green Men Here, Base Officials Say",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-dayton-daily-news": {
+      "name": "Dayton Daily News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brad": {
+      "name": "Brad",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-beyond-the-textbook-studying-roswell-in-the-social-studies-classroom": {
+      "name": "Beyond the Textbook: Studying Roswell in the Social Studies Classroom",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-social-studies": {
+      "name": "Social Studies",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-klass": {
+      "name": "Klass",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-klass-files-pdf": {
+      "name": "Klass Files\"(PDF",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-skeptics-ufo-newsletter": {
+      "name": "The Skeptics UFO Newsletter",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-committee-for-skeptical-inquiry": {
+      "name": "The Committee for Skeptical Inquiry",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-19-2013": {
+      "name": "April 19, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-6": {
+      "name": "February 6",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-klass": {
+      "name": "Klass",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-philip": {
+      "name": "Philip",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-1998": {
+      "name": "January 1998",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-klass-files-pdf": {
+      "name": "The Klass Files\"(PDF",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-49": {
+      "name": "49",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-24-2013": {
+      "name": "December 24, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-7-2015": {
+      "name": "April 7, 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elizabeth": {
+      "name": "Elizabeth",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-contemporary-culture": {
+      "name": "Contemporary Culture",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-state-university-of-new-york-press": {
+      "name": "State University of New York Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-kloor": {
+      "name": "Kloor",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-keith-2019": {
+      "name": "Keith(2019",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-science-and-technology": {
+      "name": "Science and Technology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-knight": {
+      "name": "Knight",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-peter": {
+      "name": "Peter",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-conspiracy-culture": {
+      "name": "Conspiracy Culture",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kennedy": {
+      "name": "Kennedy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-x-files": {
+      "name": "the X Files",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-tal": {
+      "name": "Tal",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-3-2014": {
+      "name": "April 3, 2014",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-phones-home": {
+      "name": "Phones Home",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-politico": {
+      "name": "Politico",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-19-2021": {
+      "name": "April 19, 2021",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kal": {
+      "name": "Kal",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-the-roswell-ufo-crash": {
+      "name": "The Roswell UFO Crash",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-know-first-ed": {
+      "name": "Know(First ed.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-august-1997b": {
+      "name": "August 1997b",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-what-really-happened-at-roswell": {
+      "name": "What Really Happened at Roswell",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-18-2014": {
+      "name": "April 18, 2014",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-5-2013": {
+      "name": "February 5, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kottmeyer": {
+      "name": "- Kottmeyer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-martin-s": {
+      "name": "Martin S.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-years": {
+      "name": "the Years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-grossman": {
+      "name": "Grossman",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wendy-m": {
+      "name": "Wendy M.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-christopher-c": {
+      "name": "Christopher C.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nathalie": {
+      "name": "Nathalie",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-24-2016": {
+      "name": "June 24, 2016",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-how-an-alien-autopsy-hoax-captured-the-world-s-imagination-for-a-decade": {
+      "name": "\"How an Alien Autopsy Hoax Captured the World's Imagination for a Decade",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-hague": {
+      "name": "Hague",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-angela": {
+      "name": "Angela",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-cartwright": {
+      "name": "Cartwright",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-maria": {
+      "name": "Maria",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-all-knowledge-reading-the-x-files": {
+      "name": "All Knowledge: Reading the X-Files",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-syracuse-university-press": {
+      "name": "Syracuse University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roswell-crash": {
+      "name": "Roswell Crash",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-season-6": {
+      "name": "Season 6",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-episode-33": {
+      "name": "Episode 33",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-18-1994": {
+      "name": "September 18, 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nbc": {
+      "name": "NBC",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lemay": {
+      "name": "LeMay",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john": {
+      "name": "John",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-december-9-2008": {
+      "name": "December 9, 2008",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-charleston": {
+      "name": "Charleston",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-south-carolina": {
+      "name": "South Carolina",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-arcadia-publishing": {
+      "name": "Arcadia Publishing",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-levy": {
+      "name": "Levy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-michael-m": {
+      "name": "Michael M",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-farah": {
+      "name": "Farah",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-popular-culture": {
+      "name": "Popular Culture",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-santa-barbara": {
+      "name": "Santa Barbara",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-california": {
+      "name": "California",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-abc-clio-isbn-978-1-4408-3833-0": {
+      "name": "ABC-CLIO.ISBN)978-1-4408-3833-0.-",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-19-2020": {
+      "name": "June 19, 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-trump-says-he-s-heard-interesting-things-about-roswell": {
+      "name": "Trump Says He's Heard 'Interesting' Things About Roswell",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-28-2021": {
+      "name": "April 28, 2021",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-andrew": {
+      "name": "Andrew",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pseudoscience-and-science-fiction": {
+      "name": "Pseudoscience and Science Fiction",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cham": {
+      "name": "Cham",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mcandrew": {
+      "name": "McAndrew",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james": {
+      "name": "James",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-roswell-report-case-closed-pdf": {
+      "name": "The Roswell Report: Case Closed(PDF",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-washington": {
+      "name": "Washington",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-dc": {
+      "name": "DC",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-us-government-printing-office": {
+      "name": "US Government Printing Office",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-hukle": {
+      "name": "Hukle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-costello-owen": {
+      "name": "Costello, Owen",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-30-1997": {
+      "name": "March 30, 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-the-roswell-reports": {
+      "name": "The Roswell Reports",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-6-2024": {
+      "name": "July 6, 2024",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-c-span": {
+      "name": "C-SPAN",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-national-archives": {
+      "name": "National Archives",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-august-17-2023": {
+      "name": "August 17, 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-1950s": {
+      "name": "the 1950s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-today": {
+      "name": "Today",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-google-books": {
+      "name": "Google Books",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bill": {
+      "name": "Bill",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bob": {
+      "name": "Bob",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-1982": {
+      "name": "July 1982",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-pratt-sensitive-pdf": {
+      "name": "Pratt Sensitive\"(PDF",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-27-2008": {
+      "name": "February 27, 2008",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rick": {
+      "name": "Rick",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-8-2020": {
+      "name": "February 8, 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-stranger-things": {
+      "name": "Stranger Things?\"",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-10-2020": {
+      "name": "February 10, 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-fort-worth-star-telegram-morning": {
+      "name": "Fort Worth Star-Telegram(Morning",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ed": {
+      "name": "ed.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nickell": {
+      "name": "Nickell",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joe": {
+      "name": "Joe",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mcgaha": {
+      "name": "McGaha",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-june-2012-the": {
+      "name": "May\u2013June 2012).\"The",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-36": {
+      "name": "36",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-committee-for-skeptical-inquiry": {
+      "name": "Committee for Skeptical Inquiry",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-26-2013": {
+      "name": "January 26, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-norris": {
+      "name": "Norris",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richelson": {
+      "name": "Richelson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jeffrey": {
+      "name": "Jeffrey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-11-2011": {
+      "name": "July 11, 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-dreamland": {
+      "name": "Dreamland",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-washington-decoded": {
+      "name": "Washington Decoded",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-5-2013": {
+      "name": "March 5, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kathryn-s": {
+      "name": "Kathryn S.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-1970s": {
+      "name": "the 1970s",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-american-democracy": {
+      "name": "American Democracy,",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-world-war-i": {
+      "name": "World War I",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-oxford-university-press": {
+      "name": "Oxford University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-smithsonian-institution": {
+      "name": "The Smithsonian Institution",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-karl-2001-roswell": {
+      "name": "Karl(2001).Roswell",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-26-1980": {
+      "name": "February 26, 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-national-enquirer": {
+      "name": "National Enquirer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kevin": {
+      "name": "Kevin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-donald": {
+      "name": "Donald",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard": {
+      "name": "Richard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-3-2011": {
+      "name": "June 3, 2011",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-annie-jacobsen-s": {
+      "name": "Annie Jacobsen's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-10-2015": {
+      "name": "November 10, 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-alan": {
+      "name": "Alan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-29-1994": {
+      "name": "(July 29, 1994",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-penske-media": {
+      "name": "Penske Media",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jeremy-r": {
+      "name": "Jeremy R.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sacred-space": {
+      "name": "Sacred Space",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-roswell-and-chimayo": {
+      "name": "Roswell and Chimay\u00f3",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-southwest": {
+      "name": "Southwest",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-doi-10-1353-jsw-2011-0004-jstor-41710086-s2cid-133475439": {
+      "name": "doi):10.1353/jsw.2011.0004.JSTOR)41710086.S2CID)133475439",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell-author-who-said-he-handled-ufo-crash-debris-dies": {
+      "name": "Roswell Author Who Said He Handled UFO Crash Debris Dies",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-76": {
+      "name": "76\"",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-august-8": {
+      "name": "August 8",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-16-2023": {
+      "name": "January 16, 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-4": {
+      "name": "April 4",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-saler": {
+      "name": "Saler",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-benson": {
+      "name": "Benson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ziegler": {
+      "name": "Ziegler",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles-moore": {
+      "name": "Charles; Moore",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles": {
+      "name": "Charles",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-genesis": {
+      "name": "Genesis",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-smithsonian-institution-press": {
+      "name": "Smithsonian Institution Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thor": {
+      "name": "Thor",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-14-1952": {
+      "name": "October 14, 1952",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-little-men-due-soon": {
+      "name": "Little Men Due Soon:",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-denver-post": {
+      "name": "The Denver Post",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-david-mathias": {
+      "name": "David Mathias",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kirk": {
+      "name": "Kirk",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-liz": {
+      "name": "Liz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-5-2021": {
+      "name": "June 5, 2021",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-truth-is-still": {
+      "name": "The Truth Is (Still",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-npr": {
+      "name": "NPR",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-8-2022": {
+      "name": "May 8, 2022",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-17-2015": {
+      "name": "November 17, 2015",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bill-simmons-interviews": {
+      "name": "Bill Simmons Interviews",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-obama": {
+      "name": "Obama",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-gq": {
+      "name": "GQ",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-2015-man-of-the-year": {
+      "name": "2015 Man of the Year",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-5-2017": {
+      "name": "November 5, 2017",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-29-2017": {
+      "name": "October 29, 2017",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-toby": {
+      "name": "Toby",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-of-new-mexico-press": {
+      "name": "University of New Mexico Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-roswell-files": {
+      "name": "The Roswell Files",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-23-1997": {
+      "name": "June 23, 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-19-2025": {
+      "name": "February 19, 2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-17": {
+      "name": "November 17",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-thompson-fritz": {
+      "name": "Thompson, Fritz",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-27-1991": {
+      "name": "October 27, 1991",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-roswell": {
+      "name": "The Roswell",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-entertainment-ie": {
+      "name": "Entertainment.ie",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-8-2022": {
+      "name": "July 8, 2022",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-29": {
+      "name": "April 29",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-falls-falling-disc-proves-ingenious-hoax": {
+      "name": "Falls Falling Disc Proves Ingenious Hoax",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-12-1947": {
+      "name": "July 12, 1947",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-episode-1": {
+      "name": "Episode 1",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-d-c": {
+      "name": "D.C.",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-united-states-air-force": {
+      "name": "United States Air Force",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-16-2013": {
+      "name": "February 16, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-28-2013": {
+      "name": "July 28, 2013",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-andy": {
+      "name": "Andy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-forgotten-tales": {
+      "name": "Forgotten Tales",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-history-press": {
+      "name": "The History Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-area-51": {
+      "name": "Area 51",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-st-martin-s-press": {
+      "name": "St. Martin's Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mike": {
+      "name": "Mike",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-19-2019": {
+      "name": "March 19, 2019",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-roswell-the-truth-is-out-there": {
+      "name": "Roswell: the Truth is Out There\"",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-new-zealand-herald": {
+      "name": "The New Zealand Herald",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-michael": {
+      "name": "James Michael",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-winter-2020": {
+      "name": "Winter 2020",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-us-air-force-s": {
+      "name": "The US Air Force's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-air-power-history": {
+      "name": "Air Power History",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jstor-26965566": {
+      "name": "JSTOR)26965566",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-wikimedia-commons": {
+      "name": "Wikimedia Commons",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-roswell-incident1947": {
+      "name": "Roswell incident1947",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-history1947": {
+      "name": "history1947",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1947hoaxes": {
+      "name": "1947Hoaxes",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-united-statesjuly-1947": {
+      "name": "the United StatesJuly 1947",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-united-statesroswell": {
+      "name": "the United StatesRoswell",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-new-mexicoufo": {
+      "name": "New MexicoUFO",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    }
+  },
+  "last_updated": "2026-03-29T14:04:43.266399+00:00"
 }

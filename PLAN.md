@@ -110,14 +110,37 @@ On PR merge:
 
 The global graph merge is always a full rebuild from fragments (it's fast -- just JSON concatenation + dedup). This avoids complex incremental merge logic.
 
-### D5: GitHub Actions Structure
+### D5: GitHub Actions Structure (Revised - PR-first processing)
 
-Three workflows:
-1. **`validate-pr.yml`** -- Runs on PR open/update. Validates YAML schema, checks file sizes, runs linting.
-2. **`process-sources.yml`** -- Runs on merge to main. Processes new sources, extracts entities, updates graph.
-3. **`deploy-pages.yml`** -- Runs after process-sources completes. Builds and deploys the visualization.
+Four workflows:
 
-Separation keeps concerns clean and allows re-running individual stages.
+1. **`validate-pr.yml`** -- Runs on PR open/update. Validates YAML schema. Fast (<30s).
+
+2. **`process-pr.yml`** -- Runs on PR after approval. Does the heavy processing:
+   - Trigger: `pull_request_review` [approved] OR push to PR branch when "approved" label present
+   - Gate: only runs if PR has "approved" label or an approving review (saves Actions minutes)
+   - Downloads PDFs from URLs, converts to markdown, runs NER + LLM extraction
+   - Commits results (sources/, graph/fragments/) back to the PR branch
+   - Posts a summary comment on the PR with entity counts, top entities, sample relationships, warnings
+   - If reviewer pushes changes (e.g., noise-terms.txt update), re-triggers automatically
+   - Reviewer can inspect committed fragments in the PR diff before merging
+
+3. **`merge-graph.yml`** -- Runs on push to main (paths: graph/fragments/**). Lightweight:
+   - Merges all fragments into global.jsonld (fast JSON assembly, no reprocessing)
+   - Commits global.jsonld + stats.json
+   - Triggers deploy
+
+4. **`deploy-pages.yml`** -- Runs after merge-graph completes. Deploys visualization to GitHub Pages.
+
+Key insight: all heavy processing happens on the PR branch, visible to reviewers before merge.
+The merge step is just graph assembly (<30s). This gives quality control before data enters the graph.
+
+**Fork PR handling:** For PRs from forks, the workflow cannot push to the fork branch. Instead:
+- Extraction results posted as workflow artifacts (downloadable)
+- Summary posted as PR comment
+- Maintainer can cherry-pick artifacts into the PR or merge and reprocess
+- For same-repo branches, bot commits directly to the PR branch
+- PR template should note: "Check 'Allow edits from maintainers' for automated processing"
 
 ### D6: LLM Cost Management
 

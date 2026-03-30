@@ -135,6 +135,72 @@ Four workflows:
 Key insight: all heavy processing happens on the PR branch, visible to reviewers before merge.
 The merge step is just graph assembly (<30s). This gives quality control before data enters the graph.
 
+### D7: Issue Form → PR Submission (No Git Required)
+
+Non-technical users submit sources via a GitHub Issue Form. A workflow converts the issue into a PR.
+
+**Issue form template** (`.github/ISSUE_TEMPLATE/submit-source.yml`):
+```yaml
+name: Submit a Source
+description: Add a document, website, or personal account to the knowledge graph
+labels: ["submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: A descriptive title for this source
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Source Type
+      options:
+        - PDF link
+        - Website
+        - Personal account
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the PDF or website (not needed for personal accounts)
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags (e.g., "ufo, roswell, military")
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the source and why it's relevant
+  - type: textarea
+    id: account_text
+    attributes:
+      label: Account Text
+      description: For personal accounts only - write your account here
+```
+
+**Workflow** (`.github/workflows/issue-to-pr.yml`):
+- Trigger: `issues: [opened]` with label "submission"
+- Parses issue form fields
+- Generates slug from title
+- Creates YAML submission file (and companion .md for accounts)
+- Creates branch `submission/<slug>`, commits, pushes, opens PR
+- Links PR back to issue in a comment
+- Issue closed automatically when PR merges
+
+This means the full user journey is:
+1. Click "New Issue" → "Submit a Source"
+2. Fill in the form
+3. Bot creates a PR
+4. Maintainer reviews and approves
+5. Processing runs on PR, results visible
+6. Merge → graph updated → visualization live
+
 **Fork PR handling:** For PRs from forks, the workflow cannot push to the fork branch. Instead:
 - Extraction results posted as workflow artifacts (downloadable)
 - Summary posted as PR comment

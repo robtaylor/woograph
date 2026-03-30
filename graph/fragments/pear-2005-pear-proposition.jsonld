@@ -1,0 +1,5658 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-2005-pear-proposition",
+  "name": "PEAR: 2005 Pear Proposition",
+  "entities": [
+    {
+      "@id": "source:pear-2005-pear-proposition",
+      "@type": "woo:Source",
+      "name": "PEAR: 2005 Pear Proposition"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-195-245-2005",
+      "@type": "Date",
+      "name": "195\u2013245, 2005",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "ROBERT G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research",
+      "@type": "Person",
+      "name": "BRENDA J. DUNNE Princeton Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-more-than-a-quarter-century",
+      "@type": "Date",
+      "name": "more than a quarter century",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-i-prologue",
+      "@type": "Person",
+      "name": "I. Prologue",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-26-year",
+      "@type": "Date",
+      "name": "26-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-j-dunne",
+      "@type": "Person",
+      "name": "J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-our-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "our Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:creativework-margins-of-reality-the-role-of-consciousness",
+      "@type": "CreativeWork",
+      "name": "Margins of Reality: The Role of Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-two-decades",
+      "@type": "Date",
+      "name": "two decades",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-www-princeton-edu-pear-i",
+      "@type": "Place",
+      "name": "www.princeton.edu/;pear/i",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-margins",
+      "@type": "Place",
+      "name": "Margins",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-r-j",
+      "@type": "Organization",
+      "name": "R.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-period-1977-79",
+      "@type": "Date",
+      "name": "the period 1977\u201379",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-june-1979",
+      "@type": "Date",
+      "name": "June 1979",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-engineering-school",
+      "@type": "Organization",
+      "name": "the Engineering School",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-this-day",
+      "@type": "Date",
+      "name": "this day",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-b-d",
+      "@type": "Place",
+      "name": "B.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-dean",
+      "@type": "Person",
+      "name": "Dean",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-school-of-engineering-and-applied-science",
+      "@type": "Organization",
+      "name": "the School of Engineering and Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-aerospace-sciences",
+      "@type": "Organization",
+      "name": "Aerospace Sciences",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-r-g-jahn-b-j-dunne",
+      "@type": "Person",
+      "name": "R. G. Jahn & B. J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-many-years",
+      "@type": "Date",
+      "name": "many years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-refs",
+      "@type": "Place",
+      "name": "Refs",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-r-g-jahn-b-j-dunne",
+      "@type": "Organization",
+      "name": "the \n\nR. G. Jahn & B. J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-first-decade",
+      "@type": "Date",
+      "name": "the first decade",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-2-3-10",
+      "@type": "Date",
+      "name": "2 3 10",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-5-3-10",
+      "@type": "Date",
+      "name": "5 3 10",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-same-early-period",
+      "@type": "Date",
+      "name": "the same early period",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-attempt-6",
+      "@type": "Person",
+      "name": "attempt.[(6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-years",
+      "@type": "Date",
+      "name": "the years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:creativework-the-barber-of-seville",
+      "@type": "CreativeWork",
+      "name": "The Barber of Seville",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-a-human-information-processing-group",
+      "@type": "Organization",
+      "name": "a \u2018\u2018Human Information Processing Group",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-each-year",
+      "@type": "Date",
+      "name": "each year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-friedrich",
+      "@type": "Person",
+      "name": "Friedrich",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-international-consciousness-research-laboratories",
+      "@type": "Organization",
+      "name": "the \u2018\u2018International Consciousness Research Laboratories",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-icrl",
+      "@type": "Organization",
+      "name": "ICRL",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-board-of-directors",
+      "@type": "Organization",
+      "name": "Board of Directors",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-peartree",
+      "@type": "Organization",
+      "name": "PEARtree",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-proceedings-of-the-institute-of-electronic-and-electrical-engineers",
+      "@type": "Organization",
+      "name": "the Proceedings of the Institute of Electronic and Electrical Engineers",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-psychic-phenomena",
+      "@type": "Organization",
+      "name": "Psychic Phenomena",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-an-engineering-perspective",
+      "@type": "Organization",
+      "name": "An Engineering Perspective",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-some-years-later",
+      "@type": "Date",
+      "name": "some years later",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-foundations-of-physics",
+      "@type": "Organization",
+      "name": "the Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-quantum-mechanics-of-consciousness-with-application",
+      "@type": "Organization",
+      "name": "the Quantum Mechanics of Consciousness with Application",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-same-period",
+      "@type": "Date",
+      "name": "the same period",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-peter-sturrock",
+      "@type": "Person",
+      "name": "Peter Sturrock",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-charter-members",
+      "@type": "Organization",
+      "name": "Charter Members",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-society",
+      "@type": "Organization",
+      "name": "Society",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-old-guard",
+      "@type": "Organization",
+      "name": "Old Guard",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-annual",
+      "@type": "Date",
+      "name": "annual",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:creativework-nobel",
+      "@type": "CreativeWork",
+      "name": "Nobel",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-daily",
+      "@type": "Date",
+      "name": "daily",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-sse-young-investigators",
+      "@type": "Organization",
+      "name": "the SSE Young Investigators",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-summer",
+      "@type": "Date",
+      "name": "summer",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-v-salient-correlations",
+      "@type": "Organization",
+      "name": "V. Salient Correlations",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-dl-1-4-0",
+      "@type": "Person",
+      "name": "dl \u00bc 0",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-pb-1-4",
+      "@type": "Person",
+      "name": "pb \u00bc",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-dl-1-4",
+      "@type": "Person",
+      "name": "dl \u00bc",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-linear",
+      "@type": "Organization",
+      "name": "linear",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-lo-reg-data",
+      "@type": "Organization",
+      "name": "LO REG Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-1-8-3",
+      "@type": "Date",
+      "name": "1.8 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-3-10-4",
+      "@type": "Date",
+      "name": "3 10|4)|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-anova",
+      "@type": "Organization",
+      "name": "ANOVA",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-earlier",
+      "@type": "Date",
+      "name": "earlier",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-random-mechanical-cascade",
+      "@type": "Organization",
+      "name": "Random Mechanical Cascade",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-random-mechanical-cascade",
+      "@type": "Organization",
+      "name": "the Random Mechanical Cascade",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-gaussian",
+      "@type": "Person",
+      "name": "Gaussian",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-several-days",
+      "@type": "Date",
+      "name": "several days",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-days",
+      "@type": "Date",
+      "name": "days",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-institut-fiir-grenzgebiete-der-psychologie",
+      "@type": "Organization",
+      "name": "the Institut fiir Grenzgebiete der Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-psychohygiene",
+      "@type": "Organization",
+      "name": "Psychohygiene",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-justus-liebig-universitat",
+      "@type": "Organization",
+      "name": "the Justus-Liebig-Universitat",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-ref",
+      "@type": "Place",
+      "name": "Ref",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-monte-carlo",
+      "@type": "Person",
+      "name": "Monte Carlo",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-york-dobyns",
+      "@type": "Person",
+      "name": "York Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-harald-atmanspacher",
+      "@type": "Person",
+      "name": "Harald Atmanspacher",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-ps-reg",
+      "@type": "Organization",
+      "name": "PS-REG",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-replication-study",
+      "@type": "Organization",
+      "name": "Replication Study",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-ref",
+      "@type": "Organization",
+      "name": "Ref",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-figures-13a",
+      "@type": "Date",
+      "name": "Figures 13a",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-strands",
+      "@type": "Place",
+      "name": "Strands",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-14a-through-d",
+      "@type": "Date",
+      "name": "14a through d",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-halloween",
+      "@type": "Date",
+      "name": "Halloween",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:creativework-beltane",
+      "@type": "CreativeWork",
+      "name": "Beltane",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-random-event-generator",
+      "@type": "Organization",
+      "name": "Random Event Generator",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-pendulum",
+      "@type": "Organization",
+      "name": "Pendulum",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-fountain",
+      "@type": "Place",
+      "name": "Fountain",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-robot",
+      "@type": "Person",
+      "name": "Robot",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-laboratory",
+      "@type": "Organization",
+      "name": "Laboratory",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-many-weeks",
+      "@type": "Date",
+      "name": "many weeks",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-10-year-olds",
+      "@type": "Date",
+      "name": "10-year-olds",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-sse-young-investigators-programs",
+      "@type": "Organization",
+      "name": "SSE Young Investigators Programs",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-academy",
+      "@type": "Organization",
+      "name": "Academy",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-many-months",
+      "@type": "Date",
+      "name": "many months",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-more-than-25-years-ago",
+      "@type": "Date",
+      "name": "more than 25 years ago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-paracelsus",
+      "@type": "Person",
+      "name": "Paracelsus",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-some-five-centuries-ago",
+      "@type": "Date",
+      "name": "some five centuries ago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-puthoff-targ-23",
+      "@type": "Organization",
+      "name": "Puthoff & Targ[(23",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-mid-1970s",
+      "@type": "Date",
+      "name": "the mid-1970s",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-mundelein-college",
+      "@type": "Organization",
+      "name": "Mundelein College",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-university-of-chicago-5-25",
+      "@type": "Organization",
+      "name": "the University of Chicago,[(5,25",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-refs",
+      "@type": "Place",
+      "name": "Refs",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-heisenberg",
+      "@type": "Person",
+      "name": "Heisenberg",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-francis-bacon",
+      "@type": "Person",
+      "name": "Francis Bacon",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-some-four-and-a-half-centuries-ago",
+      "@type": "Date",
+      "name": "some four and a half centuries ago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-bee",
+      "@type": "Organization",
+      "name": "bee",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-quantum-mechanics-of-consciousness",
+      "@type": "Organization",
+      "name": "Quantum Mechanics of Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-modular-models",
+      "@type": "Organization",
+      "name": "Modular Models",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-elementary",
+      "@type": "Person",
+      "name": "Elementary",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-consciousness-filters",
+      "@type": "Organization",
+      "name": "Consciousness Filters",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-consciousness",
+      "@type": "Organization",
+      "name": "Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-m-5",
+      "@type": "Place",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-filters",
+      "@type": "Person",
+      "name": "Filters",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-niels-bohr-s",
+      "@type": "Person",
+      "name": "Niels Bohr\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-beginning-of-section-iii",
+      "@type": "Date",
+      "name": "the beginning of Section III",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-signal",
+      "@type": "Organization",
+      "name": "Signal",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-4",
+      "@type": "Place",
+      "name": "][4",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-x-going-forward",
+      "@type": "Organization",
+      "name": "X. Going Forward",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-princeton",
+      "@type": "Organization",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-past-two-and-a-half-decades",
+      "@type": "Date",
+      "name": "the past two and a half decades",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-sse-young-investigators-program",
+      "@type": "Organization",
+      "name": "the SSE Young Investigators Program",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-from-day-to-day",
+      "@type": "Date",
+      "name": "from day to day",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-brigadoon",
+      "@type": "Organization",
+      "name": "Brigadoon",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-james-s-mcdonnell",
+      "@type": "Person",
+      "name": "James S. McDonnell",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-john-f-mcdonnell",
+      "@type": "Person",
+      "name": "John F. McDonnell",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-laurance-rockefeller",
+      "@type": "Person",
+      "name": "Laurance Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-richard-adams",
+      "@type": "Person",
+      "name": "Richard Adams",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-donald-webster",
+      "@type": "Person",
+      "name": "Donald Webster",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-john-fetzer",
+      "@type": "Person",
+      "name": "John Fetzer",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-the-many-years",
+      "@type": "Date",
+      "name": "the many years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-journal-of-the-society-for-psychical-research",
+      "@type": "Organization",
+      "name": "Journal of the Society for Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-y-h-bradish",
+      "@type": "Person",
+      "name": "Y. H., & Bradish",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-12-year",
+      "@type": "Date",
+      "name": "12-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-j-p",
+      "@type": "Person",
+      "name": "J. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-chicago",
+      "@type": "Place",
+      "name": "Chicago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-stanford",
+      "@type": "Organization",
+      "name": "Stanford",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-journal-of-parapsychology",
+      "@type": "Organization",
+      "name": "Journal of Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-e-g",
+      "@type": "Person",
+      "name": "E. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-ieee",
+      "@type": "Organization",
+      "name": "IEEE",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics",
+      "@type": "Organization",
+      "name": "Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering",
+      "@type": "Organization",
+      "name": "School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-b-j",
+      "@type": "Person",
+      "name": "B. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-r-d-jahn",
+      "@type": "Person",
+      "name": "R. D., & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-b-j-dobyns",
+      "@type": "Person",
+      "name": "B. J., Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-a-thompson",
+      "@type": "Person",
+      "name": "A. Thompson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-lettieri",
+      "@type": "Person",
+      "name": "Lettieri",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-mischo",
+      "@type": "Person",
+      "name": "Mischo",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-boller",
+      "@type": "Person",
+      "name": "Boller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-vaitl",
+      "@type": "Place",
+      "name": "Vaitl",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-houtkooper",
+      "@type": "Person",
+      "name": "Houtkooper",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-j-walter",
+      "@type": "Organization",
+      "name": "J., & Walter",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-mind-machine-interaction-consortium",
+      "@type": "Organization",
+      "name": "Mind/Machine Interaction Consortium",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-h-jahn",
+      "@type": "Organization",
+      "name": "H., & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-hartmann",
+      "@type": "Place",
+      "name": "Hartmann",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-f-1973",
+      "@type": "Date",
+      "name": "F. (1973",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-rudolf-steiner-publications",
+      "@type": "Person",
+      "name": "Rudolf Steiner Publications",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-puthoff",
+      "@type": "Organization",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-h-e-targ",
+      "@type": "Person",
+      "name": "H. E., & Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-bisaha",
+      "@type": "Place",
+      "name": "Bisaha",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-j-p-dunne",
+      "@type": "Person",
+      "name": "J. P., & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-washington",
+      "@type": "Place",
+      "name": "Washington",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-september-19-21-1977",
+      "@type": "Date",
+      "name": "September 19\u201321, 1977",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-ieee-systems",
+      "@type": "Organization",
+      "name": "IEEE Systems",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-man-and-cybernetics-society",
+      "@type": "Organization",
+      "name": "Man and Cybernetics Society",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-l-e-rhine-centenary-conference-on-cultivating-consciousness-for-enhancing-human-potential",
+      "@type": "Organization",
+      "name": "the L.E. Rhine Centenary Conference on \u2018\u2018Cultivating Consciousness for Enhancing Human Potential",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-wellness",
+      "@type": "Organization",
+      "name": "Wellness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-durham-nc",
+      "@type": "Organization",
+      "name": "Durham, NC",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-november-8-10-1991",
+      "@type": "Date",
+      "name": "November 8\u201310, 1991",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-rao",
+      "@type": "Person",
+      "name": "Rao",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-k-r-ed",
+      "@type": "Person",
+      "name": "K. R. (Ed",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-cultivating-consciousness-enhancing-human-potential",
+      "@type": "Organization",
+      "name": "Cultivating Consciousness: Enhancing Human Potential",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-heisenberg-w-1958",
+      "@type": "Place",
+      "name": "Heisenberg, W. (1958",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-harper-row",
+      "@type": "Organization",
+      "name": "Harper & Row",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-harper-torchbooks",
+      "@type": "Person",
+      "name": "Harper Torchbooks",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-bacon",
+      "@type": "Organization",
+      "name": "Bacon",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-novum-organum",
+      "@type": "Person",
+      "name": "Novum Organum",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-f-s-taylor",
+      "@type": "Person",
+      "name": "F. S. Taylor",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-london",
+      "@type": "Place",
+      "name": "London",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-toronto",
+      "@type": "Place",
+      "name": "Toronto",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-william-heinemann",
+      "@type": "Person",
+      "name": "William Heinemann",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-vector",
+      "@type": "Date",
+      "name": "Vector",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:creativework-m-5",
+      "@type": "CreativeWork",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-bohr-n-1961",
+      "@type": "Place",
+      "name": "Bohr, N. (1961",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-atomic-theory",
+      "@type": "Person",
+      "name": "Atomic Theory",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-cambridge-university-press",
+      "@type": "Organization",
+      "name": "Cambridge University Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-atmanspacher",
+      "@type": "Person",
+      "name": "Atmanspacher",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-the-ontic-epistemic-distinction-sufficient-to",
+      "@type": "Organization",
+      "name": "the Ontic/Epistemic-Distinction Sufficient to",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-laurikainen",
+      "@type": "Place",
+      "name": "Laurikainen",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-k-v-montonen",
+      "@type": "Person",
+      "name": "K. V., Montonen",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-s-sunnarborg",
+      "@type": "Organization",
+      "name": "S., & Sunnarborg",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-maxplanck-institut-fu-r-extraterrestrische",
+      "@type": "Organization",
+      "name": "MaxPlanck-Institut fu\u00a8r extraterrestrische",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:organization-physik",
+      "@type": "Organization",
+      "name": "Physik",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-garching",
+      "@type": "Place",
+      "name": "Garching",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-germany",
+      "@type": "Place",
+      "name": "Germany",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-70-years",
+      "@type": "Date",
+      "name": "70 Years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-helsinki",
+      "@type": "Place",
+      "name": "Helsinki",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-finland",
+      "@type": "Place",
+      "name": "Finland",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:date-13-16-june-1994",
+      "@type": "Date",
+      "name": "13\u201316 June 1994",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:person-gif-sur-yvette",
+      "@type": "Person",
+      "name": "Gif-sur-Yvette",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    },
+    {
+      "@id": "entity:place-france",
+      "@type": "Place",
+      "name": "France",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-pear-proposition"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-195-245-2005"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-a-quarter-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-prologue"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-26-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-our-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-margins-of-reality-the-role-of-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-decades"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-www-princeton-edu-pear-i"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-margins"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-period-1977-79"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-1979"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-engineering-school"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-this-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-school-of-engineering-and-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-aerospace-sciences"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-refs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-first-decade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-3-10"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-5-3-10"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-same-early-period"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-attempt-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-barber-of-seville"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-a-human-information-processing-group"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-each-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-friedrich"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-research-laboratories"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-board-of-directors"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-peartree"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-proceedings-of-the-institute-of-electronic-and-electrical-engineers"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychic-phenomena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-an-engineering-perspective"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-some-years-later"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-quantum-mechanics-of-consciousness-with-application"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-same-period"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter-sturrock"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-charter-members"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-old-guard"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-annual"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-nobel"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-daily"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-sse-young-investigators"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-summer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-v-salient-correlations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dl-1-4-0"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pb-1-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dl-1-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-linear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lo-reg-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-8-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-10-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-earlier"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-random-mechanical-cascade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gaussian"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-institut-fiir-grenzgebiete-der-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-justus-liebig-universitat"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ref"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ps-reg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-replication-study"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ref"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-figures-13a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-strands"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-14a-through-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-halloween"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-beltane"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pendulum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-fountain"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robot"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-weeks"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-year-olds"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sse-young-investigators-programs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-academy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-months"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-25-years-ago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paracelsus"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-some-five-centuries-ago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff-targ-23"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-mid-1970s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mundelein-college"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-of-chicago-5-25"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-refs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-heisenberg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-bacon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-some-four-and-a-half-centuries-ago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-mechanics-of-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-modular-models"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elementary"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness-filters"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-filters"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-beginning-of-section-iii"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-signal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-x-going-forward"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-two-and-a-half-decades"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-sse-young-investigators-program"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-from-day-to-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-brigadoon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-s-mcdonnell"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-f-mcdonnell"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-webster"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-fetzer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-many-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-the-society-for-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-thompson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-walter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction-consortium"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-h-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-hartmann"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-f-1973"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rudolf-steiner-publications"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-washington"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-september-19-21-1977"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee-systems"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-man-and-cybernetics-society"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-l-e-rhine-centenary-conference-on-cultivating-consciousness-for-enhancing-human-potential"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wellness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-durham-nc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-november-8-10-1991"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rao"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-k-r-ed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cultivating-consciousness-enhancing-human-potential"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-heisenberg-w-1958"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harper-row"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harper-torchbooks"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bacon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-novum-organum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-f-s-taylor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-toronto"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-william-heinemann"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-vector"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bohr-n-1961"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-atomic-theory"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cambridge-university-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-atmanspacher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ontic-epistemic-distinction-sufficient-to"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-laurikainen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-k-v-montonen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-sunnarborg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-maxplanck-institut-fu-r-extraterrestrische"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physik"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-garching"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-germany"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-70-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-helsinki"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-finland"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-13-16-june-1994"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gif-sur-yvette"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-france"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-pear-proposition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-our-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-margins-of-reality-the-role-of-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-margins-of-reality-the-role-of-consciousness"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-our-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-margins-of-reality-the-role-of-consciousness"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-two-decades"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-our-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-www-princeton-edu-pear-i"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-j"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-period-1977-79"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-engineering-school"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-margins"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-1979"
+      },
+      "predicate": "woo:followed",
+      "object": {
+        "@id": "entity:date-the-period-1977-79"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-this-day"
+      },
+      "predicate": "woo:followed",
+      "object": {
+        "@id": "entity:date-june-1979"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-school-of-engineering-and-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-j"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-d"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-d"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-j"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-school-of-engineering-and-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-j"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-aerospace-sciences"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-first-decade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-first-decade"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-the-same-period"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-psychic-phenomena"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-strands"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-board-of-directors"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-icrl"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-peartree"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-icrl"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter-sturrock"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-society-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-charter-members"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-society-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-nobel"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-bee"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-annual"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:organization-old-guard"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-dl-1-4-0"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-pb-1-4"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-dl-1-4"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-pb-1-4"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-random-mechanical-cascade"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-bee"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-replication-study"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-replication-study"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-earlier"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-figures-13a"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-2-3-10"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 0.85,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-society"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-halloween"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:creativework-beltane"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-14a-through-d"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff-targ-23"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-mid-1970s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-d"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-mundelein-college"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-d"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-university-of-chicago-5-25"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-b-j"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-j-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paracelsus"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-paracelsus"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-refs"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-heisenberg"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-bacon"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-bee"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-bacon"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-signal"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-bacon"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-bacon"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elementary"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum-mechanics-of-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-society"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-modular-models"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-m-5"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-beginning-of-section-iii"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness-filters"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-m-5"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness-filters"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-filters"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness-filters"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr-s"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-m-5"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-peartree"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-laboratory"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-bee"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-laboratory"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-earlier"
+      },
+      "confidence": 0.6,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-bee"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-b-j"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-j-dunne"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-cultivating-consciousness-enhancing-human-potential"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bacon"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-novum-organum"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    }
+  ]
+}

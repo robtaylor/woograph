@@ -1,0 +1,3472 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1996-information-consciousness-health",
+  "name": "PEAR: 1996 Information Consciousness Health",
+  "entities": [
+    {
+      "@id": "source:pear-1996-information-consciousness-health",
+      "@type": "woo:Source",
+      "name": "PEAR: 1996 Information Consciousness Health"
+    },
+    {
+      "@id": "entity:organization-consciousness",
+      "@type": "Organization",
+      "name": "CONSCIOUSNESS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "Robert G Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-school-of-engineering-and-applied-science",
+      "@type": "Organization",
+      "name": "the School of Engineering and Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-16-year",
+      "@type": "Date",
+      "name": "16-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-midway",
+      "@type": "Organization",
+      "name": "Midway",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-the-20th",
+      "@type": "Date",
+      "name": "the 20th",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-innovision-communications",
+      "@type": "Organization",
+      "name": "InnoVision Communications",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-aliso-viejo",
+      "@type": "Person",
+      "name": "Aliso Viejo",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-ca-92656",
+      "@type": "Date",
+      "name": "CA 92656",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-tel",
+      "@type": "Person",
+      "name": "Tel",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-einstein",
+      "@type": "Person",
+      "name": "Einstein",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-20th-century",
+      "@type": "Date",
+      "name": "20th century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-21st-century",
+      "@type": "Date",
+      "name": "21st century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-contempora",
+      "@type": "Place",
+      "name": "contempora",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-may-1996",
+      "@type": "Date",
+      "name": "MAY 1996",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-mommy",
+      "@type": "Person",
+      "name": "Mommy",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-william",
+      "@type": "Person",
+      "name": "William",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-cat-e-g-o-ry",
+      "@type": "Organization",
+      "name": "the cat e g o ry",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-go-tterda-mmerung",
+      "@type": "Person",
+      "name": "G\u00f6tterd\u00e4mmerung",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-the-first-half",
+      "@type": "Date",
+      "name": "the first half",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-va-s",
+      "@type": "Place",
+      "name": "va s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Re",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering",
+      "@type": "Organization",
+      "name": "School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-laborat-o",
+      "@type": "Person",
+      "name": "laborat o",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-university",
+      "@type": "Organization",
+      "name": "University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-princeton-human-information-processing",
+      "@type": "Organization",
+      "name": "the Princeton Human Information Processing",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-international-consciousness-re",
+      "@type": "Organization",
+      "name": "the International Consciousness Re",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-academy-of-consciousness-studies",
+      "@type": "Organization",
+      "name": "the Academy of Consciousness Studies",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-society-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "the Society of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-pear",
+      "@type": "Organization",
+      "name": "PEAR",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-u-s-n-e-s-s-e-n-v",
+      "@type": "Organization",
+      "name": "u s n e s s / e n v",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-a-l-l-y",
+      "@type": "Place",
+      "name": "a l l y",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-the-17-year",
+      "@type": "Date",
+      "name": "the 17- year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-s-o-p-h",
+      "@type": "Organization",
+      "name": "s o p h",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-the-next-one",
+      "@type": "Date",
+      "name": "the next one",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-operat-o-r-s-e",
+      "@type": "Organization",
+      "name": "operat o r s e",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-operat-o-r-s",
+      "@type": "Organization",
+      "name": "operat o r s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-s-u-l-t-s-c-o-m-m-e-n-s",
+      "@type": "Organization",
+      "name": "s u l t s c o m m e n s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-several-days",
+      "@type": "Date",
+      "name": "several days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-p-o-rt-e-d-t-h",
+      "@type": "Organization",
+      "name": "p o rt e d t h",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-i-o-n-f-l",
+      "@type": "Organization",
+      "name": "i o n f l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-ob-s-e-rvational-interpre",
+      "@type": "Organization",
+      "name": "the ob s e rvational interpre",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-a-l-l-e-d",
+      "@type": "Place",
+      "name": "a l l e d \u201c",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-copenhagen",
+      "@type": "Organization",
+      "name": "Copenhagen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-ob-s-e-rvation",
+      "@type": "Organization",
+      "name": "ob s e rvation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-p-l-e-m-e-n",
+      "@type": "Organization",
+      "name": "p l e m e n",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-u-s-n-e-s-s-re",
+      "@type": "Organization",
+      "name": "u s n e s s - re",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-s-u-l",
+      "@type": "Organization",
+      "name": "s u l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-perc",
+      "@type": "Place",
+      "name": "perc",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-i-v-e-d",
+      "@type": "Date",
+      "name": "i v e d",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-arthur",
+      "@type": "Person",
+      "name": "Arthur",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-s-l-e-e-p",
+      "@type": "Organization",
+      "name": "s l e e p",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:creativework-love",
+      "@type": "CreativeWork",
+      "name": "Love",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-rollo",
+      "@type": "Organization",
+      "name": "Rollo",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-st-john",
+      "@type": "Person",
+      "name": "St John",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-prince-louis-de-bro-g-l",
+      "@type": "Organization",
+      "name": "Prince Louis de Bro g l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-de-broglie",
+      "@type": "Person",
+      "name": "de Broglie",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "the McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-fetzer-institute",
+      "@type": "Organization",
+      "name": "the Fetzer Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-dc-webster",
+      "@type": "Person",
+      "name": "DC Webster",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-ohrstrom-foundation",
+      "@type": "Organization",
+      "name": "the Ohrstrom Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-james-w-ps",
+      "@type": "Person",
+      "name": "James W. Ps",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-new-yo",
+      "@type": "Person",
+      "name": "New Yo",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-dover-pu-b-l",
+      "@type": "Person",
+      "name": "Dover Pu b l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-3-2-7",
+      "@type": "Date",
+      "name": "3 2 7",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Researc",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-pu-b-l",
+      "@type": "Organization",
+      "name": "Pu b l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-summaries",
+      "@type": "Organization",
+      "name": "Summaries",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-august-19",
+      "@type": "Date",
+      "name": "August 19",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-9-5",
+      "@type": "Date",
+      "name": "9 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-dunne-bj",
+      "@type": "Person",
+      "name": "Dunne BJ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-harc",
+      "@type": "Person",
+      "name": "Harc",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-8-7",
+      "@type": "Date",
+      "name": "8 7",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-anomalous-physical-phenomena",
+      "@type": "Organization",
+      "name": "Anomalous Physical Phenomena",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-princeton-engineering",
+      "@type": "Organization",
+      "name": "Princeton Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-princeton-univ",
+      "@type": "Person",
+      "name": "Princeton Univ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-radin-di",
+      "@type": "Person",
+      "name": "Radin DI",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-nelson-rd",
+      "@type": "Person",
+      "name": "Nelson RD",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-found-phys",
+      "@type": "Person",
+      "name": "Found Phys",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-r-ps",
+      "@type": "Person",
+      "name": "R. Ps",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-dobyns-yh",
+      "@type": "Person",
+      "name": "Dobyns YH",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-random-eve",
+      "@type": "Person",
+      "name": "Random Eve",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-response-to-group-dy",
+      "@type": "Organization",
+      "name": "Response to Group Dy",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-8-3",
+      "@type": "Date",
+      "name": "8 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-0-3",
+      "@type": "Date",
+      "name": "0 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-ap-p-l",
+      "@type": "Organization",
+      "name": "School of Engineering/Ap p l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-targ-r",
+      "@type": "Person",
+      "name": "Targ R.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-institute-of-electrical",
+      "@type": "Organization",
+      "name": "Institute of Electrical",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-engineers",
+      "@type": "Organization",
+      "name": "Engineers",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-3-2-9",
+      "@type": "Date",
+      "name": "3 2 9",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-5-4",
+      "@type": "Date",
+      "name": "5 4",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-jahn-rg",
+      "@type": "Person",
+      "name": "Jahn RG",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-7-21-7-7-2",
+      "@type": "Date",
+      "name": "7 21-7 7 2",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-eddington-a",
+      "@type": "Person",
+      "name": "Eddington A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:creativework-the-nature-of-the-physical-wo-rl-d",
+      "@type": "CreativeWork",
+      "name": "The Nature of the Physical Wo rl d",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:place-ann-arbor",
+      "@type": "Place",
+      "name": "Ann Arbor",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-michigan-press",
+      "@type": "Organization",
+      "name": "Michigan Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-wi-l-l",
+      "@type": "Organization",
+      "name": "Wi l l",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-dell-publishing",
+      "@type": "Organization",
+      "name": "Dell Publishing",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:date-3-2-5",
+      "@type": "Date",
+      "name": "3 2 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-harper-row",
+      "@type": "Organization",
+      "name": "Harper & Row",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-james-ve",
+      "@type": "Person",
+      "name": "James Ve",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:person-broglie-l",
+      "@type": "Person",
+      "name": "Broglie L.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-po-m-e-rans",
+      "@type": "Organization",
+      "name": "Po m e rans",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    },
+    {
+      "@id": "entity:organization-physics",
+      "@type": "Organization",
+      "name": "Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-information-consciousness-health"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-school-of-engineering-and-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-midway"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-20th"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-innovision-communications"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-aliso-viejo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-ca-92656"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tel"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-einstein"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-20th-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-21st-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-contempora"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-may-1996"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mommy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-william"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-cat-e-g-o-ry"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-go-tterda-mmerung"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-first-half"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-va-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laborat-o"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-human-information-processing"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-re"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-academy-of-consciousness-studies"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-u-s-n-e-s-s-e-n-v"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a-l-l-y"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-17-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-o-p-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-next-one"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operat-o-r-s-e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operat-o-r-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-u-l-t-s-c-o-m-m-e-n-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-p-o-rt-e-d-t-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-o-n-f-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ob-s-e-rvational-interpre"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a-l-l-e-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-copenhagen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ob-s-e-rvation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-p-l-e-m-e-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-u-s-n-e-s-s-re"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-u-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-perc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-i-v-e-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arthur"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-l-e-e-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-love"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rollo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-st-john"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-prince-louis-de-bro-g-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-de-broglie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dc-webster"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-w-ps"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-new-yo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dover-pu-b-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2-7"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pu-b-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-summaries"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-august-19"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-9-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne-bj"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-8-7"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anomalous-physical-phenomena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton-univ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-radin-di"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-rd"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-found-phys"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-ps"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns-yh"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-random-eve"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-response-to-group-dy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-8-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-ap-p-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-targ-r"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-institute-of-electrical"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-engineers"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2-9"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-5-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn-rg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-7-21-7-7-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-eddington-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-nature-of-the-physical-wo-rl-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ann-arbor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-michigan-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wi-l-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dell-publishing"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harper-row"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-ve"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-broglie-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-po-m-e-rans"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-information-consciousness-health"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-innovision-communications"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-aliso-viejo"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-aliso-viejo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:date-ca-92656"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-einstein"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-20th-century"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-20th-century"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-21st-century"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mommy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-william"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-go-tterda-mmerung"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-school-of-engineering-and-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-school-of-engineering-and-applied-science"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laborat-o"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-human-information-processing"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-re"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-academy-of-consciousness-studies"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-of-scientific-exploration"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tel"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-may-1996"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-17-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-o-p-h"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operat-o-r-s-e"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operat-o-r-s"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operat-o-r-s"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-s-u-l-t-s-c-o-m-m-e-n-s"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-u-l-t-s-c-o-m-m-e-n-s"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-may-1996"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-p-o-rt-e-d-t-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-perc"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-perc"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-perc"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-may-1996"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-u-s-n-e-s-s-re"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-copenhagen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-physics"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ob-s-e-rvation"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-physics"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-p-l-e-m-e-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-physics"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-perc"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-l-e-e-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-s-l-e-e-p"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rollo"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-st-john"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-prince-louis-de-bro-g-l"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-engineers"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-love"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-dc-webster"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16-year"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-midway"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-20th"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-contempora"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-cat-e-g-o-ry"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-first-half"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-va-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-u-s-n-e-s-s-e-n-v"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a-l-l-y"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-next-one"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-o-n-f-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ob-s-e-rvational-interpre"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a-l-l-e-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-u-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-i-v-e-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arthur"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-de-broglie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-w-ps"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-new-yo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dover-pu-b-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2-7"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pu-b-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-summaries"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-august-19"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-9-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne-bj"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harc"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-8-7"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anomalous-physical-phenomena"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton-univ"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-radin-di"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-rd"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-found-phys"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-ps"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns-yh"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-random-eve"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-response-to-group-dy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-8-3"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-3"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-ap-p-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-targ-r"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-institute-of-electrical"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2-9"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-5-4"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn-rg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-7-21-7-7-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-eddington-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-nature-of-the-physical-wo-rl-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ann-arbor"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-michigan-press"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wi-l-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dell-publishing"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harper-row"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-ve"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-broglie-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-po-m-e-rans"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -1,0 +1,2548 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1994-linear-pendulum-damping-rate",
+  "name": "PEAR: 1994 Linear Pendulum Damping Rate",
+  "entities": [
+    {
+      "@id": "source:pear-1994-linear-pendulum-damping-rate",
+      "@type": "woo:Source",
+      "name": "PEAR: 1994 Linear Pendulum Damping Rate"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-a-linear-pendulum-experiment",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nA Linear Pendulum Experiment",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-r-d-netson",
+      "@type": "Person",
+      "name": "R. D. Netson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-g-j-brapish",
+      "@type": "Person",
+      "name": "G. J. BRApIsH",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research",
+      "@type": "Person",
+      "name": "B. J. DUNNE Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:place-c-131",
+      "@type": "Place",
+      "name": "C-131",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science-princeton-university",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-microsecond",
+      "@type": "Person",
+      "name": "microsecond",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-gg-2-845",
+      "@type": "Person",
+      "name": "\\gg= 2.845",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-dunne-nelson",
+      "@type": "Organization",
+      "name": "Dunne, & Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-al",
+      "@type": "Person",
+      "name": "al.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-nelson-jahn",
+      "@type": "Organization",
+      "name": "Nelson, & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-silica",
+      "@type": "Person",
+      "name": "silica",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-the-primary-components",
+      "@type": "Organization",
+      "name": "The Primary Components",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-megahertz",
+      "@type": "Organization",
+      "name": "megahertz",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-gpib",
+      "@type": "Organization",
+      "name": "GPIB",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-gwbasic",
+      "@type": "Organization",
+      "name": "GWBASIC",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-sensor-instruments-co",
+      "@type": "Organization",
+      "name": "Sensor Instruments Co.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-shaft",
+      "@type": "Organization",
+      "name": "Shaft",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:place-calibrations",
+      "@type": "Place",
+      "name": "Calibrations",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-nelson-bradish",
+      "@type": "Organization",
+      "name": "Nelson & Bradish",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:place-checksum",
+      "@type": "Place",
+      "name": "checksum",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:place-viai-2",
+      "@type": "Place",
+      "name": "Viai)/2",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-the-day",
+      "@type": "Date",
+      "name": "the day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-january-10-1990",
+      "@type": "Date",
+      "name": "January 10, 1990",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-february-1-1993",
+      "@type": "Date",
+      "name": "February 1, 1993",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-three-year",
+      "@type": "Date",
+      "name": "three-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-int-bl-comparisons",
+      "@type": "Organization",
+      "name": "INT - BL Comparisons",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-fbk",
+      "@type": "Organization",
+      "name": "Fbk",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-digital-fok-27-19-753-213-9-0-474-0-318-0-507-0-306-no-fbk-78-20-550-101-0-1-773-0-038-1-563-0-059",
+      "@type": "Organization",
+      "name": "|Digital Fok|27|~19.753|213.9|0.474|(0.318)|\u20140.507|(0.306)|\n|No Fbk|78|\u201420.550|101.0|-1.773|(0.038)|1.563|0.059|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-diff",
+      "@type": "Person",
+      "name": "Diff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-pan",
+      "@type": "Organization",
+      "name": "Pan",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-cumulative-deviation-of-intentions",
+      "@type": "Organization",
+      "name": "Cumulative Deviation of Intentions",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-instructed",
+      "@type": "Organization",
+      "name": "Instructed",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-the-male-local",
+      "@type": "Organization",
+      "name": "the Male Local",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-volitional",
+      "@type": "Organization",
+      "name": "Volitional",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-remote",
+      "@type": "Organization",
+      "name": "Remote",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-remote-data",
+      "@type": "Organization",
+      "name": "Remote Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-lo-vs-bl",
+      "@type": "Organization",
+      "name": "LO vs BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-cumulative-deviation-of-intentions",
+      "@type": "Organization",
+      "name": "Cumulative Deviation of Intentions (",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-volitional-data",
+      "@type": "Organization",
+      "name": "Volitional Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-local-data",
+      "@type": "Organization",
+      "name": "Local Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-1000-yt",
+      "@type": "Date",
+      "name": "1000+ yt",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-bl-bl",
+      "@type": "Organization",
+      "name": "BL BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-cumulative-deviation-remotes-excluding",
+      "@type": "Organization",
+      "name": "Cumulative Deviation, Remotes (Excluding",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-anova",
+      "@type": "Organization",
+      "name": "ANOVA",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-effects-11-947-4-2-987-2-845-0-025",
+      "@type": "Organization",
+      "name": "Effects|11.947|4|2.987|2.845|0.025|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-operators",
+      "@type": "Organization",
+      "name": "Operators",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-r-d-nelson-et-al",
+      "@type": "Person",
+      "name": "R.D. Nelson et al.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "the McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-the-john-e-fetzer-institute",
+      "@type": "Person",
+      "name": "the John E. Fetzer Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-the-ohrstrom-foundation-inc",
+      "@type": "Organization",
+      "name": "The Ohrstrom Foundation, Inc.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-helix-investments-ltd",
+      "@type": "Organization",
+      "name": "Helix Investments, Ltd.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S. Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-1-21",
+      "@type": "Date",
+      "name": "1,21",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-variance",
+      "@type": "Person",
+      "name": "Variance",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-bradish-g-j",
+      "@type": "Person",
+      "name": "Bradish G. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-princeton-nj",
+      "@type": "Person",
+      "name": "Princeton NJ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:date-june-1992",
+      "@type": "Date",
+      "name": "June, 1992",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    },
+    {
+      "@id": "entity:person-size",
+      "@type": "Person",
+      "name": "Size",
+      "aliases": [],
+      "mentionedIn": "source:pear-1994-linear-pendulum-damping-rate"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-a-linear-pendulum-experiment"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-netson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-brapish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-c-131"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-microsecond"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gg-2-845"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-silica"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-primary-components"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-megahertz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gpib"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gwbasic"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sensor-instruments-co"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-shaft"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-calibrations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson-bradish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-checksum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-viai-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-january-10-1990"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-february-1-1993"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-three-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-int-bl-comparisons"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-fbk"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-digital-fok-27-19-753-213-9-0-474-0-318-0-507-0-306-no-fbk-78-20-550-101-0-1-773-0-038-1-563-0-059"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-diff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-instructed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-male-local"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lo-vs-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-local-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1000-yt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bl-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cumulative-deviation-remotes-excluding"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-effects-11-947-4-2-987-2-845-0-025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson-et-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-the-john-e-fetzer-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ohrstrom-foundation-inc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-helix-investments-ltd"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-21"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-variance"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bradish-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton-nj"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-1992"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-size"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1994-linear-pendulum-damping-rate"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-primary-components"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-nelson-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-variance"
+      },
+      "predicate": "woo:caused",
+      "object": {
+        "@id": "entity:person-diff"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-netson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-brapish"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-c-131"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-megahertz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-gpib"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gpib"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-gwbasic"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gwbasic"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-sensor-instruments-co"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-silica"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-diff"
+      },
+      "confidence": 0.6,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-calibrations"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-variance"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-calibrations"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-day"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-nelson-bradish"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-calibrations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-checksum"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-viai-2"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-diff"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-volitional"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-january-10-1990"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-three-year"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-february-1-1993"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-three-year"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-int-bl-comparisons"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-three-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-diff"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-int-bl-comparisons"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-instructed"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-three-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-three-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-three-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lo-vs-bl"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-local-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-data"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-volitional-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-remote-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-variance"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-instructed"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-anova"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-cumulative-deviation-remotes-excluding"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-volitional"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-instructed"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-cumulative-deviation-of-intentions"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-remote-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-bl-bl"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-size"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-diff"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-al"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-d"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-anova"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-effects-11-947-4-2-987-2-845-0-025"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-variance"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-remote-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-volitional"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-diff"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-al"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-instructed"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-volitional"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-volitional"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-remote"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-volitional"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-remote-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-local-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    }
+  ]
+}

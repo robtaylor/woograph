@@ -1,0 +1,2035 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-2002-vector-representation-subliminal-seed-regime",
+  "name": "PEAR: 2002 Vector Representation Subliminal Seed Regime",
+  "entities": [
+    {
+      "@id": "source:pear-2002-vector-representation-subliminal-seed-regime",
+      "@type": "woo:Source",
+      "name": "PEAR: 2002 Vector Representation Subliminal Seed Regime"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-341-357-2002",
+      "@type": "Date",
+      "name": "341\u2013357, 2002",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-0892",
+      "@type": "Date",
+      "name": "0892-",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "ROBERT G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:place-new-jersey",
+      "@type": "Place",
+      "name": "New Jersey",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:creativework-m-5",
+      "@type": "CreativeWork",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-elementary",
+      "@type": "Person",
+      "name": "Elementary",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:place-background",
+      "@type": "Place",
+      "name": "Background",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "Robert G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-rigorousa",
+      "@type": "Organization",
+      "name": "|rigorous\u00c1",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-feminine-words-a",
+      "@type": "Person",
+      "name": "feminine|words|\u00c1",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-i-oo-s",
+      "@type": "Organization",
+      "name": "i Oo \u02c6 S",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:place-s12",
+      "@type": "Place",
+      "name": "S12",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-s1-s2",
+      "@type": "Person",
+      "name": "S1 + S2",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-vector-summations",
+      "@type": "Person",
+      "name": "Vector Summations",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-br-2s1s2",
+      "@type": "Person",
+      "name": "br>2S1S2",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-22-be-linear",
+      "@type": "Date",
+      "name": "22[be][linear",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-s12",
+      "@type": "Organization",
+      "name": "S12",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-2-1-2",
+      "@type": "Date",
+      "name": "2 1 2",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-2-respectively",
+      "@type": "Date",
+      "name": "2[,][respectively",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:place-schr-fy",
+      "@type": "Place",
+      "name": "Schr Fy",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-appendix",
+      "@type": "Person",
+      "name": "Appendix",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-the-c",
+      "@type": "Organization",
+      "name": "the \u00aeC / \u00ae",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-interpretations",
+      "@type": "Person",
+      "name": "Interpretations",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-daily",
+      "@type": "Date",
+      "name": "daily",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:place-m-5",
+      "@type": "Place",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-ss-s",
+      "@type": "Organization",
+      "name": "SS \u02c6 S",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-the-end-of-the-day",
+      "@type": "Date",
+      "name": "the end of the day",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-brenda-dunne",
+      "@type": "Person",
+      "name": "Brenda Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-york-dobyns",
+      "@type": "Person",
+      "name": "York Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-harald-atmanspacher",
+      "@type": "Person",
+      "name": "Harald Atmanspacher",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-lisa-langelier-marks",
+      "@type": "Person",
+      "name": "Lisa Langelier-Marks",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-elissa-hoeger",
+      "@type": "Person",
+      "name": "Elissa Hoeger",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-psychologie",
+      "@type": "Organization",
+      "name": "Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-psychohygiene",
+      "@type": "Organization",
+      "name": "Psychohygiene",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-the-lifebridge-foundation",
+      "@type": "Organization",
+      "name": "The Lifebridge Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-the-center-for-the-science-of-life",
+      "@type": "Organization",
+      "name": "The Center for the Science of Life",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-richard-adams",
+      "@type": "Person",
+      "name": "Richard Adams",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-george-ohrstrom",
+      "@type": "Person",
+      "name": "George Ohrstrom",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-laurance-rockefeller",
+      "@type": "Person",
+      "name": "Laurance Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-vector",
+      "@type": "Date",
+      "name": "Vector",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-y-h-bradish",
+      "@type": "Person",
+      "name": "Y. H., & Bradish",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-12-year",
+      "@type": "Date",
+      "name": "12-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:date-25-years",
+      "@type": "Date",
+      "name": "25 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:organization-technical-note",
+      "@type": "Organization",
+      "name": "Technical Note",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2002-vector-representation-subliminal-seed-regime"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-341-357-2002"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0892"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-jersey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elementary"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-background"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rigorousa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-feminine-words-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-oo-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-s12"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s1-s2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-vector-summations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-2s1s2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-22-be-linear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s12"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-1-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-respectively"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-schr-fy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-c"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-interpretations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-daily"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ss-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-end-of-the-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lisa-langelier-marks"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-center-for-the-science-of-life"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-george-ohrstrom"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-vector"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-25-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-technical-note"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2002-vector-representation-subliminal-seed-regime"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-341-357-2002"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-jersey"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s12"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-s1-s2"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s12"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-s12"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-interpretations"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-schr-fy"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-vector"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elementary"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-s12"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-note"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-note"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0892"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-background"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rigorousa"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-feminine-words-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-oo-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-s12"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-vector-summations"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-2s1s2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-22-be-linear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-1-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-respectively"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-c"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-daily"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ss-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-end-of-the-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lisa-langelier-marks"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-center-for-the-science-of-life"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-george-ohrstrom"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-25-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-vector"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

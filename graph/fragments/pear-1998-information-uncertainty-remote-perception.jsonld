@@ -1,0 +1,6977 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1998-information-uncertainty-remote-perception",
+  "name": "PEAR: 1998 Information Uncertainty Remote Perception",
+  "entities": [
+    {
+      "@id": "source:pear-1998-information-uncertainty-remote-perception",
+      "@type": "woo:Source",
+      "name": "PEAR: 1998 Information Uncertainty Remote Perception"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-207-241-2003",
+      "@type": "Date",
+      "name": "207\u2013241, 2003",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-j-dunne",
+      "@type": "Person",
+      "name": "J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "ROBERT G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-princeton-engineering",
+      "@type": "Organization",
+      "name": "Princeton Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-some-25-years",
+      "@type": "Date",
+      "name": "some 25 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-b-j-dunne-r-g-jahn",
+      "@type": "Person",
+      "name": "B. J. Dunne & R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-background",
+      "@type": "Place",
+      "name": "Background",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-paracelsus",
+      "@type": "Person",
+      "name": "Paracelsus",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-the-mid-1970s",
+      "@type": "Date",
+      "name": "the mid-1970s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-puthoff",
+      "@type": "Organization",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-stanford-research-institute",
+      "@type": "Organization",
+      "name": "Stanford Research Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-the-subsequent-quarter-century",
+      "@type": "Date",
+      "name": "the subsequent quarter century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-between-1976-and-1999",
+      "@type": "Date",
+      "name": "between 1976 and 1999",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-between-1976-and-1979",
+      "@type": "Date",
+      "name": "between 1976 and 1979",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-b-j-d",
+      "@type": "Organization",
+      "name": "B.J.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-mundelein-remote-perception-research",
+      "@type": "Organization",
+      "name": "Mundelein \n\nRemote Perception Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-chicago",
+      "@type": "Place",
+      "name": "Chicago",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-university-of-chicago-27-28",
+      "@type": "Organization",
+      "name": "the University of Chicago,[(27,28",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-photographs",
+      "@type": "Person",
+      "name": "Photographs",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-statistical-evaluations",
+      "@type": "Organization",
+      "name": "Statistical Evaluations",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-algorithms-23",
+      "@type": "Organization",
+      "name": "algorithms.[(23",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-prp-data",
+      "@type": "Organization",
+      "name": "PRP Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-n-5",
+      "@type": "Person",
+      "name": "N|5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-technical-report",
+      "@type": "Organization",
+      "name": "Technical Report",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-method-a",
+      "@type": "Organization",
+      "name": "Method A",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-numbers",
+      "@type": "Organization",
+      "name": "Numbers",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-several-years",
+      "@type": "Date",
+      "name": "several years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-e-g-ab-initio",
+      "@type": "Organization",
+      "name": "e.g. ab initio",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-seasonal",
+      "@type": "Date",
+      "name": "seasonal",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-non-formal-trials",
+      "@type": "Organization",
+      "name": "Non-Formal Trials",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-br-44",
+      "@type": "Person",
+      "name": "br>44",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-br-3",
+      "@type": "Organization",
+      "name": "br>3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-br-31",
+      "@type": "Person",
+      "name": "br>31",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-3-1029",
+      "@type": "Date",
+      "name": "3 1029",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-3-1024",
+      "@type": "Date",
+      "name": "3 1024",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-3-1028",
+      "@type": "Date",
+      "name": "3 1028",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-br-10",
+      "@type": "Person",
+      "name": "br>10",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-3-1025",
+      "@type": "Date",
+      "name": "3 1025",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-ab-initio-data",
+      "@type": "Organization",
+      "name": "ab initio data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-princeton",
+      "@type": "Organization",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-initio-data-summaries",
+      "@type": "Organization",
+      "name": "Initio Data Summaries",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-br-24",
+      "@type": "Person",
+      "name": "br>24",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-br-83",
+      "@type": "Person",
+      "name": "br>83",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-br-5321",
+      "@type": "Person",
+      "name": "br>.5321",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-br-21",
+      "@type": "Organization",
+      "name": "br>21",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-2-br-62-br-winter",
+      "@type": "Date",
+      "name": "2%)<br>62%<br>Winter",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-refs",
+      "@type": "Place",
+      "name": "Refs",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-time-dependencies",
+      "@type": "Organization",
+      "name": "Time Dependencies",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-several-days",
+      "@type": "Date",
+      "name": "several days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-pear",
+      "@type": "Organization",
+      "name": "PEAR",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-remote-perception-research",
+      "@type": "Organization",
+      "name": "Remote Perception Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-four-years",
+      "@type": "Date",
+      "name": "four years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-method-a",
+      "@type": "Person",
+      "name": "Method A",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:event-table-5",
+      "@type": "Event",
+      "name": "Table 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-18-years-earlier",
+      "@type": "Date",
+      "name": "18 years earlier",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-distributive-data",
+      "@type": "Organization",
+      "name": "Distributive Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:event-series",
+      "@type": "Event",
+      "name": "Series",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-remote-perception-research",
+      "@type": "Organization",
+      "name": "the \n\nRemote Perception Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-ex",
+      "@type": "Person",
+      "name": "|Ex",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-3-1026-initial-trials-168-29-9-21-23-4-582-354-2",
+      "@type": "Date",
+      "name": "3 1026|\n|Initial trials|168|29|9|21|23|4.582|.354|2",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-41",
+      "@type": "Organization",
+      "name": "\u2019\u2019[(41",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-insights",
+      "@type": "Person",
+      "name": "Insights",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-oracle",
+      "@type": "Person",
+      "name": "Oracle",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-delphi",
+      "@type": "Organization",
+      "name": "Delphi",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-greece",
+      "@type": "Place",
+      "name": "Greece",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-pythia",
+      "@type": "Place",
+      "name": "Pythia",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-i-ching",
+      "@type": "Organization",
+      "name": "the I Ching",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-carl-jung",
+      "@type": "Person",
+      "name": "Carl Jung",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-more-than-30-years",
+      "@type": "Date",
+      "name": "more than 30 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-foreword",
+      "@type": "Organization",
+      "name": "Foreword",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-richard-wilhelm",
+      "@type": "Person",
+      "name": "Richard Wilhelm",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-jung",
+      "@type": "Person",
+      "name": "Jung",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-jung-s",
+      "@type": "Person",
+      "name": "Jung\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-roger-nelson",
+      "@type": "Person",
+      "name": "Roger Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-york-dobyns",
+      "@type": "Person",
+      "name": "York Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-elissa-hoeger",
+      "@type": "Person",
+      "name": "Elissa Hoeger",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-laurance-rockefeller",
+      "@type": "Person",
+      "name": "Laurance Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-richard-adams",
+      "@type": "Person",
+      "name": "Richard Adams",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-psychologie",
+      "@type": "Organization",
+      "name": "Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-psychohygiene",
+      "@type": "Organization",
+      "name": "Psychohygiene",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-program-25-appx",
+      "@type": "Place",
+      "name": "program.[[25(Appx",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-a-cumulative",
+      "@type": "Person",
+      "name": "A. Cumulative",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-hartmann",
+      "@type": "Place",
+      "name": "Hartmann",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-f-1973",
+      "@type": "Date",
+      "name": "F. (1973",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-rudolf-steiner",
+      "@type": "Person",
+      "name": "Rudolf Steiner",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-h-e",
+      "@type": "Person",
+      "name": "H. E.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-h-e-puthoff",
+      "@type": "Person",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-h-e-targ",
+      "@type": "Person",
+      "name": "H. E., & Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-ieee",
+      "@type": "Organization",
+      "name": "IEEE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-allen",
+      "@type": "Person",
+      "name": "Allen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-cohen",
+      "@type": "Person",
+      "name": "Cohen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-goolsby",
+      "@type": "Person",
+      "name": "Goolsby",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-morris",
+      "@type": "Organization",
+      "name": "& Morris",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-r-l",
+      "@type": "Person",
+      "name": "R. L.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-morris",
+      "@type": "Person",
+      "name": "Morris",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-j-d-roll",
+      "@type": "Organization",
+      "name": "J. D., Roll",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-w-g",
+      "@type": "Person",
+      "name": "W. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-research-in-parapsychology",
+      "@type": "Organization",
+      "name": "Research in Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-metuchen",
+      "@type": "Person",
+      "name": "Metuchen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-scarecrow-press",
+      "@type": "Person",
+      "name": "Scarecrow Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-hastings",
+      "@type": "Person",
+      "name": "Hastings",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-d-b",
+      "@type": "Person",
+      "name": "D. B.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-rauscher",
+      "@type": "Person",
+      "name": "Rauscher",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-weissmann",
+      "@type": "Place",
+      "name": "Weissmann",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-sarfatti",
+      "@type": "Organization",
+      "name": "Sarfatti",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-j-sirag",
+      "@type": "Organization",
+      "name": "J., & Sirag",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-s-p",
+      "@type": "Person",
+      "name": "S. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-vallee",
+      "@type": "Person",
+      "name": "Vallee",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-whitson",
+      "@type": "Person",
+      "name": "Whitson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-t-w",
+      "@type": "Person",
+      "name": "T. W.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-bogart",
+      "@type": "Place",
+      "name": "Bogart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-d-n",
+      "@type": "Person",
+      "name": "D. N.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-palmer",
+      "@type": "Place",
+      "name": "Palmer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-c-t",
+      "@type": "Person",
+      "name": "C. T.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-mind-reach",
+      "@type": "Person",
+      "name": "Mind Reach",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-chotas",
+      "@type": "Organization",
+      "name": "Chotas",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-durham",
+      "@type": "Place",
+      "name": "Durham",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-journal-of-parapsychology",
+      "@type": "Organization",
+      "name": "Journal of Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-puthoff",
+      "@type": "Place",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-h-e",
+      "@type": "Person",
+      "name": "H. E.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-the-nature-of-extrasensory-perception",
+      "@type": "Place",
+      "name": "the Nature of Extrasensory Perception",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-karnes",
+      "@type": "Person",
+      "name": "Karnes",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-klusman",
+      "@type": "Place",
+      "name": "Klusman",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-zetetic-scholar",
+      "@type": "Person",
+      "name": "Zetetic Scholar",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-targ",
+      "@type": "Place",
+      "name": "Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-role-of-consciousness",
+      "@type": "Organization",
+      "name": "The Role of Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-utts",
+      "@type": "Place",
+      "name": "Utts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-j-m",
+      "@type": "Person",
+      "name": "J. M.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-humphrey",
+      "@type": "Person",
+      "name": "Humphrey",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-b-s",
+      "@type": "Person",
+      "name": "B. S.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-luke",
+      "@type": "Person",
+      "name": "Luke",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-w-l-w",
+      "@type": "Person",
+      "name": "W. L. W.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-frivoid",
+      "@type": "Place",
+      "name": "Frivoid",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-v-v",
+      "@type": "Person",
+      "name": "V. V.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-american-institutes-for-research",
+      "@type": "Organization",
+      "name": "The American Institutes for Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-department-of-defense-s-star-gate",
+      "@type": "Organization",
+      "name": "the Department of Defense\u2019s STAR GATE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-the-1970s",
+      "@type": "Date",
+      "name": "the 1970s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-bremseth",
+      "@type": "Person",
+      "name": "Bremseth",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-l-r",
+      "@type": "Person",
+      "name": "L. R.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-asymmetric-warfare-implications",
+      "@type": "Person",
+      "name": "Asymmetric Warfare Implications",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-marine-corps-war-college",
+      "@type": "Organization",
+      "name": "Marine Corps War College",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-marine-corps-university",
+      "@type": "Organization",
+      "name": "Marine Corps University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-marine-corps-combat-development-command",
+      "@type": "Organization",
+      "name": "Marine Corps Combat Development Command",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-quantico",
+      "@type": "Place",
+      "name": "Quantico",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-e-g",
+      "@type": "Person",
+      "name": "E. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-e-g-curtis",
+      "@type": "Person",
+      "name": "E. G., Curtis",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-i-a",
+      "@type": "Person",
+      "name": "I. A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-b-j-dobyns",
+      "@type": "Person",
+      "name": "B. J., Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-s-m",
+      "@type": "Person",
+      "name": "S. M.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research, School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-25-years",
+      "@type": "Date",
+      "name": "25 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-technical-note",
+      "@type": "Organization",
+      "name": "Technical Note",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-j-p",
+      "@type": "Person",
+      "name": "J. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-stanford",
+      "@type": "Organization",
+      "name": "Stanford",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-bisaha",
+      "@type": "Place",
+      "name": "Bisaha",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-j-p-dunne",
+      "@type": "Person",
+      "name": "J. P., & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-tart",
+      "@type": "Place",
+      "name": "Tart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-mind",
+      "@type": "Person",
+      "name": "Mind",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-solfvin",
+      "@type": "Person",
+      "name": "Solfvin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-kelly",
+      "@type": "Person",
+      "name": "Kelly",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-american-society-for-psychical-research",
+      "@type": "Organization",
+      "name": "the American Society for Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-93-109",
+      "@type": "Place",
+      "name": "93\u2013109.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-committee-on-human-development-university-of-chicago",
+      "@type": "Organization",
+      "name": "Committee on Human Development, University of Chicago",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-andresen",
+      "@type": "Person",
+      "name": "Andresen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-experimental-remote-perception-trials",
+      "@type": "Organization",
+      "name": "Experimental Remote Perception Trials",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-department-of-civil-engineering",
+      "@type": "Organization",
+      "name": "Department of Civil Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-rao",
+      "@type": "Person",
+      "name": "Rao",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-k-r-ed",
+      "@type": "Person",
+      "name": "K. R. (Ed",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-cultivating-consciousness-for-enhancing-human-potential",
+      "@type": "Organization",
+      "name": "Cultivating Consciousness for Enhancing Human Potential",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-wellness",
+      "@type": "Organization",
+      "name": "Wellness",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-technical-note",
+      "@type": "Place",
+      "name": "Technical Note",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-hansen",
+      "@type": "Person",
+      "name": "Hansen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-g-p",
+      "@type": "Person",
+      "name": "G. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-j-markwick",
+      "@type": "Organization",
+      "name": "J., & Markwick",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-markwick-statistical",
+      "@type": "Person",
+      "name": "Markwick: Statistical",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-y-h-bradish",
+      "@type": "Person",
+      "name": "Y. H., & Bradish",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-12-year",
+      "@type": "Date",
+      "name": "12-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-mcnamara",
+      "@type": "Person",
+      "name": "McNamara",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-wiesenfeld",
+      "@type": "Person",
+      "name": "Wiesenfeld",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-physical-review-letters",
+      "@type": "Organization",
+      "name": "Physical Review Letters",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-physical-review-a",
+      "@type": "Organization",
+      "name": "Physical Review A",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-jones",
+      "@type": "Person",
+      "name": "Jones",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-r-j-rees",
+      "@type": "Person",
+      "name": "R. J., Rees",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-spencer",
+      "@type": "Person",
+      "name": "Spencer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-p-s-shore",
+      "@type": "Person",
+      "name": "P. S., & Shore",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-optical-society-of-america",
+      "@type": "Organization",
+      "name": "the Optical Society of America",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-shahverdiev",
+      "@type": "Place",
+      "name": "Shahverdiev",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:date-87-154101",
+      "@type": "Date",
+      "name": "87, 154101",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-c-g",
+      "@type": "Person",
+      "name": "C. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-the-i-ching-r-wilhelm",
+      "@type": "Organization",
+      "name": "The I Ching (R. Wilhelm",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:place-trans",
+      "@type": "Place",
+      "name": "trans.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-princeton",
+      "@type": "Person",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:organization-princeton-university-press",
+      "@type": "Organization",
+      "name": "Princeton University Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-davis-floyd",
+      "@type": "Person",
+      "name": "Davis-Floyd",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    },
+    {
+      "@id": "entity:person-arvidson",
+      "@type": "Person",
+      "name": "Arvidson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1998-information-uncertainty-remote-perception"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-207-241-2003"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-some-25-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-background"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paracelsus"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-mid-1970s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford-research-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-subsequent-quarter-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-between-1976-and-1999"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-between-1976-and-1979"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-b-j-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mundelein-remote-perception-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-of-chicago-27-28"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-photographs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-statistical-evaluations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-algorithms-23"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-prp-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-n-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-technical-report"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-method-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-numbers"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-e-g-ab-initio"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-seasonal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-non-formal-trials"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-31"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1029"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1024"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1028"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-10"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ab-initio-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-initio-data-summaries"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-24"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-83"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-5321"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-21"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-br-62-br-winter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-refs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-time-dependencies"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-method-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-18-years-earlier"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-distributive-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-remote-perception-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ex"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1026-initial-trials-168-29-9-21-23-4-582-354-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-41"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-insights"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oracle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-delphi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-greece"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-pythia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-i-ching"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carl-jung"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-30-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foreword"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-wilhelm"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jung"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jung-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-program-25-appx"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-cumulative"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-hartmann"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-f-1973"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rudolf-steiner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-allen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cohen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-goolsby"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-morris"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morris"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-d-roll"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-metuchen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-scarecrow-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hastings"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rauscher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-weissmann"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sarfatti"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-sirag"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-vallee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-whitson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-t-w"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bogart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-palmer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mind-reach"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chotas"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-durham"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-nature-of-extrasensory-perception"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karnes"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-klusman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-zetetic-scholar"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-role-of-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-m"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humphrey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-luke"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-l-w"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-frivoid"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-v-v"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-institutes-for-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-department-of-defense-s-star-gate"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-1970s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bremseth"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l-r"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-asymmetric-warfare-implications"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-marine-corps-war-college"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-marine-corps-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-marine-corps-combat-development-command"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-quantico"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g-curtis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-m"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-25-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-technical-note"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-tart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mind"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-solfvin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kelly"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-society-for-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-93-109"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-committee-on-human-development-university-of-chicago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-andresen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-experimental-remote-perception-trials"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-department-of-civil-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rao"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-k-r-ed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cultivating-consciousness-for-enhancing-human-potential"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wellness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-technical-note"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-markwick"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-markwick-statistical"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcnamara"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wiesenfeld"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physical-review-letters"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physical-review-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jones"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-j-rees"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-spencer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-p-s-shore"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-optical-society-of-america"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shahverdiev"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-87-154101"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-i-ching-r-wilhelm"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-trans"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-davis-floyd"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arvidson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1998-information-uncertainty-remote-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paracelsus"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-background"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-puthoff"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-stanford-research-institute"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-targ"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-stanford-research-institute"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-some-25-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-b-j-d"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-puthoff"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-report"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-targ"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-report"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-photographs"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-targ"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-statistical-evaluations"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-chicago"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-non-formal-trials"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-photographs"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-non-formal-trials"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-method-a"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-prp-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-technical-report"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-method-a"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-method-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-numbers"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-prp-data"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-e-g-ab-initio"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-prp-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-seasonal"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-prp-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-targ"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-non-formal-trials"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-numbers"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-targ"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-targ"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ab-initio-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-prp-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-targ"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-refs"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-time-dependencies"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-several-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-initio-data-summaries"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ab-initio-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-ab-initio-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-method-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-numbers"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-prp-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-prp-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-distributive-data"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-5"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-5"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-5"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-5"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-5"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-18-years-earlier"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-5"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oracle"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-delphi"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-delphi"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-greece"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-pythia"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:person-oracle"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carl-jung"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foreword"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-carl-jung"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-i-ching"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-wilhelm"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foreword"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-i-ching"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jung"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-mind"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jung"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-mind"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-numbers"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-i-ching"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-targ"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-program-25-appx"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-allen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cohen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-goolsby"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morris"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-l"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morris"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-d-roll"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morris"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-l"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rauscher"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-weissmann"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sarfatti"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-sirag"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-p"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-research-in-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-207-241-2003"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-mid-1970s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-subsequent-quarter-century"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-between-1976-and-1999"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-between-1976-and-1979"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mundelein-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-of-chicago-27-28"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-algorithms-23"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-n-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-method-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-3"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-31"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1029"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1024"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1028"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-10"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1025"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-24"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-83"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-5321"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-21"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-br-62-br-winter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-remote-perception-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ex"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-1026-initial-trials-168-29-9-21-23-4-582-354-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-41"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-insights"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-30-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jung-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-cumulative"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-hartmann"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-f-1973"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rudolf-steiner"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-puthoff"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-targ"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-morris"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-metuchen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-scarecrow-press"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hastings"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-b"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-vallee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-whitson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-t-w"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bogart"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-palmer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mind-reach"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chotas"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-durham"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-nature-of-extrasensory-perception"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karnes"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-klusman"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-zetetic-scholar"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-role-of-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-m"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humphrey"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-luke"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-l-w"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-frivoid"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-v-v"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-institutes-for-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-department-of-defense-s-star-gate"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-1970s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bremseth"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l-r"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-asymmetric-warfare-implications"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-marine-corps-war-college"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-marine-corps-university"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-marine-corps-combat-development-command"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-quantico"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g-curtis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-m"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-25-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-technical-note"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-tart"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-solfvin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kelly"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-society-for-psychical-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-93-109"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-committee-on-human-development-university-of-chicago"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-andresen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-experimental-remote-perception-trials"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-department-of-civil-engineering"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rao"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-k-r-ed"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cultivating-consciousness-for-enhancing-human-potential"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wellness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-technical-note"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-markwick"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-markwick-statistical"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcnamara"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wiesenfeld"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physical-review-letters"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physical-review-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jones"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-j-rees"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-spencer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-p-s-shore"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-optical-society-of-america"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shahverdiev"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-87-154101"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-i-ching-r-wilhelm"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-trans"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university-press"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-davis-floyd"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-arvidson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

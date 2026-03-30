@@ -1,0 +1,4939 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1992-response-hansen-utts-markwick",
+  "name": "PEAR: 1992 Response Hansen Utts Markwick",
+  "entities": [
+    {
+      "@id": "source:pear-1992-response-hansen-utts-markwick",
+      "@type": "woo:Source",
+      "name": "PEAR: 1992 Response Hansen Utts Markwick"
+    },
+    {
+      "@id": "entity:organization-utts",
+      "@type": "Organization",
+      "name": "UTTS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-y-h-dobyns",
+      "@type": "Person",
+      "name": "Y. H. Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B. J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-hansen",
+      "@type": "Person",
+      "name": "Hansen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-utts",
+      "@type": "Place",
+      "name": "Utts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-markwick",
+      "@type": "Person",
+      "name": "Markwick",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-classical",
+      "@type": "Organization",
+      "name": "Classical",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-box",
+      "@type": "Person",
+      "name": "Box",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-hunter",
+      "@type": "Person",
+      "name": "Hunter",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-snedecor-cochran",
+      "@type": "Organization",
+      "name": "Snedecor & Cochran",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-whalen",
+      "@type": "Organization",
+      "name": "Whalen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-jahn",
+      "@type": "Person",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-5-771",
+      "@type": "Date",
+      "name": "5.771",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-bisaha-dunne",
+      "@type": "Organization",
+      "name": "Bisaha & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dunne-bisaha",
+      "@type": "Organization",
+      "name": "Dunne & Bisaha",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dobyns-intner",
+      "@type": "Organization",
+      "name": "Dobyns, &\n\nIntner",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-target",
+      "@type": "Organization",
+      "name": "Target",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dunne-dobyns-intner",
+      "@type": "Organization",
+      "name": "Dunne, Dobyns, & Intner",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-betty-markwick",
+      "@type": "Person",
+      "name": "Betty Markwick",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-aug-24-1990",
+      "@type": "Date",
+      "name": "Aug. 24, 1990",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-nov-9-1989",
+      "@type": "Date",
+      "name": "Nov. 9, 1989",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-april-2-1990",
+      "@type": "Date",
+      "name": "April 2, 1990",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-g-hansen",
+      "@type": "Person",
+      "name": "G. Hansen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-feb-21-1986",
+      "@type": "Date",
+      "name": "Feb. 21, 1986",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-feb-5-1988",
+      "@type": "Date",
+      "name": "Feb. 5, 1988",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-anova",
+      "@type": "Organization",
+      "name": "ANOVA",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-monte-carlo",
+      "@type": "Person",
+      "name": "Monte Carlo",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-some-time-ago",
+      "@type": "Date",
+      "name": "some time ago",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-appendix",
+      "@type": "Person",
+      "name": "Appendix",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-15a-15b",
+      "@type": "Date",
+      "name": "15a, 15b",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-15-year",
+      "@type": "Date",
+      "name": "15-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-vassy",
+      "@type": "Organization",
+      "name": "Vassy",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-intner",
+      "@type": "Person",
+      "name": "Intner",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-j-utts",
+      "@type": "Person",
+      "name": "J. Utts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-oct-14-1991",
+      "@type": "Date",
+      "name": "Oct. 14, 1991",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-days",
+      "@type": "Date",
+      "name": "days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-schlitz-gruber-1981",
+      "@type": "Organization",
+      "name": "Schlitz & Gruber, 1981",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-jahn-dunne",
+      "@type": "Organization",
+      "name": "Jahn & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-b-markwick",
+      "@type": "Person",
+      "name": "B. Markwick",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-feb-14-and-june-5-1990",
+      "@type": "Date",
+      "name": "Feb. 14 and June 5, 1990",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-princeton",
+      "@type": "Organization",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-markwick",
+      "@type": "Place",
+      "name": "Markwick",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-schlitz",
+      "@type": "Organization",
+      "name": "Schlitz",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-gruber-1981",
+      "@type": "Date",
+      "name": "Gruber, 1981",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:event-approx-3-63",
+      "@type": "Event",
+      "name": "\\approx 3.63",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-interchange",
+      "@type": "Organization",
+      "name": "Interchange",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-20-and",
+      "@type": "Date",
+      "name": "20 and",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-appendix-c-ii",
+      "@type": "Person",
+      "name": "Appendix C-II",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-ai",
+      "@type": "Person",
+      "name": "Ai$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-pi",
+      "@type": "Person",
+      "name": "Pi$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-ai-alpha",
+      "@type": "Person",
+      "name": "= Ai - \\alpha$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-langle-pi-rangle-and",
+      "@type": "Person",
+      "name": "\\langle Pi \\rangle$  and",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-e-ij",
+      "@type": "Person",
+      "name": "E{ij",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-frac-29-n-ij-58-d-ij",
+      "@type": "Date",
+      "name": "\\frac{29 + N{ij}}{58 + D{ij",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-quad",
+      "@type": "Person",
+      "name": "\\quad",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-frac-30",
+      "@type": "Date",
+      "name": "\\frac{30 +",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-pj",
+      "@type": "Person",
+      "name": "Pj$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-formula",
+      "@type": "Person",
+      "name": "Formula",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-o-ij",
+      "@type": "Person",
+      "name": "O{ij}$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-frac-30-a-i-p-0-left-frac-1-alpha",
+      "@type": "Date",
+      "name": "\\frac{30 + a{i}p{0}\\left(\\frac{1}{\\alpha} +",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-formula-5",
+      "@type": "Organization",
+      "name": "Formula 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-to",
+      "@type": "Person",
+      "name": "To$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-muo",
+      "@type": "Person",
+      "name": "\\muO$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-sumi",
+      "@type": "Organization",
+      "name": "\\sumi",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-pi",
+      "@type": "Person",
+      "name": "pi$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-sumi",
+      "@type": "Person",
+      "name": "\\sumi",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-pi",
+      "@type": "Organization",
+      "name": "pi$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-prod-j",
+      "@type": "Person",
+      "name": "\\prod{j",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-sum-j",
+      "@type": "Place",
+      "name": "\\sum{j",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-le-n-1",
+      "@type": "Organization",
+      "name": "\\le N - 1",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-al",
+      "@type": "Person",
+      "name": "al.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-po",
+      "@type": "Date",
+      "name": "pO +",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-mu-o",
+      "@type": "Person",
+      "name": "\\mu{O",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-j-e-ij-sum-i-e-ii-right",
+      "@type": "Person",
+      "name": "j}E{ij}-\\sum{i}E{ii}\\right).$  (",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-sigma-ij",
+      "@type": "Person",
+      "name": "\\Sigma{ij",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-2-alpha-1",
+      "@type": "Date",
+      "name": "2\\alpha - 1",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-calculations-analysis",
+      "@type": "Organization",
+      "name": "Calculations\n\nAnalysis",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-summer",
+      "@type": "Date",
+      "name": "summer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:date-winter",
+      "@type": "Date",
+      "name": "winter",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-participant",
+      "@type": "Organization",
+      "name": "Participant",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-chicago",
+      "@type": "Place",
+      "name": "Chicago",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-f-8-320",
+      "@type": "Organization",
+      "name": "F(8,320",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-f-1-320",
+      "@type": "Organization",
+      "name": "F(1,320",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-participant-10",
+      "@type": "Place",
+      "name": "Participant 10",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dataset",
+      "@type": "Organization",
+      "name": "Dataset",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-participant-10-s",
+      "@type": "Organization",
+      "name": "Participant 10's",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-times",
+      "@type": "Person",
+      "name": "\\times$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-times-8",
+      "@type": "Person",
+      "name": "\\times$  8",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-biased",
+      "@type": "Person",
+      "name": "Biased",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-ntargets",
+      "@type": "Organization",
+      "name": "Ntargets",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-sqrt-20",
+      "@type": "Person",
+      "name": "\\sqrt{20}$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-alpha",
+      "@type": "Person",
+      "name": "\\alpha$",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-j-p-dunne",
+      "@type": "Person",
+      "name": "J. P., & DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-b-j",
+      "@type": "Person",
+      "name": "B. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-c-t-tart",
+      "@type": "Person",
+      "name": "C. T. Tart",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-h-e-puthoff",
+      "@type": "Person",
+      "name": "H. E. Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-mind",
+      "@type": "Person",
+      "name": "Mind",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-g-e-p",
+      "@type": "Person",
+      "name": "G. E. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-w-g",
+      "@type": "Person",
+      "name": "W. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-j-s",
+      "@type": "Person",
+      "name": "J. S.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-john-wiley-sons",
+      "@type": "Person",
+      "name": "John Wiley & Sons",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-princeton",
+      "@type": "Person",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering",
+      "@type": "Organization",
+      "name": "School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-applied-science",
+      "@type": "Organization",
+      "name": "Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-b-j-bisaha",
+      "@type": "Person",
+      "name": "B. J., & BISAHA",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-j-p",
+      "@type": "Person",
+      "name": "J. P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-stanford",
+      "@type": "Organization",
+      "name": "Stanford",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-journal-of-parapsychology",
+      "@type": "Organization",
+      "name": "Journal of Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-b-j",
+      "@type": "Person",
+      "name": "B. J.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dobyns",
+      "@type": "Organization",
+      "name": "DOBYNS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-y-h-intner",
+      "@type": "Organization",
+      "name": "Y. H. & INTNER",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-s-m",
+      "@type": "Person",
+      "name": "S. M. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-g-nelson",
+      "@type": "Person",
+      "name": "R. G., & NELSON",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-savoy",
+      "@type": "Organization",
+      "name": "Savoy",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-journal-of-indian-psychology",
+      "@type": "Organization",
+      "name": "Journal of Indian Psychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-g-dunne",
+      "@type": "Person",
+      "name": "R. G., & DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-dunne",
+      "@type": "Organization",
+      "name": "DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-b-j-jahn",
+      "@type": "Person",
+      "name": "B. J., & JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-e-g",
+      "@type": "Person",
+      "name": "E. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-nelson",
+      "@type": "Organization",
+      "name": "NELSON",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-t-a-cook",
+      "@type": "Person",
+      "name": "T. A., & COOK",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-i-a",
+      "@type": "Person",
+      "name": "I. A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:person-g-w-cochran",
+      "@type": "Person",
+      "name": "G. W., & COCHRAN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-iowa-state-university-press",
+      "@type": "Organization",
+      "name": "Iowa State University Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research C-131",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    },
+    {
+      "@id": "entity:organization-applied-science-princeton-university",
+      "@type": "Organization",
+      "name": "Applied Science Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-response-hansen-utts-markwick"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-markwick"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-classical"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-box"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hunter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-snedecor-cochran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-whalen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-5-771"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bisaha-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dobyns-intner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-target"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-betty-markwick"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-aug-24-1990"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-nov-9-1989"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-2-1990"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-hansen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-feb-21-1986"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-feb-5-1988"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-some-time-ago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-15a-15b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-15-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-vassy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-intner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-oct-14-1991"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz-gruber-1981"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-markwick"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-feb-14-and-june-5-1990"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-markwick"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-gruber-1981"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-approx-3-63"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-interchange"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-20-and"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix-c-ii"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ai"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ai-alpha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-langle-pi-rangle-and"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-ij"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-frac-29-n-ij-58-d-ij"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-quad"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-frac-30"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pj"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-formula"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-o-ij"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-frac-30-a-i-p-0-left-frac-1-alpha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-formula-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-to"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-muo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sumi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sumi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-prod-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-sum-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-le-n-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-po"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mu-o"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-e-ij-sum-i-e-ii-right"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sigma-ij"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-alpha-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-calculations-analysis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-summer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-winter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-participant"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-f-8-320"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-f-1-320"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-participant-10"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dataset"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-participant-10-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-times"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-times-8"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-biased"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ntargets"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sqrt-20"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-alpha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t-tart"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mind"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-e-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-wiley-sons"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-y-h-intner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-m"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-savoy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-indian-psychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-t-a-cook"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-w-cochran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-iowa-state-university-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-applied-science-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-response-hansen-utts-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-box"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hunter"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-snedecor-cochran"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-whalen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-classical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bisaha-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-bisaha"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-intner"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-15a-15b"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-15-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-participant"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-15a-15b"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-vassy"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-vassy"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-feb-21-1986"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz-gruber-1981"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-schlitz"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz-gruber-1981"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-gruber-1981"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-intner"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne-dobyns-intner"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-j-utts"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-oct-14-1991"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-utts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-oct-14-1991"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz-gruber-1981"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-schlitz-gruber-1981"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-markwick"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-b-markwick"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-markwick"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-markwick"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-feb-14-and-june-5-1990"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-gruber-1981"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dobyns"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dataset"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix-c-ii"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix-c-ii"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-formula"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-formula-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-participant"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-participant-10-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-participant-10"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-participant-10"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-participant"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-f-1-320"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-anova"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-summer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-anova"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-winter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-anova"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-formula"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-chicago"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-participant-10"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-f-8-320"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-summer"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-winter"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-participant-10"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-participant-10"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-participant-10"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-participant"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-participant-10-s"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-participant-10"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-biased"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ntargets"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-dataset"
+      },
+      "confidence": 0.85,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.75,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.65,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:alliedWith",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.6,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:preceded",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.55,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:followed",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.5,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:caused",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.45,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:commanded",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.4,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.35,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.3,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.25,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:bornIn",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.2,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:diedIn",
+      "object": {
+        "@id": "entity:organization-target"
+      },
+      "confidence": 0.15,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-applied-science"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-whalen"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-applied-science-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-utts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-5-771"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dobyns-intner"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-betty-markwick"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-aug-24-1990"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-nov-9-1989"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-2-1990"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-hansen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-feb-5-1988"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-some-time-ago"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-approx-3-63"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-interchange"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-20-and"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ai"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pi"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ai-alpha"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-langle-pi-rangle-and"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-ij"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-frac-29-n-ij-58-d-ij"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-quad"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-frac-30"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pj"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-o-ij"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-frac-30-a-i-p-0-left-frac-1-alpha"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-to"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-muo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sumi"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pi"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sumi"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pi"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-prod-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-sum-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-le-n-1"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-po"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mu-o"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-e-ij-sum-i-e-ii-right"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sigma-ij"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-alpha-1"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-calculations-analysis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-times"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-times-8"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sqrt-20"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-alpha"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-t-tart"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-h-e-puthoff"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mind"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-e-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-wiley-sons"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-bisaha"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-y-h-intner"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-m"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-savoy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-indian-psychology"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-t-a-cook"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-w-cochran"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-iowa-state-university-press"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-markwick"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

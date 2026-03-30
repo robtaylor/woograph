@@ -6,8 +6,8 @@ on:
   pull_request:
     types: [synchronize, labeled]
 
-# Only process when PR has been approved (saves Actions minutes)
-# Gate: must have "approved" label OR receive an approving review
+# Only process when PR is ready (saves Actions minutes)
+# Gate: must have "process" label OR receive an approving review
 
 concurrency:
   group: process-pr-${{ github.event.pull_request.number }}
@@ -26,14 +26,14 @@ jobs:
 
           # Case 1: An approving review was just submitted
           if [[ "${{ github.event_name }}" == "pull_request_review" && \
-                "${{ github.event.review.state }}" == "approved" ]]; then
+                "${{ github.event.review.state }}" == "process" ]]; then
             SHOULD_RUN=true
           fi
 
-          # Case 2: PR has the "approved" label (handles synchronize + labeled events)
+          # Case 2: PR has the "process" label (handles synchronize + labeled events)
           if [[ "${{ github.event_name }}" == "pull_request" ]]; then
             LABELS='${{ toJSON(github.event.pull_request.labels.*.name) }}'
-            if echo "$LABELS" | grep -q '"approved"'; then
+            if echo "$LABELS" | grep -q '"process"'; then
               SHOULD_RUN=true
             fi
           fi

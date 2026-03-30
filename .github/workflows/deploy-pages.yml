@@ -2,7 +2,7 @@ name: Deploy Pages
 
 on:
   workflow_run:
-    workflows: ["Process Sources"]
+    workflows: ["Merge Graph"]
     types: [completed]
     branches: [main]
   push:

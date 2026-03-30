@@ -84,13 +84,10 @@ class TestValidateSubmission:
         errors = validate_submission(bad_yaml, schema_path)
         assert any("url" in e.lower() for e in errors)
 
-    def test_pdf_type_requires_file_field(
+    def test_pdf_type_requires_file_or_url(
         self, schema_path: Path, tmp_path: Path
     ) -> None:
-        """PDF-type submission without file field fails validation.
-
-        The schema uses allOf/if/then to require 'file' when type is 'pdf'.
-        """
+        """PDF-type submission without file or url fails validation."""
         bad_yaml = tmp_path / "bad.yaml"
         data = {
             "source": {
@@ -101,7 +98,24 @@ class TestValidateSubmission:
         }
         bad_yaml.write_text(yaml.dump(data))
         errors = validate_submission(bad_yaml, schema_path)
-        assert any("file" in e.lower() for e in errors)
+        assert len(errors) > 0
+
+    def test_pdf_type_accepts_url(
+        self, schema_path: Path, tmp_path: Path
+    ) -> None:
+        """PDF-type submission with url (no file) passes schema validation."""
+        good_yaml = tmp_path / "good.yaml"
+        data = {
+            "source": {
+                "title": "Test PDF",
+                "type": "pdf",
+                "url": "https://example.com/doc.pdf",
+                "date_added": "2026-03-26",
+            }
+        }
+        good_yaml.write_text(yaml.dump(data))
+        errors = validate_submission(good_yaml, schema_path)
+        assert errors == []
 
     def test_empty_yaml_file(
         self, schema_path: Path, tmp_path: Path

@@ -1,0 +1,37 @@
+name: Merge Graph
+
+on:
+  push:
+    branches: [main]
+    paths: ['graph/fragments/**']
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: cd pipeline && uv sync
+
+      - name: Merge global graph
+        run: cd pipeline && uv run woograph merge
+
+      - name: Copy graph data to site
+        run: |
+          mkdir -p site/data
+          cp graph/global.jsonld site/data/
+          cp graph/context.jsonld site/data/ 2>/dev/null || true
+          cp graph/stats.json site/data/ 2>/dev/null || true
+
+      - name: Commit global graph and site data
+        run: |
+          git config user.name "WooGraph Bot"
+          git config user.email "woograph-bot@users.noreply.github.com"
+          git add graph/global.jsonld graph/stats.json site/data/
+          git diff --staged --quiet || git commit -m "Merge graph fragments into global.jsonld"
+          git push

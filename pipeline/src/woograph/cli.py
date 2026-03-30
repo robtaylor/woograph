@@ -242,6 +242,99 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
 
 
 @main.command()
+@click.argument(
+    "fragment_path",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+)
+def report(fragment_path: Path) -> None:
+    """Generate a markdown extraction report from a JSON-LD fragment file."""
+    from collections import Counter
+
+    with fragment_path.open() as f:
+        fragment = json.load(f)
+
+    source_name = fragment.get("name", fragment_path.stem)
+    entities = fragment.get("entities", [])
+    relationships = fragment.get("relationships", [])
+
+    # Count entities by type (exclude woo:Source entries)
+    type_counts: Counter[str] = Counter()
+    entity_mentions: Counter[str] = Counter()
+    for ent in entities:
+        etype = ent.get("@type", "unknown")
+        if etype == "woo:Source":
+            continue
+        type_counts[etype] += 1
+        name = ent.get("name", "")
+        if name:
+            entity_mentions[name] += 1
+
+    total_entities = sum(type_counts.values())
+    total_relationships = len(
+        [r for r in relationships if r.get("@type") == "woo:Relationship"]
+    )
+
+    # Build type summary string
+    type_parts = [f"{count} {etype}" for etype, count in type_counts.most_common()]
+    type_summary = ", ".join(type_parts) if type_parts else "none"
+
+    # Top entities by mention count
+    top_entities = entity_mentions.most_common(5)
+    top_str = ", ".join(f"{name} ({count})" for name, count in top_entities)
+
+    # Sample relationships (non-mentionedIn, highest confidence)
+    sample_rels = sorted(
+        [
+            r
+            for r in relationships
+            if r.get("@type") == "woo:Relationship"
+            and r.get("predicate", "") != "woo:mentionedIn"
+        ],
+        key=lambda r: r.get("confidence", 0),
+        reverse=True,
+    )[:3]
+
+    # Low-confidence relationships
+    low_conf = [
+        r
+        for r in relationships
+        if r.get("@type") == "woo:Relationship"
+        and r.get("confidence", 1.0) < 0.5
+    ]
+
+    lines: list[str] = []
+    lines.append(f"### {source_name}")
+    lines.append(f"- **Entities**: {total_entities} ({type_summary})")
+    lines.append(f"- **Relationships**: {total_relationships}")
+    if top_str:
+        lines.append(f"- **Top entities**: {top_str}")
+    if sample_rels:
+        lines.append("- **Sample relationships**:")
+        for rel in sample_rels:
+            subj = (
+                rel.get("subject", {})
+                .get("@id", "?")
+                .split(":")[-1]
+                .replace("-", " ")
+            )
+            pred = rel.get("predicate", "?").split(":")[-1]
+            obj = (
+                rel.get("object", {})
+                .get("@id", "?")
+                .split(":")[-1]
+                .replace("-", " ")
+            )
+            conf = rel.get("confidence", 0)
+            lines.append(f"  - {subj} -> {pred} -> {obj} ({conf:.2f})")
+    if low_conf:
+        lines.append(
+            f"- **Warning**: {len(low_conf)} low-confidence relationships (<0.5)"
+        )
+
+    click.echo("\n".join(lines))
+
+
+@main.command()
 @click.pass_context
 def merge(ctx: click.Context) -> None:
     """Merge all graph fragments into global.jsonld."""

@@ -1,0 +1,193 @@
+name: Issue to PR
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-submission-pr:
+    if: contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse issue form fields
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          # Extract field values from GitHub Issue Form markdown format.
+          # Fields are encoded as:
+          #   ### Field Name
+          #   <blank line>
+          #   Value
+          extract_field() {
+            local field="$1"
+            # Get everything after "### <field>\n\n" up to the next "### " or EOF
+            echo "$ISSUE_BODY" | awk -v field="$field" '
+              BEGIN { found=0; blank=0 }
+              $0 == "### " field { found=1; next }
+              found && /^$/ && !blank { blank=1; next }
+              found && /^### / { exit }
+              found && blank { print }
+            '
+          }
+
+          TITLE=$(extract_field "Title")
+          SOURCE_TYPE=$(extract_field "Source Type")
+          URL=$(extract_field "URL")
+          TAGS=$(extract_field "Tags")
+          DESCRIPTION=$(extract_field "Description")
+          ACCOUNT_TEXT=$(extract_field "Account Text")
+
+          # Strip "_No response_" placeholder that GitHub uses for empty optional fields
+          [ "$URL" = "_No response_" ] && URL=""
+          [ "$TAGS" = "_No response_" ] && TAGS=""
+          [ "$DESCRIPTION" = "_No response_" ] && DESCRIPTION=""
+          [ "$ACCOUNT_TEXT" = "_No response_" ] && ACCOUNT_TEXT=""
+
+          # Generate slug from title: lowercase, replace spaces/special chars with hyphens,
+          # collapse multiple hyphens, trim leading/trailing hyphens
+          SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' \
+            | sed 's/[^a-z0-9]/-/g' \
+            | sed 's/--*/-/g' \
+            | sed 's/^-//;s/-$//')
+
+          # Map source type to schema type
+          case "$SOURCE_TYPE" in
+            "PDF link")         TYPE="pdf" ;;
+            "Website")          TYPE="url" ;;
+            "Personal account") TYPE="account" ;;
+            *)                  TYPE="url" ;;
+          esac
+
+          # Validate: PDF/Website require a URL
+          if [ "$TYPE" != "account" ] && [ -z "$URL" ]; then
+            echo "needs_url=true" >> "$GITHUB_OUTPUT"
+            echo "source_type=$SOURCE_TYPE" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "needs_url=false" >> "$GITHUB_OUTPUT"
+
+          # Handle slug collision: if branch already exists, append a number
+          BASE_SLUG="$SLUG"
+          COUNTER=1
+          while git ls-remote --heads origin "submission/$SLUG" | grep -q .; do
+            SLUG="${BASE_SLUG}-${COUNTER}"
+            COUNTER=$((COUNTER + 1))
+          done
+
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "type=$TYPE" >> "$GITHUB_OUTPUT"
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "tags=$TAGS" >> "$GITHUB_OUTPUT"
+          echo "source_type=$SOURCE_TYPE" >> "$GITHUB_OUTPUT"
+
+      - name: Comment if URL missing
+        if: steps.parse.outputs.needs_url == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --body "This submission is type **${{ steps.parse.outputs.source_type }}** but no URL was provided. Please edit the issue to add a URL, then re-open it."
+          gh issue close ${{ github.event.issue.number }}
+
+      - name: Create submission files
+        if: steps.parse.outputs.needs_url != 'true'
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+          TYPE: ${{ steps.parse.outputs.type }}
+          URL: ${{ steps.parse.outputs.url }}
+          TAGS: ${{ steps.parse.outputs.tags }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          # Re-extract multiline fields (outputs only support single-line)
+          extract_field() {
+            local field="$1"
+            echo "$ISSUE_BODY" | awk -v field="$field" '
+              BEGIN { found=0; blank=0 }
+              $0 == "### " field { found=1; next }
+              found && /^$/ && !blank { blank=1; next }
+              found && /^### / { exit }
+              found && blank { print }
+            '
+          }
+
+          TITLE=$(extract_field "Title")
+          DESCRIPTION=$(extract_field "Description")
+          ACCOUNT_TEXT=$(extract_field "Account Text")
+
+          [ "$DESCRIPTION" = "_No response_" ] && DESCRIPTION=""
+          [ "$ACCOUNT_TEXT" = "_No response_" ] && ACCOUNT_TEXT=""
+
+          DATE_ADDED=$(date +%Y-%m-%d)
+
+          # Build tags array: "ufo, roswell, military" -> ["ufo", "roswell", "military"]
+          if [ -n "$TAGS" ]; then
+            TAGS_YAML=$(echo "$TAGS" | sed 's/,/\n/g' | sed 's/^ *//;s/ *$//' | sed 's/.*/"&"/' | paste -sd ',' - | sed 's/^/[/;s/$/]/')
+          else
+            TAGS_YAML="[]"
+          fi
+
+          # Build the YAML submission file
+          {
+            echo "source:"
+            echo "  title: \"$(echo "$TITLE" | sed 's/"/\\"/g')\""
+            echo "  type: $TYPE"
+            if [ -n "$URL" ]; then
+              echo "  url: \"$URL\""
+            fi
+            echo "  date_added: \"$DATE_ADDED\""
+            echo "  tags: $TAGS_YAML"
+            if [ -n "$DESCRIPTION" ]; then
+              echo "  description: \"$(echo "$DESCRIPTION" | head -1 | sed 's/"/\\"/g')\""
+            fi
+          } > "submissions/${SLUG}.yaml"
+
+          # For personal accounts, also create a markdown file with the account text
+          if [ "$TYPE" = "account" ] && [ -n "$ACCOUNT_TEXT" ]; then
+            {
+              echo "# $TITLE"
+              echo ""
+              echo "$ACCOUNT_TEXT"
+            } > "submissions/${SLUG}.md"
+          fi
+
+      - name: Create PR
+        if: steps.parse.outputs.needs_url != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          BRANCH="submission/${SLUG}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add submissions/
+          git commit -m "Add submission: ${SLUG}
+
+          Closes #${ISSUE_NUMBER}"
+
+          git push origin "$BRANCH"
+
+          PR_URL=$(gh pr create \
+            --title "Submission: ${SLUG}" \
+            --body "Automated submission from issue #${ISSUE_NUMBER}.
+
+          Closes #${ISSUE_NUMBER}" \
+            --head "$BRANCH" \
+            --base main)
+
+          gh issue comment "$ISSUE_NUMBER" \
+            --body "Your submission has been converted into a pull request: ${PR_URL}
+
+          A maintainer will review it shortly. Once approved and merged, the source will be processed into the knowledge graph."

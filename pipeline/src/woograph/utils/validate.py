@@ -65,9 +65,10 @@ def validate_submission(yaml_path: Path, schema_path: Path) -> list[str]:
 
     if source_type == "pdf":
         file_name = source.get("file")
-        if not file_name:
-            errors.append("PDF type requires 'file' field")
-        else:
+        pdf_url = source.get("url")
+        if not file_name and not pdf_url:
+            errors.append("PDF type requires 'file' or 'url' field")
+        elif file_name:
             # Check if the file exists relative to submissions/files/
             submissions_dir = yaml_path.parent
             pdf_path = submissions_dir / "files" / file_name

@@ -1,0 +1,168 @@
+name: Process PR Sources
+
+on:
+  pull_request_review:
+    types: [submitted]
+  pull_request:
+    types: [synchronize, labeled]
+
+# Only process when PR has been approved (saves Actions minutes)
+# Gate: must have "approved" label OR receive an approving review
+
+concurrency:
+  group: process-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check-gate:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.gate.outputs.should_run }}
+    steps:
+      - name: Check approval gate
+        id: gate
+        run: |
+          SHOULD_RUN=false
+
+          # Case 1: An approving review was just submitted
+          if [[ "${{ github.event_name }}" == "pull_request_review" && \
+                "${{ github.event.review.state }}" == "approved" ]]; then
+            SHOULD_RUN=true
+          fi
+
+          # Case 2: PR has the "approved" label (handles synchronize + labeled events)
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            LABELS='${{ toJSON(github.event.pull_request.labels.*.name) }}'
+            if echo "$LABELS" | grep -q '"approved"'; then
+              SHOULD_RUN=true
+            fi
+          fi
+
+          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
+          echo "Gate result: should_run=$SHOULD_RUN"
+
+  process:
+    needs: check-gate
+    if: needs.check-gate.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      WOOGRAPH_PDF_BACKEND: auto
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: cd pipeline && uv sync
+
+      - name: Detect new/changed submissions
+        id: detect
+        run: |
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
+          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          FILES=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'submissions/*.yaml' | grep -v '_schema.yaml' || true)
+          {
+            echo "files<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Detected submissions:"
+          echo "$FILES"
+
+      - name: Process submissions
+        if: steps.detect.outputs.files != ''
+        run: |
+          cd pipeline
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            echo "::group::Processing $f"
+            uv run woograph process "../$f"
+            echo "::endgroup::"
+
+            # Track the fragment path for reporting
+            SLUG=$(basename "$f" .yaml)
+            FRAG="../graph/fragments/${SLUG}.jsonld"
+            if [ -f "$FRAG" ]; then
+              echo "$FRAG" >> /tmp/processed_fragments.txt
+            fi
+          done <<< "${{ steps.detect.outputs.files }}"
+
+      - name: Generate extraction report
+        id: report
+        if: steps.detect.outputs.files != ''
+        run: |
+          cd pipeline
+          REPORT_BODY=""
+          TOTAL_ENTITIES=0
+          TOTAL_RELS=0
+          SOURCE_COUNT=0
+
+          if [ -f /tmp/processed_fragments.txt ]; then
+            REPORT_BODY=""
+            while IFS= read -r frag; do
+              [ -z "$frag" ] && continue
+              SECTION=$(uv run woograph report "$frag")
+              REPORT_BODY="${REPORT_BODY}${SECTION}
+          "
+            done < /tmp/processed_fragments.txt
+
+            # Compute totals from fragments
+            while IFS= read -r frag; do
+              [ -z "$frag" ] && continue
+              ENTS=$(python3 -c "
+          import json, sys
+          with open(sys.argv[1]) as f: d = json.load(f)
+          print(sum(1 for e in d.get('entities',[]) if e.get('@type') != 'woo:Source'))
+          " "$frag")
+              RELS=$(python3 -c "
+          import json, sys
+          with open(sys.argv[1]) as f: d = json.load(f)
+          print(len([r for r in d.get('relationships',[]) if r.get('@type') == 'woo:Relationship']))
+          " "$frag")
+              TOTAL_ENTITIES=$((TOTAL_ENTITIES + ENTS))
+              TOTAL_RELS=$((TOTAL_RELS + RELS))
+              SOURCE_COUNT=$((SOURCE_COUNT + 1))
+            done < /tmp/processed_fragments.txt
+          fi
+
+          {
+            echo "comment<<REPORT_EOF"
+            echo "## WooGraph Extraction Report"
+            echo ""
+            echo "$REPORT_BODY"
+            echo "---"
+            echo "**Total**: ${TOTAL_ENTITIES} new entities, ${TOTAL_RELS} relationships across ${SOURCE_COUNT} source(s)"
+            echo "REPORT_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Commit processed sources and fragments
+        if: steps.detect.outputs.files != ''
+        run: |
+          git config user.name "WooGraph Bot"
+          git config user.email "woograph-bot@users.noreply.github.com"
+          git add sources/ graph/fragments/ graph/entities/
+          git diff --staged --quiet || git commit -m "Process sources from submissions"
+          git push
+
+      - name: Post extraction report
+        if: steps.report.outputs.comment != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Delete previous bot comment if exists, then post new one
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          EXISTING=$(gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
+            --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("## WooGraph Extraction Report"))) | .id' \
+            2>/dev/null | head -1 || true)
+          if [ -n "$EXISTING" ]; then
+            gh api -X DELETE "repos/${{ github.repository }}/issues/comments/${EXISTING}" 2>/dev/null || true
+          fi
+          gh pr comment "$PR_NUMBER" --body "${{ steps.report.outputs.comment }}"

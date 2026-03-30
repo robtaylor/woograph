@@ -1,8 +1,7 @@
 source:
   author: Princeton Engineering Anomalies Research
-  date_added: '2026-03-29'
+  date_added: '2026-03-30'
   description: 'PEAR scholarly publication: 1998 Information Uncertainty Remote Perception'
-  file: 1998-information-uncertainty-remote-perception.pdf
   tags:
   - pear
   - consciousness
@@ -10,3 +9,4 @@ source:
   - princeton
   title: 'PEAR: 1998 Information Uncertainty Remote Perception'
   type: pdf
+  url: https://icrl.org/wp-content/uploads/2020/02/1998-information-uncertainty-remote-perception.pdf

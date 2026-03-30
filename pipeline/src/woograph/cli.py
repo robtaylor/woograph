@@ -119,7 +119,18 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     try:
         if source_type == "pdf":
             file_name = source.get("file", "")
-            pdf_path = repo_root / "submissions" / "files" / file_name
+            pdf_url = source.get("url", "")
+            if pdf_url:
+                # Download PDF from URL
+                import urllib.request
+                pdf_path = output_dir / (slug + ".pdf")
+                logger.info("Downloading PDF: %s", pdf_url)
+                urllib.request.urlretrieve(pdf_url, pdf_path)
+            elif file_name:
+                pdf_path = repo_root / "submissions" / "files" / file_name
+            else:
+                click.echo("Error: PDF requires either 'file' or 'url'", err=True)
+                raise SystemExit(1)
             if not pdf_path.exists():
                 click.echo(f"Error: PDF file not found: {pdf_path}", err=True)
                 raise SystemExit(1)

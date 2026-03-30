@@ -47,4 +47,6 @@ properties:
             type:
               const: pdf
         then:
-          required: [file]
+          anyOf:
+            - required: [file]
+            - required: [url]

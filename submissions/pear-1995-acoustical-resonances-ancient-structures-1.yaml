@@ -1,9 +1,8 @@
 source:
   author: Princeton Engineering Anomalies Research
-  date_added: '2026-03-29'
+  date_added: '2026-03-30'
   description: 'PEAR scholarly publication: 1995 Acoustical Resonances Ancient Structures
     1'
-  file: 1995-acoustical-resonances-ancient-structures-1.pdf
   tags:
   - pear
   - consciousness
@@ -11,3 +10,4 @@ source:
   - princeton
   title: 'PEAR: 1995 Acoustical Resonances Ancient Structures 1'
   type: pdf
+  url: https://icrl.org/wp-content/uploads/2020/02/1995-acoustical-resonances-ancient-structures-1.pdf

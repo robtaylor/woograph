@@ -1,8 +1,7 @@
 source:
   author: Princeton Engineering Anomalies Research
-  date_added: '2026-03-29'
+  date_added: '2026-03-30'
   description: 'PEAR scholarly publication: Khufu.Pit .Scan '
-  file: Khufu.pit_.scan_.pdf
   tags:
   - pear
   - consciousness
@@ -10,3 +9,4 @@ source:
   - princeton
   title: 'PEAR: Khufu.Pit .Scan '
   type: pdf
+  url: https://icrl.org/wp-content/uploads/2022/02/Khufu.pit_.scan_.pdf

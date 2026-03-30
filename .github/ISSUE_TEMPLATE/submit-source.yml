@@ -1,14 +1,8 @@
 name: Submit a Source
 description: Add a document, website, or personal account to the knowledge graph
+title: "[Source] "
 labels: ["submission"]
 body:
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: A descriptive title for this source
-    validations:
-      required: true
   - type: dropdown
     id: type
     attributes:

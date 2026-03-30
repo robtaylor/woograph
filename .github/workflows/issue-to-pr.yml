@@ -38,7 +38,10 @@ jobs:
             '
           }
 
-          TITLE=$(extract_field "Title")
+          # Title comes from the issue title, strip "[Source] " prefix
+          TITLE="${{ github.event.issue.title }}"
+          TITLE="${TITLE#\[Source\] }"
+
           SOURCE_TYPE=$(extract_field "Source Type")
           URL=$(extract_field "URL")
           TAGS=$(extract_field "Tags")
@@ -83,6 +86,7 @@ jobs:
             COUNTER=$((COUNTER + 1))
           done
 
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
           echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
           echo "type=$TYPE" >> "$GITHUB_OUTPUT"
           echo "url=$URL" >> "$GITHUB_OUTPUT"
@@ -119,7 +123,7 @@ jobs:
             '
           }
 
-          TITLE=$(extract_field "Title")
+          TITLE="${{ steps.parse.outputs.title }}"
           DESCRIPTION=$(extract_field "Description")
           ACCOUNT_TEXT=$(extract_field "Account Text")
 

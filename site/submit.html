@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Source - WooGraph</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .submit-container {
+      max-width: 640px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+    .submit-container h1 {
+      color: #e8e8e8;
+      margin-bottom: 0.5rem;
+    }
+    .submit-container p.subtitle {
+      color: #888;
+      margin-bottom: 2rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      color: #ccc;
+      margin-bottom: 0.4rem;
+      font-size: 0.9rem;
+    }
+    .form-group .hint {
+      color: #666;
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.6rem 0.8rem;
+      background: #1e1e3a;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: #e8e8e8;
+      font-family: inherit;
+      font-size: 0.95rem;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #4FC3F7;
+    }
+    .form-group textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    .form-group select {
+      cursor: pointer;
+    }
+
+    /* File upload area */
+    .upload-area {
+      border: 2px dashed #333;
+      border-radius: 8px;
+      padding: 2rem;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .upload-area:hover, .upload-area.dragover {
+      border-color: #4FC3F7;
+      background: rgba(79, 195, 247, 0.05);
+    }
+    .upload-area.uploading {
+      border-color: #FFB74D;
+      cursor: wait;
+    }
+    .upload-area.done {
+      border-color: #81C784;
+    }
+    .upload-area .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .upload-area .status {
+      color: #888;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+    .upload-area .filename {
+      color: #81C784;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      word-break: break-all;
+    }
+    .upload-area input[type="file"] {
+      display: none;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      background: #333;
+      border-radius: 2px;
+      margin-top: 1rem;
+      overflow: hidden;
+      display: none;
+    }
+    .progress-bar.active { display: block; }
+    .progress-bar .fill {
+      height: 100%;
+      background: #4FC3F7;
+      width: 0%;
+      transition: width 0.3s;
+    }
+
+    /* Conditional sections */
+    .conditional { display: none; }
+    .conditional.visible { display: block; }
+
+    /* Submit button */
+    .submit-btn {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background: #4FC3F7;
+      color: #1a1a2e;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .submit-btn:hover { background: #29B6F6; }
+    .submit-btn:disabled {
+      background: #333;
+      color: #666;
+      cursor: not-allowed;
+    }
+    .submit-note {
+      color: #666;
+      font-size: 0.8rem;
+      margin-top: 0.5rem;
+    }
+    .error-msg {
+      color: #E57373;
+      font-size: 0.85rem;
+      margin-top: 0.3rem;
+      display: none;
+    }
+    .error-msg.visible { display: block; }
+
+    a.back-link {
+      color: #4FC3F7;
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+    a.back-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="submit-container">
+    <a href="index.html" class="back-link">&larr; Back to graph</a>
+    <h1>Submit a Source</h1>
+    <p class="subtitle">Add a document, website, or personal account to the knowledge graph.</p>
+
+    <form id="submit-form">
+      <div class="form-group">
+        <label for="title">Title *</label>
+        <input type="text" id="title" required placeholder="e.g., Battle of Midway: A Naval Analysis">
+      </div>
+
+      <div class="form-group">
+        <label for="source-type">Source Type *</label>
+        <select id="source-type" required>
+          <option value="">Select...</option>
+          <option value="pdf">PDF (link or upload)</option>
+          <option value="url">Website</option>
+          <option value="account">Personal account</option>
+          <option value="video">Video (link or upload)</option>
+        </select>
+      </div>
+
+      <div class="form-group conditional" id="url-group">
+        <label for="source-url">URL</label>
+        <input type="url" id="source-url" placeholder="https://example.com/document.pdf">
+        <p class="hint">Link to the PDF, website, or video</p>
+      </div>
+
+      <div class="form-group conditional" id="upload-group">
+        <label>Or upload a file</label>
+        <div class="upload-area" id="upload-area">
+          <div class="icon">&#128206;</div>
+          <div>Drop file here or click to browse</div>
+          <div class="status" id="upload-status">PDF, images, video (max 100MB)</div>
+          <div class="filename" id="upload-filename"></div>
+          <input type="file" id="file-input" accept=".pdf,.jpg,.jpeg,.png,.mp4,.mov,.mp3,.m4a">
+          <div class="progress-bar" id="progress-bar"><div class="fill" id="progress-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="form-group conditional" id="account-group">
+        <label for="account-text">Your account</label>
+        <textarea id="account-text" placeholder="Write your experience or account here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="tags">Tags</label>
+        <input type="text" id="tags" placeholder="ufo, roswell, military (comma-separated)">
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Brief description of the source and why it's relevant"></textarea>
+      </div>
+
+      <div class="form-group">
+        <div class="error-msg" id="error-msg"></div>
+        <button type="submit" class="submit-btn" id="submit-btn">Submit via GitHub</button>
+        <p class="submit-note">Opens GitHub to create an issue. You'll need a GitHub account.</p>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Config
+    const UPLOAD_WORKER_URL = ''; // Set after deploying the Worker
+    const GITHUB_REPO = 'robtaylor/woograph';
+    const ISSUE_TEMPLATE = 'submit-source.yml';
+
+    // State
+    let uploadedFileUrl = '';
+
+    // Source type toggling
+    const sourceType = document.getElementById('source-type');
+    const urlGroup = document.getElementById('url-group');
+    const uploadGroup = document.getElementById('upload-group');
+    const accountGroup = document.getElementById('account-group');
+
+    sourceType.addEventListener('change', () => {
+      const type = sourceType.value;
+      urlGroup.classList.toggle('visible', type === 'pdf' || type === 'url' || type === 'video');
+      uploadGroup.classList.toggle('visible', type === 'pdf' || type === 'video');
+      accountGroup.classList.toggle('visible', type === 'account');
+    });
+
+    // File upload
+    const uploadArea = document.getElementById('upload-area');
+    const fileInput = document.getElementById('file-input');
+    const uploadStatus = document.getElementById('upload-status');
+    const uploadFilename = document.getElementById('upload-filename');
+    const progressBar = document.getElementById('progress-bar');
+    const progressFill = document.getElementById('progress-fill');
+
+    uploadArea.addEventListener('click', () => fileInput.click());
+    uploadArea.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadArea.classList.add('dragover');
+    });
+    uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+    uploadArea.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadArea.classList.remove('dragover');
+      if (e.dataTransfer.files.length) {
+        fileInput.files = e.dataTransfer.files;
+        handleFileSelect(e.dataTransfer.files[0]);
+      }
+    });
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length) handleFileSelect(fileInput.files[0]);
+    });
+
+    async function handleFileSelect(file) {
+      if (!UPLOAD_WORKER_URL) {
+        // No worker configured - just show filename, user will need to host elsewhere
+        uploadFilename.textContent = file.name + ' (upload not configured - please provide a URL instead)';
+        uploadArea.classList.add('done');
+        return;
+      }
+
+      uploadArea.classList.add('uploading');
+      uploadStatus.textContent = 'Uploading...';
+      progressBar.classList.add('active');
+      progressFill.style.width = '0%';
+
+      try {
+        const formData = new FormData();
+        formData.append('file', file);
+
+        // Use XMLHttpRequest for progress tracking
+        const result = await new Promise((resolve, reject) => {
+          const xhr = new XMLHttpRequest();
+          xhr.upload.addEventListener('progress', (e) => {
+            if (e.lengthComputable) {
+              progressFill.style.width = (e.loaded / e.total * 100) + '%';
+            }
+          });
+          xhr.addEventListener('load', () => {
+            if (xhr.status === 200) {
+              resolve(JSON.parse(xhr.responseText));
+            } else {
+              reject(new Error(xhr.responseText));
+            }
+          });
+          xhr.addEventListener('error', () => reject(new Error('Upload failed')));
+          xhr.open('POST', UPLOAD_WORKER_URL + '/upload');
+          xhr.send(formData);
+        });
+
+        uploadedFileUrl = result.url;
+        uploadFilename.textContent = file.name;
+        uploadStatus.textContent = 'Uploaded successfully';
+        uploadArea.classList.remove('uploading');
+        uploadArea.classList.add('done');
+        progressFill.style.width = '100%';
+
+        // Auto-fill the URL field
+        document.getElementById('source-url').value = uploadedFileUrl;
+      } catch (err) {
+        uploadStatus.textContent = 'Upload failed: ' + err.message;
+        uploadArea.classList.remove('uploading');
+        progressBar.classList.remove('active');
+      }
+    }
+
+    // Form submission - redirect to GitHub issue
+    document.getElementById('submit-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const title = document.getElementById('title').value.trim();
+      const type = sourceType.value;
+      const url = document.getElementById('source-url')?.value.trim() || '';
+      const tags = document.getElementById('tags').value.trim();
+      const description = document.getElementById('description').value.trim();
+      const accountText = document.getElementById('account-text')?.value.trim() || '';
+
+      const errorMsg = document.getElementById('error-msg');
+
+      // Validation
+      if (!title) { showError('Title is required'); return; }
+      if (!type) { showError('Source type is required'); return; }
+      if ((type === 'pdf' || type === 'url' || type === 'video') && !url) {
+        showError('URL is required for this source type');
+        return;
+      }
+      if (type === 'account' && !accountText) {
+        showError('Account text is required for personal accounts');
+        return;
+      }
+
+      errorMsg.classList.remove('visible');
+
+      // Map type to form dropdown value
+      const typeMap = { pdf: 'PDF link', url: 'Website', account: 'Personal account', video: 'Video' };
+      const formType = typeMap[type] || type;
+
+      // Build GitHub issue URL with pre-filled fields
+      // Issue form fields are passed as query params
+      const params = new URLSearchParams();
+      params.set('template', ISSUE_TEMPLATE);
+      params.set('title', '[Source] ' + title);
+      params.set('type', formType);
+      if (url) params.set('url', url);
+      if (tags) params.set('tags', tags);
+      if (description) params.set('description', description);
+      if (accountText) params.set('account_text', accountText);
+      params.set('labels', 'submission');
+
+      window.open(
+        `https://github.com/${GITHUB_REPO}/issues/new?${params.toString()}`,
+        '_blank'
+      );
+    });
+
+    function showError(msg) {
+      const el = document.getElementById('error-msg');
+      el.textContent = msg;
+      el.classList.add('visible');
+    }
+  </script>
+</body>
+</html>

@@ -86,6 +86,22 @@ body {
   font-weight: 600;
 }
 
+.stats-bar .submit-link {
+  margin-left: auto;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 4px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.stats-bar .submit-link:hover {
+  background: rgba(79, 195, 247, 0.15);
+}
+
 /* ---- Tab Navigation ---- */
 .tab-nav {
   grid-area: tabs;

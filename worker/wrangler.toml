@@ -1,0 +1,11 @@
+name = "woograph-upload"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://robtaylor.github.io"
+MAX_FILE_SIZE = "104857600"  # 100MB
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "woograph-uploads"

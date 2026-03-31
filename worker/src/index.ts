@@ -5,6 +5,7 @@
  *
  * Endpoints:
  *   POST /upload   - Upload a file directly (multipart/form-data)
+ *   POST /submit   - Create a GitHub issue from submission data
  *   GET  /file/:key - Retrieve an uploaded file
  *
  * Files are stored with a UUID prefix to avoid collisions.
@@ -12,9 +13,12 @@
 
 export interface Env {
 	BUCKET: R2Bucket;
+	GITHUB_TOKEN: string;
 	ALLOWED_ORIGINS: string;
 	MAX_FILE_SIZE: string;
 }
+
+const GITHUB_REPO = "robtaylor/woograph";
 
 function corsHeaders(origin: string, env: Env): Record<string, string> {
 	const allowed = env.ALLOWED_ORIGINS.split(",").map((s) => s.trim());
@@ -44,6 +48,11 @@ export default {
 		// POST /upload - upload a file
 		if (request.method === "POST" && url.pathname === "/upload") {
 			return handleUpload(request, env, headers);
+		}
+
+		// POST /submit - create a GitHub issue
+		if (request.method === "POST" && url.pathname === "/submit") {
+			return handleSubmit(request, env, headers);
 		}
 
 		// GET /file/:key - retrieve a file
@@ -142,4 +151,91 @@ async function handleGet(
 			"Cache-Control": "public, max-age=31536000, immutable",
 		},
 	});
+}
+
+interface SubmitPayload {
+	title: string;
+	type: string; // "PDF link" | "Website" | "Personal account" | "Video"
+	url?: string;
+	tags?: string;
+	description?: string;
+	account_text?: string;
+}
+
+async function handleSubmit(
+	request: Request,
+	env: Env,
+	headers: Record<string, string>,
+): Promise<Response> {
+	const jsonHeaders = { ...headers, "Content-Type": "application/json" };
+
+	let payload: SubmitPayload;
+	try {
+		payload = await request.json() as SubmitPayload;
+	} catch {
+		return new Response(
+			JSON.stringify({ error: "Invalid JSON" }),
+			{ status: 400, headers: jsonHeaders },
+		);
+	}
+
+	if (!payload.title || !payload.type) {
+		return new Response(
+			JSON.stringify({ error: "Title and type are required" }),
+			{ status: 400, headers: jsonHeaders },
+		);
+	}
+
+	// Build issue body matching the issue form format
+	const lines: string[] = [];
+	lines.push("### Source Type\n");
+	lines.push(payload.type);
+	lines.push("\n### URL\n");
+	lines.push(payload.url || "_No response_");
+	lines.push("\n### Tags\n");
+	lines.push(payload.tags || "_No response_");
+	lines.push("\n### Description\n");
+	lines.push(payload.description || "_No response_");
+	lines.push("\n### Account Text\n");
+	lines.push(payload.account_text || "_No response_");
+
+	const issueBody = lines.join("\n");
+	const issueTitle = `[Source] ${payload.title}`;
+
+	// Create GitHub issue via API
+	const ghResponse = await fetch(
+		`https://api.github.com/repos/${GITHUB_REPO}/issues`,
+		{
+			method: "POST",
+			headers: {
+				Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+				Accept: "application/vnd.github+json",
+				"Content-Type": "application/json",
+				"User-Agent": "woograph-upload-worker",
+			},
+			body: JSON.stringify({
+				title: issueTitle,
+				body: issueBody,
+				labels: ["submission"],
+			}),
+		},
+	);
+
+	if (!ghResponse.ok) {
+		const err = await ghResponse.text();
+		return new Response(
+			JSON.stringify({ error: "Failed to create issue", details: err }),
+			{ status: 502, headers: jsonHeaders },
+		);
+	}
+
+	const issue = await ghResponse.json() as { number: number; html_url: string };
+
+	return new Response(
+		JSON.stringify({
+			issue_number: issue.number,
+			issue_url: issue.html_url,
+		}),
+		{ status: 201, headers: jsonHeaders },
+	);
 }

@@ -216,8 +216,8 @@
 
       <div class="form-group">
         <div class="error-msg" id="error-msg"></div>
-        <button type="submit" class="submit-btn" id="submit-btn">Submit via GitHub</button>
-        <p class="submit-note">Opens GitHub to create an issue. You'll need a GitHub account.</p>
+        <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
+        <p class="submit-note">Your submission will be reviewed by a maintainer before being added to the graph.</p>
       </div>
     </form>
   </div>
@@ -350,26 +350,54 @@
 
       errorMsg.classList.remove('visible');
 
-      // Map type to form dropdown value
       const typeMap = { pdf: 'PDF link', url: 'Website', account: 'Personal account', video: 'Video' };
       const formType = typeMap[type] || type;
 
-      // Build GitHub issue URL with pre-filled fields
-      // Issue form fields are passed as query params
-      const params = new URLSearchParams();
-      params.set('template', ISSUE_TEMPLATE);
-      params.set('title', '[Source] ' + title);
-      params.set('type', formType);
-      if (url) params.set('url', url);
-      if (tags) params.set('tags', tags);
-      if (description) params.set('description', description);
-      if (accountText) params.set('account_text', accountText);
-      params.set('labels', 'submission');
+      const submitBtn = document.getElementById('submit-btn');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
 
-      window.open(
-        `https://github.com/${GITHUB_REPO}/issues/new?${params.toString()}`,
-        '_blank'
-      );
+      try {
+        const resp = await fetch(UPLOAD_WORKER_URL + '/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            title,
+            type: formType,
+            url: url || undefined,
+            tags: tags || undefined,
+            description: description || undefined,
+            account_text: accountText || undefined,
+          }),
+        });
+
+        const result = await resp.json();
+
+        if (!resp.ok) {
+          showError(result.error || 'Submission failed');
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit';
+          return;
+        }
+
+        // Success - show confirmation
+        document.getElementById('submit-form').innerHTML = `
+          <div style="text-align:center; padding: 2rem 0;">
+            <div style="font-size:3rem; margin-bottom:1rem;">&#10003;</div>
+            <h2 style="color:#81C784;">Submission received!</h2>
+            <p style="color:#ccc; margin:1rem 0;">
+              Your source has been submitted for review.<br>
+              A maintainer will process it into the knowledge graph.
+            </p>
+            <p><a href="${result.issue_url}" target="_blank" style="color:#4FC3F7;">View submission on GitHub &rarr;</a></p>
+            <p style="margin-top:2rem;"><a href="submit.html" style="color:#4FC3F7;">Submit another source</a></p>
+          </div>
+        `;
+      } catch (err) {
+        showError('Network error: ' + err.message);
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit';
+      }
     });
 
     function showError(msg) {

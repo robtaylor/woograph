@@ -201,6 +201,54 @@ This means the full user journey is:
 5. Processing runs on PR, results visible
 6. Merge → graph updated → visualization live
 
+### D8: Submission Page with File Upload (GitHub Pages + R2)
+
+The GitHub Pages site includes a "Submit a Source" page with a clean form and file upload.
+
+**Architecture:**
+```
+User visits robtaylor.github.io/woograph/submit
+  ↓
+  Fills in form: title, type, URL/file, tags, description
+  ↓
+  If file attached: uploads to Cloudflare R2 via pre-signed URL
+    - Browser → Cloudflare Worker (generates pre-signed URL) → R2 bucket
+    - Returns public file URL (e.g., pub-xxx.r2.dev/uploads/uuid/filename.pdf)
+  ↓
+  "Submit" button → redirects to GitHub issue creation URL with pre-filled fields
+    github.com/robtaylor/woograph/issues/new?template=submit-source.yml&title=...&body=...
+  ↓
+  User clicks "Submit new issue" on GitHub (one click, uses their GitHub account)
+  ↓
+  Existing workflow: issue → PR → process → merge
+```
+
+**Components:**
+1. `site/submit.html` - Clean submission form (part of GitHub Pages)
+2. Cloudflare Worker - Generates pre-signed upload URLs for R2
+   - Endpoint: `POST /upload-url` → returns `{uploadUrl, publicUrl}`
+   - CORS: allows robtaylor.github.io
+   - File goes directly from browser to R2 (no server relay)
+3. R2 bucket `woograph-uploads` - stores uploaded files
+   - Public read access for processed files
+   - CORS configured for GitHub Pages domain
+
+**Secrets needed (GitHub repo secrets for Workers + Actions):**
+- `R2_ACCOUNT_ID`
+- `R2_ACCESS_KEY_ID`
+- `R2_SECRET_ACCESS_KEY`
+- `R2_BUCKET_NAME` (e.g., `woograph-uploads`)
+
+**File upload flow detail:**
+1. User selects file in form
+2. JS requests pre-signed URL from Cloudflare Worker
+3. JS PUTs file directly to R2 using pre-signed URL
+4. On success, file URL stored in form state
+5. On "Submit", GitHub issue URL includes the R2 file URL
+
+**Supported file types:** PDF, images (jpg/png), video (mp4/mov), audio (mp3/m4a)
+**Max file size:** 100MB (configurable in Worker)
+
 **Fork PR handling:** For PRs from forks, the workflow cannot push to the fork branch. Instead:
 - Extraction results posted as workflow artifacts (downloadable)
 - Summary posted as PR comment

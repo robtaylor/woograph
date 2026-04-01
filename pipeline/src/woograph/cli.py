@@ -512,3 +512,136 @@ def clean(ctx: click.Context) -> None:
         f"{stats['total_relationships']} relationships "
         f"(was {orig_rels})"
     )
+
+
+@main.command(name="llm-clean")
+@click.option("--batch-size", default=50, help="Entities per LLM call")
+@click.option("--dry-run", is_flag=True, help="Show what would be removed without modifying")
+@click.pass_context
+def llm_clean(ctx: click.Context, batch_size: int, dry_run: bool) -> None:
+    """Use LLM to identify and remove noise entities from the global graph."""
+    import re
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    from woograph.llm.client import create_completion, load_llm_config
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found. Run 'woograph merge' first.")
+        raise SystemExit(1)
+
+    llm_config = load_llm_config()
+    if not llm_config:
+        click.echo("No LLM API key found. Set DEEPSEEK_API_KEY or similar.")
+        raise SystemExit(1)
+
+    graph = json.loads(global_path.read_text())
+    entities = graph.get("entities", [])
+    relationships = graph.get("relationships", [])
+
+    # Find suspicious entities
+    suspicious: list[dict] = []
+    for e in entities:
+        if e.get("@type") == "woo:Source":
+            continue
+        name = e.get("name", "")
+        is_suspect = False
+        # Short names
+        if len(name) <= 5:
+            is_suspect = True
+        # Names ending in punctuation
+        elif name[-1] in ".,;:!?)":
+            is_suspect = True
+        # Abbreviation-like: all caps, or initials with dots
+        elif re.match(r"^[A-Z][A-Z.]+$", name):
+            is_suspect = True
+        # Contains digits mixed with letters (OCR artifacts)
+        elif re.search(r"\d", name) and re.search(r"[a-zA-Z]", name) and len(name) < 15:
+            is_suspect = True
+        if is_suspect:
+            suspicious.append(e)
+
+    click.echo(f"Found {len(suspicious)} suspicious entities to check")
+
+    if not suspicious:
+        click.echo("Nothing to clean!")
+        return
+
+    # Send in batches to LLM
+    noise_ids: set[str] = set()
+    batches = [suspicious[i:i + batch_size] for i in range(0, len(suspicious), batch_size)]
+
+    def classify_batch(batch: list[dict]) -> set[str]:
+        entity_list = "\n".join(
+            f"- {e['@type']}: {e['name']}" for e in batch
+        )
+        prompt = (
+            "You are classifying named entities extracted from academic research papers "
+            "about consciousness, parapsychology, physics, and related topics.\n\n"
+            "For each entity below, classify it as KEEP (real entity) or NOISE "
+            "(OCR artifact, abbreviation, citation fragment, table data, or nonsense).\n\n"
+            "Entities:\n"
+            f"{entity_list}\n\n"
+            "Return a JSON object with entity names as keys and \"KEEP\" or \"NOISE\" as values. "
+            "Examples of NOISE: random abbreviations, partial words, citation fragments, "
+            "degree abbreviations (Ph.D., M.A.), single letters, journal volume numbers.\n"
+            "Examples of KEEP: person names, place names, organization names, real events, "
+            "real publications, scientific concepts."
+        )
+        response = create_completion(llm_config, prompt, max_tokens=4096, json_mode=True)
+        if not response:
+            return set()
+        try:
+            result = json.loads(response)
+            return {
+                e["@id"] for e in batch
+                if result.get(e["name"], "KEEP") == "NOISE"
+            }
+        except (json.JSONDecodeError, KeyError):
+            return set()
+
+    click.echo(f"Sending {len(batches)} batches to {llm_config.provider}:{llm_config.model}...")
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(classify_batch, batch): i for i, batch in enumerate(batches)}
+        for future in as_completed(futures):
+            batch_idx = futures[future]
+            try:
+                batch_noise = future.result()
+                noise_ids.update(batch_noise)
+                click.echo(f"  Batch {batch_idx + 1}/{len(batches)}: {len(batch_noise)} noise entities")
+            except Exception as exc:
+                click.echo(f"  Batch {batch_idx + 1}/{len(batches)}: failed ({exc})")
+
+    click.echo(f"\nLLM identified {len(noise_ids)} noise entities")
+
+    if dry_run:
+        for e in entities:
+            if e["@id"] in noise_ids:
+                click.echo(f"  REMOVE: {e['@type']:15} {e['name']}")
+        return
+
+    # Remove noise entities and their relationships
+    clean_entities = [e for e in entities if e["@id"] not in noise_ids]
+    clean_rels = [
+        r for r in relationships
+        if (r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]) not in noise_ids
+        and (r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]) not in noise_ids
+    ]
+
+    graph["entities"] = clean_entities
+    graph["relationships"] = clean_rels
+    global_path.write_text(json.dumps(graph, indent=2) + "\n")
+
+    from woograph.graph.merge import generate_stats
+    stats = generate_stats(graph)
+    stats_path = repo_root / "graph" / "stats.json"
+    stats_path.write_text(json.dumps(stats, indent=2) + "\n")
+
+    click.echo(
+        f"LLM-cleaned graph: {stats['total_entities']} entities "
+        f"(removed {len(noise_ids)}), "
+        f"{stats['total_relationships']} relationships"
+    )

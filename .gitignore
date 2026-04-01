@@ -8,13 +8,28 @@ dist/
 # uv
 pipeline/.venv/
 pipeline/uv.lock
+pipeline/wtf-venv
+
+# Node (wrangler)
+node_modules/
+package-lock.json
 
 # OS
 .DS_Store
 
+# Local dev
+.env
+.claude/
+.tldr/
+.tldrignore
+thoughts/
+
 # Cache
 graph/cache/
+graph/.cache/
+
+# Downloaded PDFs (sourced from URLs, not stored in git)
+sources/**/*.pdf
 
 # Temp
 /tmp/
-graph/.cache/

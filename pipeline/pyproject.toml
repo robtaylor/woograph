@@ -15,6 +15,13 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "openai>=1.50",
     "marker-pdf>=1.10.2",
+    "cfgv>=3.5.0",
+    "markdown2>=2.5.5",
+    "nodeenv>=1.10.0",
+    "py>=1.11.0",
+    "six>=1.17.0",
+    "threadpoolctl>=3.6.0",
+    "typing-extensions>=4.15.0",
 ]
 
 [project.scripts]

@@ -118,8 +118,8 @@ class TestCreateFragment:
     def test_has_entities(self):
         fragment = create_fragment("source:nimitz-bio", "Nimitz Biography", self._make_entities())
         assert "entities" in fragment
-        # 2 entities + 1 source node
-        assert len(fragment["entities"]) == 3
+        # 2 entities + 1 source node + 1 synthetic topic (title doesn't match entities)
+        assert len(fragment["entities"]) == 4
 
     def test_source_node_present(self):
         fragment = create_fragment("source:nimitz-bio", "Nimitz Biography", self._make_entities())
@@ -145,7 +145,8 @@ class TestCreateFragment:
     def test_mentioned_in_relationships(self):
         fragment = create_fragment("source:nimitz-bio", "Nimitz Biography", self._make_entities())
         mentioned_rels = [r for r in fragment["relationships"] if r["predicate"] == "woo:mentionedIn"]
-        assert len(mentioned_rels) == 2  # one per entity
+        # 2 entities + 1 synthetic topic = 3 mentioned_in relationships
+        assert len(mentioned_rels) == 3
 
     def test_entity_type_mapping(self):
         fragment = create_fragment("source:nimitz-bio", "Nimitz Biography", self._make_entities())
@@ -155,9 +156,10 @@ class TestCreateFragment:
 
     def test_empty_entities(self):
         fragment = create_fragment("source:empty", "Empty Source", [])
-        # Still has the source node
-        assert len(fragment["entities"]) == 1
+        # Source node + synthetic topic entity
+        assert len(fragment["entities"]) == 2
         assert fragment["entities"][0]["@type"] == "woo:Source"
+        assert fragment["entities"][1]["@type"] == "Event"  # synthetic topic
 
     def test_source_title_in_fragment(self):
         fragment = create_fragment("source:nimitz-bio", "Nimitz Biography", self._make_entities())

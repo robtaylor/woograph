@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import logging
+import re
 from typing import TYPE_CHECKING
 
 from woograph.extract.ner import Entity
-from woograph.graph.jsonld import schema_type_for_spacy_label
+from woograph.graph.jsonld import make_entity_id, schema_type_for_spacy_label
 
 if TYPE_CHECKING:
     from woograph.extract.relationships import Relationship
@@ -73,7 +74,7 @@ def create_fragment(
     }
 
     # Entity nodes
-    entity_nodes = [source_node]
+    entity_nodes: list[dict] = [source_node]
     entity_ids: set[str] = set()
     for entity in entities:
         entity_ids.add(entity.canonical_id)
@@ -116,21 +117,50 @@ def create_fragment(
             linked_entity_ids.add(rel.object)
 
     # 3. related_to: orphan entities → topic entity
+    #    If no topic entity found, create one from the source title
     topic = _find_topic_entity(source_title, entities)
     if topic:
-        logger.info("Topic entity: %s (%s)", topic.name, topic.canonical_id)
-        for entity in entities:
-            if entity.canonical_id == topic.canonical_id:
-                continue
-            if entity.canonical_id not in linked_entity_ids:
-                rel_nodes.append({
-                    "@type": "woo:Relationship",
-                    "subject": {"@id": entity.canonical_id},
-                    "predicate": "woo:relatedTo",
-                    "object": {"@id": topic.canonical_id},
-                    "confidence": 0.3,
-                    "extractedBy": "pipeline",
-                })
+        target_id = topic.canonical_id
+        logger.info("Topic entity found: %s (%s)", topic.name, target_id)
+    else:
+        # Create a synthetic topic entity from the title
+        clean_title = source_title
+        for prefix in ("PEAR:", "JFK:", "PDF:", "Wikipedia:"):
+            if clean_title.startswith(prefix):
+                clean_title = clean_title[len(prefix):].strip()
+        # Strip leading years
+        clean_title = re.sub(r"^\d{4}[-\s]+", "", clean_title).strip()
+        target_id = make_entity_id("EVENT", clean_title)
+        entity_nodes.append({
+            "@id": target_id,
+            "@type": "Event",
+            "name": clean_title,
+            "aliases": [],
+            "mentionedIn": source_id,
+        })
+        entity_ids.add(target_id)
+        rel_nodes.append({
+            "@type": "woo:Relationship",
+            "subject": {"@id": target_id},
+            "predicate": "woo:mentionedIn",
+            "object": {"@id": source_id},
+            "confidence": 1.0,
+            "extractedBy": "pipeline",
+        })
+        logger.info("Created topic entity: %s (%s)", clean_title, target_id)
+
+    for entity in entities:
+        if entity.canonical_id == target_id:
+            continue
+        if entity.canonical_id not in linked_entity_ids:
+            rel_nodes.append({
+                "@type": "woo:Relationship",
+                "subject": {"@id": entity.canonical_id},
+                "predicate": "woo:relatedTo",
+                "object": {"@id": target_id},
+                "confidence": 0.3,
+                "extractedBy": "pipeline",
+            })
 
     fragment: dict = {
         "@context": context_path,

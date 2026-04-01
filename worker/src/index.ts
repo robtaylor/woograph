@@ -160,6 +160,8 @@ interface SubmitPayload {
 	tags?: string;
 	description?: string;
 	account_text?: string;
+	latitude?: number;
+	longitude?: number;
 }
 
 async function handleSubmit(
@@ -198,6 +200,10 @@ async function handleSubmit(
 	lines.push(payload.description || "_No response_");
 	lines.push("\n### Account Text\n");
 	lines.push(payload.account_text || "_No response_");
+	if (payload.latitude != null && payload.longitude != null) {
+		lines.push("\n### Location\n");
+		lines.push(`${payload.latitude}, ${payload.longitude}`);
+	}
 
 	const issueBody = lines.join("\n");
 	const issueTitle = `[Source] ${payload.title}`;

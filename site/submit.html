@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Submit a Source - WooGraph</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     .submit-container {
       max-width: 640px;
@@ -150,6 +152,43 @@
     }
     .error-msg.visible { display: block; }
 
+    /* Location map */
+    .map-container {
+      height: 250px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #333;
+      margin-bottom: 0.5rem;
+    }
+    .location-coords {
+      color: #81C784;
+      font-size: 0.85rem;
+      font-family: monospace;
+    }
+    .location-search {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .location-search input {
+      flex: 1;
+    }
+    .location-search button {
+      padding: 0.6rem 1rem;
+      background: #2a2a4a;
+      color: #ccc;
+      border: 1px solid #333;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .location-search button:hover { background: #3a3a5a; }
+    .exif-notice {
+      color: #FFB74D;
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+    }
+
     a.back-link {
       color: #4FC3F7;
       text-decoration: none;
@@ -215,6 +254,18 @@
       </div>
 
       <div class="form-group">
+        <label>Location <span style="color:#666">(optional)</span></label>
+        <p class="hint">Click the map, search for a place, or upload a geotagged photo to auto-detect.</p>
+        <div class="location-search">
+          <input type="text" id="location-search" placeholder="Search for a place...">
+          <button type="button" id="location-search-btn">Search</button>
+        </div>
+        <div class="map-container" id="location-map"></div>
+        <div class="location-coords" id="location-coords"></div>
+        <div class="exif-notice" id="exif-notice"></div>
+      </div>
+
+      <div class="form-group">
         <div class="error-msg" id="error-msg"></div>
         <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
         <p class="submit-note">Your submission will be reviewed by a maintainer before being added to the graph.</p>
@@ -230,6 +281,10 @@
 
     // State
     let uploadedFileUrl = '';
+    let selectedLat = null;
+    let selectedLng = null;
+    let locationMarker = null;
+    let locationMap = null;
 
     // Source type toggling
     const sourceType = document.getElementById('source-type');
@@ -243,6 +298,165 @@
       uploadGroup.classList.toggle('visible', type === 'pdf' || type === 'video');
       accountGroup.classList.toggle('visible', type === 'account');
     });
+
+    // ---- Location map ----
+    function initMap() {
+      locationMap = L.map('location-map', {
+        center: [30, 0],
+        zoom: 2,
+        scrollWheelZoom: true,
+      });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap',
+        maxZoom: 19,
+      }).addTo(locationMap);
+
+      locationMap.on('click', (e) => setLocation(e.latlng.lat, e.latlng.lng, 'map click'));
+    }
+
+    function setLocation(lat, lng, source) {
+      selectedLat = Math.round(lat * 1000000) / 1000000;
+      selectedLng = Math.round(lng * 1000000) / 1000000;
+
+      if (locationMarker) {
+        locationMarker.setLatLng([lat, lng]);
+      } else {
+        locationMarker = L.marker([lat, lng], { draggable: true }).addTo(locationMap);
+        locationMarker.on('dragend', () => {
+          const pos = locationMarker.getLatLng();
+          setLocation(pos.lat, pos.lng, 'drag');
+        });
+      }
+
+      locationMap.setView([lat, lng], Math.max(locationMap.getZoom(), 10));
+      document.getElementById('location-coords').textContent =
+        `${selectedLat}, ${selectedLng}`;
+    }
+
+    // Location search via Nominatim (free, no API key)
+    document.getElementById('location-search-btn').addEventListener('click', searchLocation);
+    document.getElementById('location-search').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); searchLocation(); }
+    });
+
+    async function searchLocation() {
+      const query = document.getElementById('location-search').value.trim();
+      if (!query) return;
+      try {
+        const resp = await fetch(
+          `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(query)}`,
+          { headers: { 'User-Agent': 'WooGraph/1.0' } }
+        );
+        const results = await resp.json();
+        if (results.length > 0) {
+          setLocation(parseFloat(results[0].lat), parseFloat(results[0].lon), 'search');
+          document.getElementById('location-search').value = results[0].display_name;
+        }
+      } catch (err) {
+        console.warn('Geocoding failed:', err);
+      }
+    }
+
+    // EXIF GPS extraction from images
+    function extractExifGps(file) {
+      if (!file.type.startsWith('image/')) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const view = new DataView(e.target.result);
+        const exif = parseExifGps(view);
+        if (exif) {
+          setLocation(exif.lat, exif.lng, 'exif');
+          document.getElementById('exif-notice').textContent =
+            `GPS coordinates extracted from photo EXIF data`;
+        }
+      };
+      reader.readAsArrayBuffer(file.slice(0, 128 * 1024)); // Only need first 128KB for EXIF
+    }
+
+    function parseExifGps(view) {
+      // Find EXIF marker in JPEG
+      if (view.getUint16(0) !== 0xFFD8) return null; // Not JPEG
+
+      let offset = 2;
+      while (offset < view.byteLength - 2) {
+        const marker = view.getUint16(offset);
+        if (marker === 0xFFE1) { // APP1 (EXIF)
+          return parseApp1(view, offset + 4);
+        }
+        offset += 2 + view.getUint16(offset + 2);
+      }
+      return null;
+    }
+
+    function parseApp1(view, start) {
+      // Check for "Exif\0\0"
+      if (view.getUint32(start) !== 0x45786966 || view.getUint16(start + 4) !== 0) return null;
+
+      const tiffStart = start + 6;
+      const bigEndian = view.getUint16(tiffStart) === 0x4D4D;
+
+      function getU16(o) { return bigEndian ? view.getUint16(o) : view.getUint16(o, true); }
+      function getU32(o) { return bigEndian ? view.getUint32(o) : view.getUint32(o, true); }
+
+      // Find GPS IFD
+      const ifdOffset = tiffStart + getU32(tiffStart + 4);
+      const entries = getU16(ifdOffset);
+      let gpsOffset = 0;
+
+      for (let i = 0; i < entries; i++) {
+        const entryOffset = ifdOffset + 2 + i * 12;
+        if (getU16(entryOffset) === 0x8825) { // GPSInfo tag
+          gpsOffset = tiffStart + getU32(entryOffset + 8);
+          break;
+        }
+      }
+
+      if (!gpsOffset) return null;
+
+      // Parse GPS IFD
+      const gpsEntries = getU16(gpsOffset);
+      let latRef = '', lngRef = '', latVals = null, lngVals = null;
+
+      for (let i = 0; i < gpsEntries; i++) {
+        const entryOffset = gpsOffset + 2 + i * 12;
+        const tag = getU16(entryOffset);
+        const valueOffset = tiffStart + getU32(entryOffset + 8);
+
+        if (tag === 1) { // GPSLatitudeRef
+          latRef = String.fromCharCode(view.getUint8(entryOffset + 8));
+        } else if (tag === 2) { // GPSLatitude
+          latVals = readRationals(view, valueOffset, 3, bigEndian);
+        } else if (tag === 3) { // GPSLongitudeRef
+          lngRef = String.fromCharCode(view.getUint8(entryOffset + 8));
+        } else if (tag === 4) { // GPSLongitude
+          lngVals = readRationals(view, valueOffset, 3, bigEndian);
+        }
+      }
+
+      if (!latVals || !lngVals) return null;
+
+      let lat = latVals[0] + latVals[1] / 60 + latVals[2] / 3600;
+      let lng = lngVals[0] + lngVals[1] / 60 + lngVals[2] / 3600;
+      if (latRef === 'S') lat = -lat;
+      if (lngRef === 'W') lng = -lng;
+
+      return { lat, lng };
+    }
+
+    function readRationals(view, offset, count, bigEndian) {
+      const vals = [];
+      for (let i = 0; i < count; i++) {
+        const o = offset + i * 8;
+        const num = bigEndian ? view.getUint32(o) : view.getUint32(o, true);
+        const den = bigEndian ? view.getUint32(o + 4) : view.getUint32(o + 4, true);
+        vals.push(den ? num / den : 0);
+      }
+      return vals;
+    }
+
+    // Init map on page load
+    initMap();
 
     // File upload
     const uploadArea = document.getElementById('upload-area');
@@ -271,6 +485,9 @@
     });
 
     async function handleFileSelect(file) {
+      // Try to extract GPS from image EXIF
+      extractExifGps(file);
+
       if (!UPLOAD_WORKER_URL) {
         // No worker configured - just show filename, user will need to host elsewhere
         uploadFilename.textContent = file.name + ' (upload not configured - please provide a URL instead)';
@@ -368,6 +585,8 @@
             tags: tags || undefined,
             description: description || undefined,
             account_text: accountText || undefined,
+            latitude: selectedLat || undefined,
+            longitude: selectedLng || undefined,
           }),
         });
 

@@ -53,16 +53,21 @@ def _is_digital_pdf(pdf_path: Path) -> bool:
     """
     try:
         doc = pymupdf.open(str(pdf_path))
+        for page in doc:
+            print(f"page {page}")
         total_chars = sum(len(page.get_text()) for page in doc)
         page_count = max(len(doc), 1)
         doc.close()
         chars_per_page = total_chars / page_count
-        logger.debug(
-            "%s: %d chars across %d pages (%.0f chars/page)",
+        is_digital = chars_per_page >= _MIN_CHARS_PER_PAGE
+        logger.info(
+            "PDF detection: %s — %d chars, %d pages, %.0f chars/page → %s (threshold=%d)",
             pdf_path.name, total_chars, page_count, chars_per_page,
+            "digital" if is_digital else "scanned", _MIN_CHARS_PER_PAGE,
         )
-        return chars_per_page >= _MIN_CHARS_PER_PAGE
-    except Exception:
+        return is_digital
+    except Exception as exc:
+        logger.warning("PDF detection failed for %s: %s — defaulting to scanned", pdf_path.name, exc)
         return False
 
 
@@ -140,7 +145,14 @@ def convert_pdf(pdf_path: Path, output_dir: Path) -> Path:
     try:
         if backend == "marker":
             if _get_marker_converter() is not None:
-                md_text = _convert_with_marker(pdf_path, output_dir)
+                try:
+                    md_text = _convert_with_marker(pdf_path, output_dir)
+                except Exception as marker_exc:
+                    logger.warning(
+                        "Marker failed for %s (%s), falling back to pymupdf4llm",
+                        pdf_path.name, marker_exc,
+                    )
+                    md_text = _convert_with_pymupdf(pdf_path, output_dir)
             else:
                 logger.warning("Marker unavailable, falling back to pymupdf4llm")
                 md_text = _convert_with_pymupdf(pdf_path, output_dir)

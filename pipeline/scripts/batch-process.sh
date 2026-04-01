@@ -20,9 +20,6 @@ echo "Files: $TOTAL"
 echo "Pattern: $PATTERN"
 echo ""
 
-# Pre-sync to avoid concurrent uv sync races
-(cd pipeline && uv sync --dev) 2>&1 | tail -1
-
 for f in "${FILES[@]}"; do
     slug=$(basename "$f" .yaml)
     DONE=$((DONE + 1))
@@ -43,13 +40,9 @@ for f in "${FILES[@]}"; do
     FILE_START=$(date +%s)
     echo "[$DONE/$TOTAL] Processing: ${slug}..."
 
-    if OUTPUT=$(cd pipeline && uv run --no-sync woograph process "../$f" 2>&1); then
+    if (cd pipeline && uv run --no-sync woograph process "../$f") 2>&1; then
         FILE_END=$(date +%s)
         FILE_DURATION=$((FILE_END - FILE_START))
-
-        ENTITIES=$(echo "$OUTPUT" | grep "Entities:" | tail -1 | awk '{print $2}')
-        RELS=$(echo "$OUTPUT" | grep "Relationships:" | tail -1 | awk '{print $2}')
-        BACKEND=$(echo "$OUTPUT" | grep "Converting PDF" | grep -oE 'auto → [a-z]+|backend=[a-z]+' | head -1)
 
         ELAPSED=$((FILE_END - START_TIME))
         REMAINING_FILES=$((TOTAL - DONE))
@@ -60,13 +53,12 @@ for f in "${FILES[@]}"; do
             ETA="?"
         fi
 
-        echo "  ✓ ${ENTITIES:-?} entities, ${RELS:-?} relationships (${FILE_DURATION}s) [${BACKEND:-?}] ETA: ~${ETA}min"
+        echo "  ✓ Done (${FILE_DURATION}s) ETA: ~${ETA}min"
     else
         FAILED=$((FAILED + 1))
         FILE_END=$(date +%s)
         FILE_DURATION=$((FILE_END - FILE_START))
         echo "  ✗ FAILED (${FILE_DURATION}s)"
-        echo "$OUTPUT" | grep -E "ERROR|Traceback|Error" | head -3
     fi
 done
 

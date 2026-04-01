@@ -133,7 +133,7 @@ Ann. Phys, (Leipzig) 10 (2001) 5
 the radiation emission process. This yielded the well-known blackbody function, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0008-04.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0008-04.png)
 
 
 written here as an energy density and factored so as to show the two components: a density of modes (i.e. number of degrees of freedom per unit volume) times the thermal energy per mode in the frequency interval dv. As discussed in detail in Kuhn [19], Planck himself remained skeptical of the physical significance and importance of his theoretical discovery of an apparently new constant of nature, A, for over a decade. 
@@ -143,7 +143,7 @@ In 1913 Einstein and Stern [20] studied the interaction of matter with radiation
 The existence of such a ZPF had already been envisaged by Planck around 1910 when he formulated his so-called second theory: namely an attempt to derive the blackbody spectral formula with a weaker quantization assumption. Nernst [21] proposed that the Universe might actually contain enormous amounts of such ZPF radiation and became the main proponent of this concept. Both Planck and Nernst used the correct hv/2 form for the average energy of the zero-point electromagnetic fluctuations instead of the Av value assumed by Einstein and Stern; the Av assumption is correct for the sum of interacting harmonic oscillator plus the energy of the electromagnetic field mode. The electromagnetic blackbody spectrum including ZPF would then be: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0008-08.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0008-08.png)
 
 
 This appears to result in a v* ultraviolet catastrophe in the second term. In the context of SED, however, that divergence is not fatal. This component now refers not to measurable excess radiation from a heated object, but rather to a uniform, isotropic background radiation field that cannot be directly measured because of its homogeneity and isotropy. This approach of Einstein and Stern to understanding the blackbody spectrum was not developed further thereafter, and was essentially forgotten for the next fifty years until its rediscovery by Marshall [17]. In recent times, several modern derivations of the blackbody function using classical physics with a real ZPF but without quantization (i.e. SED) have been presented mainly by Boyer (see Boyer [22] and references therein; also de la Pefia and Cetto [4] for a thorough review and references to other authors). In other words, if one grants the existence of a real ZPF, the correct blackbody formula for the thermal emission of matter seems to naturally follow from classical physics without quantization. 
@@ -173,7 +173,7 @@ The ZPF spectral energy density, cf. eqn. (3),
 zp(¥) =zAsthy? 3) would indeed be analogous to a spatially uniform constant offset that cancels out when considering net energy fluxes. However an important discovery was made in the mid-1970s that showed that the ZPF acquires special characteristics when viewed from an accelerating frame. In connection with radiation from evaporating black holes as proposed in 1974 by Hawking [29], working independently Davies [30] and Unruh [31] determined that a Planck-like component of the ZPF will arise in a uniformly-accelerated coordinate system, namely one having a constant proper acceleration a with what amounts to an effective “temperature” 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0010-06.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0010-06.png)
 
 
 “One of the most curious properties to be discussed in recent years is the prediction that an observer who accelerates in the conventional quantum vacuum of Minkowski space will perceive a bath of radiation, while an inertial observer of course perceives nothing. In the case of linear acceleration, for which there exists an extensive literature, the response of a model particle detector mimics the effect of its being immersed in a bath of thermal radiation (the so-called Unruh effect).” 
@@ -207,7 +207,7 @@ Ann. Phys. (Leipzig) 10 (2001) 5
 particle having the spectral energy density given in eqn. (5). The leading term of the acceleration-dependent terms is taken; the electric and magnetic fields are transformed into a constant proper acceleration frame using well-known relations. The Lorentz force, f,,, arising from the acceleration-dependent part of the B” acting upon the Planck oscillator is calculated: it is found to be proportional to acceleration, Following the approach in §1, our result may be expressed as, f, =f, = —mya, ie. the reaction force created by the ZPF due to acceleration through the quantum vacuuum is the Lorentz force, and m; is an electromagetic parameter. To maintain the acceleration process, a motive force, f, must continually be applied to compensate for f,, and therefore f = —f, = mya. The electromagnetic constant of proportionality, 7;, is interpreted as the physical basis of the inertial mass of the Planck oscillator and thus at least as a contribution to the total mass of the real particle that was modeled for simplicity as a Planck oscillator. This inertial mass, #2;, was found to be a function of a radiation damping constant for zitterbewegung, I',, of the oscillator and of the interaction frequency with the ZPF. In the HRP analysis it was assumed that the interaction between the ZPF and the Planck oscillator takes place at a very high cutoff frequency, w,, which was suggested to be the Planck frequency, or perhaps a limiting frequency reflecting some minimum size of an elementary particle. The expression that was found relating mass to the zitterbewegung damping constant and a cutoff frequency was (eqn. 111 of HRP): 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0012-04.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0012-04.png)
 
 
 For reasons discussed below, we now think it more likely that the ZPF-parton interaction takes place at a resonance. We thus replace w,, a cutoff frequency, by @,, a resonance frequency, and rewrite eqn. (6) in terms of cycle frequency, »,, rather than angular frequency, w,, to arrive at 
@@ -257,7 +257,7 @@ where @,, is the well known spectral energy density of the ZPF of eqn. (3). The 
 Not only does the ordinary form of Newton’s second law, f = ma, emerge from this analysis, but one can also obtain the relativistic form of the second law [6]: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0014-09.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0014-09.png)
 
 
 **----- Start of picture text -----**<br>
@@ -271,7 +271,7 @@ The origin of inertia, in this picture, becomes remarkably intuitive. Any materi
 The four-momentum is defined as 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0014-13.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0014-13.png)
 
 
 B. Haisch et al., Inertial mass and the quantum vacuum fields 
@@ -281,11 +281,11 @@ B. Haisch et al., Inertial mass and the quantum vacuum fields
 and from this obtain the relationship 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0015-03.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0015-03.png)
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0015-04.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0015-04.png)
 
 
 between the Compton wavelength, 2,, and the de Broglie wavelength, 2g. For a stationary object Ag is infinite, and the de Broglie wavelength decreases in inverse proportion to the momentum. 
@@ -411,7 +411,7 @@ B. Haisch et al., Inertial mass and the quantum vacuum fields 413
 - [10] D. Hestenes, Found. Phys. 20, 1213 (1990) and D. Hestenes, “Zitterbewegung in Radiative Processes” in The Electron — New Theory and Experiment. D. Hestenes and A. Weingartshoer, eds. (Kluwer, Dordrecht, 1991) 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/2001-inertial-mass-quantum-vacuum-fields.pdf-0021-12.png)
+![](sources/pear-2001-inertial-mass-quantum-vacuum-fields/images/pear-2001-inertial-mass-quantum-vacuum-fields.pdf-0021-12.png)
 
 
 **----- Start of picture text -----**<br>

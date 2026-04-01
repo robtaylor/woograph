@@ -85,13 +85,13 @@ effect, and each should have the same standard deviation or standard error as th
 Let h, l, and b denote one experimental outcome in each of the three intentions high, low, and baseline, respectively. Let each of these outcomes have a statistical observation uncertainty rh, rl, rb, respectively. Then the two measures, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0006-04.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0006-04.png)
 
 
 each have expectation 0, and their variances are 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0006-06.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0006-06.png)
 
 
 The symbols for these measures are chosen mnemonically. D is the delta-effect, the difference between the oppositely directed active intentional conditions. A is the asymmetry, the difference between the passive baseline and the two active intentions. 
@@ -160,7 +160,7 @@ discrepancy has two sources. One is the separation of the six post-unblinding se
 The difference T-scores in the last section of Table 1 are calculated according to the formula: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0008-05.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0008-05.png)
 
 
 The MegaREG Experiment 
@@ -206,7 +206,7 @@ Fig. 3. Individual operator performances in MegaREG.
 operators, and the ith operator’s database has mean mi with standard error ri, and if the composite mean for all operators is m, then 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0011-04.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0011-04.png)
 
 
 is distributed as a v[2] with N 1 d.f., under the null hypothesis that all operators have an identical effect on the data and the differences between operators are due to random variation. 
@@ -512,13 +512,13 @@ herein was inspired and in large part designed by Michael Ibison, whose reports 
 A raw MegaREG trial value is (under the null hypothesis) a normally distributed random variable t with expectation hti ¼ 10[6] and standard deviation r(t) ¼ 1000/�2 ¼ 707.107. Therefore the Z-score of such a trial is 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0026-06.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0026-06.png)
 
 
 The normalization process produces a normalized trial value t9 ¼ 100 þ (t � 1000000)/100. This is referenced to the theoretical distribution for 200-bit trials, l9 ¼ 100, r9 ¼ �50 ¼ 7.07107. The resulting Z-score is therefore 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0026-08.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0026-08.png)
 
 
 Thus the Z-score of a normalized trial is the same as the Z-score of the corresponding raw trial. Statistical yield is unaffected by the normalization process. 
@@ -530,7 +530,7 @@ Let the mean output level of the MegaREG source be l, with standard deviation r.
 We may now calculate directly the expected value and variance of the analysis variables D and A. For D, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0026-13.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0026-13.png)
 
 
 395 
@@ -542,7 +542,7 @@ This establishes the relations of Equation 2 for D. An exactly analogous derivat
 We wish also to show that D and A are uncorrelated; that is, that they have zero covariance. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0027-04.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0027-04.png)
 
 
 ## Secular Drift: Empirical and Theoretical Solutions 
@@ -572,7 +572,7 @@ The composite result of this test for the existence of within-series drift can b
 The data can be protected from longer-term secular drift effects between series by calculating D and A at the series level, and combining these parameters, rather than the raw data, when multi-series concatenations are needed. The combination formulae for n values mi, i ¼ 1,. . .,n, with corresponding standard error estimates si, are: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2004-megareg-replication-interpretation/images/2004-megareg-replication-interpretation.pdf-0028-07.png)
+![](sources/pear-2004-megareg-replication-interpretation/images/pear-2004-megareg-replication-interpretation.pdf-0028-07.png)
 
 
 ## References 

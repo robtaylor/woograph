@@ -1,0 +1,4121 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1988-operator-related-anomalies-rmc",
+  "name": "PEAR: 1988 Operator Related Anomalies Rmc",
+  "entities": [
+    {
+      "@id": "source:pear-1988-operator-related-anomalies-rmc",
+      "@type": "woo:Source",
+      "name": "PEAR: 1988 Operator Related Anomalies Rmc"
+    },
+    {
+      "@id": "entity:organization-journal-ofscientific-exploration",
+      "@type": "Organization",
+      "name": "Journal ofScientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-pergamon-press-plc",
+      "@type": "Organization",
+      "name": "Pergamon Press plc",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-operator-related",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nOperator-Related",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-random-mechanical-cascade",
+      "@type": "Organization",
+      "name": "Random Mechanical Cascade",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-j-dunne",
+      "@type": "Person",
+      "name": "J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-roger-d-nelson",
+      "@type": "Person",
+      "name": "ROGER D. NELSON",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "ROBERT G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-school-ofengineering-and-applied-science",
+      "@type": "Organization",
+      "name": "School ofEngineering and Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-gaussian",
+      "@type": "Person",
+      "name": "Gaussian",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-tight",
+      "@type": "Organization",
+      "name": "Tight",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-random-event-generator",
+      "@type": "Organization",
+      "name": "Random Event Generator",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "The McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-the-john-e-fetzer-foundation",
+      "@type": "Person",
+      "name": "The John E. Fetzer Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-helix-investments-ltd",
+      "@type": "Organization",
+      "name": "Helix Investments, Ltd.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-ohrstrom-foundation",
+      "@type": "Organization",
+      "name": "The Ohrstrom Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B. J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-bin",
+      "@type": "Person",
+      "name": "bin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-journal",
+      "@type": "Organization",
+      "name": "Journal",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-dunne-nelson",
+      "@type": "Organization",
+      "name": "Dunne, & Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, & Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-francis-galton",
+      "@type": "Person",
+      "name": "Francis Galton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-about-a-quarter",
+      "@type": "Date",
+      "name": "about a quarter",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-curve-of-frequency",
+      "@type": "Organization",
+      "name": "the Curve of Frequency",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-frequency",
+      "@type": "Organization",
+      "name": "Frequency",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-galton",
+      "@type": "Place",
+      "name": "Galton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-galton",
+      "@type": "Organization",
+      "name": "Galton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-bin",
+      "@type": "Organization",
+      "name": "bin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn \n\n\n\n\n\n-----",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-somtebia",
+      "@type": "Place",
+      "name": "soMtebia",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-1988a",
+      "@type": "Date",
+      "name": "1988a",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-october-1983",
+      "@type": "Date",
+      "name": "October, 1983",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-16-17",
+      "@type": "Date",
+      "name": "16 17",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-student-s",
+      "@type": "Organization",
+      "name": "Student\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-rt-bl",
+      "@type": "Organization",
+      "name": "RT-BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-lt-bl",
+      "@type": "Organization",
+      "name": "LT-BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-anova",
+      "@type": "Organization",
+      "name": "ANOVA",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-appendix",
+      "@type": "Person",
+      "name": "Appendix",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-1988b",
+      "@type": "Date",
+      "name": "1988b",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-05-1075",
+      "@type": "Date",
+      "name": "05 1075",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-rt-bl",
+      "@type": "Organization",
+      "name": ">RT-BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-rt-bl",
+      "@type": "Organization",
+      "name": "RT BL &",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-linear",
+      "@type": "Organization",
+      "name": "linear",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-pug",
+      "@type": "Person",
+      "name": "Pug",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:creativework-4-v-wat-nef-weed-ser",
+      "@type": "CreativeWork",
+      "name": "4 V Wat Nef Weed Ser",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-instructed",
+      "@type": "Organization",
+      "name": "Instructed",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-jahn",
+      "@type": "Place",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-variance",
+      "@type": "Person",
+      "name": "Variance",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-figures-sa",
+      "@type": "Person",
+      "name": "Figures Sa",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-21-63",
+      "@type": "Date",
+      "name": "21.63",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-individual-bin-populations",
+      "@type": "Person",
+      "name": "Individual Bin Populations",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-the-rt-bl-bin",
+      "@type": "Place",
+      "name": "the RT-BL bin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-lt-bl",
+      "@type": "Organization",
+      "name": "the LT-BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-rt-lt",
+      "@type": "Organization",
+      "name": "RT-LT",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-nee",
+      "@type": "Organization",
+      "name": "nee",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:date-1-3-5",
+      "@type": "Date",
+      "name": "1 3 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:event-w-13",
+      "@type": "Event",
+      "name": "W 13",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-rmc-bin",
+      "@type": "Person",
+      "name": "RMC bin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-the-rt-bl",
+      "@type": "Place",
+      "name": "the RT-BL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-j-dunne",
+      "@type": "Person",
+      "name": "J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:event-table-2",
+      "@type": "Event",
+      "name": "Table 2",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-soten",
+      "@type": "Organization",
+      "name": "SoTEN &",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:creativework-055",
+      "@type": "CreativeWork",
+      "name": "= .055",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:event-table-3",
+      "@type": "Event",
+      "name": "Table 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-jahn-dunne",
+      "@type": "Organization",
+      "name": "Jahn & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-paborne",
+      "@type": "Person",
+      "name": "~- Paborne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:creativework-ny-pe-ss",
+      "@type": "CreativeWork",
+      "name": "Ny Pe SS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-g-jahn-rt-lt",
+      "@type": "Person",
+      "name": "R. G. Jahn \n\n   - RT-LT",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-technical-reports",
+      "@type": "Organization",
+      "name": "Technical Reports",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-random-mechanical-cascade",
+      "@type": "Organization",
+      "name": "the Random Mechanical Cascade",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-london",
+      "@type": "Place",
+      "name": "London",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-macmillan-and-co-jahn",
+      "@type": "Organization",
+      "name": "Macmillan and Co. \n\n- Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-42-3-30-9-9968-10-0165-0449-2-410-o11-1-3",
+      "@type": "Place",
+      "name": "|42|3|30|9.9968|10.0165|.0449|2.410|O11|1|3|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-br-44",
+      "@type": "Person",
+      "name": "br>44",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-br-478-br-br-1",
+      "@type": "Organization",
+      "name": "br>478||<br><br>|1",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-br-91",
+      "@type": "Person",
+      "name": "br>91",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-br-93",
+      "@type": "Person",
+      "name": "br>93",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-br-30",
+      "@type": "Person",
+      "name": "br>30",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-br-31",
+      "@type": "Person",
+      "name": "br>31",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-br-0440",
+      "@type": "Organization",
+      "name": "br>0440",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-11-2-55",
+      "@type": "Organization",
+      "name": "||11(2)|55|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-br-9-9-9994",
+      "@type": "Place",
+      "name": "br>9|-9.9994",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:person-br-2-092-78-h-10-10-0163-9-9944-0449-1-538-079-0-185-93-2-20-10-0258-10-0139-0533-1-000-165-2-0-917-94-2-20-10-0075-10-0000-0376-0-890-192-1-1-0-368",
+      "@type": "Person",
+      "name": "br>2.092|\n|78|H|10|10.0163|||9.9944|0449|1.538|079|\u2014|||0.185|\n|93|2|20|=10.0258|||10.0139|0533|1.000|165||2|\u20140.917|\n|94|2|20|10.0075|||10.0000|0376|0.890|192|1|1|0.368|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-table",
+      "@type": "Place",
+      "name": "||||||TABLE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-93-2-20-10-0109-10-0139-0385-0-351",
+      "@type": "Place",
+      "name": "|93|2|20|10.0109|10.0139|0385|0.351|=",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:event-series",
+      "@type": "Event",
+      "name": "Series",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:place-br-244",
+      "@type": "Place",
+      "name": "br>244",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:organization-operators",
+      "@type": "Organization",
+      "name": "Operators",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    },
+    {
+      "@id": "entity:event-operator-related-anomalies-rmc",
+      "@type": "Event",
+      "name": "Operator Related Anomalies Rmc",
+      "aliases": [],
+      "mentionedIn": "source:pear-1988-operator-related-anomalies-rmc"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-ofscientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pergamon-press-plc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-operator-related"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-ofengineering-and-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gaussian"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tight"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-the-john-e-fetzer-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-helix-investments-ltd"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-galton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-about-a-quarter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-curve-of-frequency"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-frequency"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-galton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-somtebia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1988a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-october-1983"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16-17"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-student-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lt-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1988b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-05-1075"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-linear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pug"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-4-v-wat-nef-weed-ser"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-instructed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-variance"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-figures-sa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-21-63"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-individual-bin-populations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-rt-bl-bin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lt-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-3-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-w-13"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rmc-bin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-rt-bl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-soten"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-055"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paborne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-ny-pe-ss"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-rt-lt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-technical-reports"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-random-mechanical-cascade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-macmillan-and-co-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-42-3-30-9-9968-10-0165-0449-2-410-o11-1-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-478-br-br-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-91"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-93"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-30"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-31"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-0440"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-11-2-55"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-br-9-9-9994"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-2-092-78-h-10-10-0163-9-9944-0449-1-538-079-0-185-93-2-20-10-0258-10-0139-0533-1-000-165-2-0-917-94-2-20-10-0075-10-0000-0376-0-890-192-1-1-0-368"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-table"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-93-2-20-10-0109-10-0139-0385-0-351"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-br-244"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-ofengineering-and-applied-science"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-the-john-e-fetzer-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-helix-investments-ltd"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-curve-of-frequency"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-frequency"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galton"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-gaussian"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galton"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-bin"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galton"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1983"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1983"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1983"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1983"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1983"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-october-1983"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-gaussian"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bin"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-variance"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bin"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-series"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-variance"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "confidence": 0.85,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gaussian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bin"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-technical-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-technical-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1988b"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:organization-technical-reports"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-pug"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-instructed"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-operators"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lt-bl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-2"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-055"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lt-bl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-055"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1988a"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-3"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-42-3-30-9-9968-10-0165-0449-2-410-o11-1-3"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-2"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-2"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-table-2"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-0440"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-br-9-9-9994"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-11-2-55"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-series"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-lt-bl"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-bl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lt-bl"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rt-lt"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1988-operator-related-anomalies-rmc"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-ofscientific-exploration"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pergamon-press-plc"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-operator-related"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-d-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tight"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-galton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-about-a-quarter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-galton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-somtebia"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16-17"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-student-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-05-1075"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-linear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-4-v-wat-nef-weed-ser"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-figures-sa"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-21-63"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-individual-bin-populations"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-rt-bl-bin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lt-bl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-3-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-w-13"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rmc-bin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-rt-bl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-soten"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paborne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-ny-pe-ss"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn-rt-lt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-macmillan-and-co-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-44"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-478-br-br-1"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-91"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-93"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-30"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-31"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-2-092-78-h-10-10-0163-9-9944-0449-1-538-079-0-185-93-2-20-10-0258-10-0139-0533-1-000-165-2-0-917-94-2-20-10-0075-10-0000-0376-0-890-192-1-1-0-368"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-table"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-93-2-20-10-0109-10-0139-0385-0-351"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-br-244"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-operator-related-anomalies-rmc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

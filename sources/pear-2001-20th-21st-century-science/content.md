@@ -45,7 +45,7 @@ Robert G. Jahn
 24 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-20th-21st-century-science/images/2001-20th-21st-century-science.pdf-0004-02.png)
+![](sources/pear-2001-20th-21st-century-science/images/pear-2001-20th-21st-century-science.pdf-0004-02.png)
 
 
 Thus, at the dawn of the 21st century, we again find an elite, smugly contented scientific establishment, but one now endowed with far more public authority and respect than that of the prior version.  A veritable priesthood of high science controls major segments of public and private policy and expenditure for research, development, construction, production, education, and publication throughout the world, and enjoys a cultural trust and reverence that extends far beyond its true merit.  It is an establishment that is largely consumed with refinements and deployments of mid–20th century science, rather than with creative advancement of fundamental understanding of the most profound and potentially seminal aspects of its trade.  Even more seriously, it is an establishment that persists in frenetically sweeping legitimate genres of new anomalous phenomena under its intellectual carpet, thereby denying its own well-documented heritage that anomalies are the most precious raw material from which future science is formed. 

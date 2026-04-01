@@ -65,13 +65,13 @@ all objective and subjective mental experience, in the usual psychological, phil
 As a simple format to illustrate this proposition, let us represent all seeds of potential information resident in the unified lowest level of ®U /®I by complex quantities, utilizing either the usual rectilinear or polar notations, as sketched in Fig. 3: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0004-07.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0004-07.png)
 
 
 It is tempting to presume that the orthogonal designators s and 0 somehow embody the ‘‘pre-material’’ and ‘‘pre-mental’’ aspects of the seeds, respectively, but this is probably too direct and simplistic an assignment. More likely, they presage the ‘‘hard’’ and ‘‘soft’’ discriminations just proposed, but again, in an ineffable, pre-emergent form that pertains to both the material and mental paths. Hence, it is next necessary to specify a functional assembly of such representations that does denote the palpable material or mental properties associated with any such item or system of items, as denoted by ‰ Š above. Here we shall take our hint from quantum wave mechanics, where the enduring presumption has been that it is the product of the complex quantity with its conjugate, _i_ S[¤] ˆ s — _i_ Oo ˆ S _[e]_ 7 , that represents its probability of observation, _i.e._ , 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0004-09.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0004-09.png)
 
 
 For our purposes, we might generalize this to represent a ‘‘probability of ex- 
@@ -87,13 +87,13 @@ perience.’’ Note that in either coordinate representation ‰SŠ is the squa
 Let us now consider the interaction of two (or more) such seed states, still of course in the undifferentiated regime. Label them S1 and S2, and presume that the interaction can be represented as an addition process, S12 ˆ S1 ‡ S2, where S12 now represents their interacting or bonded state ( _cf._ Fig. 4). In the rectangular frame, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0005-05.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0005-05.png)
 
 
 whose conjugate product is 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0005-07.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0005-07.png)
 
 
 346 
@@ -105,13 +105,13 @@ Fig. 4. Complex vector representation of the interaction of two subliminal seeds
 which, when compared to the sum of the conjugate products of S1 and S2: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0006-04.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0006-04.png)
 
 
 differs by two terms, _i.e._ , 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0006-06.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0006-06.png)
 
 
 It is this disparity, 12, introduced in the vector combination of the two seeds, that we shall presume represents the palpable anomalies of the interaction that manifest in ®C and ®T . (Later we shall attempt to interpret these generalizations in more specific contexts, such as our human/machine interaction and remote perception experiments.) 
@@ -119,7 +119,7 @@ It is this disparity, 12, introduced in the vector combination of the two seeds,
 The situation perhaps can be better visualized in the polar frame, where 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0006-09.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0006-09.png)
 
 
 M[*] : Vector Representation of the Subliminal Seed Regime of M[5] 
@@ -127,41 +127,41 @@ M[*] : Vector Representation of the Subliminal Seed Regime of M[5]
 347 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-02.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-02.png)
 
 
 and bo 1; / o 2[,][and] wy) 12[are][phase][angles, such][that] 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-04.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-04.png)
 
 
 To evaluate S[2] 12[,][utilize][the][law][of][cosines:] 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-06.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-06.png)
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-07.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-07.png)
 
 
 where we shall henceforth denote bo 2 1[as] A , noting that it is _not_ the same as wy) 12[.][Rather,][it][is][the][phase][difference][between][the][vectors][S][1][and][S][2] which, along with their absolute magnitudes, S1 and S2, determines the scale of the anomalous term, 12. ‰We may confirm the equivalence of the rectilinear and polar expressions for 12 via the trigonometric equality: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-09.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-09.png)
 
 
 If one wishes a dimensionless normalization that captures the relative importance of the anomaly, in either the rectilinear or polar form, one might simply invoke as denominator the ‘‘linear’’ sum of the separate ‘‘experientials,’’ S21[‡ S] 22[,] _[i.e.]_[,] 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-11.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-11.png)
 
 
 or conversely, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0007-13.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0007-13.png)
 
 
 In the polar form, 12 ˆ 2S1S2 cos A , the importance of phase correlations between the systems S1 and S2 in determining the scale of the anomalous term is particularly explicit. Consider the special cases where S1 and S2 
@@ -197,7 +197,7 @@ derive solely from the phase shifts of the incoming de Broglie waves as they pas
 The mechanisms for such individual and collective biasing of the distribution in any interaction context are inescapably speculative and obscure, given that all of this must function in the subliminal domain to which the entire metaphor pertains. However, if we reflect on common allusions of our experimental operators and percipients to ‘‘getting in phase/resonance with... (any given device, task, or person),’’ a conceptual recipe could be suggested. Recalling that the rectangular and polar geometries are related by simple trigonometric relations, _e.g._ , 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0009-04.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0009-04.png)
 
 
 it follows that the phase angles simply reflect the prevailing ratios of the ‘‘soft’’ to the ‘‘hard’’ components of the systems involved. Thus, an increase in the anomalous effect by better alignment of / 1[with][ /] 2[could be achieved by a cor-] 
@@ -233,7 +233,7 @@ Robert G. Jahn
 tion, as might be determined by calibration, conventional theoretical chance calculations, or more subjective criteria. If, however, the operator can achieve some subliminal phase resonance with the machine, the relative phase angle distribution would shift toward a better alignment of the seed vectors So and Sm, so that the mean value of the S[2] om[distribution would][shift][to][a][higher][val-] ue; conversely, if the alignment distribution were to worsen, the S[2] om[experi-] ential mean would be reduced below the ‘‘normal’’ value, _i.e._ , using our earlier notation scheme, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0012-03.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0012-03.png)
 
 
 where om again represents the anomalous component of the interaction. Note that in the first interpretation suggested in the previous section, om must subsume not only the change in the output count distribution of the machine, but also any changes in the mental state of the operator that arise in the interaction, such as the frequently reported feelings of ‘‘resonance,’’ identification, or transference of experience with the machine. In the alternative interpretation, these subjective properties would be excluded from om because of their lack of quantitative measurability. 
@@ -273,7 +273,7 @@ S[¤] ˆ s — _i_ Oo ˆ S _[e]_ _ , _i.e._ , by SS ˆ S , where S is the magnit
 6. Elementary complex algebra then predicts that in general S212[6ˆ S] 21[‡S] 22[,] _i.e._ , that anomalous effects may appear in the palpable manifestations of the seed interactions, depending for their relative magnitudes on the phase alignments of the two interacting vectors: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0014-05.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0014-05.png)
 
 
 7. The key to larger anomalous effects thus resides in better alignment and balancing of the two interacting complex seed vectors, _i.e._ , in the matching of their respective ‘‘hard’’ and ‘‘soft’’ components. 
@@ -303,13 +303,13 @@ Financial support for the Princeton Engineering Anomalies Research laboratory ha
 The question is whether representation of the compound seed system as a product rather than as a sum of its two elements would also provide a similar capacity to generate an anomalous cross-term, _i.e._ , whether 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0015-08.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0015-08.png)
 
 
 would yield a disparity in its experientials. Performing the complex algebra, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0015-10.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0015-10.png)
 
 
 356 
@@ -319,13 +319,13 @@ Robert G. Jahn
 which has as conjugate 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0016-03.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0016-03.png)
 
 
 and hence a conjugate product: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0016-05.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0016-05.png)
 
 
 whereas the product of the individual conjugate products 
@@ -335,19 +335,19 @@ which is identical. Hence, there is no disparity to accommodate an anomalous eff
 Likewise, in polar form 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0016-09.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0016-09.png)
 
 
 whereas 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0016-11.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0016-11.png)
 
 
 _i.e._ , 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0016-13.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0016-13.png)
 
 
 Again, the multiplicative superposition is distributive, and produces no anomalous cross terms, insofar as its experiential product is concerned. 
@@ -363,7 +363,7 @@ Fig. A-1. Vector representation of the interaction of a conscious mind (C) with 
 ( _cf._ Fig. A-1). Since in the ®C and ®T domains all components are by definition real, there is no need to form conjugate squares to represent experiential quantities. Rather we need only note that the ‘‘hard’’ and ‘‘soft’’ components each compound linearly, _i.e._ , 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2002-vector-representation-subliminal-seed-regime/images/2002-vector-representation-subliminal-seed-regime.pdf-0017-03.png)
+![](sources/pear-2002-vector-representation-subliminal-seed-regime/images/pear-2002-vector-representation-subliminal-seed-regime.pdf-0017-03.png)
 
 
 and hence there is no capacity for representing anomalies in either dimension of these interactions. 

@@ -33,7 +33,7 @@ Linear Pendulum Experiment
 473 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0003-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0003-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -93,7 +93,7 @@ Linear Pendulum Experiment
 , 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0007-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0007-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -135,7 +135,7 @@ Linear Pendulum Experiment
 TABLE 1 Full Database, Differences by Major Parameters HI - LO Comparisons and INT - BL Comparisons 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0009-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0009-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -181,7 +181,7 @@ The database can be separated into several subsets taken under different conditi
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0010-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0010-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -199,7 +199,7 @@ Linear Pendulum Experiment
 481 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0011-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -221,7 +221,7 @@ The question arises whether the asymmetry might reflect a consistent trend withi
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0012-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0012-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -243,7 +243,7 @@ Linear Pendulum Experiment
 483 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0013-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0013-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -265,7 +265,7 @@ The remote data are important for both practical and theoretical reasons. The po
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0014-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0014-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -281,7 +281,7 @@ Linear Pendulum Experiment
 485 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/1994-linear-pendulum-damping-rate.pdf-0015-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-linear-pendulum-damping-rate/images/pear-1994-linear-pendulum-damping-rate.pdf-0015-02.png)
 
 
 **----- Start of picture text -----**<br>

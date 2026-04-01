@@ -51,7 +51,7 @@ Questions of the replicability and commonality of such anomalous effects, and th
 Robert G. Jahn, Brenda J. Dunne 85 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2005-endophysical-models-empirical-data/images/2005-endophysical-models-empirical-data.pdf-0005-01.png)
+![](sources/pear-2005-endophysical-models-empirical-data/images/pear-2005-endophysical-models-empirical-data.pdf-0005-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -67,7 +67,7 @@ Since these collective data include a wide variety of individual operator databa
 86 Endophysical Models Based on Empirical Data 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2005-endophysical-models-empirical-data/images/2005-endophysical-models-empirical-data.pdf-0006-01.png)
+![](sources/pear-2005-endophysical-models-empirical-data/images/pear-2005-endophysical-models-empirical-data.pdf-0006-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -85,7 +85,7 @@ This stark “gender effect” can be statistically quantified by an elementary 
 Robert G. Jahn, Brenda J. Dunne 87 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2005-endophysical-models-empirical-data/images/2005-endophysical-models-empirical-data.pdf-0007-01.png)
+![](sources/pear-2005-endophysical-models-empirical-data/images/pear-2005-endophysical-models-empirical-data.pdf-0007-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -145,7 +145,7 @@ These and similar results acquired from other random processors thus suggest tha
 Robert G. Jahn, Brenda J. Dunne 91 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2005-endophysical-models-empirical-data/images/2005-endophysical-models-empirical-data.pdf-0011-01.png)
+![](sources/pear-2005-endophysical-models-empirical-data/images/pear-2005-endophysical-models-empirical-data.pdf-0011-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -173,7 +173,7 @@ The analytical and theoretical complexities posed by these FieldREG studies are 
 Robert G. Jahn, Brenda J. Dunne 93 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2005-endophysical-models-empirical-data/images/2005-endophysical-models-empirical-data.pdf-0013-01.png)
+![](sources/pear-2005-endophysical-models-empirical-data/images/pear-2005-endophysical-models-empirical-data.pdf-0013-01.png)
 
 
 **----- Start of picture text -----**<br>

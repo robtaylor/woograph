@@ -77,7 +77,7 @@ Experiments in Remote Human/Machine Interaction
 TABLE 1 Remote REG Data Summary 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0005-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0005-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -107,7 +107,7 @@ TABLE 1 Remote REG Data Summary
 It should be noted that the higher z-scores of the local results are attributable to the size of that database, which is three times larger than that of the remote experiments. For this reason it is important also to consider the effect sizes or, equivalently, the average mean shifts, in assessing the relative yields of the various data sets. For example, while the z-scores for the high efforts are of comparable magnitude (3.185 for the remote and 3.308 for the local) the remote data have a mean of 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0005-06.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0005-06.png)
 
 
 **----- Start of picture text -----**<br>
@@ -161,7 +161,7 @@ Experiments in Remote Human/Machine Interaction
 317 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0007-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0007-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -183,7 +183,7 @@ The apparent insensitivity of the magnitude of these effects to the intervening 
 TABLE 3 REG Remote vs Local Comparisons 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0008-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0008-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -247,7 +247,7 @@ Experiments in Remote Human/Machine Interaction
 319 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0009-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -281,7 +281,7 @@ Experiments in Remote Human/Machine Interaction
 321 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0011-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -295,7 +295,7 @@ overall yield by a majority of the operators. In this figure, the solid curve in
 B. J. Dunne and R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0012-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0012-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -328,7 +328,7 @@ bins, wherein they accumulate in a good approximation of a Gaussian distribution
 B. J. Dunne and R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0014-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0014-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -368,7 +368,7 @@ Finally, as with the REG data, a majority of both the local and remote RMC indiv
 B. J. Dunne and R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0016-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0016-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -384,7 +384,7 @@ Experiments in Remote Human/Machine Interaction
 327 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0017-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0017-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -400,7 +400,7 @@ shown in Fig. 10, we see the same type of small, incremental deviations in the i
 B. J. Dunne and R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0018-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0018-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -420,7 +420,7 @@ The credibility of all these remote results is buttressed by a number of interna
 329 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0019-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0019-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -428,7 +428,7 @@ Experiments in Remote Human/Machine Interaction<br>**----- End of picture text -
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0019-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0019-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -444,7 +444,7 @@ Likewise, the interior count structures interior count structures count structur
 B. J. Dunne and R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/1992-experiments-remote-human-machine.pdf-0020-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-experiments-remote-human-machine/images/pear-1992-experiments-remote-human-machine.pdf-0020-02.png)
 
 
 **----- Start of picture text -----**<br>

@@ -7,7 +7,7 @@ Journal ofScientific Exploration, Vol. 5, No. 2, pp. 205-232, 1991 Pergamon Pres
 ROBERT G. JAHN, YORK H. DoBYNS, and BRENDA J. DUNNE 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0001-04.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0001-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -79,7 +79,7 @@ Count population profiles
 209 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0005-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0005-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -95,7 +95,7 @@ Temptations to search for yet more subtle features in these differential count p
 210 R. G. Jahn, Y. H. Dobyns, and B. J. Dunne 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0006-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0006-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -113,7 +113,7 @@ Count population profiles
 211 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0007-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0007-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -131,7 +131,7 @@ This striking result is most parsimoniously consistent with the hypothesis that 
 R. G. Jahn, Y. H. Dobyns, and B. J. Dunne 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0008-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0008-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -143,7 +143,7 @@ Fig. 3a. Proportional frequency deviations. All diode REG: high, low.
 most directly by partial differentiation ofthe Gaussian function with respect to the mean value, yu, holding x constant as parameter: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0008-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0008-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -157,7 +157,7 @@ Ap = p' — p= N(p+ «)— Np = 200 (5)
 ## and 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0008-09.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0008-09.png)
 
 
 Count population profiles 
@@ -165,7 +165,7 @@ Count population profiles
 213 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0009-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -187,7 +187,7 @@ This does not, of course, imply that each count deviation contributes equally to
 ## R. G. Jahn, Y. H. Dobyns, and B. J. Dunne 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0010-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0010-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -205,7 +205,7 @@ Count population profiles
 215 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0011-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -217,7 +217,7 @@ Fig. 5. Count leverage on mean shift. All diode REG: high, low.
 of the microelectronic processes occurring therein might be altered by the indicated amounts. It should first be noted, however, that considerable electronic processing is applied to the output ofthe primary noise diode prior to the bit-counting stage, including the imposition of an alternating template that compares the raw random bit string with a regularly alternating criterion (+, -, +, —, +, —) and counts the coincidences of sign. It is these coincident count distributions that constitute the experimental data and are used as feedback for the operators. While this strategy has the powerful technical advantage of eliminating any possible influence of remanent DC bias that might escape the extensive voltage regulation failsafe system, it considerably complicates and delimits the modalities by which the operators’ influence may be imposed. In particular, introduction of a simple systematic bias in the raw noise pattern or the primary bit string will not avail. Rather, the 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0012-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0012-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -239,7 +239,7 @@ Count population profiles
 terms of intention-correlated, operator-specific shifts ofthe mean, are essentially the same as with the electronic diode noise sources. Since the only evident mode of operator influence on the output distributions of such a deterministic device is via the points of incursion into the bit string, examination of the count population patterns should be particularly interesting. Figure 7 shows An/n for the entire pseudorandom data base of some 700,000 trials. (No individual operator has yet generated sufficient data on this device to support this analytical treatment.) Note once again the linear fits of magnitude consistent with the overall mean shifts. Clearly, ifwe are to retain the image ofan induced bias in the underlying elemental probability, its mode of attainment must be extremely subtle. This point will be further illustrated in the context of the more substantially different experiments discussed in the next section. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0013-04.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0013-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -255,7 +255,7 @@ Fig. 7. Proportional frequency deviations. All pseudo-REG.
 REG experiments like those described above have served as the benchmark studies of the PEAR program since its inception. From these have radiated a number of ancillary experiments designed to explore systematically the dependence of the anomalous phenomena on various technical, aesthetic, and procedural parameters, such as the scale of the machine, its physical domain, the character of its feedback, the quality ofits randomicity, etc. Of these, the most extensively developed and deployed counterpart to the microelectronic REGs has been a room-size ““Random Mechanical Cascade” (RMC) apparatus, shown in Figure 8a, wherein 9000 polystyrene spheres are allowed to trickle downward through an array of 330 nylon pegs to distribute themselves among 19 collecting bins lined across the bottom of the device. Photodetectors track the entrance of each ball into each bin and appropriate computational programs record and display on line the growing bin populations, followed by the terminal distribution properties. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0014-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0014-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -275,7 +275,7 @@ Further details on the design, operation, and calibration of this machine, and f
 By its design and by its inherent statistical leverage, the RMC is even better disposed than the REGs to display of incremental count distributions, namely via the individual bin populations themselves. Indeed, although the absolute number of experimental runs of this machine are substantially smaller than for the REGs, there are fewer bins than REG counts, and the bin population data are actually somewhat less stochastic and easier to process. Figures 9 and 10, for example, show the mean differences in bin popula- 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0015-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0015-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -283,7 +283,7 @@ By its design and by its inherent statistical leverage, the RMC is even better d
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0016-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0016-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -297,7 +297,7 @@ tions for right versus left efforts for the entire RMC data base presented in Du
 As before, it is instructive to display these population decrements in An/n form, where the reference m here is the average of the right and left effort populations for the corresponding bins. The results, like those shown in 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0016-04.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0016-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -311,7 +311,7 @@ Count population profiles
 221 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0017-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0017-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -323,7 +323,7 @@ Fig. 11. Mean proportional bin population differences. All RMC.
 Figures 11 and 12 and for many other subsets not shown, again lend themselves to a simple linear regression of the form 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0017-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0017-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -331,7 +331,7 @@ A” _ 5B ~ 10) (9)<br>n<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0017-06.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0017-06.png)
 
 
 **----- Start of picture text -----**<br>
@@ -361,7 +361,7 @@ information contained in the several hundred formal target perceptions acquired 
 224 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0020-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0020-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -369,7 +369,7 @@ R. G. Jahn, Y. H. Dobyns, and B. J. Dunne<br>**----- End of picture text -----**
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0020-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0020-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -377,7 +377,7 @@ R. G. Jahn, Y. H. Dobyns, and B. J. Dunne<br>**----- End of picture text -----**
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0020-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0020-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -431,7 +431,7 @@ where ¢; 1s an error term with mean zero. In an unweighted regression it is usu
 A least-squares approach that minimizes the total, normalized squared error, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0023-07.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0023-07.png)
 
 
 **----- Start of picture text -----**<br>
@@ -445,13 +445,13 @@ seems a natural choice in that it gives the error term a x? functional form when
 special case. This total error may be minimized by finding zeroes of its partial derivatives, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0024-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0024-02.png)
 
 
 On simplification, Eqs. (3) become a set of linear equations in two unknowns, 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0024-04.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0024-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -461,7 +461,7 @@ On simplification, Eqs. (3) become a set of linear equations in two unknowns,
 which may readily be solved for by and b,, yielding 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0024-06.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0024-06.png)
 
 
 **----- Start of picture text -----**<br>
@@ -475,7 +475,7 @@ where
 and 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0024-10.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0024-10.png)
 
 
 **----- Start of picture text -----**<br>
@@ -505,7 +505,7 @@ some non-random component of the data unaccounted for. The simplest way to test 
 As demonstrated in the body ofthe text, ifthe theoretical frequency for the ith count value is denoted by 7; ; the empirical frequency is 7;; the deviation of the ith count from the theoretical mean is x; ; and the elementary success probability is 0.5 + 6, then 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0026-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0026-05.png)
 
 
 is the expected proportional shift in the population of the ith count value. Two other quantities that are useful for this discussion are P;, the actual population ofthe ith count in a given dataset, and f; , the theoretical population expectedin a dataset of N trials. Note that P; = Nn;,t;= Nn;, and 2 t; = > P; = Nall hold as identities from their respective definitions. Alternatively 2 P, = N may be regarded as the definition of N. To consider this in the context of the regression analysis above, we may identify y, = (P; — t;)/t; with the proportional shift in population for each count value. We then note that under the null hypothesis P; is random with expectation ¢; and standard deviation Vt;. Since o; are the standard deviations of y; for the regression analysis, ¢, = 1/Vi; follows. The mean shift is clearly coupled to the individual count totals. The mean shift m — y» of a given population is the total deviation from the expected value, divided by the total population, that is, mr eRS SP, N (13) From the definitions above, however, P, = y,t; + t;. Since the x; are defined as deviations from the mean value, and the 7, are always symmetrically distributed about the mean value, the term 2 x;t; vanishes identically, so that mp = 22%N > nx,y,. (14) The 6 value that corresponds to this mean shift is calculated as follows: for p . = 0.5, uw is the expected number of hits in however many binaries are gath- 
@@ -521,13 +521,13 @@ ered to form one trial; therefore the number ofbinaries in question is 24. The p
 5=p—0.5 =(m/2n)-05=——. (15) 2p Combining (14) and (15), we obtain 6 = (1/2) > n;x;y;, which may be used in the right hand side of (12) to compute the predicted proportional shift Y,; for each count value: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0027-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0027-05.png)
 
 
 Now let us consider the linear regression fit that is computed for x; , y;, and o; as defined above. First, since the bin probabilities are symmetric about the theoretical mean, and x; is by definition the deviation from that mean, > x;/o? = D x,t; = 0. This simplifies the formulas (5) for the regression coefficients to 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0027-07.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0027-07.png)
 
 
 **----- Start of picture text -----**<br>
@@ -545,7 +545,7 @@ R. G. Jahn, Y. H. Dobyns, and B. J. Dunne
 conditions coerce the regression parameters to by = 0, b, = (2 1;;¥;)/ (= n;x?). The predicted Y values for the regression line are then Y; = x,(Z njx,y;)/(Z jx). But formula (14) for the mean shift appliesto any set of y,, so the mean shift for the hypothetical set Y, can be calculated: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/1991-count-population-profiles.pdf-0028-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1991-count-population-profiles/images/pear-1991-count-population-profiles.pdf-0028-03.png)
 
 
 **----- Start of picture text -----**<br>

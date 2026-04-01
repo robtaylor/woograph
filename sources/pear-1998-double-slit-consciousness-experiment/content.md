@@ -11,7 +11,7 @@ _Journal of Scienti® c Exploration,_ Vol. 12, No. 4, pp. 543±550, 1998
 _Princeton Engineering Anomalies Research, Princeton University, Princeton, USA_ 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-double-slit-consciousness-experiment/images/1998-double-slit-consciousness-experiment.pdf-0001-06.png)
+![](sources/pear-1998-double-slit-consciousness-experiment/images/pear-1998-double-slit-consciousness-experiment.pdf-0001-06.png)
 
 
 _Department of Physics and Astronomy, York University, Ontario, Canada_ 
@@ -51,7 +51,7 @@ with the beam blocked serves as the background to be subtracted from the respons
 The chosen target of the analysis is the contrast of the interference pattern defined as 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-double-slit-consciousness-experiment/images/1998-double-slit-consciousness-experiment.pdf-0003-05.png)
+![](sources/pear-1998-double-slit-consciousness-experiment/images/pear-1998-double-slit-consciousness-experiment.pdf-0003-05.png)
 
 
 where Imax is the intensity at the central antinode and Imin is the average of the (two) intensities at the first node on each side of the maximum. To counteract the effects of jitter in the interference pattern, the locations of the extrema are determined afresh for each exposure. The values of the intensity extrema are deduced from the stationary points of a quadratic fit to the intensities ( _i.e.,_ diode responses) at the three detector positions spanning each extremum. 

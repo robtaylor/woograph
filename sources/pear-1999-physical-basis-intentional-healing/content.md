@@ -297,7 +297,7 @@ Fig. I.2.2: Remote perception experiment. The dotted curve shows the cumulative 
 ## Fig I.2.1 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1999-physical-basis-intentional-healing/images/1999-physical-basis-intentional-healing.pdf-0028-01.png)
+![](sources/pear-1999-physical-basis-intentional-healing/images/pear-1999-physical-basis-intentional-healing.pdf-0028-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -309,7 +309,7 @@ Fig. I.2.2: Remote perception experiment. The dotted curve shows the cumulative 
 ## Fig. I.2.2 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1999-physical-basis-intentional-healing/images/1999-physical-basis-intentional-healing.pdf-0029-02.png)
+![](sources/pear-1999-physical-basis-intentional-healing/images/pear-1999-physical-basis-intentional-healing.pdf-0029-02.png)
 
 
 **----- Start of picture text -----**<br>

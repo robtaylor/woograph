@@ -1,0 +1,1290 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1996-selection-versus-influence-revisited",
+  "name": "PEAR: 1996 Selection Versus Influence Revisited",
+  "entities": [
+    {
+      "@id": "source:pear-1996-selection-versus-influence-revisited",
+      "@type": "woo:Source",
+      "name": "PEAR: 1996 Selection Versus Influence Revisited"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journalof Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-selection-versus-influence-revisited",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nSelection Versus Influence Revisited",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-engineering-quadrangle",
+      "@type": "Person",
+      "name": "Engineering Quadrangle",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-i-background",
+      "@type": "Person",
+      "name": "I. Background",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-jessica-utts",
+      "@type": "Person",
+      "name": "Jessica Utts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-al",
+      "@type": "Person",
+      "name": "al]",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-bernoulli",
+      "@type": "Person",
+      "name": "Bernoulli",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-tam",
+      "@type": "Person",
+      "name": "Tam",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-the-fetzer-institute",
+      "@type": "Organization",
+      "name": "the Fetzer Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S. Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-helix-investments",
+      "@type": "Organization",
+      "name": "Helix Investments",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-y-h-dobyns",
+      "@type": "Person",
+      "name": "Y. H. Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:place-jahn",
+      "@type": "Place",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-linear",
+      "@type": "Organization",
+      "name": "linear",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-rank-frequencies-rankorder-n",
+      "@type": "Organization",
+      "name": "||Rank Frequencies||\n|RankOrder|N",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-monte-carlo",
+      "@type": "Person",
+      "name": "Monte Carlo",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-monte-carlo-algorithms-selection",
+      "@type": "Person",
+      "name": "Monte Carlo Algorithms \n\nSelection",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-b-likewise",
+      "@type": "Organization",
+      "name": "B. Likewise",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-p-x",
+      "@type": "Organization",
+      "name": "p(x",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-veta",
+      "@type": "Organization",
+      "name": "Veta",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-on-rei",
+      "@type": "Organization",
+      "name": "ON rei",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-bl-standard-deviation",
+      "@type": "Organization",
+      "name": ">BL Standard Deviation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:date-3",
+      "@type": "Date",
+      "name": "+ 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-ret",
+      "@type": "Organization",
+      "name": "Ret",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-actual-data",
+      "@type": "Organization",
+      "name": "Actual Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-dafa",
+      "@type": "Person",
+      "name": "Dafa",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-pear",
+      "@type": "Organization",
+      "name": "PEAR",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:event-table-3",
+      "@type": "Event",
+      "name": "Table 3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-selection-versus-influence-revisited"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-selection-versus-influence-revisited"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-background"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jessica-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bernoulli"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tam"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-helix-investments"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-linear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rank-frequencies-rankorder-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo-algorithms-selection"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-b-likewise"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-p-x"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-veta"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-on-rei"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bl-standard-deviation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ret"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-actual-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dafa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-selection-versus-influence-revisited"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tam"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-jessica-utts"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-helix-investments"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-linear"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-ret"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-table-3"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-ret"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-actual-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-b-likewise"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ret"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-actual-data"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-table-3"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-actual-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-veta"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-on-rei"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-on-rei"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bl-standard-deviation"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-selection-versus-influence-revisited"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-background"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bernoulli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rank-frequencies-rankorder-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monte-carlo-algorithms-selection"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-p-x"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dafa"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

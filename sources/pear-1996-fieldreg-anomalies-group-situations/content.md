@@ -51,7 +51,7 @@ function-key code was entered (see Figure 1). Each such mark is accompanied by a
 The two essential requirements for a credible protocol are standardized procedures for specification of potentially interesting periods or events, and welldefined statistical criteria for establishing any non-chance characteristics of the corresponding data. The former necessarily depends to some degree on the particular application, but at a minimum must specify the criteria that objectively identify sessions or events, and the means by which these criteria are implemented, e.g., concurrent notes or marked index lines. For example, preset event markers in the index may be keyed to logbook descriptions of the events; prescheduled events, such as conference talks, field observation periods, or meeting sessions, with or without markers in the index, may be identified from comprehensive, time-stamped notes. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0004-05.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0004-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -99,7 +99,7 @@ FieldREG Anomalies
 117 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0007-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0007-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -111,7 +111,7 @@ a<br>e 2<br>a<br>:« uh }<br>c<br>§ ‘ . .<br>3| we<br>-’ -2 7<br>; st“iy~
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0008-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0008-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -123,7 +123,7 @@ FieldREG Anomalies
 119 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0009-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -155,7 +155,7 @@ FieldREG Anomalies
 121 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0011-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -165,7 +165,7 @@ FieldREG Anomalies
 Fig. 5a. DMHIII: Four-day meeting; selected day marked. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0011-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0011-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -179,7 +179,7 @@ Fig. 5b. DMHIT: Marked day.
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0012-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0012-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -189,7 +189,7 @@ R. D. Nelson et al.
 Fig. 6a. CUUPSI: Database for six ritual gatherings; selected session marked. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0012-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0012-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -227,7 +227,7 @@ The conference also included a number of concurrent sessions, thematic break per
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0014-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0014-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -237,7 +237,7 @@ a<br>M<br>a 4<br>‘ 1<br>A ps f\7 gy<br>|<br>§3 4<br>P<br>|<br>oes<br>|<br>1 2
 Fig. 7a. CUUPS II: Database for nine ritual gatherings; selected session marked. a 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0014-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0014-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -249,7 +249,7 @@ FieldREG Anomalies
 125 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0015-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0015-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -259,7 +259,7 @@ yi<br>—l<br>: 4 N<br>c ia<br>sa ot! IN<br>c<br>5<br>ry<br>F]<br>E 7<br>TBN4, 9
 Fig. 8a. Academy: One full day, of ten; selected session marked. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0015-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0015-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -273,7 +273,7 @@ Fig. 8b. Academy: Marked session.
 R. D. Nelson et ai. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0016-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0016-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -283,7 +283,7 @@ R. D. Nelson et ai.
 Fig. 9a. Humor Conference: Three days; selected session marked. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0016-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0016-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -315,7 +315,7 @@ with 2N degrees of freedom (Rosenthal, 1991) yields y?= 50.008, with 20 df, and 
 R. D. Nelson et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0018-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0018-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -325,7 +325,7 @@ _—<br>|<br>‘ |<br>aJ<br><|<br>y<br>Pya ronMt  :|<br>4 alll<br>|<br>10:05 16:
 Fig. 10a. SSE Council: Business meeting; selected session marked. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0018-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0018-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -339,7 +339,7 @@ FieldREG Anomalies
 129 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0019-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0019-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -363,7 +363,7 @@ In Figure 12, the x? values for the individual applications (solid line) as well
 131 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0021-01.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0021-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -392,7 +392,7 @@ TABLE 2
 Control Data from Random Resampling 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0021-04.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0021-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -418,7 +418,7 @@ TABLE 3
 Control Data from Laboratory Calibrations 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0021-07.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0021-07.png)
 
 
 **----- Start of picture text -----**<br>
@@ -444,7 +444,7 @@ Control Data from Laboratory Calibrations
 R. D. Nelson et ai. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-fieldreg-anomalies-group-situations/images/1996-fieldreg-anomalies-group-situations.pdf-0022-02.png)
+![](sources/pear-1996-fieldreg-anomalies-group-situations/images/pear-1996-fieldreg-anomalies-group-situations.pdf-0022-02.png)
 
 
 **----- Start of picture text -----**<br>

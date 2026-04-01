@@ -71,7 +71,7 @@ Given the hypothesized situation of effect sizes that will vary among individual
 > the residual, after subtracting the mean 2p om a 7, is in fact ve distributed. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0006-00.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0006-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -89,7 +89,7 @@ The total database of 1017 series was contributed by 61 different operators. At 
 Yantra 267 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0007-01.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0007-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -107,7 +107,7 @@ The effects are less impressive when operators are considered singly, without re
 268 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0008-01.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0008-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -115,7 +115,7 @@ Y.  H.  Dobyns  et  al.<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0008-02.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0008-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -183,7 +183,7 @@ The strongest effects in the Yantra database are the excess of variation seen in
 272 Y. H. Dobyns et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0012-01.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0012-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -205,7 +205,7 @@ Adding up the inter-operator variability al or each of the environments yields a
 Yantra 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0013-02.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0013-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -219,7 +219,7 @@ significantly. In addition to the expected inter-operator variability component,
 ## Y. H. Dobyns _et_ al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2007-jse-yantra-/images/2007-JSE-Yantra-.pdf-0014-01.png)
+![](sources/pear-2007-jse-yantra-/images/pear-2007-jse-yantra-.pdf-0014-01.png)
 
 
 **----- Start of picture text -----**<br>

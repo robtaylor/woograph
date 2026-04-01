@@ -169,7 +169,7 @@ Even with this powerful mechanism for bridging the mind/matter interface availab
 R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2001-challenge-consciousness/images/2001-challenge-consciousness.pdf-0012-02.png)
+![](sources/pear-2001-challenge-consciousness/images/pear-2001-challenge-consciousness.pdf-0012-02.png)
 
 
 **----- Start of picture text -----**<br>

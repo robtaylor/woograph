@@ -1,0 +1,3233 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-2005-endophysical-models-empirical-data",
+  "name": "PEAR: 2005 Endophysical Models Empirical Data",
+  "entities": [
+    {
+      "@id": "source:pear-2005-endophysical-models-empirical-data",
+      "@type": "woo:Source",
+      "name": "PEAR: 2005 Endophysical Models Empirical Data"
+    },
+    {
+      "@id": "entity:person-r-buccheri-et-al",
+      "@type": "Person",
+      "name": "R. Buccheri et al",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-endophysics",
+      "@type": "Organization",
+      "name": "Endophysics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-time",
+      "@type": "Organization",
+      "name": "Time",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-quantum",
+      "@type": "Organization",
+      "name": "Quantum",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-world-scientific-publishing-co",
+      "@type": "Organization",
+      "name": "World Scientific Publishing Co.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "ROBERT G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-brenda-j-dunne",
+      "@type": "Person",
+      "name": "BRENDA J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-quad-princeton",
+      "@type": "Person",
+      "name": "Quad Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-new-jersey",
+      "@type": "Place",
+      "name": "New Jersey",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-u-s-a",
+      "@type": "Place",
+      "name": "U.S.A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-bjd-princeton-edu",
+      "@type": "Organization",
+      "name": "bjd@princeton.edu",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-endophysical-models-based",
+      "@type": "Organization",
+      "name": "Endophysical Models Based",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-empirical-data",
+      "@type": "Organization",
+      "name": "Empirical Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-the-first-half",
+      "@type": "Date",
+      "name": "the first half",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "Robert G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-brenda-j-dunne",
+      "@type": "Person",
+      "name": "Brenda J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-the-school-of-engineering",
+      "@type": "Organization",
+      "name": "the School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-many-years",
+      "@type": "Date",
+      "name": "many years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-more-than-a-quarter-century",
+      "@type": "Date",
+      "name": "more than a quarter century",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-sec",
+      "@type": "Organization",
+      "name": "sec",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-lo",
+      "@type": "Person",
+      "name": "\u2212 LO",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-nearly-three-decades",
+      "@type": "Date",
+      "name": "nearly three decades",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-endophysical",
+      "@type": "Organization",
+      "name": "Endophysical",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-operators-0004-br-20",
+      "@type": "Organization",
+      "name": "Operators .0004<br>20",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-gender",
+      "@type": "Organization",
+      "name": "Gender",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-87",
+      "@type": "Date",
+      "name": "87 \n\n\n\n\n\n-----",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-female-data",
+      "@type": "Organization",
+      "name": "Female Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-male-data",
+      "@type": "Organization",
+      "name": "Male Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-13-28",
+      "@type": "Date",
+      "name": "13 / 28",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-all-male-female",
+      "@type": "Organization",
+      "name": "All/Male/Female",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-and-2",
+      "@type": "Organization",
+      "name": "\u2206[and][\u03c7][\u02c6][2",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-empirical-data-table-1",
+      "@type": "Organization",
+      "name": "Empirical Data \n\nTable 1",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-lo-reg-data",
+      "@type": "Person",
+      "name": "\u2212 LO REG Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-groups",
+      "@type": "Person",
+      "name": "Groups",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-9-10-5",
+      "@type": "Person",
+      "name": "9\u00d710\u22125)|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-random-mechanical-cascade",
+      "@type": "Organization",
+      "name": "Random Mechanical Cascade",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:creativework-galton-s-desk",
+      "@type": "CreativeWork",
+      "name": "Galton\u2019s Desk",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-gaussian",
+      "@type": "Person",
+      "name": "Gaussian",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-random-event-generator",
+      "@type": "Organization",
+      "name": "Random Event Generator",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-91",
+      "@type": "Date",
+      "name": "91 \n\n\n\n\n\n-----",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-run-pairs",
+      "@type": "Organization",
+      "name": "Run Pairs",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:creativework-remote-perception",
+      "@type": "CreativeWork",
+      "name": "Remote Perception",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-recent-decades",
+      "@type": "Date",
+      "name": "recent decades",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-several-days",
+      "@type": "Date",
+      "name": "several days",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-ref",
+      "@type": "Place",
+      "name": "Ref",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-refs",
+      "@type": "Place",
+      "name": "Refs",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:creativework-science-of-the-subjective-22",
+      "@type": "CreativeWork",
+      "name": "Science of the Subjective\u201d[22",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-modular",
+      "@type": "Organization",
+      "name": "Modular",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5",
+      "@type": "CreativeWork",
+      "name": "A Modular Model of Mind/Matter Manifestations (M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-m-5",
+      "@type": "Place",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:creativework-sensors-filters",
+      "@type": "CreativeWork",
+      "name": "Sensors, Filters",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-r-g",
+      "@type": "Place",
+      "name": "R.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-b-j",
+      "@type": "Place",
+      "name": "B.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-j-scientific-exploration",
+      "@type": "Organization",
+      "name": "J. Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-vector",
+      "@type": "Date",
+      "name": "Vector",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:creativework-m-5",
+      "@type": "CreativeWork",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-harcourt-brace-jovanovich",
+      "@type": "Organization",
+      "name": "Harcourt Brace Jovanovich",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-london",
+      "@type": "Place",
+      "name": "London",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-r-d",
+      "@type": "Organization",
+      "name": "R.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-y-h",
+      "@type": "Place",
+      "name": "Y.H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-g-j",
+      "@type": "Place",
+      "name": "G.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering",
+      "@type": "Organization",
+      "name": "School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-jahn",
+      "@type": "Place",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:person-a-thompson",
+      "@type": "Person",
+      "name": "A. Thompson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-r-d",
+      "@type": "Place",
+      "name": "R.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-10-111-141",
+      "@type": "Date",
+      "name": "10, 111\u2013141",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-bisaha",
+      "@type": "Place",
+      "name": "Bisaha",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-j-p",
+      "@type": "Organization",
+      "name": "J.P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-chicago",
+      "@type": "Place",
+      "name": "Chicago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-stanford",
+      "@type": "Organization",
+      "name": "Stanford",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-j-parapsychology-43",
+      "@type": "Organization",
+      "name": "J. Parapsychology 43",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-puthoff",
+      "@type": "Organization",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-proc",
+      "@type": "Place",
+      "name": "Proc",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-10-1-184",
+      "@type": "Date",
+      "name": "10, 1\u2013184",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-conf",
+      "@type": "Organization",
+      "name": "Conf.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-cybernetics-society",
+      "@type": "Organization",
+      "name": "Cybernetics & Society",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:place-washington",
+      "@type": "Place",
+      "name": "Washington",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:date-september-19-21-1977",
+      "@type": "Date",
+      "name": "September 19\u201321, 1977",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-ieee-systems",
+      "@type": "Organization",
+      "name": "IEEE Systems",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-man-and-cybernetics-society",
+      "@type": "Organization",
+      "name": "Man and Cybernetics Society",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-e-g",
+      "@type": "Organization",
+      "name": "E.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-j-parapsychology-44",
+      "@type": "Organization",
+      "name": "J. Parapsychology 44",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics-16",
+      "@type": "Organization",
+      "name": "Foundations of Physics 16",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-endophysical-models-empirical-data"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-buccheri-et-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-time"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-world-scientific-publishing-co"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-quad-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-jersey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-u-s-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bjd-princeton-edu"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-first-half"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-school-of-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-a-quarter-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sec"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-nearly-three-decades"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-operators-0004-br-20"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gender"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-87"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-female-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-male-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-13-28"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-all-male-female"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-and-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-empirical-data-table-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lo-reg-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-groups"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-9-10-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-galton-s-desk"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gaussian"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-91"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-run-pairs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-remote-perception"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-recent-decades"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ref"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-refs"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-science-of-the-subjective-22"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-modular"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-sensors-filters"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-vector"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace-jovanovich"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-thompson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-111-141"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-parapsychology-43"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-proc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-1-184"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-conf"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cybernetics-society"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-washington"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-september-19-21-1977"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee-systems"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-man-and-cybernetics-society"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-e-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-parapsychology-44"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics-16"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-endophysical-models-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-jersey"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-jersey"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-jersey"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-u-s-a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-many-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gaussian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-female-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-gender"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-male-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-gender"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:creativework-galton-s-desk"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-gaussian"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gender"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-remote-perception"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-recent-decades"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-remote-perception"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-remote-perception"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-ref"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-remote-perception"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-refs"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-remote-perception"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-endophysical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-sensors-filters"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics-16"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics-16"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-operators-0004-br-20"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysical-models-based"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-endophysical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-endophysical"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-female-data"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-all-male-female"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-male-data"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-all-male-female"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-ref"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-nearly-three-decades"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-nearly-three-decades"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-time"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-mechanical-cascade"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-run-pairs"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-sec"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-sec"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-buccheri-et-al"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-endophysics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-world-scientific-publishing-co"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-quad-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bjd-princeton-edu"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-first-half"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-school-of-engineering"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-a-quarter-century"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-87"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-13-28"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-and-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-empirical-data-table-1"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lo-reg-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-groups"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-9-10-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-91"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-science-of-the-subjective-22"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-modular"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-vector"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace-jovanovich"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-thompson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-111-141"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-chicago"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-stanford"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-parapsychology-43"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-proc"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-1-184"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-conf"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cybernetics-society"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-washington"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-september-19-21-1977"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee-systems"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-man-and-cybernetics-society"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-e-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-parapsychology-44"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-empirical-data"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -40,7 +40,7 @@ for f in "${FILES[@]}"; do
     FILE_START=$(date +%s)
     echo "[$DONE/$TOTAL] Processing: ${slug}..."
 
-    if (cd pipeline && uv run --no-sync woograph process "../$f") 2>&1; then
+    if (PYTHONPATH="$PWD/pipeline/src:${PYTHONPATH:-}" pipeline/.venv/bin/woograph process "$f") 2>&1; then
         FILE_END=$(date +%s)
         FILE_DURATION=$((FILE_END - FILE_START))
 

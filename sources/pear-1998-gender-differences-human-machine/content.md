@@ -166,7 +166,7 @@ Previous analyses of this REG database demonstrated a significant series positio
 B. J. Dunne 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0008-02.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0008-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -182,7 +182,7 @@ Gender Differences
 11 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0009-02.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -190,7 +190,7 @@ Gender Differences
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0009-03.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0009-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -204,7 +204,7 @@ Fig. 2. Male and Female Operator Performance: Local REG, High Intention.
 B. J. Dunne 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0010-02.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0010-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -218,7 +218,7 @@ Gender Differences
 13 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0011-02.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -366,7 +366,7 @@ B. J. Dunne
 (5a) 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0016-03.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0016-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -1152,7 +1152,7 @@ B. J. Dunne
 (10a) 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1998-gender-differences-human-machine/images/1998-gender-differences-human-machine.pdf-0040-03.png)
+![](sources/pear-1998-gender-differences-human-machine/images/pear-1998-gender-differences-human-machine.pdf-0040-03.png)
 
 
 **----- Start of picture text -----**<br>

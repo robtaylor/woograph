@@ -1,0 +1,4935 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1996-fieldreg-anomalies-group-situations",
+  "name": "PEAR: 1996 Fieldreg Anomalies Group Situations",
+  "entities": [
+    {
+      "@id": "source:pear-1996-fieldreg-anomalies-group-situations",
+      "@type": "woo:Source",
+      "name": "PEAR: 1996 Fieldreg Anomalies Group Situations"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-fieldreg-anomalies-in-group-situations",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nFieldREG Anomalies in Group Situations",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-g-j-brapish",
+      "@type": "Person",
+      "name": "G. J. BRapisH",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-y-h-dopyns",
+      "@type": "Person",
+      "name": "Y. H. Dopyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B. J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-school-ofengineering-applied-science",
+      "@type": "Organization",
+      "name": "School ofEngineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-days",
+      "@type": "Date",
+      "name": "days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-basham",
+      "@type": "Organization",
+      "name": "Basham",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-durkheim",
+      "@type": "Place",
+      "name": "Durkheim",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-james",
+      "@type": "Person",
+      "name": "James",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-sheldrake",
+      "@type": "Organization",
+      "name": "Sheldrake",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-jahn",
+      "@type": "Place",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-i-e",
+      "@type": "Person",
+      "name": "i. e.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-a5-percent",
+      "@type": "Place",
+      "name": "a5 percent",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-bonferroni",
+      "@type": "Person",
+      "name": "Bonferroni",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-11-45-15-02",
+      "@type": "Date",
+      "name": "11:45 15:02",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-snedecor",
+      "@type": "Organization",
+      "name": "Snedecor",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-cochran",
+      "@type": "Place",
+      "name": "Cochran",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-anomaly",
+      "@type": "Place",
+      "name": "anomaly",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-international-consciousness-research-laboratories",
+      "@type": "Organization",
+      "name": "the International Consciousness Research Laboratories",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-april-1993",
+      "@type": "Date",
+      "name": "April, 1993",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-icrl",
+      "@type": "Organization",
+      "name": "ICRL",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-semi-annually",
+      "@type": "Date",
+      "name": "semi-annually",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-the-two-days",
+      "@type": "Date",
+      "name": "the two days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-d-nelson",
+      "@type": "Person",
+      "name": "D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-three-day",
+      "@type": "Date",
+      "name": "three-day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-march-1994",
+      "@type": "Date",
+      "name": "March 1994",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-the-beginning-of-the-third-day",
+      "@type": "Date",
+      "name": "the beginning of the third day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-this-day",
+      "@type": "Date",
+      "name": "this day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-one-day",
+      "@type": "Date",
+      "name": "one day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-december-1994",
+      "@type": "Date",
+      "name": "December, 1994",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-direct-mental-and-healing-interactions",
+      "@type": "Organization",
+      "name": "Direct Mental and Healing Interactions",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-several-days",
+      "@type": "Date",
+      "name": "several days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-december-1993",
+      "@type": "Date",
+      "name": "December, 1993",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-the-four-days",
+      "@type": "Date",
+      "name": "the four days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-9-05-3-19-94",
+      "@type": "Date",
+      "name": "9:05 3/19/94",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-three-day",
+      "@type": "Date",
+      "name": "Three-day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-last-day",
+      "@type": "Date",
+      "name": "last day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-one-day",
+      "@type": "Date",
+      "name": "One day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-four-day",
+      "@type": "Date",
+      "name": "Four-day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-four-day",
+      "@type": "Date",
+      "name": "four-day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-covenant-of-unitarian-universalist-pagans",
+      "@type": "Organization",
+      "name": "the Covenant of Unitarian Universalist Pagans",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-cuups",
+      "@type": "Organization",
+      "name": "CUUPS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-december-1993",
+      "@type": "Date",
+      "name": "December 1993",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-y",
+      "@type": "Person",
+      "name": "y?=",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-rosenthal",
+      "@type": "Person",
+      "name": "Rosenthal",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-21-18-129-94",
+      "@type": "Date",
+      "name": "21:18 129/94",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-marked-day",
+      "@type": "Date",
+      "name": "Marked day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-june-1994",
+      "@type": "Date",
+      "name": "June, 1994",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-january-1995",
+      "@type": "Date",
+      "name": "January, 1995",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-y7-20-901",
+      "@type": "Date",
+      "name": "y7= 20.901",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-academy-of-consciousness-studies",
+      "@type": "Organization",
+      "name": "The Academy of Consciousness Studies",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-two-week",
+      "@type": "Date",
+      "name": "two-week",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-june-and-july-1994",
+      "@type": "Date",
+      "name": "June and July, 1994",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-ten-days",
+      "@type": "Date",
+      "name": "ten days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-one-full-day",
+      "@type": "Date",
+      "name": "One full day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-10-day",
+      "@type": "Date",
+      "name": "10-day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-humor-conference",
+      "@type": "Person",
+      "name": "Humor Conference",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-annual",
+      "@type": "Date",
+      "name": "annual",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:creativework-conference-on-humor-and-creativity",
+      "@type": "CreativeWork",
+      "name": "Conference on Humor and Creativity",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-april-1995",
+      "@type": "Date",
+      "name": "April, 1995",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-the-three-day",
+      "@type": "Date",
+      "name": "the three day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-keynote",
+      "@type": "Organization",
+      "name": "Keynote",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-38-995",
+      "@type": "Date",
+      "name": "38.995",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-0-007",
+      "@type": "Date",
+      "name": "0.007",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-keynote",
+      "@type": "Person",
+      "name": "Keynote",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-sse-council",
+      "@type": "Organization",
+      "name": "SSE Council",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-council-of",
+      "@type": "Organization",
+      "name": "Council of",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-15-13-4-30-95",
+      "@type": "Date",
+      "name": "15:13 4/30/95",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-three-days",
+      "@type": "Date",
+      "name": "Three days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-humor-conference-marked",
+      "@type": "Person",
+      "name": "Humor Conference: Marked",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-society-for-scientific-exploration",
+      "@type": "Organization",
+      "name": "the Society for Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:event-a-world-wide",
+      "@type": "Event",
+      "name": "a World Wide",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-10-175",
+      "@type": "Date",
+      "name": "10.175",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-texas",
+      "@type": "Place",
+      "name": "Texas",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-the-day",
+      "@type": "Date",
+      "name": "the day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-10a",
+      "@type": "Date",
+      "name": "10a",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-10b",
+      "@type": "Date",
+      "name": "10b",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-11b",
+      "@type": "Date",
+      "name": "11b",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-1la",
+      "@type": "Date",
+      "name": "1la",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-council",
+      "@type": "Organization",
+      "name": "Council",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-control-data",
+      "@type": "Organization",
+      "name": "Control Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-3-dmhid-9922-12-0-152-0-862-0-981",
+      "@type": "Organization",
+      "name": "|3.|(DMHID|9922|12|0.152|0.862|0.981|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-9-sse-council-1378-12-0-090-0-678-0-678-10-marfa-lights-12194-6-0-464-0-976-0-976",
+      "@type": "Organization",
+      "name": "|9.|(SSE Council)|1378|12|0.090|0.678|0.678|\n|10.|(Marfa Lights)|12194|6|0.464|0.976|0.976|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-br-40-fieldreg-data",
+      "@type": "Organization",
+      "name": "br>40 FieldREG Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-cali",
+      "@type": "Person",
+      "name": "Cali",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-cuan",
+      "@type": "Person",
+      "name": "Cuan",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-size",
+      "@type": "Person",
+      "name": "Size",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-z-n",
+      "@type": "Organization",
+      "name": "Z/N",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-academy",
+      "@type": "Organization",
+      "name": "Academy",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-radin",
+      "@type": "Organization",
+      "name": "Radin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-blasband",
+      "@type": "Place",
+      "name": "Blasband",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-al",
+      "@type": "Person",
+      "name": "al.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-al",
+      "@type": "Place",
+      "name": "al.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-collective",
+      "@type": "Person",
+      "name": "Collective",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-intellectual",
+      "@type": "Person",
+      "name": "Intellectual",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-physical-corrrelates",
+      "@type": "Organization",
+      "name": "Physical Corrrelates",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-sse-council",
+      "@type": "Organization",
+      "name": "the SSE Council",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S. Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-donald-webster",
+      "@type": "Person",
+      "name": "Donald Webster",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "the McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-george-ohrstrom-foundation",
+      "@type": "Organization",
+      "name": "the George Ohrstrom Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-fetzer-institute",
+      "@type": "Organization",
+      "name": "the Fetzer Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-a-l",
+      "@type": "Person",
+      "name": "A. L.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-india",
+      "@type": "Place",
+      "name": "India",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-huntington-beach",
+      "@type": "Place",
+      "name": "Huntington Beach",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-dunne-b-j-and-jahn",
+      "@type": "Person",
+      "name": "Dunne B. J. and Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-t-parsons",
+      "@type": "Organization",
+      "name": "T. Parsons",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-e-shils",
+      "@type": "Person",
+      "name": "E. Shils",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-k-d-naegele",
+      "@type": "Person",
+      "name": "K. D. Naegele",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-j-r-pitts",
+      "@type": "Person",
+      "name": "J. R. Pitts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-theories-of-society",
+      "@type": "Organization",
+      "name": "Theories of Society",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-glencoe",
+      "@type": "Place",
+      "name": "Glencoe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-illinois",
+      "@type": "Place",
+      "name": "Illinois",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-free-press",
+      "@type": "Organization",
+      "name": "The Free Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:date-1-21",
+      "@type": "Date",
+      "name": "1,21",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-harcourt-brace",
+      "@type": "Organization",
+      "name": "Harcourt Brace",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-boston",
+      "@type": "Place",
+      "name": "Boston",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-houghton-miffin",
+      "@type": "Place",
+      "name": "Houghton-Miffin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-hardware",
+      "@type": "Organization",
+      "name": "Hardware",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-software-documentation",
+      "@type": "Organization",
+      "name": "Software Documentation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-meta-analytic-procedures-for-social-research",
+      "@type": "Organization",
+      "name": "Meta-Analytic Procedures for Social Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-revised-ed",
+      "@type": "Person",
+      "name": "Revised ed.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-newbury-park",
+      "@type": "Place",
+      "name": "Newbury Park",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-the-hypothesis-offormative-causation",
+      "@type": "Organization",
+      "name": "The Hypothesis ofFormative Causation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-los-angeles",
+      "@type": "Place",
+      "name": "Los Angeles",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-j-p-tarcher",
+      "@type": "Person",
+      "name": "J. P. Tarcher",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-g-w",
+      "@type": "Person",
+      "name": "G. W.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-w-g",
+      "@type": "Person",
+      "name": "W. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:person-statistical-methods",
+      "@type": "Person",
+      "name": "Statistical Methods",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:creativework-seventh-edition",
+      "@type": "CreativeWork",
+      "name": "Seventh Edition",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:place-iowa",
+      "@type": "Place",
+      "name": "Iowa",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:organization-iowa-state-university-press",
+      "@type": "Organization",
+      "name": "Iowa State University Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    },
+    {
+      "@id": "entity:event-fieldreg-anomalies-group-situations",
+      "@type": "Event",
+      "name": "Fieldreg Anomalies Group Situations",
+      "aliases": [],
+      "mentionedIn": "source:pear-1996-fieldreg-anomalies-group-situations"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-fieldreg-anomalies-in-group-situations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-brapish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dopyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-ofengineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-basham"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-durkheim"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sheldrake"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a5-percent"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-11-45-15-02"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-snedecor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cochran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-anomaly"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-research-laboratories"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-1993"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-semi-annually"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-two-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-three-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-march-1994"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-beginning-of-the-third-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-this-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-one-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-1994"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-direct-mental-and-healing-interactions"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-1993"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-four-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-9-05-3-19-94"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-three-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-last-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-one-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-covenant-of-unitarian-universalist-pagans"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-1993"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-21-18-129-94"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-marked-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-1994"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-january-1995"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-y7-20-901"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-academy-of-consciousness-studies"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-week"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-and-july-1994"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-ten-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-one-full-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humor-conference"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-annual"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-conference-on-humor-and-creativity"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-1995"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-three-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-keynote"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-38-995"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-007"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-keynote"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sse-council"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-council-of"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-15-13-4-30-95"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-three-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humor-conference-marked"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-a-world-wide"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-175"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-texas"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-11b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1la"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-council"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-control-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-3-dmhid-9922-12-0-152-0-862-0-981"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-9-sse-council-1378-12-0-090-0-678-0-678-10-marfa-lights-12194-6-0-464-0-976-0-976"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-40-fieldreg-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cali"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cuan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-size"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-z-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-academy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-blasband"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-collective"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-intellectual"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physical-corrrelates"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-sse-council"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-webster"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-george-ohrstrom-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-india"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-huntington-beach"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne-b-j-and-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-t-parsons"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-shils"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-k-d-naegele"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-r-pitts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-theories-of-society"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-glencoe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-illinois"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-free-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-21"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-boston"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-houghton-miffin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-hardware"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-software-documentation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-meta-analytic-procedures-for-social-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-revised-ed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-newbury-park"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-hypothesis-offormative-causation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-los-angeles"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-tarcher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-w"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-seventh-edition"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-iowa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-iowa-state-university-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-brapish"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dopyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-ofengineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-ofengineering-applied-science"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-dobyns"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-al"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-al"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-research-laboratories"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-icrl"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-research-laboratories"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-april-1993"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-april-1993"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-semi-annually"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-march-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-december-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-academy"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-sse-council"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-dobyns"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-blasband"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-snedecor"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-w"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cochran"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:creativework-seventh-edition"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-iowa"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-statistical-methods"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-iowa-state-university-press"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-icrl"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-snedecor"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-cochran"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-the-covenant-of-unitarian-universalist-pagans"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-december-1993"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-direct-mental-and-healing-interactions"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-december-1993"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-direct-mental-and-healing-interactions"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-several-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-direct-mental-and-healing-interactions"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-three-day"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-last-day"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-january-1995"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-academy-of-consciousness-studies"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-academy-of-consciousness-studies"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-and-july-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humor-conference"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-april-1995"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-conference-on-humor-and-creativity"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-april-1995"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-keynote"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:creativework-conference-on-humor-and-creativity"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-council"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-sse-council"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-academy"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-one-full-day"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humor-conference"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-three-days"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humor-conference"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-15-13-4-30-95"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-control-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-cuups"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-council"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sse-council"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-council"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-sse-council"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10b"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-sse-council"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1la"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-11b"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-december-1994"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-a-world-wide"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-10-175"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-icrl"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-texas"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-10a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-10b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-11b"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cuups"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-sse-council"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-sse-council"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-academy"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cali"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-cuan"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-academy"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1996-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-fieldreg-anomalies-in-group-situations"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-basham"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-durkheim"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sheldrake"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-e"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-a5-percent"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-11-45-15-02"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-anomaly"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-two-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-beginning-of-the-third-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-this-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-one-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-9-05-3-19-94"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-one-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-21-18-129-94"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-marked-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-y7-20-901"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-week"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-ten-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-annual"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-three-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-keynote"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-38-995"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-007"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-council-of"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-humor-conference-marked"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-3-dmhid-9922-12-0-152-0-862-0-981"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-9-sse-council-1378-12-0-090-0-678-0-678-10-marfa-lights-12194-6-0-464-0-976-0-976"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-40-fieldreg-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-size"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-z-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-al"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-collective"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-intellectual"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-physical-corrrelates"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-webster"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-george-ohrstrom-foundation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-l"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-india"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-huntington-beach"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne-b-j-and-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-t-parsons"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-shils"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-k-d-naegele"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-r-pitts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-theories-of-society"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-glencoe"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-illinois"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-free-press"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-21"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-boston"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-houghton-miffin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-hardware"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-software-documentation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-meta-analytic-procedures-for-social-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-revised-ed"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-newbury-park"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-hypothesis-offormative-causation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-los-angeles"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-tarcher"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-fieldreg-anomalies-group-situations"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

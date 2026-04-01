@@ -1,0 +1,5501 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1992-bayesian-analysis-reg-data",
+  "name": "PEAR: 1992 Bayesian Analysis Reg Data",
+  "entities": [
+    {
+      "@id": "source:pear-1992-bayesian-analysis-reg-data",
+      "@type": "woo:Source",
+      "name": "PEAR: 1992 Bayesian Analysis Reg Data"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-23-45-1992",
+      "@type": "Date",
+      "name": "23-45, 1992",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-on-the-bayesian-analysis-of-reg-data",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nOn the Bayesian Analysis of REG Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-york-h-dosyns",
+      "@type": "Person",
+      "name": "York H. Dosyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-princeton-engineering",
+      "@type": "Organization",
+      "name": "Princeton Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-research-princeton-university",
+      "@type": "Organization",
+      "name": "Research Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-random-event-generator",
+      "@type": "Organization",
+      "name": "Random Event Generator",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-eight-year",
+      "@type": "Date",
+      "name": "eight-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-y-h-dobyns",
+      "@type": "Person",
+      "name": "Y. H. Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-bayesian",
+      "@type": "Place",
+      "name": "Bayesian",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-bernoulli",
+      "@type": "Person",
+      "name": "Bernoulli",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-s-p",
+      "@type": "Person",
+      "name": "s\\p",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-n-s-n",
+      "@type": "Organization",
+      "name": "n!/[s!(n",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-bayes",
+      "@type": "Organization",
+      "name": "Bayes",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-bayesian-reg",
+      "@type": "Organization",
+      "name": "Bayesian REG",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-py-x-p",
+      "@type": "Person",
+      "name": "py\"-x(p",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-p-n",
+      "@type": "Place",
+      "name": "\\(p\\|n",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-v2-lgb",
+      "@type": "Organization",
+      "name": "V2) & LGB",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-r-p-n",
+      "@type": "Person",
+      "name": ".)R(p|n",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-reg-data",
+      "@type": "Organization",
+      "name": "REG Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-margins-ofreality",
+      "@type": "Organization",
+      "name": "Margins ofReality",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-journal-for-scientific-exploration",
+      "@type": "Organization",
+      "name": "the Journal for Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-journal",
+      "@type": "Organization",
+      "name": "Journal",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-1-p",
+      "@type": "Person",
+      "name": "\u00b0(1 \u2014 p)-",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-margins",
+      "@type": "Organization",
+      "name": "Margins",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-5",
+      "@type": "Person",
+      "name": "|5|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-margins",
+      "@type": "Place",
+      "name": "Margins",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-0-5-61s",
+      "@type": "Date",
+      "name": "0.5 + 61s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-null-hypothesis",
+      "@type": "Organization",
+      "name": "Null Hypothesis",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-pear-reg",
+      "@type": "Organization",
+      "name": "PEAR REG",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-consequence",
+      "@type": "Place",
+      "name": "consequence",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:creativework-breakpoint",
+      "@type": "CreativeWork",
+      "name": "Breakpoint",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-rectangular-prior",
+      "@type": "Person",
+      "name": "Rectangular Prior",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-width",
+      "@type": "Person",
+      "name": "Width",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-br-3",
+      "@type": "Organization",
+      "name": "br>3",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-x-k",
+      "@type": "Person",
+      "name": "x(k",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:event-ns-7-2",
+      "@type": "Event",
+      "name": "NS 7 2",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-n-n-2k",
+      "@type": "Date",
+      "name": "n)/\\/n + 2k",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-poe",
+      "@type": "Person",
+      "name": "Poe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-priors-br-end-of",
+      "@type": "Organization",
+      "name": "priors.<br>----- End of",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-10",
+      "@type": "Date",
+      "name": "10+",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-posterior-probability-of-null-component",
+      "@type": "Organization",
+      "name": "Posterior Probability of Null Component",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-ic-in-iy-unuing-n-on-ng",
+      "@type": "Organization",
+      "name": "IC IN IY UNUING N ON NG",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-width-of-rectangular-component",
+      "@type": "Organization",
+      "name": ">Width of Rectangular Component",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-ale",
+      "@type": "Place",
+      "name": "Ale",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-lindley-s",
+      "@type": "Person",
+      "name": "Lindley\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-l-y-r-6",
+      "@type": "Organization",
+      "name": "L@|y)r(6",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-l-6-y",
+      "@type": "Person",
+      "name": "L(6|y",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-2-6-y-r-0-d6",
+      "@type": "Date",
+      "name": "2(6| y)r(0)d6",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-24-xj",
+      "@type": "Date",
+      "name": "24 + xj",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-6-xe-y-d6",
+      "@type": "Date",
+      "name": "6 xe y)d6",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-6-y-x0-6-d0",
+      "@type": "Date",
+      "name": "6| y)x0(6)d0",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-lindley-s",
+      "@type": "Organization",
+      "name": "Lindley\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-g-shafer",
+      "@type": "Person",
+      "name": "G. Shafer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-z",
+      "@type": "Place",
+      "name": "z,(@",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-shafer-s",
+      "@type": "Organization",
+      "name": "Shafer\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-shafer",
+      "@type": "Place",
+      "name": "Shafer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-lindley",
+      "@type": "Organization",
+      "name": "Lindley",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-jeffreys-1990",
+      "@type": "Date",
+      "name": "Jeffreys 1990",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-ohohohoheommdox-x",
+      "@type": "Organization",
+      "name": "OHOHOHOHEOmmdox.x",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-dee",
+      "@type": "Person",
+      "name": "Dee",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-oe-tno-cou",
+      "@type": "Organization",
+      "name": "Oe TNO COU",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-statistical-power",
+      "@type": "Organization",
+      "name": "Statistical Power",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-good-and-hill",
+      "@type": "Organization",
+      "name": "Good and Hill",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-shafer",
+      "@type": "Organization",
+      "name": "Shafer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-jeffreys",
+      "@type": "Person",
+      "name": "Jeffreys",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-lindsey-1990",
+      "@type": "Date",
+      "name": "Lindsey 1990",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-n-bernoulli",
+      "@type": "Organization",
+      "name": "N Bernoulli",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-5002",
+      "@type": "Person",
+      "name": ".5002",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-classical-8",
+      "@type": "Organization",
+      "name": "classical|8",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-bayesian",
+      "@type": "Person",
+      "name": "Bayesian|",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-100",
+      "@type": "Organization",
+      "name": "|100",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-10-br-10",
+      "@type": "Organization",
+      "name": "|10<br>10",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-pear",
+      "@type": "Organization",
+      "name": "PEAR",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-classical-statistics",
+      "@type": "Organization",
+      "name": "Classical Statistics",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-utts",
+      "@type": "Place",
+      "name": "Utts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-the-eight-years",
+      "@type": "Date",
+      "name": "the eight years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-margins",
+      "@type": "Person",
+      "name": "Margins",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-twelve-years",
+      "@type": "Date",
+      "name": "twelve years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-hansel",
+      "@type": "Person",
+      "name": "Hansel",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-feller-s",
+      "@type": "Organization",
+      "name": "Feller\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-dunne-jahn",
+      "@type": "Organization",
+      "name": "Dunne, Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-jahn-1982",
+      "@type": "Date",
+      "name": "Jahn 1982",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-nelson-1982",
+      "@type": "Person",
+      "name": "Nelson 1982",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-jahn",
+      "@type": "Person",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-jahn-1984",
+      "@type": "Date",
+      "name": "Jahn 1984",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-jahn-1987",
+      "@type": "Date",
+      "name": "Jahn 1987",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-good-1982",
+      "@type": "Date",
+      "name": "Good 1982",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-processing-reg",
+      "@type": "Organization",
+      "name": "Processing REG",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-b-87",
+      "@type": "Place",
+      "name": "B(87",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "Robert Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-brenda-dunne",
+      "@type": "Person",
+      "name": "Brenda Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-roger-nelson",
+      "@type": "Person",
+      "name": "Roger Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-elissa-hoeger",
+      "@type": "Person",
+      "name": "Elissa Hoeger",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "the McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-fetzer-institute",
+      "@type": "Organization",
+      "name": "the Fetzer Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S. Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-york-dobyns",
+      "@type": "Person",
+      "name": "York Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-engineering-quadrangle",
+      "@type": "Person",
+      "name": "Engineering Quadrangle",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-new-jersey",
+      "@type": "Place",
+      "name": "New Jersey",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-large-data-base-capability",
+      "@type": "Organization",
+      "name": "Large Data-Base Capability",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-princeton-university-pear-technical-note",
+      "@type": "Organization",
+      "name": "Princeton University: PEAR Technical Note",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-feller",
+      "@type": "Organization",
+      "name": "Feller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-london",
+      "@type": "Place",
+      "name": "London",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-john-wiley-sons",
+      "@type": "Person",
+      "name": "John Wiley & Sons",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-i-j",
+      "@type": "Person",
+      "name": "I. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-shafer",
+      "@type": "Person",
+      "name": "Shafer",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-american-statistical-association",
+      "@type": "Organization",
+      "name": "American Statistical Association",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-c-e-m",
+      "@type": "Person",
+      "name": "C.E. M.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-scientific-evaluation",
+      "@type": "Organization",
+      "name": "Scientific Evaluation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-charles-scribner-s-sons",
+      "@type": "Person",
+      "name": "Charles Scribner\u2019s Sons",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-r-g",
+      "@type": "Place",
+      "name": "R.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-ieee",
+      "@type": "Organization",
+      "name": "IEEE",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-psychic-phenomena",
+      "@type": "Person",
+      "name": "Psychic Phenomena",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-g-adelman",
+      "@type": "Person",
+      "name": "G. Adelman",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-encyclopedia",
+      "@type": "Person",
+      "name": "Encyclopedia",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-boston",
+      "@type": "Place",
+      "name": "Boston",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-basel",
+      "@type": "Place",
+      "name": "Basel",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-b-j",
+      "@type": "Place",
+      "name": "B.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics",
+      "@type": "Organization",
+      "name": "Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-c-b-scott-jones",
+      "@type": "Person",
+      "name": "C. B. Scott Jones",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-proceedings-of-a-symposium-on-applications-ofanomalous-phenomena",
+      "@type": "Organization",
+      "name": "Proceedings of a Symposium on Applications ofAnomalous Phenomena",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-leesburg",
+      "@type": "Place",
+      "name": "Leesburg",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:date-november-30-december-1-1983",
+      "@type": "Date",
+      "name": "November 30-December 1, 1983",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-alexandria",
+      "@type": "Place",
+      "name": "Alexandria",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-santa-barbara",
+      "@type": "Place",
+      "name": "Santa Barbara",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-division-of-kaman-sciences-corporation",
+      "@type": "Organization",
+      "name": "Division of Kaman Sciences Corporation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-w-h",
+      "@type": "Person",
+      "name": "W. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-bayesian-analysis-ofrandom-event-generator-data",
+      "@type": "Organization",
+      "name": "Bayesian Analysis ofRandom Event Generator Data",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-journal-ofscientific-exploration",
+      "@type": "Organization",
+      "name": "Journal ofScientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-design-sensitivity-statistical-power-for-experimental-research",
+      "@type": "Organization",
+      "name": "Design Sensitivity: Statistical Power for Experimental Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-newbury-park",
+      "@type": "Place",
+      "name": "Newbury Park",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:place-new-delhi",
+      "@type": "Place",
+      "name": "New Delhi",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-g-j-dobyns",
+      "@type": "Person",
+      "name": "G. J., & Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-analysis",
+      "@type": "Organization",
+      "name": "Analysis",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    },
+    {
+      "@id": "entity:organization-journal-of-the-society-for-psychical-research",
+      "@type": "Organization",
+      "name": "Journal of the Society for Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1992-bayesian-analysis-reg-data"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-23-45-1992"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-on-the-bayesian-analysis-of-reg-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-h-dosyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-research-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-eight-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bernoulli"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-n-s-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayes"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-py-x-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-p-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-v2-lgb"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-p-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reg-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-margins-ofreality"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-journal-for-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-1-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-margins"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-margins"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-5-61s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear-reg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-consequence"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-breakpoint"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rectangular-prior"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-width"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-x-k"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-ns-7-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-n-n-2k"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-poe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-priors-br-end-of"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-posterior-probability-of-null-component"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ic-in-iy-unuing-n-on-ng"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-width-of-rectangular-component"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ale"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lindley-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-l-y-r-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l-6-y"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-6-y-r-0-d6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-24-xj"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-xe-y-d6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-y-x0-6-d0"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lindley-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-shafer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-z"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-shafer-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shafer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lindley"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-jeffreys-1990"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ohohohoheommdox-x"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-oe-tno-cou"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-statistical-power"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-good-and-hill"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-shafer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeffreys"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-lindsey-1990"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-n-bernoulli"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-5002"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-classical-8"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bayesian"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-100"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-10-br-10"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-classical-statistics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-eight-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-twelve-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansel"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-feller-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-jahn-1982"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-1982"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-jahn-1984"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-jahn-1987"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-good-1982"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-processing-reg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-87"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-jersey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-large-data-base-capability"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university-pear-technical-note"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-feller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-wiley-sons"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-shafer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-american-statistical-association"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-e-m"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scientific-evaluation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles-scribner-s-sons"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychic-phenomena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-adelman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-encyclopedia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-boston"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-basel"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-b-scott-jones"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-proceedings-of-a-symposium-on-applications-ofanomalous-phenomena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-leesburg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-november-30-december-1-1983"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-alexandria"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-santa-barbara"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-division-of-kaman-sciences-corporation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-analysis-ofrandom-event-generator-data"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-ofscientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-design-sensitivity-statistical-power-for-experimental-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-newbury-park"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-delhi"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-analysis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-the-society-for-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1992-bayesian-analysis-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-h-dosyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-h-dosyns"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-h-dosyns"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-random-event-generator"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bayes"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:organization-classical-statistics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-23-45-1992"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:date-eight-year"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-reg-data"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reg-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bernoulli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-s-p"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-s-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-n-s-n"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-margins-ofreality"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-margins-ofreality"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-journal-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-journal-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-journal-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-width"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.7,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-lindley"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-statistical-power"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-good-and-hill"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-shafer"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeffreys"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-jeffreys"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-lindsey-1990"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-statistical-power"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-n-bernoulli"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-pear-reg"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bernoulli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-pear-reg"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-analysis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-statistical-power"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-classical-8"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-5002"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-bernoulli"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeffreys"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-eight-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-twelve-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-margins"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-feller"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-margins"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-jahn-1982"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-jahn-1982"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-jahn-1982"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-jahn-1984"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-jahn-1987"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bernoulli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lindley"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-classical-statistics"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:opposed",
+      "object": {
+        "@id": "entity:organization-classical-statistics"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-statistical-power"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-classical-statistics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-statistical-power"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-york-dobyns"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-jersey"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-breakpoint"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-width"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rectangular-prior"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-width"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-reg-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear-reg"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-reg-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-pear-reg"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-reg-data"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-margins"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rectangular-prior"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-width"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-0-5-61s"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-0-5-61s"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-5002"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-null-hypothesis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-0-5-61s"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-reg"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeffreys"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-jeffreys-1990"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-analysis"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-on-the-bayesian-analysis-of-reg-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-research-princeton-university"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-py-x-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-p-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-v2-lgb"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-p-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-1-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-margins"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-consequence"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-br-3"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-x-k"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-ns-7-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-n-n-2k"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-poe"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-priors-br-end-of"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-10"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-posterior-probability-of-null-component"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ic-in-iy-unuing-n-on-ng"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-width-of-rectangular-component"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-ale"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lindley-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-l-y-r-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l-6-y"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-6-y-r-0-d6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-24-xj"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-xe-y-d6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-y-x0-6-d0"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lindley-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-shafer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-z"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-shafer-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shafer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ohohohoheommdox-x"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-oe-tno-cou"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-shafer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bayesian"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-100"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-10-br-10"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hansel"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-feller-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-dunne-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-1982"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-good-1982"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-processing-reg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-87"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brenda-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-fetzer-institute"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-large-data-base-capability"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university-pear-technical-note"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-london"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-wiley-sons"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-american-statistical-association"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-e-m"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scientific-evaluation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles-scribner-s-sons"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ieee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychic-phenomena"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-adelman"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-encyclopedia"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-boston"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-basel"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-c-b-scott-jones"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-proceedings-of-a-symposium-on-applications-ofanomalous-phenomena"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-leesburg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-november-30-december-1-1983"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-alexandria"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-santa-barbara"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-division-of-kaman-sciences-corporation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-w-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bayesian-analysis-ofrandom-event-generator-data"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-ofscientific-exploration"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-design-sensitivity-statistical-power-for-experimental-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-newbury-park"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-delhi"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-the-society-for-psychical-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-bayesian"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

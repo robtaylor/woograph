@@ -61,7 +61,7 @@ These series position patterns can be submitted to regression analysis to determ
 Series Position Effects in Random Event Generator Experiments 201 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/1994-series-position-effects-1.pdf-0005-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/pear-1994-series-position-effects-1.pdf-0005-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -118,7 +118,7 @@ The graphs of Figures 3 and 4 present the preceding prolific operator and total 
 Series Position Effects in Random Event Generator Experiments 203 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/1994-series-position-effects-1.pdf-0007-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/pear-1994-series-position-effects-1.pdf-0007-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -134,7 +134,7 @@ the important question: “If the experiment had been terminated at the end of t
 B. J. Dunne, Y. H. Dobyns, R. G. Jahn, and R. D. Nelson 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/1994-series-position-effects-1.pdf-0008-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/pear-1994-series-position-effects-1.pdf-0008-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -148,7 +148,7 @@ values, but even these differ somewhat from those ultimately achieved after yet 
 Series Position Effects in Random Event Generator Experiments 205 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/1994-series-position-effects-1.pdf-0009-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/pear-1994-series-position-effects-1.pdf-0009-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -191,7 +191,7 @@ Series Position Effects in Random Event Generator Experiments
 207 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/1994-series-position-effects-1.pdf-0011-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/pear-1994-series-position-effects-1.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -263,7 +263,7 @@ One other intriguing, if highly speculative, analogy can be found in a totally d
 210 B. J. Dunne, Y. H. Dobyns, R. G. Jahn, and R. D. Nelson 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/1994-series-position-effects-1.pdf-0014-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1994-series-position-effects-1/images/pear-1994-series-position-effects-1.pdf-0014-01.png)
 
 
 **----- Start of picture text -----**<br>

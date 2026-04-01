@@ -1,0 +1,4804 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-2005-consciousness-information-living-systems",
+  "name": "PEAR: 2005 Consciousness Information Living Systems",
+  "entities": [
+    {
+      "@id": "source:pear-2005-consciousness-information-living-systems",
+      "@type": "woo:Source",
+      "name": "PEAR: 2005 Consciousness Information Living Systems"
+    },
+    {
+      "@id": "entity:organization-issn",
+      "@type": "Organization",
+      "name": "ISSN",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-1165-158x",
+      "@type": "Date",
+      "name": "1165-158X",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-mol",
+      "@type": "Person",
+      "name": "Mol",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-information",
+      "@type": "Organization",
+      "name": "INFORMATION",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B.J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-engineering-quadrangle",
+      "@type": "Person",
+      "name": "Engineering Quadrangle",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-princeton-nj-08544-5263",
+      "@type": "Organization",
+      "name": "Princeton NJ 08544-5263",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-april-7-2005",
+      "@type": "Date",
+      "name": "April 7, 2005",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-april-15-2005",
+      "@type": "Date",
+      "name": "April 15, 2005",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-december-14-2005",
+      "@type": "Date",
+      "name": "December 14, 2005",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-26-year",
+      "@type": "Date",
+      "name": "26-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:creativework-the-wind-bloweth",
+      "@type": "CreativeWork",
+      "name": "THE WIND BLOWETH",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-socrates-academy",
+      "@type": "Organization",
+      "name": "Socrates\u2019 Academy",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-the-past-several-hundred-years",
+      "@type": "Date",
+      "name": "the past several hundred years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-several-centuries",
+      "@type": "Date",
+      "name": "several centuries",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B.J. Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R.G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-einstein",
+      "@type": "Person",
+      "name": "Einstein",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-the-past-quarter-century",
+      "@type": "Date",
+      "name": "the past quarter century",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-the-1970s",
+      "@type": "Date",
+      "name": "the 1970s",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-dean",
+      "@type": "Person",
+      "name": "Dean",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science-princeton-university",
+      "@type": "Organization",
+      "name": "the School of Engineering and Applied Science of Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-helmut-schmidt",
+      "@type": "Person",
+      "name": "Helmut Schmidt",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-the-present-day",
+      "@type": "Date",
+      "name": "the present day",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-concepts",
+      "@type": "Organization",
+      "name": "CONCEPTS",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-contexts",
+      "@type": "Organization",
+      "name": "CONTEXTS",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-caveats",
+      "@type": "Organization",
+      "name": "CAVEATS",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-pear",
+      "@type": "Organization",
+      "name": "PEAR",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-francis-bacon",
+      "@type": "Person",
+      "name": "Francis Bacon",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-the-years",
+      "@type": "Date",
+      "name": "the years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-schmidt",
+      "@type": "Person",
+      "name": "Schmidt",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-puthoff",
+      "@type": "Organization",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-targ",
+      "@type": "Organization",
+      "name": "Targ",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-indications",
+      "@type": "Organization",
+      "name": "INDICATIONS",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-enigmas",
+      "@type": "Organization",
+      "name": "ENIGMAS",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-giotto-s",
+      "@type": "Person",
+      "name": "Giotto\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:creativework-saint-francis-receiving-the-stigmata",
+      "@type": "CreativeWork",
+      "name": "\"Saint Francis Receiving the Stigmata",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-rene-peoc-h",
+      "@type": "Organization",
+      "name": "Ren\u00e9 Peoc\u2019h",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-micro-reg",
+      "@type": "Organization",
+      "name": "micro-REG",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-psychologie",
+      "@type": "Organization",
+      "name": "Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-psychohygiene",
+      "@type": "Organization",
+      "name": "Psychohygiene",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-igpp",
+      "@type": "Organization",
+      "name": "IGPP",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-freiburg",
+      "@type": "Place",
+      "name": "Freiburg",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-germany",
+      "@type": "Place",
+      "name": "Germany",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-the-giessen-anomalies-research-project",
+      "@type": "Organization",
+      "name": "the Giessen Anomalies Research Project",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-justusliebig-universita-t",
+      "@type": "Organization",
+      "name": "JustusLiebig-Universit\u00e4t",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-giessen",
+      "@type": "Place",
+      "name": "Giessen",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-pendulum",
+      "@type": "Organization",
+      "name": "Pendulum",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-many-years",
+      "@type": "Date",
+      "name": "many years",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:creativework-how-can-these-things-be",
+      "@type": "CreativeWork",
+      "name": "HOW CAN THESE THINGS BE",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-quantum-mechanics",
+      "@type": "Organization",
+      "name": "quantum mechanics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-werner-heisenberg-s",
+      "@type": "Person",
+      "name": "Werner Heisenberg\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-the-quantum-mechanics-of-consciousness",
+      "@type": "Organization",
+      "name": "the Quantum Mechanics of Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-application",
+      "@type": "Organization",
+      "name": "Application",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5",
+      "@type": "CreativeWork",
+      "name": "A Modular Model of Mind/Matter Manifestations (M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-navajo",
+      "@type": "Person",
+      "name": "Navajo",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:creativework-sensors-filters",
+      "@type": "CreativeWork",
+      "name": "Sensors, Filters",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-feng",
+      "@type": "Person",
+      "name": "feng",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-feng-shui",
+      "@type": "Person",
+      "name": "feng-shui",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-niels-bohr",
+      "@type": "Person",
+      "name": "Niels Bohr",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-contraria",
+      "@type": "Place",
+      "name": "Contraria",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-go-del-s-theorem",
+      "@type": "Organization",
+      "name": "G\u00f6del\u2019s Theorem",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-greeks",
+      "@type": "Person",
+      "name": "Greeks",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-the-international-consciousness-research-laboratories",
+      "@type": "Organization",
+      "name": "the International Consciousness Research Laboratories",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-elissa-hoeger",
+      "@type": "Person",
+      "name": "Elissa Hoeger",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-laurance-rockefeller",
+      "@type": "Person",
+      "name": "Laurance Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-j-o",
+      "@type": "Place",
+      "name": "J.O.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-kestenman",
+      "@type": "Place",
+      "name": "Kestenman",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-j-a",
+      "@type": "Place",
+      "name": "J.A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-psy-orf",
+      "@type": "Organization",
+      "name": "PSY/ORF",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-spring-2003",
+      "@type": "Date",
+      "name": "spring 2003",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-bisaha",
+      "@type": "Place",
+      "name": "Bisaha",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-j-p",
+      "@type": "Organization",
+      "name": "J.P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-b-j",
+      "@type": "Place",
+      "name": "B.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-the-nature-of-extrasensory-perception",
+      "@type": "Place",
+      "name": "the Nature of Extrasensory Perception",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-c-t",
+      "@type": "Place",
+      "name": "C.T.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-y-h",
+      "@type": "Place",
+      "name": "Y.H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-j-scientific-exploration",
+      "@type": "Organization",
+      "name": "J. Scientific \n\nExploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-december-1991",
+      "@type": "Date",
+      "name": "December 1991",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-cultivating-consciousness-for-enhancing-human-potential",
+      "@type": "Organization",
+      "name": "Cultivating Consciousness for Enhancing Human Potential",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-wellness",
+      "@type": "Organization",
+      "name": "Wellness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-healing",
+      "@type": "Place",
+      "name": "Healing",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-rao",
+      "@type": "Place",
+      "name": "Rao",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-k-r",
+      "@type": "Place",
+      "name": "K.R.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-b-j",
+      "@type": "Person",
+      "name": "B.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-gender",
+      "@type": "Organization",
+      "name": "Gender",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-j-scientific-exploration",
+      "@type": "Organization",
+      "name": "J. Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-jahn",
+      "@type": "Place",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-r-g",
+      "@type": "Place",
+      "name": "R.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-r-d",
+      "@type": "Place",
+      "name": "R.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-a-thompson",
+      "@type": "Person",
+      "name": "A. Thompson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-r-d",
+      "@type": "Organization",
+      "name": "R.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-haraldsson",
+      "@type": "Person",
+      "name": "Haraldsson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-houtkooper",
+      "@type": "Person",
+      "name": "Houtkooper",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-j-parapsychol",
+      "@type": "Person",
+      "name": "J. Parapsychol",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-heisenberg",
+      "@type": "Person",
+      "name": "Heisenberg",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-w-physics-and-philosophy-harper-row",
+      "@type": "Organization",
+      "name": "W., Physics and Philosophy , Harper & Row",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-ibison",
+      "@type": "Organization",
+      "name": "Ibison",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:creativework-m-5",
+      "@type": "CreativeWork",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-reality",
+      "@type": "Organization",
+      "name": "Reality",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-harcourt-brace",
+      "@type": "Organization",
+      "name": "Harcourt Brace",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-san-diego",
+      "@type": "Place",
+      "name": "San Diego",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-lettieri",
+      "@type": "Person",
+      "name": "Lettieri",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-mischo",
+      "@type": "Person",
+      "name": "Mischo",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-boller",
+      "@type": "Person",
+      "name": "Boller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-bo-sch",
+      "@type": "Place",
+      "name": "B\u00f6sch",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-vaitl",
+      "@type": "Place",
+      "name": "Vaitl",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-j-and-walter",
+      "@type": "Organization",
+      "name": "J. and Walter",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-g-j",
+      "@type": "Place",
+      "name": "G.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-jones",
+      "@type": "Place",
+      "name": "Jones",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-r-a",
+      "@type": "Place",
+      "name": "R.A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-spencer",
+      "@type": "Place",
+      "name": "Spencer",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-p-s",
+      "@type": "Place",
+      "name": "P.S.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-shore",
+      "@type": "Place",
+      "name": "Shore",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-k-a",
+      "@type": "Place",
+      "name": "K.A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-j-optical-soc",
+      "@type": "Person",
+      "name": "J. Optical Soc",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-mcnamara",
+      "@type": "Person",
+      "name": "McNamara",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-wiesenfeld",
+      "@type": "Person",
+      "name": "Wiesenfeld",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-roy",
+      "@type": "Person",
+      "name": "Roy",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-lett",
+      "@type": "Person",
+      "name": "Lett",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-j-scientific",
+      "@type": "Organization",
+      "name": "J. Scientific",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-anovamodels",
+      "@type": "Organization",
+      "name": "ANOVAmodels",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-rosenthal",
+      "@type": "Person",
+      "name": "Rosenthal",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-experimenter",
+      "@type": "Person",
+      "name": "Experimenter",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-j-projective-technique-personality-assessment",
+      "@type": "Organization",
+      "name": "J. Projective Technique & Personality Assessment",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:date-feb-1969",
+      "@type": "Date",
+      "name": "Feb. 1969",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-boeing-scientific-research-laboratories",
+      "@type": "Organization",
+      "name": "Boeing Scientific Research Laboratories",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-psychic-exploration",
+      "@type": "Organization",
+      "name": "Psychic Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-mitchell",
+      "@type": "Person",
+      "name": "Mitchell",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-e-d",
+      "@type": "Place",
+      "name": "E.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-white",
+      "@type": "Person",
+      "name": "White",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-putnam",
+      "@type": "Organization",
+      "name": "Putnam",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-shahverdiev",
+      "@type": "Place",
+      "name": "Shahverdiev",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-e-m",
+      "@type": "Person",
+      "name": "E.M.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-university-of-new-mexico",
+      "@type": "Organization",
+      "name": "University of New Mexico",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:place-albuquerque",
+      "@type": "Place",
+      "name": "Albuquerque",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:organization-wiseman",
+      "@type": "Organization",
+      "name": "Wiseman",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    },
+    {
+      "@id": "entity:person-schlitz",
+      "@type": "Person",
+      "name": "Schlitz",
+      "aliases": [],
+      "mentionedIn": "source:pear-2005-consciousness-information-living-systems"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-issn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1165-158x"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mol"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-information"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-nj-08544-5263"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-7-2005"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-15-2005"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-14-2005"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-26-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-wind-bloweth"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-socrates-academy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-several-hundred-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-centuries"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-einstein"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-quarter-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-1970s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-helmut-schmidt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-present-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-concepts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-contexts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-caveats"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-bacon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-targ"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-indications"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-enigmas"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-giotto-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-saint-francis-receiving-the-stigmata"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rene-peoc-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-micro-reg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-igpp"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-freiburg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-germany"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-giessen-anomalies-research-project"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-justusliebig-universita-t"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-giessen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pendulum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-how-can-these-things-be"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-mechanics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-werner-heisenberg-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-quantum-mechanics-of-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-application"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-navajo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-sensors-filters"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-feng"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-feng-shui"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-contraria"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-go-del-s-theorem"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-greeks"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-international-consciousness-research-laboratories"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-j-o"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-kestenman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-j-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psy-orf"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-spring-2003"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-nature-of-extrasensory-perception"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-c-t"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-1991"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cultivating-consciousness-for-enhancing-human-potential"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wellness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-healing"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rao"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-k-r"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gender"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-thompson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-haraldsson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-parapsychol"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-heisenberg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-w-physics-and-philosophy-harper-row"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ibison"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reality"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bo-sch"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-and-walter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jones"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-spencer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-p-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shore"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-k-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-optical-soc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcnamara"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wiesenfeld"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lett"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-scientific"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anovamodels"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-experimenter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-projective-technique-personality-assessment"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-feb-1969"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-boeing-scientific-research-laboratories"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychic-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mitchell"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-e-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-white"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-putnam"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shahverdiev"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-m"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-university-of-new-mexico"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-albuquerque"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wiseman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schlitz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2005-consciousness-information-living-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-socrates-academy"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-reality"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-socrates-academy"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-past-several-hundred-years"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-helmut-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-present-day"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-26-year"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francis-bacon"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-schmidt"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-puthoff"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-targ"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-experimenter"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-experimenter"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-indications"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-enigmas"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pendulum"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-indications"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-micro-reg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-igpp"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-the-giessen-anomalies-research-project"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-igpp"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-freiburg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-igpp"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-germany"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-giessen-anomalies-research-project"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-justusliebig-universita-t"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-giessen-anomalies-research-project"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-giessen"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-giessen-anomalies-research-project"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-germany"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-experimenter"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pendulum"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-gender"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-experimenter"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-application"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-mechanics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-werner-heisenberg-s"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum-mechanics"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-heisenberg"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum-mechanics"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-quantum-mechanics-of-consciousness"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-mol"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-a-modular-model-of-mind-matter-manifestations-m-5"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-mol"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-navajo"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-sensors-filters"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-feng"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-feng-shui"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-feng"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-contraria"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-go-del-s-theorem"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-greeks"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-gender"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pear"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-international-consciousness-research-laboratories"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elissa-hoeger"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-j-o"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-psy-orf"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-kestenman"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-psy-orf"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psy-orf"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-spring-2003"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bisaha"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-the-nature-of-extrasensory-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-the-nature-of-extrasensory-perception"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-nature-of-extrasensory-perception"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-pear"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-cultivating-consciousness-for-enhancing-human-potential"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-a-thompson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-targ"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-j-projective-technique-personality-assessment"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-boeing-scientific-research-laboratories"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-psychic-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mitchell"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-psychic-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-white"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-psychic-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychic-exploration"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychic-exploration"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-putnam"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-university-of-new-mexico"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-albuquerque"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wiseman"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-schlitz"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wiseman"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-j-parapsychol"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-issn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1165-158x"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-engineering-quadrangle"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-nj-08544-5263"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-7-2005"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-15-2005"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-14-2005"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-wind-bloweth"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-centuries"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-einstein"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-quarter-century"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-1970s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-concepts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-contexts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-caveats"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-giotto-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-saint-francis-receiving-the-stigmata"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-rene-peoc-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-how-can-these-things-be"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-j-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-c-t"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-december-1991"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-wellness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-healing"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rao"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-k-r"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-haraldsson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-w-physics-and-philosophy-harper-row"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ibison"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-diego"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bo-sch"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-and-walter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jones"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-spencer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-p-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shore"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-k-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-optical-soc"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcnamara"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wiesenfeld"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lett"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anovamodels"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-feb-1969"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-e-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shahverdiev"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-m"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-information"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

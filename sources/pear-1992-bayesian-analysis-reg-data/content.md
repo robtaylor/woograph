@@ -77,7 +77,7 @@ Bayesian REG analysis
 27 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0005-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0005-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -87,7 +87,7 @@ Bayesian REG analysis
 Fig. 1. Likelihood function for PEAR REG data. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0005-04.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0005-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -121,7 +121,7 @@ Bayesian REG analysis
 29 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0007-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0007-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -133,7 +133,7 @@ that this change of regimes is accompanied by an inflection in the p value of th
 Further perspective on the interplay of the evidence with a prior preference for the null hypothesis interval may be obtained by considering another family of priors that specifically favor the null hypothesis to varying degrees but do not have sharp cutoffs of probability. Let x(k, p) = [Qk + LV(k)?Ip*(l — py for any k. All of these functions are properly normalized probability distributions, with mean 0.5 and standard deviation o = 4/(k — 1V/(2k? + 5k + 3), which tends to WEac[for][ large][k.] These[functions][also] become[increasingly] normal for greater k. As in the previous case, they tend to a delta function in the limit k - oo. When one of these functions is used as a prior with 2 from 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0008-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0008-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -141,7 +141,7 @@ Further perspective on the interplay of the evidence with a prior preference for
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0008-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0008-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -149,7 +149,7 @@ Y. H. Dobyns<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0008-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0008-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -167,7 +167,7 @@ Bayesian REG analysis
 31 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0009-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -185,7 +185,7 @@ The lower portion of Figure 5 shows a related quantity of interest, the relative
 Y. H. Dobyns 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0010-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0010-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -219,7 +219,7 @@ a(Oly = LO|y)poro(6) and «(6|y) = L@|y)p,2,(6). (10) The posterior probabilitie
 Y. H. Dobyns 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0012-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0012-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -257,7 +257,7 @@ The final section of the parameter-evaluation discussion above, with its two-com
 Y. H. Dobyns 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/1992-bayesian-analysis-reg-data.pdf-0014-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1992-bayesian-analysis-reg-data/images/pear-1992-bayesian-analysis-reg-data.pdf-0014-02.png)
 
 
 **----- Start of picture text -----**<br>

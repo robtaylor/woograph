@@ -146,7 +146,7 @@ Selection Versus Influence Revisited
 259 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-selection-versus-influence-revisited/images/1996-selection-versus-influence-revisited.pdf-0007-02.png)
+![](sources/pear-1996-selection-versus-influence-revisited/images/pear-1996-selection-versus-influence-revisited.pdf-0007-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -180,7 +180,7 @@ Selection Versus Influence Revisited
 261 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-selection-versus-influence-revisited/images/1996-selection-versus-influence-revisited.pdf-0009-02.png)
+![](sources/pear-1996-selection-versus-influence-revisited/images/pear-1996-selection-versus-influence-revisited.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -212,7 +212,7 @@ Selection Versus Influence Revisited
 263 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-selection-versus-influence-revisited/images/1996-selection-versus-influence-revisited.pdf-0011-02.png)
+![](sources/pear-1996-selection-versus-influence-revisited/images/pear-1996-selection-versus-influence-revisited.pdf-0011-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -222,7 +222,7 @@ Selection model<br>500 ifs<br>wtpers i “eaan<br>hy PY + *.<br>400 es Ret<br>5 
 Fig. 3. Fit of theory to observation, both models. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1996-selection-versus-influence-revisited/images/1996-selection-versus-influence-revisited.pdf-0012-00.png)
+![](sources/pear-1996-selection-versus-influence-revisited/images/pear-1996-selection-versus-influence-revisited.pdf-0012-00.png)
 
 
 **----- Start of picture text -----**<br>

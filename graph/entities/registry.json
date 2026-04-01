@@ -6155,7 +6155,8 @@
       "name": "The Institute for Noetic Sciences",
       "type": "ORG",
       "aliases": [
-        "Institute of Noetic Sciences"
+        "Institute of Noetic Sciences",
+        "the Institute of Noetic Sciences"
       ],
       "sources": []
     },
@@ -6979,7 +6980,8 @@
       "name": "Journal of Parapsychology",
       "type": "ORG",
       "aliases": [
-        "J. Parapsychology"
+        "J. Parapsychology",
+        "the Journal of Parapsychology"
       ],
       "sources": []
     },
@@ -7064,7 +7066,9 @@
     "entity:organization-the-parapsychological-association": {
       "name": "the Parapsychological Association",
       "type": "ORG",
-      "aliases": [],
+      "aliases": [
+        "the Parapsychological Association Convention"
+      ],
       "sources": []
     },
     "entity:organization-tufts-university": {
@@ -7589,7 +7593,9 @@
     "entity:organization-the-american-society-for-psychical-research": {
       "name": "the American Society for Psychical Research",
       "type": "ORG",
-      "aliases": [],
+      "aliases": [
+        "The American Society for Psychical Research, Inc."
+      ],
       "sources": []
     },
     "entity:organization-the-international-electrical-and-electronic-engineers": {
@@ -12868,7 +12874,8 @@
       "name": "F. W. H. Meyers",
       "type": "PERSON",
       "aliases": [
-        "Frederic W. H. Myers"
+        "Frederic W. H. Myers",
+        "F.W.H. Myers"
       ],
       "sources": []
     },
@@ -15169,7 +15176,9 @@
     "entity:creativework-journal-of-scientific-exploration": {
       "name": "Journal of \n\nScientific Exploration",
       "type": "WORK_OF_ART",
-      "aliases": [],
+      "aliases": [
+        "J. of Scientific Exploration"
+      ],
       "sources": []
     },
     "entity:organization-green-co": {
@@ -17779,7 +17788,9 @@
     "entity:person-w-g-braud": {
       "name": "W. G. Braud",
       "type": "PERSON",
-      "aliases": [],
+      "aliases": [
+        "W. Braud"
+      ],
       "sources": []
     },
     "entity:person-m-j-schlitz": {
@@ -21160,7 +21171,9 @@
     "entity:organization-princeton-university-press": {
       "name": "Princeton University Press",
       "type": "ORG",
-      "aliases": [],
+      "aliases": [
+        "Copyright Princeton University Press"
+      ],
       "sources": []
     },
     "entity:person-davis-floyd": {
@@ -29496,7 +29509,6505 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:date-one-century-old": {
+      "name": "one century old",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-manuscript": {
+      "name": "Manuscript",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-15-1981": {
+      "name": "July 15, 1981",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-26-1981": {
+      "name": "October 26, 1981",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-mcdonnell-foundation-inc": {
+      "name": "the McDonnell Foundation, Inc.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-john-e-fetzer-foundation-inc": {
+      "name": "the John E. Fetzer Foundation, Inc.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-little-river-foundation": {
+      "name": "the Little River Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-school-of-engineering-applied-science-princeton-university": {
+      "name": "the School of Engineering/Applied Science, Princeton University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-many-quarters": {
+      "name": "many quarters",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-some-four-years-ago": {
+      "name": "some four years ago",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-lascaux": {
+      "name": "Lascaux",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-altamira": {
+      "name": "Altamira",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-20-000": {
+      "name": "20 000",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-rome": {
+      "name": "Rome",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-aristotle": {
+      "name": "Aristotle",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-augustine": {
+      "name": "Augustine",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-reformation": {
+      "name": "Reformation",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-16th-century": {
+      "name": "the 16th century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-turn-of-the-17th-century": {
+      "name": "the turn of the 17th century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-advancement-of-learning": {
+      "name": "The Advancement of Learning",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sylva-sylvarum": {
+      "name": "Sylva Sylvarum",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-henry-more": {
+      "name": "Henry More",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joseph-glanvill": {
+      "name": "Joseph Glanvill",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glanvill": {
+      "name": "Glanvill",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-saducismus-triumphatus": {
+      "name": "Saducismus Triumphatus",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-some-four-centuries": {
+      "name": "some four centuries",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-mid-18th-century": {
+      "name": "the mid-18th century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-prospero-lambertini": {
+      "name": "Prospero Lambertini",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-benedict-xiv": {
+      "name": "Benedict XIV",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-de-canonizatione": {
+      "name": "De Canonizatione",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-anton-mesmer-s": {
+      "name": "Anton Mesmer's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-this-mid-18th-century": {
+      "name": "this mid-18th century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-emanuel-swedenborg": {
+      "name": "Emanuel Swedenborg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mary-todd-lincoln": {
+      "name": "Mary Todd Lincoln",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-white-house": {
+      "name": "the White House",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-early-1860-s": {
+      "name": "the early 1860's",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-personality": {
+      "name": "Personality",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-only-a-century-ago": {
+      "name": "only a century ago",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-proceedings": {
+      "name": "Proceedings",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-three-years-later": {
+      "name": "Three years later",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-nobel-laureates": {
+      "name": "Nobel Laureates",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-j-thomson": {
+      "name": "J. J. Thomson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-harvard": {
+      "name": "Harvard",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sigmund-freud": {
+      "name": "Sigmund Freud",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-myers": {
+      "name": "Myers",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-freud": {
+      "name": "Freud",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-ph-d": {
+      "name": "Ph.D.",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-w-stanford": {
+      "name": "Thomas W. Stanford",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-stanford-university": {
+      "name": "Stanford University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-first-decades-of-this-century": {
+      "name": "the first decades of this century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-duke-university": {
+      "name": "Duke University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-late-1920-s": {
+      "name": "the late 1920's",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-b-rhine": {
+      "name": "J. B. Rhine",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-american-psychological-association": {
+      "name": "the American Psychological Association",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-rhines": {
+      "name": "Rhines",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-american-association-for-the-advancement-of-science": {
+      "name": "the American Association for the Advancement of Science",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-western-europe": {
+      "name": "Western Europe",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-m-a": {
+      "name": "M.A.",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-past-forty-years": {
+      "name": "the past forty years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-eastern-bloc": {
+      "name": "Eastern Bloc",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-their-earliest-days": {
+      "name": "their earliest days",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nomenclature": {
+      "name": "NOMENCLATURE",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-present-day": {
+      "name": "present-day",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-biological-systems": {
+      "name": "Biological Systems",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-survival-a-reincarnation-b-apparitions": {
+      "name": "Survival\n  - A. Reincarnation\n  - B. Apparitions",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rayleigh": {
+      "name": "Rayleigh",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-s-p-r": {
+      "name": "S.P.R.",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-more-recent-years": {
+      "name": "more recent years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-s-wilks": {
+      "name": "S. S. Wilks",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-aristotle": {
+      "name": "Aristotle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-d-broad": {
+      "name": "C. D. Broad",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eastern": {
+      "name": "Eastern",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-years": {
+      "name": "years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-r-g-owen": {
+      "name": "A.R.G. Owen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-g-pratt": {
+      "name": "J. G. Pratt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-year-1612": {
+      "name": "the year 1612",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-several-weeks": {
+      "name": "several weeks",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-fabry-perot": {
+      "name": "Fabry-Perot",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-coherent-optics-instrument": {
+      "name": "Coherent Optics Instrument",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-schmeidler": {
+      "name": "Schmeidler",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-omega-engineering": {
+      "name": "Omega Engineering",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-model-uva-3254": {
+      "name": "Model UVA 3254",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pyrex": {
+      "name": "Pyrex",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-diam-cylindrical": {
+      "name": "diam cylindrical",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elgenco-model-3602a15124": {
+      "name": "Elgenco Model 3602A15124",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pt": {
+      "name": "Pt$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2230-2056": {
+      "name": "2230/2056",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pdp-11-45-and": {
+      "name": "PDP 11/45 and",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-unix": {
+      "name": "UNIX",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-over-fifteen-months": {
+      "name": "over fifteen months",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-figs": {
+      "name": "Figs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-fig": {
+      "name": "the\n\n\n\nFig",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-less-than-six-months": {
+      "name": "less than six months",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-table-ii": {
+      "name": "Table II",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-stimmary": {
+      "name": "STIMMARY",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lcampie": {
+      "name": "LCAMPIE",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-std": {
+      "name": "Std",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-b-l": {
+      "name": "B.L.",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-6157-6088": {
+      "name": "6157/6088",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-6092-5897": {
+      "name": "6092/5897",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-early-16th-century": {
+      "name": "the early 16th century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-upton-sinclair": {
+      "name": "Upton Sinclair",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mental-radio": {
+      "name": "Mental Radio",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-maimonides-medical-center": {
+      "name": "the Maimonides Medical Center",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-feathered-pipe-ranch": {
+      "name": "Feathered Pipe Ranch",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-helena": {
+      "name": "Helena",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-sept-5-1978": {
+      "name": "Sept. 5, 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-period-1976-to-1979": {
+      "name": "the period 1976 to 1979",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-woodrow-wilson-school": {
+      "name": "Woodrow Wilson School",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-aug-28-1980": {
+      "name": "Aug. 28, 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rockefeller-chapel": {
+      "name": "Rockefeller Chapel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-10-1977": {
+      "name": "June 10, 1977",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mundelein-college": {
+      "name": "Mundelein College",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-danube-river": {
+      "name": "Danube River",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-p-european-standard-time": {
+      "name": "P European Standard Time",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-aug-24-1976": {
+      "name": "Aug. 24, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-aug-23-1976": {
+      "name": "Aug. 23, 1976:",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gestalt": {
+      "name": "Gestalt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bassigned": {
+      "name": "bAssigned",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-chicago": {
+      "name": "CHICAGO",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-method": {
+      "name": "Method",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pz": {
+      "name": "Pz$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-north-atlantic-ocean": {
+      "name": "the North Atlantic Ocean",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-five-successive-days": {
+      "name": "five successive days",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-preceding-day": {
+      "name": "the preceding day",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-table-vi": {
+      "name": "TABLE VI",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-antennas": {
+      "name": "antennas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-upton-sinclair-s": {
+      "name": "Upton Sinclair's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-early-days": {
+      "name": "the early days",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ampere-s": {
+      "name": "Ampere's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-biot-savart-s": {
+      "name": "Biot-Savart's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-faraday": {
+      "name": "Faraday",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-random-process": {
+      "name": "the Random Process",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ac-circuit": {
+      "name": "ac circuit",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-some-fifty-years-ago": {
+      "name": "some fifty years ago",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-coming-years": {
+      "name": "the coming years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-karl-pribram": {
+      "name": "Karl Pribram",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-quantum-mechanical-models-probably": {
+      "name": "Quantum Mechanical Models\n\nProbably",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-schro-dinger-s-cat": {
+      "name": "Schr\u00f6dinger's Cat",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-wigner-s-friend": {
+      "name": "Wigner's Friend",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-psii": {
+      "name": "\\psii$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-s-application": {
+      "name": "S. Application",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-si": {
+      "name": "si$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-fermi-dirac": {
+      "name": "the Fermi-Dirac",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bose-einstein": {
+      "name": "Bose-Einstein",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-integer-spin": {
+      "name": "integer spin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-summer": {
+      "name": "the summer",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-5-9": {
+      "name": "5)-9",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard-wagner": {
+      "name": "Richard Wagner",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-walther": {
+      "name": "Walther",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-trial-song": {
+      "name": "Trial Song",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-meistersingers": {
+      "name": "Meistersingers",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-a-later-day": {
+      "name": "a later day",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-thomas-young": {
+      "name": "Thomas Young",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fresnel": {
+      "name": "Fresnel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rutherford": {
+      "name": "Rutherford",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-alembert": {
+      "name": "D'Alembert",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-edison": {
+      "name": "Edison",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lindberg": {
+      "name": "Lindberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-goddard": {
+      "name": "Goddard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-eighty-five-years-ago": {
+      "name": "eighty-five years ago",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-willis-harman": {
+      "name": "Willis Harman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-teilhard-de-chardin": {
+      "name": "Teilhard de Chardin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-house-of-representatives-science-and-technology-committee": {
+      "name": "the House of Representatives Science and Technology Committee",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-reservations": {
+      "name": "Reservations",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-statistician": {
+      "name": "statistician",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-h-surber": {
+      "name": "W. H. Surber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-k-curry": {
+      "name": "C. K. Curry",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-d-mitchell": {
+      "name": "E. D. Mitchell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-white": {
+      "name": "J. White",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-founders-of-psychical-research": {
+      "name": "The Founders of Psychical Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-schocken": {
+      "name": "Schocken",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-story-of-psychic-science-psychical-research": {
+      "name": "The Story of Psychic Science (Psychical Research",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ives-washburn": {
+      "name": "Ives Washburn",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-c-leclair": {
+      "name": "R. C. LeClair",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-the-odore-flournoy": {
+      "name": "Th\u00e9odore Flournoy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-madison": {
+      "name": "Madison",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-of-wisconsin-press": {
+      "name": "University of Wisconsin Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-a-century-of-inquiry": {
+      "name": "A Century of Inquiry",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-taplinger-1975": {
+      "name": "Taplinger, 1975",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-f-hartmann": {
+      "name": "F. Hartmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-saducismus-triumphatus": {
+      "name": "Saducismus Triumphatus",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gainesville": {
+      "name": "Gainesville",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-facsimiles-and-reprints": {
+      "name": "Facsimiles and Reprints",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-philosopher-king": {
+      "name": "Philosopher King",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-weidenfeld-nicholson": {
+      "name": "Weidenfeld & Nicholson",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-le-calcul-des-probabilite-s": {
+      "name": "le calcul des probabilit\u00e9s",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-philosoph": {
+      "name": "Philosoph",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-66-83-1889": {
+      "name": "66-83, 1889",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-wisdom": {
+      "name": "Wisdom",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-swedenborg-foundation-inc": {
+      "name": "Swedenborg Foundation, Inc.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-trobridge": {
+      "name": "G. Trobridge",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-swedenborg-life-and-teaching": {
+      "name": "Swedenborg, Life and Teaching",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-i-ross": {
+      "name": "I. Ross",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-smith": {
+      "name": "S. Smith",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-f-barrett": {
+      "name": "W. F. Barrett",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-47-64-1882": {
+      "name": "47-64, 1882",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-o-j-lodge": {
+      "name": "O. J. Lodge",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-ny-10023": {
+      "name": "NY 10023",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-houghton-mifflin": {
+      "name": "Houghton Mifflin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-report-of-the-committee-on-mediumistic-phenomena": {
+      "name": "Report of the Committee on Mediumistic Phenomena",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-murphy": {
+      "name": "G. Murphy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-o-ballou": {
+      "name": "R. O. Ballou",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-23-1903": {
+      "name": "23, 1903",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-freud": {
+      "name": "S. Freud",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-collier-books": {
+      "name": "Collier Books",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-of-basel": {
+      "name": "University of Basel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-memories-dreams-reflections": {
+      "name": "Memories, Dreams, Reflections",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-jaffe": {
+      "name": "A. Jaffe",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-clara-winston": {
+      "name": "Clara Winston",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-w-pauli": {
+      "name": "W. Pauli",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-ehrenwald": {
+      "name": "J. Ehrenwald",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-in-handbook-of-parapsychology": {
+      "name": "in Handbook of Parapsychology",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-e-stuart": {
+      "name": "C. E. Stuart",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-m-smith": {
+      "name": "B. M. Smith",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-extra-sensory-perception-after": {
+      "name": "Extra-Sensory Perception After",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-new-world": {
+      "name": "New World",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-mor-row": {
+      "name": "William Mor-\n- row",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-progress-in-parapsychology": {
+      "name": "Progress in Parapsychology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-parapsychologypress": {
+      "name": "ParapsychologyPress",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-e-rhine": {
+      "name": "L. E. Rhine",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-macmillan": {
+      "name": "Macmillan",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-j-para-psychol": {
+      "name": "J. Para-psychol",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-int": {
+      "name": "Int",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-amer": {
+      "name": "J. Amer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-us-universities-colleges": {
+      "name": "US Universities/Colleges",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-columbia": {
+      "name": "Columbia",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-delaware": {
+      "name": "Delaware",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-denver": {
+      "name": "Denver",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-drexel": {
+      "name": "Drexel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-finch": {
+      "name": "Finch",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kent-state": {
+      "name": "Kent State",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-michigan": {
+      "name": "Michigan",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-missouri": {
+      "name": "Missouri",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mundelein": {
+      "name": "Mundelein",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-newark-college-of-engineering": {
+      "name": "Newark College of Engineering",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-new-school-for-social-research": {
+      "name": "New School for Social Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-oakland": {
+      "name": "Oakland",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-pittsburgh": {
+      "name": "Pittsburgh",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-st-john-s": {
+      "name": "St. John's",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-st-joseph-s": {
+      "name": "St. Joseph's",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-south-west-minnesota": {
+      "name": "South West Minnesota",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-syracuse": {
+      "name": "Syracuse",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-irvine": {
+      "name": "Irvine",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-virginia": {
+      "name": "Virginia",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-wesleyan": {
+      "name": "Wesleyan",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-west-florida": {
+      "name": "West Florida",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-west-georgia": {
+      "name": "West Georgia",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-yale": {
+      "name": "Yale",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-amsterdam": {
+      "name": "Amsterdam",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-andhra": {
+      "name": "Andhra",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-argentina": {
+      "name": "Argentina",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-benares": {
+      "name": "Benares",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-bonn": {
+      "name": "Bonn",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-chile": {
+      "name": "Chile",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-edinburgh": {
+      "name": "Edinburgh",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ghana": {
+      "name": "Ghana",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-halifax": {
+      "name": "Halifax",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jung-inst": {
+      "name": "Jung Inst.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-leningrad": {
+      "name": "Leningrad",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-leyden": {
+      "name": "Leyden",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-loyola": {
+      "name": "Loyola",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lund": {
+      "name": "Lund",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mcgill": {
+      "name": "McGill",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-munich": {
+      "name": "Munich",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-new-south-wales": {
+      "name": "New South Wales",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-oxford": {
+      "name": "Oxford",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-peking": {
+      "name": "Peking",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rhodes": {
+      "name": "Rhodes",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-south-africa": {
+      "name": "South Africa",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-tasmania": {
+      "name": "Tasmania",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-tel-aviv": {
+      "name": "Tel Aviv",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-utkal": {
+      "name": "Utkal",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-utrecht": {
+      "name": "Utrecht",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-warsaw": {
+      "name": "Warsaw",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-zurich": {
+      "name": "Zurich",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ballistic-research-labs": {
+      "name": "Ballistic Research Labs",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-aberdeen": {
+      "name": "Aberdeen",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-foundation-for-research": {
+      "name": "Foundation for Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-noetic-sciences": {
+      "name": "Noetic Sciences",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-menninger-foundation": {
+      "name": "Menninger Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-topeka": {
+      "name": "Topeka",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-midwest-psi-research-inst": {
+      "name": "Midwest Psi Research Inst",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mind-science-foundation": {
+      "name": "Mind Science Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-parapsychology-foundation": {
+      "name": "Parapsychology Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-psychical-research-foundation": {
+      "name": "Psychical Research Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-science-unlimited-research-foundation": {
+      "name": "Science Unlimited Research Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-menlo-park": {
+      "name": "Menlo Park",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-west-berlin": {
+      "name": "West Berlin",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-matsui-hospital": {
+      "name": "Matsui Hospital",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-kasahara": {
+      "name": "Kasahara",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-pharmacology": {
+      "name": "Pharmacology",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-polish-academy-of-sciences": {
+      "name": "Polish Academy of Sciences",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-krakow": {
+      "name": "Krakow",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-shanghai-municipal-human-exception-functions-research-society": {
+      "name": "Shanghai Municipal Human Exception Functions Research Society",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-reinhold": {
+      "name": "Reinhold",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-k-naumov": {
+      "name": "E. K. Naumov",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-v-vilenskaya": {
+      "name": "L. V. Vilenskaya",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-related-subjects": {
+      "name": "Related Subjects",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-arlington": {
+      "name": "Arlington",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-joint-publications-research-service": {
+      "name": "Joint Publications Research Service",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bibliography-of-parapsychology-psychotronics-psychoenergetics-psychobiophysics": {
+      "name": "Bibliography of Parapsychology (Psychotronics, Psychoenergetics, Psychobiophysics",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-related-problems": {
+      "name": "Related Problems",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ussr": {
+      "name": "USSR",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-c-wortz": {
+      "name": "E. C. Wortz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-j-bauer": {
+      "name": "A. J. Bauer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-f-blackwelder": {
+      "name": "R. F. Blackwelder",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-w-eerkins": {
+      "name": "J. W. Eerkins",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-j-sour": {
+      "name": "A. J. Sour",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-state-of-the-art-in-psychic-research": {
+      "name": "The State of the Art in Psychic Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-electro-77-professional-program": {
+      "name": "Electro 77 Professional Program",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-apr-19-21-1977": {
+      "name": "Apr. 19-21, 1977",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-j-lewis": {
+      "name": "A. J. Lewis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-document-ew-76-011": {
+      "name": "Document EW-76-011",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-airesearch-manufacturing-co": {
+      "name": "Airesearch Manufacturing Co.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-january-1976": {
+      "name": "January 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wortz": {
+      "name": "Wortz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-symposium-current": {
+      "name": "Symposium: Current",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-parapsychology-1978": {
+      "name": "Parapsychology 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-ostrander": {
+      "name": "S. Ostrander",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-schroeder": {
+      "name": "L. Schroeder",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-englewood-cliffs": {
+      "name": "Englewood Cliffs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-prentice-hall": {
+      "name": "Prentice-Hall",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-l-vasiliev": {
+      "name": "L. L. Vasiliev",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-gregory": {
+      "name": "A. Gregory",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-t-moss": {
+      "name": "T. Moss",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-soviet-union": {
+      "name": "the Soviet Union",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-a-mcconnell": {
+      "name": "R. A. McConnell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-v-p-zinchenko": {
+      "name": "V. P. Zinchenko",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-n-leont-yev": {
+      "name": "A. N. Leont'yev",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-f-lomov": {
+      "name": "B. F. Lomov",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-r-luria": {
+      "name": "A. R. Luria",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-voprosy-filosofii-questions-of-philosophy": {
+      "name": "Voprosy Filosofii (Questions of Philosophy",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-zhang-feng": {
+      "name": "Zhang Feng",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-shanghai-ziran-zazki": {
+      "name": "Shanghai Ziran Zazki",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-aug-1980": {
+      "name": "Aug. 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-krippner": {
+      "name": "S. Krippner",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-plenum-press": {
+      "name": "Plenum Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-springfield": {
+      "name": "Springfield",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles-c-thomas": {
+      "name": "Charles C. Thomas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-schmeidler": {
+      "name": "G. Schmeidler",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-mitchell": {
+      "name": "C. Mitchell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-j-soc": {
+      "name": "J. Soc",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-55-71-1967": {
+      "name": "55-71, 1967",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-r-schmeidler": {
+      "name": "G. R. Schmeidler",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-personality-patterns": {
+      "name": "Personality Patterns",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-greenwood-press": {
+      "name": "Greenwood Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-parker": {
+      "name": "Parker",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-altered-states": {
+      "name": "Altered States",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-l-van-de-castle": {
+      "name": "R. L. Van de Castle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-vaughan": {
+      "name": "A. Vaughan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dream-telepathy": {
+      "name": "Dream Telepathy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-i-strauch": {
+      "name": "I. Strauch",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-psi-favorable-states-of-consciousness": {
+      "name": "Psi Favorable States of Consciousness",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-cavanna": {
+      "name": "R. Cavanna",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-honorton": {
+      "name": "C. Honorton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-psi": {
+      "name": "Psi",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-conf": {
+      "name": "Conf",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-aug-24-26-1977": {
+      "name": "Aug. 24-26, 1977",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-shapin": {
+      "name": "B. Shapin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-coly": {
+      "name": "L. Coly",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-abnormal-hypnotic-phenomena": {
+      "name": "Abnormal Hypnotic Phenomena",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-surveys-in-parapsychology": {
+      "name": "Surveys in Parapsychology",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-white": {
+      "name": "R. White",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-eccles": {
+      "name": "J. Eccles",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-state-university-of-utrecht": {
+      "name": "State University of Utrecht",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-netherlands": {
+      "name": "The Netherlands",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-aug-20-1976": {
+      "name": "Aug. 20, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-47-sept-1974": {
+      "name": "47, Sept. 1974",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-dean": {
+      "name": "D. Dean",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-c-carpenter": {
+      "name": "J. C. Carpenter",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-a-white": {
+      "name": "R. A. White",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-ramsey": {
+      "name": "M. Ramsey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-cabibbo": {
+      "name": "C. Cabibbo",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-maher": {
+      "name": "M. Maher",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-spirit-world": {
+      "name": "the Spirit World",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-g-medhurst": {
+      "name": "R. G. Medhurst",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-taplinger": {
+      "name": "Taplinger",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-foundations-of-newton-s": {
+      "name": "The Foundations of Newton's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-alchemy": {
+      "name": "Alchemy",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ma-cambridge-university-press": {
+      "name": "MA: Cambridge University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-musicante": {
+      "name": "B. Musicante",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-department-of-psychology": {
+      "name": "the Department of\n- Psychology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-1979": {
+      "name": "May 1979",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-jungerman": {
+      "name": "J. Jungerman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-research-in-parapsychology": {
+      "name": "Research in Parapsychology",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-h-schmidt": {
+      "name": "H. Schmidt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-pantas": {
+      "name": "L. Pantas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-s-humphrey": {
+      "name": "B. S. Humphrey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-s-hubbard": {
+      "name": "G. S. Hubbard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-sept-30": {
+      "name": "Sept. 30",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-parapsychological-research": {
+      "name": "Parapsychological Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-research-in-parapsychology-1981": {
+      "name": "Research in Parapsychology 1981",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-scarecrow-press": {
+      "name": "Scarecrow Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-quantum-physics-and-parapsychology": {
+      "name": "Quantum Physics and Parapsychology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-w-eidson": {
+      "name": "W. W. Eidson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-l-faust": {
+      "name": "D. L. Faust",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-k-getsla": {
+      "name": "K. Getsla",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-mcclay": {
+      "name": "J. McClay",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-conoway": {
+      "name": "B. Conoway",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-sept-1977": {
+      "name": "June-Sept. 1977",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-drexel-university": {
+      "name": "Drexel University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-physics-dep": {
+      "name": "Physics Dep",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-b-hasted": {
+      "name": "J. B. Hasted",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-metal-benders": {
+      "name": "The Metal-Benders",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-18-31-1966": {
+      "name": "18-31, 1966",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-e-wolstenholme": {
+      "name": "G. E. Wolstenholme",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-e-c-p-millar": {
+      "name": "E.C.P. Millar",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-feinberg": {
+      "name": "G. Feinberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1089-1967": {
+      "name": "1089, 1967",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-a-tiller": {
+      "name": "W. A. Tiller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-phoenix": {
+      "name": "Phoenix",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-jan-1977": {
+      "name": "Jan. 1977",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-whiteman": {
+      "name": "Whiteman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-h-walker": {
+      "name": "E. H. Walker",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-science-et-conscience": {
+      "name": "Science et Conscience",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-cordoba": {
+      "name": "Cordoba",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-spain": {
+      "name": "Spain",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-oct-1-5-1979": {
+      "name": "Oct. 1-5, 1979",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-foreword": {
+      "name": "Foreword",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-d-josephson": {
+      "name": "B. D. Josephson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-h-klopf": {
+      "name": "A. H. Klopf",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-1977": {
+      "name": "July 1977",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-electrical-engineering": {
+      "name": "Electrical Engineering",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-syracuse-university": {
+      "name": "Syracuse University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-school-of-computer-and-information-science": {
+      "name": "School of Computer and Information Science",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-h-c-l-r-lieber": {
+      "name": "H.C.L.R. Lieber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-samuel-s-wilks": {
+      "name": "Samuel S. Wilks",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-galois-institute-of-mathematics-long-island-university": {
+      "name": "the Galois Institute of Mathematics, Long Island University",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mimeographed": {
+      "name": "Mimeographed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-p-diaconis": {
+      "name": "P. Diaconis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-july-14-1978": {
+      "name": "July 14, 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-s-burdick": {
+      "name": "D. S. Burdick",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-f-kelly": {
+      "name": "E. F. Kelly",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-statistical-methods-in-parapsychological-research": {
+      "name": "Statistical Methods in Parapsychological Research",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-a-greenwood": {
+      "name": "J. A. Greenwood",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-w-carington": {
+      "name": "W. W. Carington",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-l-gatlin": {
+      "name": "L. L. Gatlin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-29-43-1979": {
+      "name": "29-43, 1979",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gatlin": {
+      "name": "Gatlin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mind-energy": {
+      "name": "Mind Energy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-henry-holt": {
+      "name": "Henry Holt",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-ludwig": {
+      "name": "J. Ludwig",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-relation-to-physics-biology-psychology": {
+      "name": "Relation to Physics, Biology, Psychology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-h-clark": {
+      "name": "W. H. Clark",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-m-backus": {
+      "name": "J. M. Backus",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-parapsychology-and-literature": {
+      "name": "Parapsychology and Literature",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-handbook": {
+      "name": "Handbook",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-crussard": {
+      "name": "C. Crussard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-bouvaist": {
+      "name": "J. Bouvaist",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-feb-1978": {
+      "name": "Feb. 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-h-p-de-maigret": {
+      "name": "H & P de Maigret",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-nov-1978": {
+      "name": "Nov. 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-pearisburg": {
+      "name": "Pearisburg",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-dal-corso": {
+      "name": "D. Dal Corso",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-solfvin": {
+      "name": "G. Solfvin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-research-in-parapsychology-1978": {
+      "name": "Research in Parapsychology 1978",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-garrett-helix": {
+      "name": "Garrett Helix",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-tiller": {
+      "name": "W. Tiller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-81-1972": {
+      "name": "81, 1972",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-g-stanford": {
+      "name": "R. G. Stanford",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-cox": {
+      "name": "W. Cox",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-henley": {
+      "name": "Henley",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-g-shafer": {
+      "name": "M. G. Shafer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-tremmel": {
+      "name": "L. Tremmel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-psitrek": {
+      "name": "Psitrek",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-research-in-parapsychology-1979": {
+      "name": "Research in Parapsychology 1979",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-mcdougall": {
+      "name": "W. McDougall",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-f-prince": {
+      "name": "W. F. Prince",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-329-354-1976": {
+      "name": "329\u2013354, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-role-of-consciousness": {
+      "name": "The Role of Consciousness",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-westview-press": {
+      "name": "Westview Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-princeton-alumni-weekly": {
+      "name": "Princeton Alumni Weekly",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-dec-4-1978": {
+      "name": "Dec. 4, 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-weissmann": {
+      "name": "G. Weissmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-sarfatti": {
+      "name": "J. Sarfatti",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sirag": {
+      "name": "Sirag",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-41-45-1976": {
+      "name": "41-45, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-allen": {
+      "name": "S. Allen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-p-green": {
+      "name": "P. Green",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-cohen": {
+      "name": "R. Cohen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-goolsby": {
+      "name": "C. Goolsby",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-c-hastings": {
+      "name": "A. C. Hastings",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-b-hurt": {
+      "name": "D. B. Hurt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1544-1545": {
+      "name": "1544-\n\n1545,",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-askevold": {
+      "name": "G. Askevold",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1551-1976": {
+      "name": "1551, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-t-w-whitson": {
+      "name": "T. W. Whitson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-n-bogart": {
+      "name": "D. N. Bogart",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-palmer": {
+      "name": "J. Palmer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1550-1976": {
+      "name": "1550, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-deacon": {
+      "name": "S. Deacon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-psycholog": {
+      "name": "Psycholog",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-ballou": {
+      "name": "J. Ballou",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-sussman": {
+      "name": "E. Sussman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-f-swaroff": {
+      "name": "F. Swaroff",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-w-karnes": {
+      "name": "E. W. Karnes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-p-sussman": {
+      "name": "E. P. Sussman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-turcotte": {
+      "name": "L. Turcotte",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-zetetic-scholar": {
+      "name": "Zetetic Scholar",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-66-76-1980": {
+      "name": "66-76, 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-gruber": {
+      "name": "E. Gruber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pratt": {
+      "name": "Pratt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-kelly": {
+      "name": "E. Kelly",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-burdick": {
+      "name": "D. Burdick",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-93-1978": {
+      "name": "93, 1978",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-kammann": {
+      "name": "R. Kammann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-i-extrasensory": {
+      "name": "I. Extrasensory",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-delacorte-press-seymour-lawrence": {
+      "name": "Delacorte Press/Seymour Lawrence",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-concepts-and-theories-of-parapsychology-proceedings": {
+      "name": "Concepts and Theories of Parapsychology: Proceedings",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-dec-6-1980": {
+      "name": "Dec. 6, 1980",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-i-m-kogan": {
+      "name": "I. M. Kogan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-radio-eng": {
+      "name": "Radio Eng.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-75-1966": {
+      "name": "75, 1966",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-telepathy": {
+      "name": "Telepathy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-radio-eng": {
+      "name": "Radio Eng.",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-information-theory": {
+      "name": "Information Theory",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-living-system": {
+      "name": "the Living System",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-columbia-university-press": {
+      "name": "Columbia University Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-k-kornwachs": {
+      "name": "K. Kornwachs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-parascience-conf": {
+      "name": "the Parascience Conf",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-k-kornwachs": {
+      "name": "K. Kornwachs",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-von-lucadou": {
+      "name": "W. von Lucadou",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-precognition-a": {
+      "name": "Precognition-A",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-a-rauscher": {
+      "name": "E. A. Rauscher",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-iceland-papers": {
+      "name": "The Iceland Papers",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-puharich": {
+      "name": "A. Puharich",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-s-eddington": {
+      "name": "A. S. Eddington",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-brain": {
+      "name": "Brain",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-s-ertel": {
+      "name": "S. Ertel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-darmstadt": {
+      "name": "Darmstadt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-steinkopff": {
+      "name": "Steinkopff",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-globus": {
+      "name": "G. Globus",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-relativity-theory-of-protons": {
+      "name": "Relativity Theory of Protons",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-s-bell": {
+      "name": "J. S. Bell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-modern-phys": {
+      "name": "Modern Phys",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-447-1966": {
+      "name": "447, 1966",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-bub": {
+      "name": "J. Bub",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-453-1966": {
+      "name": "453, 1966",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-mehra": {
+      "name": "J. Mehra",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-concepts-and-theories-of-parapsychology": {
+      "name": "Concepts and Theories of Parapsychology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-creative-imagination": {
+      "name": "The Creative Imagination",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-h-m-ruitenbeek": {
+      "name": "H. M. Ruitenbeek",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-quadrangle-books": {
+      "name": "Quadrangle Books",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-f-barron": {
+      "name": "F. Barron",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-of-utah": {
+      "name": "University of Utah",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-w-taylor": {
+      "name": "C. W. Taylor",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-salt-lake-city": {
+      "name": "Salt Lake City",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-of-utah-press": {
+      "name": "University of Utah Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-scientific-creativity": {
+      "name": "Scientific Creativity",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-recognition-and-development": {
+      "name": "Recognition and Development",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-f-capra": {
+      "name": "F. Capra",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-paper-lbl-796": {
+      "name": "Paper LBL-796",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lawrence-berkeley-laboratories": {
+      "name": "Lawrence Berkeley Laboratories",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-university-of-california": {
+      "name": "University of California,",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-w-harman": {
+      "name": "W. W. Harman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-angoff": {
+      "name": "A. Angoff",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-continuing-doubts-and-affirmations": {
+      "name": "The Continuing Doubts and Affirmations",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-a-murchison": {
+      "name": "C. A. Murchison",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-case-for-and-against-psychical-bellef": {
+      "name": "The Case For and Against Psychical Bellef",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-arno-press": {
+      "name": "Arno Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-enchanted-boundary": {
+      "name": "The Enchanted Boundary",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-s-g-soal": {
+      "name": "S. G. Soal",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-eileen-garrett": {
+      "name": "Eileen Garrett",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-43-87-1938": {
+      "name": "43-87, 1938",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-beloff": {
+      "name": "J. Beloff",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-peratsakis": {
+      "name": "D. Peratsakis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-j-amer-soc": {
+      "name": "J Amer, Soc.",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-eisenbud": {
+      "name": "J. Eisenbud",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-hassel": {
+      "name": "L. Hassel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-h-keely": {
+      "name": "H. Keely",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-sawrey": {
+      "name": "W. Sawrey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-fifth-and-sixth": {
+      "name": "the fifth and sixth",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-72-80-1960": {
+      "name": "72-80, 1960",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-foulkes": {
+      "name": "D. Foulkes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-bate": {
+      "name": "D. Bate",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-21-31-1971": {
+      "name": "21-31, 1971",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bradley-dowden-zetetic-scholar": {
+      "name": "Bradley Dowden, Zetetic Scholar",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-c-gillispie": {
+      "name": "C. C. Gillispie",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-dictionary-of-scientific-biography": {
+      "name": "Dictionary of Scientific Biography",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-scribner": {
+      "name": "Scribner",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-l-weber": {
+      "name": "R. L. Weber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-science": {
+      "name": "Science",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-mendoza": {
+      "name": "E. Mendoza",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-cooper": {
+      "name": "W. Cooper",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-russak": {
+      "name": "Russak",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-s-de-ropp": {
+      "name": "R. S. de Ropp",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-new-american-library": {
+      "name": "The New American Library",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-new-directions": {
+      "name": "New Directions",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-a-dale": {
+      "name": "L. A. Dale",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-n-bowles": {
+      "name": "N. Bowles",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-f-hynds": {
+      "name": "F. Hynds",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-maxwell": {
+      "name": "J. Maxwell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-psi-search": {
+      "name": "Psi Search",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-h-mertz": {
+      "name": "H. Mertz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-bronowski": {
+      "name": "J. Bronowski",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-harper-and-brothers": {
+      "name": "Harper and Brothers",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-il-university-of-chicago-press": {
+      "name": "IL: University of Chicago Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-korzybski": {
+      "name": "A. Korzybski",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-science-and-sanity-an-introduction-to-non-aristotelian-systems": {
+      "name": "Science and Sanity: An Introduction to Non-Aristotelian Systems",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-general-semantics": {
+      "name": "General Semantics",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-colonial-press": {
+      "name": "The Colonial Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-penfield": {
+      "name": "W. Penfield",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-mystery-of-the-mind": {
+      "name": "The Mystery of the Mind",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-the-aquarian-conspiracy": {
+      "name": "The Aquarian Conspiracy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-self-organizing-universe-scientific-and-human-implications": {
+      "name": "The Self-Organizing Universe: Scientific and Human Implications",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-elmsford": {
+      "name": "Elmsford",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-p-t-de-chardin": {
+      "name": "P. T. de Chardin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-future-of-man": {
+      "name": "The Future of Man",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-harper": {
+      "name": "Harper",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-house-of-representatives-committee-on-science-and-technology": {
+      "name": "the House of Representatives, Committee on Science\n\nand Technology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-1981": {
+      "name": "June 1981",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-applied-science-po-box-cn5263-princeton": {
+      "name": "Applied Science PO Box CN5263 Princeton",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brendg-j-dunne": {
+      "name": "Brendg J. Dunne",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-post-facto": {
+      "name": "Post Facto",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-subset": {
+      "name": "Subset",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cc-ab-initio": {
+      "name": "||Cc.|Ab Initio",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ex-post": {
+      "name": "Ex Post",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-temporal": {
+      "name": "Temporal",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ii-individual-trial": {
+      "name": "||II.|Individual Trial",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-subset-mismatch-distributions-22": {
+      "name": "Subset Mismatch Distributions|22||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-initio": {
+      "name": "Initio",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-29": {
+      "name": "|||29",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-individual-effect": {
+      "name": "Individual Effect",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cumulative-deviation-br-38-percipients": {
+      "name": "Cumulative Deviation,<br>38 Percipients,|||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-initio-data": {
+      "name": "Initio Data",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-d-z-scores": {
+      "name": "D.|z-Scores",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-contributions-in": {
+      "name": "Contributions in||||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-series40": {
+      "name": "||(Series40",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-prp-report-7": {
+      "name": "PRP report(7",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nesseete": {
+      "name": "NESSEETE",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ewe": {
+      "name": "ewe",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pann-da": {
+      "name": "Pann Da",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cena-sesee": {
+      "name": "cena sesee",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-se-re": {
+      "name": "Se Re",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-se-deen": {
+      "name": "Se Deen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eerserer": {
+      "name": "eerSerer",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-be-s": {
+      "name": "BE S",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-1l": {
+      "name": "A/1l",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-a-1l": {
+      "name": "A/1l",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-table-a-mismatch-distribution": {
+      "name": "the \n\nTable A \n\nMismatch Distribution",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-initio": {
+      "name": "Initio",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-kthe": {
+      "name": "kThe",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-exe-post-facto-e-eneune": {
+      "name": "|ExE|Post|Facto|;:|e|eneune",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-prp-s": {
+      "name": "PRP S",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mimismatch-distributionsistri": {
+      "name": "MiMismatch Distributionsistri",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-s-ss-ss-ss-s": {
+      "name": ">S Ss Ss Ss S",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jo-jequinn": {
+      "name": "Jo JEquINN",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-adiwdaddadad": {
+      "name": "AdiWdaddadad",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pe": {
+      "name": "|.|Pe",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gq-ww": {
+      "name": "Gq Ww",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-oday": {
+      "name": "Oday",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nomonkeoamomunn": {
+      "name": "NOMONKEOAMOMUNN",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bma-ce": {
+      "name": "BMA Ce",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-064": {
+      "name": "~.064",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-u-a-wn": {
+      "name": "u a. wn",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-a-x": {
+      "name": "a. x& .",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nee": {
+      "name": "Nee",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mo-kk": {
+      "name": "MO KK",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-br-1-i1-1-1-1-mmoaaan": {
+      "name": "br>+1 +i1+1+1+1|mMoaAan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-nama": {
+      "name": "NAMA",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-aawo": {
+      "name": "aAwo",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-br-br-re": {
+      "name": "br>;<br>\u2014\u2014re",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-roar": {
+      "name": "RoaR",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-aranaa-ea-ncaena-br": {
+      "name": "ARANaa ea ncaena<br>",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-peucnmanenenier-s": {
+      "name": "Peucnmanenenier s",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-meosees": {
+      "name": "Meosees",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-simaeaata": {
+      "name": "Simaeaata",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-23-5-611-1-366-0-645": {
+      "name": "|23|5|-611|1.366||0.645|",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-br-5-2": {
+      "name": "br>+5 2",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-local-a-universal-chance-calculations": {
+      "name": "Local a;/Universal Chance Calculations",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-oc-qo": {
+      "name": "a. oc Qo",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-oo": {
+      "name": "Oo\u00ae",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-90": {
+      "name": "@,90",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-5": {
+      "name": "\u00a9 5",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-br": {
+      "name": "[+b]<br>|",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-i-individual-trial-scores": {
+      "name": "I. Individual Trial Scores",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-13-4-0-735-1-909-0-730-1-868": {
+      "name": "|13||4|0.735|1.909||0.730|1.868||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-15-5-0-725-1-827-0-717-1-760": {
+      "name": "|15||5|0.725|1.827||0.717|1.760||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-15-7-0-564-0-505-0-554-0-410": {
+      "name": "|15||7|0.564|0.505||0.554|0.410||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-16-1-0-520-0-143-0-532-0-230": {
+      "name": "|16||1|0.520|0.143||0.532|0.230||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-16-5-0-648-1-193-0-650-1-210": {
+      "name": "|16||5|0.648|1.193||0.650|1.210||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-30-1-0-627-1-021-0-614-0-906": {
+      "name": "|30|1|0.627|1.021||0.614|0.906||",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-31-4-0-633-1-076-0-635-1-080": {
+      "name": "|31|4|0.633|1.076||0.635||1.080||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-39-2-0-777-2-260-0-722-2-221-39-3-0-500-0-024-0-506-0-016-40-1-0-461-0-340-0-461-0-360-40-3-0-502-0-001-0-473-0-260-40-4-0-293-1-725-0-279-1-864-40-5-0-365-1-134-0-343-1-339-40-6-0-572-0-570-0-568-0-527-40-7-0-630-1-047-0-613-0-901-40-8-0-365-1-127-0-373-1-085-41-1-0-554-0-420-0-547-0-356-41-2-0-581-0-647-0-613-0-905-41-3-0-327-1-442-0-325-1-482-41-4-0-386-0-961-0-408-0-802-41-5-0-512-0-077-0-518-0-112-41-6-0-390-0-927-0-385-0-990-41-7-0-538-0-295-0-571-0-555-41-8-0-515-0-101-0-519-0-120": {
+      "name": "|39|2|0.777|2.260||0.722||2.221||\n|39|3|0.500|-0.024||0.506||0.016||\n|40|1|0.461|-0.340||0.461||-0.360||\n|40|3|0.502|-0.001||0.473||-0.260||\n|40|4|0.293|-1.725()||0.279||-1.864()||\n|40|5|0.365|-1.134||0.343||-1.339||\n|40|6|0.572|0.570||0.568||0.527||\n|40|7|0.630|1.047||0.613||0.901||\n|40|8|0.365|~1.127||0.373||-~1.085||\n|41|1|0.554|0.420||0.547||0.356||\n|41|2|0.581|0.647||0.613||0.905||\n|41|3|0.327|-1.442||0.325||-1.482||\n|41|4|0.386|-0.961||0.408||-0.802||\n|41|5|0.512|0.077||0.518||0.112||\n|41|6|0.390|-0.927||0.385||-0.990||\n|41|7|0.538|0.295||0.571||0.555||\n|41|8|\u00b00.515|0.101||0.519||0.120||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-99-5-0-492-0-085-0-498-0-050": {
+      "name": "|99|5|0.492|-0.085||0.498|-0.050||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-score": {
+      "name": "Score||",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-1-5-0-460-0-352-0-458-0-381": {
+      "name": "|1|5|0.460|-0.352|||0.458|-0.381||",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-3-23-0-530-0-224-0-540-0-296": {
+      "name": "|3|23|0.530|0.224||0.540|0.296||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-11-2-0-646-1-177-0-661-1-298": {
+      "name": "|11|2|0.646|1.177|0.661|1.298||",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-12-9-0-396-0-876-0-440-0-540": {
+      "name": "|12|9|0.396|-0.876|0.440|-0.540||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-20-3-0-638-1-117-0-646-1-177": {
+      "name": "|20|3|0.638|1.117|0.646|1.177||",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-25-4-0-428-0-612-0-428-0-631-25-5-0-560-0-472-0-572-0-557": {
+      "name": "|25||4|0.428|-0.612||0.428|-0.631||\n|25||5|0.560|0.472||0.572|0.557||",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-questionable-data": {
+      "name": "Questionable Data",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-14-1-0-459-0-359-0-467-0-310": {
+      "name": "|14|1|0.459|-0.359||0.467|-0.310||",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cossecgags": {
+      "name": "CosSecgags",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-al-cc-ao-sf-ag": {
+      "name": "al Cc Ao SF AG",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-br-sa": {
+      "name": "br>[sa",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ed-va": {
+      "name": "ed va",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-vpuuudmda-1": {
+      "name": "VPUUUDMdA 1",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ghewo-ghey-veac-vs-scuuues": {
+      "name": "GHEWO GHEY Veac vs Scuuues",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bescmbcud": {
+      "name": "BeSCMBCUD",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-vyvuaonhayaamaonadaavynnypnp-uduuduvpnpdyuyuvpnvpypyvunnan-pahoa-nvdnothadpdaomnnmbaa-pa-hha-a-phagt": {
+      "name": "VYVUAONHAYAAMAONADAAVYNNYPNP UDUUDUVPNPDYUYUVPNVPYPYVUNNAN PAHOA NVDNOTHADPDAOMNNMBAA PA HHA A PHAGT",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-vdhnbontmoch-hbhdcoohpyvyl": {
+      "name": "VDHNBONTMOCH HBHDCOOHPYVYL",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ananamnannmain": {
+      "name": "ANANAMNANNMAIN",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-htimamty-ie": {
+      "name": "HTIMAMTY IE",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-azzzz-n-nwm": {
+      "name": "AZZZz\u201cn!|Nwm",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sse": {
+      "name": "Sse",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mm-ceegoeeegeganna-s-s-sa": {
+      "name": "MM ~-CeEgoeeegeganna & s&s sa",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-minipd": {
+      "name": "miniPD",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-vcuyoouo000a-pe": {
+      "name": "VCuyOOUO000a Pe",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-crt-ord": {
+      "name": "crt ord",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ed-ed-ed": {
+      "name": "ed ed ed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gseegecgcaegsged-ed-ed": {
+      "name": "GSeegecgcaegsged ed ed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dt-dd-dtd-dd-dd-dtd-ce": {
+      "name": "dt dd dtd dd dd dtd ce",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ocoocomcocooaomcaoccco": {
+      "name": "OCOOCOMCOCOOAOMCAOCCCO",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ma-nnmnnnmnorwdv93se-de-wwhi": {
+      "name": "ma~nnmnnnmnorWdv93se de WwHI",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pp-epp-ppp-ppp-ppp-ppp-ppp-ppp-ppp-ppp": {
+      "name": "PP EPP PPP PPP PPP PPP PPP PPP PPP PPP",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-te-rae": {
+      "name": "TE Rae",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fes-0": {
+      "name": "FES +0",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pod-ehhbhpyvyvvorbhhpvvokrhhh-er": {
+      "name": "POD EHHBHPYVYVVORBHHPVVOKRHHH ER",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-dyannmomoaodamnndiaoamnemnfefmmommnioocomiomnanmnany-ge-hwa": {
+      "name": "DYANNMOMOAODAMNNDIAOAMNEMNFEFMMOMMNIOOCOMIOMNANMNANY GE HWa",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-7-rid": {
+      "name": "7 rid",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-aytaythwondoonwuwy-pe-ottrsdronwveggnradngqdnddanweggg-nenrnroooodnnrnrnernrhehe": {
+      "name": "AYTAYTHWONDOONWUWY Pe OttrsdronwveggnradngqdnddanweggG@nenrnroooodnnrnrnernrhehe&-&",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-hii": {
+      "name": "HiI",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-j": {
+      "name": "& & & & & & & &\u00ae &\u00ae& & j&\u00ae &",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-hoo-as-sse-rr-kee": {
+      "name": "HOO As\u201cSSe& RR kee",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gbvyoundly-sgypyeeererkerelkkkrekels-ce": {
+      "name": "GBVYOUNDLY SGYPYEEERERKERELKKKREKELS Ce",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sbs-bee-oddie-om-sede-dd-momnmhnh-hh-mn-dodiadanhhhododoohhnhydyaohhh-qomamaamaaaaaaaaaaazaswssysaaaaveviamaggnadaa": {
+      "name": "SBS Bee Oddie OM Sede dd MOMNMHNH HH MN DODIADANHHHODODOOHHNHYDYAOHHH QOMAMAAMAAAAAAAAAAAZASwsSySaAaavevIamaggnadaA",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nraeg-ee": {
+      "name": "nraeg\u00a2\u00a2ee",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-trmovmoodythtotm-aaardawmo": {
+      "name": "TrMOVMOOdYTHTOTM AAARDAWMO",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bobssekasonne-zee": {
+      "name": "BOBSSekaSONNE Zee",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ge-c-c": {
+      "name": "Ge & c c",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-yn-de-spssgc-va-ag": {
+      "name": "YN De SPSSGC vA AG",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ksahaa": {
+      "name": "KSAHAA",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nofa": {
+      "name": "NOFA",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lao-roromoreoro-ror": {
+      "name": "lao RoRoMoReoRo RoR",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ro-ronhorone-roo": {
+      "name": "Ro RonhoRone Roo",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ro-lolononhe-nono": {
+      "name": "Ro lolononhe nono",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-odouoapfuonmnanmnanantantakdytyfdyinmanancatyeadannaansrr-andodondonhdodddddornnnnawo": {
+      "name": "ODOUOAPFUONMNANMNANANTANTAKDYTYFDYINMANANCATYEADANNAANSRR ANDODONDONHDODDDDDORNNNNAWO",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-az-ed-ao": {
+      "name": "az ed AO",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-fy-fy-ey-sess": {
+      "name": "Fy Fy ey Sess",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pvp-yppypyppypypypad": {
+      "name": "PVP YPPYPYPPYPYPYPAD",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-oveoqbrqbrwiadcadasorc": {
+      "name": "OVEOQBRQBRWIADCADASORC",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-500yp-v9ovaporbcdhuvuydvivyvadduyuiviaydicwododwvivwndiiaaady-dddvvoumamawvivovvvvvdvvovdovvoovubovpplypuovoooovyecac-ssr-rchkkgk": {
+      "name": "500YP V9OVAPORBCDHUVUYDVIVYVADDUYUIVIAYDICWODODWVIVWNDIIAAADY dddVVOUMAMAWVIVOVVVVVDVVOVDOVVOOVUBOVPPLYPUOVOOOOVYecac SSR RCHKKGK",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ed-ed-eed-ed": {
+      "name": "ed ed eed ed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ob-ord-ed-ed": {
+      "name": "OB Ord ed ed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-uo-oeded": {
+      "name": "UO Oeded",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-prp": {
+      "name": "PrP",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pu-pay-facy-fy-fey": {
+      "name": "Pu Pay Facy Fy Fey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mi-z": {
+      "name": "Mi Z",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-time-location": {
+      "name": "Time \n\nLocation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-motion-te": {
+      "name": "Motion TE",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sametee": {
+      "name": "SameTee",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-palin-bs": {
+      "name": "Palin Bs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-within-subset": {
+      "name": "|Within-Subset",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-allformal-randomsort-1-769-0-716": {
+      "name": "|Allformal,|randomsort|1.769||)|0.716|",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-l-a-ap": {
+      "name": "l/a)AP +",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-l-a-a": {
+      "name": "(l/a)A +",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mismatch-matched": {
+      "name": "Mismatch Matched",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mean-std": {
+      "name": "Mean Std",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-s-d-composite-group": {
+      "name": "S.D. Composite Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-0010-9975": {
+      "name": "-.0010 .9975",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-phantasms-of-the-living": {
+      "name": "Phantasms of the Living",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-trubner": {
+      "name": "Trubner",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-64-1976": {
+      "name": "64, 1976",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-ze-parapsych": {
+      "name": "Ze Parapsych",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-iowa-state": {
+      "name": "The Iowa State",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-16-august-1986": {
+      "name": "16, August 1986",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-16-1985": {
+      "name": "April 16, 1985",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-29-1985": {
+      "name": "October 29, 1985",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-centuries": {
+      "name": "Centuries",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-barely-a-decade": {
+      "name": "barely a decade",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-some-seven-years": {
+      "name": "some seven years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-over-many-months-or-years": {
+      "name": "over many months or years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-six-year": {
+      "name": "six-year",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-mid-1979": {
+      "name": "mid-1979",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-mid-1985": {
+      "name": "mid-1985",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-prp-score-distributions": {
+      "name": "PRP Score Distributions",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-arthur-schopenhauer": {
+      "name": "Arthur Schopenhauer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-wave-mechanics-of-consciousness": {
+      "name": "THE WAVE MECHANICS OF CONSCIOUSNESS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-gaskinetic": {
+      "name": "gaskinetic",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-schro-dinger": {
+      "name": "Schr\u00f6dinger",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-phia": {
+      "name": "\\phiA$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-theta-lm-theta": {
+      "name": "\\Theta{lm}(\\theta",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-laguerre": {
+      "name": "Laguerre",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-yin-yang": {
+      "name": "yin/yang",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-v-mathbf-r-a": {
+      "name": "V(\\mathbf{r}a)$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-heitler-london": {
+      "name": "the Heitler-London",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-iint": {
+      "name": "\\iint",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-mathbf-r-b": {
+      "name": "d\\mathbf{r}b$$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tag-11": {
+      "name": "\\tag{11}$$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-einstein-podolski-rosen": {
+      "name": "the Einstein-Podolski-Rosen",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pantanjali": {
+      "name": "Pantanjali",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-exclusion-principle-closely": {
+      "name": "The Exclusion Principle\n\nClosely",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bohr": {
+      "name": "Bohr",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-uncertainty-and-complementarity-principles-much": {
+      "name": "The Uncertainty and Complementarity Principles\n\nMuch",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bolzmann": {
+      "name": "Bolzmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fermi-dirac": {
+      "name": "Fermi-Dirac",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-consciousness-metric": {
+      "name": "THE CONSCIOUSNESS METRIC",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-many-years-ago": {
+      "name": "many years ago",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-oscillations-as-possible-basis-for-time-perception": {
+      "name": "Oscillations as Possible Basis for Time Perception",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-e-po-ppel": {
+      "name": "E. P\u00f6ppel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-derived-quantities": {
+      "name": "Derived Quantities",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-debye": {
+      "name": "Debye",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-saha": {
+      "name": "Saha",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-reference-2": {
+      "name": "reference.(2",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-phi": {
+      "name": "\\phi$",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-james-freud": {
+      "name": "James, Freud",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-interpretation-of-nature-and-the-psyche": {
+      "name": "The Interpretation of Nature and the Psyche",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-a-psychokinesis-experiment": {
+      "name": "A Psychokinesis Experiment",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-psychical-res": {
+      "name": "Psychical Res",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-variance-effects-in": {
+      "name": "Variance Effects in",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-august-1985": {
+      "name": "August 1985",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-j-thomson": {
+      "name": "M. J. Thomson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-psi-experiments-with-random-number-generators-meta-analysis-part": {
+      "name": "Psi Experiments with Random Number Generators: Meta-Analysis Part",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-p-hansen": {
+      "name": "G. P. Hansen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-summary-of-remote-viewing-experiments": {
+      "name": "Summary of Remote Viewing Experiments",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-analytical-judging-procedure-for-remote-perception-experiments": {
+      "name": "Analytical Judging Procedure for Remote Perception Experiments",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-van-nostrand-reinhold": {
+      "name": "Van Nostrand Reinhold",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-a-persinger": {
+      "name": "M. A. Persinger",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-parascience-conference": {
+      "name": "the Parascience Conference,",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-amherst": {
+      "name": "Amherst",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-bohm": {
+      "name": "D. Bohm",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-found": {
+      "name": "Found",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-b-levitas": {
+      "name": "G. B. Levitas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-world-of-psychology": {
+      "name": "The World of Psychology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-george-braziller": {
+      "name": "George Braziller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-jeans": {
+      "name": "J. Jeans",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-future-of-an-illusion-london": {
+      "name": "The Future of an Illusion (London",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-collier-books": {
+      "name": "Collier Books",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-schopenhauer": {
+      "name": "A. Schopenhauer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-world-as-will-and-representation": {
+      "name": "The World as Will and Representation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-f-j-payne": {
+      "name": "E. F. J. Payne",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-jones": {
+      "name": "R. Jones",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-h-williams": {
+      "name": "D. H. Williams",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-evanston": {
+      "name": "Evanston",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-schro-dinger": {
+      "name": "E. Schr\u00f6dinger",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-norton": {
+      "name": "Norton",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jovanovich": {
+      "name": "Jovanovich",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-h-maslow": {
+      "name": "A. H. Maslow",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-motivation": {
+      "name": "Motivation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-h-erikson": {
+      "name": "E. H. Erikson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-childhood-and": {
+      "name": "Childhood and",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-j-piaget": {
+      "name": "J. Piaget",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-kohlberg": {
+      "name": "L. Kohlberg",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-review-of-child-development-research": {
+      "name": "Review of Child Development Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-l-hoffman": {
+      "name": "M. L. Hoffman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-l-w-hoffman": {
+      "name": "L. W. Hoffman",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-russell-sage-foundation": {
+      "name": "Russell Sage Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-h-woods": {
+      "name": "J. H. Woods",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-yoga-system-of": {
+      "name": "The Yoga System of",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-harvard-oriental-series": {
+      "name": "Harvard Oriental Series",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-heitler": {
+      "name": "W. Heitler",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elementary-wave-mechanics": {
+      "name": "Elementary Wave Mechanics",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-library-of-living-philosophers-inc": {
+      "name": "The Library of Living Philosophers, Inc.",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-evanston-iii": {
+      "name": "Evanston III.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-scharfstein-mystical-experience": {
+      "name": "Scharfstein, Mystical Experience",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-tao-of-physics": {
+      "name": "The Tao of Physics",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-shambala": {
+      "name": "Shambala",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-boulder": {
+      "name": "Boulder",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-zukav": {
+      "name": "G. Zukav",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-dancing-wu-li-masters-an-overview-of-the-new-physics": {
+      "name": "The Dancing Wu Li Masters: An Overview of the New Physics",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-william-morrow": {
+      "name": "William Morrow",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-r-jones": {
+      "name": "R. Jones,",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-new-american-library": {
+      "name": "New American Library",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-scarborough": {
+      "name": "Scarborough",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-eye-of-shiva": {
+      "name": "The Eye of Shiva",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-principles-of-statistical-mechanics": {
+      "name": "The Principles of Statistical Mechanics",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-c-e-shannon": {
+      "name": "C. E. Shannon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-weaver": {
+      "name": "W. Weaver",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-mathematical-theory-of-communication-university-of-illinois-press": {
+      "name": "The Mathematical Theory of Communication (University of Illinois Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-f-skinner-contingencies-of-reinforcement": {
+      "name": "B. F. Skinner, Contingencies of Reinforcement",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-appleton-century-crofts": {
+      "name": "Appleton-Century-Crofts",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-p-edwards": {
+      "name": "P. Edwards",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-encyclopedia-of-philosophy-macmillan-co": {
+      "name": "The Encyclopedia of Philosophy (Macmillan Co.",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-h-l-bergson": {
+      "name": "H. L. Bergson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-immediate-data-of-consciousness": {
+      "name": "the Immediate Data of Consciousness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-allen": {
+      "name": "G. Allen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-unwin": {
+      "name": "Unwin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-husserl": {
+      "name": "E. Husserl",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-phenomenology-of-internal-time-consciousness": {
+      "name": "The Phenomenology of Internal Time Consciousness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-bloomington": {
+      "name": "Bloomington",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-j-whitrow": {
+      "name": "G. J. Whitrow",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-natural-philosophy-of-time": {
+      "name": "The Natural Philosophy of Time",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-physics-of-time-asymmetry-university-of-california-press": {
+      "name": "The Physics of Time Asymmetry (University of California Press",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-study-of-time": {
+      "name": "The Study of Time",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-j-t-fraser": {
+      "name": "J. T. Fraser",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-f-c-haber": {
+      "name": "F. C. Haber",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-g-h-mu-ller": {
+      "name": "G. H. M\u00fcller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-n-cousins": {
+      "name": "N. Cousins",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-neuro-psychoses-of-defense": {
+      "name": "The Neuro-Psychoses of Defense",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1-1894": {
+      "name": "1, 1894",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-interpretation-of-dreams": {
+      "name": "The Interpretation of Dreams",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-eddington": {
+      "name": "A. Eddington",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-explorer-newsletter-of-the-society-for-scientific-exploration": {
+      "name": "The Explorer (Newsletter of the Society for Scientific Exploration",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-november-1983": {
+      "name": "November 1983",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-journeys-out": {
+      "name": "Journeys Out",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-garden-city": {
+      "name": "Garden City",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-a-moody": {
+      "name": "R. A. Moody",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-p-silz": {
+      "name": "P. Silz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-archetypes": {
+      "name": "Archetypes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-collective-unconscious-translated": {
+      "name": "the Collective Unconscious (Translated",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-beyond-harper-and-row-new-york": {
+      "name": "Beyond (Harper and Row, New York",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-subterranean-chamber-of-the-pyramid-of-khufu": {
+      "name": "The Subterranean Chamber of the Pyramid of Khufu:",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-98001-february-1997": {
+      "name": "98001 February, 1997",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-4500-years-ago": {
+      "name": "4500 years ago",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-subterranean-chamber": {
+      "name": "the subterranean chamber",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-20-years": {
+      "name": "20 years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-khufu-s": {
+      "name": "Khufu\u2019s",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-khafre": {
+      "name": "Khafre",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pit": {
+      "name": "Pit",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-khufu": {
+      "name": "Khufu",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-historical-record": {
+      "name": "The Historical Record",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-bindel": {
+      "name": "Bindel",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-pit": {
+      "name": "Pit",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tompkins": {
+      "name": "Tompkins",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-herodotus": {
+      "name": "Herodotus",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-strabo": {
+      "name": "Strabo",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-two-thousand-years": {
+      "name": "two thousand years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-nile": {
+      "name": "Nile",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-last-century": {
+      "name": "the last century",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-the-khufu-pit": {
+      "name": "the Khufu Pit",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-caviglia": {
+      "name": "Caviglia",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-petrie": {
+      "name": "Petrie",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-50-years-later": {
+      "name": "50 years later",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-knopf-guide": {
+      "name": "Knopf Guide",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-egyptology": {
+      "name": "Egyptology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-lower-egypt": {
+      "name": "Lower Egypt",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-i-e-s-edwards": {
+      "name": "I.E.S. Edwards",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-keeper-of-egyptian": {
+      "name": "Keeper of Egyptian",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-british-museum": {
+      "name": "the British Museum",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-edwards": {
+      "name": "Edwards",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-baedeker-s": {
+      "name": "Baedeker\u2019s",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-dahshur": {
+      "name": "Dahshur",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-edwards": {
+      "name": "Edwards",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-w-lane": {
+      "name": "E. W. Lane",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-german-archaeological-institute": {
+      "name": "the German Archaeological Institute",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rainer-stadelmann": {
+      "name": "Rainer Stadelmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stadelmann": {
+      "name": "Stadelmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-maragioglio": {
+      "name": "Maragioglio",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rinaldi": {
+      "name": "Rinaldi",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-perring": {
+      "name": "Perring",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-planar": {
+      "name": "planar",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-great-subterranean-chamber": {
+      "name": "the great subterranean chamber",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-lemesurier": {
+      "name": "Lemesurier",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-adam-rutherford": {
+      "name": "Adam Rutherford",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-king-s": {
+      "name": "King\u2019s",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-thousands-of-years-earlier": {
+      "name": "thousands of years earlier",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-west-bank": {
+      "name": "the \"west bank",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-memphis": {
+      "name": "Memphis",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-mediterranean-sea": {
+      "name": "the Mediterranean Sea",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-khufu-subterranean-chamber": {
+      "name": "the Khufu Subterranean Chamber",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-trials-z-zz-oct-18-22-05-22-15-entrance": {
+      "name": "Trials|Z|Zz|\n|---|---|---|---|---|---|---|---|\n|Oct 18|22:05||22:15|Entrance",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-general-exploration-1015-0-821-0-674": {
+      "name": "General Exploration|1015|-0.821|0.674|",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nile": {
+      "name": "Nile",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-herodotus-histories": {
+      "name": "Herodotus\u2019 Histories",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-baedeker": {
+      "name": "Baedeker",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-subterranean-chamber": {
+      "name": "the subterranean chamber",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cheops": {
+      "name": "Cheops",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-histories": {
+      "name": "Histories",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-de-se-lincourt": {
+      "name": "de S\u00e9lincourt",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-ten-years": {
+      "name": "ten years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-chephren": {
+      "name": "Chephren",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-the-2000-years": {
+      "name": "the 2000 years",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-histories": {
+      "name": "The Histories",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-i-e-s": {
+      "name": "I. E. S.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-2nd-ed": {
+      "name": "2nd Ed",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-karl-baedeker": {
+      "name": "Karl Baedeker",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-dulau-and-co-1885": {
+      "name": "Dulau and Co. 1885",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-soraya": {
+      "name": "Soraya",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-knopf-guides": {
+      "name": "Knopf Guides",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-alfred-a-knopf-inc": {
+      "name": "Alfred A. Knopf, Inc.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-w-m-flinders": {
+      "name": "W. M. Flinders",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-4th-ed": {
+      "name": "4th Ed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-methuen-and-co": {
+      "name": "Methuen and Co.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ranier": {
+      "name": "Ranier",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-die-agyptischen-pyramiden-vom-ziegelbau": {
+      "name": "Die Agyptischen Pyramiden Vom Ziegelbau",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-zum-weltwunder": {
+      "name": "zum Weltwunder",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mainz": {
+      "name": "Mainz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rhein": {
+      "name": "Rhein",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-verlag-philipp-von-zabern": {
+      "name": "Verlag Philipp von Zabern",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-d-fieldreg-measurements": {
+      "name": "R. D. FieldREG Measurements",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-g-fieldreg-anomalies": {
+      "name": "R. G. FieldREG Anomalies",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-smyth": {
+      "name": "Smyth",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-charles-piazzi": {
+      "name": "Charles Piazzi",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-edinburgh": {
+      "name": "Edinburgh",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-edmonton": {
+      "name": "Edmonton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-douglas": {
+      "name": "Douglas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bindel-emst": {
+      "name": "Bindel, Emst",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-agvptischen-pyramiden": {
+      "name": "Agvptischen Pyramiden",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-zeugen-vergangener-mysterienweisheit": {
+      "name": "Zeugen Vergangener Mysterienweisheit",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-dale": {
+      "name": "M. Dale",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-plainfield": {
+      "name": "Plainfield",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-indiana": {
+      "name": "Indiana",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-noetics-institute-inc": {
+      "name": "Noetics Institute, Inc.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-great-pyramid-decoded": {
+      "name": "The Great Pyramid Decoded",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dunstable": {
+      "name": "Dunstable",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bedfordshire-institute-of-pyramidology": {
+      "name": "Bedfordshire: Institute of Pyramidology",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-aubrey-de-se-lincourt": {
+      "name": "Aubrey de S\u00e9lincourt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-corrs": {
+      "name": "CORRS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sa-sess": {
+      "name": "Sa Sess",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-se-ss": {
+      "name": "Se SS",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-suns": {
+      "name": "SUNS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-peeoe": {
+      "name": "PEEoe",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-eees": {
+      "name": "eeeS",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pio": {
+      "name": "Pio",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-hees": {
+      "name": "Hees",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cccees": {
+      "name": "cccEEs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-sos-bic-sareea": {
+      "name": "SOS Bic Sareea",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-soseae": {
+      "name": "SOSeae",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sobeeee-osiges": {
+      "name": "SOBeeee OSiges",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eeberooaesei": {
+      "name": "eeBerooaesei",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-reses": {
+      "name": "RESes",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sse": {
+      "name": "Sse",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ons-ss-es": {
+      "name": "ONS Ss ES",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eeesrrrr": {
+      "name": "eeeSrrrr",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eecoea": {
+      "name": "EeCoea",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-a-a-cooe": {
+      "name": "a a.Cooe",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-aol": {
+      "name": "aol",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-grotte": {
+      "name": "Grotte",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tt-bee": {
+      "name": "tt Bee :",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-blindsha": {
+      "name": "BlindSha",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-c-d-flockmouutuins": {
+      "name": "C.D. FlockMouutuins",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-resert-edge": {
+      "name": "Resert Edge",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sym": {
+      "name": "Sym",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-rupthro": {
+      "name": "RupThro",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-ordeal": {
+      "name": "Ordeal",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-aik-fo": {
+      "name": "Aik FO",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-suas": {
+      "name": "SUAS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-srey-sie": {
+      "name": "SREY Sie",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cekeeeco": {
+      "name": "Cekeeeco",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-beeer": {
+      "name": "Beeer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ores": {
+      "name": "ORES",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-se-cor": {
+      "name": "Se COR",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sef": {
+      "name": "SeF",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rss-sseeeeee": {
+      "name": "RSS SsEeeeee",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ni": {
+      "name": "Ni=",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cses": {
+      "name": "cSes",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bre-ag": {
+      "name": "BRE AG",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cleee-sie": {
+      "name": "CLEee Sie",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-asss": {
+      "name": "AsSS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ps-ps": {
+      "name": "PS PS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cee-rab-a8": {
+      "name": "Cee Rab A8",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sefoe-ls-esgrrrc": {
+      "name": "SeFoe LS esGrrrC",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-seepe": {
+      "name": "Seepe",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-1daoe": {
+      "name": "1daoe",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-journal-of-exploration": {
+      "name": "Journal of Exploration",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-d-j-acunzo": {
+      "name": "D.J. ACUNZO",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-e-s-hoeger-princeton-engineering-anomalies-research-laboratory-school-of-engineering": {
+      "name": "E.S. HOEGER Princeton Engineering Anomalies Research Laboratory School of Engineering",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-aerospace-engineering": {
+      "name": "Aerospace Engineering",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-princeton-nj-08544": {
+      "name": "Princeton NJ 08544",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rene-pe-oc-h": {
+      "name": "Ren\u00e9 P\u00e9oc\u2019h",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-tanguy": {
+      "name": "R. Tanguy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-exit-angle-experiments": {
+      "name": "Exit-Angle Experiments",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-hose": {
+      "name": "hose",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-azimuthal": {
+      "name": "b. Azimuthal",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-loin": {
+      "name": "LOIN",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-n52": {
+      "name": "N52",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-data-fig": {
+      "name": "Data Fig",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-len-statistical": {
+      "name": "Len\u2019 Statistical",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-group-data": {
+      "name": "Group Data",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-around-ten-years-of-age": {
+      "name": "around ten years of age",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nano-sciences": {
+      "name": "nano-sciences",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-micro": {
+      "name": "micro-",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nano-robotic": {
+      "name": "nano-robotic",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-greg-nelson": {
+      "name": "Greg Nelson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-mcdonnell": {
+      "name": "John McDonnell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-bial-foundation": {
+      "name": "the BIAL Foundation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-g-unne": {
+      "name": "R. G., & unne",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-janin": {
+      "name": "Janin",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tanguy": {
+      "name": "Tanguy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-un-re-seau-e-mobiles-autonomes": {
+      "name": "Un R\u00e9seau e Mobiles Autonomes",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-paris-6": {
+      "name": "Paris 6",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2-1987": {
+      "name": "2 1987",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-universite": {
+      "name": "Universit\u00e9",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-anpsi": {
+      "name": "Anpsi",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-e-s": {
+      "name": "E. S.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-b-j-y-h": {
+      "name": "B. J Y. H.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-thompson-a-journal-of-scientific-exploration": {
+      "name": "Thompson, A. Journal of Scientific Exploration",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-klouzal": {
+      "name": "Klouzal",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-t-j-lotke": {
+      "name": "T. J., & lotke",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-r-j": {
+      "name": "R. J.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   },
-  "last_updated": "2026-03-30T02:13:44.032662+00:00"
+  "last_updated": "2026-04-01T22:21:03.469791+00:00"
 }

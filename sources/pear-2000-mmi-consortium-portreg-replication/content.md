@@ -235,7 +235,7 @@ _1. Tabular key and comments._ All of the following tables use a common statisti
 - _Z_ = Standardized _Z-score_ of the mean-shift, calculated as: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2000-mmi-consortium-portreg-replication/images/2000-mmi-consortium-portreg-replication.pdf-0008-09.png)
+![](sources/pear-2000-mmi-consortium-portreg-replication/images/pear-2000-mmi-consortium-portreg-replication.pdf-0008-09.png)
 
 
 where 
@@ -257,7 +257,7 @@ The first set of tables presents the overall results of the entire PortREGreplic
 For the sequence of structural tables that follow, _Zdiff_ refers to the differences in mean shifts, computed as follows: Given two populations, _N_ 1 and _N_ 2, having _Z-_ scores _Z_ 1 and _Z_ 2, we may compute a normalized effect size for each as E _i_[=] _Zi_ /( _Nt_ )[1/2] , which is related to Au by a multiplicative constant, e.g., E _i_[=] Au _i_[/(50)][1/2][. The uncertainty associated with a ] _[Z-]_[score is always 1 by construc-] tion, so the E _i_[have measurement uncertainties ] Oo _i_[= 1/(] _[N] i_[)][1/2][. The standard nor-] mal deviate, or _Z-_ score, for a difference between sets 1 and 2 is therefore the difference E 1[-] E 2[divided by the uncertainty of this difference, ] fey _d_[, which is] simply the sum in quadrature of the individual uncertainties: _sd_[2][=] _[s]_ 1[2][+] _[s]_ 2[2] . This can be reduced to an expression in the original _N_ s and _Z_ s: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2000-mmi-consortium-portreg-replication/images/2000-mmi-consortium-portreg-replication.pdf-0009-04.png)
+![](sources/pear-2000-mmi-consortium-portreg-replication/images/pear-2000-mmi-consortium-portreg-replication.pdf-0009-04.png)
 
 
 For most of these presentations and the associated discussions, we have chosen to use only _Z_ -scores without associated tail-probability ( _p_ ) values, on the grounds that the former are completely unambiguous, depending only on the statistical character of the data used, whereas _p_ -values require subjective and occasionally contentious decisions regarding the appropriateness of one- or two-tailed statistics, primary or secondary analyses, Bonferroni corrections for multiple or prospective analyses, and so forth. The direct correspondence of the _Z_ values to particular “tail-probabilities” is, of course, well tabulated, e.g.: 
@@ -1127,7 +1127,7 @@ Most Prominent Z-Score Differences from Monte Carlo Comparisons
 so produced then can be combined into a single _Z_ giving the overall effect of that parameter, according to the composition rule: 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-2000-mmi-consortium-portreg-replication/images/2000-mmi-consortium-portreg-replication.pdf-0034-06.png)
+![](sources/pear-2000-mmi-consortium-portreg-replication/images/pear-2000-mmi-consortium-portreg-replication.pdf-0034-06.png)
 
 
 where _Zc_ denotes the composite _Z_ for a set of scores, _Zi_ , all measuring the same effect on databases of sizes _ni_ , _i_ = 1,…, _N_ . In this manner it is possible to extract unconfounded correlations with certain specific secondary parameters, with the results displayed in Table C.8. 

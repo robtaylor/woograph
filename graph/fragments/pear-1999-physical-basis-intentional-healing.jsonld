@@ -1,0 +1,3624 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1999-physical-basis-intentional-healing",
+  "name": "PEAR: 1999 Physical Basis Intentional Healing",
+  "entities": [
+    {
+      "@id": "source:pear-1999-physical-basis-intentional-healing",
+      "@type": "woo:Source",
+      "name": "PEAR: 1999 Physical Basis Intentional Healing"
+    },
+    {
+      "@id": "entity:organization-the-physical-basis-of-intentional-healing-systems",
+      "@type": "Organization",
+      "name": "The Physical Basis of Intentional Healing Systems",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-roger-d-nelson",
+      "@type": "Person",
+      "name": "Roger D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-research-princeton-university",
+      "@type": "Organization",
+      "name": "Research Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-january-1999",
+      "@type": "Date",
+      "name": "January 1999",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-james-jeans",
+      "@type": "Person",
+      "name": "James Jeans",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-the-mysterious-universe",
+      "@type": "Organization",
+      "name": "The Mysterious Universe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-many-centuries",
+      "@type": "Date",
+      "name": "many centuries",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-textbook-of-complementary-and-alternative-medicine",
+      "@type": "Organization",
+      "name": "Textbook of Complementary and Alternative Medicine",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-wayne-b-jonas",
+      "@type": "Person",
+      "name": "Wayne B. Jonas",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-jeffrey-s-levin",
+      "@type": "Person",
+      "name": "Jeffrey S. Levin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-baltimore",
+      "@type": "Place",
+      "name": "Baltimore",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-williams-wilkins",
+      "@type": "Organization",
+      "name": "Williams & Wilkins",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-the-past-few-decades",
+      "@type": "Date",
+      "name": "the past few decades",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-leshan",
+      "@type": "Person",
+      "name": "LeShan",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-anomalous-interaction-research",
+      "@type": "Organization",
+      "name": "Anomalous Interaction Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-long-years",
+      "@type": "Date",
+      "name": "long years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-mind-machine-experiments",
+      "@type": "Organization",
+      "name": "Mind/Machine Experiments",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "Robert G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton \n\n-",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-university-s-school-of-engineering",
+      "@type": "Organization",
+      "name": "University\u2019s School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-12-years",
+      "@type": "Date",
+      "name": "12 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-helmut-schmidt",
+      "@type": "Person",
+      "name": "Helmut Schmidt",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-30-years",
+      "@type": "Date",
+      "name": "30 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-the-years",
+      "@type": "Date",
+      "name": "the years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-radin",
+      "@type": "Organization",
+      "name": "Radin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-the-academy-awards",
+      "@type": "Organization",
+      "name": "the Academy Awards",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-holotropic-breathwork",
+      "@type": "Organization",
+      "name": "Holotropic Breathwork",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-biological-system-studies",
+      "@type": "Organization",
+      "name": "Biological System Studies",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-nash",
+      "@type": "Person",
+      "name": "Nash",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-grad",
+      "@type": "Person",
+      "name": "Grad",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-braud",
+      "@type": "Person",
+      "name": "Braud",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-dean",
+      "@type": "Person",
+      "name": "Dean",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-schlitz",
+      "@type": "Organization",
+      "name": "Schlitz",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-urquardt-castle-on-loch-ness",
+      "@type": "Organization",
+      "name": "Urquardt Castle on Loch Ness",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-scotland",
+      "@type": "Place",
+      "name": "Scotland",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-wisconsin",
+      "@type": "Place",
+      "name": "Wisconsin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-danube",
+      "@type": "Person",
+      "name": "Danube",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-bratislava",
+      "@type": "Place",
+      "name": "Bratislava",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-czechoslovakia",
+      "@type": "Place",
+      "name": "Czechoslovakia",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-a-few-days",
+      "@type": "Date",
+      "name": "a few days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-sri-international",
+      "@type": "Organization",
+      "name": "SRI International",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-27",
+      "@type": "Date",
+      "name": "27,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-therapeutic-touch-or-laying-on-of",
+      "@type": "Organization",
+      "name": "Therapeutic Touch or Laying-on-of",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-schroedinger",
+      "@type": "Organization",
+      "name": "Schroedinger",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-bohm",
+      "@type": "Person",
+      "name": "Bohm",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-jahn",
+      "@type": "Person",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-the-university-press",
+      "@type": "Organization",
+      "name": "The University Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-dunne-b-j",
+      "@type": "Person",
+      "name": "Dunne B. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-harcourt-brace",
+      "@type": "Organization",
+      "name": "Harcourt Brace",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-herbert-n",
+      "@type": "Person",
+      "name": "Herbert N.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-dutton",
+      "@type": "Person",
+      "name": "Dutton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-achterberg",
+      "@type": "Person",
+      "name": "Achterberg",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-dossey",
+      "@type": "Person",
+      "name": "Dossey",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-gordon",
+      "@type": "Place",
+      "name": "Gordon",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-j-s",
+      "@type": "Place",
+      "name": "J.S.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-expanding-medical-horizons",
+      "@type": "Organization",
+      "name": "Expanding Medical Horizons",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-washington",
+      "@type": "Place",
+      "name": "Washington",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-us-government-printing-office",
+      "@type": "Organization",
+      "name": "U. S. Government Printing Office",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-adv-nursing-sci",
+      "@type": "Person",
+      "name": "Adv Nursing Sci",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-san-francisco",
+      "@type": "Place",
+      "name": "San Francisco",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-r-g",
+      "@type": "Place",
+      "name": "R.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-b-j",
+      "@type": "Place",
+      "name": "B.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-r-d",
+      "@type": "Organization",
+      "name": "R.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-j-sci",
+      "@type": "Person",
+      "name": "J. Sci",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-y-h",
+      "@type": "Place",
+      "name": "Y.H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-tech-note",
+      "@type": "Person",
+      "name": "Tech Note",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:date-24",
+      "@type": "Date",
+      "name": "24 -",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-schmidt",
+      "@type": "Person",
+      "name": "Schmidt",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-journal-of-parapsychology",
+      "@type": "Organization",
+      "name": "J. Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-morris",
+      "@type": "Person",
+      "name": "Morris",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-rudolph",
+      "@type": "Person",
+      "name": "Rudolph",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-j-parapsychology",
+      "@type": "Person",
+      "name": "J. Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-d-i",
+      "@type": "Place",
+      "name": "D.I.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics",
+      "@type": "Organization",
+      "name": "Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-r-d",
+      "@type": "Place",
+      "name": "R.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-g-j",
+      "@type": "Place",
+      "name": "G.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-rebman",
+      "@type": "Place",
+      "name": "Rebman",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-j-m-cross",
+      "@type": "Organization",
+      "name": "J.M., Cross",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-m-p",
+      "@type": "Place",
+      "name": "M.P.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-c-b",
+      "@type": "Place",
+      "name": "C.B.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-j-am",
+      "@type": "Person",
+      "name": "J. Am",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-psychical-research",
+      "@type": "Organization",
+      "name": "Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-e-d",
+      "@type": "Place",
+      "name": "E.D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-nash",
+      "@type": "Place",
+      "name": "Nash",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-j-soc",
+      "@type": "Person",
+      "name": "J. Soc",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-w-g",
+      "@type": "Place",
+      "name": "W.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-schlitz",
+      "@type": "Person",
+      "name": "Schlitz",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-e-g",
+      "@type": "Organization",
+      "name": "E.G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-puthoff",
+      "@type": "Organization",
+      "name": "Puthoff",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-utts",
+      "@type": "Place",
+      "name": "Utts",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-honorton",
+      "@type": "Place",
+      "name": "Honorton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-bulletin",
+      "@type": "Person",
+      "name": "Bulletin",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-tiller",
+      "@type": "Person",
+      "name": "Tiller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-springerverlag",
+      "@type": "Organization",
+      "name": "SpringerVerlag",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-preparata",
+      "@type": "Person",
+      "name": "Preparata",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-ibison",
+      "@type": "Organization",
+      "name": "Ibison",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-quantum",
+      "@type": "Organization",
+      "name": "Quantum",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-phys-rev-a",
+      "@type": "Person",
+      "name": "Phys Rev A",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-boston-routledge",
+      "@type": "Organization",
+      "name": "Boston: Routledge &",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-kegan-paul",
+      "@type": "Person",
+      "name": "Kegan Paul",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-cohen",
+      "@type": "Person",
+      "name": "Cohen",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-benor",
+      "@type": "Organization",
+      "name": "Benor,",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:place-d-j",
+      "@type": "Place",
+      "name": "D.J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-munich",
+      "@type": "Person",
+      "name": "Munich",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-verlag",
+      "@type": "Person",
+      "name": "Verlag",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:person-lo-difference",
+      "@type": "Person",
+      "name": "\u2212 LO Difference",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:organization-matched-pair-scores",
+      "@type": "Organization",
+      "name": "Matched-Pair Scores",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    },
+    {
+      "@id": "entity:event-physical-basis-intentional-healing",
+      "@type": "Event",
+      "name": "Physical Basis Intentional Healing",
+      "aliases": [],
+      "mentionedIn": "source:pear-1999-physical-basis-intentional-healing"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-physical-basis-of-intentional-healing-systems"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-research-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-january-1999"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-jeans"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mysterious-universe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-centuries"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-textbook-of-complementary-and-alternative-medicine"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wayne-b-jonas"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeffrey-s-levin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-baltimore"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-williams-wilkins"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-few-decades"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-leshan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anomalous-interaction-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-long-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-experiments"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-university-s-school-of-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-helmut-schmidt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-30-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-academy-awards"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-holotropic-breathwork"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nash"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-grad"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-braud"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-urquardt-castle-on-loch-ness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-scotland"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-wisconsin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-danube"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bratislava"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-czechoslovakia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-a-few-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sri-international"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-27"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-therapeutic-touch-or-laying-on-of"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schroedinger"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bohm"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-herbert-n"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dutton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-achterberg"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dossey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-gordon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-j-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-expanding-medical-horizons"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-washington"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-us-government-printing-office"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-adv-nursing-sci"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-francisco"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-sci"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tech-note"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-24"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morris"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rudolph"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-d-i"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rebman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-m-cross"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-p"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-c-b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-am"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-e-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-nash"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-soc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-w-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schlitz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-e-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-honorton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bulletin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tiller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-springerverlag"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-preparata"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ibison"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-phys-rev-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-boston-routledge"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kegan-paul"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cohen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-benor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-d-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-munich"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-verlag"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lo-difference"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-matched-pair-scores"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-physical-basis-of-intentional-healing-systems"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-d-nelson"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-physical-basis-of-intentional-healing-systems"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:person-roger-d-nelson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-physical-basis-of-intentional-healing-systems"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-january-1999"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-jeans"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-mysterious-universe"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wayne-b-jonas"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-textbook-of-complementary-and-alternative-medicine"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jeffrey-s-levin"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-textbook-of-complementary-and-alternative-medicine"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-textbook-of-complementary-and-alternative-medicine"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-baltimore"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-textbook-of-complementary-and-alternative-medicine"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-williams-wilkins"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-leshan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-anomalous-interaction-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:founded",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-university-s-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-university-s-school-of-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-helmut-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-years"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-helmut-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-30-years"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-academy-awards"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-holotropic-breathwork"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-mind-machine-experiments"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-nash"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-grad"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-braud"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dean"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schlitz"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-biological-system-studies"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-mind-machine-experiments"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-urquardt-castle-on-loch-ness"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-scotland"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-urquardt-castle-on-loch-ness"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-danube"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-bratislava"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-danube"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-czechoslovakia"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schroedinger"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bohm"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-quantum"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-jahn"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-j-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-j-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ibison"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-phys-rev-a"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1999-physical-basis-intentional-healing"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-research-princeton-university"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-many-centuries"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-few-decades"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-long-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nash"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-schlitz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-wisconsin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-a-few-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sri-international"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-27"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-therapeutic-touch-or-laying-on-of"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-press"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne-b-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-harcourt-brace"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-herbert-n"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dutton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-achterberg"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dossey"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-gordon"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-j-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-expanding-medical-horizons"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-washington"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-us-government-printing-office"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-adv-nursing-sci"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-san-francisco"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-b-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-sci"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tech-note"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-24"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morris"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rudolph"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-d-i"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rebman"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-m-cross"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-m-p"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-c-b"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-am"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychical-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-e-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-soc"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-w-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-e-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-puthoff"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-utts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-honorton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bulletin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tiller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-springerverlag"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-preparata"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-boston-routledge"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kegan-paul"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cohen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-benor"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-d-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-munich"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-verlag"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lo-difference"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-matched-pair-scores"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-basis-intentional-healing"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

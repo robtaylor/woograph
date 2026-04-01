@@ -1,0 +1,2222 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-2001-challenge-consciousness",
+  "name": "PEAR: 2001 Challenge Consciousness",
+  "entities": [
+    {
+      "@id": "source:pear-2001-challenge-consciousness",
+      "@type": "woo:Source",
+      "name": "PEAR: 2001 Challenge Consciousness"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-443-457-2001",
+      "@type": "Date",
+      "name": "443\u2013457, 2001",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-the-challenge-of-consciousness",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nThe Challenge of Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-robert-g-jahn",
+      "@type": "Person",
+      "name": "ROBERT G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton-engineering",
+      "@type": "Organization",
+      "name": "Princeton Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton-university-abstract",
+      "@type": "Organization",
+      "name": "Princeton University \n\nAbstract",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-i-introduction",
+      "@type": "Organization",
+      "name": "I. Introduction",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-society-for-scientific-exploration",
+      "@type": "Organization",
+      "name": "the Society for Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-annual",
+      "@type": "Date",
+      "name": "Annual",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-june-2001",
+      "@type": "Date",
+      "name": "June, 2001",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-peter-sturrock",
+      "@type": "Person",
+      "name": "Peter Sturrock",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-peter",
+      "@type": "Person",
+      "name": "Peter",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-two-decades-ago",
+      "@type": "Date",
+      "name": "Two decades ago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-jargon",
+      "@type": "Organization",
+      "name": "jargon",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-niels-bohr",
+      "@type": "Person",
+      "name": "Niels Bohr",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-the-end-of-the-day",
+      "@type": "Date",
+      "name": "the end of the day",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:creativework-i-am-that-i-am",
+      "@type": "CreativeWork",
+      "name": "I Am That I Am",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:creativework-the-tao",
+      "@type": "CreativeWork",
+      "name": "The Tao",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-tao",
+      "@type": "Person",
+      "name": "Tao",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-publications-2-6",
+      "@type": "Person",
+      "name": "publications,[(2\u20136",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-mind-brain-dichotomy",
+      "@type": "Organization",
+      "name": "Mind/Brain Dichotomy",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-society",
+      "@type": "Organization",
+      "name": "Society",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-processes-11",
+      "@type": "Person",
+      "name": "processes,[(11",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-a-few-years-ago",
+      "@type": "Date",
+      "name": "a few years ago",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:creativework-science-of-the-subjective",
+      "@type": "CreativeWork",
+      "name": "Science of the Subjective.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-5",
+      "@type": "Organization",
+      "name": "\u201d[(5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-several-years-earlier",
+      "@type": "Date",
+      "name": "Several years earlier",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-quantum-mechanics-of-consciousness",
+      "@type": "Organization",
+      "name": "Quantum Mechanics of Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-just-last-year",
+      "@type": "Date",
+      "name": "Just last year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:creativework-modular-model-of-mind-matter-manifestations",
+      "@type": "CreativeWork",
+      "name": "Modular Model of Mind/Matter Manifestations",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:event-the-m-5-model-briefly",
+      "@type": "Event",
+      "name": "The M[5] Model \n\nBriefly",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-mind-machine-interaction",
+      "@type": "Organization",
+      "name": "Mind/Machine Interaction",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-publication-12",
+      "@type": "Person",
+      "name": "publication,[(12",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:creativework-m-5",
+      "@type": "CreativeWork",
+      "name": "M[5",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-c-u",
+      "@type": "Organization",
+      "name": "C / U",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-harald-atmanspacher-19",
+      "@type": "Person",
+      "name": "Harald Atmanspacher[(19",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. Jahn \n\n\n\n\n\n-----",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:place-bohr-n-1961",
+      "@type": "Place",
+      "name": "Bohr, N. (1961",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-atomic-theory",
+      "@type": "Person",
+      "name": "Atomic Theory",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:place-cambridge",
+      "@type": "Place",
+      "name": "Cambridge",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-cambridge-university-press",
+      "@type": "Organization",
+      "name": "Cambridge University Press",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics",
+      "@type": "Organization",
+      "name": "Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-american-society-for-psychical-research",
+      "@type": "Organization",
+      "name": "the American Society for Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.,",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-anova",
+      "@type": "Organization",
+      "name": "ANOVA",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-y-h-bradish",
+      "@type": "Person",
+      "name": "Y. H., & Bradish",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:date-12-year",
+      "@type": "Date",
+      "name": "12-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-b-coly",
+      "@type": "Organization",
+      "name": "B., & Coly",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-g-j-dobyns",
+      "@type": "Person",
+      "name": "G. J., Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-b-j-dobyns",
+      "@type": "Person",
+      "name": "B. J., Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-lettieri",
+      "@type": "Person",
+      "name": "Lettieri",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-mischo",
+      "@type": "Person",
+      "name": "Mischo",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-boller",
+      "@type": "Person",
+      "name": "Boller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:place-bo-sch",
+      "@type": "Place",
+      "name": "B\u00f6sch",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:place-vaitl",
+      "@type": "Place",
+      "name": "Vaitl",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:person-houtkooper",
+      "@type": "Person",
+      "name": "Houtkooper",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-j-walter",
+      "@type": "Organization",
+      "name": "J., & Walter",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:organization-mind-machine-interaction-consortium",
+      "@type": "Organization",
+      "name": "Mind/Machine Interaction Consortium",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    },
+    {
+      "@id": "entity:event-challenge-consciousness",
+      "@type": "Event",
+      "name": "Challenge Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-2001-challenge-consciousness"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-443-457-2001"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-the-challenge-of-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university-abstract"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-annual"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-2001"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter-sturrock"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-decades-ago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jargon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-end-of-the-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-i-am-that-i-am"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-tao"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tao"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-publications-2-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-brain-dichotomy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-processes-11"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-a-few-years-ago"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-science-of-the-subjective"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-several-years-earlier"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-mechanics-of-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-just-last-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-modular-model-of-mind-matter-manifestations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-the-m-5-model-briefly"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-publication-12"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-c-u"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher-19"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bohr-n-1961"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-atomic-theory"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cambridge"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-cambridge-university-press"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-society-for-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-b-coly"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bo-sch"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-walter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction-consortium"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-robert-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter-sturrock"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter-sturrock"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-2001"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-society"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-peter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-i-introduction"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-i-am-that-i-am"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-niels-bohr"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-tao"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-publications-2-6"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-brain-dichotomy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-society"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-engineering"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-science-of-the-subjective"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-science-of-the-subjective"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-a-few-years-ago"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-mechanics-of-consciousness"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-several-years-earlier"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-modular-model-of-mind-matter-manifestations"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-just-last-year"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:creativework-modular-model-of-mind-matter-manifestations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-modular-model-of-mind-matter-manifestations"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-annual"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-anova"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-m-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-publication-12"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-modular-model-of-mind-matter-manifestations"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-m-5"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-c-u"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bohr-n-1961"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-atomic-theory"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bohr-n-1961"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-cambridge"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bohr-n-1961"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-cambridge-university-press"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-dunne"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-york"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-harald-atmanspacher-19"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-american-society-for-psychical-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-science-of-the-subjective"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-modular-model-of-mind-matter-manifestations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-m-5"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2001-challenge-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-443-457-2001"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-the-challenge-of-consciousness"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university-abstract"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-decades-ago"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jargon"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-end-of-the-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tao"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-processes-11"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-the-m-5-model-briefly"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-b-coly"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-bo-sch"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-walter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction-consortium"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-challenge-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

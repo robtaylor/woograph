@@ -57,7 +57,7 @@ An example of the type of data obtained in this experiment is shown in Fig. 2(a)
 R. G. Jahn et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0004-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0004-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -65,7 +65,7 @@ nd nd nd ed<br>inane nnn |<br>i<br>— i + °<br>> @ EAB1 ELE LEH | ISPLAYS<br>!
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0004-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0004-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -73,7 +73,7 @@ nd nd nd ed<br>inane nnn |<br>i<br>— i + °<br>> @ EAB1 ELE LEH | ISPLAYS<br>!
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0004-04.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0004-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -81,7 +81,7 @@ ahs (oeey -_<br>. ' pik| . ‘ a . . j As:een | Phare!4s eepEPTERBS,<br>==<br>**
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0004-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0004-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -97,7 +97,7 @@ Engineering anomalies research
 25 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0005-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0005-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -115,7 +115,7 @@ R. G. Jahn et al.
 To track the consistency of these small shifts of the mean and to display their statistical significance as a function of the data base size, the accumulated deviation of the counts from the chance mean are graphed as a function of the number of trials processed. Figure 3 employs the same data as Fig. 2. in such cumulative deviation plots for each of the three intentions of the operator relative to the theoretical mean. All three experimental traces display the stochastic variations to be expected in this sort of random process, but whereas the baseline curve meanders close to the theoretical expectation, the PK* and PK~ traces display almost linear systematic deviations from the chance mean that compound to progressively larger values as the number of trials accumulates. The dashed parabolas are the loci of the five percent chance expectation of reaching that accumulated deviation at that number of trials, and the scale at the right indicates the range of terminal chance probabilities. The terminal values of the means of these PK* and PK” data, 100.264 and 99.509 respectively, differ from chance expectation by several standard error units, with the composite achievement unlikely by chance to the order of 107°. Such cumulative deviation graphs are found to be quite operator specific and hence are referred to as “signatures.” Figure 4 shows such signatures for a few of the many other operators working on this same experiment. Some operators achieve PK results in only one direction, some in neither. some in both, and some show inverted results. The PK* and PK~ achievement patterns for a given operator are typically asymmetrical. and are often found to be dependent on the conditions under which the operator is performing the experiment, such as the pulse counting rate, whether each trial in the run is initiated manually or automatically, or whether the operator chooses or is randomly assigned the direction of effort. For example, Fig. 5 displays the sensitivity of one operator’s performance to the “volitional” and “instructed” modes of data generation. In the volitional mode, the operator chooses the 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0006-03.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0006-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -129,7 +129,7 @@ Engineering anomalies research
 27 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0007-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0007-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -139,7 +139,7 @@ Engineering anomalies research
 direction of effort and completes five runs (250 trials), or sone multiple thereof, before changing the intention. In the instructed mode, a random number generated before each run assigns the direction of effort. Note that in the case 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0008-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0008-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -153,7 +153,7 @@ shown, the PK* and PK™ resuits are essentially reversed, that is, those in the
 Despite these variations in individual operator performance and in their secondary dependence on experimental conditions, the overall REG data base also displays a significant statistical trend. Figure 6 and Table | show the combined results of the entire formal data base, comprising 87 completed series, and totalling over 250,000 trials per intention (>150 million bits). These data were generated by 33 different operators on two different machines over a period of approximately seven years. Again, the grand baseline mean remains close to the theoretical value, and the PK* and PK™~ data, despite 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0009-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0009-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -222,7 +222,7 @@ Engineering anomalies research
 33 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0013-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0013-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -240,7 +240,7 @@ In an attempt to explore this issue more aggressively, a categorically different
 To pursue further the question of how device-specific are such signatures of achievement, a substantially different experimental device called a “Random Mechanical Cascade” (RMC) has been employed (Nelson, Dunne, & Jahn. 1987). This apparatus, some 6’ X 10’ in dimension, allows 9,000 3” polystyrene spheres to trickle downward through a quincunx array of 330 3” diameter nylon pegs, whereby they are scattered into 19 collecting bins across the bot- 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0014-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0014-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -267,7 +267,7 @@ Fig. 8. Pseudo-REG cummulative deviations from theoretical mean: All data, 10 op
 ## R. G. Jahn et al. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0016-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0016-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -285,7 +285,7 @@ Engineering anomalies research
 Figure 10(a) displays as cumulative deviations the data of all 3072 runs by the 22 operators who have completed at least one formal series of 10 or 20 runs per intention. Once again, the total aberration is statistically significant, to the order of 3 X 107°. but in this case only the Jeft-going efforts are independently significant. As can be seen in Table 3. most of this asymmetry is due to the characteristic contributions of two operators who happen to have exceptionally large individual data bases. With these two omitted, the com- 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0017-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0017-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -375,7 +375,7 @@ Engineering anomalies research 39
 bined results of the remaining 20 operators are more symmetrical and still significant to the order of 7 x 107‘ [Fig. 10(b)]. Perhaps more importantly, the RMC results indicate operator-specific patterns of achievement similar to those found in the REG and pseudo-REG experiments, despite the widely different physical processes these three devices embody, a feature that may bear substantial implications for basic comprehension of the phenomena involved. For example, Fig. 11 compares the PK* and PK” signatures of the same operator on all three PK experiments: the microelectonic REG, the deterministic pseudo-REG, and the macroscopic mechanical RMC. Each of these graphs represents a concatenation of a substantial number of experimental series conducted over long periods of time. Similar correspondences have been observed for a number of other operators, despite their characteristically different individual signatures. Thus it appears that although the observed effects are clearly operator-specific, and in many 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0020-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0020-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -397,7 +397,7 @@ Most of the experiments reported here were conducted in a precognitive mode, whe
 Figures 12-14 show a few examples of typical targets with portions of the corresponding free-response descriptions; more extensive data are presented elsewhere (Dunne, Jahn, & Nelson, 1983; Dunne, Jahn, & Nelson, 1985; Jahn, 1982; Jahn & Dunne, 1986, 1987; Nelson, Jahn, & Dunne, 1986). At present, the data in hand consist of 334 perceptions of this sort that range from virtually photographic accuracy, through varying degrees of correspondence to the details and overall ambience of the scene, to total irrelevance. In some cases, details that are central to the agent’s view of the scene are ignored by the percipient, while minor aspects are escalated in importance. In other cases, there are spatial inversions or other geometrical distortions. Frequently, the more impressionistic aspects seem to be perceived more accurately than the analytical details. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0022-00.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0022-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -405,7 +405,7 @@ Figures 12-14 show a few examples of typical targets with portions of the corres
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0022-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0022-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -413,7 +413,7 @@ R. G. Jahn et al.<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0022-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0022-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -423,7 +423,7 @@ ay s a ne a Pad . ty oat<br>ve ve —* 5 OE “ge, ~~ oh tae Be te<br>2o = :aT, 
 43 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0023-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0023-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -431,7 +431,7 @@ Engineering anomalies research<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0023-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0023-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -445,7 +445,7 @@ The principal effort in this study has been to devise analytical methods to extr
 44 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0024-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0024-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -453,7 +453,7 @@ R. G. Jahn et al.<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0024-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0024-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -475,7 +475,7 @@ A primary interest is the dependence of this extra-chance information component 
 Perhaps even more striking is the absence of any discernible dependence of perception accuracy on the time interval between perception effort and target visitation by the agent. Figure |17 shows the 334 formal trial scores 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0025-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0025-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -485,7 +485,7 @@ Perhaps even more striking is the absence of any discernible dependence of perce
 46 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0026-01.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0026-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -493,7 +493,7 @@ R. G. Jahn et al.<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/1987-engineering-anomalies-research.pdf-0026-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1987-engineering-anomalies-research/images/pear-1987-engineering-anomalies-research.pdf-0026-02.png)
 
 
 **----- Start of picture text -----**<br>

@@ -63,7 +63,7 @@ Along with this severe conceptual subdivision come equally esoteric languages th
 R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/1989-anomalies-aesthetics.pdf-0004-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/pear-1989-anomalies-aesthetics.pdf-0004-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -129,7 +129,7 @@ There is no substitute for thorough reading of the extensive personal writings o
 And we certainly must include in this list the research encompassed by this Society, which in many of its projects addresses frankly metaphysical effects. For example, data on man/machine anomalies like those shown in Figure 2 have been presented in this forum on several occasions (Jahn, Dunne, & Nelson, 1987). The particular case shown pertains to the interaction of one human operator with a microelectronic random event generator (REG) in a very carefully controlled sequence of experiments extending over nine years. Plotted are the accumulated deviations of the output of the machine from chance expectation, obtained under a tripolar protocol wherein the operator alternately attempted to achieve a high number of 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/1989-anomalies-aesthetics.pdf-0007-05.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/pear-1989-anomalies-aesthetics.pdf-0007-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -151,7 +151,7 @@ Anomalies: Analysis and aesthetics
 23 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/1989-anomalies-aesthetics.pdf-0009-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/pear-1989-anomalies-aesthetics.pdf-0009-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -175,7 +175,7 @@ What is the point of this potpourri of historical, philosophical, and scientific
 R. G. Jahn 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/1989-anomalies-aesthetics.pdf-0010-02.png)
+![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1989-anomalies-aesthetics/images/pear-1989-anomalies-aesthetics.pdf-0010-02.png)
 
 
 **----- Start of picture text -----**<br>

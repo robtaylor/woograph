@@ -1,0 +1,3763 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-1997-wishing-good-weather-group-consciousness",
+  "name": "PEAR: 1997 Wishing Good Weather Group Consciousness",
+  "entities": [
+    {
+      "@id": "source:pear-1997-wishing-good-weather-group-consciousness",
+      "@type": "woo:Source",
+      "name": "PEAR: 1997 Wishing Good Weather Group Consciousness"
+    },
+    {
+      "@id": "entity:organization-journal-ofscientific-exploration",
+      "@type": "Organization",
+      "name": "Journal ofScientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-47-58-1997",
+      "@type": "Date",
+      "name": "47-58, 1997",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-society-for-scientific-exploration-wishing",
+      "@type": "Organization",
+      "name": "Society for Scientific Exploration \n\nWishing",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-group-consciousness",
+      "@type": "Organization",
+      "name": "Group Consciousness",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-princeton",
+      "@type": "Place",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-those-days",
+      "@type": "Date",
+      "name": "those days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-year-end",
+      "@type": "Date",
+      "name": "year-end",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-reunions",
+      "@type": "Person",
+      "name": "Reunions",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton-s-commencement",
+      "@type": "Organization",
+      "name": "Princeton\u2019s Commencement",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-clinton",
+      "@type": "Person",
+      "name": "Clinton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-monsoon",
+      "@type": "Place",
+      "name": "Monsoon",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-jadwin-gym",
+      "@type": "Person",
+      "name": "Jadwin Gym",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-recent-years",
+      "@type": "Date",
+      "name": "recent years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-barbara-johnson",
+      "@type": "Person",
+      "name": "Barbara Johnson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-princeton-town-topics",
+      "@type": "Person",
+      "name": "Princeton Town Topics",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-wednesday-may-22-1996",
+      "@type": "Date",
+      "name": "Wednesday, May 22, 1996",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-archives-the-seeley-g-mudd-library",
+      "@type": "Organization",
+      "name": "The Archives \n\nThe Seeley G. Mudd Library",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-250-years",
+      "@type": "Date",
+      "name": "250 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-autumn",
+      "@type": "Date",
+      "name": "Autumn",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton-s",
+      "@type": "Organization",
+      "name": "Princeton\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-first-century",
+      "@type": "Date",
+      "name": "first century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-university",
+      "@type": "Organization",
+      "name": "University",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-nassau-hall",
+      "@type": "Place",
+      "name": "Nassau Hall",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-day",
+      "@type": "Date",
+      "name": "the day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-baccalaureate",
+      "@type": "Organization",
+      "name": "Baccalaureate",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-preceding-sunday-and-monday",
+      "@type": "Date",
+      "name": "the preceding Sunday and Monday",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-this-century",
+      "@type": "Date",
+      "name": "this century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-late-and-middle-june",
+      "@type": "Date",
+      "name": "late and middle June",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-late-may",
+      "@type": "Date",
+      "name": "late May",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton",
+      "@type": "Organization",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-four-days",
+      "@type": "Date",
+      "name": "four days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-reunions-and-commencement",
+      "@type": "Organization",
+      "name": "Reunions and Commencement",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-day-of-commencement",
+      "@type": "Date",
+      "name": "the day of Commencement",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-1100-odd",
+      "@type": "Date",
+      "name": "1100-odd",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-jadwin-gymnasium",
+      "@type": "Person",
+      "name": "Jadwin Gymnasium",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:creativework-the-weather-database",
+      "@type": "CreativeWork",
+      "name": "The Weather Database",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-years",
+      "@type": "Date",
+      "name": "the years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-daily",
+      "@type": "Date",
+      "name": "daily",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-present-century",
+      "@type": "Date",
+      "name": "the present century",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-1950-to-1986",
+      "@type": "Date",
+      "name": "1950 to 1986",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-e-g",
+      "@type": "Person",
+      "name": "e. g.",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-new-brunswick",
+      "@type": "Place",
+      "name": "New Brunswick",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-more-than-70-years",
+      "@type": "Date",
+      "name": "more than 70 years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-an-analytical-question",
+      "@type": "Organization",
+      "name": "An Analytical Question",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-princeton-commencements",
+      "@type": "Organization",
+      "name": "Princeton Commencements",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-trenton",
+      "@type": "Place",
+      "name": "Trenton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-same-day",
+      "@type": "Date",
+      "name": "the same day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-tuesday",
+      "@type": "Date",
+      "name": "the Tuesday",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-days",
+      "@type": "Date",
+      "name": "the days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-days",
+      "@type": "Date",
+      "name": "days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-this-time-of-year",
+      "@type": "Date",
+      "name": "this time of year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-rosebow",
+      "@type": "Place",
+      "name": "Rosebow",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-pasadena",
+      "@type": "Place",
+      "name": "Pasadena",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:event-new-years-day",
+      "@type": "Event",
+      "name": "New Years day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-california",
+      "@type": "Place",
+      "name": "California",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-national-climatic-data-center",
+      "@type": "Organization",
+      "name": "the National Climatic Data Center",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-asheville",
+      "@type": "Place",
+      "name": "Asheville",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-north-carolina",
+      "@type": "Place",
+      "name": "North Carolina",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-moorestown",
+      "@type": "Place",
+      "name": "Moorestown",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-indian-mills",
+      "@type": "Place",
+      "name": "Indian Mills",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-boonton",
+      "@type": "Place",
+      "name": "Boonton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-each-day",
+      "@type": "Date",
+      "name": "each day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-all-years",
+      "@type": "Date",
+      "name": "all years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-nine-days",
+      "@type": "Date",
+      "name": "the nine days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-each-of-the-years",
+      "@type": "Date",
+      "name": "each of the years",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-36-year",
+      "@type": "Date",
+      "name": "36-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-four-days",
+      "@type": "Date",
+      "name": "the four days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-reunions-to-commencement",
+      "@type": "Organization",
+      "name": "Reunions to Commencement",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-june-12-1962",
+      "@type": "Date",
+      "name": "June 12, 1962",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-that-day",
+      "@type": "Date",
+      "name": "that day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-will-spangler",
+      "@type": "Person",
+      "name": "Will Spangler",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-son-le",
+      "@type": "Person",
+      "name": "Son Le",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-se-sat",
+      "@type": "Person",
+      "name": "Se Sat",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-ek-ben",
+      "@type": "Person",
+      "name": "eK Ben",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-porkishe",
+      "@type": "Place",
+      "name": "Porkishe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-sree-cbitpunt-hony",
+      "@type": "Person",
+      "name": "Sree CBitpunt HoNy",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-fd-se",
+      "@type": "Person",
+      "name": "Fd Se",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-millsre-5",
+      "@type": "Organization",
+      "name": "Millsre 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-new-jersey",
+      "@type": "Place",
+      "name": "New Jersey",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-map",
+      "@type": "Person",
+      "name": "Map",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-tiger-mapping-service",
+      "@type": "Organization",
+      "name": "Tiger Mapping Service",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-r-d-neilson",
+      "@type": "Person",
+      "name": "R. D. Neilson",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-four-days",
+      "@type": "Date",
+      "name": "FOUR DAYS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-br-bb",
+      "@type": "Person",
+      "name": "br>=BB",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:place-fig-2",
+      "@type": "Place",
+      "name": "Fig.2",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-non-zero",
+      "@type": "Organization",
+      "name": "NON-ZERO",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-tithe",
+      "@type": "Organization",
+      "name": "Tithe",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-12e",
+      "@type": "Date",
+      "name": "12e",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-commencement-day",
+      "@type": "Date",
+      "name": "Commencement day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-saturday-monday-and-tuesday",
+      "@type": "Date",
+      "name": "Saturday, Monday and Tuesday",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-baccalaureate-fig",
+      "@type": "Organization",
+      "name": "Baccalaureate (Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-university-chapel",
+      "@type": "Organization",
+      "name": "the University Chapel",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-class-day",
+      "@type": "Date",
+      "name": "Class Day",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-mann-whitney-ranks",
+      "@type": "Organization",
+      "name": "Mann-Whitney Ranks",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-three-days",
+      "@type": "Date",
+      "name": "the three days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-these-three-days",
+      "@type": "Date",
+      "name": "these three days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-years-1950-to-1986",
+      "@type": "Date",
+      "name": "the years 1950 to 1986",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-sanna-arr-ra",
+      "@type": "Organization",
+      "name": "Sanna ARR RA",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-16e",
+      "@type": "Date",
+      "name": "16e",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-povo-se",
+      "@type": "Person",
+      "name": "Povo Se",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-three-days",
+      "@type": "Date",
+      "name": "THREE DAYS",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-princeton",
+      "@type": "Person",
+      "name": "Princeton",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-20e",
+      "@type": "Date",
+      "name": "20e",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-three-days",
+      "@type": "Date",
+      "name": "three days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-commencement",
+      "@type": "Person",
+      "name": "Commencement",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:date-the-three-outdoor-days",
+      "@type": "Date",
+      "name": "the three outdoor days",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-the-john-e-fetzer-institute",
+      "@type": "Person",
+      "name": "the John E. Fetzer Institute",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-psychologie",
+      "@type": "Person",
+      "name": "Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-psychohygeine",
+      "@type": "Person",
+      "name": "Psychohygeine",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-lifebridge-foundation",
+      "@type": "Organization",
+      "name": "the Lifebridge Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-mcdonnell-foundation",
+      "@type": "Organization",
+      "name": "the McDonnell Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:organization-the-ohrstrom-foundation",
+      "@type": "Organization",
+      "name": "the Ohrstrom Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-richard-adams",
+      "@type": "Person",
+      "name": "Richard Adams",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S. Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    },
+    {
+      "@id": "entity:person-donald-webster",
+      "@type": "Person",
+      "name": "Donald Webster",
+      "aliases": [],
+      "mentionedIn": "source:pear-1997-wishing-good-weather-group-consciousness"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-ofscientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-47-58-1997"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-wishing"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-those-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-year-end"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-reunions"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-s-commencement"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-clinton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-monsoon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jadwin-gym"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-recent-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barbara-johnson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton-town-topics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-wednesday-may-22-1996"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-archives-the-seeley-g-mudd-library"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-250-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-autumn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-first-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-nassau-hall"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-preceding-sunday-and-monday"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-this-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-late-and-middle-june"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-late-may"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reunions-and-commencement"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day-of-commencement"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1100-odd"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jadwin-gymnasium"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-weather-database"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-daily"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-present-century"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1950-to-1986"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-brunswick"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-70-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-an-analytical-question"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-commencements"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-trenton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-same-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-tuesday"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-this-time-of-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rosebow"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-pasadena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-new-years-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-california"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-national-climatic-data-center"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-asheville"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-north-carolina"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-moorestown"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-indian-mills"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-boonton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-each-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-all-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-nine-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-each-of-the-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-36-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-four-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reunions-to-commencement"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-12-1962"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-that-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-will-spangler"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-son-le"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-se-sat"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ek-ben"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-porkishe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sree-cbitpunt-hony"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fd-se"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-millsre-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-jersey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-map"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tiger-mapping-service"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-neilson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-four-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-bb"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-fig-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-non-zero"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tithe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-commencement-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-saturday-monday-and-tuesday"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-chapel"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mann-whitney-ranks"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-three-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-these-three-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years-1950-to-1986"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sanna-arr-ra"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-povo-se"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-three-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-20e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-three-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-three-outdoor-days"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-the-john-e-fetzer-institute"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychohygeine"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-webster"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-1997-wishing-good-weather-group-consciousness"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-reunions"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-s-commencement"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day-of-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-tuesday"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-preceding-sunday-and-monday"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-preceding-sunday-and-monday"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-tuesday"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-this-century"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-reunions"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-reunions-and-commencement"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-reunions-and-commencement"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reunions-and-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day-of-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-1100-odd"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-nassau-hall"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jadwin-gymnasium"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-weather-database"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-the-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-weather-database"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-daily"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-brunswick"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-trenton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-commencements"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-tuesday"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-commencements"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-same-day"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-days"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-days"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-commencements"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-this-time-of-year"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-brunswick"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-trenton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-moorestown"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-indian-mills"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-boonton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-rosebow"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-pasadena"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-pasadena"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-california"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-new-years-day"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:place-california"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-national-climatic-data-center"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-asheville"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-asheville"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-north-carolina"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reunions-to-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-the-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-june-12-1962"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-jersey"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-map"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:organization-tiger-mapping-service"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-neilson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-commencement-day"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-the-university-chapel"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mann-whitney-ranks"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-class-day"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mann-whitney-ranks"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-the-three-days"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-fig-2"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-reunions-to-commencement"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-non-zero"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-tithe"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1950-to-1986"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-fig"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-three-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-three-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-daily"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:date-the-four-days"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-new-jersey"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-class-day"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-commencement"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-princeton"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychologie"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-psychohygeine"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-mcdonnell-foundation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-donald-webster"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-ofscientific-exploration"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-47-58-1997"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-society-for-scientific-exploration-wishing"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-those-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-year-end"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-clinton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-monsoon"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jadwin-gym"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-recent-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barbara-johnson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-princeton-town-topics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-wednesday-may-22-1996"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-archives-the-seeley-g-mudd-library"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-250-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-autumn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-first-century"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-university"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-late-and-middle-june"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-late-may"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-present-century"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-e-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-more-than-70-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-an-analytical-question"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-each-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-all-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-nine-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-each-of-the-years"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-36-year"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-that-day"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-will-spangler"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-son-le"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-se-sat"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ek-ben"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-porkishe"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sree-cbitpunt-hony"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fd-se"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-millsre-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-bb"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12e"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-saturday-monday-and-tuesday"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-baccalaureate-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-these-three-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-years-1950-to-1986"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sanna-arr-ra"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-16e"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-povo-se"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-20e"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-three-outdoor-days"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-the-john-e-fetzer-institute"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-group-consciousness"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

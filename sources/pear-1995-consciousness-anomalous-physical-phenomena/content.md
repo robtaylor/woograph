@@ -79,7 +79,7 @@ This initial result raises a hierarchy of questions that have essentially define
 - j)  Can any productive operator strategies be identified? 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0008-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0008-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -101,7 +101,7 @@ Figure 2 summarizes the results of all the data generated on this device by the 
 Over this same twelve-year period, 91 different operators generated a total of 522 series, comprising nearly 2.5 million trials, following the same basic protocol.  While none of these have contributed databases as large as that of the operator represented in Figures 1 and 2, several have produced larger absolute effect sizes (mean shifts).  Many others have demonstrated similar but lesser correlations.  A few operators have produced results opposite to intention, and others show results statistically indistinguishable from chance.  A large number of operators demonstrate better performance in one intention than in the other (usually in the high direction), and a few produce significantly distorted baselines.  In several cases, individuals who show no strong overall correlations with intention are nonetheless found to respond in repeatable, individually characteristic fashions to deliberate variations in the secondary parameters of the experimental protocol (Nelson, Dunne, and Jahn, 1984; Dunne, Nelson, and Dobyns, 1988; Nelson and Dobyns, 1991).  The internal replicability of several of the larger individual databases has led to the concept of operator "signatures" on this and similar experiments. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0010-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0010-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -123,7 +123,7 @@ The huge databases produced in the course of this and other PEAR experiments all
 Another informative indicator is the relative yields in sequential series produced by operators who generated five or more independent replications.  Statistically significant tendencies are observed for operators to produce better scores over their first series, then to fall off in performance in their second and third series, and then to recover to some intermediate levels during their fourth, fifth, and subsequent series.  No such trends appear in the calibration data, or in the baseline experimental data where the operator exerts no directional intention (Dunne et al, 1994).  These series position patterns thus appear to be primarily psychological in origin, and may subsume the rudimentary "decline effects" frequently reported in the parapsychological literature.  The apparent stabilization of effects following this early series transient period also suggests that their generation are not subject to the traditional learning curves observed in most cognitive processes. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0012-01.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0012-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -141,7 +141,7 @@ The dependence of such anomalous effects on the physical distance of the operato
 Even more provocative is a subset of this remote REG database, comprising some 87,000 trials per intention, in which the operators were actively addressing their intentions to the machine's operation at times other than those at which the data were actually generated.  Such "off-time" experiments have ranged from 73 hours before to 336 hours after machine operation, and display a similar scale and character of anomalous results to that of the locally generated data, including series position effects and count population distortions.  In fact, as can be seen in Figure 6, the overall effect size in the highintention efforts in these "off-time" remote experiments is twice as large as that in the "on-time" remote data, although this difference is not statistically significant due to the smaller size of the off-time database (Dunne and Jahn, 1992).  As with the distance separations, no dependence of the yield on the magnitude of the temporal separations is observed.  Comparable remote and off-time results have also been demonstrated on the random mechanical cascade and the pendulum experiments (Dunne, Nelson, and Jahn, 1988; Nelson et al, 1994). 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0014-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0014-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -161,7 +161,7 @@ Of considerably more interest, however, is a significant correlation with the co
 These gender-specific cooperator results prompted a comprehensive re-evaluation of all single operator data to assess the relative individual performances of the male and female operators. Although the composite REG database of the 41 female operators shows a stronger overall yield than that of the 50 males, this was found to be primarily attributable to the contributions of three highly successful female operators.  On an operator by operator basis, however, only 34% of the females succeeded in separating the high and low efforts in the desired direction, compared with 66% of the males, a highly significant difference, with a probability against chance of 7x10[-4] .  The females also display a tendency to produce high-going baselines, with 68% of them generating means greater than the theoretical expectation, compared with only 52% of the male operators.  On average, the females produced larger databases with larger effect sizes than the males, but their data are much less symmetrical and considerably less correlated with their stated intentions.  Similar gender distinctions are observed in the remote REG data, as well as in the local and remote data produced on the random mechanical cascade and pendulum devices.  Thus, it would appear that the bulk of the high-low asymmetry observed in the composite databases is gender driven (Dunne, 1995). 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0016-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0016-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -171,7 +171,7 @@ These gender-specific cooperator results prompted a comprehensive re-evaluation 
 Figure 5:  REG Cumulative Deviations from Theoretical Mean, All Remote Data 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0017-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0017-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -191,7 +191,7 @@ The co-operator effects suggest further extension of the REG experiments into la
 Taken in ensemble, these myriad results of the human/machine experiments and analyses clearly testify to a subtle but proactive role for consciousness in the behavior of random physical systems. Although the absolute size of the effects is very small -- equivalent to the correlated inversion of a few bits per ten thousand in the random strings -- the associated shifts of the distribution means for databases of this size are not only well beyond chance expectation, they are also well beyond the tolerance of many modern engineering control and information management systems.  Not least of all, they are also considerably larger than many of the established effects that form the basis of modern physical theories. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0019-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0019-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -215,7 +215,7 @@ Any attempt to set forth a theoretical model to complement such experimental dat
 Before attempting this, it might behoove us to reflect a bit on the evolution of scientific conceptualization of physical experience.  Most early science, from the Egyptians and Greeks through the Renaissance and Enlightenment, tended to focus on the behavior of tangible _substance_ , its gross mechanics, chemistry, and physical properties.  Midway through the 19th Century and well into the 20th, the concept of _energy_ , of many forms -- mechanical, electrical, thermal, chemical, nuclear, etc. -- became more central to scientific and technological endeavor.  Most recently, over the past few decades, a third physical currency, _information_ , has taken center stage and clearly will dominate basic science and its applications over the foreseeable future.  Superficially, these three physical domains of substance, energy, and information might seem to be quite distinct, but in point of fact, they are demonstrably fungible, with immense consequences.  Einstein's identification of the transmutability of matter and energy in the nuclear realm has impelled much of 20th century physics, and the technological, political, and sociological implications thereof can hardly be overstated.  Less well celebrated at present, but also clearly demonstrable, is a similar transmutability of energy into information, and vice versa, as manifested in chemical bonding, statistical thermodynamics, and basic information theory.  Although this equivalence is somewhat more subtle, it well may drive much of 21st century science and many arenas of its application. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1995-consciousness-anomalous-physical-phenomena/images/1995-consciousness-anomalous-physical-phenomena.pdf-0022-00.png)
+![](sources/pear-1995-consciousness-anomalous-physical-phenomena/images/pear-1995-consciousness-anomalous-physical-phenomena.pdf-0022-00.png)
 
 
 **----- Start of picture text -----**<br>

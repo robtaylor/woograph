@@ -1,0 +1,3821 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-2004-megareg-replication-interpretation",
+  "name": "PEAR: 2004 Megareg Replication Interpretation",
+  "entities": [
+    {
+      "@id": "source:pear-2004-megareg-replication-interpretation",
+      "@type": "woo:Source",
+      "name": "PEAR: 2004 Megareg Replication Interpretation"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-369-397-2004",
+      "@type": "Date",
+      "name": "369\u2013397, 2004",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-y-h-dobyns",
+      "@type": "Person",
+      "name": "Y. H. DOBYNS",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-b-j-dunne",
+      "@type": "Person",
+      "name": "B. J. DUNNE",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-r-g-jahn",
+      "@type": "Person",
+      "name": "R. G. JAHN",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-r-d-nelson",
+      "@type": "Person",
+      "name": "R. D. NELSON",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research School of Engineering",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-applied-science-princeton-university",
+      "@type": "Organization",
+      "name": "Applied Science Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-4-03",
+      "@type": "Date",
+      "name": "4.03",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-y-h-dobyns",
+      "@type": "Person",
+      "name": "Y. H. Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-schmidt",
+      "@type": "Person",
+      "name": "Schmidt",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-1970a",
+      "@type": "Date",
+      "name": "1970a",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-radin",
+      "@type": "Organization",
+      "name": "Radin",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-ibison",
+      "@type": "Organization",
+      "name": "Ibison",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-appendix",
+      "@type": "Person",
+      "name": "Appendix",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-1997-1998",
+      "@type": "Date",
+      "name": "1997, 1998",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-student-s",
+      "@type": "Organization",
+      "name": "Student\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-freedom-d-f",
+      "@type": "Organization",
+      "name": "freedom (d.f.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-2-august-1996",
+      "@type": "Date",
+      "name": "2 August 1996",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-late-1996",
+      "@type": "Person",
+      "name": "late-1996",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-experimental-phases",
+      "@type": "Organization",
+      "name": "Experimental Phases",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-d-t-d-asymmetry-t-a",
+      "@type": "Person",
+      "name": "D)|T(D)|Asymmetry|T(A)|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0404-0-8456",
+      "@type": "Date",
+      "name": "6 0.0404|0.8456|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-1-0948",
+      "@type": "Date",
+      "name": "1.0948|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-1200-6-0-0403",
+      "@type": "Date",
+      "name": "0.1200 6 0.0403|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-2-4302-0-0733-6-0-1250-0-5861",
+      "@type": "Date",
+      "name": "2.4302|0.0733 6 0.1250|0.5861|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0679-6",
+      "@type": "Date",
+      "name": "0.0679 6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0971-6-0-0249",
+      "@type": "Date",
+      "name": "0.0971 6 0.0249|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0248-0-6865",
+      "@type": "Date",
+      "name": "6 0.0248|0.6865|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-1-0033-1-1007",
+      "@type": "Date",
+      "name": "1.0033||\ufffd1.1007||",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-august-1996",
+      "@type": "Date",
+      "name": "August 1996",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-fig",
+      "@type": "Person",
+      "name": "Fig",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-late-1995",
+      "@type": "Date",
+      "name": "late 1995",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-subsidiary-analyses",
+      "@type": "Person",
+      "name": "Subsidiary Analyses",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:creativework-the-appendices-of-dobyns-et-al",
+      "@type": "CreativeWork",
+      "name": "the Appendices of Dobyns et al",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-bonferroni",
+      "@type": "Person",
+      "name": "Bonferroni",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-regclass",
+      "@type": "Organization",
+      "name": "REGclass",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0550",
+      "@type": "Date",
+      "name": "6 0.0550|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-exp-new-2-0182",
+      "@type": "Organization",
+      "name": "Exp|New|||2.0182",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-type-nops-n-jn",
+      "@type": "Person",
+      "name": "type|Nops|N\u00fejN\ufffd",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-2-2975",
+      "@type": "Date",
+      "name": "2.2975",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-volitional",
+      "@type": "Organization",
+      "name": "Volitional",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-d-d-instructed-73",
+      "@type": "Person",
+      "name": "D|\ufffdD|\n|---|---|---|---|---|\n|Instructed|73|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0506",
+      "@type": "Date",
+      "name": "6 0.0506|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0861-6",
+      "@type": "Date",
+      "name": "0.0861 6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0938",
+      "@type": "Date",
+      "name": "6 0.0938|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-1334",
+      "@type": "Date",
+      "name": "6 0.1334|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0289",
+      "@type": "Date",
+      "name": "6 0.0289|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-6-0-0841",
+      "@type": "Date",
+      "name": "6 0.0841|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-1549-6",
+      "@type": "Date",
+      "name": "0.1549 6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-megamega",
+      "@type": "Place",
+      "name": "MegaMega",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0510-6",
+      "@type": "Date",
+      "name": "0.0510 6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0287-6",
+      "@type": "Date",
+      "name": "0.0287 6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0381-6-0-0466-0-8190-0-1300-6-0-0465-2-7946",
+      "@type": "Date",
+      "name": "0.0381 6 0.0466|\ufffd0.8190|0.1300 6 0.0465|2.7946|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0669-6-0-0515",
+      "@type": "Date",
+      "name": "0.0669 6 0.0515|",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-megamega",
+      "@type": "Organization",
+      "name": "MegaMega",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-megamega",
+      "@type": "Person",
+      "name": "MegaMega",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0679-6-0-0327",
+      "@type": "Date",
+      "name": "0.0679 6 0.0327",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-0-0813-6",
+      "@type": "Date",
+      "name": "0.0813 6",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-4-0272",
+      "@type": "Date",
+      "name": "4.0272",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-4",
+      "@type": "Place",
+      "name": "][4",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-ibison",
+      "@type": "Person",
+      "name": "Ibison",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-statistical-fluke",
+      "@type": "Person",
+      "name": "Statistical Fluke",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-jahn",
+      "@type": "Place",
+      "name": "Jahn",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-table-p-7",
+      "@type": "Organization",
+      "name": "Table P.7",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-jahn-dunne",
+      "@type": "Organization",
+      "name": "Jahn & Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-braud",
+      "@type": "Person",
+      "name": "Braud",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-heath",
+      "@type": "Place",
+      "name": "Heath",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-honorton-barksdale",
+      "@type": "Organization",
+      "name": "Honorton & Barksdale",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-polyani",
+      "@type": "Place",
+      "name": "Polyani",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-white",
+      "@type": "Place",
+      "name": "White",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-psychologie",
+      "@type": "Organization",
+      "name": "Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-psychohygiene",
+      "@type": "Organization",
+      "name": "Psychohygiene",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-the-lifebridge-foundation",
+      "@type": "Organization",
+      "name": "The Lifebridge Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-richard-adams",
+      "@type": "Person",
+      "name": "Richard Adams",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-laurance-rockefeller",
+      "@type": "Person",
+      "name": "Laurance Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-michael-ibison",
+      "@type": "Person",
+      "name": "Michael Ibison",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-l9-1-4-100",
+      "@type": "Person",
+      "name": "l9 \u00bc 100",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-hhi-1-4-hli-1-4",
+      "@type": "Person",
+      "name": "hhi \u00bc hli \u00bc",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-1-4-l",
+      "@type": "Person",
+      "name": "\u00bc l.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:creativework-secular-drift-empirical-and-theoretical-solutions",
+      "@type": "CreativeWork",
+      "name": "Secular Drift: Empirical and Theoretical Solutions",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-1-4-hai",
+      "@type": "Person",
+      "name": "\u00bc hAi",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-0-847-1409",
+      "@type": "Organization",
+      "name": "0.847)|1409",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-d-f",
+      "@type": "Place",
+      "name": "d.f.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-shafer",
+      "@type": "Place",
+      "name": "Shafer",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-mcneill",
+      "@type": "Person",
+      "name": "McNeill",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-the-american-society-for-psychical-research",
+      "@type": "Organization",
+      "name": "the American Society for Psychical Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-journal-of-parapsychology",
+      "@type": "Organization",
+      "name": "Journal of Parapsychology",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-honorton",
+      "@type": "Place",
+      "name": "Honorton",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-c-barksdale",
+      "@type": "Organization",
+      "name": "C., & Barksdale",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "& Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-lettieri",
+      "@type": "Person",
+      "name": "Lettieri",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-mischo",
+      "@type": "Person",
+      "name": "Mischo",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-boller",
+      "@type": "Person",
+      "name": "Boller",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:place-vaitl",
+      "@type": "Place",
+      "name": "Vaitl",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-houtkooper",
+      "@type": "Person",
+      "name": "Houtkooper",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-j-walter",
+      "@type": "Organization",
+      "name": "J., & Walter",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-mind-machine-interaction-consortium",
+      "@type": "Organization",
+      "name": "Mind/Machine Interaction Consortium",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-y-h-bradish",
+      "@type": "Person",
+      "name": "Y. H., & Bradish",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:date-12-year",
+      "@type": "Date",
+      "name": "12-year",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-anova",
+      "@type": "Organization",
+      "name": "ANOVA",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-the-tacit-dimension",
+      "@type": "Organization",
+      "name": "The Tacit Dimension",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-gloucester",
+      "@type": "Organization",
+      "name": "Gloucester",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-p-smith",
+      "@type": "Person",
+      "name": "P. Smith",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-foundations-of-physics",
+      "@type": "Organization",
+      "name": "Foundations of Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-quantum",
+      "@type": "Organization",
+      "name": "Quantum",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:organization-journal-of-applied-physics",
+      "@type": "Organization",
+      "name": "Journal of Applied Physics",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:person-r-a",
+      "@type": "Person",
+      "name": "R. A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    },
+    {
+      "@id": "entity:event-megareg-replication-interpretation",
+      "@type": "Event",
+      "name": "Megareg Replication Interpretation",
+      "aliases": [],
+      "mentionedIn": "source:pear-2004-megareg-replication-interpretation"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-369-397-2004"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-applied-science-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-4-03"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1970a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ibison"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1997-1998"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-student-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-freedom-d-f"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-august-1996"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-late-1996"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-t-d-asymmetry-t-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0404-0-8456"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-0948"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-1200-6-0-0403"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-4302-0-0733-6-0-1250-0-5861"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0679-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0971-6-0-0249"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0248-0-6865"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-0033-1-1007"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-august-1996"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-late-1995"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-subsidiary-analyses"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-appendices-of-dobyns-et-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-regclass"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0550"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-exp-new-2-0182"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-type-nops-n-jn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-2975"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-d-instructed-73"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0506"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0861-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0938"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-1334"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0289"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0841"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-1549-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-megamega"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0510-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0287-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0381-6-0-0466-0-8190-0-1300-6-0-0465-2-7946"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0669-6-0-0515"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-megamega"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-megamega"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0679-6-0-0327"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0813-6"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-4-0272"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ibison"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-statistical-fluke"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-table-p-7"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-braud"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-heath"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-honorton-barksdale"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-polyani"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-white"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-ibison"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l9-1-4-100"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-hhi-1-4-hli-1-4"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-1-4-l"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-secular-drift-empirical-and-theoretical-solutions"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-1-4-hai"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-0-847-1409"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-d-f"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shafer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcneill"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-society-for-psychical-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-honorton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-c-barksdale"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-walter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction-consortium"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-tacit-dimension"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gloucester"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-p-smith"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-applied-physics"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-j-dunne"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g-jahn"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d-nelson"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-applied-science-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-4-03"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1970a"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-schmidt"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1970a"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-radin"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-1970a"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-d-f"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-4-03"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ibison"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-jahn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ibison"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-appendices-of-dobyns-et-al"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-dobyns"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-the-appendices-of-dobyns-et-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-subsidiary-analyses"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-subsidiary-analyses"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-volitional"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-subsidiary-analyses"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-table-p-7"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-table-p-7"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-jahn-dunne"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-megamega"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-heath"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-megamega"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-honorton-barksdale"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-megamega"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-polyani"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-megamega"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-white"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-megamega"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-honorton"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-megamega"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-student-s"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-freedom-d-f"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ibison"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-dobyns"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-appendix"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-ibison"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-august-1996"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-ibison"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-august-1996"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:person-ibison"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-regclass"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-experimental-phases"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-secular-drift-empirical-and-theoretical-solutions"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-hhi-1-4-hli-1-4"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-secular-drift-empirical-and-theoretical-solutions"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-1-4-l"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-ibison"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-appendix"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-rockefeller"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-a"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jahn"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-heath"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-parapsychology"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-2004-megareg-replication-interpretation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-369-397-2004"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ibison"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1997-1998"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-late-1996"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-t-d-asymmetry-t-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0404-0-8456"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-0948"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-1200-6-0-0403"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-4302-0-0733-6-0-1250-0-5861"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0679-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0971-6-0-0249"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0248-0-6865"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-1-0033-1-1007"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-late-1995"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0550"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-exp-new-2-0182"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-type-nops-n-jn"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-2975"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-d-d-instructed-73"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0506"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0861-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0938"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-1334"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0289"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-6-0-0841"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-1549-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-megamega"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0510-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0287-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0381-6-0-0466-0-8190-0-1300-6-0-0465-2-7946"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0669-6-0-0515"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-megamega"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0679-6-0-0327"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-0-0813-6"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-4-0272"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-4"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-statistical-fluke"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-braud"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychologie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-psychohygiene"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-l9-1-4-100"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-1-4-hai"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-0-847-1409"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-shafer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mcneill"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-american-society-for-psychical-research"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-c-barksdale"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lettieri"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mischo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-boller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-vaitl"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-houtkooper"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-j-walter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mind-machine-interaction-consortium"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h-bradish"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-year"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-anova"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-tacit-dimension"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gloucester"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-p-smith"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-foundations-of-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-applied-physics"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-megareg-replication-interpretation"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

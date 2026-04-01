@@ -69,7 +69,7 @@ Graphic presentations of selected data subsets provide a direct visual impressio
 Figure 1 shows in this form about 45 minutes of data taken in the airplane just before landing in Cairo. In each of the three marked data segments, the horizontal line (zero deviation) represents chance expectation and the parabolic curves define a region 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0007-00.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0007-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -83,7 +83,7 @@ within which 90% of truly random walks will remain. That is, given only chance e
 The first portion of this trace displays a fairly typical random walk. In contrast, the middle segment (A to B), representing a five-minute period beginning with the experimenter’s first sight of Egypt, displays an exceptionally strong positive trend. This segment has a Z-score of 3.07, corresponding to a two-tailed probability against chance of four parts in a thousand. Given the equally unusual negative trend that follows, and the fact that these strong deviations of the overall data trace correspond precisely with the group’s first experiences and impressions of the Nile delta region, it is tempting to ascribe some subjective meaning to the image thus produced (indeed, one can readily see the trace as a pyramid shape traversed by the "random" walk). However, such visual impressions clearly do not constitute valid experimental evidence; a formal protocol is required to establish a meaningful correspondence of data with potential influences. This particular example is, in fact, not part of the formal database because the data were not taken in a preplanned category, but it is presented as an example of the data format and as an introduction to the representation used for the formal datasets recorded at sacred sites as defined in the experimental protocol and described in the following examples. For simplicity and clarity of exposition, only those index marks relevant to the description are used in creating the figures. Full details are given in the tables. Figure 2 showsa visit to the Hypostyle hall of the great Temple of Karnak in Luxor by the author alone, subsequent to a group visit. This is one of the defined sacred sites, and is the forecourt of the Holy of Holies of the temple. The data produce a typical random walk for about 45 minutes (~3500 trials) and then, corresponding with the first of two meditations (A to B), take on a strong positive trend for about 20 minutes. This is followed by a short interlude watching tourist children (B to C). The data then show a persistent downward trend during a second meditation (C to D). The onsite notes corresponding to the meditations describe a profound experience dominated by an intuitive "recognition" of the purpose of the Hypostyle hall where some 130 huge stone columns (70 feet high and 15 feet in diameter) transmit the wisdom of the ancient Egyptian priesthood. The graph continues with an hour-long visit to the Temple of Ptah and the Goddess Sekhmet, during which the data show modest temporary trends generally 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0009-00.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0009-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -107,7 +107,7 @@ The assessment of FieldREG data depends upon precise specification of the beginn
 ° s 3 Pas 3 5 =) SE oOws3 _¥U ow” am SS o— «=6©Y 3esuO mo) . ae~ i MS ogy © § S » Sb G6 6 wo = ec = o 25” ~ Es... ®o Ss Oo 5 a 5 + 5 Ee5 JESE oss q 4+ €30 ro) o” gq” 22% 1S 2 = \ £7 228-~ & TL EF_ 2asB26 **2** 5 [SV., sesERR >’ arane)0 § an} om~2 3%8 ' 5 a O bo mosN 2 SE 7 Fal NEY, co) fo) ro) fo) ro) fo) fo) ro) os) fo) ro) ro) ro) w oO Te) w roo) wo ™ ~ . 7 uoHelAsq Sud 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0012-00.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0012-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -200,7 +200,7 @@ Table 1A: Sacred Sites, Group Chanting or Meditation
 The composite deviation for this category is significant, with a probability against chance of p = 3.7x107+. Details and comparisons with the other data sets are presented in Tables 2 and 3. The data are shown in Figure 8 in the form of a cumulative sum of the Z2 (x? distributed) values associated with each site. The figures include a dashed line 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0019-00.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0019-00.png)
 
 
 **----- Start of picture text -----**<br>
@@ -258,7 +258,7 @@ Table 1C contains results for data taken during group activities where resonance
 Table 1C: Group Resonance or Coherent attention, Not in Sacred Site 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0021-04.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0021-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -288,7 +288,7 @@ Table 1D shows the results for a number of sites that are typically included on 
 . 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0022-01.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0022-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -300,7 +300,7 @@ Table 1D shows the results for a number of sites that are typically included on 
 Table 1D: Tombs and Other Non-Sacred but Notable Sites 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0023-02.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0023-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -329,7 +329,7 @@ Table 1E shows results for data sequences taken while the experimenter was alone
 Table 1E: Personal Rituals and Experiences: Experimenter Effect 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0023-07.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0023-07.png)
 
 
 **----- Start of picture text -----**<br>
@@ -361,7 +361,7 @@ Table 2: Overall Results, Preplanned Formal and Extension Categories
 | 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0024-04.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0024-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -411,7 +411,7 @@ Table 3: Summary Statistics from Resampling Procedure Adjusted Chisquare, Z-scor
 These analyses detail an array of anomalous effects on the data stream generated while the FieldREG was present in various sacred sites visited by a group of people interested in spiritual matters. There was a notable, but non-significant, increment in the yield when the group engaged in an activity such as chanting or meditation at these sites to promote group resonance and a connection with the genius loci, or spirit of the place (category A). Seven of the sites that are included in category B because only a small part of the group was present arguably could belong to category A, and it is worthwhile to consider what differences accrue if they are reassigned. The y? for A increases to 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-egypt.fieldreg/images/Egypt.Fieldreg.pdf-0025-08.png)
+![](sources/pear-egypt.fieldreg/images/pear-egypt.fieldreg.pdf-0025-08.png)
 
 
 **----- Start of picture text -----**<br>

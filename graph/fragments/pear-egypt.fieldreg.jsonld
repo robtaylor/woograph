@@ -1,0 +1,4105 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:pear-egypt.fieldreg",
+  "name": "PEAR: Egypt.Fieldreg",
+  "entities": [
+    {
+      "@id": "source:pear-egypt.fieldreg",
+      "@type": "woo:Source",
+      "name": "PEAR: Egypt.Fieldreg"
+    },
+    {
+      "@id": "entity:place-egypt",
+      "@type": "Place",
+      "name": "Egypt",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-roger-nelson",
+      "@type": "Person",
+      "name": "Roger Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research School of Engineering/Applied Science Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-97002-july-1997",
+      "@type": "Date",
+      "name": "97002 July 1997",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-two-week",
+      "@type": "Date",
+      "name": "two week",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-two-week",
+      "@type": "Date",
+      "name": "two-week",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-cairo",
+      "@type": "Place",
+      "name": "Cairo",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-luxor",
+      "@type": "Place",
+      "name": "Luxor",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-aswan",
+      "@type": "Place",
+      "name": "Aswan",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-giza",
+      "@type": "Person",
+      "name": "Giza",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-darshan",
+      "@type": "Person",
+      "name": "Darshan",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "the Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-nelson-et-al",
+      "@type": "Person",
+      "name": "Nelson et al.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-nelson",
+      "@type": "Person",
+      "name": "Nelson",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-the-past-few-years",
+      "@type": "Date",
+      "name": "the past few years",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-holy-of-holies",
+      "@type": "Organization",
+      "name": "the Holy of Holies",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-us-o",
+      "@type": "Organization",
+      "name": "US] &o",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-udoo",
+      "@type": "Place",
+      "name": "UDoO",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-nile-delta",
+      "@type": "Place",
+      "name": "Nile delta",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-temple-of-ptah",
+      "@type": "Organization",
+      "name": "the Temple of Ptah",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-br-as",
+      "@type": "Person",
+      "name": "br>~as",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-the-great-pyramid",
+      "@type": "Place",
+      "name": "the Great Pyramid",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-khufu",
+      "@type": "Person",
+      "name": "Khufu",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:creativework-table-1a-beginning",
+      "@type": "CreativeWork",
+      "name": "Table 1A. Beginning",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:creativework-the-queen-s-chamber-a-to-b",
+      "@type": "CreativeWork",
+      "name": "the Queen\u2019s Chamber (A to B",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-the-grand-gallery",
+      "@type": "Place",
+      "name": "the Grand Gallery",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-king-s-chamber",
+      "@type": "Organization",
+      "name": "the King\u2019s Chamber",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-khafre-s-pyramid",
+      "@type": "Person",
+      "name": "Khafre\u2019s Pyramid",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:event-the-holy-of-holies",
+      "@type": "Event",
+      "name": "the \"Holy of Holies",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-edfu",
+      "@type": "Person",
+      "name": "Edfu",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-kom-ombo",
+      "@type": "Person",
+      "name": "Kom Ombo",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-philae",
+      "@type": "Organization",
+      "name": "Philae",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-ae",
+      "@type": "Person",
+      "name": "ae~",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-jese",
+      "@type": "Organization",
+      "name": "JESE",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-2-5",
+      "@type": "Date",
+      "name": "2 5",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-begb",
+      "@type": "Organization",
+      "name": "BegB",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-fe-og",
+      "@type": "Person",
+      "name": "Fe Og",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-oofa",
+      "@type": "Organization",
+      "name": "oOfa",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-ge-no",
+      "@type": "Organization",
+      "name": "ge & no",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-s-e-nn-s-ao",
+      "@type": "Organization",
+      "name": "S\u00a2e nN s ao",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-3-2",
+      "@type": "Date",
+      "name": "3 2",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-8-o-23eeoo-ses",
+      "@type": "Date",
+      "name": "8\u201co 23EEoO Ses",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-odpe",
+      "@type": "Organization",
+      "name": "oDpe",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-wo-bos-ra-s",
+      "@type": "Person",
+      "name": "wo Bos ra S",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-karnak-temple",
+      "@type": "Person",
+      "name": "Karnak Temple",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-sphinx",
+      "@type": "Place",
+      "name": "Sphinx",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-sneferu",
+      "@type": "Place",
+      "name": "Sneferu",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-mycerinus",
+      "@type": "Place",
+      "name": "Mycerinus",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-khafre-pyramids",
+      "@type": "Person",
+      "name": "Khafre Pyramids",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-sacred-sites",
+      "@type": "Person",
+      "name": "Sacred Sites",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-744-1-504",
+      "@type": "Person",
+      "name": "||744|1.504|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-oct6-1412-1422-sneferupyramid",
+      "@type": "Place",
+      "name": "|Oct6|1412|1422|SneferuPyramid",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-king-s-chamber",
+      "@type": "Organization",
+      "name": "King\u2019s Chamber",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-istchant-tat-1-345",
+      "@type": "Place",
+      "name": "Istchant||TAT|-1.345|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-king-s-lights",
+      "@type": "Organization",
+      "name": "King\u2019s, Lights",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-secondvisit",
+      "@type": "Organization",
+      "name": "Secondvisit",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-king-s-7072-0-002",
+      "@type": "Organization",
+      "name": "King\u2019s|;|7072|0.002|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-3-7x107",
+      "@type": "Date",
+      "name": "3.7x107+",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-2-ww-ao-2",
+      "@type": "Person",
+      "name": "2 Ww Ao 2",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-sn-5-p28",
+      "@type": "Organization",
+      "name": "SN 5 P28",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-5s",
+      "@type": "Organization",
+      "name": "5S &",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-i-e",
+      "@type": "Person",
+      "name": "i. e.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-east",
+      "@type": "Place",
+      "name": "East",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-innertemple",
+      "@type": "Organization",
+      "name": "InnerTemple",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-sacred-lake-330-1-822-oct-10-1931-1936-luxor",
+      "@type": "Person",
+      "name": "Sacred Lake||330|-1.822|\n|Oct 10|1931|1936|Luxor",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-2nd-stop",
+      "@type": "Organization",
+      "name": "2nd Stop",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-sacred-lake",
+      "@type": "Person",
+      "name": "Sacred Lake",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-oct11-0747-0757-karnakhypostyle",
+      "@type": "Person",
+      "name": "|Oct11|0747|0757|KarnakHypostyle",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-sekhmetmeditation",
+      "@type": "Organization",
+      "name": "SekhmetMeditation",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-love-1045-1-330",
+      "@type": "Organization",
+      "name": "Love||1045|1.330|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-templeholy",
+      "@type": "Organization",
+      "name": "TempleHoly",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-betweenpaws",
+      "@type": "Organization",
+      "name": "BetweenPaws",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-oct-17-2352-0012-sphinx",
+      "@type": "Person",
+      "name": "|Oct 17|2352|0012|Sphinx",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-behind-stela",
+      "@type": "Person",
+      "name": "Behind Stela",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-oct-18-2300-2308-khufu",
+      "@type": "Person",
+      "name": "|Oct 18|2300|2308|Khufu",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-pitnile",
+      "@type": "Organization",
+      "name": "PitNile",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-original",
+      "@type": "Organization",
+      "name": "Original",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-oct-14-0943-1020-felucca-around-elephantine-2753-0-752",
+      "@type": "Organization",
+      "name": "|Oct|14|0943|1020|\u2014\u2018Felucca|around|Elephantine|2753|0.752|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-oct17-1017-1020-circle-blessing",
+      "@type": "Person",
+      "name": "|Oct17|=|1017|1020|Circle Blessing",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-morad-187-0-486",
+      "@type": "Person",
+      "name": "Morad|187|-0.486|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-trek-cemetery-1743-2-005",
+      "@type": "Person",
+      "name": "Trek Cemetery|1743|-2.005|",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-ps-0d",
+      "@type": "Person",
+      "name": "Ps 0d",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-sos",
+      "@type": "Organization",
+      "name": "SoS",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-bonferroni",
+      "@type": "Person",
+      "name": "Bonferroni",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-size",
+      "@type": "Person",
+      "name": "Size",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-rosenthal",
+      "@type": "Person",
+      "name": "Rosenthal",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-dunne",
+      "@type": "Place",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-b-smaller",
+      "@type": "Person",
+      "name": "B. Smaller",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-barbara",
+      "@type": "Person",
+      "name": "Barbara",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-charles-overby",
+      "@type": "Person",
+      "name": "Charles Overby",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "The Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-psychologie",
+      "@type": "Person",
+      "name": "Psychologie",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-psychohygeine",
+      "@type": "Person",
+      "name": "Psychohygeine",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-lifebridge-foundation",
+      "@type": "Organization",
+      "name": "the Lifebridge Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-ohrstrom-foundation",
+      "@type": "Organization",
+      "name": "the Ohrstrom Foundation",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-richard-adams",
+      "@type": "Person",
+      "name": "Richard Adams",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-laurance-s-rockefeller",
+      "@type": "Person",
+      "name": "Laurance S. Rockefeller",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-donald-webster",
+      "@type": "Person",
+      "name": "Donald Webster",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-kegan-paul",
+      "@type": "Person",
+      "name": "Kegan Paul",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-dunne",
+      "@type": "Person",
+      "name": "Dunne",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-princeton-engineering-anomalies-research",
+      "@type": "Organization",
+      "name": "Princeton Engineering Anomalies Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-princeton-university",
+      "@type": "Organization",
+      "name": "Princeton University",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-school-of-engineering-applied-science",
+      "@type": "Organization",
+      "name": "School of Engineering/Applied Science",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-r-g",
+      "@type": "Person",
+      "name": "R. G.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-r-d",
+      "@type": "Person",
+      "name": "R. D.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-journal-of-scientific-exploration",
+      "@type": "Organization",
+      "name": "Journal of Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-g-j-dobyns",
+      "@type": "Person",
+      "name": "G. J., Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-y-h",
+      "@type": "Person",
+      "name": "Y. H.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-dobyns",
+      "@type": "Person",
+      "name": "Dobyns",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-g-j",
+      "@type": "Person",
+      "name": "G. J. (",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-replications-and-explorations",
+      "@type": "Organization",
+      "name": "Replications and Explorations",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:date-97001-june-1997",
+      "@type": "Date",
+      "name": "97001, June 1997",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-the-society-for-scientific-exploration",
+      "@type": "Organization",
+      "name": "the Society for Scientific Exploration",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-huntington-beach",
+      "@type": "Place",
+      "name": "Huntington Beach",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-meta-analytic-procedures-for-social-research",
+      "@type": "Organization",
+      "name": "Meta-Analytic Procedures for Social Research",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-revised-ed",
+      "@type": "Person",
+      "name": "Revised ed.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-newbury-park",
+      "@type": "Place",
+      "name": "Newbury Park",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-a-new-science-of-life-the-hypothesis-of-formative-causation",
+      "@type": "Organization",
+      "name": "A New Science of Life: The Hypothesis of Formative Causation",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-los-angeles",
+      "@type": "Place",
+      "name": "Los Angeles",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-j-p-tarcher",
+      "@type": "Person",
+      "name": "J. P. Tarcher",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-r-a",
+      "@type": "Person",
+      "name": "R. A.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-wolman",
+      "@type": "Person",
+      "name": "Wolman",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:person-b-b",
+      "@type": "Person",
+      "name": "B. B.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:place-new-york",
+      "@type": "Place",
+      "name": "New York",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    },
+    {
+      "@id": "entity:organization-van-nostrand-reinhold-co",
+      "@type": "Organization",
+      "name": "Van Nostrand Reinhold Co.",
+      "aliases": [],
+      "mentionedIn": "source:pear-egypt.fieldreg"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-egypt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-97002-july-1997"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-week"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-week"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-luxor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-aswan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-giza"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-darshan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-et-al"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-the-past-few-years"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-holy-of-holies"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-us-o"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-udoo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-nile-delta"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-temple-of-ptah"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-as"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-great-pyramid"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khufu"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-table-1a-beginning"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-queen-s-chamber-a-to-b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-grand-gallery"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-king-s-chamber"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khafre-s-pyramid"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-the-holy-of-holies"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edfu"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kom-ombo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-philae"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ae"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jese"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-5"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-begb"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fe-og"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-oofa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ge-no"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-e-nn-s-ao"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-8-o-23eeoo-ses"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-odpe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wo-bos-ra-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karnak-temple"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-sphinx"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-sneferu"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-mycerinus"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khafre-pyramids"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-744-1-504"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-oct6-1412-1422-sneferupyramid"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-king-s-chamber"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-istchant-tat-1-345"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-king-s-lights"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-secondvisit"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-king-s-7072-0-002"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-7x107"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-2-ww-ao-2"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sn-5-p28"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-5s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-i-e"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-east"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-innertemple"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-lake-330-1-822-oct-10-1931-1936-luxor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-2nd-stop"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-lake"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct11-0747-0757-karnakhypostyle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sekhmetmeditation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-love-1045-1-330"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-templeholy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-betweenpaws"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct-17-2352-0012-sphinx"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-behind-stela"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct-18-2300-2308-khufu"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pitnile"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-original"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-oct-14-0943-1020-felucca-around-elephantine-2753-0-752"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct17-1017-1020-circle-blessing"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morad-187-0-486"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-trek-cemetery-1743-2-005"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ps-0d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sos"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-size"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-smaller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barbara"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles-overby"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychologie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychohygeine"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-adams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-donald-webster"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kegan-paul"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-replications-and-explorations"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-97001-june-1997"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-huntington-beach"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-meta-analytic-procedures-for-social-research"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-revised-ed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-newbury-park"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-a-new-science-of-life-the-hypothesis-of-formative-causation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-los-angeles"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-tarcher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wolman"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-b"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-van-nostrand-reinhold-co"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:pear-egypt.fieldreg"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson-et-al"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-et-al"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:date-the-past-few-years"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-the-holy-of-holies"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-original"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-egypt"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-nile-delta"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-queen-s-chamber-a-to-b"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-khufu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-grand-gallery"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-khufu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-king-s-chamber"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-khufu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khafre-s-pyramid"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-giza"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-the-holy-of-holies"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-edfu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-the-holy-of-holies"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-kom-ombo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-the-holy-of-holies"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-philae"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-karnak-temple"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-sphinx"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-sneferu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-mycerinus"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:person-khafre-pyramids"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-sphinx"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-sneferu"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edfu"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-philae"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khufu"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-luxor"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-mycerinus"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-et-al"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-et-al"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barbara"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-charles-overby"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-lifebridge-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-ohrstrom-foundation"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-richard-adams"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-laurance-s-rockefeller"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:person-donald-webster"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-g"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-journal-of-scientific-exploration"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-replications-and-explorations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dobyns"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-replications-and-explorations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-replications-and-explorations"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-meta-analytic-procedures-for-social-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-philae"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-aswan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-philae"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-original"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-luxor"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-great-pyramid"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-giza"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-the-great-pyramid"
+      },
+      "predicate": "woo:createdBy",
+      "object": {
+        "@id": "entity:person-khufu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khufu"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-istchant-tat-1-345"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-khufu"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-secondvisit"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-trek-cemetery-1743-2-005"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-trek-cemetery-1743-2-005"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:place-sphinx"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:place-cairo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-luxor"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:organization-2nd-stop"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-betweenpaws"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-sphinx"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-behind-stela"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-sphinx"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-pitnile"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-khufu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-original"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:person-khufu"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-roger-nelson"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-princeton-engineering-anomalies-research"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-school-of-engineering-applied-science"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-princeton-university"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-philae"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-sites"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rosenthal"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-i-e"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dunne"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-i-e"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nelson-et-al"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-nelson"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-97002-july-1997"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-week"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-two-week"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-darshan"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-us-o"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-udoo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-temple-of-ptah"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-br-as"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-table-1a-beginning"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-king-s-chamber"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ae"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jese"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2-5"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-begb"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-fe-og"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-oofa"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ge-no"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-s-e-nn-s-ao"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-8-o-23eeoo-ses"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-odpe"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wo-bos-ra-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-744-1-504"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-oct6-1412-1422-sneferupyramid"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-king-s-lights"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-king-s-7072-0-002"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-3-7x107"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-2-ww-ao-2"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sn-5-p28"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-5s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-east"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-innertemple"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-lake-330-1-822-oct-10-1931-1936-luxor"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sacred-lake"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct11-0747-0757-karnakhypostyle"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sekhmetmeditation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-love-1045-1-330"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-templeholy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct-17-2352-0012-sphinx"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct-18-2300-2308-khufu"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-oct-14-0943-1020-felucca-around-elephantine-2753-0-752"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-oct17-1017-1020-circle-blessing"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-morad-187-0-486"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ps-0d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-sos"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-bonferroni"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-size"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dunne"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-smaller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychologie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-psychohygeine"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kegan-paul"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-d"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j-dobyns"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-y-h"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-g-j"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-97001-june-1997"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-society-for-scientific-exploration"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-huntington-beach"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-revised-ed"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-newbury-park"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-a-new-science-of-life-the-hypothesis-of-formative-causation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-los-angeles"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-j-p-tarcher"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-r-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wolman"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-b-b"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-new-york"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-van-nostrand-reinhold-co"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-egypt"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -71,7 +71,7 @@ The figure clearly shows the large number of days with very little rain, and pro
 51 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0005-01.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0005-01.png)
 
 
 **----- Start of picture text -----**<br>
@@ -79,7 +79,7 @@ Wishing for Good Weather<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0005-02.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0005-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -91,7 +91,7 @@ aNT PEE<br>ane oe". Pot. Ag oO Son Le ten with aed Se<br>és eee pfriackettstoun
 R. D. Neilson 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0006-02.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0006-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -103,7 +103,7 @@ Fig.2. Mean precipitation for Princeton compared with six surrounding towns on t
 GAMMA FIT TO AVERAGE RAIN IN SIX TOWNS ALL. NON-ZERO ACCUMULATIONS 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0006-05.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0006-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -137,7 +137,7 @@ R. D. Nelson
 CUMULATIVE RAINFALL SATURDAY REUNIONS P-RADE 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0008-03.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0008-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -147,7 +147,7 @@ L sefpssenentvscnsanenscenscesuegessoeenoaeesesenvenrassevergiecatareaessssntess
 (4a) 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0008-05.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0008-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -163,7 +163,7 @@ Wishing for Good Weather
 CUMULATIVE RAINFALL MONDAY CLASS DAY 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0009-03.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0009-03.png)
 
 
 **----- Start of picture text -----**<br>
@@ -177,7 +177,7 @@ Fig. 4. An ordered accumulation of daily precipitation totals shows less frequen
 R. D. Nelson 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0010-02.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0010-02.png)
 
 
 **----- Start of picture text -----**<br>
@@ -187,7 +187,7 @@ CUMULATIVE RAINFALL ON THREE DAYS<br>P-RADE, CLASS DAY, AND COMMENCEMENT<br>=) i
 Fig. 5. Comparison of Princeton vs. the surrounding area, of rainfall accumulating on the three days with planned outdoor activities: P-Rade, Class Day, and Commencement. 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0010-04.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0010-04.png)
 
 
 **----- Start of picture text -----**<br>
@@ -195,7 +195,7 @@ CUMULATIVE RAINFALL ON THREE DAYS<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0010-05.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0010-05.png)
 
 
 **----- Start of picture text -----**<br>
@@ -203,7 +203,7 @@ FOLLOWING ‘COMMENCEMENT<br>**----- End of picture text -----**<br>
 
 
 
-![](/Users/roberttaylor/Documents/woo/woograph/sources/pear-1997-wishing-good-weather-group-consciousness/images/1997-wishing-good-weather-group-consciousness.pdf-0010-06.png)
+![](sources/pear-1997-wishing-good-weather-group-consciousness/images/pear-1997-wishing-good-weather-group-consciousness.pdf-0010-06.png)
 
 
 **----- Start of picture text -----**<br>

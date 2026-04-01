@@ -359,3 +359,156 @@ def merge(ctx: click.Context) -> None:
         f"{stats['total_relationships']} relationships "
         f"from {stats['total_sources']} sources"
     )
+
+
+@main.command()
+@click.pass_context
+def clean(ctx: click.Context) -> None:
+    """Clean the global graph: deduplicate types, remove noise entities."""
+    import re
+    from collections import Counter
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found. Run 'woograph merge' first.")
+        raise SystemExit(1)
+
+    graph = json.loads(global_path.read_text())
+    entities = graph.get("entities", [])
+    relationships = graph.get("relationships", [])
+
+    orig_entities = len(entities)
+    orig_rels = len(relationships)
+
+    # --- 1. Remove noise entities ---
+    noise_patterns = [
+        re.compile(r"[\\${}]"),                   # LaTeX
+        re.compile(r"\|.*\|"),                     # table fragments
+        re.compile(r"^[\d\s.,;:()/\-–]+$"),        # purely numeric
+        re.compile(r"^(br|nbsp)>"),                # HTML artifacts
+    ]
+
+    def is_noise(entity: dict) -> bool:
+        if entity.get("@type") == "woo:Source":
+            return False
+        name = entity.get("name", "")
+        if len(name) <= 3:
+            return True
+        alpha_ratio = sum(c.isalpha() or c.isspace() for c in name) / max(len(name), 1)
+        if alpha_ratio < 0.5:
+            return True
+        return any(p.search(name) for p in noise_patterns)
+
+    noise_ids: set[str] = set()
+    clean_entities: list[dict] = []
+    for e in entities:
+        if is_noise(e):
+            noise_ids.add(e["@id"])
+        else:
+            clean_entities.append(e)
+
+    # Remove relationships involving noise entities
+    clean_rels: list[dict] = []
+    for r in relationships:
+        sid = r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]
+        oid = r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]
+        if sid not in noise_ids and oid not in noise_ids:
+            clean_rels.append(r)
+
+    click.echo(f"Noise removal: {len(noise_ids)} entities, {orig_rels - len(clean_rels)} relationships removed")
+
+    # --- 2. Type deduplication ---
+    # Entities with same name but different types → keep the most common type
+    name_type_counts: dict[str, Counter] = {}
+    for e in clean_entities:
+        if e.get("@type") == "woo:Source":
+            continue
+        name = e["name"]
+        if name not in name_type_counts:
+            name_type_counts[name] = Counter()
+        name_type_counts[name][e["@type"]] += 1
+
+    # Build mapping: for each name, pick the best type
+    # Priority: Person > Organization > Place > Event > CreativeWork > Date > Thing
+    type_priority = {"Person": 6, "Organization": 5, "Place": 4, "Event": 3, "CreativeWork": 2, "Date": 1, "Thing": 0}
+    best_type: dict[str, str] = {}
+    for name, counts in name_type_counts.items():
+        if len(counts) > 1:
+            # Pick by frequency, then by priority
+            best = max(counts.keys(), key=lambda t: (counts[t], type_priority.get(t, 0)))
+            best_type[name] = best
+
+    # Deduplicate: merge same-name entities into one with best type
+    seen_names: dict[str, dict] = {}
+    deduped_entities: list[dict] = []
+    merged_ids: dict[str, str] = {}  # old_id → canonical_id
+
+    for e in clean_entities:
+        if e.get("@type") == "woo:Source":
+            deduped_entities.append(e)
+            continue
+
+        name = e["name"]
+        if name in best_type:
+            e["@type"] = best_type[name]
+
+        if name in seen_names:
+            # Merge mentionedIn
+            existing = seen_names[name]
+            existing_mentions = existing.get("mentionedIn", [])
+            new_mentions = e.get("mentionedIn", [])
+            if isinstance(existing_mentions, str):
+                existing_mentions = [existing_mentions]
+            if isinstance(new_mentions, str):
+                new_mentions = [new_mentions]
+            merged = list(set(existing_mentions + new_mentions))
+            existing["mentionedIn"] = merged if len(merged) > 1 else merged[0] if merged else ""
+            # Track ID mapping for relationship rewriting
+            merged_ids[e["@id"]] = existing["@id"]
+        else:
+            seen_names[name] = e
+            deduped_entities.append(e)
+
+    # Rewrite relationship IDs for merged entities
+    deduped_rels: list[dict] = []
+    seen_rel_keys: set[tuple] = set()
+    for r in clean_rels:
+        sid = r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]
+        oid = r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]
+        sid = merged_ids.get(sid, sid)
+        oid = merged_ids.get(oid, oid)
+        # Skip self-loops created by merging
+        if sid == oid:
+            continue
+        pred = r.get("predicate", "")
+        key = (sid, pred, oid)
+        if key in seen_rel_keys:
+            continue
+        seen_rel_keys.add(key)
+        r_copy = dict(r)
+        r_copy["subject"] = {"@id": sid}
+        r_copy["object"] = {"@id": oid}
+        deduped_rels.append(r_copy)
+
+    type_merges = len(merged_ids)
+    click.echo(f"Type dedup: {type_merges} entities merged, {len(clean_rels) - len(deduped_rels)} duplicate relationships removed")
+
+    # --- Write cleaned graph ---
+    graph["entities"] = deduped_entities
+    graph["relationships"] = deduped_rels
+    global_path.write_text(json.dumps(graph, indent=2) + "\n")
+
+    # Update stats
+    from woograph.graph.merge import generate_stats
+    stats = generate_stats(graph)
+    stats_path = repo_root / "graph" / "stats.json"
+    stats_path.write_text(json.dumps(stats, indent=2) + "\n")
+
+    click.echo(
+        f"Cleaned graph: {stats['total_entities']} entities "
+        f"(was {orig_entities}), "
+        f"{stats['total_relationships']} relationships "
+        f"(was {orig_rels})"
+    )

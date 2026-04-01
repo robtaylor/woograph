@@ -31,6 +31,12 @@ _REFERENCE_PATTERNS = [
     re.compile(r"^[A-Z]{1,3}$"),                 # "TX", "US", "NY" (state/country codes)
     re.compile(r"^\d+$"),                         # pure numbers
     re.compile(r"^https?://"),                    # URLs
+    re.compile(r"[\\${}]"),                       # LaTeX markers: \psi, $x$, {lm}
+    re.compile(r"\|.*\|"),                        # table fragments: |39|2|0.777|
+    re.compile(r"^[\d\s.,;:()/\-–]+$"),          # purely numeric/punctuation strings
+    re.compile(r"^(br|nbsp)>"),                   # HTML artifacts
+    re.compile(r"^(Fig|Std|Dev|Int|Sec|Ref|Eq)\.?$", re.IGNORECASE),  # abbreviations
+    re.compile(r"^(al|ed|eds|vol|nos?)\.?$", re.IGNORECASE),  # citation abbreviations
 ]
 
 # Noise entities loaded from config file (fallback to empty set)
@@ -149,8 +155,8 @@ def extract_entities(markdown_text: str, source_id: str) -> list[Entity]:
 
         name = ent.text.strip()
 
-        # Filter very short entities (1-2 chars)
-        if len(name) <= 2:
+        # Filter very short entities (<=3 chars)
+        if len(name) <= 3:
             continue
 
         # Filter reference/citation patterns
@@ -159,6 +165,11 @@ def extract_entities(markdown_text: str, source_id: str) -> list[Entity]:
 
         # Filter known noise entities
         if name.lower() in _get_noise_entities():
+            continue
+
+        # Filter entities that are mostly non-alpha (OCR garbage)
+        alpha_ratio = sum(c.isalpha() or c.isspace() for c in name) / max(len(name), 1)
+        if alpha_ratio < 0.5:
             continue
 
         key = (name, ent.label_)

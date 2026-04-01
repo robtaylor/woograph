@@ -20,9 +20,19 @@ echo "Files: $TOTAL"
 echo "Pattern: $PATTERN"
 echo ""
 
+# Pre-sync to avoid concurrent uv sync races
+(cd pipeline && uv sync --dev) 2>&1 | tail -1
+
 for f in "${FILES[@]}"; do
     slug=$(basename "$f" .yaml)
     DONE=$((DONE + 1))
+
+    # Skip non-submission files
+    if [[ "$slug" == _* ]] || [[ "$slug" == "README" ]]; then
+        SKIPPED=$((SKIPPED + 1))
+        echo "[$DONE/$TOTAL] SKIP: ${slug} (not a submission)"
+        continue
+    fi
 
     if [ -f "graph/fragments/${slug}.jsonld" ]; then
         SKIPPED=$((SKIPPED + 1))
@@ -33,7 +43,7 @@ for f in "${FILES[@]}"; do
     FILE_START=$(date +%s)
     echo "[$DONE/$TOTAL] Processing: ${slug}..."
 
-    if OUTPUT=$(cd pipeline && uv run woograph process "../$f" 2>&1); then
+    if OUTPUT=$(cd pipeline && uv run --no-sync woograph process "../$f" 2>&1); then
         FILE_END=$(date +%s)
         FILE_DURATION=$((FILE_END - FILE_START))
 

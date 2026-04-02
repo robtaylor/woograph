@@ -117,13 +117,21 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
     return (e.data.confidence || 0) >= minConfidence;
   });
 
+  // Second pass: drop nodes that ended up with zero visible edges after filtering
+  const connectedIds = new Set();
+  for (const e of filteredEdges) {
+    connectedIds.add(e.data.source);
+    connectedIds.add(e.data.target);
+  }
+  const finalNodes = filteredNodes.filter(n => connectedIds.has(n.data.id));
+
   // Update visible count in stats bar
   const visibleCount = document.getElementById('stat-visible');
   if (visibleCount) {
-    visibleCount.textContent = `${filteredNodes.length} / ${allNodes.length}`;
+    visibleCount.textContent = `${finalNodes.length} / ${allNodes.length}`;
   }
 
-  const elements = [...filteredNodes, ...filteredEdges];
+  const elements = [...finalNodes, ...filteredEdges];
 
   if (currentCy) {
     currentCy.destroy();

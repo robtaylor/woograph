@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -18,8 +20,26 @@ jobs:
       - name: Install dependencies
         run: cd pipeline && uv sync
 
-      - name: Merge global graph
+      - name: Merge graph fragments
         run: cd pipeline && uv run woograph merge
+
+      - name: Clean noise entities (rule-based)
+        run: cd pipeline && uv run woograph clean
+
+      - name: Clean noise entities (LLM)
+        run: cd pipeline && uv run woograph llm-clean
+
+      - name: Merge person entities
+        run: cd pipeline && uv run woograph merge-people
+
+      - name: Merge organization entities
+        run: cd pipeline && uv run woograph merge-orgs
+
+      - name: Clean non-place entities from Place type
+        run: cd pipeline && uv run woograph llm-clean-places
+
+      - name: Geocode Place entities
+        run: cd pipeline && uv run woograph geocode
 
       - name: Copy graph data to site
         run: |
@@ -27,11 +47,12 @@ jobs:
           cp graph/global.jsonld site/data/
           cp graph/context.jsonld site/data/ 2>/dev/null || true
           cp graph/stats.json site/data/ 2>/dev/null || true
+          cp site/data/geocoded.json site/data/ 2>/dev/null || true
 
       - name: Commit global graph and site data
         run: |
           git config user.name "WooGraph Bot"
           git config user.email "woograph-bot@users.noreply.github.com"
           git add graph/global.jsonld graph/stats.json site/data/
-          git diff --staged --quiet || git commit -m "Merge graph fragments into global.jsonld"
+          git diff --staged --quiet || git commit -m "Rebuild global graph from fragments"
           git push

@@ -836,7 +836,7 @@ def merge_people(ctx: click.Context, dry_run: bool) -> None:
                 click.echo(f"  Failed for {surname}: {exc}")
 
     total_merges = len(id_mapping)
-    click.echo(f"\nResults:")
+    click.echo("\nResults:")
     click.echo(f"  Not people: {len(not_people)}")
     click.echo(f"  Merge mappings: {total_merges}")
     click.echo(f"  Name normalizations: {len(canonical_names)}")
@@ -993,7 +993,7 @@ def merge_orgs(ctx: click.Context, dry_run: bool, batch_size: int) -> None:
             except Exception as exc:
                 click.echo(f"  Batch {batch_idx + 1} failed: {exc}")
 
-    click.echo(f"\nResults:")
+    click.echo("\nResults:")
     click.echo(f"  Not organizations: {len(not_orgs)}")
     click.echo(f"  Merge mappings: {len(id_mapping)}")
     click.echo(f"  Name normalizations: {len(canonical_names)}")
@@ -1040,6 +1040,120 @@ def merge_orgs(ctx: click.Context, dry_run: bool, batch_size: int) -> None:
 
     click.echo(
         f"Merged graph: {stats['total_entities']} entities, "
+        f"{stats['total_relationships']} relationships"
+    )
+
+
+@main.command(name="llm-clean-places")
+@click.option("--batch-size", default=80, help="Place entities per LLM call")
+@click.option("--dry-run", is_flag=True, help="Show what would be removed without modifying")
+@click.pass_context
+def llm_clean_places(ctx: click.Context, batch_size: int, dry_run: bool) -> None:
+    """Use LLM to remove non-place entities from the Place type in the global graph.
+
+    Identifies person surnames, abstract concepts, OCR noise, and other
+    misclassified entities that spaCy tagged as GPE/LOC/FAC but aren't
+    real geographic locations.
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    from woograph.llm.client import create_completion, load_llm_config
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found. Run 'woograph merge' first.")
+        raise SystemExit(1)
+
+    llm_config = load_llm_config()
+    if not llm_config:
+        click.echo("No LLM API key found. Set DEEPSEEK_API_KEY or similar.")
+        raise SystemExit(1)
+
+    graph = json.loads(global_path.read_text())
+    entities = graph.get("entities", [])
+    relationships = graph.get("relationships", [])
+
+    places = [e for e in entities if e.get("@type") == "Place"]
+    click.echo(f"Place entities: {len(places)}")
+
+    if not places:
+        click.echo("No Place entities found.")
+        return
+
+    batches = [places[i:i + batch_size] for i in range(0, len(places), batch_size)]
+    not_place_ids: set[str] = set()
+
+    def classify_batch(batch: list[dict]) -> set[str]:
+        entity_list = "\n".join(f"- {e['name']}" for e in batch)
+        prompt = (
+            "You are classifying named entities extracted by spaCy NER from academic papers "
+            "about parapsychology, consciousness research, and physics.\n\n"
+            "spaCy tagged each of the following as a geographic place (GPE/LOC/FAC). "
+            "For each name, classify it as PLACE (real geographic location: country, city, "
+            "region, building, landmark, body of water, etc.) or NOT_PLACE (person surname, "
+            "abstract concept, academic term, OCR artifact, organization name, "
+            "or anything else that isn't a real geographic place).\n\n"
+            "Names to classify:\n"
+            f"{entity_list}\n\n"
+            "Return a JSON object with the name as key and \"PLACE\" or \"NOT_PLACE\" as value.\n"
+            "Examples of NOT_PLACE: Honorton (surname), Rhines (surname), Bayesian (concept), "
+            "Pharmacology (field), Schocken (publisher surname), Lavoisier (person name).\n"
+            "Examples of PLACE: Princeton, New Jersey, London, the White House, the Nile, USSR."
+        )
+        response = create_completion(llm_config, prompt, max_tokens=4096, json_mode=True)
+        if not response:
+            return set()
+        try:
+            result = json.loads(response)
+            return {
+                e["@id"] for e in batch
+                if result.get(e["name"], "PLACE") == "NOT_PLACE"
+            }
+        except (json.JSONDecodeError, KeyError):
+            return set()
+
+    click.echo(f"Sending {len(batches)} batches to {llm_config.provider}:{llm_config.model}...")
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(classify_batch, batch): i for i, batch in enumerate(batches)}
+        for future in as_completed(futures):
+            batch_idx = futures[future]
+            try:
+                batch_not_place = future.result()
+                not_place_ids.update(batch_not_place)
+                click.echo(f"  Batch {batch_idx + 1}/{len(batches)}: {len(batch_not_place)} non-places")
+            except Exception as exc:
+                click.echo(f"  Batch {batch_idx + 1}/{len(batches)}: failed ({exc})")
+
+    click.echo(f"\nLLM identified {len(not_place_ids)}/{len(places)} non-place entities")
+
+    if dry_run:
+        for e in places:
+            if e["@id"] in not_place_ids:
+                click.echo(f"  REMOVE: {e['name']}")
+        return
+
+    clean_entities = [e for e in entities if e["@id"] not in not_place_ids]
+    clean_rels = [
+        r for r in relationships
+        if (r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]) not in not_place_ids
+        and (r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]) not in not_place_ids
+    ]
+
+    graph["entities"] = clean_entities
+    graph["relationships"] = clean_rels
+    global_path.write_text(json.dumps(graph, indent=2) + "\n")
+
+    from woograph.graph.merge import generate_stats
+    stats = generate_stats(graph)
+    stats_path = repo_root / "graph" / "stats.json"
+    stats_path.write_text(json.dumps(stats, indent=2) + "\n")
+
+    click.echo(
+        f"Cleaned graph: {stats['total_entities']} entities "
+        f"(removed {len(not_place_ids)} non-places), "
         f"{stats['total_relationships']} relationships"
     )
 

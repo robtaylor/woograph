@@ -1,56 +1,25 @@
 name: Process PR Sources
 
 on:
-  pull_request_review:
-    types: [submitted]
   pull_request:
-    types: [synchronize, labeled]
-
-# Only process when PR is ready (saves Actions minutes)
-# Gate: must have "process" label OR receive an approving review
+    types: [opened, synchronize, reopened]
+    paths: ['submissions/**']
 
 concurrency:
   group: process-pr-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  check-gate:
-    runs-on: ubuntu-latest
-    outputs:
-      should_run: ${{ steps.gate.outputs.should_run }}
-    steps:
-      - name: Check approval gate
-        id: gate
-        run: |
-          SHOULD_RUN=false
-
-          # Case 1: An approving review was just submitted
-          if [[ "${{ github.event_name }}" == "pull_request_review" && \
-                "${{ github.event.review.state }}" == "process" ]]; then
-            SHOULD_RUN=true
-          fi
-
-          # Case 2: PR has the "process" label (handles synchronize + labeled events)
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            LABELS='${{ toJSON(github.event.pull_request.labels.*.name) }}'
-            if echo "$LABELS" | grep -q '"process"'; then
-              SHOULD_RUN=true
-            fi
-          fi
-
-          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
-          echo "Gate result: should_run=$SHOULD_RUN"
-
   process:
-    needs: check-gate
-    if: needs.check-gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       WOOGRAPH_PDF_BACKEND: auto
+      MAX_SUBMISSIONS: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -69,13 +38,27 @@ jobs:
           BASE_SHA="${{ github.event.pull_request.base.sha }}"
           HEAD_SHA="${{ github.event.pull_request.head.sha }}"
           FILES=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'submissions/*.yaml' | grep -v '_schema.yaml' || true)
+          COUNT=$(echo "$FILES" | grep -c '.' || true)
+
           {
             echo "files<<EOF"
             echo "$FILES"
             echo "EOF"
+            echo "count=$COUNT"
           } >> "$GITHUB_OUTPUT"
-          echo "Detected submissions:"
+
+          echo "Detected $COUNT submission(s):"
           echo "$FILES"
+
+      - name: Enforce submission limit
+        if: steps.detect.outputs.count != '' && steps.detect.outputs.count != '0'
+        run: |
+          COUNT=${{ steps.detect.outputs.count }}
+          LIMIT=${MAX_SUBMISSIONS}
+          if [ "$COUNT" -gt "$LIMIT" ]; then
+            echo "::error::This PR contains $COUNT submissions, which exceeds the limit of $LIMIT per PR. Please split into smaller PRs."
+            exit 1
+          fi
 
       - name: Process submissions
         if: steps.detect.outputs.files != ''
@@ -87,7 +70,6 @@ jobs:
             uv run woograph process "../$f"
             echo "::endgroup::"
 
-            # Track the fragment path for reporting
             SLUG=$(basename "$f" .yaml)
             FRAG="../graph/fragments/${SLUG}.jsonld"
             if [ -f "$FRAG" ]; then
@@ -106,17 +88,11 @@ jobs:
           SOURCE_COUNT=0
 
           if [ -f /tmp/processed_fragments.txt ]; then
-            REPORT_BODY=""
             while IFS= read -r frag; do
               [ -z "$frag" ] && continue
               SECTION=$(uv run woograph report "$frag")
               REPORT_BODY="${REPORT_BODY}${SECTION}
           "
-            done < /tmp/processed_fragments.txt
-
-            # Compute totals from fragments
-            while IFS= read -r frag; do
-              [ -z "$frag" ] && continue
               ENTS=$(python3 -c "
           import json, sys
           with open(sys.argv[1]) as f: d = json.load(f)
@@ -157,7 +133,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Delete previous bot comment if exists, then post new one
           PR_NUMBER="${{ github.event.pull_request.number }}"
           EXISTING=$(gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
             --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("## WooGraph Extraction Report"))) | .id' \
@@ -166,3 +141,12 @@ jobs:
             gh api -X DELETE "repos/${{ github.repository }}/issues/comments/${EXISTING}" 2>/dev/null || true
           fi
           gh pr comment "$PR_NUMBER" --body "${{ steps.report.outputs.comment }}"
+
+      - name: Label PR on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ github.event.pull_request.number }}" --add-label "processing-failed" || true
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --body "Processing failed — check the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details." || true

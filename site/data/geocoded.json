@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-02T16:18:43.434894+00:00",
+  "generated": "2026-04-02T16:43:53.199700+00:00",
   "places": {
     "entity:place-holland": {
       "name": "Holland",
@@ -19,11 +19,11 @@
     },
     "entity:place-franklin-park": {
       "name": "Franklin Park",
-      "lat": 41.9353084,
-      "lng": -87.865618,
-      "display_name": "Franklin Park, Leyden Township, Cook County, Illinois, United States",
-      "osm_type": "administrative",
-      "confidence": 0.5048
+      "lat": 42.3031715,
+      "lng": -71.0946069,
+      "display_name": "Franklin Park, Roxbury, Boston, Suffolk County, Massachusetts, United States",
+      "osm_type": "park",
+      "confidence": 0.355
     },
     "entity:place-illinois": {
       "name": "Illinois",
@@ -51,10 +51,10 @@
     },
     "entity:place-sheridan-rd": {
       "name": "Sheridan Rd",
-      "lat": 42.2122202,
-      "lng": -87.8164821,
-      "display_name": "Sheridan Road, Fort Sheridan, Highwood, Lake County, Illinois, 60037, United States",
-      "osm_type": "secondary",
+      "lat": 42.101425,
+      "lng": -87.7201826,
+      "display_name": "Sheridan Road, Winnetka, New Trier Township, Cook County, Illinois, 60043, United States",
+      "osm_type": "tertiary",
       "confidence": 0.345
     },
     "entity:place-egypt": {
@@ -195,11 +195,11 @@
     },
     "entity:place-lavoisier": {
       "name": "Lavoisier",
-      "lat": 44.8528735,
-      "lng": -0.6215145,
-      "display_name": "Lavoisier, Caudéran, Bordeaux, Gironde, Nouvelle-Aquitaine, Metropolitan France, 33200, France",
-      "osm_type": "residential",
-      "confidence": 0.1067
+      "lat": -66.1964006,
+      "lng": -66.6785072,
+      "display_name": "Lavoisier Island",
+      "osm_type": "island",
+      "confidence": 0.3119
     },
     "entity:place-cosmos": {
       "name": "Cosmos",
@@ -459,11 +459,11 @@
     },
     "entity:place-loyola": {
       "name": "Loyola",
-      "lat": 37.3488983,
-      "lng": -122.0963146,
-      "display_name": "Loyola, Santa Clara County, California, United States",
-      "osm_type": "census",
-      "confidence": 0.3706
+      "lat": 43.310488,
+      "lng": -1.9679622,
+      "display_name": "Loiola, 28, Urbia kalea, Ciudad Jardín, Loiola, Centro, San Sebastián, Gipuzkoa, Autonomous Community of the Basque Country, 20014, Spain",
+      "osm_type": "station",
+      "confidence": 0.2763
     },
     "entity:place-new-south-wales": {
       "name": "New South Wales",
@@ -523,8 +523,8 @@
     },
     "entity:place-warsaw": {
       "name": "Warsaw",
-      "lat": 52.2333742,
-      "lng": 21.0711489,
+      "lat": 52.2319581,
+      "lng": 21.0067249,
       "display_name": "Warsaw, Masovian Voivodeship, Poland",
       "osm_type": "administrative",
       "confidence": 0.7999
@@ -587,11 +587,11 @@
     },
     "entity:place-kasahara": {
       "name": "Kasahara",
-      "lat": 35.7306105,
-      "lng": 139.7212726,
-      "display_name": "KASAHARA, Kasuga-dori Avenue, Higashi Ikebukuro 3, Higashi Ikebukuro, Toshima, Tokyo, 170-8440, Japan",
-      "osm_type": "parking",
-      "confidence": 0.0001
+      "lat": 36.781516,
+      "lng": 138.359123,
+      "display_name": "Kasahara, Nakano, Nagano Prefecture, 383-0046, Japan",
+      "osm_type": "quarter",
+      "confidence": 0.1334
     },
     "entity:place-japan": {
       "name": "Japan",
@@ -603,8 +603,8 @@
     },
     "entity:place-krakow": {
       "name": "Krakow",
-      "lat": 50.0469432,
-      "lng": 19.9971534,
+      "lat": 50.0619474,
+      "lng": 19.9368564,
       "display_name": "Krakow, Lesser Poland Voivodeship, Poland",
       "osm_type": "administrative",
       "confidence": 0.7537
@@ -811,11 +811,11 @@
     },
     "entity:place-harper": {
       "name": "Harper",
-      "lat": 37.1922068,
-      "lng": -98.0835849,
-      "display_name": "Harper County, Kansas, United States",
+      "lat": 37.2869552,
+      "lng": -98.0257389,
+      "display_name": "Harper, Harper County, Kansas, United States",
       "osm_type": "administrative",
-      "confidence": 0.5425
+      "confidence": 0.4357
     },
     "entity:place-new-jersey": {
       "name": "New Jersey",
@@ -979,11 +979,11 @@
     },
     "entity:place-f-single": {
       "name": "F. Single",
-      "lat": 43.8327777,
-      "lng": 3.1228637,
-      "display_name": "Single, Fondamente, Millau, Aveyron, Occitania, Metropolitan France, 12540, France",
-      "osm_type": "locality",
-      "confidence": 0.0667
+      "lat": 49.0308873,
+      "lng": -0.4242047,
+      "display_name": "Les Moutiers-en-Cinglais, Caen, Calvados, Normandy, Metropolitan France, 14220, France",
+      "osm_type": "administrative",
+      "confidence": 0.5823
     },
     "entity:place-s-d": {
       "name": "S.D.",
@@ -995,9 +995,9 @@
     },
     "entity:place-trubner": {
       "name": "Trubner",
-      "lat": 53.5605205,
-      "lng": 9.8967558,
-      "display_name": "Trübnerweg, Groß Flottbek, Altona, Hamburg, 22607, Germany",
+      "lat": 49.4318964,
+      "lng": 8.6793927,
+      "display_name": "Trübnerstraße, Handschuhsheim, Heidelberg, Baden-Württemberg, 69121, Germany",
       "osm_type": "residential",
       "confidence": 0.0534
     },
@@ -1043,9 +1043,9 @@
     },
     "entity:place-r-g": {
       "name": "R.G.",
-      "lat": -22.9524591,
-      "lng": -43.3419737,
-      "display_name": "Rua G, Anil, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, 22755-145, Brazil",
+      "lat": -22.8192059,
+      "lng": -43.3840691,
+      "display_name": "Rua G, Vila 486, Pavuna, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, 21655-510, Brazil",
       "osm_type": "residential",
       "confidence": 0.0534
     },
@@ -1059,11 +1059,11 @@
     },
     "entity:place-b-j": {
       "name": "B.J.",
-      "lat": 50.400707,
-      "lng": 30.631298,
-      "display_name": "10-й «Б» мікрорайон Позняків, Osokorky, Darnytskyi district, Kyiv, 02141, Ukraine",
-      "osm_type": "neighbourhood",
-      "confidence": 0.4189
+      "lat": -33.9517529,
+      "lng": 24.2969125,
+      "display_name": "B.J. Vorster Hospital, Baken Street, Kagiso Heights, Kou-Kamma Ward 4, Kareedouw, Kou-Kamma Local Municipality, Sarah Baartman District Municipality, Eastern Cape, 6400, South Africa",
+      "osm_type": "hospital",
+      "confidence": 0.2826
     },
     "entity:place-leesburg": {
       "name": "Leesburg",
@@ -1075,11 +1075,11 @@
     },
     "entity:place-alexandria": {
       "name": "Alexandria",
-      "lat": 44.8349534,
-      "lng": 8.7450304,
-      "display_name": "Alessandria, Piedmont, Italy",
+      "lat": 38.8051095,
+      "lng": -77.0470229,
+      "display_name": "Alexandria, Virginia, United States",
       "osm_type": "administrative",
-      "confidence": 0.7231
+      "confidence": 0.6058
     },
     "entity:place-newbury-park": {
       "name": "Newbury Park",
@@ -1179,11 +1179,11 @@
     },
     "entity:place-colquhoun": {
       "name": "Colquhoun",
-      "lat": -37.7584993,
-      "lng": 147.9436789,
-      "display_name": "Colquhoun, Tambo Upper, Shire of East Gippsland, Victoria, 3885, Australia",
-      "osm_type": "locality",
-      "confidence": 0.0667
+      "lat": -37.7732371,
+      "lng": 147.9837259,
+      "display_name": "Colquhoun Hill, Shire of East Gippsland, Victoria, Australia",
+      "osm_type": "peak",
+      "confidence": 0.16
     },
     "entity:place-united-kingdom": {
       "name": "United Kingdom",
@@ -1533,7 +1533,7 @@
       "name": "the Devils Tower",
       "lat": 44.6795515,
       "lng": -104.5925256,
-      "display_name": "The Golf Club at Devils Tower, Pine Street, Hulett, Crook County, Wyoming, 82720, United States",
+      "display_name": "The Golf Club at Devils Tower, Fawn Ridge Road, Hulett, Crook County, Wyoming, 82720, United States",
       "osm_type": "golf_course",
       "confidence": 0.0
     },
@@ -1651,9 +1651,9 @@
     },
     "entity:place-klusman": {
       "name": "Klusman",
-      "lat": 34.1396285,
-      "lng": -117.5952398,
-      "display_name": "Klusman Avenue, Alta Loma, Rancho Cucamonga, San Bernardino County, California, 91737, United States",
+      "lat": 34.1025693,
+      "lng": -117.5953472,
+      "display_name": "Klusman Avenue, Cucamonga, Rancho Cucamonga, San Bernardino County, California, 91730, United States",
       "osm_type": "residential",
       "confidence": 0.0534
     },
@@ -1699,11 +1699,11 @@
     },
     "entity:place-xxvii": {
       "name": "XXVII",
-      "lat": -29.4586738,
-      "lng": -50.6071261,
-      "display_name": "XXVII, Colinas de São Francisco, Distrito Sede, São Francisco de Paula, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Sul, Rio Grande do Sul, South Region, 95400-000, Brazil",
-      "osm_type": "city_block",
-      "confidence": 0.0667
+      "lat": 49.9870087,
+      "lng": 22.0182505,
+      "display_name": "Biała, Rzeszów, Subcarpathian Voivodeship, 35-304, Poland",
+      "osm_type": "administrative",
+      "confidence": 0.1601
     },
     "entity:place-fermi": {
       "name": "Fermi",
@@ -1739,10 +1739,10 @@
     },
     "entity:place-hanover-street": {
       "name": "Hanover Street",
-      "lat": 51.3710407,
-      "lng": -0.1066317,
-      "display_name": "Hanover Street, Broad Green, London Borough of Croydon, Greater London, England, CR0 1RS, United Kingdom",
-      "osm_type": "residential",
+      "lat": 51.5138166,
+      "lng": -0.1423815,
+      "display_name": "Hanover Street, East Marylebone, Mayfair, City of Westminster, Greater London, England, W1S 1YA, United Kingdom",
+      "osm_type": "tertiary",
       "confidence": 0.0534
     },
     "entity:place-palo-alto": {
@@ -1779,11 +1779,11 @@
     },
     "entity:place-kuhn": {
       "name": "Kuhn",
-      "lat": -28.2822863,
-      "lng": -53.4888473,
-      "display_name": "Kuhn, Panambi, Região Geográfica Imediata de Ijuí, Região Geográfica Intermediária de Ijui, Rio Grande do Sul, South Region, Brazil",
-      "osm_type": "administrative",
-      "confidence": 0.1467
+      "lat": 49.6243035,
+      "lng": 9.9015659,
+      "display_name": "Kuhn, Giebelstadt, Verwaltungsgemeinschaft Giebelstadt, Landkreis Würzburg, Bavaria, 97232, Germany",
+      "osm_type": "farmyard",
+      "confidence": 0.1067
     },
     "entity:place-claverie": {
       "name": "Claverie",
@@ -1811,27 +1811,27 @@
     },
     "entity:place-nowa": {
       "name": "Nowa",
-      "lat": 45.4039367,
-      "lng": 0.3756199,
-      "display_name": "Nouvelle-Aquitaine, Metropolitan France, France",
+      "lat": 51.1947599,
+      "lng": 15.5252238,
+      "display_name": "Nowa, gmina Bolesławiec, Bolesławiec County, Lower Silesian Voivodeship, Poland",
       "osm_type": "administrative",
-      "confidence": 0.7502
+      "confidence": 0.3214
     },
     "entity:place-barut": {
       "name": "Barut",
-      "lat": 33.8892265,
-      "lng": 35.5025585,
-      "display_name": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon",
-      "osm_type": "harbour",
-      "confidence": 0.7105
+      "lat": 50.5534397,
+      "lng": 18.4263422,
+      "display_name": "Barut, gmina Jemielnica, Strzelce County, Opole Voivodeship, 47-133, Poland",
+      "osm_type": "village",
+      "confidence": 0.2909
     },
     "entity:place-zanghi": {
       "name": "Zanghi",
-      "lat": 19.6645918,
-      "lng": -72.1224243,
-      "display_name": "Canal zanghi, Bas Déréal, 3e Roucou, Limonade, Commune Limonade, Arrondissement de Cap-Haïtien, Département du Nord, 1130, Haiti",
-      "osm_type": "river",
-      "confidence": 0.1467
+      "lat": 37.5045813,
+      "lng": 15.0732025,
+      "display_name": "Via Bernardo Zanghi, Fortino, Centro storico, Catania, Sicily, 95122, Italy",
+      "osm_type": "residential",
+      "confidence": 0.0534
     },
     "entity:place-zeldovich": {
       "name": "Zeldovich",
@@ -1883,11 +1883,11 @@
     },
     "entity:place-fountain": {
       "name": "Fountain",
-      "lat": 40.125252,
-      "lng": -87.2497418,
-      "display_name": "Fountain County, Indiana, United States",
+      "lat": 38.682219,
+      "lng": -104.7008056,
+      "display_name": "Fountain, El Paso County, Colorado, United States",
       "osm_type": "administrative",
-      "confidence": 0.5305
+      "confidence": 0.5052
     },
     "entity:place-jonas": {
       "name": "Jonas",
@@ -1907,11 +1907,11 @@
     },
     "entity:place-green": {
       "name": "Green.",
-      "lat": 37.2433976,
-      "lng": -85.5346302,
-      "display_name": "Green County, Kentucky, United States",
+      "lat": 40.9468077,
+      "lng": -81.4670631,
+      "display_name": "Green, Summit County, Ohio, United States",
       "osm_type": "administrative",
-      "confidence": 0.5295
+      "confidence": 0.3796
     },
     "entity:place-sampson": {
       "name": "Sampson",
@@ -1947,9 +1947,9 @@
     },
     "entity:place-bucklew": {
       "name": "Bucklew",
-      "lat": 41.7161383,
-      "lng": -83.5962193,
-      "display_name": "Bucklew Drive, Ferndale, Toledo, Lucas County, Ohio, 43613, United States",
+      "lat": 48.943438,
+      "lng": 10.3836449,
+      "display_name": "Bückleweg, Nordhausen, Unterschneidheim, GVV Tannhausen, Ostalbkreis, Baden-Württemberg, 73485, Germany",
       "osm_type": "residential",
       "confidence": 0.0534
     },
@@ -2083,11 +2083,11 @@
     },
     "entity:place-shore": {
       "name": "Shore",
-      "lat": 55.9755513,
-      "lng": -3.1704537,
-      "display_name": "Shore, The Shore, Leith Harbour & Newhaven, City of Edinburgh, Scotland, EH6 6RA, United Kingdom",
-      "osm_type": "unclassified",
-      "confidence": 0.2227
+      "lat": 55.9779027,
+      "lng": -3.1689273,
+      "display_name": "Shore, The Shore, Leith, City of Edinburgh, Scotland, United Kingdom",
+      "osm_type": "square",
+      "confidence": 0.2172
     },
     "entity:place-albuquerque": {
       "name": "Albuquerque",
@@ -2206,7 +2206,7 @@
       "lat": 29.8085513,
       "lng": 31.2062444,
       "display_name": "Red Pyramid, Entrance Al Fayoum Al Hor, Saqara Road, Minshat Dahshur, Giza, 12991, Egypt",
-      "osm_type": "attraction",
+      "osm_type": "yes",
       "confidence": 0.4625
     },
     "entity:place-strabo": {
@@ -2251,11 +2251,11 @@
     },
     "entity:place-baedeker": {
       "name": "Baedeker",
-      "lat": 48.7231158,
-      "lng": 9.2222822,
-      "display_name": "Baedeker, 41, Zeppelinstraße, Gewerbegebiet Kemnat, Kemnat, Ostfildern, Landkreis Esslingen, Baden-Württemberg, 73760, Germany",
-      "osm_type": "publisher",
-      "confidence": 0.0001
+      "lat": 41.7607289,
+      "lng": 12.4649126,
+      "display_name": "Via Carlo Baedeker, Castel di Decima, Municipio Roma IX, Rome, Roma Capitale, Lazio, 00128, Italy",
+      "osm_type": "residential",
+      "confidence": 0.0534
     },
     "entity:place-plainfield": {
       "name": "Plainfield",
@@ -2371,11 +2371,11 @@
     },
     "entity:place-truelove": {
       "name": "Truelove",
-      "lat": 32.4302517,
-      "lng": -97.1020202,
-      "display_name": "Truelove, Venus, Johnson County, Texas, United States",
-      "osm_type": "residential",
-      "confidence": 0.1067
+      "lat": 53.7402618,
+      "lng": -0.3309281,
+      "display_name": "TRUELOVE, Rotenhering Staith, Garrison Side, Old Town, Hull, Kingston upon Hull, Hull and East Yorkshire, England, HU1 1BH, United Kingdom",
+      "osm_type": "artwork",
+      "confidence": 0.0001
     },
     "entity:place-fort-bliss": {
       "name": "Fort Bliss",
@@ -2419,11 +2419,11 @@
     },
     "entity:place-alamagordo": {
       "name": "Alamagordo",
-      "lat": 42.9149211,
-      "lng": -71.3997433,
-      "display_name": "Alamagordo Boulevard, Bockmon, North Londonderry, Londonderry, Rockingham County, New Hampshire, 03053, United States",
-      "osm_type": "residential",
-      "confidence": 0.0534
+      "lat": 32.8992517,
+      "lng": -105.9591133,
+      "display_name": "Alamagordo Pizza & Burgers, North New York Avenue, Alamogordo, Otero County, New Mexico, 88310, United States",
+      "osm_type": "restaurant",
+      "confidence": 0.0001
     },
     "entity:place-san-agustin": {
       "name": "San Agustin",
@@ -2483,11 +2483,11 @@
     },
     "entity:place-modern-america": {
       "name": "Modern America",
-      "lat": 37.785915,
-      "lng": -122.4007359,
-      "display_name": "San Francisco Museum of Modern Art, 151, 3rd Street, Transbay, Union Square, South of Market, San Francisco, California, 94103, United States",
+      "lat": 40.7616124,
+      "lng": -73.9774992,
+      "display_name": "MoMA, 11, West 53rd Street, Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
       "osm_type": "museum",
-      "confidence": 0.5357
+      "confidence": 0.66
     },
     "entity:place-new-haven": {
       "name": "New Haven",
@@ -2507,11 +2507,11 @@
     },
     "entity:place-grossman": {
       "name": "Grossman",
-      "lat": 52.2424892,
-      "lng": 20.951613,
-      "display_name": "Staw I, Koło, Wola, Warsaw, Masovian Voivodeship, Poland",
-      "osm_type": "water",
-      "confidence": 0.1068
+      "lat": 25.6148285,
+      "lng": -80.583948,
+      "display_name": "Grossman Hammock, Miami-Dade County, Florida, United States",
+      "osm_type": "island",
+      "confidence": 0.1733
     },
     "entity:place-hague": {
       "name": "Hague",
@@ -2563,11 +2563,11 @@
     },
     "entity:place-southwest": {
       "name": "Southwest",
-      "lat": 5.0577606,
-      "lng": 9.2289407,
-      "display_name": "Southwest, Cameroon",
+      "lat": 44.9123474,
+      "lng": -93.3010387,
+      "display_name": "Southwest, Minneapolis, Hennepin County, Minnesota, United States",
       "osm_type": "administrative",
-      "confidence": 0.514
+      "confidence": 0.3146
     },
     "entity:place-ziegler": {
       "name": "Ziegler",
@@ -2925,22 +2925,22 @@
     {
       "id": "entity:place-the-playboy-building",
       "name": "The Playboy Building",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-honorton",
       "name": "Honorton",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-bisaha",
       "name": "Bisaha",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-psi-favorable-states-of-consciousness",
       "name": "Psi Favorable States of Consciousness",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-nature-of-extrasensory-perception",
@@ -2955,7 +2955,7 @@
     {
       "id": "entity:place-wisest",
       "name": "Wisest",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-parascience-conference-london",
@@ -2965,32 +2965,32 @@
     {
       "id": "entity:place-kubrin",
       "name": "Kubrin",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-participant-10",
       "name": "Participant 10",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-louchcrew",
       "name": "Louchcrew",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-loughcrew-l-composite",
       "name": "Loughcrew L - composite",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-physics-bulletin",
       "name": "Physics Bulletin",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-blasband",
       "name": "Blasband",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-john-m-clayton-hall",
@@ -3000,17 +3000,17 @@
     {
       "id": "entity:place-rosebow",
       "name": "Rosebow",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-porkishe",
       "name": "Porkishe",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-morgestraich",
       "name": "Morgestraich",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-global-event",
@@ -3020,12 +3020,12 @@
     {
       "id": "entity:place-frivoid",
       "name": "Frivoid",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-shahverdiev",
       "name": "Shahverdiev",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-vienna-circle",
@@ -3035,7 +3035,7 @@
     {
       "id": "entity:place-schre-dinger",
       "name": "Schrédinger",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-higgs-field",
@@ -3045,37 +3045,37 @@
     {
       "id": "entity:place-seppa-la-inen",
       "name": "Seppäläinen",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-thisview",
       "name": "Thisview",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-laurikainen",
       "name": "Laurikainen",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-kestenman",
       "name": "Kestenman",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-great-pyramid-decoded",
       "name": "The Great Pyramid Decoded",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-sos-bic-sareea",
       "name": "SOS Bic Sareea",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-rupthro",
       "name": "RupThro",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-srey-sie",
@@ -3085,7 +3085,7 @@
     {
       "id": "entity:place-roswell-army-airfield",
       "name": "Roswell Army Airfield",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-roswell-army-air-base",
@@ -3095,32 +3095,32 @@
     {
       "id": "entity:place-extraterrestrials",
       "name": "Extraterrestrials",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-klass-files-pdf",
       "name": "Klass Files\"(PDF",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-fort-worth-star-telegram-morning",
       "name": "Fort Worth Star-Telegram(Morning",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-washington-decoded",
       "name": "Washington Decoded",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-penske-media",
       "name": "Penske Media",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-roswell-and-chimayo",
       "name": "Roswell and Chimayó",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     },
     {
       "id": "entity:place-the-united-statesjuly-1947",
@@ -3135,7 +3135,7 @@
     {
       "id": "entity:place-new-mexicoufo",
       "name": "New MexicoUFO",
-      "reason": "no_results_cached"
+      "reason": "no_results"
     }
   ],
   "stats": {

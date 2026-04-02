@@ -1050,7 +1050,12 @@ def merge_orgs(ctx: click.Context, dry_run: bool, batch_size: int) -> None:
 @click.option("--delay", default=1.1, type=float, help="Delay between Nominatim requests (seconds)")
 @click.pass_context
 def geocode(ctx: click.Context, dry_run: bool, force: bool, delay: float) -> None:
-    """Geocode Place entities using OpenStreetMap Nominatim."""
+    """Geocode Place entities using OpenStreetMap Nominatim.
+
+    Ambiguous results (where top candidates have similar importance scores)
+    are automatically disambiguated using the LLM with context from the source
+    documents.
+    """
     from woograph.geocode import (
         geocode_all,
         load_place_entities,
@@ -1064,12 +1069,20 @@ def geocode(ctx: click.Context, dry_run: bool, force: bool, delay: float) -> Non
         click.echo("No global.jsonld found. Run 'woograph merge' first.")
         raise SystemExit(1)
 
+    # Load LLM config for disambiguation (optional — falls back to importance ranking)
+    llm_config = load_llm_config()
+    if llm_config:
+        click.echo(f"LLM disambiguation enabled ({llm_config.provider}:{llm_config.model})")
+    else:
+        click.echo("No LLM API key found — disambiguation disabled, using importance ranking only")
+
     places = load_place_entities(global_path)
     click.echo(f"Found {len(places)} Place entities")
 
     cache_dir = repo_root / "pipeline" / ".geocache"
     successes, failures = geocode_all(
-        places, cache_dir=cache_dir, delay=delay, force=force, dry_run=dry_run
+        places, cache_dir=cache_dir, delay=delay, force=force,
+        dry_run=dry_run, llm_config=llm_config,
     )
 
     if dry_run:

@@ -44,7 +44,7 @@ export function initFilters(cy, entityTypes) {
       } else {
         activeTypes.delete(type);
       }
-      applyFilters(cy, activeTypes, parseFloat(confidenceSlider.value));
+      applyFilters(cy, activeTypes, parseFloat(confidenceSlider?.value || '0'), parseInt(document.getElementById('degree-slider')?.value || '0'));
     });
   }
 
@@ -55,7 +55,7 @@ export function initFilters(cy, entityTypes) {
         cb.checked = true;
         activeTypes.add(cb.dataset.type);
       });
-      applyFilters(cy, activeTypes, parseFloat(confidenceSlider.value));
+      applyFilters(cy, activeTypes, parseFloat(confidenceSlider?.value || '0'), parseInt(document.getElementById('degree-slider')?.value || '0'));
     });
   }
 
@@ -65,7 +65,7 @@ export function initFilters(cy, entityTypes) {
         cb.checked = false;
         activeTypes.delete(cb.dataset.type);
       });
-      applyFilters(cy, activeTypes, parseFloat(confidenceSlider.value));
+      applyFilters(cy, activeTypes, parseFloat(confidenceSlider?.value || '0'), parseInt(document.getElementById('degree-slider')?.value || '0'));
     });
   }
 
@@ -76,32 +76,67 @@ export function initFilters(cy, entityTypes) {
       if (confidenceValue) {
         confidenceValue.textContent = val.toFixed(2);
       }
-      applyFilters(cy, activeTypes, val);
+      applyFilters(cy, activeTypes, val, parseInt(degreeSlider?.value || '0'));
+    });
+  }
+
+  // Min connections (degree) filter
+  const degreeSlider = document.getElementById('degree-slider');
+  const degreeValue = document.getElementById('degree-value');
+
+  if (degreeSlider) {
+    // Apply initial degree filter
+    applyFilters(cy, activeTypes, parseFloat(confidenceSlider?.value || '0'), parseInt(degreeSlider.value));
+
+    degreeSlider.addEventListener('input', () => {
+      const val = parseInt(degreeSlider.value);
+      if (degreeValue) {
+        degreeValue.textContent = val;
+      }
+      applyFilters(cy, activeTypes, parseFloat(confidenceSlider?.value || '0'), val);
     });
   }
 }
 
 /**
- * Apply type and confidence filters to the graph.
+ * Apply type, confidence, and degree filters to the graph.
  */
-function applyFilters(cy, activeTypes, minConfidence) {
+function applyFilters(cy, activeTypes, minConfidence, minDegree = 0) {
   cy.batch(() => {
-    // Filter nodes by type
+    // First pass: determine node visibility by type
     cy.nodes().forEach(node => {
       const type = node.data('type');
-      if (activeTypes.has(type)) {
+      node.data('typeVisible', activeTypes.has(type));
+    });
+
+    // Second pass: calculate visible degree for each node
+    // (count edges where both ends pass the type filter and confidence threshold)
+    const visibleDegree = new Map();
+    cy.edges().forEach(edge => {
+      const confidence = edge.data('confidence') || 0;
+      if (confidence < minConfidence) return;
+      if (!edge.source().data('typeVisible') || !edge.target().data('typeVisible')) return;
+      visibleDegree.set(edge.source().id(), (visibleDegree.get(edge.source().id()) || 0) + 1);
+      visibleDegree.set(edge.target().id(), (visibleDegree.get(edge.target().id()) || 0) + 1);
+    });
+
+    // Third pass: apply all filters
+    cy.nodes().forEach(node => {
+      const typeOk = node.data('typeVisible');
+      const degree = visibleDegree.get(node.id()) || 0;
+      const degreeOk = degree >= minDegree;
+      if (typeOk && degreeOk) {
         node.removeClass('hidden');
       } else {
         node.addClass('hidden');
       }
     });
 
-    // Filter edges by confidence and connected node visibility
+    // Filter edges by confidence and node visibility
     cy.edges().forEach(edge => {
       const confidence = edge.data('confidence') || 0;
       const sourceVisible = !edge.source().hasClass('hidden');
       const targetVisible = !edge.target().hasClass('hidden');
-
       if (sourceVisible && targetVisible && confidence >= minConfidence) {
         edge.removeClass('hidden');
       } else {

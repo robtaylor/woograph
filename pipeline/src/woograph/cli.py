@@ -495,9 +495,39 @@ def clean(ctx: click.Context) -> None:
     type_merges = len(merged_ids)
     click.echo(f"Type dedup: {type_merges} entities merged, {len(clean_rels) - len(deduped_rels)} duplicate relationships removed")
 
+    # --- 3. Remove orphan entities (no visible edges after Source/mentionedIn filtering) ---
+    source_entity_ids = {e["@id"] for e in deduped_entities if e.get("@type") == "woo:Source"}
+    linked_ids: set[str] = set()
+    for r in deduped_rels:
+        pred = r.get("predicate", "")
+        if pred == "woo:mentionedIn":
+            continue
+        sid = r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]
+        oid = r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]
+        if sid in source_entity_ids or oid in source_entity_ids:
+            continue
+        linked_ids.add(sid)
+        linked_ids.add(oid)
+
+    orphan_ids: set[str] = set()
+    final_entities: list[dict] = []
+    for e in deduped_entities:
+        if e.get("@type") == "woo:Source" or e["@id"] in linked_ids:
+            final_entities.append(e)
+        else:
+            orphan_ids.add(e["@id"])
+
+    final_rels = [
+        r for r in deduped_rels
+        if (r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]) not in orphan_ids
+        and (r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]) not in orphan_ids
+    ]
+
+    click.echo(f"Orphan removal: {len(orphan_ids)} disconnected entities removed")
+
     # --- Write cleaned graph ---
-    graph["entities"] = deduped_entities
-    graph["relationships"] = deduped_rels
+    graph["entities"] = final_entities
+    graph["relationships"] = final_rels
     global_path.write_text(json.dumps(graph, indent=2) + "\n")
 
     # Update stats

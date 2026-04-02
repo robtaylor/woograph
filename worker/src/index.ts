@@ -68,7 +68,8 @@ function parseCookies(request: Request): Record<string, string> {
 }
 
 function sessionCookie(sessionId: string, maxAge: number): string {
-	return `wg_session=${sessionId}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=${maxAge}`;
+	// SameSite=None required for cross-site fetch (github.io → workers.dev)
+	return `wg_session=${sessionId}; HttpOnly; Secure; SameSite=None; Path=/; Max-Age=${maxAge}`;
 }
 
 // ── Session helpers ───────────────────────────────────────────────────────────

@@ -64,18 +64,28 @@ jobs:
         if: steps.detect.outputs.files != ''
         run: |
           cd pipeline
+          FAILED=0
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             echo "::group::Processing $f"
-            uv run woograph process "../$f"
-            echo "::endgroup::"
-
-            SLUG=$(basename "$f" .yaml)
-            FRAG="../graph/fragments/${SLUG}.jsonld"
-            if [ -f "$FRAG" ]; then
-              echo "$FRAG" >> /tmp/processed_fragments.txt
+            if uv run woograph process "../$f"; then
+              SLUG=$(basename "$f" .yaml)
+              FRAG="../graph/fragments/${SLUG}.jsonld"
+              if [ -f "$FRAG" ]; then
+                echo "$FRAG" >> /tmp/processed_fragments.txt
+              fi
+            else
+              echo "::error::Failed to process $f — skipping"
+              echo "$f" >> /tmp/failed_submissions.txt
+              FAILED=$((FAILED + 1))
             fi
+            echo "::endgroup::"
           done <<< "${{ steps.detect.outputs.files }}"
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "::warning::$FAILED submission(s) failed to process"
+            exit 1
+          fi
 
       - name: Generate extraction report
         id: report
@@ -109,6 +119,11 @@ jobs:
             done < /tmp/processed_fragments.txt
           fi
 
+          FAILED_LIST=""
+          if [ -f /tmp/failed_submissions.txt ]; then
+            FAILED_LIST=$(cat /tmp/failed_submissions.txt | sed 's/^/- `/' | sed 's/$/`/')
+          fi
+
           {
             echo "comment<<REPORT_EOF"
             echo "## WooGraph Extraction Report"
@@ -116,6 +131,11 @@ jobs:
             echo "$REPORT_BODY"
             echo "---"
             echo "**Total**: ${TOTAL_ENTITIES} new entities, ${TOTAL_RELS} relationships across ${SOURCE_COUNT} source(s)"
+            if [ -n "$FAILED_LIST" ]; then
+              echo ""
+              echo "### Failed"
+              echo "$FAILED_LIST"
+            fi
             echo "REPORT_EOF"
           } >> "$GITHUB_OUTPUT"
 

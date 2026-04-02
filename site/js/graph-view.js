@@ -157,7 +157,6 @@ export function initGraphView(container, elements) {
     layout: LAYOUT_OPTIONS.cose,
     minZoom: 0.1,
     maxZoom: 5,
-    wheelSensitivity: 0.3,
   });
 
   // Hover: highlight connected nodes and show labels via classes

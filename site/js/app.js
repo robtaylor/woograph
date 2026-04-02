@@ -67,11 +67,8 @@ async function main() {
   // Set up filters (they call renderGraph on change)
   initFilters(null, entityTypes, renderGraph.bind(null, graphContainer));
 
-  // Initialize search (works on current cy instance)
+  // Initialize search (works on current cy instance via ref)
   initSearch({ get: () => currentCy });
-
-  // Initialize detail panel
-  initDetailPanel({ get: () => currentCy });
 }
 
 /**
@@ -104,7 +101,7 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
     currentCy.destroy();
   }
   currentCy = initGraphView(container, elements);
-  initDetailPanel({ get: () => currentCy });
+  initDetailPanel(currentCy);
 }
 
 function setupTabs() {

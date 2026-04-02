@@ -390,6 +390,20 @@ def clean(ctx: click.Context) -> None:
         re.compile(r"^(br|nbsp)>"),                # HTML artifacts
     ]
 
+    common_words = {
+        "east", "west", "north", "south", "new", "old",
+        "general", "special", "local", "remote", "total", "standard",
+        "statistical", "manuscript", "symposia", "symposium",
+        "baseline", "random", "normal", "primary", "secondary",
+        "analysis", "method", "methods", "model", "models",
+        "theory", "experiment", "experiments", "result", "results",
+        "data", "system", "process", "field", "fields", "effect",
+        "effects", "series", "trial", "trials", "operator", "operators",
+        "appendix", "abstract", "summary", "review", "note", "notes",
+        "letter", "comment", "comments", "reply", "response",
+        "proceedings", "conference", "workshop", "seminar",
+    }
+
     def is_noise(entity: dict) -> bool:
         if entity.get("@type") == "woo:Source":
             return False
@@ -398,6 +412,14 @@ def clean(ctx: click.Context) -> None:
             return True
         alpha_ratio = sum(c.isalpha() or c.isspace() for c in name) / max(len(name), 1)
         if alpha_ratio < 0.5:
+            return True
+        if name.lower() in common_words:
+            return True
+        # Vague dates without a year
+        if entity.get("@type") == "Date" and not re.search(r"\b(1[5-9]\d{2}|20[0-2]\d)\b", name):
+            return True
+        # Trailing comma (citation artifact)
+        if name.endswith(","):
             return True
         return any(p.search(name) for p in noise_patterns)
 

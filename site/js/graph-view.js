@@ -69,6 +69,13 @@ export function initGraphView(container, elements) {
           'border-color': 'data(color)',
           'border-opacity': 0.3,
           'overlay-padding': 4,
+          'color': '#e8e8e8',
+          'text-outline-color': '#1a1a2e',
+          'text-outline-width': 1.5,
+          'font-size': '9px',
+          'text-valign': 'bottom',
+          'text-halign': 'center',
+          'text-margin-y': 4,
         },
       },
       // Show labels only on hover or for high-degree nodes

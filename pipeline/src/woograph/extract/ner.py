@@ -43,7 +43,23 @@ _REFERENCE_PATTERNS = [
     re.compile(r"century$", re.IGNORECASE),  # "21st century", "first century"
     re.compile(r"^\d+(st|nd|rd|th)\s", re.IGNORECASE),  # "21st century"
     re.compile(r"years?\s+ago", re.IGNORECASE),  # "some years ago"
+    re.compile(r",$"),                                   # trailing comma ("John,")
 ]
+
+# Common English words misclassified as entities
+_COMMON_WORDS = frozenset({
+    "east", "west", "north", "south", "new", "old",
+    "general", "special", "local", "remote", "total", "standard",
+    "statistical", "manuscript", "symposia", "symposium",
+    "baseline", "random", "normal", "primary", "secondary",
+    "analysis", "method", "methods", "model", "models",
+    "theory", "experiment", "experiments", "result", "results",
+    "data", "system", "process", "field", "fields", "effect",
+    "effects", "series", "trial", "trials", "operator", "operators",
+    "appendix", "abstract", "summary", "review", "note", "notes",
+    "letter", "comment", "comments", "reply", "response",
+    "proceedings", "conference", "workshop", "seminar",
+})
 
 # Noise entities loaded from config file (fallback to empty set)
 _noise_entities: frozenset[str] | None = None
@@ -171,6 +187,10 @@ def extract_entities(markdown_text: str, source_id: str) -> list[Entity]:
 
         # Filter known noise entities
         if name.lower() in _get_noise_entities():
+            continue
+
+        # Filter common English words misclassified as entities
+        if name.lower() in _COMMON_WORDS:
             continue
 
         # Filter entities that are mostly non-alpha (OCR garbage)

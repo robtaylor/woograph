@@ -9,3 +9,7 @@ MAX_FILE_SIZE = "104857600"  # 100MB
 [[r2_buckets]]
 binding = "BUCKET"
 bucket_name = "woograph-uploads"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "PLACEHOLDER_KV_ID"  # Replace after: wrangler kv:namespace create SESSIONS

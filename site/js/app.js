@@ -141,11 +141,18 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
 }
 
 async function initMap() {
+  console.log('[map] initMap start, allNodes:', allNodes.length);
   const loadingMsg = document.getElementById('map-loading');
   if (loadingMsg) loadingMsg.style.display = 'block';
 
-  initMapView();
+  try {
+    initMapView();
+  } catch (err) {
+    console.error('[map] initMapView threw:', err);
+    return;
+  }
   geocodedData = await loadGeocodedData();
+  console.log('[map] geocodedData loaded:', !!geocodedData, geocodedData?.stats);
 
   if (loadingMsg) loadingMsg.style.display = 'none';
 

@@ -31,7 +31,8 @@ export function initMapView() {
   if (map) return;
 
   const container = document.getElementById('map-container');
-  if (!container) return;
+  if (!container) { console.error('[map] #map-container not found'); return; }
+  console.log('[map] initMapView, container size:', container.offsetWidth, 'x', container.offsetHeight);
 
   map = L.map('map-container', {
     center: [20, 0],
@@ -45,6 +46,7 @@ export function initMapView() {
     maxZoom: 19,
   }).addTo(map);
 
+  console.log('[map] L available:', typeof L !== 'undefined', '| markerClusterGroup:', typeof L.markerClusterGroup);
   // Marker cluster group (fall back to plain LayerGroup if plugin not loaded)
   if (typeof L.markerClusterGroup === 'function') {
     markerClusterGroup = L.markerClusterGroup({
@@ -89,11 +91,12 @@ let _lastRenderArgs = null;
  * @param {Array} allEdges - all edges for connection data
  */
 export function renderMapMarkers(placeNodes, geocoded, placeEdgeIndex, allEdges) {
-  if (!map || !geocoded) return;
+  if (!map || !geocoded) { console.warn('[map] renderMapMarkers: map=', !!map, 'geocoded=', !!geocoded); return; }
 
   _lastRenderArgs = [placeNodes, geocoded, placeEdgeIndex, allEdges];
 
   const places = geocoded.places || {};
+  console.log('[map] renderMapMarkers: placeNodes=', placeNodes.length, '| geocoded places=', Object.keys(places).length);
 
   // Build markers
   markerClusterGroup.clearLayers();
@@ -109,6 +112,7 @@ export function renderMapMarkers(placeNodes, geocoded, placeEdgeIndex, allEdges)
     visibleMarkers.push({ node, geo });
   }
 
+  console.log('[map] markers added:', visibleMarkers.length);
   // Update stats overlay
   const countEl = document.getElementById('map-place-count');
   if (countEl) countEl.textContent = visibleMarkers.length;

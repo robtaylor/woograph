@@ -7,6 +7,12 @@ import { initGraphView, updateLayout } from './graph-view.js';
 import { initFilters, initSearch } from './filters.js';
 import { initDetailPanel } from './detail-panel.js';
 
+// Store full data globally so filters can rebuild the graph
+let allNodes = [];
+let allEdges = [];
+let entityTypes = new Map();
+let currentCy = null;
+
 async function main() {
   const graphContainer = document.getElementById('cy');
   const loadingOverlay = document.getElementById('loading');
@@ -23,6 +29,10 @@ async function main() {
     loadStats(),
   ]);
 
+  allNodes = graphData.nodes;
+  allEdges = graphData.edges;
+  entityTypes = graphData.entityTypes;
+
   // Update stats bar
   updateStatsBar(stats, graphData);
 
@@ -32,23 +42,69 @@ async function main() {
   }
 
   // Check for empty graph
-  if (graphData.nodes.length === 0) {
+  if (allNodes.length === 0) {
     showEmptyState(graphContainer);
     return;
   }
 
-  // Initialize Cytoscape
-  const elements = [...graphData.nodes, ...graphData.edges];
-  const cy = initGraphView(graphContainer, elements);
+  // Pre-compute degree for each node
+  const nodeDegree = new Map();
+  for (const edge of allEdges) {
+    const src = edge.data.source;
+    const tgt = edge.data.target;
+    nodeDegree.set(src, (nodeDegree.get(src) || 0) + 1);
+    nodeDegree.set(tgt, (nodeDegree.get(tgt) || 0) + 1);
+  }
+  // Attach degree to node data
+  for (const node of allNodes) {
+    node.data.degree = nodeDegree.get(node.data.id) || 0;
+  }
 
-  // Initialize filters
-  initFilters(cy, graphData.entityTypes);
+  // Initial render with degree filter
+  const defaultMinDegree = parseInt(document.getElementById('degree-slider')?.value || '3');
+  renderGraph(graphContainer, defaultMinDegree, 0);
 
-  // Initialize search
-  initSearch(cy);
+  // Set up filters (they call renderGraph on change)
+  initFilters(null, entityTypes, renderGraph.bind(null, graphContainer));
+
+  // Initialize search (works on current cy instance)
+  initSearch({ get: () => currentCy });
 
   // Initialize detail panel
-  initDetailPanel(cy);
+  initDetailPanel({ get: () => currentCy });
+}
+
+/**
+ * Render the graph with only the elements that pass the filters.
+ * Recreates the Cytoscape instance each time (faster than hiding 4000 nodes).
+ */
+function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
+  // Filter nodes
+  const filteredNodes = allNodes.filter(n => {
+    if (activeTypes && !activeTypes.has(n.data.type)) return false;
+    return n.data.degree >= minDegree;
+  });
+  const visibleIds = new Set(filteredNodes.map(n => n.data.id));
+
+  // Filter edges: both ends visible + confidence threshold
+  const filteredEdges = allEdges.filter(e => {
+    if (!visibleIds.has(e.data.source) || !visibleIds.has(e.data.target)) return false;
+    return (e.data.confidence || 0) >= minConfidence;
+  });
+
+  // Update visible count in stats bar
+  const visibleCount = document.getElementById('stat-visible');
+  if (visibleCount) {
+    visibleCount.textContent = `${filteredNodes.length} / ${allNodes.length}`;
+  }
+
+  const elements = [...filteredNodes, ...filteredEdges];
+
+  if (currentCy) {
+    currentCy.destroy();
+  }
+  currentCy = initGraphView(container, elements);
+  initDetailPanel({ get: () => currentCy });
 }
 
 function setupTabs() {

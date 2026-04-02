@@ -3,9 +3,16 @@
 import logging
 from pathlib import Path
 
+import requests
 import trafilatura
 
 logger = logging.getLogger(__name__)
+
+_BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36"
+)
 
 
 def convert_url(url: str, output_dir: Path) -> Path:
@@ -32,12 +39,17 @@ def convert_url(url: str, output_dir: Path) -> Path:
 
     logger.info("Fetching URL: %s", url)
 
-    downloaded = trafilatura.fetch_url(url)
-    if downloaded is None:
-        raise RuntimeError(f"Failed to fetch URL: {url}")
+    resp = requests.get(
+        url,
+        headers={"User-Agent": _BROWSER_UA},
+        timeout=30,
+        allow_redirects=True,
+    )
+    if not resp.ok:
+        raise RuntimeError(f"not a 200 response: {resp.status_code} for URL {url}")
 
     extracted = trafilatura.extract(
-        downloaded,
+        resp.text,
         output_format="txt",
         include_links=True,
         include_tables=True,

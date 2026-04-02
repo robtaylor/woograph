@@ -5,32 +5,38 @@
 const LAYOUT_OPTIONS = {
   cose: {
     name: 'cose',
-    animate: true,
-    animationDuration: 500,
-    nodeRepulsion: 8000,
-    idealEdgeLength: 120,
-    gravity: 0.25,
-    numIter: 1000,
-    padding: 40,
+    animate: false,
+    nodeRepulsion: 10000,
+    idealEdgeLength: 80,
+    gravity: 0.5,
+    numIter: 300,
+    padding: 30,
+    nodeOverlap: 20,
+    randomize: true,
   },
   circle: {
     name: 'circle',
-    animate: true,
-    animationDuration: 500,
+    animate: false,
     padding: 40,
   },
   grid: {
     name: 'grid',
-    animate: true,
-    animationDuration: 500,
+    animate: false,
     padding: 40,
   },
   breadthfirst: {
     name: 'breadthfirst',
-    animate: true,
-    animationDuration: 500,
+    animate: false,
     padding: 40,
     spacingFactor: 1.25,
+  },
+  concentric: {
+    name: 'concentric',
+    animate: false,
+    padding: 30,
+    minNodeSpacing: 30,
+    concentric: function(node) { return node.data('degree') || 0; },
+    levelWidth: function() { return 3; },
   },
 };
 
@@ -55,28 +61,41 @@ export function initGraphView(container, elements) {
       {
         selector: 'node',
         style: {
-          'label': 'data(label)',
+          'label': '',
           'background-color': 'data(color)',
           'width': 'data(size)',
           'height': 'data(size)',
-          'font-size': '10px',
+          'border-width': 1,
+          'border-color': 'data(color)',
+          'border-opacity': 0.3,
+          'overlay-padding': 4,
+        },
+      },
+      // Show labels only on hover or for high-degree nodes
+      {
+        selector: 'node[degree >= 10]',
+        style: {
+          'label': 'data(label)',
+          'font-size': '9px',
           'color': '#e8e8e8',
+          'text-outline-color': '#1a1a2e',
+          'text-outline-width': 1.5,
+          'text-valign': 'bottom',
+          'text-halign': 'center',
+          'text-margin-y': 4,
+        },
+      },
+      {
+        selector: 'node:active, node:selected',
+        style: {
+          'label': 'data(label)',
+          'font-size': '11px',
+          'color': '#ffffff',
           'text-outline-color': '#1a1a2e',
           'text-outline-width': 2,
           'text-valign': 'bottom',
           'text-halign': 'center',
-          'text-margin-y': 6,
-          'border-width': 2,
-          'border-color': 'data(color)',
-          'border-opacity': 0.4,
-          'overlay-padding': 4,
-          'transition-property': 'opacity, border-width',
-          'transition-duration': '150ms',
-        },
-      },
-      {
-        selector: 'node:selected',
-        style: {
+          'text-margin-y': 5,
           'border-width': 4,
           'border-color': '#ffffff',
           'border-opacity': 1,
@@ -85,29 +104,28 @@ export function initGraphView(container, elements) {
       {
         selector: 'edge',
         style: {
-          'label': 'data(label)',
           'width': 'data(width)',
-          'line-color': '#4a4a6a',
-          'target-arrow-color': '#4a4a6a',
+          'line-color': '#3a3a5a',
+          'target-arrow-color': '#3a3a5a',
           'target-arrow-shape': 'triangle',
-          'curve-style': 'bezier',
-          'font-size': '9px',
-          'color': '#8888aa',
-          'text-outline-color': '#1a1a2e',
-          'text-outline-width': 1.5,
-          'text-rotation': 'autorotate',
+          'curve-style': 'haystack',
           'opacity': 'data(opacity)',
-          'arrow-scale': 0.8,
-          'transition-property': 'opacity, line-color',
-          'transition-duration': '150ms',
+          'arrow-scale': 0.6,
         },
       },
       {
         selector: 'edge:selected',
         style: {
+          'label': 'data(label)',
+          'font-size': '9px',
+          'color': '#8888aa',
+          'text-outline-color': '#1a1a2e',
+          'text-outline-width': 1.5,
+          'text-rotation': 'autorotate',
           'line-color': '#4FC3F7',
           'target-arrow-color': '#4FC3F7',
           'opacity': 1,
+          'curve-style': 'bezier',
         },
       },
       // Dimmed state for non-highlighted elements
@@ -138,16 +156,27 @@ export function initGraphView(container, elements) {
     wheelSensitivity: 0.3,
   });
 
-  // Hover: highlight connected nodes
+  // Hover: highlight connected nodes and show labels
   cyInstance.on('mouseover', 'node', (evt) => {
     const node = evt.target;
     const neighborhood = node.closedNeighborhood();
-    cyInstance.elements().addClass('dimmed');
-    neighborhood.removeClass('dimmed').addClass('highlighted');
+    cyInstance.batch(() => {
+      cyInstance.elements().addClass('dimmed');
+      neighborhood.removeClass('dimmed').addClass('highlighted');
+      // Show labels on hovered neighborhood
+      neighborhood.nodes().style('label', (n) => n.data('label'));
+      neighborhood.edges().style('label', (e) => e.data('label'));
+    });
   });
 
   cyInstance.on('mouseout', 'node', () => {
-    cyInstance.elements().removeClass('dimmed highlighted');
+    cyInstance.batch(() => {
+      cyInstance.elements().removeClass('dimmed highlighted');
+      // Reset labels (only high-degree keep labels)
+      cyInstance.nodes().style('label', '');
+      cyInstance.nodes('[degree >= 10]').style('label', (n) => n.data('label'));
+      cyInstance.edges().style('label', '');
+    });
   });
 
   return cyInstance;

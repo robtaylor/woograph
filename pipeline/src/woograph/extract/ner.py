@@ -37,6 +37,12 @@ _REFERENCE_PATTERNS = [
     re.compile(r"^(br|nbsp)>"),                   # HTML artifacts
     re.compile(r"^(Fig|Std|Dev|Int|Sec|Ref|Eq)\.?$", re.IGNORECASE),  # abbreviations
     re.compile(r"^(al|ed|eds|vol|nos?)\.?$", re.IGNORECASE),  # citation abbreviations
+    re.compile(r"^(Table|Figure|Fig)\s", re.IGNORECASE),  # "Table 5", "Figure 3a"
+    re.compile(r"^(many|several|some|few|various)\s", re.IGNORECASE),  # "many years", "several weeks"
+    re.compile(r"^(late|early|mid)\s+(19|20)\d\d", re.IGNORECASE),  # "late 1995", "early 2000s"
+    re.compile(r"century$", re.IGNORECASE),  # "21st century", "first century"
+    re.compile(r"^\d+(st|nd|rd|th)\s", re.IGNORECASE),  # "21st century"
+    re.compile(r"years?\s+ago", re.IGNORECASE),  # "some years ago"
 ]
 
 # Noise entities loaded from config file (fallback to empty set)
@@ -171,6 +177,23 @@ def extract_entities(markdown_text: str, source_id: str) -> list[Entity]:
         alpha_ratio = sum(c.isalpha() or c.isspace() for c in name) / max(len(name), 1)
         if alpha_ratio < 0.5:
             continue
+
+        # Date filtering: only keep dates with actual years (4-digit numbers)
+        if ent.label_ == "DATE":
+            if not re.search(r"\b(1[5-9]\d{2}|20[0-2]\d)\b", name):
+                continue
+            # Normalize: strip surrounding text, keep just the date part
+            date_match = re.search(
+                r"((?:January|February|March|April|May|June|July|August|"
+                r"September|October|November|December|Jan|Feb|Mar|Apr|"
+                r"Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+\d{1,2},?\s+\d{4}"
+                r"|\d{4}[-/]\d{1,2}[-/]\d{1,2}"
+                r"|\d{1,2}\s+(?:January|February|March|April|May|June|July|August|"
+                r"September|October|November|December)\s+\d{4}"
+                r"|\b(?:19|20)\d{2}\b)", name
+            )
+            if date_match:
+                name = date_match.group(0)
 
         key = (name, ent.label_)
         if key not in grouped:

@@ -65,3 +65,80 @@ tomorrow
 last year
 this year
 next year
+several years
+several days
+several weeks
+several months
+several decades
+several centuries
+many years
+many months
+many weeks
+many quarters
+many centuries
+some years
+some time ago
+recent years
+recent decades
+early years
+annual
+seasonal
+summer
+winter
+autumn
+spring
+the day
+each day
+this day
+the days
+one day
+earlier
+later
+
+# Vague quantity words
+several
+many
+few
+some
+most
+various
+other
+overall
+above
+below
+latter
+former
+
+# Table/figure references
+table 1
+table 2
+table 3
+table 4
+table 5
+table a
+table b
+table c
+table ii
+table iii
+table iv
+table v
+table vi
+figure 1
+figure 2
+figure 3
+figure 4
+figure 5
+
+# Academic noise
+abstract
+appendix
+chapter
+section
+bibliography
+references
+acknowledgments
+introduction
+conclusion
+discussion
+results
+methods

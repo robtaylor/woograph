@@ -168,7 +168,7 @@ async function initMap() {
   // Only respect the type toggle in case user explicitly hides Place type
   const activeTypesEl = document.querySelectorAll('#type-filters input[type=checkbox]:checked');
   const activeTypes = activeTypesEl.length > 0
-    ? new Set([...activeTypesEl].map(el => el.value))
+    ? new Set([...activeTypesEl].map(el => el.dataset.type))
     : null;
 
   const placeNodes = allNodes.filter(n =>

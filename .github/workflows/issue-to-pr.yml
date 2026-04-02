@@ -189,7 +189,8 @@ jobs:
 
           Closes #${ISSUE_NUMBER}" \
             --head "$BRANCH" \
-            --base main)
+            --base main \
+            --label "submission")
 
           gh issue comment "$ISSUE_NUMBER" \
             --body "Your submission has been converted into a pull request: ${PR_URL}

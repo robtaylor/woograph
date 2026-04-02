@@ -126,18 +126,25 @@
 
     /* Submit button */
     .submit-btn {
-      display: inline-block;
-      padding: 0.8rem 2rem;
+      display: block;
+      width: 100%;
+      padding: 1rem 2rem;
       background: #4FC3F7;
       color: #1a1a2e;
       border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      font-weight: 600;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 700;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, box-shadow 0.2s;
+      box-shadow: 0 0 16px rgba(79, 195, 247, 0.4);
+      letter-spacing: 0.02em;
+      margin-top: 0.5rem;
     }
-    .submit-btn:hover { background: #29B6F6; }
+    .submit-btn:hover {
+      background: #29B6F6;
+      box-shadow: 0 0 24px rgba(79, 195, 247, 0.6);
+    }
     .submit-btn:disabled {
       background: #333;
       color: #666;

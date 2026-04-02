@@ -675,3 +675,348 @@ def llm_clean(ctx: click.Context, batch_size: int, dry_run: bool) -> None:
         f"(removed {len(noise_ids)}), "
         f"{stats['total_relationships']} relationships"
     )
+
+
+@main.command(name="merge-people")
+@click.option("--dry-run", is_flag=True, help="Show merges without applying")
+@click.pass_context
+def merge_people(ctx: click.Context, dry_run: bool) -> None:
+    """Use LLM to merge Person entities: normalize names, remove non-people."""
+    import re
+    from collections import defaultdict
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    from woograph.llm.client import create_completion, load_llm_config
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found. Run 'woograph merge' first.")
+        raise SystemExit(1)
+
+    llm_config = load_llm_config()
+    if not llm_config:
+        click.echo("No LLM API key found.")
+        raise SystemExit(1)
+
+    graph = json.loads(global_path.read_text())
+    entities = graph["entities"]
+    relationships = graph["relationships"]
+
+    people = [e for e in entities if e.get("@type") == "Person"]
+    click.echo(f"Person entities: {len(people)}")
+
+    # --- 1. Remove initials-only (no surname) ---
+    initials_only = {
+        e["@id"] for e in people
+        if re.match(r"^([A-Z]\.?\s*)+$", e["name"].strip())
+    }
+    click.echo(f"Initials-only (removing): {len(initials_only)}")
+
+    # --- 2. Group by surname for merging ---
+    surname_groups: dict[str, list[dict]] = defaultdict(list)
+    for e in people:
+        if e["@id"] in initials_only:
+            continue
+        parts = e["name"].split()
+        if parts:
+            surname = parts[-1]
+            # Only group if surname looks real (capitalized, >2 chars)
+            if len(surname) > 2 and surname[0].isupper() and surname[1:].islower():
+                surname_groups[surname].append(e)
+
+    # Only process groups with multiple variants
+    merge_groups = {k: v for k, v in surname_groups.items() if len(v) > 1}
+    click.echo(f"Surnames with multiple variants: {len(merge_groups)}")
+
+    # --- 3. Send to LLM for merge decisions ---
+    id_mapping: dict[str, str] = {}  # old_id → canonical_id
+    canonical_names: dict[str, str] = {}  # canonical_id → best name
+    not_people: set[str] = set()
+
+    def process_surname_group(surname: str, group: list[dict]) -> dict:
+        variants = "\n".join(f"- {e['name']}" for e in group)
+        prompt = (
+            f"These are all entities extracted from academic papers that share "
+            f"the surname '{surname}'.\n\n"
+            f"Variants:\n{variants}\n\n"
+            f"For each variant, determine:\n"
+            f"1. Is it actually a person's name? (NOT_PERSON if it's a place, "
+            f"organization, citation fragment, or noise)\n"
+            f"2. Which variants refer to the same person? Group them.\n"
+            f"3. What is the best canonical form of each person's name? "
+            f"(Prefer full first name over initials, e.g., 'Brenda J. Dunne' "
+            f"over 'B. J. Dunne')\n\n"
+            f"Return JSON: {{\"groups\": [[\"variant1\", \"variant2\"], ...], "
+            f"\"canonical\": {{\"variant\": \"canonical form\"}}, "
+            f"\"not_people\": [\"variant\", ...]}}"
+        )
+        response = create_completion(llm_config, prompt, max_tokens=2048, json_mode=True)
+        if not response:
+            return {"surname": surname, "groups": [], "canonical": {}, "not_people": []}
+        try:
+            result = json.loads(response)
+            result["surname"] = surname
+            return result
+        except json.JSONDecodeError:
+            return {"surname": surname, "groups": [], "canonical": {}, "not_people": []}
+
+    click.echo(f"Sending {len(merge_groups)} surname groups to LLM...")
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {
+            executor.submit(process_surname_group, surname, group): surname
+            for surname, group in merge_groups.items()
+        }
+        done = 0
+        for future in as_completed(futures):
+            done += 1
+            surname = futures[future]
+            try:
+                result = future.result()
+                # Process not_people
+                for name in result.get("not_people", []):
+                    for e in merge_groups.get(result["surname"], []):
+                        if e["name"] == name:
+                            not_people.add(e["@id"])
+
+                # Process merge groups
+                canonical_map = result.get("canonical", {})
+                for group_variants in result.get("groups", []):
+                    if len(group_variants) < 2:
+                        continue
+                    # Find the canonical name for this group
+                    canonical = None
+                    for v in group_variants:
+                        if v in canonical_map:
+                            canonical = canonical_map[v]
+                            break
+                    if not canonical:
+                        # Pick the longest variant as canonical
+                        canonical = max(group_variants, key=len)
+
+                    # Find entity IDs for these variants
+                    group_entities = merge_groups.get(result["surname"], [])
+                    variant_entities = [e for e in group_entities if e["name"] in group_variants]
+                    if len(variant_entities) < 2:
+                        continue
+
+                    # First entity becomes canonical
+                    canon_entity = variant_entities[0]
+                    canonical_names[canon_entity["@id"]] = canonical
+                    for e in variant_entities[1:]:
+                        id_mapping[e["@id"]] = canon_entity["@id"]
+
+                if done % 10 == 0:
+                    click.echo(f"  {done}/{len(merge_groups)} groups processed")
+            except Exception as exc:
+                click.echo(f"  Failed for {surname}: {exc}")
+
+    total_merges = len(id_mapping)
+    click.echo(f"\nResults:")
+    click.echo(f"  Not people: {len(not_people)}")
+    click.echo(f"  Merge mappings: {total_merges}")
+    click.echo(f"  Name normalizations: {len(canonical_names)}")
+
+    if dry_run:
+        for old_id, new_id in sorted(id_mapping.items()):
+            old_name = next((e["name"] for e in entities if e["@id"] == old_id), old_id)
+            new_name = canonical_names.get(new_id, next((e["name"] for e in entities if e["@id"] == new_id), new_id))
+            click.echo(f"  MERGE: '{old_name}' → '{new_name}'")
+        for eid in sorted(not_people):
+            name = next((e["name"] for e in entities if e["@id"] == eid), eid)
+            click.echo(f"  REMOVE: '{name}'")
+        return
+
+    # --- 4. Apply merges ---
+    remove_ids = initials_only | not_people | set(id_mapping.keys())
+
+    # Update canonical names
+    for e in entities:
+        if e["@id"] in canonical_names:
+            e["name"] = canonical_names[e["@id"]]
+
+    # Filter entities
+    clean_entities = [e for e in entities if e["@id"] not in remove_ids]
+
+    # Rewrite relationships
+    clean_rels = []
+    seen_keys: set[tuple] = set()
+    for r in relationships:
+        sid = r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]
+        oid = r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]
+        # Skip if either end is removed (not merged, just removed)
+        if sid in (initials_only | not_people) or oid in (initials_only | not_people):
+            continue
+        # Remap merged IDs
+        sid = id_mapping.get(sid, sid)
+        oid = id_mapping.get(oid, oid)
+        if sid == oid:
+            continue
+        key = (sid, r.get("predicate", ""), oid)
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        r_copy = dict(r)
+        r_copy["subject"] = {"@id": sid}
+        r_copy["object"] = {"@id": oid}
+        clean_rels.append(r_copy)
+
+    graph["entities"] = clean_entities
+    graph["relationships"] = clean_rels
+    global_path.write_text(json.dumps(graph, indent=2) + "\n")
+
+    from woograph.graph.merge import generate_stats
+    stats = generate_stats(graph)
+    stats_path = repo_root / "graph" / "stats.json"
+    stats_path.write_text(json.dumps(stats, indent=2) + "\n")
+
+    click.echo(
+        f"Merged graph: {stats['total_entities']} entities, "
+        f"{stats['total_relationships']} relationships"
+    )
+
+
+@main.command(name="merge-orgs")
+@click.option("--dry-run", is_flag=True, help="Show merges without applying")
+@click.option("--batch-size", default=30, help="Orgs per LLM call")
+@click.pass_context
+def merge_orgs(ctx: click.Context, dry_run: bool, batch_size: int) -> None:
+    """Use LLM to merge Organization entities: normalize names, remove non-orgs."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    from woograph.llm.client import create_completion, load_llm_config
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found.")
+        raise SystemExit(1)
+
+    llm_config = load_llm_config()
+    if not llm_config:
+        click.echo("No LLM API key found.")
+        raise SystemExit(1)
+
+    graph = json.loads(global_path.read_text())
+    entities = graph["entities"]
+    relationships = graph["relationships"]
+
+    orgs = [e for e in entities if e.get("@type") == "Organization"]
+    click.echo(f"Organization entities: {len(orgs)}")
+
+    # Send in batches - LLM identifies noise and merge groups
+    batches = [orgs[i:i + batch_size] for i in range(0, len(orgs), batch_size)]
+    not_orgs: set[str] = set()
+    id_mapping: dict[str, str] = {}
+    canonical_names: dict[str, str] = {}
+
+    def process_batch(batch: list[dict]) -> dict:
+        org_list = "\n".join(f"- {e['name']}" for e in batch)
+        prompt = (
+            "These are entities tagged as 'Organization' extracted from academic papers "
+            "about consciousness research, parapsychology, and physics.\n\n"
+            f"Entities:\n{org_list}\n\n"
+            "For each entity, determine:\n"
+            "1. NOT_ORG: Not actually an organization (e.g., citation fragments like "
+            "'B. J. & Jahn', experiment labels like 'All Local Data', generic phrases, "
+            "OCR noise, or items that are really journals/publications/concepts)\n"
+            "2. MERGE: Which entities refer to the same organization? "
+            "E.g., 'Journal of Scientific Exploration' and 'J. Scientific Exploration' "
+            "and 'Journal ofScientific Exploration' are the same.\n"
+            "3. CANONICAL: The best normalized name for each group.\n\n"
+            "Return JSON: {\"not_orgs\": [\"name\", ...], "
+            "\"merge_groups\": [[\"name1\", \"name2\"], ...], "
+            "\"canonical\": {\"name\": \"canonical form\"}}"
+        )
+        response = create_completion(llm_config, prompt, max_tokens=4096, json_mode=True)
+        if not response:
+            return {"not_orgs": [], "merge_groups": [], "canonical": {}}
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            return {"not_orgs": [], "merge_groups": [], "canonical": {}}
+
+    click.echo(f"Sending {len(batches)} batches to LLM...")
+
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(process_batch, batch): i for i, batch in enumerate(batches)}
+        for future in as_completed(futures):
+            batch_idx = futures[future]
+            try:
+                result = future.result()
+                batch = batches[batch_idx]
+                name_to_entity = {e["name"]: e for e in batch}
+
+                for name in result.get("not_orgs", []):
+                    if name in name_to_entity:
+                        not_orgs.add(name_to_entity[name]["@id"])
+
+                for group in result.get("merge_groups", []):
+                    if len(group) < 2:
+                        continue
+                    group_entities = [name_to_entity[n] for n in group if n in name_to_entity]
+                    if len(group_entities) < 2:
+                        continue
+                    canon = group_entities[0]
+                    canon_name = result.get("canonical", {}).get(group[0], group[0])
+                    canonical_names[canon["@id"]] = canon_name
+                    for e in group_entities[1:]:
+                        id_mapping[e["@id"]] = canon["@id"]
+
+                if (batch_idx + 1) % 10 == 0:
+                    click.echo(f"  {batch_idx + 1}/{len(batches)} batches processed")
+            except Exception as exc:
+                click.echo(f"  Batch {batch_idx + 1} failed: {exc}")
+
+    click.echo(f"\nResults:")
+    click.echo(f"  Not organizations: {len(not_orgs)}")
+    click.echo(f"  Merge mappings: {len(id_mapping)}")
+    click.echo(f"  Name normalizations: {len(canonical_names)}")
+
+    if dry_run:
+        return
+
+    # Apply
+    remove_ids = not_orgs | set(id_mapping.keys())
+    for e in entities:
+        if e["@id"] in canonical_names:
+            e["name"] = canonical_names[e["@id"]]
+
+    clean_entities = [e for e in entities if e["@id"] not in remove_ids]
+
+    clean_rels = []
+    seen_keys: set[tuple] = set()
+    for r in relationships:
+        sid = r["subject"]["@id"] if isinstance(r["subject"], dict) else r["subject"]
+        oid = r["object"]["@id"] if isinstance(r["object"], dict) else r["object"]
+        if sid in not_orgs or oid in not_orgs:
+            continue
+        sid = id_mapping.get(sid, sid)
+        oid = id_mapping.get(oid, oid)
+        if sid == oid:
+            continue
+        key = (sid, r.get("predicate", ""), oid)
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        r_copy = dict(r)
+        r_copy["subject"] = {"@id": sid}
+        r_copy["object"] = {"@id": oid}
+        clean_rels.append(r_copy)
+
+    graph["entities"] = clean_entities
+    graph["relationships"] = clean_rels
+    global_path.write_text(json.dumps(graph, indent=2) + "\n")
+
+    from woograph.graph.merge import generate_stats
+    stats = generate_stats(graph)
+    stats_path = repo_root / "graph" / "stats.json"
+    stats_path.write_text(json.dumps(stats, indent=2) + "\n")
+
+    click.echo(
+        f"Merged graph: {stats['total_entities']} entities, "
+        f"{stats['total_relationships']} relationships"
+    )

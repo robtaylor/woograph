@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WooGraph - Knowledge Graph Viewer</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.4/cytoscape.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 </head>
 <body>
   <div id="app-layout" class="app-layout">
@@ -85,12 +90,14 @@
         </div>
       </div>
 
-      <!-- Map View (placeholder for Phase 6) -->
+      <!-- Map View -->
       <div id="map-view" class="view-panel">
-        <div class="placeholder-view">
-          <div class="icon">&#x1F5FA;</div>
-          <p>Map view coming in Phase 6</p>
+        <div id="map-container"></div>
+        <div class="map-overlay">
+          <span id="map-place-count">0</span> places
+          <button id="map-toggle-connections" class="map-btn">Show connections</button>
         </div>
+        <div id="map-loading" class="map-loading-msg">Loading map data...</div>
       </div>
     </div>
 

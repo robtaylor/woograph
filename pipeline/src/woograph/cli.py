@@ -1042,3 +1042,49 @@ def merge_orgs(ctx: click.Context, dry_run: bool, batch_size: int) -> None:
         f"Merged graph: {stats['total_entities']} entities, "
         f"{stats['total_relationships']} relationships"
     )
+
+
+@main.command()
+@click.option("--dry-run", is_flag=True, help="Show what would be geocoded without calling API")
+@click.option("--force", is_flag=True, help="Re-geocode even if cache exists")
+@click.option("--delay", default=1.1, type=float, help="Delay between Nominatim requests (seconds)")
+@click.pass_context
+def geocode(ctx: click.Context, dry_run: bool, force: bool, delay: float) -> None:
+    """Geocode Place entities using OpenStreetMap Nominatim."""
+    from woograph.geocode import (
+        geocode_all,
+        load_place_entities,
+        write_geocoded_json,
+    )
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found. Run 'woograph merge' first.")
+        raise SystemExit(1)
+
+    places = load_place_entities(global_path)
+    click.echo(f"Found {len(places)} Place entities")
+
+    cache_dir = repo_root / "pipeline" / ".geocache"
+    successes, failures = geocode_all(
+        places, cache_dir=cache_dir, delay=delay, force=force, dry_run=dry_run
+    )
+
+    if dry_run:
+        noise = [f for f in failures if f["reason"] == "noise_filtered"]
+        click.echo(f"Would geocode: {len(places) - len(noise)} places")
+        click.echo(f"Would skip (noise): {len(noise)} places")
+        click.echo("Noise examples:")
+        for f in noise[:10]:
+            click.echo(f"  {f['name']!r}")
+        return
+
+    output_path = repo_root / "site" / "data" / "geocoded.json"
+    write_geocoded_json(successes, failures, len(places), output_path)
+
+    click.echo(
+        f"Geocoded: {len(successes)}/{len(places)} places "
+        f"({len(failures)} failed) → {output_path}"
+    )

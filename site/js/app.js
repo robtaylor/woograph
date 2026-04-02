@@ -6,12 +6,18 @@ import { loadGraphData, loadStats } from './data-loader.js';
 import { initGraphView, updateLayout } from './graph-view.js';
 import { initFilters, initSearch } from './filters.js';
 import { initDetailPanel } from './detail-panel.js';
+import { loadGeocodedData, initMapView, renderMapMarkers, invalidateMapSize } from './map-view.js';
 
 // Store full data globally so filters can rebuild the graph
 let allNodes = [];
 let allEdges = [];
 let entityTypes = new Map();
 let currentCy = null;
+
+// Map state
+let mapInitialized = false;
+let geocodedData = null;
+let placeEdgeIndex = null;  // Map<placeId, Set<placeId>>
 
 async function main() {
   const graphContainer = document.getElementById('cy');
@@ -60,6 +66,9 @@ async function main() {
     node.data.degree = nodeDegree.get(node.data.id) || 0;
   }
 
+  // Build place-to-place edge index (used by map view)
+  placeEdgeIndex = buildPlaceEdgeIndex();
+
   // Initial render with degree filter
   const defaultMinDegree = parseInt(document.getElementById('degree-slider')?.value || '3');
   renderGraph(graphContainer, defaultMinDegree, 0);
@@ -69,6 +78,25 @@ async function main() {
 
   // Initialize search (works on current cy instance via ref)
   initSearch({ get: () => currentCy });
+}
+
+/**
+ * Build an index of place-to-place co-occurrence edges.
+ * @returns {Map<string, Set<string>>}
+ */
+function buildPlaceEdgeIndex() {
+  const placeIds = new Set(allNodes.filter(n => n.data.type === 'Place').map(n => n.data.id));
+  const index = new Map();
+  for (const edge of allEdges) {
+    const src = edge.data.source;
+    const tgt = edge.data.target;
+    if (!placeIds.has(src) || !placeIds.has(tgt)) continue;
+    if (!index.has(src)) index.set(src, new Set());
+    if (!index.has(tgt)) index.set(tgt, new Set());
+    index.get(src).add(tgt);
+    index.get(tgt).add(src);
+  }
+  return index;
 }
 
 /**
@@ -102,6 +130,64 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
   }
   currentCy = initGraphView(container, elements);
   initDetailPanel(currentCy);
+
+  // Update map if it's initialized
+  if (mapInitialized && geocodedData) {
+    const placeNodes = filteredNodes.filter(n => n.data.type === 'Place');
+    renderMapMarkers(placeNodes, geocodedData, placeEdgeIndex, filteredEdges);
+  }
+}
+
+async function initMap() {
+  const loadingMsg = document.getElementById('map-loading');
+  if (loadingMsg) loadingMsg.style.display = 'block';
+
+  initMapView();
+  geocodedData = await loadGeocodedData();
+
+  if (loadingMsg) loadingMsg.style.display = 'none';
+
+  if (!geocodedData) {
+    const container = document.getElementById('map-container');
+    if (container) {
+      container.innerHTML = '<div class="map-error">Geocoded data not available. Run <code>woograph geocode</code> to generate.</div>';
+    }
+    return;
+  }
+
+  // Render with current filter state (read from sliders since we don't track state separately)
+  const minDegree = parseInt(document.getElementById('degree-slider')?.value || '0');
+  const activeTypesEl = document.querySelectorAll('#type-filters input[type=checkbox]:checked');
+  const activeTypes = activeTypesEl.length > 0
+    ? new Set([...activeTypesEl].map(el => el.value))
+    : null;
+
+  const placeNodes = allNodes.filter(n => {
+    if (n.data.type !== 'Place') return false;
+    if (activeTypes && !activeTypes.has(n.data.type)) return false;
+    return n.data.degree >= minDegree;
+  });
+
+  renderMapMarkers(placeNodes, geocodedData, placeEdgeIndex, allEdges);
+  mapInitialized = true;
+
+  // Wire up "View in graph" popup links via event delegation
+  document.getElementById('map-container')?.addEventListener('click', e => {
+    const link = e.target.closest('.popup-graph-link');
+    if (!link) return;
+    e.preventDefault();
+    const nodeId = link.dataset.nodeId;
+    if (!nodeId) return;
+    // Switch to graph tab and highlight node
+    document.querySelector('.tab-nav button[data-tab="graph-view"]')?.click();
+    if (currentCy) {
+      const node = currentCy.getElementById(nodeId);
+      if (node.length) {
+        currentCy.animate({ fit: { eles: node, padding: 80 } }, { duration: 400 });
+        node.select();
+      }
+    }
+  });
 }
 
 function setupTabs() {
@@ -109,13 +195,21 @@ function setupTabs() {
   const panels = document.querySelectorAll('.view-panel');
 
   tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
+    tab.addEventListener('click', async () => {
       const target = tab.dataset.tab;
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       panels.forEach(p => {
         p.classList.toggle('active', p.id === target);
       });
+
+      if (target === 'map-view') {
+        if (!mapInitialized) {
+          await initMap();
+        } else {
+          invalidateMapSize();
+        }
+      }
     });
   });
 }

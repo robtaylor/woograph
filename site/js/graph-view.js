@@ -69,18 +69,11 @@ export function initGraphView(container, elements) {
           'border-color': 'data(color)',
           'border-opacity': 0.3,
           'overlay-padding': 4,
-          'color': '#e8e8e8',
-          'text-outline-color': '#1a1a2e',
-          'text-outline-width': 1.5,
-          'font-size': '9px',
-          'text-valign': 'bottom',
-          'text-halign': 'center',
-          'text-margin-y': 4,
         },
       },
-      // Show labels only on hover or for high-degree nodes
+      // Show labels via class (ensures color is always set together)
       {
-        selector: 'node[degree >= 10]',
+        selector: 'node.show-label, node[degree >= 10]',
         style: {
           'label': 'data(label)',
           'font-size': '9px',
@@ -121,7 +114,7 @@ export function initGraphView(container, elements) {
         },
       },
       {
-        selector: 'edge:selected',
+        selector: 'edge.show-label, edge:selected',
         style: {
           'label': 'data(label)',
           'font-size': '9px',
@@ -129,10 +122,14 @@ export function initGraphView(container, elements) {
           'text-outline-color': '#1a1a2e',
           'text-outline-width': 1.5,
           'text-rotation': 'autorotate',
+        },
+      },
+      {
+        selector: 'edge:selected',
+        style: {
           'line-color': '#4FC3F7',
           'target-arrow-color': '#4FC3F7',
           'opacity': 1,
-          'curve-style': 'bezier',
         },
       },
       // Dimmed state for non-highlighted elements
@@ -163,26 +160,19 @@ export function initGraphView(container, elements) {
     wheelSensitivity: 0.3,
   });
 
-  // Hover: highlight connected nodes and show labels
+  // Hover: highlight connected nodes and show labels via classes
   cyInstance.on('mouseover', 'node', (evt) => {
     const node = evt.target;
     const neighborhood = node.closedNeighborhood();
     cyInstance.batch(() => {
       cyInstance.elements().addClass('dimmed');
-      neighborhood.removeClass('dimmed').addClass('highlighted');
-      // Show labels on hovered neighborhood
-      neighborhood.nodes().style('label', (n) => n.data('label'));
-      neighborhood.edges().style('label', (e) => e.data('label'));
+      neighborhood.removeClass('dimmed').addClass('highlighted show-label');
     });
   });
 
   cyInstance.on('mouseout', 'node', () => {
     cyInstance.batch(() => {
-      cyInstance.elements().removeClass('dimmed highlighted');
-      // Reset labels (only high-degree keep labels)
-      cyInstance.nodes().style('label', '');
-      cyInstance.nodes('[degree >= 10]').style('label', (n) => n.data('label'));
-      cyInstance.edges().style('label', '');
+      cyInstance.elements().removeClass('dimmed highlighted show-label');
     });
   });
 

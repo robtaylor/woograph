@@ -131,10 +131,12 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
   currentCy = initGraphView(container, elements);
   initDetailPanel(currentCy);
 
-  // Update map if it's initialized
+  // Update map if it's initialized — show all Place nodes regardless of degree filter
   if (mapInitialized && geocodedData) {
-    const placeNodes = filteredNodes.filter(n => n.data.type === 'Place');
-    renderMapMarkers(placeNodes, geocodedData, placeEdgeIndex, filteredEdges);
+    const mapPlaceNodes = allNodes.filter(n =>
+      n.data.type === 'Place' && (!activeTypes || activeTypes.has('Place'))
+    );
+    renderMapMarkers(mapPlaceNodes, geocodedData, placeEdgeIndex, filteredEdges);
   }
 }
 
@@ -155,18 +157,16 @@ async function initMap() {
     return;
   }
 
-  // Render with current filter state (read from sliders since we don't track state separately)
-  const minDegree = parseInt(document.getElementById('degree-slider')?.value || '0');
+  // Map shows all Place nodes — degree filter doesn't apply here (geographic exploration)
+  // Only respect the type toggle in case user explicitly hides Place type
   const activeTypesEl = document.querySelectorAll('#type-filters input[type=checkbox]:checked');
   const activeTypes = activeTypesEl.length > 0
     ? new Set([...activeTypesEl].map(el => el.value))
     : null;
 
-  const placeNodes = allNodes.filter(n => {
-    if (n.data.type !== 'Place') return false;
-    if (activeTypes && !activeTypes.has(n.data.type)) return false;
-    return n.data.degree >= minDegree;
-  });
+  const placeNodes = allNodes.filter(n =>
+    n.data.type === 'Place' && (!activeTypes || activeTypes.has('Place'))
+  );
 
   renderMapMarkers(placeNodes, geocodedData, placeEdgeIndex, allEdges);
   mapInitialized = true;

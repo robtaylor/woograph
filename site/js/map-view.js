@@ -45,13 +45,17 @@ export function initMapView() {
     maxZoom: 19,
   }).addTo(map);
 
-  // Marker cluster group
-  markerClusterGroup = L.markerClusterGroup({
-    maxClusterRadius: 50,
-    spiderfyOnMaxZoom: true,
-    showCoverageOnHover: false,
-    zoomToBoundsOnClick: true,
-  });
+  // Marker cluster group (fall back to plain LayerGroup if plugin not loaded)
+  if (typeof L.markerClusterGroup === 'function') {
+    markerClusterGroup = L.markerClusterGroup({
+      maxClusterRadius: 50,
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: false,
+      zoomToBoundsOnClick: true,
+    });
+  } else {
+    markerClusterGroup = L.layerGroup();
+  }
   map.addLayer(markerClusterGroup);
 
   // Connection lines layer

@@ -8,11 +8,19 @@ import trafilatura
 
 logger = logging.getLogger(__name__)
 
-_BROWSER_UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/124.0.0.0 Safari/537.36"
-)
+_BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
 
 
 def convert_url(url: str, output_dir: Path) -> Path:
@@ -41,7 +49,7 @@ def convert_url(url: str, output_dir: Path) -> Path:
 
     resp = requests.get(
         url,
-        headers={"User-Agent": _BROWSER_UA},
+        headers=_BROWSER_HEADERS,
         timeout=30,
         allow_redirects=True,
     )

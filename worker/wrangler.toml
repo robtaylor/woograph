@@ -12,4 +12,4 @@ bucket_name = "woograph-uploads"
 
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "PLACEHOLDER_KV_ID"  # Replace after: wrangler kv:namespace create SESSIONS
+id = "a3ac686065ce476080a069a3876fd6e3"

@@ -54,7 +54,23 @@ def convert_url(url: str, output_dir: Path) -> Path:
         allow_redirects=True,
     )
     if not resp.ok:
-        raise RuntimeError(f"not a 200 response: {resp.status_code} for URL {url}")
+        # Fall back to Wayback Machine for blocked/unavailable URLs
+        archive_url = f"https://web.archive.org/web/{url}"
+        logger.warning(
+            "HTTP %s for %s — trying Wayback Machine: %s",
+            resp.status_code, url, archive_url,
+        )
+        resp = requests.get(
+            archive_url,
+            headers=_BROWSER_HEADERS,
+            timeout=30,
+            allow_redirects=True,
+        )
+        if not resp.ok:
+            raise RuntimeError(
+                f"not a 200 response: {resp.status_code} for URL {url} "
+                f"(Wayback Machine also failed)"
+            )
 
     extracted = trafilatura.extract(
         resp.text,

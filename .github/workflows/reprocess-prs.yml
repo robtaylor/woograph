@@ -1,0 +1,48 @@
+name: Reprocess Open Submissions on Pipeline Change
+
+on:
+  push:
+    branches: [main]
+    paths: ['pipeline/**']
+
+jobs:
+  reprocess:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Find open submission PRs and trigger reprocess
+        run: |
+          git config user.name "WooGraph Bot"
+          git config user.email "woograph-bot@users.noreply.github.com"
+
+          # Get all open PRs
+          gh pr list --state open --json number,headRefName \
+            --jq '.[] | "\(.number) \(.headRefName)"' | \
+          while read -r pr_number head_ref; do
+            # Check if this PR touches submissions/
+            HAS_SUBMISSIONS=$(gh pr view "$pr_number" --json files \
+              --jq '.files[].path | select(startswith("submissions/") and endswith(".yaml"))' \
+              2>/dev/null | grep -v '_schema' | head -1 || true)
+
+            if [ -z "$HAS_SUBMISSIONS" ]; then
+              continue
+            fi
+
+            echo "Triggering reprocess for PR #$pr_number ($head_ref)"
+
+            # Push an empty commit to the branch to trigger process-pr.yml
+            git fetch origin "$head_ref"
+            git checkout "$head_ref"
+            git commit --allow-empty -m "Reprocess: pipeline updated on main [skip index]"
+            git push origin "$head_ref"
+            git checkout main
+          done

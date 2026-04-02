@@ -184,7 +184,7 @@ jobs:
           gh pr comment "$PR_NUMBER" --body "${{ steps.report.outputs.comment }}"
 
       - name: Discover index submissions
-        if: steps.detect.outputs.index_files != ''
+        if: steps.detect.outputs.index_files != '' && !contains(github.event.pull_request.head.commit.message, '[skip index]')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

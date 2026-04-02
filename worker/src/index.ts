@@ -408,6 +408,7 @@ interface SubmitPayload {
 	account_text?: string;
 	latitude?: number;
 	longitude?: number;
+	email?: string;
 }
 
 async function handleSubmit(
@@ -453,6 +454,10 @@ async function handleSubmit(
 	if (payload.latitude != null && payload.longitude != null) {
 		lines.push("\n### Location\n");
 		lines.push(`${payload.latitude}, ${payload.longitude}`);
+	}
+	if (payload.email) {
+		lines.push("\n### Contact Email\n");
+		lines.push(payload.email);
 	}
 
 	const issueBody = lines.join("\n");

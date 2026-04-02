@@ -257,6 +257,12 @@
       <div class="auth-anon">Checking login...</div>
     </div>
 
+    <div class="form-group" id="email-group" style="display:none">
+      <label for="submitter-email">Your email <span style="color:#666">(optional)</span></label>
+      <input type="email" id="submitter-email" placeholder="so we can follow up with you">
+      <p class="hint">Only visible to maintainers, never published publicly.</p>
+    </div>
+
     <form id="submit-form">
       <div class="form-group">
         <label for="title">Title *</label>
@@ -604,6 +610,7 @@
       const tags = document.getElementById('tags').value.trim();
       const description = document.getElementById('description').value.trim();
       const accountText = document.getElementById('account-text')?.value.trim() || '';
+      const email = document.getElementById('submitter-email')?.value.trim() || '';
 
       const errorMsg = document.getElementById('error-msg');
 
@@ -642,6 +649,7 @@
             account_text: accountText || undefined,
             latitude: selectedLat || undefined,
             longitude: selectedLng || undefined,
+            email: email || undefined,
           }),
         });
 
@@ -691,14 +699,15 @@
         const resp = await fetch(UPLOAD_WORKER_URL + '/auth/me', { credentials: 'include' });
         const data = await resp.json();
 
+        const emailGroup = document.getElementById('email-group');
         if (data.user) {
           const { login, name, avatar_url } = data.user;
-          const displayName = name || login;
           banner.innerHTML = `
             <img class="avatar" src="${avatar_url}" alt="@${login}">
             <div class="auth-user">Submitting as <span>@${login}</span>${name && name !== login ? ` (${name})` : ''}</div>
             <button class="auth-btn logout" id="logout-btn">Logout</button>
           `;
+          emailGroup.style.display = 'none';
           document.getElementById('logout-btn').addEventListener('click', async () => {
             await fetch(UPLOAD_WORKER_URL + '/auth/logout', { method: 'POST', credentials: 'include' });
             initAuth();
@@ -712,6 +721,7 @@
               Login with GitHub
             </a>
           `;
+          emailGroup.style.display = 'block';
         }
       } catch {
         banner.innerHTML = `<div class="auth-anon">Could not check login status &mdash; submitting anonymously</div>`;

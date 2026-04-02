@@ -10,6 +10,7 @@ import yaml
 from dotenv import load_dotenv
 
 from woograph.convert.account import convert_account
+from woograph.convert.index import discover_index
 from woograph.convert.pdf import convert_pdf
 from woograph.convert.web import convert_url
 from woograph.extract.disambiguate import disambiguate_entities
@@ -239,6 +240,56 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     click.echo(f"  Entities: {len(entities)}")
     click.echo(f"  Relationships: {len(relationships)}")
     click.echo(f"  Fragment: {fragment_path}")
+
+
+@main.command("discover-index")
+@click.argument("submission_yaml", type=click.Path(exists=True, dir_okay=False, path_type=Path))
+@click.option("--max-pages", default=5000, show_default=True, help="Maximum pages to discover.")
+@click.option("--delay", default=1.0, show_default=True, help="Seconds between pagination requests.")
+@click.pass_context
+def discover_index_cmd(ctx: click.Context, submission_yaml: Path, max_pages: int, delay: float) -> None:
+    """Crawl an index-type submission and write a JSON plan of discovered URLs.
+
+    Writes graph/index-plans/{slug}.json with the list of pages found.
+    """
+    repo_root: Path = ctx.obj["repo_root"]
+
+    with submission_yaml.open() as f:
+        submission = yaml.safe_load(f)
+
+    source = submission.get("source", {})
+    source_type = source.get("type", "")
+    if source_type != "index":
+        click.echo(f"Error: submission type is '{source_type}', expected 'index'", err=True)
+        raise SystemExit(1)
+
+    url = source.get("url", "")
+    if not url:
+        click.echo("Error: no URL in submission", err=True)
+        raise SystemExit(1)
+
+    cap = source.get("max_pages", max_pages)
+    slug = submission_yaml.stem
+    title = source.get("title", slug)
+
+    click.echo(f"Discovering index: {url} (cap={cap})")
+    pages = discover_index(url, max_pages=cap, page_delay=delay)
+
+    plan = {
+        "slug": slug,
+        "title": title,
+        "index_url": url,
+        "discovered_at": datetime.now(timezone.utc).isoformat(),
+        "total": len(pages),
+        "pages": [{"url": p.url, "title": p.title} for p in pages],
+    }
+
+    plans_dir = repo_root / "graph" / "index-plans"
+    plans_dir.mkdir(parents=True, exist_ok=True)
+    plan_path = plans_dir / f"{slug}.json"
+    plan_path.write_text(json.dumps(plan, indent=2) + "\n")
+
+    click.echo(f"Found {len(pages)} pages → {plan_path}")
 
 
 @main.command()

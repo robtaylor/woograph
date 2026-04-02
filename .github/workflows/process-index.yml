@@ -1,0 +1,169 @@
+name: Process Index Submission
+
+on:
+  pull_request:
+    types: [labeled]
+
+concurrency:
+  group: process-index-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  process:
+    if: github.event.label.name == 'index-approved'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      WOOGRAPH_PDF_BACKEND: auto
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: cd pipeline && uv sync
+
+      - name: Find index plan files
+        id: plans
+        run: |
+          PLANS=$(ls graph/index-plans/*.json 2>/dev/null | tr '\n' ' ' || true)
+          echo "plans=$PLANS" >> "$GITHUB_OUTPUT"
+          echo "Found plans: $PLANS"
+
+      - name: Process index pages
+        if: steps.plans.outputs.plans != ''
+        run: |
+          git config user.name "WooGraph Bot"
+          git config user.email "woograph-bot@users.noreply.github.com"
+
+          TOTAL_PROCESSED=0
+          TOTAL_FAILED=0
+
+          for plan_file in ${{ steps.plans.outputs.plans }}; do
+            SLUG=$(python3 -c "import json; print(json.load(open('$plan_file'))['slug'])")
+            TITLE=$(python3 -c "import json; print(json.load(open('$plan_file'))['title'])")
+            PAGES=$(python3 -c "import json; print(len(json.load(open('$plan_file'))['pages']))")
+
+            echo "::group::Processing index: $TITLE ($PAGES pages)"
+
+            python3 - "$plan_file" <<'PYEOF'
+          import json, subprocess, sys, os, time
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          plan = json.load(open(sys.argv[1]))
+          slug = plan["slug"]
+          pages = plan["pages"]
+
+          processed = 0
+          failed = 0
+
+          for i, page in enumerate(pages):
+              url = page["url"]
+              page_slug = f"{slug}-page-{i+1:04d}"
+              print(f"[{i+1}/{len(pages)}] {url}")
+
+              # Detect PDF by URL extension
+              path = urlparse(url).path.lower()
+              is_pdf = path.endswith(".pdf")
+
+              # Write a temporary submission YAML for this page
+              submission_yaml = f"/tmp/claude/{page_slug}.yaml"
+              os.makedirs("/tmp/claude", exist_ok=True)
+              with open(submission_yaml, "w") as f:
+                  f.write(f"""source:
+            title: "{page['title'].replace('"', '\\"')}"
+            type: {"pdf" if is_pdf else "url"}
+            url: "{url}"
+            date_added: "{plan['discovered_at'][:10]}"
+            tags: {json.dumps(plan.get('tags', []))}
+          """)
+
+              result = subprocess.run(
+                  ["uv", "run", "woograph", "process", submission_yaml],
+                  cwd="pipeline",
+                  capture_output=True, text=True,
+              )
+
+              if result.returncode == 0:
+                  processed += 1
+                  # Move fragment to correct name under the index slug
+                  src = Path(f"graph/fragments/{page_slug}.jsonld")
+                  if src.exists():
+                      print(f"  -> fragment: {src}")
+              else:
+                  failed += 1
+                  print(f"  FAILED: {result.stderr.strip().splitlines()[-1] if result.stderr else 'unknown error'}")
+                  with open("/tmp/claude/failed_pages.txt", "a") as f:
+                      f.write(f"{url}\n")
+
+              # Commit every 10 pages to avoid losing progress on timeout
+              if (i + 1) % 10 == 0:
+                  subprocess.run(["git", "add", "sources/", "graph/fragments/", "graph/entities/"], check=False)
+                  subprocess.run(["git", "diff", "--staged", "--quiet"], check=False)
+                  subprocess.run(["git", "commit", "--allow-empty-message", "-m",
+                      f"Process index {slug}: pages {i-8}-{i+1}"], check=False)
+                  subprocess.run(["git", "push"], check=False)
+
+              time.sleep(0.5)
+
+          print(f"\nDone: {processed} processed, {failed} failed")
+          with open(os.environ.get("GITHUB_OUTPUT", "/dev/null"), "a") as f:
+              f.write(f"processed={processed}\n")
+              f.write(f"failed={failed}\n")
+          PYEOF
+
+            echo "::endgroup::"
+          done
+
+          # Final commit for any remaining changes
+          git add sources/ graph/fragments/ graph/entities/
+          git diff --staged --quiet || git commit -m "Process index pages (final batch)"
+          git push
+
+      - name: Post completion comment
+        if: always() && steps.plans.outputs.plans != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          FRAGMENTS=$(ls graph/fragments/*.jsonld 2>/dev/null | wc -l || echo 0)
+          FAILED_LIST=""
+          if [ -f /tmp/claude/failed_pages.txt ]; then
+            FAILED_COUNT=$(wc -l < /tmp/claude/failed_pages.txt)
+            FAILED_LIST=$(head -20 /tmp/claude/failed_pages.txt | sed 's/^/- /')
+            FAILED_NOTE="### Failed pages ($FAILED_COUNT)
+          $FAILED_LIST"
+          fi
+
+          gh pr comment "$PR_NUMBER" --body "$(cat <<COMMENT
+          ## Index Processing Complete
+
+          Fragments generated: **$FRAGMENTS**
+
+          $FAILED_NOTE
+
+          Merge this PR to rebuild the global knowledge graph.
+          COMMENT
+          )"
+
+          # Remove pending label, add processed label
+          gh pr edit "$PR_NUMBER" --remove-label "index-pending-approval" || true
+          gh pr edit "$PR_NUMBER" --add-label "index-processed" || true
+
+      - name: Label on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ github.event.pull_request.number }}" --add-label "processing-failed" || true
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --body "Index processing failed — [view logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" || true

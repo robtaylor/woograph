@@ -284,6 +284,7 @@
           <option value="url">Website</option>
           <option value="account">Personal account</option>
           <option value="video">Video (link or upload)</option>
+          <option value="index">Index / directory page</option>
         </select>
       </div>
 
@@ -361,7 +362,7 @@
 
     sourceType.addEventListener('change', () => {
       const type = sourceType.value;
-      urlGroup.classList.toggle('visible', type === 'pdf' || type === 'url' || type === 'video');
+      urlGroup.classList.toggle('visible', type === 'pdf' || type === 'url' || type === 'video' || type === 'index');
       uploadGroup.classList.toggle('visible', type === 'pdf' || type === 'video');
       accountGroup.classList.toggle('visible', type === 'account');
     });
@@ -635,7 +636,7 @@
 
       errorMsg.classList.remove('visible');
 
-      const typeMap = { pdf: 'PDF link', url: 'Website', account: 'Personal account', video: 'Video' };
+      const typeMap = { pdf: 'PDF link', url: 'Website', account: 'Personal account', video: 'Video', index: 'Index page' };
       const formType = typeMap[type] || type;
 
       const submitBtn = document.getElementById('submit-btn');

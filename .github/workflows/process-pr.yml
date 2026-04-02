@@ -37,18 +37,39 @@ jobs:
         run: |
           BASE_SHA="${{ github.event.pull_request.base.sha }}"
           HEAD_SHA="${{ github.event.pull_request.head.sha }}"
-          FILES=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'submissions/*.yaml' | grep -v '_schema.yaml' || true)
-          COUNT=$(echo "$FILES" | grep -c '.' || true)
+          ALL=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'submissions/*.yaml' | grep -v '_schema.yaml' || true)
+
+          # Split into index vs normal submissions
+          INDEX_FILES=""
+          NORMAL_FILES=""
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            TYPE=$(python3 -c "
+          import yaml, sys
+          with open(sys.argv[1]) as fh: d = yaml.safe_load(fh)
+          print(d.get('source', {}).get('type', ''))
+          " "$f" 2>/dev/null || echo "")
+            if [ "$TYPE" = "index" ]; then
+              INDEX_FILES="${INDEX_FILES}${f}"$'\n'
+            else
+              NORMAL_FILES="${NORMAL_FILES}${f}"$'\n'
+            fi
+          done <<< "$ALL"
+
+          COUNT=$(echo "$NORMAL_FILES" | grep -c '.' || true)
 
           {
             echo "files<<EOF"
-            echo "$FILES"
+            echo "$NORMAL_FILES"
             echo "EOF"
             echo "count=$COUNT"
+            echo "index_files<<EOF"
+            echo "$INDEX_FILES"
+            echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
-          echo "Detected $COUNT submission(s):"
-          echo "$FILES"
+          echo "Normal submissions ($COUNT): $NORMAL_FILES"
+          echo "Index submissions: $INDEX_FILES"
 
       - name: Enforce submission limit
         if: steps.detect.outputs.count != '' && steps.detect.outputs.count != '0'
@@ -161,6 +182,38 @@ jobs:
             gh api -X DELETE "repos/${{ github.repository }}/issues/comments/${EXISTING}" 2>/dev/null || true
           fi
           gh pr comment "$PR_NUMBER" --body "${{ steps.report.outputs.comment }}"
+
+      - name: Discover index submissions
+        if: steps.detect.outputs.index_files != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd pipeline
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            echo "::group::Discovering index: $f"
+            uv run woograph discover-index "../$f"
+            echo "::endgroup::"
+          done <<< "${{ steps.detect.outputs.index_files }}"
+
+          git config user.name "WooGraph Bot"
+          git config user.email "woograph-bot@users.noreply.github.com"
+          git add graph/index-plans/
+          git diff --staged --quiet || git commit -m "Add index discovery plan(s)"
+          git push
+
+          # Post summary comment and request approval
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          PLANS=$(ls ../graph/index-plans/*.json 2>/dev/null || true)
+          SUMMARY=""
+          for plan in $PLANS; do
+            TOTAL=$(python3 -c "import json; d=json.load(open('$plan')); print(d['total'])")
+            TITLE=$(python3 -c "import json; d=json.load(open('$plan')); print(d['title'])")
+            SUMMARY="${SUMMARY}- **${TITLE}**: ${TOTAL} pages found\n"
+          done
+
+          gh pr comment "$PR_NUMBER" --body "$(printf '## Index Discovery Complete\n\n'"$SUMMARY"'\nAdd the **`index-approved`** label to start processing.\n\n> Processing runs sequentially in a single job — one page fetch + LLM extraction per URL.')"
+          gh pr edit "$PR_NUMBER" --add-label "index-pending-approval" || true
 
       - name: Label PR on failure
         if: failure()

@@ -117,13 +117,37 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
     return (e.data.confidence || 0) >= minConfidence;
   });
 
-  // Second pass: drop nodes that ended up with zero visible edges after filtering
-  const connectedIds = new Set();
+  // Second pass: find connected components, drop singletons and tiny islands
+  const adj = new Map();
   for (const e of filteredEdges) {
-    connectedIds.add(e.data.source);
-    connectedIds.add(e.data.target);
+    if (!adj.has(e.data.source)) adj.set(e.data.source, []);
+    if (!adj.has(e.data.target)) adj.set(e.data.target, []);
+    adj.get(e.data.source).push(e.data.target);
+    adj.get(e.data.target).push(e.data.source);
   }
-  const finalNodes = filteredNodes.filter(n => connectedIds.has(n.data.id));
+
+  const componentId = new Map();
+  const components = [];
+  for (const node of filteredNodes) {
+    const id = node.data.id;
+    if (componentId.has(id)) continue;
+    const comp = [];
+    const stack = [id];
+    while (stack.length) {
+      const n = stack.pop();
+      if (componentId.has(n)) continue;
+      componentId.set(n, components.length);
+      comp.push(n);
+      for (const nb of (adj.get(n) || [])) stack.push(nb);
+    }
+    components.push(comp);
+  }
+
+  // Keep only nodes in the largest component
+  const largestSize = Math.max(...components.map(c => c.length));
+  const keepIds = new Set(components.find(c => c.length === largestSize));
+  const finalNodes = filteredNodes.filter(n => keepIds.has(n.data.id));
+  const finalEdges = filteredEdges.filter(e => keepIds.has(e.data.source) && keepIds.has(e.data.target));
 
   // Update visible count in stats bar
   const visibleCount = document.getElementById('stat-visible');
@@ -131,7 +155,7 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
     visibleCount.textContent = `${finalNodes.length} / ${allNodes.length}`;
   }
 
-  const elements = [...finalNodes, ...filteredEdges];
+  const elements = [...finalNodes, ...finalEdges];
 
   if (currentCy) {
     currentCy.destroy();

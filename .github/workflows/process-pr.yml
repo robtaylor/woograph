@@ -121,8 +121,10 @@ jobs:
             while IFS= read -r frag; do
               [ -z "$frag" ] && continue
               SECTION=$(uv run woograph report "$frag")
+              GRAPH=$(uv run woograph graph-preview "$frag" 2>/dev/null || true)
               REPORT_BODY="${REPORT_BODY}${SECTION}
-          "
+${GRAPH}
+"
               ENTS=$(python3 -c "
           import json, sys
           with open(sys.argv[1]) as f: d = json.load(f)

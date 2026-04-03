@@ -403,6 +403,103 @@ def report(fragment_path: Path) -> None:
     click.echo("\n".join(lines))
 
 
+@main.command("graph-preview")
+@click.argument(
+    "fragment_path",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+)
+@click.option("--max-nodes", default=25, show_default=True, help="Max nodes to render")
+@click.option("--min-confidence", default=0.5, show_default=True, help="Min edge confidence")
+def graph_preview(fragment_path: Path, max_nodes: int, min_confidence: float) -> None:
+    """Generate a Mermaid graph diagram from a JSON-LD fragment file."""
+    import re
+
+    with fragment_path.open() as f:
+        fragment = json.load(f)
+
+    entities = fragment.get("entities", [])
+    relationships = fragment.get("relationships", [])
+
+    # Index entity names by @id
+    id_to_name: dict[str, str] = {}
+    id_to_type: dict[str, str] = {}
+    for ent in entities:
+        eid = ent.get("@id", "")
+        if eid and ent.get("@type") != "woo:Source":
+            id_to_name[eid] = ent.get("name", eid.split(":")[-1])
+            id_to_type[eid] = ent.get("@type", "")
+
+    # Filter to meaningful relationships only
+    meaningful = [
+        r for r in relationships
+        if r.get("@type") == "woo:Relationship"
+        and r.get("predicate", "") != "woo:mentionedIn"
+        and r.get("confidence", 0) >= min_confidence
+    ]
+
+    # Compute degree for each entity
+    degree: dict[str, int] = {}
+    for rel in meaningful:
+        src = rel.get("subject", {}).get("@id", "")
+        tgt = rel.get("object", {}).get("@id", "")
+        if src in id_to_name:
+            degree[src] = degree.get(src, 0) + 1
+        if tgt in id_to_name:
+            degree[tgt] = degree.get(tgt, 0) + 1
+
+    # Pick top-N nodes
+    top_ids = set(
+        n for n, _ in sorted(degree.items(), key=lambda x: -x[1])[:max_nodes]
+    )
+
+    # Keep only edges where both ends are in top_ids
+    edges = [
+        r for r in meaningful
+        if r.get("subject", {}).get("@id", "") in top_ids
+        and r.get("object", {}).get("@id", "") in top_ids
+    ]
+
+    if not edges:
+        click.echo("No relationships to render.")
+        return
+
+    def mermaid_id(raw: str) -> str:
+        """Sanitize an entity @id into a valid Mermaid node ID."""
+        return re.sub(r"[^a-zA-Z0-9_]", "_", raw)
+
+    def short_label(name: str, etype: str) -> str:
+        type_abbrev = {"Person": "👤", "Place": "📍", "Organization": "🏛", "CreativeWork": "📄", "Event": "📅", "Date": "🗓"}
+        icon = type_abbrev.get(etype, "")
+        # Truncate long names
+        label = name if len(name) <= 30 else name[:27] + "…"
+        return f"{icon} {label}".strip()
+
+    def short_pred(predicate: str) -> str:
+        return predicate.split(":")[-1]
+
+    lines = ["```mermaid", "graph LR"]
+
+    # Emit node definitions
+    seen_nodes: set[str] = set()
+    for rel in edges:
+        for eid in [rel["subject"]["@id"], rel["object"]["@id"]]:
+            if eid not in seen_nodes and eid in id_to_name:
+                nid = mermaid_id(eid)
+                label = short_label(id_to_name[eid], id_to_type.get(eid, ""))
+                lines.append(f'    {nid}["{label}"]')
+                seen_nodes.add(eid)
+
+    # Emit edges
+    for rel in edges:
+        src_id = mermaid_id(rel["subject"]["@id"])
+        tgt_id = mermaid_id(rel["object"]["@id"])
+        pred = short_pred(rel.get("predicate", ""))
+        lines.append(f"    {src_id} -->|{pred}| {tgt_id}")
+
+    lines.append("```")
+    click.echo("\n".join(lines))
+
+
 @main.command()
 @click.pass_context
 def merge(ctx: click.Context) -> None:

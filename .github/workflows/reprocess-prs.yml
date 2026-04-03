@@ -37,12 +37,15 @@ jobs:
               continue
             fi
 
-            echo "Rebasing PR #$pr_number ($head_ref) onto main"
+            echo "Resetting PR #$pr_number ($head_ref) to main + submission files only"
 
-            # Rebase the submission branch onto main so it gets the latest pipeline code
+            # Fetch the PR branch, then rebuild it from main with only the
+            # submission files — discards old fragment/source commits cleanly
             git fetch origin "$head_ref"
-            git checkout "$head_ref"
-            git rebase origin/main
+            git checkout -B "$head_ref" origin/main
+            git checkout "origin/$head_ref" -- submissions/
+            COMMIT_MSG=$(git log --format=%s "origin/main..origin/$head_ref" -- submissions/ | tail -1)
+            git commit -m "${COMMIT_MSG:-Reprocess submission}"
             git push origin "$head_ref" --force-with-lease
             git checkout main
           done

@@ -37,12 +37,12 @@ jobs:
               continue
             fi
 
-            echo "Triggering reprocess for PR #$pr_number ($head_ref)"
+            echo "Rebasing PR #$pr_number ($head_ref) onto main"
 
-            # Push an empty commit to the branch to trigger process-pr.yml
+            # Rebase the submission branch onto main so it gets the latest pipeline code
             git fetch origin "$head_ref"
             git checkout "$head_ref"
-            git commit --allow-empty -m "Reprocess: pipeline updated on main [skip index]"
-            git push origin "$head_ref"
+            git rebase origin/main
+            git push origin "$head_ref" --force-with-lease
             git checkout main
           done

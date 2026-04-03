@@ -27,6 +27,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Rebase onto main for latest pipeline code
+        run: |
+          git config user.name "WooGraph Bot"
+          git config user.email "woograph-bot@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+
       - uses: astral-sh/setup-uv@v4
 
       - name: Install dependencies

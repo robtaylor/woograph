@@ -31,7 +31,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           PR="${{ github.event.pull_request.number || inputs.pr_number }}"
-          REF=$(gh pr view "$PR" --json headRefName -q .headRefName)
+          REF=$(gh pr view "$PR" --repo "${{ github.repository }}" --json headRefName -q .headRefName)
           echo "number=$PR" >> "$GITHUB_OUTPUT"
           echo "ref=$REF" >> "$GITHUB_OUTPUT"
 

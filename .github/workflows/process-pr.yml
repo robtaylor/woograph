@@ -180,6 +180,7 @@ jobs:
         if: steps.report.outputs.comment != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_COMMENT: ${{ steps.report.outputs.comment }}
         run: |
           PR_NUMBER="${{ github.event.pull_request.number }}"
           EXISTING=$(gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
@@ -188,7 +189,9 @@ jobs:
           if [ -n "$EXISTING" ]; then
             gh api -X DELETE "repos/${{ github.repository }}/issues/comments/${EXISTING}" 2>/dev/null || true
           fi
-          gh pr comment "$PR_NUMBER" --body "${{ steps.report.outputs.comment }}"
+          # Use env var + body-file to avoid shell quoting issues with special chars in entity names
+          printf '%s' "$REPORT_COMMENT" > /tmp/report_comment.md
+          gh pr comment "$PR_NUMBER" --body-file /tmp/report_comment.md
 
       - name: Discover index submissions
         if: steps.detect.outputs.index_files != '' && !contains(github.event.pull_request.head.commit.message, '[skip index]')

@@ -36007,6 +36007,162 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-beings": {
+      "name": "Beings",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-galactic-federation-of-worlds": {
+      "name": "the \"Galactic Federation of Worlds",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-thor-han-eredyon": {
+      "name": "Thor Han Eredyon",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elena-danaan": {
+      "name": "Elena Danaan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-danaan": {
+      "name": "Danaan",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-fine-arts": {
+      "name": "Fine Arts",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-louvre": {
+      "name": "Louvre",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-centre-national-de-la-recherche-scientifique": {
+      "name": "the Centre National de la Recherche Scientifique",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-karnak": {
+      "name": "Karnak",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-dendera": {
+      "name": "Dendera",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-university-of-toulouse": {
+      "name": "the University of Toulouse",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-druidry": {
+      "name": "Druidry",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-zeta-reticuli": {
+      "name": "Zeta Reticuli",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-a-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races": {
+      "name": "A Gift From The Stars: Extraterrestrial Contacts and Guide of Alien Races",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-extraterrestrial-contacts-and-guide-of-alien-races": {
+      "name": "Extraterrestrial Contacts and Guide of Alien Races",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-val-thor": {
+      "name": "Val Thor",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-journeys-beyond-earth": {
+      "name": "Journeys Beyond Earth",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-seeders-the-return-of-the-gods-2022": {
+      "name": "The Seeders: The Return Of The Gods (2022",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stephen-chua": {
+      "name": "Stephen Chua",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-canis-minor": {
+      "name": "Canis Minor",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-youtube-videos": {
+      "name": "YouTube Videos",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-12-october-2023": {
+      "name": "12 October 2023",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-elena": {
+      "name": "Elena",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races": {
+      "name": "Gift From The Stars: Extraterrestrial Contacts and Guide of Alien Races",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-2022-the-seeders-the-return-of-the-gods": {
+      "name": "2022).The Seeders: The Return Of The Gods",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-danaan-youtube-channel": {
+      "name": "Danaan - YouTube Channel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

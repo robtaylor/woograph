@@ -23,6 +23,9 @@ dependencies = [
     "threadpoolctl>=3.6.0",
     "typing-extensions>=4.15.0",
     "requests>=2.33.0",
+    "opencv-python-headless>=4.8",
+    "scikit-image>=0.22",
+    "scipy>=1.11",
 ]
 
 [project.scripts]

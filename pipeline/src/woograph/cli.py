@@ -13,6 +13,7 @@ from woograph.convert.account import convert_account
 from woograph.convert.index import discover_index
 from woograph.convert.pdf import convert_pdf
 from woograph.convert.web import convert_url
+from woograph.convert.video import convert_video
 from woograph.extract.disambiguate import disambiguate_entities
 from woograph.extract.ner import extract_entities
 from woograph.extract.relationships import (
@@ -173,13 +174,42 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
             content_path = convert_account(account_md, output_dir)
 
         elif source_type == "video":
-            # Video processing is deferred; just store metadata
-            click.echo("Video processing not yet implemented. Storing metadata only.")
-            content_path = output_dir / "content.md"
-            content_path.write_text(
-                f"# {title}\n\nVideo source: {source.get('url', 'N/A')}\n\n"
-                f"*Video transcription not yet implemented.*\n"
+            file_name = source.get("file", "")
+            video_url = source.get("url", "")
+            if video_url:
+                import requests as _requests
+                from woograph.convert.web import _BROWSER_HEADERS
+                video_path = output_dir / (slug + Path(video_url).suffix or ".mp4")
+                logger.info("Downloading video: %s", video_url)
+                resp = _requests.get(
+                    video_url, headers=_BROWSER_HEADERS, timeout=120,
+                    allow_redirects=True, stream=True,
+                )
+                resp.raise_for_status()
+                with video_path.open("wb") as vf:
+                    for chunk in resp.iter_content(chunk_size=8192):
+                        vf.write(chunk)
+            elif file_name:
+                video_path = repo_root / "submissions" / "files" / file_name
+            else:
+                click.echo("Error: Video requires either 'file' or 'url'", err=True)
+                raise SystemExit(1)
+            if not video_path.exists():
+                click.echo(f"Error: Video file not found: {video_path}", err=True)
+                raise SystemExit(1)
+            video_opts = source.get("processing", {})
+            convert_video(
+                video_path,
+                output_dir,
+                scale=video_opts.get("scale", 2),
+                max_frames=video_opts.get("max_frames", 0),
+                frame_step=video_opts.get("frame_step", 1),
+                padding_factor=video_opts.get("padding_factor", 2.0),
+                psf_sigma=video_opts.get("psf_sigma", 1.5),
+                deconv_iterations=video_opts.get("deconv_iterations", 15),
+                save_crops=video_opts.get("save_crops", False),
             )
+            content_path = output_dir / "content.md"
 
         else:
             click.echo(f"Error: Unknown source type: {source_type}", err=True)

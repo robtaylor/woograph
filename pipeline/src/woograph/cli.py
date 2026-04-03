@@ -122,11 +122,29 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
             file_name = source.get("file", "")
             pdf_url = source.get("url", "")
             if pdf_url:
-                # Download PDF from URL
-                import urllib.request
+                # Download PDF from URL with browser headers
+                import requests as _requests
+                from woograph.convert.web import _BROWSER_HEADERS
                 pdf_path = output_dir / (slug + ".pdf")
                 logger.info("Downloading PDF: %s", pdf_url)
-                urllib.request.urlretrieve(pdf_url, pdf_path)
+                resp = _requests.get(
+                    pdf_url, headers=_BROWSER_HEADERS, timeout=60, allow_redirects=True
+                )
+                if not resp.ok:
+                    archive_url = f"https://web.archive.org/web/{pdf_url}"
+                    logger.warning(
+                        "HTTP %s for PDF %s — trying Wayback Machine: %s",
+                        resp.status_code, pdf_url, archive_url,
+                    )
+                    resp = _requests.get(
+                        archive_url, headers=_BROWSER_HEADERS, timeout=60, allow_redirects=True
+                    )
+                    if not resp.ok:
+                        raise RuntimeError(
+                            f"HTTP {resp.status_code} downloading PDF {pdf_url} "
+                            f"(Wayback Machine also failed)"
+                        )
+                pdf_path.write_bytes(resp.content)
             elif file_name:
                 pdf_path = repo_root / "submissions" / "files" / file_name
             else:

@@ -14,6 +14,7 @@ import cv2
 import numpy as np
 from numpy.typing import NDArray
 from scipy import ndimage
+from scipy.signal import fftconvolve
 from skimage.registration import phase_cross_correlation
 from skimage.restoration import richardson_lucy
 
@@ -709,15 +710,29 @@ def _ibp_super_resolve(
     assert len(aligned) == len(shifts) == len(weights)
     assert len(aligned) > 0
 
-    psf = _make_gaussian_psf(size=max(5, int(psf_sigma * 4) | 1), sigma=psf_sigma)
+    # Build the scale-invariant forward PSF.
+    # The physical imaging model is: scene → optical_blur(PSF) → sensor_integrate → sample
+    # Sensor integration over each LR pixel is a box filter of width `scale` in HR pixels.
+    # The effective blur kernel is PSF ⊛ box(scale), making the model consistent
+    # regardless of the chosen upscaling factor.
+    hr_psf_sigma = psf_sigma * scale
+    psf_size = max(5, int(hr_psf_sigma * 6) | 1)  # 6-sigma kernel
+    optical_psf = _make_gaussian_psf(size=psf_size, sigma=hr_psf_sigma)
+
+    # Convolve optical PSF with sensor box filter for scale-invariant forward model
+    box = np.ones((scale, scale), dtype=np.float64) / (scale * scale)
+    psf = fftconvolve(optical_psf, box, mode="full")
+    psf /= psf.sum()  # renormalise
 
     # Initial HR estimate: weighted average
     hr = _weighted_average_init(aligned, weights, scale)
     h_hr, w_hr = hr.shape[:2]
-    logger.info("IBP: initial HR estimate %dx%d at %dx scale, %d frames (FFT)",
-                w_hr, h_hr, scale, len(aligned))
+    logger.info("IBP: initial HR estimate %dx%d at %dx scale, %d frames (FFT), "
+                "PSF sigma=%.1f LR px (%.1f HR px), kernel %dx%d",
+                w_hr, h_hr, scale, len(aligned), psf_sigma, hr_psf_sigma,
+                psf.shape[1], psf.shape[0])
 
-    # Precompute OTF (PSF in frequency domain at HR resolution)
+    # Precompute OTF (combined PSF in frequency domain at HR resolution)
     psf_padded = np.zeros((h_hr, w_hr), dtype=np.float64)
     ph, pw = psf.shape
     psf_padded[:ph, :pw] = psf
@@ -1000,9 +1015,9 @@ def convert_video(
         learning_rate=0.1,
     )
 
-    # Step 8: Richardson-Lucy deconvolution
+    # Step 8: Richardson-Lucy deconvolution (sigma in HR pixel units)
     enhanced = _richardson_lucy_deconv(
-        stacked, psf_sigma=psf_sigma, iterations=deconv_iterations,
+        stacked, psf_sigma=psf_sigma * scale, iterations=deconv_iterations,
     )
 
     # Step 9: Adaptive contrast enhancement

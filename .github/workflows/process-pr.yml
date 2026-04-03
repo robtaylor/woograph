@@ -168,6 +168,13 @@ jobs:
           git diff --staged --quiet || git commit -m "Process sources from submissions"
           git push
 
+      - name: Clear processing-failed label on success
+        if: steps.detect.outputs.files != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ github.event.pull_request.number }}" --remove-label "processing-failed" 2>/dev/null || true
+
       - name: Post extraction report
         if: steps.report.outputs.comment != ''
         env:

@@ -197,7 +197,8 @@ jobs:
       - name: Discover index submissions
         if: steps.detect.outputs.index_files != '' && !contains(github.event.pull_request.head.commit.message, '[skip index]')
         env:
-          GH_TOKEN: ${{ secrets.WORKFLOW_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WORKFLOW_PAT: ${{ secrets.WORKFLOW_PAT }}
         run: |
           cd pipeline
           while IFS= read -r f; do
@@ -232,9 +233,9 @@ jobs:
           LABELS=$(gh pr view "$PR_NUMBER" --json labels --jq '.labels[].name' 2>/dev/null || true)
           if echo "$LABELS" | grep -q "^index-approved$"; then
             echo "index-approved already present — re-triggering by cycling the label"
-            gh pr edit "$PR_NUMBER" --remove-label "index-approved" || true
+            GH_TOKEN="$WORKFLOW_PAT" gh pr edit "$PR_NUMBER" --remove-label "index-approved" || true
             sleep 2
-            gh pr edit "$PR_NUMBER" --add-label "index-approved" || true
+            GH_TOKEN="$WORKFLOW_PAT" gh pr edit "$PR_NUMBER" --add-label "index-approved" || true
           fi
 
       - name: Label PR on failure

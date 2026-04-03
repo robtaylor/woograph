@@ -199,6 +199,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKFLOW_PAT: ${{ secrets.WORKFLOW_PAT }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           cd pipeline
           while IFS= read -r f; do
@@ -225,17 +226,17 @@ jobs:
             SUMMARY="${SUMMARY}- **${TITLE}**: ${TOTAL} pages found\n"
           done
 
-          gh pr comment "$PR_NUMBER" --body "$(printf '## Index Discovery Complete\n\n'"$SUMMARY"'\nAdd the **`index-approved`** label to start processing.\n\n> Processing runs sequentially in a single job — one page fetch + LLM extraction per URL.')"
-          gh pr edit "$PR_NUMBER" --add-label "index-pending-approval" || true
-
-          # If index-approved label is already present (e.g. from before a reprocess),
-          # re-trigger process-index.yml by cycling the label
           LABELS=$(gh pr view "$PR_NUMBER" --json labels --jq '.labels[].name' 2>/dev/null || true)
           if echo "$LABELS" | grep -q "^index-approved$"; then
-            echo "index-approved already present — re-triggering by cycling the label"
-            GH_TOKEN="$WORKFLOW_PAT" gh pr edit "$PR_NUMBER" --remove-label "index-approved" || true
-            sleep 2
-            GH_TOKEN="$WORKFLOW_PAT" gh pr edit "$PR_NUMBER" --add-label "index-approved" || true
+            # Already approved — dispatch processing directly now that the plan is committed
+            echo "index-approved already present — dispatching process-index workflow"
+            GH_TOKEN="$WORKFLOW_PAT" gh workflow run process-index.yml \
+              --ref main \
+              -f pr_number="$PR_NUMBER"
+            gh pr comment "$PR_NUMBER" --body "$(printf '## Index Discovery Complete\n\n'"$SUMMARY"'\nIndex processing has been triggered automatically (plan updated).\n\n> Processing runs sequentially in a single job — one page fetch + LLM extraction per URL.')"
+          else
+            gh pr comment "$PR_NUMBER" --body "$(printf '## Index Discovery Complete\n\n'"$SUMMARY"'\nAdd the **`index-approved`** label to start processing.\n\n> Processing runs sequentially in a single job — one page fetch + LLM extraction per URL.')"
+            gh pr edit "$PR_NUMBER" --add-label "index-pending-approval" || true
           fi
 
       - name: Label PR on failure

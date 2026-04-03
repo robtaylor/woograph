@@ -3,14 +3,19 @@ name: Process Index Submission
 on:
   pull_request:
     types: [labeled]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: PR number to process
+        required: true
 
 concurrency:
-  group: process-index-${{ github.event.pull_request.number }}
+  group: process-index-${{ github.event.pull_request.number || inputs.pr_number }}
   cancel-in-progress: true
 
 jobs:
   process:
-    if: github.event.label.name == 'index-approved'
+    if: github.event.label.name == 'index-approved' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,9 +25,19 @@ jobs:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       WOOGRAPH_PDF_BACKEND: auto
     steps:
+      - name: Resolve PR branch
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR="${{ github.event.pull_request.number || inputs.pr_number }}"
+          REF=$(gh pr view "$PR" --json headRefName -q .headRefName)
+          echo "number=$PR" >> "$GITHUB_OUTPUT"
+          echo "ref=$REF" >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ steps.pr.outputs.ref }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -134,7 +149,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          PR_NUMBER="${{ github.event.pull_request.number }}"
+          PR_NUMBER="${{ steps.pr.outputs.number }}"
           FRAGMENTS=$(ls graph/fragments/*.jsonld 2>/dev/null | wc -l || echo 0)
           FAILED_LIST=""
           if [ -f /tmp/claude/failed_pages.txt ]; then

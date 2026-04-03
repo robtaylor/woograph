@@ -1,0 +1,1063 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elena-danaan",
+  "name": "Elena Danaan",
+  "entities": [
+    {
+      "@id": "source:elena-danaan",
+      "@type": "woo:Source",
+      "name": "Elena Danaan"
+    },
+    {
+      "@id": "entity:place-earth",
+      "@type": "Place",
+      "name": "Earth",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-beings",
+      "@type": "Organization",
+      "name": "Beings",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-the-galactic-federation-of-worlds",
+      "@type": "Organization",
+      "name": "the \"Galactic Federation of Worlds",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-thor-han-eredyon",
+      "@type": "Organization",
+      "name": "Thor Han Eredyon",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-france",
+      "@type": "Place",
+      "name": "France",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-danaan",
+      "@type": "Organization",
+      "name": "Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-fine-arts",
+      "@type": "Organization",
+      "name": "Fine Arts",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-paris",
+      "@type": "Place",
+      "name": "Paris",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-louvre",
+      "@type": "Person",
+      "name": "Louvre",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-egypt",
+      "@type": "Place",
+      "name": "Egypt",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-the-centre-national-de-la-recherche-scientifique",
+      "@type": "Organization",
+      "name": "the Centre National de la Recherche Scientifique",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-karnak",
+      "@type": "Place",
+      "name": "Karnak",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-luxor",
+      "@type": "Place",
+      "name": "Luxor",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-cairo",
+      "@type": "Place",
+      "name": "Cairo",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-dendera",
+      "@type": "Place",
+      "name": "Dendera",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:place-valley",
+      "@type": "Place",
+      "name": "Valley",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-kings",
+      "@type": "Organization",
+      "name": "Kings",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-the-university-of-toulouse",
+      "@type": "Organization",
+      "name": "the University of Toulouse",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-druidry",
+      "@type": "Organization",
+      "name": "Druidry",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-zeta-reticuli",
+      "@type": "Organization",
+      "name": "Zeta Reticuli",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-the-galactic-federation-of-worlds",
+      "@type": "Organization",
+      "name": "the Galactic Federation of Worlds",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:creativework-a-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races",
+      "@type": "CreativeWork",
+      "name": "A Gift From The Stars: Extraterrestrial Contacts and Guide of Alien Races",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-extraterrestrial-contacts-and-guide-of-alien-races",
+      "@type": "Organization",
+      "name": "Extraterrestrial Contacts and Guide of Alien Races",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-val-thor",
+      "@type": "Person",
+      "name": "Val Thor",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-journeys-beyond-earth",
+      "@type": "Person",
+      "name": "Journeys Beyond Earth",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:creativework-the-seeders-the-return-of-the-gods-2022",
+      "@type": "CreativeWork",
+      "name": "The Seeders: The Return Of The Gods (2022",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-stephen-chua",
+      "@type": "Person",
+      "name": "Stephen Chua",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-canis-minor",
+      "@type": "Person",
+      "name": "Canis Minor",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:person-youtube-videos",
+      "@type": "Person",
+      "name": "YouTube Videos",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:date-12-october-2023",
+      "@type": "Date",
+      "name": "12 October 2023",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-elena",
+      "@type": "Organization",
+      "name": "Elena",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:creativework-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races",
+      "@type": "CreativeWork",
+      "name": "Gift From The Stars: Extraterrestrial Contacts and Guide of Alien Races",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:creativework-2022-the-seeders-the-return-of-the-gods",
+      "@type": "CreativeWork",
+      "name": "2022).The Seeders: The Return Of The Gods",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    },
+    {
+      "@id": "entity:organization-danaan-youtube-channel",
+      "@type": "Organization",
+      "name": "Danaan - YouTube Channel",
+      "aliases": [],
+      "mentionedIn": "source:elena-danaan"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-earth"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-beings"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-galactic-federation-of-worlds"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-thor-han-eredyon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-france"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-fine-arts"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-paris"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-louvre"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-egypt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-centre-national-de-la-recherche-scientifique"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-karnak"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-luxor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dendera"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-valley"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-kings"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-of-toulouse"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-druidry"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-zeta-reticuli"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-galactic-federation-of-worlds"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-a-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-val-thor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-journeys-beyond-earth"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders-the-return-of-the-gods-2022"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stephen-chua"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-canis-minor"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-youtube-videos"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-october-2023"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-2022-the-seeders-the-return-of-the-gods"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-danaan-youtube-channel"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:bornIn",
+      "object": {
+        "@id": "entity:place-france"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:workedFor",
+      "object": {
+        "@id": "entity:organization-the-centre-national-de-la-recherche-scientifique"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-youtube-videos"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-a-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-thor-han-eredyon"
+      },
+      "predicate": "woo:memberOf",
+      "object": {
+        "@id": "entity:organization-the-galactic-federation-of-worlds"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-a-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-seeders-the-return-of-the-gods-2022"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-a-gift-from-the-stars-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-val-thor"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-journeys-beyond-earth"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-earth"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-beings"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-fine-arts"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-paris"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-louvre"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-egypt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-karnak"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-luxor"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-cairo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dendera"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-valley"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-kings"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-university-of-toulouse"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-druidry"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-zeta-reticuli"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-extraterrestrial-contacts-and-guide-of-alien-races"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stephen-chua"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-canis-minor"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-12-october-2023"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-2022-the-seeders-the-return-of-the-gods"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-danaan-youtube-channel"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

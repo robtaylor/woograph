@@ -2,7 +2,6 @@
 
 import json
 import logging
-from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -20,16 +19,16 @@ class EntityRegistry:
         """Load registry from disk, or create empty if missing."""
         if not self.path.exists():
             logger.info("Registry file not found at %s, creating empty", self.path)
-            return {"entities": {}, "last_updated": None}
+            return {"entities": {}}
         try:
             return json.loads(self.path.read_text())
         except (json.JSONDecodeError, OSError):
             logger.warning("Corrupt registry at %s, starting fresh", self.path)
-            return {"entities": {}, "last_updated": None}
+            return {"entities": {}}
 
     def save(self) -> None:
         """Persist registry to disk."""
-        self.data["last_updated"] = datetime.now(timezone.utc).isoformat()
+        self.data.pop("last_updated", None)
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.path.write_text(json.dumps(self.data, indent=2) + "\n")
 

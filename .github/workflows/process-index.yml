@@ -155,8 +155,9 @@ jobs:
           COMMENT
           )"
 
-          # Remove pending label, add processed label
+          # Remove pending/failed labels, add processed label
           gh pr edit "$PR_NUMBER" --remove-label "index-pending-approval" || true
+          gh pr edit "$PR_NUMBER" --remove-label "processing-failed" || true
           gh pr edit "$PR_NUMBER" --add-label "index-processed" || true
 
       - name: Label on failure

@@ -171,7 +171,7 @@ jobs:
           git push
 
       - name: Clear processing-failed label on success
-        if: steps.detect.outputs.files != '' || steps.detect.outputs.index_files != ''
+        if: steps.detect.outputs.files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -227,8 +227,18 @@ jobs:
           gh pr comment "$PR_NUMBER" --body "$(printf '## Index Discovery Complete\n\n'"$SUMMARY"'\nAdd the **`index-approved`** label to start processing.\n\n> Processing runs sequentially in a single job — one page fetch + LLM extraction per URL.')"
           gh pr edit "$PR_NUMBER" --add-label "index-pending-approval" || true
 
+          # If index-approved label is already present (e.g. from before a reprocess),
+          # re-trigger process-index.yml by cycling the label
+          LABELS=$(gh pr view "$PR_NUMBER" --json labels --jq '.labels[].name' 2>/dev/null || true)
+          if echo "$LABELS" | grep -q "^index-approved$"; then
+            echo "index-approved already present — re-triggering by cycling the label"
+            gh pr edit "$PR_NUMBER" --remove-label "index-approved" || true
+            sleep 2
+            gh pr edit "$PR_NUMBER" --add-label "index-approved" || true
+          fi
+
       - name: Label PR on failure
-        if: failure()
+        if: failure() && steps.detect.outputs.files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

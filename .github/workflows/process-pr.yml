@@ -123,8 +123,8 @@ jobs:
               SECTION=$(uv run woograph report "$frag")
               GRAPH=$(uv run woograph graph-preview "$frag" 2>/dev/null || true)
               REPORT_BODY="${REPORT_BODY}${SECTION}
-${GRAPH}
-"
+              ${GRAPH}
+              "
               ENTS=$(python3 -c "
           import json, sys
           with open(sys.argv[1]) as f: d = json.load(f)
@@ -171,7 +171,7 @@ ${GRAPH}
           git push
 
       - name: Clear processing-failed label on success
-        if: steps.detect.outputs.files != ''
+        if: steps.detect.outputs.files != '' || steps.detect.outputs.index_files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

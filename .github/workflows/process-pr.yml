@@ -3,7 +3,6 @@ name: Process PR Sources
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    paths: ['submissions/**']
 
 concurrency:
   group: process-pr-${{ github.event.pull_request.number }}

@@ -396,6 +396,181 @@ def _detect_and_track(
     return bboxes
 
 
+def _detect_median_subtraction(
+    frames: list[NDArray[np.uint8]],
+    min_area: int = 30,
+    threshold: int = 15,
+    roi_y_max: float = 1.0,
+    max_jump: float = 0.0,
+) -> list[BBox | None]:
+    """Detect moving objects via temporal median subtraction.
+
+    Computes the median frame as a background model, then finds objects in
+    each frame by thresholding the absolute difference from the median.
+    Much more effective than MOG2 for small objects against uniform backgrounds
+    (e.g. aircraft in sky).
+
+    Args:
+        min_area: Minimum contour area in pixels.
+        threshold: Absolute difference threshold (0-255).
+        roi_y_max: Fraction of frame height to use (1.0 = full frame).
+        max_jump: Maximum distance the object can jump between frames.
+                  0 = auto (15% of frame diagonal).
+    """
+    h, w = frames[0].shape[:2]
+    if max_jump <= 0:
+        max_jump = 0.15 * np.sqrt(h**2 + w**2)
+
+    y_limit = int(h * roi_y_max)
+
+    # Compute temporal median background
+    grey = [cv2.cvtColor(f, cv2.COLOR_BGR2GRAY) for f in frames]
+    # Use subset for efficiency if many frames (every 3rd frame is sufficient)
+    if len(grey) > 100:
+        median_bg = np.median(grey[::3], axis=0).astype(np.uint8)
+    else:
+        median_bg = np.median(grey, axis=0).astype(np.uint8)
+
+    bboxes: list[BBox | None] = []
+    last_center: tuple[float, float] | None = None
+
+    for i, g in enumerate(grey):
+        diff = cv2.absdiff(g, median_bg)
+        _, thresh_mask = cv2.threshold(diff, threshold, 255, cv2.THRESH_BINARY)
+
+        # Mask out UI region
+        if y_limit < h:
+            thresh_mask[y_limit:] = 0
+
+        # Light morphological cleanup
+        kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
+        thresh_mask = cv2.morphologyEx(thresh_mask, cv2.MORPH_CLOSE, kernel)
+        thresh_mask = cv2.morphologyEx(thresh_mask, cv2.MORPH_OPEN, kernel)
+
+        contours, _ = cv2.findContours(
+            thresh_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE,
+        )
+
+        # Score contours: prefer compact objects near last known position.
+        # Compactness (fill ratio) distinguishes real objects from diffuse
+        # noise like tree branches — a jet fills its bounding box densely,
+        # tree edges are sparse and spread over a large bbox.
+        max_bbox_area = 0.25 * w * h  # ignore contours > 25% of frame
+        candidates: list[tuple[BBox, float]] = []
+        for cnt in contours:
+            area = cv2.contourArea(cnt)
+            if area < min_area:
+                continue
+            x, y, bw, bh = cv2.boundingRect(cnt)
+            bbox = BBox(x, y, bw, bh)
+            bbox_area = bw * bh
+
+            if bbox.center[1] >= y_limit:
+                continue
+            if bbox_area > max_bbox_area:
+                continue  # too large — likely background clutter
+
+            # Fill ratio: how much of the bounding box is filled
+            fill_ratio = area / bbox_area if bbox_area > 0 else 0
+            # Score: area weighted by compactness
+            score = float(area) * (0.3 + 0.7 * fill_ratio)
+
+            if last_center is not None:
+                dist = np.sqrt(
+                    (bbox.center[0] - last_center[0]) ** 2
+                    + (bbox.center[1] - last_center[1]) ** 2,
+                )
+                if dist > max_jump:
+                    continue
+                score *= max(0.1, 1.0 - dist / max_jump)
+
+            candidates.append((bbox, score))
+
+        if candidates:
+            best = max(candidates, key=lambda c: c[1])[0]
+            bboxes.append(best)
+            last_center = best.center
+        else:
+            bboxes.append(None)
+
+    detected = sum(1 for b in bboxes if b is not None)
+    logger.info(
+        "Median subtraction: detected object in %d / %d frames (threshold=%d)",
+        detected, len(frames), threshold,
+    )
+    return bboxes
+
+
+def _filter_detections(
+    bboxes: list[BBox | None],
+    frame_size: tuple[int, int],
+    edge_margin: float = 0.05,
+    size_tolerance: float = 2.0,
+) -> list[BBox | None]:
+    """Filter out detections that are outliers in size or near frame edges.
+
+    Rejects detections where:
+    - The bbox centre is within edge_margin of the frame border
+    - The bbox area is more than size_tolerance× the median area
+    - The bbox aspect ratio flips dramatically from the median
+
+    This removes frames where the object is leaving the frame or banking
+    (changing silhouette shape), which would add noise to the stack.
+    """
+    h, w = frame_size
+    valid_bboxes = [b for b in bboxes if b is not None]
+    if len(valid_bboxes) < 5:
+        return bboxes  # too few to filter
+
+    # Compute median bbox properties
+    areas = [b.w * b.h for b in valid_bboxes]
+    median_area = float(np.median(areas))
+    aspect_ratios = [b.w / max(b.h, 1) for b in valid_bboxes]
+    median_ar = float(np.median(aspect_ratios))
+
+    x_margin = w * edge_margin
+    y_margin = h * edge_margin
+    filtered: list[BBox | None] = []
+    rejected = 0
+
+    for b in bboxes:
+        if b is None:
+            filtered.append(None)
+            continue
+
+        cx, cy = b.center
+        area = b.w * b.h
+        ar = b.w / max(b.h, 1)
+
+        # Reject if too close to frame edge
+        if cx < x_margin or cx > w - x_margin or cy < y_margin or cy > h - y_margin:
+            filtered.append(None)
+            rejected += 1
+            continue
+
+        # Reject if area is too different from median
+        if area > median_area * size_tolerance or area < median_area / size_tolerance:
+            filtered.append(None)
+            rejected += 1
+            continue
+
+        # Reject if aspect ratio flipped (e.g. wide→tall from banking)
+        if median_ar > 1 and ar < 0.7 or median_ar < 1 and ar > 1.4:
+            filtered.append(None)
+            rejected += 1
+            continue
+
+        filtered.append(b)
+
+    if rejected > 0:
+        remaining = sum(1 for b in filtered if b is not None)
+        logger.info(
+            "Filtered %d outlier detections (edge/size/aspect), %d remain",
+            rejected, remaining,
+        )
+    return filtered
+
+
 def _crop_with_padding(
     frames: list[NDArray[np.uint8]],
     bboxes: list[BBox | None],
@@ -450,6 +625,105 @@ def _crop_with_padding(
     return crops, uniform_size
 
 
+def _subtract_background(
+    frames: list[NDArray[np.uint8]],
+    bboxes: list[BBox | None],
+    crop_size: tuple[int, int],
+) -> NDArray[np.float64]:
+    """Compute median background and return it as a full-frame image.
+
+    The median is computed over all frames (stabilised), giving a static
+    background model.  Callers can crop regions from this to subtract
+    from individual object crops.
+    """
+    grey_stack = [cv2.cvtColor(f, cv2.COLOR_BGR2GRAY) for f in frames]
+    if len(grey_stack) > 100:
+        median_bg = np.median(grey_stack[::3], axis=0)
+    else:
+        median_bg = np.median(grey_stack, axis=0)
+    # Return as colour (3-channel) float for subtraction from BGR crops
+    return np.stack([median_bg] * 3, axis=-1)
+
+
+def _crop_and_subtract_bg(
+    frames: list[NDArray[np.uint8]],
+    bboxes: list[BBox | None],
+    bg_model: NDArray[np.float64],
+    crop_size: tuple[int, int],
+) -> list[NDArray[np.float64]]:
+    """Crop detected regions and subtract median background.
+
+    For each detected frame, crops the same region from both the frame
+    and the background model, subtracts, and keeps the absolute
+    difference.  This isolates the moving object from the static scene.
+    """
+    crop_h, crop_w = crop_size
+    valid = [(f, b) for f, b in zip(frames, bboxes) if b is not None]
+    fg_crops: list[NDArray[np.float64]] = []
+
+    for frame, bbox in valid:
+        assert bbox is not None
+        h, w = frame.shape[:2]
+        cx, cy = bbox.center
+
+        x1 = int(max(0, cx - crop_w / 2))
+        y1 = int(max(0, cy - crop_h / 2))
+        x2 = int(min(w, x1 + crop_w))
+        y2 = int(min(h, y1 + crop_h))
+
+        frame_crop = frame[y1:y2, x1:x2].astype(np.float64)
+        bg_crop = bg_model[y1:y2, x1:x2]
+
+        # Subtract background — object pixels remain, background → ~0
+        fg = np.abs(frame_crop - bg_crop)
+
+        # Pad if crop is smaller than desired
+        if fg.shape[0] != crop_h or fg.shape[1] != crop_w:
+            padded = np.zeros((crop_h, crop_w, 3), dtype=np.float64)
+            ph = min(fg.shape[0], crop_h)
+            pw = min(fg.shape[1], crop_w)
+            padded[:ph, :pw] = fg[:ph, :pw]
+            fg = padded
+
+        fg_crops.append(fg)
+
+    logger.info("Background-subtracted %d crops (%dx%d)", len(fg_crops), crop_w, crop_h)
+    return fg_crops
+
+
+def _save_crop_video(
+    crops: list[NDArray],
+    output_path: Path,
+    fps: int = 10,
+    scale_up: int = 4,
+) -> None:
+    """Save a diagnostic video of aligned crops.
+
+    Each crop is scaled up for visibility and annotated with frame index.
+    """
+    if not crops:
+        return
+
+    sample = np.clip(crops[0], 0, 255).astype(np.uint8)
+    h, w = sample.shape[:2]
+    out_h, out_w = h * scale_up, w * scale_up
+
+    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    writer = cv2.VideoWriter(str(output_path), fourcc, fps, (out_w, out_h))
+
+    for i, crop in enumerate(crops):
+        frame = np.clip(crop, 0, 255).astype(np.uint8)
+        frame = cv2.resize(frame, (out_w, out_h), interpolation=cv2.INTER_NEAREST)
+        cv2.putText(
+            frame, f"#{i}", (5, 20),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 1,
+        )
+        writer.write(frame)
+
+    writer.release()
+    logger.info("Saved crop video: %s (%d frames, %dx%d)", output_path, len(crops), out_w, out_h)
+
+
 def _align_crops(
     crops: list[NDArray[np.uint8]],
     upsample_factor: int = 20,
@@ -472,7 +746,12 @@ def _align_crops(
 
     aligned: list[NDArray[np.float64]] = [crops[0].astype(np.float64)]
     shifts: list[tuple[float, float]] = [(0.0, 0.0)]
-    rejected = 0
+    rejected_shift = 0
+    rejected_diff = 0
+
+    # We'll compute similarity after alignment; collect candidates first
+    # then reject high-diff frames in a second pass.
+    candidates: list[tuple[NDArray[np.float64], tuple[float, float]]] = []
 
     for crop in crops[1:]:
         gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY).astype(np.float64)
@@ -483,7 +762,7 @@ def _align_crops(
         # Reject outlier shifts (e.g. tracker jumped to different object)
         shift_mag = np.sqrt(shift[0]**2 + shift[1]**2)
         if shift_mag > max_shift_px:
-            rejected += 1
+            rejected_shift += 1
             continue
 
         # shift is (row_shift, col_shift) i.e. (dy, dx)
@@ -497,11 +776,31 @@ def _align_crops(
                 cval=0.0,
             )
 
-        aligned.append(shifted)
-        shifts.append((float(shift[0]), float(shift[1])))
+        candidates.append((shifted, (float(shift[0]), float(shift[1]))))
 
-    if rejected > 0:
-        logger.info("Rejected %d crops with shifts > %.0f px", rejected, max_shift_px)
+    # Second pass: reject aligned crops that differ too much from reference.
+    # This catches frames where the object has turned/banked/changed shape.
+    if candidates:
+        ref_f = aligned[0]  # reference crop (float64)
+        diffs = []
+        for shifted, _ in candidates:
+            mse = float(np.mean((shifted - ref_f) ** 2))
+            diffs.append(mse)
+        median_diff = float(np.median(diffs))
+        # Reject crops with MSE > 3× the median difference
+        diff_threshold = max(median_diff * 3.0, 100.0)  # floor at 100 to avoid over-filtering
+        for (shifted, shift), mse in zip(candidates, diffs):
+            if mse > diff_threshold:
+                rejected_diff += 1
+                continue
+            aligned.append(shifted)
+            shifts.append(shift)
+
+    if rejected_shift > 0:
+        logger.info("Rejected %d crops with shifts > %.0f px", rejected_shift, max_shift_px)
+    if rejected_diff > 0 and candidates:
+        logger.info("Rejected %d crops with high diff (threshold=%.0f, median=%.0f)",
+                    rejected_diff, diff_threshold, median_diff)
     logger.info("Aligned %d crops (max shift: %.2f px)", len(aligned),
                 max(max(abs(s[0]), abs(s[1])) for s in shifts) if shifts else 0)
     return aligned, shifts
@@ -931,12 +1230,33 @@ def convert_video(
     frames = _stabilise_frames(frames, transforms)
 
     # Step 2: Detect and track object (Pass 2 — on stabilised frames)
-    bboxes = _detect_and_track(
-        frames, min_area=min_object_area, warmup_frames=warmup_frames,
-        roi_y_max=roi_y_max,
+    # Try temporal median subtraction first (better for small objects in sky),
+    # fall back to MOG2 if it doesn't find enough detections.
+    bboxes = _detect_median_subtraction(
+        frames, min_area=min_object_area, roi_y_max=roi_y_max,
     )
-
     raw_detected_count = sum(1 for b in bboxes if b is not None)
+
+    if raw_detected_count < 10:
+        logger.info(
+            "Median subtraction found only %d frames — trying MOG2 fallback",
+            raw_detected_count,
+        )
+        bboxes_mog2 = _detect_and_track(
+            frames, min_area=min_object_area, warmup_frames=warmup_frames,
+            roi_y_max=roi_y_max,
+        )
+        mog2_count = sum(1 for b in bboxes_mog2 if b is not None)
+        if mog2_count > raw_detected_count:
+            logger.info("MOG2 found more detections (%d vs %d), using MOG2",
+                        mog2_count, raw_detected_count)
+            bboxes = bboxes_mog2
+            raw_detected_count = mog2_count
+
+    # Step 2.5: Filter outlier detections (edge proximity, size jumps, banking)
+    bboxes = _filter_detections(bboxes, (h, w))
+    raw_detected_count = sum(1 for b in bboxes if b is not None)
+
     if raw_detected_count < 3:
         logger.warning(
             "Only %d frames with detections — need at least 3 for stacking",
@@ -1005,6 +1325,10 @@ def convert_video(
     logger.info(
         "Best frame: index %d, sharpness weight %.4f", best_idx, weights[best_idx],
     )
+
+    # Step 6.5: Save diagnostic video of aligned crops
+    if save_crops:
+        _save_crop_video(aligned, output_dir / "crops.mp4", fps=10)
 
     # Step 7: Iterative Back-Projection super-resolution
     stacked = _ibp_super_resolve(

@@ -1,0 +1,33 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:sighting-in-sheffield-cloaked-ufo",
+  "name": "Sighting in Sheffield - cloaked UFO?",
+  "entities": [
+    {
+      "@id": "source:sighting-in-sheffield-cloaked-ufo",
+      "@type": "woo:Source",
+      "name": "Sighting in Sheffield - cloaked UFO?"
+    },
+    {
+      "@id": "entity:event-sighting-in-sheffield-cloaked-ufo",
+      "@type": "Event",
+      "name": "Sighting in Sheffield - cloaked UFO?",
+      "aliases": [],
+      "mentionedIn": "source:sighting-in-sheffield-cloaked-ufo"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-sighting-in-sheffield-cloaked-ufo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:sighting-in-sheffield-cloaked-ufo"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

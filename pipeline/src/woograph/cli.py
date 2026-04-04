@@ -75,7 +75,7 @@ def _download_video(
     """Download a video from URL (YouTube or direct) and optionally clip it.
 
     Supports:
-    - YouTube URLs via youtubedr (brew install youtubedr)
+    - YouTube URLs via yt-dlp (preferred) or youtubedr (fallback)
     - Direct video URLs via HTTP download
     - Time clipping via source.processing.start/end (e.g. "1:30", "2:45")
     """
@@ -86,30 +86,41 @@ def _download_video(
     clip_end = source.get("processing", {}).get("end")
 
     if _is_youtube_url(url):
-        # Download via youtubedr
-        if not shutil.which("youtubedr"):
-            raise RuntimeError(
-                "youtubedr not found. Install with: brew install youtubedr"
-            )
-        raw_name = f"{slug}_raw.mp4"
-        raw_path = output_dir / raw_name
+        raw_path = output_dir / f"{slug}_raw.mp4"
         logger.info("Downloading YouTube video: %s", url)
-        cmd = ["youtubedr", "download", "-q", "hd1080", "-o", raw_name, url]
-        result = subprocess.run(
-            cmd, capture_output=True, text=True, timeout=600,
-            cwd=str(output_dir),
-        )
-        if result.returncode != 0:
-            # Retry without quality constraint
-            logger.warning("hd1080 failed, retrying with default quality")
-            cmd = ["youtubedr", "download", "-o", raw_name, url]
+
+        if shutil.which("yt-dlp"):
+            # yt-dlp handles age restriction and muxes audio+video
+            cmd = [
+                "yt-dlp",
+                "-f", "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080][ext=mp4]/best",
+                "--merge-output-format", "mp4",
+                "-o", str(raw_path),
+                url,
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+            if result.returncode != 0:
+                raise RuntimeError(f"yt-dlp download failed: {result.stderr}")
+        elif shutil.which("youtubedr"):
+            # Fallback to youtubedr (may fail on age-restricted videos)
+            raw_name = raw_path.name
+            cmd = ["youtubedr", "download", "-q", "hd1080", "-o", raw_name, url]
             result = subprocess.run(
                 cmd, capture_output=True, text=True, timeout=600,
                 cwd=str(output_dir),
             )
-        if result.returncode != 0:
+            if result.returncode != 0:
+                logger.warning("hd1080 failed, retrying with default quality")
+                cmd = ["youtubedr", "download", "-o", raw_name, url]
+                result = subprocess.run(
+                    cmd, capture_output=True, text=True, timeout=600,
+                    cwd=str(output_dir),
+                )
+            if result.returncode != 0:
+                raise RuntimeError(f"youtubedr download failed: {result.stderr}")
+        else:
             raise RuntimeError(
-                f"youtubedr download failed: {result.stderr}"
+                "No YouTube downloader found. Install yt-dlp or youtubedr."
             )
         logger.info("Downloaded: %s (%.1f MB)", raw_path, raw_path.stat().st_size / 1e6)
     else:

@@ -30,11 +30,11 @@ jobs:
 
       - name: Install system dependencies
         run: |
-          # youtubedr for YouTube video downloads
-          YOUTUBEDR_VERSION=2.10.6
-          curl -sL "https://github.com/kkdai/youtube/releases/download/v${YOUTUBEDR_VERSION}/youtubedr_${YOUTUBEDR_VERSION}_linux_amd64.tar.gz" \
-            | sudo tar xz -C /usr/local/bin youtubedr
-          # ffmpeg for video clipping (pre-installed on ubuntu-latest, verify)
+          # yt-dlp for YouTube video downloads (handles age restriction)
+          sudo curl -sL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod +x /usr/local/bin/yt-dlp
+          yt-dlp --version
+          # ffmpeg for video clipping/muxing (pre-installed on ubuntu-latest)
           ffmpeg -version | head -1
 
       - name: Install dependencies

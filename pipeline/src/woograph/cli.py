@@ -61,6 +61,93 @@ def _upload_videos_to_r2(output_dir: Path) -> dict[str, str]:
     return urls
 
 
+def _is_youtube_url(url: str) -> bool:
+    """Check if URL is a YouTube video link."""
+    return any(
+        host in url
+        for host in ("youtube.com/watch", "youtu.be/", "youtube.com/shorts/")
+    )
+
+
+def _download_video(
+    url: str, output_dir: Path, slug: str, source: dict,
+) -> Path:
+    """Download a video from URL (YouTube or direct) and optionally clip it.
+
+    Supports:
+    - YouTube URLs via youtubedr (brew install youtubedr)
+    - Direct video URLs via HTTP download
+    - Time clipping via source.processing.start/end (e.g. "1:30", "2:45")
+    """
+    import shutil
+    import subprocess
+
+    clip_start = source.get("processing", {}).get("start")
+    clip_end = source.get("processing", {}).get("end")
+
+    if _is_youtube_url(url):
+        # Download via youtubedr
+        if not shutil.which("youtubedr"):
+            raise RuntimeError(
+                "youtubedr not found. Install with: brew install youtubedr"
+            )
+        raw_name = f"{slug}_raw.mp4"
+        raw_path = output_dir / raw_name
+        logger.info("Downloading YouTube video: %s", url)
+        cmd = ["youtubedr", "download", "-q", "hd1080", "-o", raw_name, url]
+        result = subprocess.run(
+            cmd, capture_output=True, text=True, timeout=600,
+            cwd=str(output_dir),
+        )
+        if result.returncode != 0:
+            # Retry without quality constraint
+            logger.warning("hd1080 failed, retrying with default quality")
+            cmd = ["youtubedr", "download", "-o", raw_name, url]
+            result = subprocess.run(
+                cmd, capture_output=True, text=True, timeout=600,
+                cwd=str(output_dir),
+            )
+        if result.returncode != 0:
+            raise RuntimeError(
+                f"youtubedr download failed: {result.stderr}"
+            )
+        logger.info("Downloaded: %s (%.1f MB)", raw_path, raw_path.stat().st_size / 1e6)
+    else:
+        # Direct HTTP download
+        import requests as _requests
+        from woograph.convert.web import _BROWSER_HEADERS
+        raw_path = output_dir / (slug + (Path(url).suffix or ".mp4"))
+        logger.info("Downloading video: %s", url)
+        resp = _requests.get(
+            url, headers=_BROWSER_HEADERS, timeout=120,
+            allow_redirects=True, stream=True,
+        )
+        resp.raise_for_status()
+        with raw_path.open("wb") as vf:
+            for chunk in resp.iter_content(chunk_size=8192):
+                vf.write(chunk)
+
+    # Clip to time range if specified
+    if clip_start or clip_end:
+        if not shutil.which("ffmpeg"):
+            raise RuntimeError("ffmpeg required for time clipping but not found")
+        clipped_path = output_dir / f"{slug}.mp4"
+        ffmpeg_cmd = ["ffmpeg", "-y", "-i", str(raw_path)]
+        if clip_start:
+            ffmpeg_cmd += ["-ss", str(clip_start)]
+        if clip_end:
+            ffmpeg_cmd += ["-to", str(clip_end)]
+        ffmpeg_cmd += ["-c", "copy", str(clipped_path)]
+        logger.info("Clipping video: %s → %s", clip_start or "start", clip_end or "end")
+        result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=120)
+        if result.returncode != 0:
+            raise RuntimeError(f"ffmpeg clip failed: {result.stderr}")
+        raw_path.unlink()  # Remove unclipped version
+        return clipped_path
+
+    return raw_path
+
+
 def _default_repo_root() -> Path:
     """Return the default repo root (parent of pipeline/)."""
     return Path(__file__).resolve().parent.parent.parent.parent
@@ -208,18 +295,7 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
             file_name = source.get("file", "")
             video_url = source.get("url", "")
             if video_url:
-                import requests as _requests
-                from woograph.convert.web import _BROWSER_HEADERS
-                video_path = output_dir / (slug + Path(video_url).suffix or ".mp4")
-                logger.info("Downloading video: %s", video_url)
-                resp = _requests.get(
-                    video_url, headers=_BROWSER_HEADERS, timeout=120,
-                    allow_redirects=True, stream=True,
-                )
-                resp.raise_for_status()
-                with video_path.open("wb") as vf:
-                    for chunk in resp.iter_content(chunk_size=8192):
-                        vf.write(chunk)
+                video_path = _download_video(video_url, output_dir, slug, source)
             elif file_name:
                 video_path = repo_root / "submissions" / "files" / file_name
             else:

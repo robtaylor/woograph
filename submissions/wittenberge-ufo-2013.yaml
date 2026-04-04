@@ -1,0 +1,15 @@
+source:
+  title: "UFO Sighting in Wittenberge, Germany"
+  type: video
+  url: "https://woograph-upload.robtaylor.workers.dev/file/uploads/03461869-36cb-4cc5-b751-9c0f9117079f/wittenberge-ufo-2013.mp4"
+  date_added: "2026-04-04"
+  author: ""
+  tags: [ufo, germany, wittenberge, video, "2013"]
+  description: >-
+    UFO sighting recorded on September 18, 2013 in Wittenberge, Germany.
+    No additional information known about the sighting.
+
+    Original upload seems to be https://www.youtube.com/watch?v=KOXcxC25-H8
+  processing:
+    scale: 3
+    save_crops: true

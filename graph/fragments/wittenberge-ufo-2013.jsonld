@@ -1,0 +1,33 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:wittenberge-ufo-2013",
+  "name": "UFO Sighting in Wittenberge, Germany",
+  "entities": [
+    {
+      "@id": "source:wittenberge-ufo-2013",
+      "@type": "woo:Source",
+      "name": "UFO Sighting in Wittenberge, Germany"
+    },
+    {
+      "@id": "entity:event-ufo-sighting-in-wittenberge-germany",
+      "@type": "Event",
+      "name": "UFO Sighting in Wittenberge, Germany",
+      "aliases": [],
+      "mentionedIn": "source:wittenberge-ufo-2013"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-ufo-sighting-in-wittenberge-germany"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:wittenberge-ufo-2013"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

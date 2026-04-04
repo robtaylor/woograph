@@ -2,7 +2,11 @@
 name = "woograph-root"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["woograph"]
+dependencies = [
+    "drizzle>=2.2.0",
+    "torch>=2.11.0",
+    "woograph",
+]
 
 [tool.uv.sources]
 woograph = { workspace = true }

@@ -13,13 +13,18 @@ from statistics import median, mean
 
 import cv2
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 from numpy.typing import NDArray
 from scipy.signal import fftconvolve
 from skimage.registration import phase_cross_correlation
 from skimage.restoration import richardson_lucy
+
+try:
+    import torch
+    import torch.nn as nn
+    import torch.nn.functional as F
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
 
 logger = logging.getLogger(__name__)
 
@@ -1944,8 +1949,10 @@ def _ibp_mosaic_resolve(
 
 
 # ── Real-ESRGAN neural super-resolution ──────────────────────────────────
+# Classes below require torch; only instantiated inside _esrgan_upscale()
+# which checks HAS_TORCH at runtime.
 
-class _ResidualDenseBlock(nn.Module):
+class _ResidualDenseBlock(nn.Module if HAS_TORCH else object):  # type: ignore[misc]
     def __init__(self, nf: int = 64, gc: int = 32):
         super().__init__()
         self.conv1 = nn.Conv2d(nf, gc, 3, 1, 1)
@@ -1964,7 +1971,7 @@ class _ResidualDenseBlock(nn.Module):
         return x5 * 0.2 + x
 
 
-class _RRDB(nn.Module):
+class _RRDB(nn.Module if HAS_TORCH else object):  # type: ignore[misc]
     def __init__(self, nf: int = 64, gc: int = 32):
         super().__init__()
         self.rdb1 = _ResidualDenseBlock(nf, gc)
@@ -1978,7 +1985,7 @@ class _RRDB(nn.Module):
         return out * 0.2 + x
 
 
-class _RRDBNet(nn.Module):
+class _RRDBNet(nn.Module if HAS_TORCH else object):  # type: ignore[misc]
     def __init__(self, in_nc: int = 3, out_nc: int = 3, nf: int = 64,
                  nb: int = 23, gc: int = 32):
         super().__init__()
@@ -2004,12 +2011,16 @@ _ESRGAN_URL = "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/R
 _ESRGAN_CACHE = Path.home() / ".cache" / "realesrgan" / "RealESRGAN_x4plus.pth"
 
 
-def _esrgan_upscale(img_bgr: NDArray[np.uint8]) -> NDArray[np.uint8]:
+def _esrgan_upscale(img_bgr: NDArray[np.uint8]) -> NDArray[np.uint8] | None:
     """Upscale a BGR uint8 image 4x using Real-ESRGAN (RRDBNet).
 
     Downloads model weights on first call (~64 MB).
     Uses MPS on Apple Silicon, falls back to CPU.
+    Returns None if torch is not available.
     """
+    if not HAS_TORCH:
+        logger.warning("ESRGAN skipped: torch not installed")
+        return None
     import urllib.request
 
     _ESRGAN_CACHE.parent.mkdir(parents=True, exist_ok=True)
@@ -2628,12 +2639,13 @@ def convert_video(
     cv2.imwrite(str(output_dir / "best_frame_bicubic.png"), bicubic)
     logger.info("Saved bicubic %dx: %s", scale, output_dir / "best_frame_bicubic.png")
 
-    # 4. Best frame neural upscale (Real-ESRGAN 4x)
+    # 4. Best frame neural upscale (Real-ESRGAN 4x) — optional, requires torch
     best_u8 = np.clip(best_crop, 0, 255).astype(np.uint8)
     esrgan_result = _esrgan_upscale(best_u8)
-    cv2.imwrite(str(output_dir / "best_frame_esrgan4x.png"), esrgan_result)
-    logger.info("Saved ESRGAN 4x: %s (%dx%d)", output_dir / "best_frame_esrgan4x.png",
-                esrgan_result.shape[1], esrgan_result.shape[0])
+    if esrgan_result is not None:
+        cv2.imwrite(str(output_dir / "best_frame_esrgan4x.png"), esrgan_result)
+        logger.info("Saved ESRGAN 4x: %s (%dx%d)", output_dir / "best_frame_esrgan4x.png",
+                    esrgan_result.shape[1], esrgan_result.shape[0])
 
     # Optionally save individual crops
     if save_crops:

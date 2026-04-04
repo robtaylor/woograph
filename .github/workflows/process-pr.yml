@@ -28,6 +28,15 @@ jobs:
 
       - uses: astral-sh/setup-uv@v4
 
+      - name: Install system dependencies
+        run: |
+          # youtubedr for YouTube video downloads
+          YOUTUBEDR_VERSION=2.10.6
+          curl -sL "https://github.com/kkdai/youtube/releases/download/v${YOUTUBEDR_VERSION}/youtubedr_${YOUTUBEDR_VERSION}_linux_amd64.tar.gz" \
+            | sudo tar xz -C /usr/local/bin youtubedr
+          # ffmpeg for video clipping (pre-installed on ubuntu-latest, verify)
+          ffmpeg -version | head -1
+
       - name: Install dependencies
         run: cd pipeline && uv sync
 

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WooGraph - Video Analysis</title>
+  <style>
+    :root {
+      --bg-primary: #1a1a2e;
+      --bg-secondary: #16213e;
+      --bg-tertiary: #0f3460;
+      --bg-surface: #1e2a4a;
+      --text-primary: #e8e8e8;
+      --text-secondary: #a0a0b8;
+      --text-muted: #6c6c80;
+      --accent: #4FC3F7;
+      --accent-hover: #29B6F6;
+      --border: #2a2a4a;
+      --border-light: #3a3a5a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+    }
+
+    .top-bar {
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .top-bar .logo {
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .top-bar .title {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .top-bar .back-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .top-bar .back-link:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    /* Meta summary */
+    .meta-bar {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+      padding: 16px;
+      background: var(--bg-surface);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .meta-item .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.5px;
+    }
+
+    .meta-item .value {
+      font-size: 14px;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    /* Section headers */
+    h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Videos */
+    .video-section {
+      margin-bottom: 32px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 16px;
+    }
+
+    .video-card {
+      background: var(--bg-surface);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .video-card video {
+      width: 100%;
+      display: block;
+      background: #000;
+    }
+
+    .video-card .caption {
+      padding: 10px 14px;
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .video-card .caption strong {
+      color: var(--text-primary);
+    }
+
+    /* Image comparison */
+    .image-section {
+      margin-bottom: 32px;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .image-card {
+      background: var(--bg-surface);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+
+    .image-card:hover {
+      border-color: var(--accent);
+    }
+
+    .image-card.active {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px var(--accent);
+    }
+
+    .image-card img {
+      width: 100%;
+      display: block;
+      image-rendering: pixelated;
+      background: #000;
+    }
+
+    .image-card .caption {
+      padding: 8px 10px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 95vw;
+      max-height: 95vh;
+      image-rendering: pixelated;
+    }
+
+    .lightbox .lb-caption {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--bg-surface);
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      color: var(--text-primary);
+    }
+
+    /* Side-by-side compare */
+    .compare-section {
+      margin-bottom: 32px;
+    }
+
+    .compare-container {
+      display: flex;
+      gap: 4px;
+      align-items: flex-start;
+      overflow-x: auto;
+      padding-bottom: 8px;
+    }
+
+    .compare-container .image-card {
+      flex: 0 0 auto;
+      min-width: 180px;
+      max-width: 300px;
+    }
+
+    /* Loading / error */
+    .message {
+      text-align: center;
+      padding: 48px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    /* Category labels */
+    .category-label {
+      display: inline-block;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 4px;
+    }
+
+    .cat-reference { background: #4FC3F722; color: #4FC3F7; }
+    .cat-stacking { background: #81C78422; color: #81C784; }
+    .cat-neural { background: #BA68C822; color: #BA68C8; }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <a href="index.html" class="logo">WooGraph</a>
+    <span class="title" id="page-title">Video Analysis</span>
+    <a href="index.html" class="back-link">&larr; Back to Graph</a>
+  </div>
+
+  <div class="container" id="content">
+    <div class="message" id="loading-msg">Loading video analysis...</div>
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <img id="lb-img" src="" alt="">
+    <div class="lb-caption" id="lb-caption"></div>
+  </div>
+
+  <script>
+    const LABELS = {
+      best_frame:             { title: 'Best Frame (raw)',         cat: 'reference',  desc: 'Sharpest single frame from detection' },
+      best_frame_bicubic:     { title: 'Bicubic Upscale',         cat: 'reference',  desc: 'Best frame with bicubic interpolation' },
+      best_frame_esrgan4x:    { title: 'ESRGAN 4x',              cat: 'neural',     desc: 'Neural super-resolution on best frame' },
+      drizzle_all:            { title: 'Drizzle (all frames)',     cat: 'stacking',   desc: 'STScI drizzle using all aligned frames' },
+      drizzle_consecutive5:   { title: 'Drizzle (5 consecutive)', cat: 'stacking',   desc: 'Drizzle using 5 frames near best' },
+      drizzle_similar15:      { title: 'Drizzle (15 similar)',     cat: 'stacking',   desc: 'Drizzle using 15 most similar frames (NCC)' },
+      ibp_all:                { title: 'IBP (all frames)',         cat: 'stacking',   desc: 'Iterative back-projection, all frames' },
+      ibp_consecutive5:       { title: 'IBP (5 consecutive)',      cat: 'stacking',   desc: 'IBP using 5 frames near best' },
+      ibp_similar15:          { title: 'IBP (15 similar)',         cat: 'stacking',   desc: 'IBP using 15 most similar frames' },
+      drizzle_ibp_all:        { title: 'Drizzle+IBP (all)',        cat: 'stacking',   desc: 'Drizzle init + IBP refinement, all frames' },
+      drizzle_ibp_consecutive5: { title: 'Drizzle+IBP (5 consec)', cat: 'stacking', desc: 'Drizzle+IBP using 5 frames near best' },
+      drizzle_ibp_similar15:  { title: 'Drizzle+IBP (15 similar)', cat: 'stacking',  desc: 'Drizzle+IBP using 15 most similar frames' },
+    };
+
+    const VIDEO_LABELS = {
+      debug_detections: { title: 'Detection Tracking', desc: 'Raw (green) and filtered (red) detections overlaid on stabilised video' },
+      crops:            { title: 'Cropped Object',     desc: 'Padded crops with centroid crosshair and frame numbers' },
+    };
+
+    function getSlug() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('source') || params.get('slug') || '';
+    }
+
+    function formatLabel(key) {
+      const info = LABELS[key];
+      if (info) return info.title;
+      return key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function catClass(key) {
+      const info = LABELS[key];
+      return info ? `cat-${info.cat}` : '';
+    }
+
+    function catLabel(key) {
+      const info = LABELS[key];
+      if (!info) return '';
+      const names = { reference: 'Reference', stacking: 'Multi-frame', neural: 'Neural' };
+      return names[info.cat] || info.cat;
+    }
+
+    async function loadAnalysis() {
+      const slug = getSlug();
+      if (!slug) {
+        document.getElementById('content').innerHTML = '<div class="message">No source specified. Use ?source=slug</div>';
+        return;
+      }
+
+      document.getElementById('page-title').textContent = `Video Analysis: ${slug.replace(/-/g, ' ')}`;
+
+      // Try loading metadata from sources dir
+      const basePath = `data/sources/${slug}`;
+      let meta;
+      try {
+        const resp = await fetch(`${basePath}/metadata.json`);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        meta = await resp.json();
+      } catch {
+        document.getElementById('content').innerHTML =
+          `<div class="message">Could not load analysis for "${slug}".<br>Ensure the source has been processed as a video type.</div>`;
+        return;
+      }
+
+      const videoMeta = meta.video_metadata || meta;
+      const outputFiles = videoMeta.output_files || {};
+      const r2Urls = videoMeta.r2_urls || {};
+
+      // Separate videos and images
+      const videos = {};
+      let images = {};
+      for (const [key, filename] of Object.entries(outputFiles)) {
+        if (filename.endsWith('.mp4')) videos[key] = filename;
+        else if (filename.endsWith('.png') && key !== 'best_frame') images[key] = filename;
+      }
+      // Always include best_frame at the start if present
+      if (outputFiles.best_frame) {
+        images = { best_frame: outputFiles.best_frame, ...images };
+      }
+
+      let html = '';
+
+      // Meta summary bar
+      html += '<div class="meta-bar">';
+      html += metaItem('Total Frames', videoMeta.total_frames);
+      html += metaItem('Detected', videoMeta.detected_frames);
+      html += metaItem('Crop Size', `${(videoMeta.crop_size||[])[1]}x${(videoMeta.crop_size||[])[0]}`);
+      html += metaItem('Scale', `${videoMeta.scale_factor}x`);
+      html += metaItem('Output Size', `${(videoMeta.output_size||[])[0]}x${(videoMeta.output_size||[])[1]}`);
+      html += metaItem('Best Frame', `#${videoMeta.best_frame_index}`);
+      html += metaItem('Processed', new Date(videoMeta.processed_at).toLocaleDateString());
+      html += '</div>';
+
+      // Video section
+      if (Object.keys(videos).length > 0) {
+        html += '<div class="video-section">';
+        html += '<h2>Tracking Videos</h2>';
+        html += '<div class="video-grid">';
+        // Prefer debug_detections first, then crops
+        const videoOrder = ['debug_detections', 'crops', ...Object.keys(videos).filter(k => k !== 'debug_detections' && k !== 'crops')];
+        for (const key of videoOrder) {
+          if (!videos[key]) continue;
+          const info = VIDEO_LABELS[key] || { title: formatLabel(key), desc: '' };
+          const videoSrc = r2Urls[key] || `${basePath}/${videos[key]}`;
+          html += `
+            <div class="video-card">
+              <video controls preload="metadata" loop>
+                <source src="${videoSrc}" type="video/mp4">
+              </video>
+              <div class="caption">
+                <strong>${info.title}</strong><br>
+                ${info.desc}
+              </div>
+            </div>`;
+        }
+        html += '</div></div>';
+      }
+
+      // Reference images (best frame, bicubic, ESRGAN)
+      const refKeys = ['best_frame', 'best_frame_bicubic', 'best_frame_esrgan4x'].filter(k => images[k]);
+      if (refKeys.length > 0) {
+        html += '<div class="compare-section">';
+        html += '<h2>Reference (Best Frame)</h2>';
+        html += '<div class="compare-container">';
+        for (const key of refKeys) {
+          html += imageCard(basePath, key, images[key]);
+        }
+        html += '</div></div>';
+      }
+
+      // Stacking variants grouped by method
+      const stackGroups = [
+        { label: 'Drizzle', prefix: 'drizzle_', exclude: 'drizzle_ibp_' },
+        { label: 'IBP', prefix: 'ibp_' },
+        { label: 'Drizzle + IBP', prefix: 'drizzle_ibp_' },
+      ];
+
+      for (const group of stackGroups) {
+        const keys = Object.keys(images).filter(k => {
+          if (refKeys.includes(k)) return false;
+          if (group.exclude && k.startsWith(group.exclude)) return false;
+          return k.startsWith(group.prefix);
+        });
+        if (keys.length === 0) continue;
+
+        html += '<div class="compare-section">';
+        html += `<h2>${group.label} Variants</h2>`;
+        html += '<div class="compare-container">';
+        for (const key of keys) {
+          html += imageCard(basePath, key, images[key]);
+        }
+        html += '</div></div>';
+      }
+
+      // All images grid
+      html += '<div class="image-section">';
+      html += '<h2>All Outputs</h2>';
+      html += '<div class="image-grid">';
+      for (const [key, filename] of Object.entries(images)) {
+        html += imageCard(basePath, key, filename);
+      }
+      html += '</div></div>';
+
+      document.getElementById('content').innerHTML = html;
+
+      // Lightbox handlers
+      document.querySelectorAll('.image-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const img = card.querySelector('img');
+          const caption = card.querySelector('.caption strong')?.textContent || '';
+          document.getElementById('lb-img').src = img.src;
+          document.getElementById('lb-caption').textContent = caption;
+          document.getElementById('lightbox').classList.add('open');
+        });
+      });
+    }
+
+    function metaItem(label, value) {
+      return `<div class="meta-item"><span class="label">${label}</span><span class="value">${value ?? '--'}</span></div>`;
+    }
+
+    function imageCard(basePath, key, filename) {
+      const info = LABELS[key] || {};
+      const title = info.title || formatLabel(key);
+      const cat = catLabel(key);
+      const catCls = catClass(key);
+      return `
+        <div class="image-card" data-key="${key}">
+          <img src="${basePath}/${filename}" alt="${title}" loading="lazy">
+          <div class="caption">
+            ${cat ? `<span class="category-label ${catCls}">${cat}</span><br>` : ''}
+            <strong>${title}</strong>
+            ${info.desc ? `<br><span style="color:var(--text-muted);font-size:11px">${info.desc}</span>` : ''}
+          </div>
+        </div>`;
+    }
+
+    // Lightbox close
+    document.getElementById('lightbox').addEventListener('click', () => {
+      document.getElementById('lightbox').classList.remove('open');
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') document.getElementById('lightbox').classList.remove('open');
+    });
+
+    loadAnalysis();
+  </script>
+</body>
+</html>

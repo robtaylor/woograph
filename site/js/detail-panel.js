@@ -88,8 +88,9 @@ function showNodeDetail(data, container) {
         <ul class="source-list">
           ${mentionedIn.map(src => {
             const sourceId = typeof src === 'string' ? src : (src['@id'] || '');
-            const displayName = sourceId.replace(/^source:/, '').replace(/-/g, ' ');
-            return `<li><a href="#" title="${escapeHtml(sourceId)}">${escapeHtml(displayName)}</a></li>`;
+            const slug = sourceId.replace(/^source:/, '');
+            const displayName = slug.replace(/-/g, ' ');
+            return `<li><a href="#" class="source-link" data-slug="${escapeHtml(slug)}" title="${escapeHtml(sourceId)}">${escapeHtml(displayName)}</a></li>`;
           }).join('')}
         </ul>
       </div>
@@ -108,6 +109,27 @@ function showNodeDetail(data, container) {
   `;
 
   container.innerHTML = html;
+
+  // Wire up source links — check for video sources and open viewer
+  container.querySelectorAll('.source-link').forEach(link => {
+    link.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const slug = link.dataset.slug;
+      try {
+        const resp = await fetch(`data/sources/${slug}/metadata.json`);
+        if (resp.ok) {
+          const meta = await resp.json();
+          if (meta.type === 'video' || meta.video_metadata || meta.output_files) {
+            window.open(`video.html?source=${encodeURIComponent(slug)}`, '_blank');
+            return;
+          }
+        }
+      } catch { /* not a video source or no metadata */ }
+      // Non-video source — no viewer yet, just flash the link
+      link.style.color = 'var(--text-muted)';
+      setTimeout(() => { link.style.color = ''; }, 300);
+    });
+  });
 }
 
 /**

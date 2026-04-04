@@ -33,6 +33,21 @@ jobs:
           cp graph/context.jsonld site/data/ 2>/dev/null || true
           cp graph/stats.json site/data/ 2>/dev/null || echo '{}' > site/data/stats.json
 
+          # Copy video source media (images, videos, metadata) for the viewer
+          if [ -d sources ]; then
+            for src_dir in sources/*/; do
+              slug=$(basename "$src_dir")
+              meta="$src_dir/metadata.json"
+              if [ -f "$meta" ] && grep -q '"type": "video"' "$meta" 2>/dev/null; then
+                dest="site/data/sources/$slug"
+                mkdir -p "$dest"
+                cp "$src_dir"/*.png "$dest/" 2>/dev/null || true
+                cp "$src_dir"/metadata.json "$dest/" 2>/dev/null || true
+                # Videos (.mp4) are served from R2, not GitHub Pages
+              fi
+            done
+          fi
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

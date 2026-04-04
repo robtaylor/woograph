@@ -29,6 +29,37 @@ from woograph.utils.validate import validate_submission
 
 logger = logging.getLogger(__name__)
 
+R2_WORKER_URL = "https://woograph-upload.robtaylor.workers.dev"
+
+
+def _upload_videos_to_r2(output_dir: Path) -> dict[str, str]:
+    """Upload .mp4 files from output_dir to R2, return {stem: url} mapping."""
+    import requests as _requests
+
+    mp4_files = sorted(output_dir.glob("*.mp4"))
+    if not mp4_files:
+        return {}
+
+    urls: dict[str, str] = {}
+    for mp4 in mp4_files:
+        try:
+            with mp4.open("rb") as f:
+                resp = _requests.post(
+                    f"{R2_WORKER_URL}/upload?filename={mp4.name}",
+                    data=f,
+                    headers={"Content-Type": "video/mp4"},
+                    timeout=120,
+                )
+            if resp.ok:
+                data = resp.json()
+                urls[mp4.stem] = data["url"]
+                logger.info("Uploaded %s to R2: %s", mp4.name, data["url"])
+            else:
+                logger.warning("R2 upload failed for %s: HTTP %s", mp4.name, resp.status_code)
+        except Exception:
+            logger.warning("R2 upload failed for %s", mp4.name, exc_info=True)
+    return urls
+
 
 def _default_repo_root() -> Path:
     """Return the default repo root (parent of pipeline/)."""
@@ -210,6 +241,19 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
                 save_crops=video_opts.get("save_crops", False),
             )
             content_path = output_dir / "content.md"
+            # Merge video processing metadata into source metadata
+            video_meta_path = output_dir / "metadata.json"
+            if video_meta_path.exists():
+                video_meta = json.loads(video_meta_path.read_text())
+                source["video_metadata"] = {
+                    k: v for k, v in video_meta.items()
+                    if k not in ("shifts", "sharpness_weights", "video_path")
+                }
+            # Upload videos to R2 (too large for GitHub Pages)
+            r2_urls = _upload_videos_to_r2(output_dir)
+            if r2_urls:
+                source.setdefault("video_metadata", {})["r2_urls"] = r2_urls
+                logger.info("Uploaded %d videos to R2", len(r2_urls))
 
         else:
             click.echo(f"Error: Unknown source type: {source_type}", err=True)
@@ -223,7 +267,7 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
         raise SystemExit(1)
 
     # Write metadata.json alongside the content
-    metadata = {
+    metadata: dict = {
         "source_slug": slug,
         "title": title,
         "type": source_type,
@@ -234,6 +278,8 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
         "content_file": str(content_path.relative_to(output_dir)),
         "processed_at": datetime.now(timezone.utc).isoformat(),
     }
+    if source_type == "video" and "video_metadata" in source:
+        metadata["video_metadata"] = source["video_metadata"]
     metadata_path = output_dir / "metadata.json"
     metadata_path.write_text(json.dumps(metadata, indent=2) + "\n")
 

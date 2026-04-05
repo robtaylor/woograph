@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1510",
+  "name": "Warren Buffet (Individual)",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1510",
+      "@type": "woo:Source",
+      "name": "Warren Buffet (Individual)"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richard-sep",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle Richard\n- Sep",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1510"
+    },
+    {
+      "@id": "entity:creativework-the-seeders-pp",
+      "@type": "CreativeWork",
+      "name": "The Seeders: pp",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1510"
+    },
+    {
+      "@id": "entity:person-galactica",
+      "@type": "Person",
+      "name": "Galactica",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1510"
+    },
+    {
+      "@id": "entity:creativework-webinars",
+      "@type": "CreativeWork",
+      "name": "Webinars",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1510"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1510"
+    },
+    {
+      "@id": "entity:event-warren-buffet-individual",
+      "@type": "Event",
+      "name": "Warren Buffet (Individual)",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1510"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-sep"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1510"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders-pp"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1510"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-galactica"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1510"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-webinars"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1510"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1510"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-webinars"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-warren-buffet-individual"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1510"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-sep"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-warren-buffet-individual"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders-pp"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-warren-buffet-individual"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-galactica"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-warren-buffet-individual"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

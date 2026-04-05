@@ -69,11 +69,11 @@ jobs:
 
       - name: Install system dependencies
         run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           # yt-dlp for YouTube video downloads (handles age restriction)
           sudo curl -sL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod +x /usr/local/bin/yt-dlp
           yt-dlp --version
-          # ffmpeg for video clipping/muxing (pre-installed on ubuntu-latest)
           ffmpeg -version | head -1
 
       - name: Install dependencies

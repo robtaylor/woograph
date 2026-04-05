@@ -234,20 +234,33 @@ function _renderYears(items) {
     const x = 50 + (year - minYear) * pxPerYear;
 
     group.forEach((item, idx) => {
+      const above = idx % 2 === 0;
+      const stackOffset = Math.floor(idx / 2) * 4;
+
+      // Vertical stem from axis to card
+      const stem = document.createElement('div');
+      stem.className = 'timeline-stem' + (above ? ' above' : ' below');
+      stem.style.left = x + 'px';
+      stem.style.height = (60 + stackOffset) + 'px';
+      itemsEl.appendChild(stem);
+
       const card = document.createElement('div');
       card.className = 'timeline-card-small';
-      // Alternate above/below axis
-      const above = idx % 2 === 0;
       card.style.left = (x - 40) + 'px';
-      card.style.bottom = above ? '55%' : 'auto';
-      card.style.top = above ? 'auto' : '55%';
-      card.style.marginTop = above ? '0' : (idx * 4) + 'px';
-      card.style.marginBottom = above ? (idx * 4) + 'px' : '0';
+      card.style.bottom = above ? `calc(50% + ${60 + stackOffset}px)` : 'auto';
+      card.style.top = above ? 'auto' : `calc(50% + ${60 + stackOffset}px)`;
 
       const typeIcon = _typeIcon(item);
+      let thumbHtml = '';
+      if (item.thumbnail) {
+        thumbHtml = `<img class="card-small-thumb" src="${_escapeHtml(item.thumbnail)}" alt="" loading="lazy">`;
+      }
       card.innerHTML = `
-        <span class="card-type-icon">${typeIcon}</span>
-        <span class="card-title">${_escapeHtml(_truncate(item.label, 30))}</span>
+        ${thumbHtml}
+        <div class="card-small-body">
+          <span class="card-type-icon">${typeIcon}</span>
+          <span class="card-title">${_escapeHtml(_truncate(item.label, 30))}</span>
+        </div>
       `;
       card.title = item.label;
       card.addEventListener('click', () => _onItemClick(item));
@@ -300,12 +313,21 @@ function _renderMonths(items) {
     const monthOffset = (year - minYear) * 12 + (month - 1);
     const x = 50 + monthOffset * pxPerMonth;
 
+    const above = i % 2 === 0;
+    const stemHeight = 80;
+
+    // Vertical stem from axis to card
+    const stem = document.createElement('div');
+    stem.className = 'timeline-stem' + (above ? ' above' : ' below');
+    stem.style.left = x + 'px';
+    stem.style.height = stemHeight + 'px';
+    itemsEl.appendChild(stem);
+
     const card = document.createElement('div');
     card.className = 'timeline-card-full';
-    const above = i % 2 === 0;
     card.style.left = (x - 80) + 'px';
-    card.style.bottom = above ? '55%' : 'auto';
-    card.style.top = above ? 'auto' : '55%';
+    card.style.bottom = above ? `calc(50% + ${stemHeight}px)` : 'auto';
+    card.style.top = above ? 'auto' : `calc(50% + ${stemHeight}px)`;
 
     let thumbHtml = '';
     if (item.thumbnail) {

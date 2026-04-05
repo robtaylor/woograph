@@ -900,20 +900,32 @@ body {
   color: var(--bg-primary);
 }
 
+/* Vertical stems connecting cards to axis */
+.timeline-stem {
+  position: absolute;
+  width: 1px;
+  background: var(--border-light);
+  transform: translateX(-0.5px);
+}
+
+.timeline-stem.above {
+  bottom: 50%;
+}
+
+.timeline-stem.below {
+  top: 50%;
+}
+
 /* Small cards (years zoom) */
 .timeline-card-small {
   position: absolute;
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 4px 8px;
-  max-width: 120px;
+  border-radius: 6px;
+  padding: 0;
+  width: 120px;
   cursor: pointer;
   transition: transform 0.15s, border-color 0.15s;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  white-space: nowrap;
   overflow: hidden;
 }
 
@@ -921,6 +933,23 @@ body {
   transform: scale(1.05);
   border-color: var(--accent);
   z-index: 10;
+}
+
+.timeline-card-small .card-small-thumb {
+  width: 100%;
+  height: 48px;
+  object-fit: cover;
+  display: block;
+  background: var(--bg-primary);
+}
+
+.timeline-card-small .card-small-body {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .timeline-card-small .card-type-icon {

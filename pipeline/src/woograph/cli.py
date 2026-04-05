@@ -1560,9 +1560,10 @@ def timeline(ctx: click.Context) -> None:
         raise SystemExit(1)
 
     sources_dir = repo_root / "sources"
+    site_sources_dir = repo_root / "site" / "data" / "sources"
     output_path = repo_root / "site" / "data" / "timeline.json"
 
-    data = generate_timeline(global_path, sources_dir, output_path)
+    data = generate_timeline(global_path, sources_dir, output_path, site_sources_dir)
     spans = data["spans"]
 
     click.echo(

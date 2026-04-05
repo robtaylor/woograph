@@ -148,16 +148,21 @@ def _extract_year_from_slug(slug: str) -> int | None:
     return None
 
 
-def _find_thumbnail(source_dir: Path) -> str | None:
-    """Find a thumbnail image for a source directory."""
-    # Video sources: best_frame.png
-    best = source_dir / "best_frame.png"
-    if best.exists():
-        return "best_frame.png"
-    # Any PNG
-    pngs = sorted(source_dir.glob("*.png"))
-    if pngs:
-        return pngs[0].name
+def _find_thumbnail(source_dir: Path, site_source_dir: Path | None = None) -> str | None:
+    """Find a thumbnail image for a source directory.
+
+    Checks the raw sources dir first, then the site/data/sources/ dir
+    (which has deployed media like best_frame.png from video processing).
+    """
+    for d in [source_dir, site_source_dir]:
+        if d is None or not d.exists():
+            continue
+        best = d / "best_frame.png"
+        if best.exists():
+            return "best_frame.png"
+        pngs = sorted(d.glob("*.png"))
+        if pngs:
+            return pngs[0].name
     return None
 
 
@@ -165,8 +170,16 @@ def generate_timeline(
     global_path: Path,
     sources_dir: Path,
     output_path: Path,
+    site_sources_dir: Path | None = None,
 ) -> dict:
     """Generate timeline.json from global.jsonld and source metadata.
+
+    Args:
+        global_path: Path to global.jsonld
+        sources_dir: Path to sources/ directory (raw source data)
+        output_path: Where to write timeline.json
+        site_sources_dir: Optional path to site/data/sources/ (deployed media).
+            Checked for thumbnails when sources_dir doesn't have them.
 
     Returns the generated timeline data dict.
     """
@@ -196,15 +209,30 @@ def generate_timeline(
             rels_by_subject.setdefault(subj_id, []).append((pred, obj_id))
             rels_by_object.setdefault(obj_id, []).append((pred, subj_id))
 
-    # Load source metadata
+    # Load source metadata from both raw sources/ and site/data/sources/
     source_meta: dict[str, dict] = {}
+    meta_dirs: list[tuple[Path, Path | None]] = []
+
+    # Raw source directories
     for meta_path in sorted(sources_dir.glob("*/metadata.json")):
+        slug = meta_path.parent.name
+        site_slug_dir = site_sources_dir / slug if site_sources_dir else None
+        meta_dirs.append((meta_path, site_slug_dir))
+
+    # Site source directories (may have video sources not in raw sources/)
+    if site_sources_dir and site_sources_dir.exists():
+        for meta_path in sorted(site_sources_dir.glob("*/metadata.json")):
+            slug = meta_path.parent.name
+            if slug not in {p.parent.name for p, _ in meta_dirs}:
+                meta_dirs.append((meta_path, meta_path.parent))
+
+    for meta_path, site_slug_dir in meta_dirs:
         try:
             meta = json.loads(meta_path.read_text())
             slug = meta.get("source_slug", meta_path.parent.name)
             source_meta[slug] = meta
-            # Check for thumbnail
-            thumb = _find_thumbnail(meta_path.parent)
+            # Check for thumbnail (raw sources dir + deployed site dir)
+            thumb = _find_thumbnail(meta_path.parent, site_slug_dir)
             if thumb:
                 meta["_thumbnail"] = thumb
         except (json.JSONDecodeError, OSError) as exc:

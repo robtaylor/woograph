@@ -36211,6 +36211,48 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richardjan": {
+      "name": "Mokusho Abiga\u00eblle RichardJan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-transcript": {
+      "name": "Transcript",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-jen-han": {
+      "name": "JEN HAN",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-merkabah-southern-cross-lyra": {
+      "name": "Merkabah / Southern Cross & Lyra",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-procreation-mercury-venus-jupiter-saturn": {
+      "name": "Procreation / Mercury / Venus / Jupiter / Saturn",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jen-han-s": {
+      "name": "Jen Han's",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-videosstar-nation-news": {
+      "name": "VideosStar Nation News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

@@ -1,0 +1,214 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0400",
+  "name": "Education / Schools",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0400",
+      "@type": "woo:Source",
+      "name": "Education / Schools"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richardjan",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle RichardJan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:person-transcript",
+      "@type": "Person",
+      "name": "Transcript",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:organization-jen-han",
+      "@type": "Organization",
+      "name": "JEN HAN",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:organization-merkabah-southern-cross-lyra",
+      "@type": "Organization",
+      "name": "Merkabah / Southern Cross & Lyra",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:organization-procreation-mercury-venus-jupiter-saturn",
+      "@type": "Organization",
+      "name": "Procreation / Mercury / Venus / Jupiter / Saturn",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:person-jen-han-s",
+      "@type": "Person",
+      "name": "Jen Han's",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:organization-videosstar-nation-news",
+      "@type": "Organization",
+      "name": "VideosStar Nation News",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    },
+    {
+      "@id": "entity:event-education-schools",
+      "@type": "Event",
+      "name": "Education / Schools",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0400"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardjan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-transcript"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jen-han"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-merkabah-southern-cross-lyra"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-procreation-mercury-venus-jupiter-saturn"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jen-han-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-videosstar-nation-news"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-transcript"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-mokusho-abigae-lle-richardjan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jen-han"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-merkabah-southern-cross-lyra"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jen-han"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-procreation-mercury-venus-jupiter-saturn"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jen-han-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-videosstar-nation-news"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-education-schools"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0400"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -288,10 +288,24 @@ def generate_timeline(
                     thumbnail = f"data/sources/{slug}/{meta['_thumbnail']}"
                     break
 
+        # Build a display label: prefer event name > source title > date text
+        display_label = name
+        if connected_events:
+            event_ent = entity_by_id.get(connected_events[0], {})
+            event_name = event_ent.get("name", "")
+            if event_name:
+                display_label = event_name
+        elif source_ids:
+            first_slug = source_ids[0].replace("source:", "")
+            first_meta = source_meta.get(first_slug)
+            if first_meta and first_meta.get("title"):
+                display_label = first_meta["title"]
+
         items.append({
             "id": eid,
             "type": "date",
             "label": name,
+            "display_label": display_label,
             "source_type": source_type,
             "thumbnail": thumbnail,
             "sources": source_ids,

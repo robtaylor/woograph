@@ -1,10 +1,11 @@
 {
-  "generated": "2026-04-05T01:46:06.228719+00:00",
+  "generated": "2026-04-05T01:56:25.182356+00:00",
   "items": [
     {
       "id": "entity:date-the-early-1860-s",
       "type": "date",
       "label": "the early 1860's",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -21,6 +22,7 @@
       "id": "entity:date-around-1910",
       "type": "date",
       "label": "around 1910",
+      "display_label": "PEAR: 2001 Inertial Mass Quantum Vacuum Fields",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -37,6 +39,7 @@
       "id": "entity:date-the-late-1920-s",
       "type": "date",
       "label": "the late 1920's",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -53,6 +56,7 @@
       "id": "entity:date-june-1936",
       "type": "date",
       "label": "June, 1936",
+      "display_label": "the Second International Congress",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -71,6 +75,7 @@
       "id": "entity:date-june-4-july-10-1947",
       "type": "date",
       "label": "June 4 \u2013 July 10, 1947",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -87,6 +92,7 @@
       "id": "entity:date-june-1947-olmsted-2009",
       "type": "date",
       "label": "June 1947.\"Olmsted 2009",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -103,6 +109,7 @@
       "id": "entity:date-june-4-1947",
       "type": "date",
       "label": "June 4, 1947",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -119,6 +126,7 @@
       "id": "entity:date-july-8-1947",
       "type": "date",
       "label": "July 8, 1947",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -135,6 +143,7 @@
       "id": "entity:date-july-9-1947",
       "type": "date",
       "label": "July 9, 1947",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -151,6 +160,7 @@
       "id": "entity:date-september-1947",
       "type": "date",
       "label": "September 1947",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -167,6 +177,7 @@
       "id": "entity:date-october-1-1947",
       "type": "date",
       "label": "October 1, 1947",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -183,6 +194,7 @@
       "id": "entity:date-the-years-1950-to-1986",
       "type": "date",
       "label": "the years 1950 to 1986",
+      "display_label": "PEAR: 1997 Wishing Good Weather Group Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -199,6 +211,7 @@
       "id": "entity:date-june-3-1952",
       "type": "date",
       "label": "June 3, 1952",
+      "display_label": "PEAR: 2003 Problems Reproducibility Mind Matter Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -215,6 +228,7 @@
       "id": "entity:date-october-14-1952",
       "type": "date",
       "label": "October 14, 1952",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -231,6 +245,7 @@
       "id": "entity:date-october-12-1974",
       "type": "date",
       "label": "October 12, 1974",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -247,6 +262,7 @@
       "id": "entity:date-november-1-1974",
       "type": "date",
       "label": "November 1, 1974",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -263,6 +279,7 @@
       "id": "entity:date-taplinger-1975",
       "type": "date",
       "label": "Taplinger, 1975",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -279,6 +296,7 @@
       "id": "entity:date-the-period-1976-to-1979",
       "type": "date",
       "label": "the period 1976 to 1979",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -295,6 +313,7 @@
       "id": "entity:date-between-1976-and-1999",
       "type": "date",
       "label": "between 1976 and 1999",
+      "display_label": "PEAR: 1998 Information Uncertainty Remote Perception",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -311,6 +330,7 @@
       "id": "entity:date-between-1976-and-1979",
       "type": "date",
       "label": "between 1976 and 1979",
+      "display_label": "PEAR: 1998 Information Uncertainty Remote Perception",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -327,6 +347,7 @@
       "id": "entity:date-january-1976",
       "type": "date",
       "label": "January 1976",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -343,6 +364,7 @@
       "id": "entity:date-the-spring-of-1976",
       "type": "date",
       "label": "the spring of 1976",
+      "display_label": "PEAR: 1979 Precognitive Remote Viewing Stanford",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -359,6 +381,7 @@
       "id": "entity:date-august-21-1976",
       "type": "date",
       "label": "August 21, 1976",
+      "display_label": "PEAR: 1979 Precognitive Remote Viewing Stanford",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -375,6 +398,7 @@
       "id": "entity:date-june-sept-1977",
       "type": "date",
       "label": "June-Sept. 1977",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -391,6 +415,7 @@
       "id": "entity:date-september-19-21-1977",
       "type": "date",
       "label": "September 19\u201321, 1977",
+      "display_label": "PEAR: 2005 Endophysical Models Empirical Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -408,6 +433,7 @@
       "id": "entity:date-the-period-1977-79",
       "type": "date",
       "label": "the period 1977\u201379",
+      "display_label": "PEAR: 2005 Pear Proposition",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -424,6 +450,7 @@
       "id": "entity:date-july-1977",
       "type": "date",
       "label": "July 1977",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -440,6 +467,7 @@
       "id": "entity:date-parapsychology-1978",
       "type": "date",
       "label": "Parapsychology 1978",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -456,6 +484,7 @@
       "id": "entity:date-persinger-1979",
       "type": "date",
       "label": "Persinger, 1979",
+      "display_label": "PEAR: 1987 Engineering Anomalies Research",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -472,6 +501,7 @@
       "id": "entity:date-between-1979-and-1993",
       "type": "date",
       "label": "between 1979 and 1993",
+      "display_label": "PEAR: 1998 Gender Differences Human Machine",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -523,6 +553,7 @@
       "id": "entity:date-may-1979",
       "type": "date",
       "label": "May 1979",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -539,6 +570,7 @@
       "id": "entity:date-june-1979",
       "type": "date",
       "label": "June 1979",
+      "display_label": "PEAR: 2005 Pear Proposition",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -555,6 +587,7 @@
       "id": "entity:date-december-19-1979",
       "type": "date",
       "label": "December 19, 1979",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -571,6 +604,7 @@
       "id": "entity:date-3-september-1980",
       "type": "date",
       "label": "3, September 1980",
+      "display_label": "PEAR: 1989 Precognitive Remote Perception Iii",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -587,6 +621,7 @@
       "id": "entity:date-february-26-1980",
       "type": "date",
       "label": "February 26, 1980",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -603,6 +638,7 @@
       "id": "entity:date-september-20-1980",
       "type": "date",
       "label": "September 20, 1980",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -619,6 +655,7 @@
       "id": "entity:date-october-1980",
       "type": "date",
       "label": "October 1980",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -635,6 +672,7 @@
       "id": "entity:date-gruber-1981",
       "type": "date",
       "label": "Gruber, 1981",
+      "display_label": "PEAR: 1992 Response Hansen Utts Markwick",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -651,6 +689,7 @@
       "id": "entity:date-june-1981",
       "type": "date",
       "label": "June 1981",
+      "display_label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -667,6 +706,7 @@
       "id": "entity:date-jahn-1982",
       "type": "date",
       "label": "Jahn 1982",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -683,6 +723,7 @@
       "id": "entity:date-good-1982",
       "type": "date",
       "label": "Good 1982",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -807,6 +848,7 @@
       "id": "entity:date-july-1982",
       "type": "date",
       "label": "July 1982",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -823,6 +865,7 @@
       "id": "entity:date-november-30-december-1-1983",
       "type": "date",
       "label": "November 30-December 1, 1983",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -839,6 +882,7 @@
       "id": "entity:date-july-1983",
       "type": "date",
       "label": "July 1983",
+      "display_label": "PEAR: 1989 Precognitive Remote Perception Iii",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -855,6 +899,7 @@
       "id": "entity:date-october-1983",
       "type": "date",
       "label": "October, 1983",
+      "display_label": "PEAR: 1988 Operator Related Anomalies Rmc",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -871,6 +916,7 @@
       "id": "entity:date-november-1983",
       "type": "date",
       "label": "November 1983",
+      "display_label": "PEAR: 1986 Quantum Mechanics Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -887,6 +933,7 @@
       "id": "entity:date-jahn-1984",
       "type": "date",
       "label": "Jahn 1984",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -903,6 +950,7 @@
       "id": "entity:date-may-1984",
       "type": "date",
       "label": "May 1984",
+      "display_label": "PEAR: 1989 Precognitive Remote Perception Iii",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -919,6 +967,7 @@
       "id": "entity:date-october-1984",
       "type": "date",
       "label": "October 1984",
+      "display_label": "PEAR: 1992 Experiments Remote Human Machine",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -935,6 +984,7 @@
       "id": "entity:date-december-11-1984",
       "type": "date",
       "label": "December 11, 1984",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -951,6 +1001,7 @@
       "id": "entity:date-april-16-1985",
       "type": "date",
       "label": "April 16, 1985",
+      "display_label": "PEAR: 1986 Quantum Mechanics Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -967,6 +1018,7 @@
       "id": "entity:date-august-1985",
       "type": "date",
       "label": "August 1985",
+      "display_label": "PEAR: 1986 Quantum Mechanics Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -983,6 +1035,7 @@
       "id": "entity:date-october-29-1985",
       "type": "date",
       "label": "October 29, 1985",
+      "display_label": "PEAR: 1986 Quantum Mechanics Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -999,6 +1052,7 @@
       "id": "entity:date-16-august-1986",
       "type": "date",
       "label": "16, August 1986",
+      "display_label": "PEAR: 1989 Precognitive Remote Perception Iii",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1058,6 +1112,7 @@
       "id": "entity:date-jahn-1987",
       "type": "date",
       "label": "Jahn 1987",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1112,6 +1167,7 @@
       "id": "entity:date-october-1987",
       "type": "date",
       "label": "october 1987",
+      "display_label": "PEAR: 1989 Precognitive Remote Perception Iii",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1128,6 +1184,7 @@
       "id": "entity:date-november-1987",
       "type": "date",
       "label": "November 1987",
+      "display_label": "PEAR: 1992 Experiments Remote Human Machine",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1233,6 +1290,7 @@
       "id": "entity:date-august-1989",
       "type": "date",
       "label": "August 1989",
+      "display_label": "PEAR: 1989 Precognitive Remote Perception Iii",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1249,6 +1307,7 @@
       "id": "entity:date-august-5-1989",
       "type": "date",
       "label": "August 5, 1989",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1265,6 +1324,7 @@
       "id": "entity:date-september-20-1989",
       "type": "date",
       "label": "September 20, 1989",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1281,6 +1341,7 @@
       "id": "entity:date-jeffreys-1990",
       "type": "date",
       "label": "Jeffreys 1990",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1297,6 +1358,7 @@
       "id": "entity:date-lindsey-1990",
       "type": "date",
       "label": "Lindsey 1990",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1313,6 +1375,7 @@
       "id": "entity:date-feb-14-and-june-5-1990",
       "type": "date",
       "label": "Feb. 14 and June 5, 1990",
+      "display_label": "PEAR: 1992 Response Hansen Utts Markwick",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1329,6 +1392,7 @@
       "id": "entity:date-between-1978-and-the-early-1990s",
       "type": "date",
       "label": "Between 1978 and the early 1990s",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1345,6 +1409,7 @@
       "id": "entity:date-march-1990",
       "type": "date",
       "label": "March 1990",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1361,6 +1426,7 @@
       "id": "entity:date-april-2-1990",
       "type": "date",
       "label": "April 2, 1990",
+      "display_label": "PEAR: 1992 Response Hansen Utts Markwick",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1377,6 +1443,7 @@
       "id": "entity:date-november-8-10-1991",
       "type": "date",
       "label": "November 8 - 10, 1991",
+      "display_label": "PEAR: 1991 Complementarity Of Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1450,6 +1517,7 @@
       "id": "entity:date-january-1991",
       "type": "date",
       "label": "January, 1991",
+      "display_label": "PEAR: 1992 Experiments Remote Human Machine",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1466,6 +1534,7 @@
       "id": "entity:date-october-27-1991",
       "type": "date",
       "label": "October 27, 1991",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1482,6 +1551,7 @@
       "id": "entity:date-december-1991",
       "type": "date",
       "label": "December 1991",
+      "display_label": "PEAR: 1991 Complementarity Of Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1601,6 +1671,7 @@
       "id": "entity:date-june-1992",
       "type": "date",
       "label": "June, 1992",
+      "display_label": "PEAR: 1994 Linear Pendulum Damping Rate",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1617,6 +1688,7 @@
       "id": "entity:date-april-1993",
       "type": "date",
       "label": "April, 1993",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1633,6 +1705,7 @@
       "id": "entity:date-december-1993",
       "type": "date",
       "label": "December, 1993",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1649,6 +1722,7 @@
       "id": "entity:date-hays-1994",
       "type": "date",
       "label": "Hays, 1994",
+      "display_label": "PEAR: 1998 Double Slit Consciousness Experiment",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1665,6 +1739,7 @@
       "id": "entity:date-lucadou-1994",
       "type": "date",
       "label": "Lucadou, 1994",
+      "display_label": "PEAR: 2003 Problems Reproducibility Mind Matter Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1734,6 +1809,7 @@
       "id": "entity:date-march-1994",
       "type": "date",
       "label": "March 1994",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1750,6 +1826,7 @@
       "id": "entity:date-june-1994",
       "type": "date",
       "label": "June, 1994",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1766,6 +1843,7 @@
       "id": "entity:date-june-and-july-1994",
       "type": "date",
       "label": "June and July, 1994",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1782,6 +1860,7 @@
       "id": "entity:date-july-1994",
       "type": "date",
       "label": "July 1994",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1798,6 +1877,7 @@
       "id": "entity:date-september-18-1994",
       "type": "date",
       "label": "September 18, 1994",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -1814,6 +1894,7 @@
       "id": "entity:date-december-1994",
       "type": "date",
       "label": "December, 1994",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1830,6 +1911,7 @@
       "id": "entity:date-tetens-1995",
       "type": "date",
       "label": "Tetens, 1995",
+      "display_label": "PEAR: 2003 Problems Reproducibility Mind Matter Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1846,6 +1928,7 @@
       "id": "entity:date-late-1995",
       "type": "date",
       "label": "late 1995",
+      "display_label": "PEAR: 2004 Megareg Replication Interpretation",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1939,6 +2022,7 @@
       "id": "entity:date-january-1995",
       "type": "date",
       "label": "January, 1995",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1955,6 +2039,7 @@
       "id": "entity:date-march-1995",
       "type": "date",
       "label": "March 1995",
+      "display_label": "PEAR: 1995 Acoustical Resonances Ancient Structures 1",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1971,6 +2056,7 @@
       "id": "entity:date-april-1995",
       "type": "date",
       "label": "April, 1995",
+      "display_label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -1987,6 +2073,7 @@
       "id": "entity:date-may-1995",
       "type": "date",
       "label": "May 1995",
+      "display_label": "PEAR: 1995 Consciousness Anomalous Physical Phenomena",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2003,6 +2090,7 @@
       "id": "entity:date-november-1995",
       "type": "date",
       "label": "November, 1995",
+      "display_label": "PEAR: 1998 Fieldreg Ii Consciousness Field Effects",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2019,6 +2107,7 @@
       "id": "entity:date-wednesday-may-22-1996",
       "type": "date",
       "label": "Wednesday, May 22, 1996",
+      "display_label": "PEAR: 1997 Wishing Good Weather Group Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2035,6 +2124,7 @@
       "id": "entity:date-jeffers-1996",
       "type": "date",
       "label": "Jeffers, 1996",
+      "display_label": "PEAR: 1998 Double Slit Consciousness Experiment",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2051,6 +2141,7 @@
       "id": "entity:date-bierman-1996",
       "type": "date",
       "label": "Bierman, 1996",
+      "display_label": "PEAR: 1998 Fieldreg Ii Consciousness Field Effects",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2177,6 +2268,7 @@
       "id": "entity:date-may-1996",
       "type": "date",
       "label": "MAY 1996",
+      "display_label": "PEAR: 1996 Information Consciousness Health",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2193,6 +2285,7 @@
       "id": "entity:date-august-1996",
       "type": "date",
       "label": "August 1996",
+      "display_label": "PEAR: 2004 Megareg Replication Interpretation",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2209,6 +2302,7 @@
       "id": "entity:date-2-august-1996",
       "type": "date",
       "label": "2 August 1996",
+      "display_label": "PEAR: 2004 Megareg Replication Interpretation",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2225,6 +2319,7 @@
       "id": "entity:date-september-27-29-1997",
       "type": "date",
       "label": "September 27\u201329, 1997",
+      "display_label": "PEAR: 1997 Science Subjective",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2241,6 +2336,7 @@
       "id": "entity:date-98001-february-1997",
       "type": "date",
       "label": "98001 February, 1997",
+      "display_label": "PEAR: Khufu.Pit .Scan ",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2362,6 +2458,7 @@
       "id": "entity:date-january-1997",
       "type": "date",
       "label": "January, 1997",
+      "display_label": "PEAR: 1998 Fieldreg Ii Consciousness Field Effects",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2379,6 +2476,7 @@
       "id": "entity:date-march-30-1997",
       "type": "date",
       "label": "March 30, 1997",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -2395,6 +2493,7 @@
       "id": "entity:date-june-1997",
       "type": "date",
       "label": "June, 1997",
+      "display_label": "PEAR: 1998 Fieldreg Ii Consciousness Field Effects",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2411,6 +2510,7 @@
       "id": "entity:date-june-6-1997",
       "type": "date",
       "label": "June 6, 1997",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -2427,6 +2527,7 @@
       "id": "entity:date-july-1997",
       "type": "date",
       "label": "July 1997",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -2443,6 +2544,7 @@
       "id": "entity:date-may-through-june-1998",
       "type": "date",
       "label": "May through June 1998",
+      "display_label": "PEAR: 2000 Mmi Consortium Portreg Replication",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2598,6 +2700,7 @@
       "id": "entity:date-january-1998",
       "type": "date",
       "label": "January 1998",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -2614,6 +2717,7 @@
       "id": "entity:date-today-nov-1999",
       "type": "date",
       "label": "Today, Nov. 1999",
+      "display_label": "PEAR: 2001 Inertial Mass Quantum Vacuum Fields",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2662,6 +2766,7 @@
       "id": "entity:date-january-1999",
       "type": "date",
       "label": "January 1999",
+      "display_label": "PEAR: 1999 Physical Basis Intentional Healing",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2678,6 +2783,7 @@
       "id": "entity:date-february-1999",
       "type": "date",
       "label": "February 1999",
+      "display_label": "PEAR: 2003 Problems Reproducibility Mind Matter Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2694,6 +2800,7 @@
       "id": "entity:date-11-and-jan-2000",
       "type": "date",
       "label": "11 and Jan. 2000",
+      "display_label": "PEAR: 2001 Inertial Mass Quantum Vacuum Fields",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2710,6 +2817,7 @@
       "id": "entity:date-december-of-2000",
       "type": "date",
       "label": "December of 2000",
+      "display_label": "PEAR: 2006 Johrei",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2788,6 +2896,7 @@
       "id": "entity:date-2-june-2000",
       "type": "date",
       "label": "2 June 2000",
+      "display_label": "PEAR: 2001 Inertial Mass Quantum Vacuum Fields",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2804,6 +2913,7 @@
       "id": "entity:date-september-2000",
       "type": "date",
       "label": "September 2000",
+      "display_label": "PEAR: 2001 Inertial Mass Quantum Vacuum Fields",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2938,6 +3048,7 @@
       "id": "entity:date-march-2001",
       "type": "date",
       "label": "March 2001",
+      "display_label": "PEAR: 2006 Johrei",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2954,6 +3065,7 @@
       "id": "entity:date-june-2001",
       "type": "date",
       "label": "June, 2001",
+      "display_label": "PEAR: 2001 Challenge Consciousness",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -2997,6 +3109,7 @@
       "id": "entity:date-november-2002",
       "type": "date",
       "label": "November 2002",
+      "display_label": "PEAR: 2006 Johrei",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -3046,6 +3159,7 @@
       "id": "entity:date-spring-2003",
       "type": "date",
       "label": "spring 2003",
+      "display_label": "PEAR: 2005 Consciousness Information Living Systems",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3210,6 +3324,7 @@
       "id": "entity:date-february-24-2005",
       "type": "date",
       "label": "February 24, 2005",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3226,6 +3341,7 @@
       "id": "entity:date-march-6-2005",
       "type": "date",
       "label": "March 6, 2005",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3242,6 +3358,7 @@
       "id": "entity:date-april-7-2005",
       "type": "date",
       "label": "April 7, 2005",
+      "display_label": "PEAR: 2005 Consciousness Information Living Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -3258,6 +3375,7 @@
       "id": "entity:date-april-15-2005",
       "type": "date",
       "label": "April 15, 2005",
+      "display_label": "PEAR: 2005 Consciousness Information Living Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -3274,6 +3392,7 @@
       "id": "entity:date-december-14-2005",
       "type": "date",
       "label": "December 14, 2005",
+      "display_label": "PEAR: 2005 Consciousness Information Living Systems",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -3319,6 +3438,7 @@
       "id": "entity:date-january-2006",
       "type": "date",
       "label": "January 2006",
+      "display_label": "PEAR: 2006 Johrei",
       "source_type": "pdf",
       "thumbnail": null,
       "sources": [
@@ -3359,6 +3479,7 @@
       "id": "entity:date-february-27-2008",
       "type": "date",
       "label": "February 27, 2008",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3375,6 +3496,7 @@
       "id": "entity:date-december-9-2008",
       "type": "date",
       "label": "December 9, 2008",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3391,6 +3513,7 @@
       "id": "entity:date-march-16-2011",
       "type": "date",
       "label": "March 16, 2011",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3407,6 +3530,7 @@
       "id": "entity:date-june-3-2011",
       "type": "date",
       "label": "June 3, 2011",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3423,6 +3547,7 @@
       "id": "entity:date-may-june-2012-the",
       "type": "date",
       "label": "May\u2013June 2012).\"The",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3439,6 +3564,7 @@
       "id": "entity:date-february-16-2012",
       "type": "date",
       "label": "February 16, 2012",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3455,6 +3581,7 @@
       "id": "entity:date-january-17-2013",
       "type": "date",
       "label": "January 17, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3471,6 +3598,7 @@
       "id": "entity:date-january-26-2013",
       "type": "date",
       "label": "January 26, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3487,6 +3615,7 @@
       "id": "entity:date-february-5-2013",
       "type": "date",
       "label": "February 5, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3503,6 +3632,7 @@
       "id": "entity:date-february-6-2013",
       "type": "date",
       "label": "February 6, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3519,6 +3649,7 @@
       "id": "entity:date-february-16-2013",
       "type": "date",
       "label": "February 16, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3535,6 +3666,7 @@
       "id": "entity:date-march-5-2013",
       "type": "date",
       "label": "March 5, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3551,6 +3683,7 @@
       "id": "entity:date-april-19-2013",
       "type": "date",
       "label": "April 19, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3567,6 +3700,7 @@
       "id": "entity:date-december-9-2013",
       "type": "date",
       "label": "December 9, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3583,6 +3717,7 @@
       "id": "entity:date-december-24-2013",
       "type": "date",
       "label": "December 24, 2013",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3599,6 +3734,7 @@
       "id": "entity:date-april-3-2014",
       "type": "date",
       "label": "April 3, 2014",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3615,6 +3751,7 @@
       "id": "entity:date-april-18-2014",
       "type": "date",
       "label": "April 18, 2014",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3631,6 +3768,7 @@
       "id": "entity:date-april-7-2015",
       "type": "date",
       "label": "April 7, 2015",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3647,6 +3785,7 @@
       "id": "entity:date-november-10-2015",
       "type": "date",
       "label": "November 10, 2015",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3663,6 +3802,7 @@
       "id": "entity:date-november-17-2015",
       "type": "date",
       "label": "November 17, 2015",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3679,6 +3819,7 @@
       "id": "entity:date-april-3-2016",
       "type": "date",
       "label": "April 3, 2016",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3695,6 +3836,7 @@
       "id": "entity:date-september-30-2017",
       "type": "date",
       "label": "September 30, 2017",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3711,6 +3853,7 @@
       "id": "entity:date-october-2-2017",
       "type": "date",
       "label": "October 2, 2017",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3727,6 +3870,7 @@
       "id": "entity:date-october-29-2017",
       "type": "date",
       "label": "October 29, 2017",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3743,6 +3887,7 @@
       "id": "entity:date-november-5-2017",
       "type": "date",
       "label": "November 5, 2017",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3759,6 +3904,7 @@
       "id": "entity:date-march-19-2019",
       "type": "date",
       "label": "March 19, 2019",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3775,6 +3921,7 @@
       "id": "entity:date-november-4-2019",
       "type": "date",
       "label": "November 4, 2019",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3791,6 +3938,7 @@
       "id": "entity:date-february-8-2020",
       "type": "date",
       "label": "February 8, 2020",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3807,6 +3955,7 @@
       "id": "entity:date-february-10-2020",
       "type": "date",
       "label": "February 10, 2020",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3823,6 +3972,7 @@
       "id": "entity:date-june-2020",
       "type": "date",
       "label": "June 2020",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3839,6 +3989,7 @@
       "id": "entity:date-december-2020",
       "type": "date",
       "label": "December 2020",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3855,6 +4006,7 @@
       "id": "entity:date-winter-2020",
       "type": "date",
       "label": "Winter 2020",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3871,6 +4023,7 @@
       "id": "entity:date-december-7-2020",
       "type": "date",
       "label": "December 7, 2020",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3887,6 +4040,7 @@
       "id": "entity:date-april-18-2021",
       "type": "date",
       "label": "April 18, 2021",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3903,6 +4057,7 @@
       "id": "entity:date-april-19-2021",
       "type": "date",
       "label": "April 19, 2021",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3919,6 +4074,7 @@
       "id": "entity:date-april-27-2021",
       "type": "date",
       "label": "April 27, 2021",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3935,6 +4091,7 @@
       "id": "entity:date-april-28-2021",
       "type": "date",
       "label": "April 28, 2021",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3951,6 +4108,7 @@
       "id": "entity:date-june-5-2021",
       "type": "date",
       "label": "June 5, 2021",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3967,6 +4125,7 @@
       "id": "entity:date-january-11-2022",
       "type": "date",
       "label": "January 11, 2022",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3983,6 +4142,7 @@
       "id": "entity:date-july-8-2022",
       "type": "date",
       "label": "July 8, 2022",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -3999,6 +4159,7 @@
       "id": "entity:date-january-16-2023",
       "type": "date",
       "label": "January 16, 2023",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -4015,6 +4176,7 @@
       "id": "entity:date-august-17-2023",
       "type": "date",
       "label": "August 17, 2023",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -4031,6 +4193,7 @@
       "id": "entity:date-january-31-2024",
       "type": "date",
       "label": "January 31, 2024",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -4047,6 +4210,7 @@
       "id": "entity:date-july-6-2024",
       "type": "date",
       "label": "July 6, 2024",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [
@@ -4063,6 +4227,7 @@
       "id": "entity:date-february-19-2025",
       "type": "date",
       "label": "February 19, 2025",
+      "display_label": "Wikipedia: Roswell incident",
       "source_type": "url",
       "thumbnail": null,
       "sources": [

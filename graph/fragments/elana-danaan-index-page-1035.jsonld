@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1035",
+  "name": "Orchids",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1035",
+      "@type": "woo:Source",
+      "name": "Orchids"
+    },
+    {
+      "@id": "entity:organization-galactic-terran",
+      "@type": "Organization",
+      "name": "Galactic & Terran",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1035"
+    },
+    {
+      "@id": "entity:creativework-the-seeders",
+      "@type": "CreativeWork",
+      "name": "The Seeders",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1035"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-galactic-terran-index",
+      "@type": "Organization",
+      "name": "Elena Danaan Galactic & Terran Index",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1035"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1035"
+    },
+    {
+      "@id": "entity:person-dan-willis",
+      "@type": "Person",
+      "name": "Dan Willis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1035"
+    },
+    {
+      "@id": "entity:event-orchids",
+      "@type": "Event",
+      "name": "Orchids",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1035"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1035"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1035"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1035"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1035"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1035"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-orchids"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1035"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-orchids"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-orchids"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-orchids"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

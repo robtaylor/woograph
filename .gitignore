@@ -31,8 +31,8 @@ graph/.cache/
 # Downloaded PDFs (sourced from URLs, not stored in git)
 sources/**/*.pdf
 
-# Site data (generated at deploy time)
-site/data/
+# Site data - source media copied at deploy time (large/binary)
+site/data/sources/
 
 # Temp
 /tmp/

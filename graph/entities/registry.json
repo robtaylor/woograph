@@ -36163,6 +36163,24 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-gsic": {
+      "name": "GSIC",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abigae-lle-richardjan-1": {
+      "name": "Abiga\u00eblle RichardJan 1",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stef-zak": {
+      "name": "Stef Zak",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   }
 }

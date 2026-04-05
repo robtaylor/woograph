@@ -1,0 +1,95 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0085",
+  "name": "Amanda (Individual) / GSIC assistant",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0085",
+      "@type": "woo:Source",
+      "name": "Amanda (Individual) / GSIC assistant"
+    },
+    {
+      "@id": "entity:organization-gsic",
+      "@type": "Organization",
+      "name": "GSIC",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0085"
+    },
+    {
+      "@id": "entity:person-abigae-lle-richardjan-1",
+      "@type": "Person",
+      "name": "Abiga\u00eblle RichardJan 1",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0085"
+    },
+    {
+      "@id": "entity:person-stef-zak",
+      "@type": "Person",
+      "name": "Stef Zak",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0085"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gsic"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0085"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richardjan-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0085"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stef-zak"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0085"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richardjan-1"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-gsic"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stef-zak"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-gsic"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

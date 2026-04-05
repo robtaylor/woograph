@@ -3,13 +3,50 @@ name: Process PR Sources
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to reprocess'
+        required: true
+        type: string
 
 concurrency:
-  group: process-pr-${{ github.event.pull_request.number }}
+  group: process-pr-${{ github.event.pull_request.number || github.event.inputs.pr_number }}
   cancel-in-progress: true
 
 jobs:
+  resolve-pr:
+    runs-on: ubuntu-latest
+    outputs:
+      pr_number: ${{ steps.resolve.outputs.pr_number }}
+      head_ref: ${{ steps.resolve.outputs.head_ref }}
+      base_sha: ${{ steps.resolve.outputs.base_sha }}
+      head_sha: ${{ steps.resolve.outputs.head_sha }}
+    steps:
+      - name: Resolve PR details
+        id: resolve
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PR_NUMBER="${{ github.event.inputs.pr_number }}"
+            HEAD_REF=$(gh pr view "$PR_NUMBER" --repo "${{ github.repository }}" --json headRefName -q .headRefName)
+            BASE_SHA=$(gh pr view "$PR_NUMBER" --repo "${{ github.repository }}" --json baseRefOid -q .baseRefOid)
+            HEAD_SHA=$(gh pr view "$PR_NUMBER" --repo "${{ github.repository }}" --json headRefOid -q .headRefOid)
+          else
+            PR_NUMBER="${{ github.event.pull_request.number }}"
+            HEAD_REF="${{ github.event.pull_request.head.ref }}"
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          fi
+          echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
+          echo "head_ref=$HEAD_REF" >> "$GITHUB_OUTPUT"
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
+          echo "PR #$PR_NUMBER: $HEAD_REF ($BASE_SHA..$HEAD_SHA)"
+
   process:
+    needs: resolve-pr
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,10 +57,11 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       WOOGRAPH_PDF_BACKEND: auto
       MAX_SUBMISSIONS: 10
+      PR_NUMBER: ${{ needs.resolve-pr.outputs.pr_number }}
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ needs.resolve-pr.outputs.head_ref }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -44,8 +82,8 @@ jobs:
       - name: Detect new/changed submissions
         id: detect
         run: |
-          BASE_SHA="${{ github.event.pull_request.base.sha }}"
-          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          BASE_SHA="${{ needs.resolve-pr.outputs.base_sha }}"
+          HEAD_SHA="${{ needs.resolve-pr.outputs.head_sha }}"
           ALL=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'submissions/*.yaml' | grep -v '_schema.yaml' || true)
 
           # Split into index vs normal submissions
@@ -185,7 +223,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit "${{ github.event.pull_request.number }}" --remove-label "processing-failed" 2>/dev/null || true
+          gh pr edit "${{ env.PR_NUMBER }}" --remove-label "processing-failed" 2>/dev/null || true
 
       - name: Post extraction report
         if: steps.report.outputs.comment != ''
@@ -193,7 +231,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPORT_COMMENT: ${{ steps.report.outputs.comment }}
         run: |
-          PR_NUMBER="${{ github.event.pull_request.number }}"
+          PR_NUMBER="${{ env.PR_NUMBER }}"
           EXISTING=$(gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
             --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("## WooGraph Extraction Report"))) | .id' \
             2>/dev/null | head -1 || true)
@@ -205,11 +243,11 @@ jobs:
           gh pr comment "$PR_NUMBER" --body-file /tmp/report_comment.md
 
       - name: Discover index submissions
-        if: steps.detect.outputs.index_files != '' && !contains(github.event.pull_request.head.commit.message, '[skip index]')
+        if: steps.detect.outputs.index_files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKFLOW_PAT: ${{ secrets.WORKFLOW_PAT }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ env.PR_NUMBER }}
         run: |
           cd pipeline
           while IFS= read -r f; do
@@ -227,7 +265,7 @@ jobs:
           git push
 
           # Post summary comment and request approval
-          PR_NUMBER="${{ github.event.pull_request.number }}"
+          PR_NUMBER="${{ env.PR_NUMBER }}"
           PLANS=$(ls graph/index-plans/*.json 2>/dev/null || true)
           SUMMARY=""
           for plan in $PLANS; do
@@ -254,6 +292,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit "${{ github.event.pull_request.number }}" --add-label "processing-failed" || true
-          gh pr comment "${{ github.event.pull_request.number }}" \
+          gh pr edit "${{ env.PR_NUMBER }}" --add-label "processing-failed" || true
+          gh pr comment "${{ env.PR_NUMBER }}" \
             --body "Processing failed — check the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details." || true

@@ -37399,6 +37399,18 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-elena-danaanhow-suppressed-et-technologies-are-being-releasedelena-danaan-official": {
+      "name": "Elena DanaanHow Suppressed ET Technologies Are Being ReleasedElena Danaan Official",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-websitetrouble": {
+      "name": "WebsiteTrouble",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

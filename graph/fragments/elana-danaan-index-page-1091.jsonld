@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1091",
+  "name": "Physical ET contacts / Physical extraterrestrial contacts / Physical extra-terrestrial contacts / ET contactees / Extraterrestrial contactees / Extra-terrestrial contactees",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1091",
+      "@type": "woo:Source",
+      "name": "Physical ET contacts / Physical extraterrestrial contacts / Physical extra-terrestrial contacts / ET contactees / Extraterrestrial contactees / Extra-terrestrial contactees"
+    },
+    {
+      "@id": "entity:person-gift",
+      "@type": "Person",
+      "name": "Gift",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1091"
+    },
+    {
+      "@id": "entity:person-elena-danaan-elena-danaan-official",
+      "@type": "Person",
+      "name": "Elena Danaan\nElena Danaan Official",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1091"
+    },
+    {
+      "@id": "entity:person-telegram",
+      "@type": "Person",
+      "name": "Telegram",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1091"
+    },
+    {
+      "@id": "entity:creativework-the-seeders",
+      "@type": "CreativeWork",
+      "name": "The Seeders",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1091"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-galactic-terran-index",
+      "@type": "Organization",
+      "name": "Elena Danaan Galactic & Terran Index",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1091"
+    },
+    {
+      "@id": "entity:event-physical-et-contacts-physical-extraterrestrial-contacts-physical-extra-terrestrial-contacts-et-contactees-extraterrestrial-contactees-extra-terrestrial-contactees",
+      "@type": "Event",
+      "name": "Physical ET contacts / Physical extraterrestrial contacts / Physical extra-terrestrial contacts / ET contactees / Extraterrestrial contactees / Extra-terrestrial contactees",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1091"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gift"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1091"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan-elena-danaan-official"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1091"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1091"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1091"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1091"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-physical-et-contacts-physical-extraterrestrial-contacts-physical-extra-terrestrial-contacts-et-contactees-extraterrestrial-contactees-extra-terrestrial-contactees"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1091"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gift"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-et-contacts-physical-extraterrestrial-contacts-physical-extra-terrestrial-contacts-et-contactees-extraterrestrial-contactees-extra-terrestrial-contactees"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan-elena-danaan-official"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-et-contacts-physical-extraterrestrial-contacts-physical-extra-terrestrial-contacts-et-contactees-extraterrestrial-contactees-extra-terrestrial-contactees"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-physical-et-contacts-physical-extraterrestrial-contacts-physical-extra-terrestrial-contacts-et-contactees-extraterrestrial-contactees-extra-terrestrial-contactees"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

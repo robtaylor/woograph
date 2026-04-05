@@ -144,11 +144,19 @@ export function initTimelineView() {
   if (zoomIn) zoomIn.addEventListener('click', () => setZoom(zoomLevel + 10));
   if (zoomOut) zoomOut.addEventListener('click', () => setZoom(zoomLevel - 10));
 
-  // Scroll wheel zoom (ctrl/cmd + scroll)
+  // Pinch/scroll zoom (ctrl/cmd + scroll or trackpad pinch)
+  // Accumulate small deltas before stepping, so trackpad pinch isn't jumpy
+  let zoomAccum = 0;
   container.addEventListener('wheel', (e) => {
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
-      setZoom(zoomLevel + (e.deltaY < 0 ? 5 : -5));
+      // Trackpad pinch sends many small events; mouse wheel sends large ones
+      zoomAccum += -e.deltaY * 0.15;
+      const step = Math.trunc(zoomAccum);
+      if (step !== 0) {
+        zoomAccum -= step;
+        setZoom(zoomLevel + step);
+      }
     }
   }, { passive: false });
 }
@@ -162,10 +170,24 @@ function _zoomLabel(level) {
 
 /**
  * Map zoom level 0..100 to pixels per year.
- * 0 → 6px/yr, 50 → 100px/yr, 100 → 960px/yr
+ * Level 0 fits the entire timeline in the container width.
+ * Level 100 → ~960px/yr for month-level detail.
  */
 function _pxPerYear(level) {
-  return Math.round(6 * Math.pow(160, level / 100));
+  const minPx = _fitPxPerYear();
+  const maxPx = 960;
+  // Exponential interpolation between fit-to-width and max detail
+  return Math.round(minPx * Math.pow(maxPx / minPx, level / 100));
+}
+
+/**
+ * Calculate px/year that fits the full timeline in the container.
+ */
+function _fitPxPerYear() {
+  if (!timelineData || !container) return 4;
+  const span = timelineData.spans.max_year - timelineData.spans.min_year + 1;
+  const availableWidth = container.clientWidth - 100; // 50px padding each side
+  return Math.max(2, availableWidth / span);
 }
 
 /** Max items per spatial bucket (1 above + 1 below axis). */

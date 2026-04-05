@@ -1,0 +1,126 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0464",
+  "name": "ETs / extra-terrestrials / extraterrestrials infiltration amongst Terrans as infiltrated agents (progressive and regressive) on Terra",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0464",
+      "@type": "woo:Source",
+      "name": "ETs / extra-terrestrials / extraterrestrials infiltration amongst Terrans as infiltrated agents (progressive and regressive) on Terra"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richard-apr",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle Richard\n- Apr",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0464"
+    },
+    {
+      "@id": "entity:creativework-webinars",
+      "@type": "CreativeWork",
+      "name": "Webinars",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0464"
+    },
+    {
+      "@id": "entity:person-telegram",
+      "@type": "Person",
+      "name": "Telegram",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0464"
+    },
+    {
+      "@id": "entity:event-ets-extra-terrestrials-extraterrestrials-infiltration-amongst-terrans-as-infiltrated-agents-progressive-and-regressive-on-terra",
+      "@type": "Event",
+      "name": "ETs / extra-terrestrials / extraterrestrials infiltration amongst Terrans as infiltrated agents (progressive and regressive) on Terra",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0464"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-apr"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0464"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-webinars"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0464"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0464"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-ets-extra-terrestrials-extraterrestrials-infiltration-amongst-terrans-as-infiltrated-agents-progressive-and-regressive-on-terra"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0464"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-apr"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-ets-extra-terrestrials-extraterrestrials-infiltration-amongst-terrans-as-infiltrated-agents-progressive-and-regressive-on-terra"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-webinars"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-ets-extra-terrestrials-extraterrestrials-infiltration-amongst-terrans-as-infiltrated-agents-progressive-and-regressive-on-terra"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-ets-extra-terrestrials-extraterrestrials-infiltration-amongst-terrans-as-infiltrated-agents-progressive-and-regressive-on-terra"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

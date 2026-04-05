@@ -1,0 +1,83 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0533",
+  "name": "Gray hybrids / Gray agenda",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0533",
+      "@type": "woo:Source",
+      "name": "Gray hybrids / Gray agenda"
+    },
+    {
+      "@id": "entity:organization-invideostar-nation-news",
+      "@type": "Organization",
+      "name": "inVideoStar Nation News",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0533"
+    },
+    {
+      "@id": "entity:creativework-booksthe-seeders",
+      "@type": "CreativeWork",
+      "name": "BooksThe Seeders",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0533"
+    },
+    {
+      "@id": "entity:event-gray-hybrids-gray-agenda",
+      "@type": "Event",
+      "name": "Gray hybrids / Gray agenda",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0533"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-invideostar-nation-news"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0533"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-booksthe-seeders"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0533"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-invideostar-nation-news"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:creativework-booksthe-seeders"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-gray-hybrids-gray-agenda"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0533"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

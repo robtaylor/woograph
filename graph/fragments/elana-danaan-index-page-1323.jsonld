@@ -1,0 +1,64 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1323",
+  "name": "Square-shaped ships / Rectangular-shaped ships",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1323",
+      "@type": "woo:Source",
+      "name": "Square-shaped ships / Rectangular-shaped ships"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1323"
+    },
+    {
+      "@id": "entity:event-square-shaped-ships-rectangular-shaped-ships",
+      "@type": "Event",
+      "name": "Square-shaped ships / Rectangular-shaped ships",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1323"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1323"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-square-shaped-ships-rectangular-shaped-ships"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1323"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-square-shaped-ships-rectangular-shaped-ships"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

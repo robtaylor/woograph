@@ -1,0 +1,188 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0902",
+  "name": "Mount Fuji (Japan)",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0902",
+      "@type": "woo:Source",
+      "name": "Mount Fuji (Japan)"
+    },
+    {
+      "@id": "entity:place-japan",
+      "@type": "Place",
+      "name": "Japan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0902"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richardsep-3",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle RichardSep 3",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0902"
+    },
+    {
+      "@id": "entity:date-june-29-2025",
+      "@type": "Date",
+      "name": "June 29 2025",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0902"
+    },
+    {
+      "@id": "entity:person-elena-danaantrump",
+      "@type": "Person",
+      "name": "Elena DanaanTrump",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0902"
+    },
+    {
+      "@id": "entity:organization-the-galactic-federation",
+      "@type": "Organization",
+      "name": "the Galactic Federation",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0902"
+    },
+    {
+      "@id": "entity:organization-the-galactic-federation",
+      "@type": "Organization",
+      "name": "The Galactic Federation",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0902"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-japan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0902"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardsep-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0902"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-29-2025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0902"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaantrump"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0902"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-galactic-federation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0902"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-galactic-federation"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0902"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardsep-3"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-japan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-june-29-2025"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-japan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaantrump"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-japan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-galactic-federation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-japan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-galactic-federation"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:place-japan"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1092",
+  "name": "Physics / Theoretical physics / Laws of physics / Newtonian physics / Quantum physics",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1092",
+      "@type": "woo:Source",
+      "name": "Physics / Theoretical physics / Laws of physics / Newtonian physics / Quantum physics"
+    },
+    {
+      "@id": "entity:organization-quantum",
+      "@type": "Organization",
+      "name": "Quantum",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1092"
+    },
+    {
+      "@id": "entity:organization-elena-danaanhow-suppressed-et-technologies-are-being-releasedelena-danaan-official",
+      "@type": "Organization",
+      "name": "Elena DanaanHow Suppressed ET Technologies Are Being ReleasedElena Danaan Official",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1092"
+    },
+    {
+      "@id": "entity:organization-websitetrouble",
+      "@type": "Organization",
+      "name": "WebsiteTrouble",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1092"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1092"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaanhow-suppressed-et-technologies-are-being-releasedelena-danaan-official"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1092"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-websitetrouble"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1092"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaanhow-suppressed-et-technologies-are-being-releasedelena-danaan-official"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-websitetrouble"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaanhow-suppressed-et-technologies-are-being-releasedelena-danaan-official"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-websitetrouble"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    }
+  ]
+}

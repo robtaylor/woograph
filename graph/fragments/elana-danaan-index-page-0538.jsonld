@@ -1,0 +1,164 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0538",
+  "name": "Greek pantheon, religion and mythology",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0538",
+      "@type": "woo:Source",
+      "name": "Greek pantheon, religion and mythology"
+    },
+    {
+      "@id": "entity:organization-galactic-terran",
+      "@type": "Organization",
+      "name": "Galactic & Terran",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0538"
+    },
+    {
+      "@id": "entity:person-stephen-chua",
+      "@type": "Person",
+      "name": "Stephen Chua",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0538"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-galactic-terran-index",
+      "@type": "Organization",
+      "name": "Elena Danaan Galactic & Terran Index",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0538"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0538"
+    },
+    {
+      "@id": "entity:person-dan-willis",
+      "@type": "Person",
+      "name": "Dan Willis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0538"
+    },
+    {
+      "@id": "entity:event-greek-pantheon-religion-and-mythology",
+      "@type": "Event",
+      "name": "Greek pantheon, religion and mythology",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0538"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0538"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stephen-chua"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0538"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0538"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0538"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0538"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stephen-chua"
+      },
+      "predicate": "woo:participatedIn",
+      "object": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-greek-pantheon-religion-and-mythology"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0538"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

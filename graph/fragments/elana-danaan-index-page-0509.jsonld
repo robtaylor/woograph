@@ -1,0 +1,281 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0509",
+  "name": "Geneticists / Genetics / Genetic science / Genetic material",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0509",
+      "@type": "woo:Source",
+      "name": "Geneticists / Genetics / Genetic science / Genetic material"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richard-jan-1",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle Richard\n- Jan 1",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:person-gift",
+      "@type": "Person",
+      "name": "Gift",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:creativework-seeders-pp",
+      "@type": "CreativeWork",
+      "name": "Seeders: pp",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:organization-disclosure-vs-blue-beam",
+      "@type": "Organization",
+      "name": "Disclosure vs Blue Beam",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:organization-quantum-hypnosis",
+      "@type": "Organization",
+      "name": "Quantum Hypnosis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:date-may-03-2024",
+      "@type": "Date",
+      "name": "May 03 2024",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:person-elena-danaan-elena-danaan-official",
+      "@type": "Person",
+      "name": "Elena Danaan\nElena Danaan Official",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:person-telegram",
+      "@type": "Person",
+      "name": "Telegram",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    },
+    {
+      "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material",
+      "@type": "Event",
+      "name": "Geneticists / Genetics / Genetic science / Genetic material",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0509"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-jan-1"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gift"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-seeders-pp"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-disclosure-vs-blue-beam"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-hypnosis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-may-03-2024"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan-elena-danaan-official"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0509"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-jan-1"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-gift"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-seeders-pp"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-disclosure-vs-blue-beam"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-hypnosis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-may-03-2024"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan-elena-danaan-official"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-geneticists-genetics-genetic-science-genetic-material"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0890",
+  "name": "Moon Habitat / NASA\u2019s Artemis Base Camp (ABC)",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0890",
+      "@type": "woo:Source",
+      "name": "Moon Habitat / NASA\u2019s Artemis Base Camp (ABC)"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0890"
+    },
+    {
+      "@id": "entity:organization-galactic-terran",
+      "@type": "Organization",
+      "name": "Galactic & Terran",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0890"
+    },
+    {
+      "@id": "entity:creativework-the-seeders",
+      "@type": "CreativeWork",
+      "name": "The Seeders",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0890"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-galactic-terran-index",
+      "@type": "Organization",
+      "name": "Elena Danaan Galactic & Terran Index",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0890"
+    },
+    {
+      "@id": "entity:person-dan-willis",
+      "@type": "Person",
+      "name": "Dan Willis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0890"
+    },
+    {
+      "@id": "entity:event-moon-habitat-nasa-s-artemis-base-camp-abc",
+      "@type": "Event",
+      "name": "Moon Habitat / NASA\u2019s Artemis Base Camp (ABC)",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0890"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0890"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0890"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0890"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0890"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0890"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-moon-habitat-nasa-s-artemis-base-camp-abc"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0890"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-moon-habitat-nasa-s-artemis-base-camp-abc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-moon-habitat-nasa-s-artemis-base-camp-abc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-moon-habitat-nasa-s-artemis-base-camp-abc"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

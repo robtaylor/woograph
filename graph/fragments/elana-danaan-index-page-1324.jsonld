@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1324",
+  "name": "Stages of civilization / Levels 1-3",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1324",
+      "@type": "woo:Source",
+      "name": "Stages of civilization / Levels 1-3"
+    },
+    {
+      "@id": "entity:organization-galactic-terran",
+      "@type": "Organization",
+      "name": "Galactic & Terran",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1324"
+    },
+    {
+      "@id": "entity:creativework-the-seeders",
+      "@type": "CreativeWork",
+      "name": "The Seeders",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1324"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-galactic-terran-index",
+      "@type": "Organization",
+      "name": "Elena Danaan Galactic & Terran Index",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1324"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1324"
+    },
+    {
+      "@id": "entity:person-dan-willis",
+      "@type": "Person",
+      "name": "Dan Willis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1324"
+    },
+    {
+      "@id": "entity:event-stages-of-civilization-levels-1-3",
+      "@type": "Event",
+      "name": "Stages of civilization / Levels 1-3",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1324"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1324"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1324"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1324"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1324"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1324"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-stages-of-civilization-levels-1-3"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1324"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-stages-of-civilization-levels-1-3"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-stages-of-civilization-levels-1-3"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-stages-of-civilization-levels-1-3"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -5,6 +5,13 @@ from woograph.llm.client import (
     create_completion,
     create_vision_completion,
     load_llm_config,
+    load_vision_config,
 )
 
-__all__ = ["LLMConfig", "create_completion", "create_vision_completion", "load_llm_config"]
+__all__ = [
+    "LLMConfig",
+    "create_completion",
+    "create_vision_completion",
+    "load_llm_config",
+    "load_vision_config",
+]

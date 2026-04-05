@@ -20,7 +20,7 @@ PROVIDER_DEFAULTS: dict[str, dict[str, str | None]] = {
     "openai": {"model": "gpt-4.1-nano", "base_url": None},
     "anthropic": {"model": "claude-haiku-4-5-20251001", "base_url": None},
     "gemini": {
-        "model": "gemini-2.0-flash",
+        "model": "gemini-2.5-flash",
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
     },
     "mistral": {"model": "mistral-small-latest", "base_url": "https://api.mistral.ai/v1"},
@@ -221,6 +221,40 @@ def _create_anthropic_completion(
                 logger.warning("API call failed (%s), retrying once...", exc)
             else:
                 logger.warning("API call failed on retry (%s)", exc)
+    return None
+
+
+# ── Vision-capable provider detection ────────────────────────────────────
+
+_VISION_DETECT_ORDER: list[tuple[str, list[str]]] = [
+    ("gemini", ["GOOGLE_API_KEY", "GEMINI_API_KEY"]),
+    ("openai", ["OPENAI_API_KEY"]),
+    ("anthropic", ["ANTHROPIC_API_KEY"]),
+]
+
+
+def load_vision_config() -> LLMConfig | None:
+    """Load LLM config for a vision-capable provider.
+
+    Prefers Gemini (cheapest vision), then OpenAI, then Anthropic.
+    Skips DeepSeek/Mistral which don't support image inputs.
+
+    Returns None if no vision-capable API key is found.
+    """
+    for provider, key_vars in _VISION_DETECT_ORDER:
+        for var in key_vars:
+            val = os.environ.get(var)
+            if val:
+                defaults = PROVIDER_DEFAULTS.get(provider, {})
+                model = str(defaults.get("model", provider))
+                base_url = defaults.get("base_url")
+                return LLMConfig(
+                    provider=provider,
+                    model=model,
+                    api_key=val,
+                    base_url=str(base_url) if base_url else None,
+                    temperature=0.0,
+                )
     return None
 
 

@@ -2377,12 +2377,12 @@ def convert_video(
                 detect_scenes,
                 get_footage_range,
             )
-            from woograph.llm import load_llm_config
+            from woograph.llm import load_vision_config
 
             scenes = detect_scenes(frames)
             vlm_scene_count = len(scenes)
             if len(scenes) > 1:
-                vlm_config = load_llm_config()
+                vlm_config = load_vision_config()
                 if vlm_config:
                     scene_info = classify_scenes_vlm(frames, scenes, vlm_config)
                     start, end = get_footage_range(scene_info, len(frames))

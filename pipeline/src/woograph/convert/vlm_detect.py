@@ -225,8 +225,10 @@ def get_footage_range(
 ) -> tuple[int, int]:
     """Return (start, end) frame indices of the footage portion.
 
-    Selects the longest footage scene. If multiple contiguous footage
-    scenes exist, merges them. Falls back to full range if no footage found.
+    Spans from the first footage scene start to the last footage scene end,
+    including any non-footage gaps between them (short title cards or
+    interstitials that the detection pipeline will naturally skip).
+    Falls back to full range if no footage found.
 
     Args:
         scenes: Classified scene list.
@@ -241,20 +243,14 @@ def get_footage_range(
         logger.warning("No footage scenes found, using all frames")
         return (0, total_frames)
 
-    # Merge contiguous footage scenes
-    merged: list[tuple[int, int]] = []
-    for s in sorted(footage, key=lambda x: x.start_idx):
-        if merged and s.start_idx <= merged[-1][1]:
-            # Contiguous or overlapping — extend
-            merged[-1] = (merged[-1][0], max(merged[-1][1], s.end_idx))
-        else:
-            merged.append((s.start_idx, s.end_idx))
+    # Span from first footage to last footage (inclusive of gaps)
+    first = min(footage, key=lambda s: s.start_idx)
+    last = max(footage, key=lambda s: s.end_idx)
+    start, end = first.start_idx, last.end_idx
 
-    # Pick the longest merged footage range
-    best = max(merged, key=lambda r: r[1] - r[0])
     logger.info(
         "Footage range: frames %d-%d (%d frames, %.1f%% of video)",
-        best[0], best[1], best[1] - best[0],
-        (best[1] - best[0]) / total_frames * 100,
+        start, end, end - start,
+        (end - start) / total_frames * 100,
     )
-    return best
+    return (start, end)

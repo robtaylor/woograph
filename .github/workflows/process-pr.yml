@@ -17,6 +17,7 @@ jobs:
       issues: write
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       WOOGRAPH_PDF_BACKEND: auto
       MAX_SUBMISSIONS: 10
     steps:

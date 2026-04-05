@@ -5,6 +5,7 @@ OpenAI SDK, and Anthropic via its native SDK. Provider is configurable via
 environment variables with auto-detection from API keys.
 """
 
+import base64
 import logging
 import os
 from dataclasses import dataclass
@@ -220,4 +221,124 @@ def _create_anthropic_completion(
                 logger.warning("API call failed (%s), retrying once...", exc)
             else:
                 logger.warning("API call failed on retry (%s)", exc)
+    return None
+
+
+# ── Vision (multimodal) completions ──────────────────────────────────────
+
+
+def create_vision_completion(
+    config: LLMConfig,
+    prompt: str,
+    images: list[bytes],
+    max_tokens: int = 1024,
+    json_mode: bool = False,
+) -> str | None:
+    """Send a prompt with images and get text response. Returns None on failure.
+
+    Args:
+        config: LLM provider configuration.
+        prompt: The text prompt.
+        images: List of JPEG-encoded image bytes.
+        max_tokens: Maximum tokens in the response.
+        json_mode: If True, request JSON response format.
+
+    Retries once on failure.
+    """
+    if config.provider == "anthropic":
+        return _create_anthropic_vision_completion(
+            config, prompt, images, max_tokens,
+        )
+    return _create_openai_vision_completion(
+        config, prompt, images, max_tokens, json_mode=json_mode,
+    )
+
+
+def _create_openai_vision_completion(
+    config: LLMConfig,
+    prompt: str,
+    images: list[bytes],
+    max_tokens: int,
+    *,
+    json_mode: bool = False,
+) -> str | None:
+    """Use OpenAI-compatible API with vision (OpenAI, Gemini)."""
+    client_kwargs: dict[str, str] = {"api_key": config.api_key}
+    if config.base_url:
+        client_kwargs["base_url"] = config.base_url
+
+    client = OpenAI(**client_kwargs)  # type: ignore[arg-type]
+
+    # Build content parts: images first, then text prompt
+    content: list[dict] = []
+    for img_bytes in images:
+        b64 = base64.b64encode(img_bytes).decode("ascii")
+        content.append({
+            "type": "image_url",
+            "image_url": {"url": f"data:image/jpeg;base64,{b64}"},
+        })
+    content.append({"type": "text", "text": prompt})
+
+    for attempt in range(2):
+        try:
+            create_kwargs: dict = {
+                "model": config.model,
+                "max_tokens": max_tokens,
+                "temperature": config.temperature,
+                "messages": [{"role": "user", "content": content}],
+            }
+            if json_mode:
+                create_kwargs["response_format"] = {"type": "json_object"}
+
+            response = client.chat.completions.create(**create_kwargs)
+            if response.choices and response.choices[0].message.content:
+                return response.choices[0].message.content
+            return None
+        except Exception as exc:
+            if attempt == 0:
+                logger.warning("Vision API call failed (%s), retrying once...", exc)
+            else:
+                logger.warning("Vision API call failed on retry (%s)", exc)
+    return None
+
+
+def _create_anthropic_vision_completion(
+    config: LLMConfig,
+    prompt: str,
+    images: list[bytes],
+    max_tokens: int,
+) -> str | None:
+    """Use the Anthropic SDK with vision."""
+    client = Anthropic(api_key=config.api_key)
+
+    # Build content parts: images first, then text prompt
+    content: list = []
+    for img_bytes in images:
+        b64 = base64.b64encode(img_bytes).decode("ascii")
+        content.append({
+            "type": "image",
+            "source": {
+                "type": "base64",
+                "media_type": "image/jpeg",
+                "data": b64,
+            },
+        })
+    content.append({"type": "text", "text": prompt})
+
+    for attempt in range(2):
+        try:
+            response = client.messages.create(
+                model=config.model,
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": content}],  # type: ignore[arg-type]
+            )
+            text_blocks = [b for b in response.content if hasattr(b, "text")]
+            if text_blocks:
+                return text_blocks[0].text  # type: ignore[union-attr]
+            return None
+        except Exception as exc:
+            if attempt == 0:
+                logger.warning("Vision API call failed (%s), retrying once...", exc)
+            else:
+                logger.warning("Vision API call failed on retry (%s)", exc)
     return None

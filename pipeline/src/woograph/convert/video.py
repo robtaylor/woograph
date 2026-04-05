@@ -62,6 +62,8 @@ class ProcessingMetadata:
     psf_sigma: float = 0.0
     processed_at: str = ""
     output_files: dict[str, str] = field(default_factory=dict)
+    vlm_scene_count: int = 0
+    vlm_footage_range: tuple[int, int] | None = None
 
 
 def _extract_frames(
@@ -2334,6 +2336,7 @@ def convert_video(
     psf_sigma: float = 0.5,
     deconv_iterations: int = 0,
     save_crops: bool = False,
+    use_vlm: bool = False,
 ) -> Path:
     """Process a UAP video clip into a super-resolved still.
 
@@ -2363,6 +2366,41 @@ def convert_video(
     frames = _extract_frames(video_path, max_frames=max_frames, frame_step=frame_step)
     total_frames = len(frames)
     logger.info(f"Total frames extracted: {total_frames}")
+
+    # Step 1.3: Scene-based frame filtering (optional VLM)
+    vlm_scene_count = 0
+    vlm_footage_range: tuple[int, int] | None = None
+    if use_vlm:
+        try:
+            from woograph.convert.vlm_detect import (
+                classify_scenes_vlm,
+                detect_scenes,
+                get_footage_range,
+            )
+            from woograph.llm import load_llm_config
+
+            scenes = detect_scenes(frames)
+            vlm_scene_count = len(scenes)
+            if len(scenes) > 1:
+                vlm_config = load_llm_config()
+                if vlm_config:
+                    scene_info = classify_scenes_vlm(frames, scenes, vlm_config)
+                    start, end = get_footage_range(scene_info, len(frames))
+                    vlm_footage_range = (start, end)
+                    logger.info(
+                        "VLM scene selection: using frames %d-%d of %d",
+                        start, end, len(frames),
+                    )
+                    frames = frames[start:end]
+                    total_frames = len(frames)
+                else:
+                    logger.info("No API key for VLM scene classification")
+            else:
+                logger.info("Single scene detected, skipping VLM classification")
+        except Exception:
+            logger.warning(
+                "VLM scene detection failed, using all frames", exc_info=True,
+            )
 
     # Step 1.5: Detect and exclude video player UI overlay
     roi_y_max = _detect_ui_region(frames)
@@ -2679,6 +2717,8 @@ def convert_video(
         psf_sigma=psf_sigma,
         processed_at=datetime.now(timezone.utc).isoformat(),
         output_files=output_files,
+        vlm_scene_count=vlm_scene_count,
+        vlm_footage_range=vlm_footage_range,
     )
 
     meta_path = output_dir / "metadata.json"

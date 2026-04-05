@@ -326,6 +326,7 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
                 psf_sigma=video_opts.get("psf_sigma", 1.5),
                 deconv_iterations=video_opts.get("deconv_iterations", 15),
                 save_crops=video_opts.get("save_crops", False),
+                use_vlm=video_opts.get("use_vlm", False),
             )
             content_path = output_dir / "content.md"
             # Merge video processing metadata into source metadata

@@ -36337,6 +36337,948 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richard-apr": {
+      "name": "Mokusho Abiga\u00eblle Richard\n- Apr",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-webinars": {
+      "name": "Webinars",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-telegram": {
+      "name": "Telegram",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richard-jul": {
+      "name": "Mokusho Abiga\u00eblle Richard\n- Jul",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-dangers-of-channeling": {
+      "name": "the Dangers of Channeling",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-quantum-hypnosis": {
+      "name": "Quantum Hypnosis",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-may-03-2024": {
+      "name": "May 03 2024",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sonia-finch": {
+      "name": "Sonia Finch",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-james-davis": {
+      "name": "James Davis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joanna-campos-pinto": {
+      "name": "Joanna Campos Pinto",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-jendawson-jentv": {
+      "name": "JenDawson-Jentv",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-eugen": {
+      "name": "Eugen",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-christina": {
+      "name": "Christina",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ingrid-byttebier": {
+      "name": "Ingrid Byttebier",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-barbara-legentil": {
+      "name": "Barbara Legentil",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-corinne-huet": {
+      "name": "Corinne Huet",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dani-henderson": {
+      "name": "Dani Henderson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-doriane-altthe": {
+      "name": "Doriane AltThe",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-september-27-2024": {
+      "name": "September 27 2024",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-michael-salla": {
+      "name": "Michael Salla",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tony-rodrigues": {
+      "name": "Tony Rodrigues",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dan-willis": {
+      "name": "Dan Willis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-tatiana-zalewski": {
+      "name": "Tatiana Zalewski",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ju-chen": {
+      "name": "Ju Chen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cathy-fandrich": {
+      "name": "Cathy Fandrich",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-michael-graham": {
+      "name": "Michael Graham",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kael-tat": {
+      "name": "Kael Tat",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-larry-moline": {
+      "name": "Larry Moline",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ida-white": {
+      "name": "Ida White",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-karen-kennedy": {
+      "name": "Karen Kennedy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jaqueline-gouvea": {
+      "name": "Jaqueline Gouvea",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brandy-clary": {
+      "name": "Brandy Clary",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-francine-henson": {
+      "name": "Francine Henson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-darryl-lee-bennett": {
+      "name": "Darryl-Lee Bennett",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ernesto-lozano": {
+      "name": "Ernesto lozano",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-susie-molion": {
+      "name": "Susie Molion",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-chantal-andree-berclaz": {
+      "name": "Chantal Andree Berclaz",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-anne-held": {
+      "name": "Anne Held",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lori-nile": {
+      "name": "Lori Nile",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dave-dee": {
+      "name": "Dave Dee",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jenny-fuller": {
+      "name": "Jenny Fuller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-edward-schelling": {
+      "name": "Edward Schelling",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-chuck": {
+      "name": "Chuck",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kathy-condon": {
+      "name": "Kathy Condon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-anna-lin-taichung": {
+      "name": "Anna Lin Taichung",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-darren-swink": {
+      "name": "Darren Swink",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-chris-wood": {
+      "name": "Chris Wood",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lady-sophia-sage": {
+      "name": "Lady Sophia Sage",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-andrew-maisey": {
+      "name": "Andrew Maisey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-marylene-andrews": {
+      "name": "Marylene Andrews",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tracy-demeza": {
+      "name": "Tracy Demeza",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-monica-di-julio": {
+      "name": "Monica Di Julio",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kent-baxter": {
+      "name": "Kent Baxter",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rebecca-speck": {
+      "name": "Rebecca Speck",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-linda-lilianne-carre": {
+      "name": "Linda Lilianne Carr\u00e9",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-teri-handa": {
+      "name": "Teri Handa",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nadia-marin": {
+      "name": "Nadia Marin",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nigel-b-patterson": {
+      "name": "Nigel B. Patterson",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kayla-schrader": {
+      "name": "Kayla Schrader",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-theresa-walker": {
+      "name": "Theresa Walker",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-scott-o-bryan": {
+      "name": "Scott O'Bryan",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-janet-sugrue": {
+      "name": "Janet Sugrue",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-lomax": {
+      "name": "John Lomax",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-miguel-marmolejo": {
+      "name": "Miguel Marmolejo",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-bojan-tankosic": {
+      "name": "Bojan Tankosic",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-irene-martin": {
+      "name": "Irene Martin",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-conan-beth": {
+      "name": "Conan Beth",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-richard-little": {
+      "name": "Richard Little",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brian-flucht": {
+      "name": "Brian Flucht",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-patricia-reed": {
+      "name": "Patricia Reed",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-susan-christhilf": {
+      "name": "Susan Christhilf",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-janeane-saxton": {
+      "name": "Janeane Saxton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-maria-jindra": {
+      "name": "Maria Jindra",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-taran-cameron": {
+      "name": "Taran Cameron",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-musetta-celentano": {
+      "name": "Musetta Celentano",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-elena-markina": {
+      "name": "Elena Markina",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-brandy-clari": {
+      "name": "Brandy Clari",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sylvie-caouette": {
+      "name": "Sylvie Caouette",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-madlin-toka": {
+      "name": "Madlin Toka",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-debbie-howell": {
+      "name": "Debbie Howell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joseph-gelet": {
+      "name": "Joseph Gelet",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-paul-bohde": {
+      "name": "Paul Bohde",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kunaseelan-ramayah": {
+      "name": "Kunaseelan Ramayah",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-angela-layton": {
+      "name": "Angela Layton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-karen-angeli-pellegrini": {
+      "name": "Karen Angeli Pellegrini",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wendy-van-wyck": {
+      "name": "Wendy Van Wyck",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-david-carey": {
+      "name": "David Carey",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ruezo-zanrico": {
+      "name": "Ruezo Zanrico",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-braden-shaffer": {
+      "name": "Braden Shaffer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-martina-rickenbach": {
+      "name": "Martina Rickenbach",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-lucia-weinmann": {
+      "name": "Lucia Weinmann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jacquelyn-pikowski": {
+      "name": "Jacquelyn Pikowski",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-inge-desmedt": {
+      "name": "Inge Desmedt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rebecca-albrecht": {
+      "name": "Rebecca Albrecht",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-doriane-alt": {
+      "name": "Doriane Alt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-guy-mccarthy": {
+      "name": "Guy McCarthy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-nebilah-a": {
+      "name": "Nebilah A.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-stephan-r": {
+      "name": "Stephan R.",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-patricia-aa": {
+      "name": "Patricia AA",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-babette": {
+      "name": "Babette",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-craig": {
+      "name": "Craig",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-eugen": {
+      "name": "Eugen",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ddtechie": {
+      "name": "@ddtechie",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tuneintowell": {
+      "name": "@Tuneintowell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-franch520": {
+      "name": "@franch520",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-dadunnaki": {
+      "name": "@dadunnaki",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-tarancameron5831": {
+      "name": "@tarancameron5831",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-lightk4817the-grays-tricks": {
+      "name": "@lightk4817The Grays: Tricks",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-rene-rignalda": {
+      "name": "Rene Rignalda",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-yanting-zuo": {
+      "name": "Yanting Zuo",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-susanne-sejana-kreth": {
+      "name": "Susanne Sejana Kreth",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-lichtsprache": {
+      "name": "Lichtsprache",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sandrine-lelasseur": {
+      "name": "Sandrine Lelasseur",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sian-williams": {
+      "name": "Sian Williams",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-chris-clark": {
+      "name": "Chris Clark",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-janine-green": {
+      "name": "Janine Green",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-valerie": {
+      "name": "Valerie",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wendy": {
+      "name": "Wendy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-karin-jeuken": {
+      "name": "Karin Jeuken",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-catharina": {
+      "name": "Catharina",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sue-sweet": {
+      "name": "Sue Sweet",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-agne-s-leray": {
+      "name": "Agn\u00e8s Leray",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-michelle-coates": {
+      "name": "Michelle Coates",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-alfredo-patucci": {
+      "name": "Alfredo Patucci",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-caz-hawke": {
+      "name": "Caz Hawke",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-miyoko-sano": {
+      "name": "Miyoko Sano",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-paula-kalt": {
+      "name": "Paula Kalt",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-laurence-maher": {
+      "name": "Laurence Maher",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-combe-murielle": {
+      "name": "Combe Murielle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-greeba-skinner": {
+      "name": "Greeba Skinner",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sara-giller": {
+      "name": "Sara Giller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-valerie-willimann": {
+      "name": "Valerie Willimann",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-deborah-mairesse": {
+      "name": "Deborah Mairesse",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sarah-espino": {
+      "name": "Sarah Espino",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-audrey-murphy": {
+      "name": "Audrey Murphy",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-jupitermoon": {
+      "name": "Jupitermoon",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-beverli-rhodes": {
+      "name": "Beverli Rhodes",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-timothy-davis": {
+      "name": "Timothy Davis",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-luke-eastwood": {
+      "name": "Luke Eastwood",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sterre-laura-van-rooijen": {
+      "name": "Sterre Laura Van Rooijen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-leila-checchia": {
+      "name": "Leila Checchia",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-simon-whincop": {
+      "name": "Simon Whincop",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-herman-dieter": {
+      "name": "Herman Dieter",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-christina-richmond": {
+      "name": "Christina Richmond",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-michael-doherty": {
+      "name": "Michael Doherty",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-christian-ma-lmark": {
+      "name": "Christian M\u00e5lmark",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-giorgia-costantino": {
+      "name": "Giorgia Costantino",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-dani-delunas": {
+      "name": "Dani Delunas",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-monika-voitl-po-lz": {
+      "name": "Monika Voitl-P\u00f6lz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-andrew-constantine": {
+      "name": "Andrew Constantine",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sarah-giller": {
+      "name": "Sarah Giller",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-henrike-hamer": {
+      "name": "Henrike Hamer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-catherine-grogorenz": {
+      "name": "Catherine Grogorenz",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elena-danaan-s": {
+      "name": "Elena Danaan\u2019s",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-westminster": {
+      "name": "Westminster",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-flyovercaz-hawke": {
+      "name": "FlyoverCaz Hawke",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-gsic-flyover-of-space-craft-eastbourne-sussex": {
+      "name": "GSIC Flyover of Space Craft - Eastbourne Sussex",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

@@ -1,0 +1,5055 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0469",
+  "name": "Experiencers / witnesses of ET / extra-terrestrial / extraterrestrial phenomena",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0469",
+      "@type": "woo:Source",
+      "name": "Experiencers / witnesses of ET / extra-terrestrial / extraterrestrial phenomena"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richard-jul",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle Richard\n- Jul",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-the-dangers-of-channeling",
+      "@type": "Organization",
+      "name": "the Dangers of Channeling",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-quantum-hypnosis",
+      "@type": "Organization",
+      "name": "Quantum Hypnosis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:date-may-03-2024",
+      "@type": "Date",
+      "name": "May 03 2024",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sonia-finch",
+      "@type": "Person",
+      "name": "Sonia Finch",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-james-davis",
+      "@type": "Person",
+      "name": "James Davis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-joanna-campos-pinto",
+      "@type": "Person",
+      "name": "Joanna Campos Pinto",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-jendawson-jentv",
+      "@type": "Organization",
+      "name": "JenDawson-Jentv",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-eugen",
+      "@type": "Place",
+      "name": "Eugen",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-christina",
+      "@type": "Place",
+      "name": "Christina",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:date-2025",
+      "@type": "Date",
+      "name": "2025",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-ingrid-byttebier",
+      "@type": "Person",
+      "name": "Ingrid Byttebier",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-barbara-legentil",
+      "@type": "Person",
+      "name": "Barbara Legentil",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-corinne-huet",
+      "@type": "Person",
+      "name": "Corinne Huet",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-dani-henderson",
+      "@type": "Person",
+      "name": "Dani Henderson",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-doriane-altthe",
+      "@type": "Person",
+      "name": "Doriane AltThe",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-denver",
+      "@type": "Place",
+      "name": "Denver",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:date-september-27-2024",
+      "@type": "Date",
+      "name": "September 27 2024",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-michael-salla",
+      "@type": "Person",
+      "name": "Michael Salla",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-tony-rodrigues",
+      "@type": "Person",
+      "name": "Tony Rodrigues",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-dan-willis",
+      "@type": "Person",
+      "name": "Dan Willis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-tatiana-zalewski",
+      "@type": "Organization",
+      "name": "Tatiana Zalewski",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-ju-chen",
+      "@type": "Person",
+      "name": "Ju Chen",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-cathy-fandrich",
+      "@type": "Person",
+      "name": "Cathy Fandrich",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-michael-graham",
+      "@type": "Person",
+      "name": "Michael Graham",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-kael-tat",
+      "@type": "Person",
+      "name": "Kael Tat",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-larry-moline",
+      "@type": "Person",
+      "name": "Larry Moline",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-ida-white",
+      "@type": "Person",
+      "name": "Ida White",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-karen-kennedy",
+      "@type": "Person",
+      "name": "Karen Kennedy",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-jaqueline-gouvea",
+      "@type": "Person",
+      "name": "Jaqueline Gouvea",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-brandy-clary",
+      "@type": "Person",
+      "name": "Brandy Clary",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-francine-henson",
+      "@type": "Person",
+      "name": "Francine Henson",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-darryl-lee-bennett",
+      "@type": "Person",
+      "name": "Darryl-Lee Bennett",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-ernesto-lozano",
+      "@type": "Person",
+      "name": "Ernesto lozano",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-susie-molion",
+      "@type": "Person",
+      "name": "Susie Molion",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-chantal-andree-berclaz",
+      "@type": "Organization",
+      "name": "Chantal Andree Berclaz",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-anne-held",
+      "@type": "Person",
+      "name": "Anne Held",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-lori-nile",
+      "@type": "Person",
+      "name": "Lori Nile",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-dave-dee",
+      "@type": "Person",
+      "name": "Dave Dee",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-jenny-fuller",
+      "@type": "Person",
+      "name": "Jenny Fuller",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-edward-schelling",
+      "@type": "Person",
+      "name": "Edward Schelling",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-chuck",
+      "@type": "Person",
+      "name": "Chuck",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-kathy-condon",
+      "@type": "Person",
+      "name": "Kathy Condon",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-anna-lin-taichung",
+      "@type": "Person",
+      "name": "Anna Lin Taichung",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-darren-swink",
+      "@type": "Person",
+      "name": "Darren Swink",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-chris-wood",
+      "@type": "Person",
+      "name": "Chris Wood",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-lady-sophia-sage",
+      "@type": "Person",
+      "name": "Lady Sophia Sage",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-andrew-maisey",
+      "@type": "Person",
+      "name": "Andrew Maisey",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-marylene-andrews",
+      "@type": "Person",
+      "name": "Marylene Andrews",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-tracy-demeza",
+      "@type": "Person",
+      "name": "Tracy Demeza",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-monica-di-julio",
+      "@type": "Person",
+      "name": "Monica Di Julio",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-kent-baxter",
+      "@type": "Person",
+      "name": "Kent Baxter",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-rebecca-speck",
+      "@type": "Person",
+      "name": "Rebecca Speck",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-linda-lilianne-carre",
+      "@type": "Person",
+      "name": "Linda Lilianne Carr\u00e9",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-teri-handa",
+      "@type": "Person",
+      "name": "Teri Handa",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-nadia-marin",
+      "@type": "Organization",
+      "name": "Nadia Marin",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-nigel-b-patterson",
+      "@type": "Person",
+      "name": "Nigel B. Patterson",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-kayla-schrader",
+      "@type": "Person",
+      "name": "Kayla Schrader",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-theresa-walker",
+      "@type": "Person",
+      "name": "Theresa Walker",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-scott-o-bryan",
+      "@type": "Person",
+      "name": "Scott O'Bryan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-janet-sugrue",
+      "@type": "Person",
+      "name": "Janet Sugrue",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-john-lomax",
+      "@type": "Person",
+      "name": "John Lomax",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-miguel-marmolejo",
+      "@type": "Person",
+      "name": "Miguel Marmolejo",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-bojan-tankosic",
+      "@type": "Organization",
+      "name": "Bojan Tankosic",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-irene-martin",
+      "@type": "Person",
+      "name": "Irene Martin",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-conan-beth",
+      "@type": "Person",
+      "name": "Conan Beth",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-richard-little",
+      "@type": "Person",
+      "name": "Richard Little",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-brian-flucht",
+      "@type": "Person",
+      "name": "Brian Flucht",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-patricia-reed",
+      "@type": "Person",
+      "name": "Patricia Reed",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-susan-christhilf",
+      "@type": "Person",
+      "name": "Susan Christhilf",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-janeane-saxton",
+      "@type": "Person",
+      "name": "Janeane Saxton",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-maria-jindra",
+      "@type": "Person",
+      "name": "Maria Jindra",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-taran-cameron",
+      "@type": "Person",
+      "name": "Taran Cameron",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-musetta-celentano",
+      "@type": "Person",
+      "name": "Musetta Celentano",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-elena-markina",
+      "@type": "Organization",
+      "name": "Elena Markina",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-brandy-clari",
+      "@type": "Person",
+      "name": "Brandy Clari",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sylvie-caouette",
+      "@type": "Person",
+      "name": "Sylvie Caouette",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-madlin-toka",
+      "@type": "Person",
+      "name": "Madlin Toka",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-debbie-howell",
+      "@type": "Person",
+      "name": "Debbie Howell",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-joseph-gelet",
+      "@type": "Person",
+      "name": "Joseph Gelet",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-paul-bohde",
+      "@type": "Person",
+      "name": "Paul Bohde",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-kunaseelan-ramayah",
+      "@type": "Person",
+      "name": "Kunaseelan Ramayah",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-angela-layton",
+      "@type": "Person",
+      "name": "Angela Layton",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-karen-angeli-pellegrini",
+      "@type": "Person",
+      "name": "Karen Angeli Pellegrini",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-wendy-van-wyck",
+      "@type": "Person",
+      "name": "Wendy Van Wyck",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-david-carey",
+      "@type": "Person",
+      "name": "David Carey",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-ruezo-zanrico",
+      "@type": "Person",
+      "name": "Ruezo Zanrico",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-braden-shaffer",
+      "@type": "Person",
+      "name": "Braden Shaffer",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-martina-rickenbach",
+      "@type": "Person",
+      "name": "Martina Rickenbach",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-lucia-weinmann",
+      "@type": "Person",
+      "name": "Lucia Weinmann",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-jacquelyn-pikowski",
+      "@type": "Person",
+      "name": "Jacquelyn Pikowski",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-inge-desmedt",
+      "@type": "Person",
+      "name": "Inge Desmedt",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-rebecca-albrecht",
+      "@type": "Person",
+      "name": "Rebecca Albrecht",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-doriane-alt",
+      "@type": "Person",
+      "name": "Doriane Alt",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-guy-mccarthy",
+      "@type": "Person",
+      "name": "Guy McCarthy",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-nebilah-a",
+      "@type": "Person",
+      "name": "Nebilah A.",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-stephan-r",
+      "@type": "Person",
+      "name": "Stephan R.",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-patricia-aa",
+      "@type": "Person",
+      "name": "Patricia AA",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-babette",
+      "@type": "Place",
+      "name": "Babette",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-craig",
+      "@type": "Person",
+      "name": "Craig",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-eugen",
+      "@type": "Organization",
+      "name": "Eugen",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-ddtechie",
+      "@type": "Organization",
+      "name": "@ddtechie",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-tuneintowell",
+      "@type": "Person",
+      "name": "@Tuneintowell",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-franch520",
+      "@type": "Place",
+      "name": "@franch520",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-dadunnaki",
+      "@type": "Place",
+      "name": "@dadunnaki",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-tarancameron5831",
+      "@type": "Organization",
+      "name": "@tarancameron5831",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-lightk4817the-grays-tricks",
+      "@type": "Organization",
+      "name": "@lightk4817The Grays: Tricks",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-rene-rignalda",
+      "@type": "Person",
+      "name": "Rene Rignalda",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-yanting-zuo",
+      "@type": "Person",
+      "name": "Yanting Zuo",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-susanne-sejana-kreth",
+      "@type": "Person",
+      "name": "Susanne Sejana Kreth",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-lichtsprache",
+      "@type": "Organization",
+      "name": "Lichtsprache",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sandrine-lelasseur",
+      "@type": "Person",
+      "name": "Sandrine Lelasseur",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sian-williams",
+      "@type": "Person",
+      "name": "Sian Williams",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-chris-clark",
+      "@type": "Person",
+      "name": "Chris Clark",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-janine-green",
+      "@type": "Person",
+      "name": "Janine Green",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-valerie",
+      "@type": "Person",
+      "name": "Valerie",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-wendy",
+      "@type": "Person",
+      "name": "Wendy",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-karin-jeuken",
+      "@type": "Person",
+      "name": "Karin Jeuken",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-catharina",
+      "@type": "Organization",
+      "name": "Catharina",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sue-sweet",
+      "@type": "Person",
+      "name": "Sue Sweet",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-agne-s-leray",
+      "@type": "Person",
+      "name": "Agn\u00e8s Leray",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-michelle-coates",
+      "@type": "Person",
+      "name": "Michelle Coates",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-alfredo-patucci",
+      "@type": "Organization",
+      "name": "Alfredo Patucci",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-caz-hawke",
+      "@type": "Person",
+      "name": "Caz Hawke",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-miyoko-sano",
+      "@type": "Person",
+      "name": "Miyoko Sano",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-paula-kalt",
+      "@type": "Person",
+      "name": "Paula Kalt",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-laurence-maher",
+      "@type": "Person",
+      "name": "Laurence Maher",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-combe-murielle",
+      "@type": "Person",
+      "name": "Combe Murielle",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-greeba-skinner",
+      "@type": "Person",
+      "name": "Greeba Skinner",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sara-giller",
+      "@type": "Person",
+      "name": "Sara Giller",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-valerie-willimann",
+      "@type": "Person",
+      "name": "Valerie Willimann",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-deborah-mairesse",
+      "@type": "Person",
+      "name": "Deborah Mairesse",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sarah-espino",
+      "@type": "Person",
+      "name": "Sarah Espino",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-audrey-murphy",
+      "@type": "Person",
+      "name": "Audrey Murphy",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-jupitermoon",
+      "@type": "Place",
+      "name": "Jupitermoon",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-beverli-rhodes",
+      "@type": "Organization",
+      "name": "Beverli Rhodes",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-timothy-davis",
+      "@type": "Person",
+      "name": "Timothy Davis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-luke-eastwood",
+      "@type": "Person",
+      "name": "Luke Eastwood",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sterre-laura-van-rooijen",
+      "@type": "Person",
+      "name": "Sterre Laura Van Rooijen",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-abigae-lle-richard",
+      "@type": "Person",
+      "name": "Abiga\u00eblle Richard",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-leila-checchia",
+      "@type": "Person",
+      "name": "Leila Checchia",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-simon-whincop",
+      "@type": "Person",
+      "name": "Simon Whincop",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-herman-dieter",
+      "@type": "Person",
+      "name": "Herman Dieter",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-christina-richmond",
+      "@type": "Person",
+      "name": "Christina Richmond",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-michael-doherty",
+      "@type": "Person",
+      "name": "Michael Doherty",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-christian-ma-lmark",
+      "@type": "Person",
+      "name": "Christian M\u00e5lmark",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-giorgia-costantino",
+      "@type": "Organization",
+      "name": "Giorgia Costantino",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-dani-delunas",
+      "@type": "Person",
+      "name": "Dani Delunas",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-monika-voitl-po-lz",
+      "@type": "Person",
+      "name": "Monika Voitl-P\u00f6lz",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-andrew-constantine",
+      "@type": "Person",
+      "name": "Andrew Constantine",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-sarah-giller",
+      "@type": "Person",
+      "name": "Sarah Giller",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-henrike-hamer",
+      "@type": "Person",
+      "name": "Henrike Hamer",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-catherine-grogorenz",
+      "@type": "Person",
+      "name": "Catherine Grogorenz",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-telegram",
+      "@type": "Person",
+      "name": "Telegram",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-elena-danaan-s",
+      "@type": "Person",
+      "name": "Elena Danaan\u2019s",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-westminster",
+      "@type": "Place",
+      "name": "Westminster",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-tony",
+      "@type": "Person",
+      "name": "Tony",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-gsic",
+      "@type": "Organization",
+      "name": "GSIC",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-flyovercaz-hawke",
+      "@type": "Organization",
+      "name": "FlyoverCaz Hawke",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:organization-gsic-flyover-of-space-craft-eastbourne-sussex",
+      "@type": "Organization",
+      "name": "GSIC Flyover of Space Craft - Eastbourne Sussex",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:place-u-k",
+      "@type": "Place",
+      "name": "U.K.",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    },
+    {
+      "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena",
+      "@type": "Event",
+      "name": "Experiencers / witnesses of ET / extra-terrestrial / extraterrestrial phenomena",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0469"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-jul"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-dangers-of-channeling"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-hypnosis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-may-03-2024"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sonia-finch"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-davis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-joanna-campos-pinto"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jendawson-jentv"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-eugen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-christina"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ingrid-byttebier"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barbara-legentil"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corinne-huet"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dani-henderson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-doriane-altthe"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-denver"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-september-27-2024"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-salla"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tony-rodrigues"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tatiana-zalewski"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ju-chen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cathy-fandrich"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-graham"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kael-tat"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-larry-moline"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ida-white"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karen-kennedy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jaqueline-gouvea"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brandy-clary"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francine-henson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-darryl-lee-bennett"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ernesto-lozano"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susie-molion"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chantal-andree-berclaz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-anne-held"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lori-nile"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dave-dee"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jenny-fuller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edward-schelling"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-chuck"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kathy-condon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-anna-lin-taichung"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-darren-swink"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-chris-wood"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lady-sophia-sage"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-andrew-maisey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-marylene-andrews"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tracy-demeza"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monica-di-julio"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kent-baxter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rebecca-speck"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-linda-lilianne-carre"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-teri-handa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nadia-marin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nigel-b-patterson"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kayla-schrader"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-theresa-walker"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-scott-o-bryan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-janet-sugrue"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-lomax"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-miguel-marmolejo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bojan-tankosic"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-irene-martin"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-conan-beth"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-little"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brian-flucht"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-patricia-reed"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susan-christhilf"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-janeane-saxton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-maria-jindra"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-taran-cameron"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-musetta-celentano"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-markina"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brandy-clari"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sylvie-caouette"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-madlin-toka"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debbie-howell"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-joseph-gelet"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paul-bohde"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kunaseelan-ramayah"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-angela-layton"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karen-angeli-pellegrini"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wendy-van-wyck"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-david-carey"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ruezo-zanrico"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-braden-shaffer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-martina-rickenbach"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lucia-weinmann"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacquelyn-pikowski"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-inge-desmedt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rebecca-albrecht"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-doriane-alt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-guy-mccarthy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nebilah-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stephan-r"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-patricia-aa"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-babette"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-craig"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-eugen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ddtechie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tuneintowell"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-franch520"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dadunnaki"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tarancameron5831"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lightk4817the-grays-tricks"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rene-rignalda"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-yanting-zuo"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susanne-sejana-kreth"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lichtsprache"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sandrine-lelasseur"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sian-williams"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-chris-clark"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-janine-green"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-valerie"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wendy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karin-jeuken"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-catharina"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sue-sweet"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-agne-s-leray"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michelle-coates"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-alfredo-patucci"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-caz-hawke"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-miyoko-sano"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paula-kalt"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurence-maher"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-combe-murielle"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-greeba-skinner"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sara-giller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-valerie-willimann"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-deborah-mairesse"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sarah-espino"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-audrey-murphy"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jupitermoon"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-beverli-rhodes"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-timothy-davis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-luke-eastwood"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sterre-laura-van-rooijen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richard"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-leila-checchia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-simon-whincop"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-herman-dieter"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-christina-richmond"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-doherty"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-christian-ma-lmark"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-giorgia-costantino"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dani-delunas"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monika-voitl-po-lz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-andrew-constantine"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sarah-giller"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-henrike-hamer"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-catherine-grogorenz"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan-s"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-westminster"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tony"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gsic"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-flyovercaz-hawke"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gsic-flyover-of-space-craft-eastbourne-sussex"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-u-k"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0469"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richard-jul"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-the-dangers-of-channeling"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-quantum-hypnosis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-may-03-2024"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sonia-finch"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-james-davis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-joanna-campos-pinto"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-jendawson-jentv"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-eugen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-christina"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2025"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ingrid-byttebier"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-barbara-legentil"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-corinne-huet"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dani-henderson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-doriane-altthe"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-denver"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-september-27-2024"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-salla"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tony-rodrigues"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tatiana-zalewski"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ju-chen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-cathy-fandrich"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-graham"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kael-tat"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-larry-moline"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ida-white"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karen-kennedy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jaqueline-gouvea"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brandy-clary"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-francine-henson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-darryl-lee-bennett"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ernesto-lozano"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susie-molion"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-chantal-andree-berclaz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-anne-held"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lori-nile"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dave-dee"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jenny-fuller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-edward-schelling"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-chuck"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kathy-condon"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-anna-lin-taichung"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-darren-swink"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-chris-wood"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lady-sophia-sage"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-andrew-maisey"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-marylene-andrews"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tracy-demeza"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monica-di-julio"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kent-baxter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rebecca-speck"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-linda-lilianne-carre"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-teri-handa"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nadia-marin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nigel-b-patterson"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kayla-schrader"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-theresa-walker"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-scott-o-bryan"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-janet-sugrue"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-john-lomax"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-miguel-marmolejo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-bojan-tankosic"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-irene-martin"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-conan-beth"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-richard-little"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brian-flucht"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-patricia-reed"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susan-christhilf"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-janeane-saxton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-maria-jindra"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-taran-cameron"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-musetta-celentano"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-markina"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-brandy-clari"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sylvie-caouette"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-madlin-toka"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-debbie-howell"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-joseph-gelet"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paul-bohde"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kunaseelan-ramayah"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-angela-layton"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karen-angeli-pellegrini"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wendy-van-wyck"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-david-carey"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ruezo-zanrico"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-braden-shaffer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-martina-rickenbach"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-lucia-weinmann"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-jacquelyn-pikowski"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-inge-desmedt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rebecca-albrecht"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-doriane-alt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-guy-mccarthy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-nebilah-a"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-stephan-r"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-patricia-aa"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-babette"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-craig"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-eugen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-ddtechie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tuneintowell"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-franch520"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-dadunnaki"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-tarancameron5831"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lightk4817the-grays-tricks"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-rene-rignalda"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-yanting-zuo"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-susanne-sejana-kreth"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-lichtsprache"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sandrine-lelasseur"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sian-williams"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-chris-clark"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-janine-green"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-valerie"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-wendy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-karin-jeuken"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-catharina"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sue-sweet"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-agne-s-leray"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michelle-coates"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-alfredo-patucci"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-caz-hawke"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-miyoko-sano"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-paula-kalt"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-laurence-maher"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-combe-murielle"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-greeba-skinner"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sara-giller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-valerie-willimann"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-deborah-mairesse"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sarah-espino"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-audrey-murphy"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-jupitermoon"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-beverli-rhodes"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-timothy-davis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-luke-eastwood"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sterre-laura-van-rooijen"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richard"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-leila-checchia"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-simon-whincop"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-herman-dieter"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-christina-richmond"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-michael-doherty"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-christian-ma-lmark"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-giorgia-costantino"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dani-delunas"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-monika-voitl-po-lz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-andrew-constantine"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-sarah-giller"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-henrike-hamer"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-catherine-grogorenz"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-telegram"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan-s"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-westminster"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tony"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gsic"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-flyovercaz-hawke"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-gsic-flyover-of-space-craft-eastbourne-sussex"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-u-k"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-experiencers-witnesses-of-et-extra-terrestrial-extraterrestrial-phenomena"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

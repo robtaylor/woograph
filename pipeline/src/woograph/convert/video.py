@@ -6,6 +6,8 @@ Pipeline: detect → track → crop → align → weight → drizzle stack → d
 
 import json
 import logging
+import shutil
+import subprocess
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -799,6 +801,34 @@ def _crop_and_subtract_bg(
     return fg_crops
 
 
+def _reencode_h264(path: Path) -> None:
+    """Re-encode a video to H.264 with ffmpeg for browser compatibility.
+
+    OpenCV's VideoWriter uses MPEG-4 Part 2 (mp4v) which most browsers
+    can't play. This re-encodes to H.264 (avc1) which is universally supported.
+    """
+    if not shutil.which("ffmpeg"):
+        logger.warning("ffmpeg not found, skipping H.264 re-encode for %s", path)
+        return
+
+    tmp = path.with_suffix(".tmp.mp4")
+    try:
+        subprocess.run(
+            [
+                "ffmpeg", "-y", "-i", str(path),
+                "-c:v", "libx264", "-preset", "fast", "-crf", "23",
+                "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+                str(tmp),
+            ],
+            capture_output=True, check=True,
+        )
+        tmp.rename(path)
+        logger.debug("Re-encoded %s to H.264", path)
+    except subprocess.CalledProcessError as exc:
+        logger.warning("H.264 re-encode failed for %s: %s", path, exc.stderr[:200])
+        tmp.unlink(missing_ok=True)
+
+
 def _save_crop_video(
     crops: list[NDArray],
     output_path: Path,
@@ -847,6 +877,7 @@ def _save_crop_video(
         writer.write(frame)
 
     writer.release()
+    _reencode_h264(output_path)
     logger.info("Saved crop video: %s (%d frames, %dx%d)", output_path, len(crops), out_w, out_h)
 
 
@@ -907,6 +938,7 @@ def _save_debug_video(
         writer.write(annotated)
 
     writer.release()
+    _reencode_h264(output_path)
     logger.info("Saved debug video: %s (%d frames, %dx%d)", output_path, len(frames), w, h)
 
 

@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0254",
+  "name": "Caduceus",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0254",
+      "@type": "woo:Source",
+      "name": "Caduceus"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richardaug",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle RichardAug",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0254"
+    },
+    {
+      "@id": "entity:date-october-26-2025",
+      "@type": "Date",
+      "name": "October 26 2025",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0254"
+    },
+    {
+      "@id": "entity:organization-estconferencesgsic-5-2025",
+      "@type": "Organization",
+      "name": "ESTConferencesGSIC 5 2025",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0254"
+    },
+    {
+      "@id": "entity:organization-charlotte-01-elena-danaan-welcome",
+      "@type": "Organization",
+      "name": "Charlotte 01 - Elena Danaan - Welcome",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0254"
+    },
+    {
+      "@id": "entity:organization-genesis-the-secret-unveiled",
+      "@type": "Organization",
+      "name": "GENESIS The Secret Unveiled",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0254"
+    },
+    {
+      "@id": "entity:event-caduceus",
+      "@type": "Event",
+      "name": "Caduceus",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0254"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardaug"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0254"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-october-26-2025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0254"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-estconferencesgsic-5-2025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0254"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-charlotte-01-elena-danaan-welcome"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0254"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-genesis-the-secret-unveiled"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0254"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-estconferencesgsic-5-2025"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-charlotte-01-elena-danaan-welcome"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-estconferencesgsic-5-2025"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-genesis-the-secret-unveiled"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-caduceus"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0254"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardaug"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-caduceus"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-october-26-2025"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-caduceus"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

@@ -36181,6 +36181,36 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richardaug": {
+      "name": "Mokusho Abiga\u00eblle RichardAug",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-october-26-2025": {
+      "name": "October 26 2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-estconferencesgsic-5-2025": {
+      "name": "ESTConferencesGSIC 5 2025",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-charlotte-01-elena-danaan-welcome": {
+      "name": "Charlotte 01 - Elena Danaan - Welcome",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-genesis-the-secret-unveiled": {
+      "name": "GENESIS The Secret Unveiled",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

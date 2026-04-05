@@ -2336,7 +2336,7 @@ def convert_video(
     psf_sigma: float = 0.5,
     deconv_iterations: int = 0,
     save_crops: bool = False,
-    use_vlm: bool = False,
+    use_vlm: bool = True,
 ) -> Path:
     """Process a UAP video clip into a super-resolved still.
 

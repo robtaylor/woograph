@@ -36163,6 +36163,1442 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-cseti-center-for-the-study-of-extraterrestrial-intelligence-working-group-training-manual-steven-m-greer": {
+      "name": "CSETI \n\nCenter for the Study of Extraterrestrial Intelligence \n\n\n\n\n\nWorking Group Training Manual \n\nSTEVEN M. GREER",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-m-d-international": {
+      "name": "M.D. International",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-p-o-box-265-crozet": {
+      "name": "P. O. Box 265 Crozet",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nondiscrimination-policy": {
+      "name": "Nondiscrimination Policy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-steven-greer": {
+      "name": "Steven Greer",
+      "type": "PERSON",
+      "aliases": [
+        "Steven M. Greer"
+      ],
+      "sources": []
+    },
+    "entity:organization-mind-unbounded-consciousness": {
+      "name": "Mind/Unbounded Consciousness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-unconventional-experiences": {
+      "name": "Unconventional Experiences",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-attributes-code-of-ethics": {
+      "name": "Attributes & Code of Ethics",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-researchers": {
+      "name": "CSETI Researchers",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-working-group": {
+      "name": "Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-training-for-field-work": {
+      "name": "Training for Field Work",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-working-group-handbook": {
+      "name": "Working Group Handbook",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-ce-5-initiative-working-group": {
+      "name": "the CE-5 Initiative Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-primer-for-working-group-coordinators": {
+      "name": "Primer for Working Group Coordinators",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-associate-application": {
+      "name": "Associate Application",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-working-groups": {
+      "name": "the Working Groups",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-practice": {
+      "name": "Practice",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-field-work-sound-tracks-original-digital-audio-tape": {
+      "name": "CSETI Field Work Sound Tracks \n\n- Original Digital Audio Tape",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-wayne-kilbourn": {
+      "name": "Wayne Kilbourn",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nondiscrimination": {
+      "name": "NONDISCRIMINATION",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti": {
+      "name": "CSETI",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-5": {
+      "name": "CE-5",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-5-initiative": {
+      "name": "CE-5 Initiative",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-5s": {
+      "name": "CE-5s",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-contact-trilogy": {
+      "name": "the Contact Trilogy",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-greer": {
+      "name": "Greer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-md-biography": {
+      "name": "MD Biography",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-founder-of-the-disclosure-project-the-center-for-the-study-of-extraterrestrial-intelligence": {
+      "name": "Founder of The Disclosure Project, The Center for the Study of Extraterrestrial Intelligence",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-orion-project": {
+      "name": "The Orion Project",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-national-press-club-disclosure-event": {
+      "name": "National Press Club Disclosure Event",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cnn-worldwide": {
+      "name": "CNN Worldwide",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-voice-of-america": {
+      "name": "Voice of America",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pravda": {
+      "name": "Pravda",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-latin-america": {
+      "name": "Latin America",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-national-press-club": {
+      "name": "the National Press Club",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-alpha-omega-alpha": {
+      "name": "Alpha Omega Alpha",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-department-of-emergency-medicine": {
+      "name": "the Department of Emergency Medicine",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-caldwell-memorial-hospital": {
+      "name": "Caldwell Memorial Hospital",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-discovery-channel": {
+      "name": "The Discovery Channel",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-larry-king-show": {
+      "name": "The Larry King Show",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-encounters": {
+      "name": "Encounters",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-art-bell": {
+      "name": "Art Bell",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-first-kind": {
+      "name": "the First Kind",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-1": {
+      "name": "CE-1",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-second-kind-ce-2": {
+      "name": "the Second Kind (CE-2",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-trace": {
+      "name": "Trace",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-third-kind": {
+      "name": "the Third Kind",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-fourth-kind": {
+      "name": "the Fourth Kind",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-4": {
+      "name": "CE-4",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-fifth-kind": {
+      "name": "the Fifth Kind",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-extraterrestrial-intelligence": {
+      "name": "Extraterrestrial Intelligence",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-extraterrestrial-intelligence-ebe": {
+      "name": "Extraterrestrial Intelligence \n\nEBE",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-close-encounters": {
+      "name": "Close Encounters",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rapid-mobilization-investigation-team": {
+      "name": "Rapid Mobilization Investigation Team",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-levels-of-consciousness-levels-of-consciousness": {
+      "name": "Levels of Consciousness \n\nLevels of Consciousness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-pure-unbounded-consciousness": {
+      "name": "Pure Unbounded Consciousness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-cosmic-consciousness": {
+      "name": "Cosmic Consciousness",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-journey": {
+      "name": "Journey",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-body-experiences-materialization-dematerialization-bi-location": {
+      "name": "Body Experiences Materialization/Dematerialization Bi-Location",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-causal-realm-originations": {
+      "name": "causal realm originations",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-ascended-enlightened-beings": {
+      "name": "Ascended Enlightened Beings",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-avatars": {
+      "name": "Avatars",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-intra": {
+      "name": "Intra",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-delusions-psychosis": {
+      "name": "Delusions, Psychosis",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-memory-syndrome": {
+      "name": "Memory Syndrome",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-discipline": {
+      "name": "Discipline",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-ce-5-research": {
+      "name": "the CE-5 Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-diplomatic-team": {
+      "name": "Diplomatic Team",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-working-group": {
+      "name": "CSETI WORKING GROUP",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-boarding-party": {
+      "name": "Boarding Party",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ladies": {
+      "name": "ladies\u201f",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-m-d-crestone": {
+      "name": "M.D. Crestone",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-cseti-working-groups": {
+      "name": "the CSETI Working Groups",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-project-starlight": {
+      "name": "Project Starlight",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-project-starlight": {
+      "name": "Project Starlight",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-rapid-mobilization-investigative-teams": {
+      "name": "the Rapid Mobilization Investigative Teams",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-phase-ii": {
+      "name": "Phase II",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-yankee-stadium": {
+      "name": "Yankee Stadium",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-earthquakes": {
+      "name": "Earthquakes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-extraterrestrial-biological-entities": {
+      "name": "Extraterrestrial Biological Entities",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-rapid-mobilization-investigative-team": {
+      "name": "the Rapid Mobilization Investigative Team",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-united-nations": {
+      "name": "the United Nations",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-each-working-group": {
+      "name": "Each Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-miami": {
+      "name": "Miami",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-crestone-colorado": {
+      "name": "Crestone Colorado",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-shari-adamiak": {
+      "name": "Shari Adamiak",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-working-group-coordinator": {
+      "name": "Working Group Coordinator",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joseph-burkes": {
+      "name": "Joseph Burkes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-puerto-rico": {
+      "name": "Puerto Rico",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-sobeps": {
+      "name": "SOBEPS",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ouija": {
+      "name": "Ouija",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-popocatapetl-volcano": {
+      "name": "Popocatapetl Volcano",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-q-public": {
+      "name": "John Q. Public",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-peoria": {
+      "name": "Peoria",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-porgy": {
+      "name": "Porgy",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-north-america": {
+      "name": "North America",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-africa": {
+      "name": "Africa",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-church": {
+      "name": "Church",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-crown": {
+      "name": "Crown",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-rapid-mobilization-investigative-teams": {
+      "name": "CSETI Rapid Mobilization Investigative Teams",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-mexico-city": {
+      "name": "Mexico City",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-berlin-wall": {
+      "name": "the Berlin Wall",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-soviet-union": {
+      "name": "Soviet Union",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nato": {
+      "name": "NATO",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-european-parliament": {
+      "name": "the European Parliament",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-hiroshima": {
+      "name": "Hiroshima",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-pacific": {
+      "name": "Pacific",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-center-for-the-study-of-extraterrestrial-intelligence": {
+      "name": "The Center for the Study of Extraterrestrial Intelligence",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-extraterrestrial": {
+      "name": "Extraterrestrial",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-darth-vader": {
+      "name": "Darth Vader",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jesus-christ": {
+      "name": "Jesus Christ",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-robert-o-dean": {
+      "name": "Robert O. Dean",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-a-united-nations": {
+      "name": "a United Nations",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-4s": {
+      "name": "CE-4s",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-john-salter": {
+      "name": "John Salter",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-travis-walton": {
+      "name": "Travis Walton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jesus": {
+      "name": "Jesus",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-houston": {
+      "name": "Houston",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-snowflake": {
+      "name": "Snowflake",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-fire-in-the-sky": {
+      "name": "Fire in the Sky",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-walton": {
+      "name": "Walton",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-jacques-vallee": {
+      "name": "Jacques Vallee",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-inferno": {
+      "name": "Inferno",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-travis-walton-s": {
+      "name": "Travis Walton\u201fs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-tracey-torme": {
+      "name": "Tracey Torm\u00e9",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-let-s": {
+      "name": "Let\u201fs",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-intruders": {
+      "name": "The Intruders",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-satan": {
+      "name": "Satan",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gandhi": {
+      "name": "Gandhi",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-freddie": {
+      "name": "Freddie",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-nightmare-on-elm-street": {
+      "name": "The Nightmare on Elm Street",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-rapid-mobilization-investigative": {
+      "name": "CSETI Rapid Mobilization Investigative",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-alton-barnes": {
+      "name": "Alton Barnes",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-working-groups": {
+      "name": "Working Groups",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-lancet": {
+      "name": "Lancet",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-national-enquirer": {
+      "name": "the National Enquirer",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-titanic": {
+      "name": "Titanic",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-titanic": {
+      "name": "Titanic",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-captain-s": {
+      "name": "captain\u201fs",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-working-groups": {
+      "name": "CSETI Working Groups",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-cseti-working-group": {
+      "name": "the CSETI Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-each-cseti-working-group": {
+      "name": "Each CSETI Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-working-group": {
+      "name": "the Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-working-group-coordinator": {
+      "name": "the Working Group Coordinator",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-shari": {
+      "name": "Shari",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-rapid-mobilization-investigative-team-rmit": {
+      "name": "the Rapid Mobilization Investigative Team (RMIT",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-alton-barnes-england": {
+      "name": "Alton Barnes England",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mi-5": {
+      "name": "MI-5",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-ce-5-initiative": {
+      "name": "the CE-5 Initiative",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-central-park": {
+      "name": "Central Park",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mcguire-air-force-base": {
+      "name": "McGuire Air Force Base",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-state-department": {
+      "name": "the State Department",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-georgia": {
+      "name": "Georgia",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-western-north-carolina": {
+      "name": "Western North Carolina",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-asheville-airport": {
+      "name": "Asheville Airport",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-eastern-tennessee": {
+      "name": "Eastern Tennessee",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-cheyenne-mountain-colorado": {
+      "name": "Cheyenne Mountain Colorado",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-it-s": {
+      "name": "it\u201fs",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-norad": {
+      "name": "NORAD",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-we-ll": {
+      "name": "we\u201fll",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-proposal-for-an-important-research-category": {
+      "name": "Proposal For An Important Research Category",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-coherent-thought-sequencing": {
+      "name": "Coherent Thought Sequencing",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-mind-race": {
+      "name": "Mind Race",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joseph-mcmoneagle": {
+      "name": "Joseph McMoneagle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-mind-trek": {
+      "name": "Mind Trek",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-coherent-thought-sequencing": {
+      "name": "the Coherent Thought Sequencing",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-close-encounters-of-the-fifth-kind": {
+      "name": "Close Encounters of the Fifth Kind",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-dealing-with-fear": {
+      "name": "Dealing with Fear",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-international": {
+      "name": "CSETI International",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-appalachian-mountains": {
+      "name": "the Appalachian Mountains",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-march-15-1992": {
+      "name": "March 15, 1992",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-gulf-breeze": {
+      "name": "Gulf Breeze",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-joe-burkes": {
+      "name": "Joe Burkes",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-5-working-group": {
+      "name": "CE-5 Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-case-for-nonhostility": {
+      "name": "The Case for NonHostility",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-a-harvest-of-fear": {
+      "name": "A Harvest of Fear",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-group-s": {
+      "name": "group\u201fs",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-you-ll": {
+      "name": "you\u201fll",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-polartek": {
+      "name": "Polartek",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-avon": {
+      "name": "Avon",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-amazon-com": {
+      "name": "Amazon.com",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-radar": {
+      "name": "Radar",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-escort-solo-s2-cordless-radar": {
+      "name": "The Escort Solo S2 Cordless Radar",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-laser-detector": {
+      "name": "Laser Detector",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-orion-transmissions": {
+      "name": "the Orion Transmissions",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-whistler": {
+      "name": "Whistler",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-recommended-whistler": {
+      "name": "Recommended Whistler",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-forest-service": {
+      "name": "Forest Service",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-hill-ridge": {
+      "name": "hill ridge",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-google-earth": {
+      "name": "Google Earth",
+      "type": "LOC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-field": {
+      "name": "CSETI FIELD",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-buddy-system": {
+      "name": "The Buddy System",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-field-work-boarding-party": {
+      "name": "The Field Work: \n\nBoarding Party :",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-morse": {
+      "name": "Morse",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-night-s": {
+      "name": "night\u201fs",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-hidden-truth-guided-meditation": {
+      "name": "the Hidden Truth Guided Meditation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-post-field-work-awareness": {
+      "name": "Post-Field Work Awareness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-cseti-working-group-handbook": {
+      "name": "THE CSETI WORKING GROUP HANDBOOK",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-5-initiative-working-group": {
+      "name": "CE-5 Initiative Working Group",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-executive-council": {
+      "name": "the Executive Council",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-ce-5-initiative-working-group-s": {
+      "name": "CE-5 Initiative Working Group's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-i-requirements": {
+      "name": "I.  Requirements",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-ce-5-initiative-working-group-a-membership": {
+      "name": "the CE-5 Initiative Working Group: \n\n- A. Membership",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-working-group-s": {
+      "name": "the Working Group's",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-working-group-a": {
+      "name": "the Working Group: \n\n- A.",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-working-groups-coordinator": {
+      "name": "Working Groups Coordinator",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-equipment-specialist": {
+      "name": "Equipment Specialist",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-training-kit": {
+      "name": "Training Kit",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-documentation": {
+      "name": "Documentation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-data-and-security-considerations": {
+      "name": "Data and Security Considerations",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-rapid-mobilization-investigative-team-rmit": {
+      "name": "Rapid Mobilization Investigative Team (RMIT",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-working-group-recommended-equipment": {
+      "name": "Working Group Recommended Equipment",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-background-and-preparation-the-working-group": {
+      "name": "Background and Preparation: \n\nThe Working Group",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-refer": {
+      "name": "Refer",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-working-group-handbook": {
+      "name": "the Working Group Handbook",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-this-training-kit": {
+      "name": "this Training Kit",
+      "type": "FAC",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-boarding-party": {
+      "name": "the Boarding Party",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-buddy-system": {
+      "name": "the Buddy System",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-telepathic": {
+      "name": "Telepathic",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-universal-consciousness": {
+      "name": "Universal Consciousness",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-communicator": {
+      "name": "Communicator",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-cseti-working-group-is-not": {
+      "name": "CSETI Working Group Is Not",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-them": {
+      "name": "Them",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-team": {
+      "name": "TEAM",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-deepak-chopra": {
+      "name": "Deepak Chopra",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-birth-date": {
+      "name": "Birth Date",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-sex-m-f": {
+      "name": "Sex (M/F",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-city-state-zip-code": {
+      "name": "City/State/Zip Code",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:event-occupation": {
+      "name": "Occupation",
+      "type": "EVENT",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-guidelines": {
+      "name": "GUIDELINES",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-cseti-rapid-mobilization-investigation-team-rmit": {
+      "name": "The CSETI Rapid Mobilization Investigation Team (RMIT",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-coordinator-team": {
+      "name": "Coordinator - Team",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-liaison-works": {
+      "name": "Liaison - Works",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-cseti-executive-council": {
+      "name": "the CSETI Executive Council",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-universe-training-retreat": {
+      "name": "the Universe Training Retreat",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-research": {
+      "name": "Research",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-executive-council": {
+      "name": "Executive Council",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-advisory-council": {
+      "name": "Advisory Council",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-the-state-of-north-carolina": {
+      "name": "the State of North Carolina",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
     }
   }
 }

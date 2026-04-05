@@ -1,0 +1,524 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0552",
+  "name": "Genders and androgyny / androgynous",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0552",
+      "@type": "woo:Source",
+      "name": "Genders and androgyny / androgynous"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richardsep",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle RichardSep",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-mar-3videosstar-nation-news",
+      "@type": "Organization",
+      "name": "Mar 3VideosStar Nation News",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-nation-news",
+      "@type": "Organization",
+      "name": "Nation News",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:date-february-23-2025",
+      "@type": "Date",
+      "name": "February 23 2025",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:person-tutankhamun",
+      "@type": "Person",
+      "name": "Tutankhamun",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-videos-sound-spirit",
+      "@type": "Organization",
+      "name": "Videos Sound & Spirit",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-scotia-sept-2021",
+      "@type": "Organization",
+      "name": "Scotia - Sept 2021",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-scotia",
+      "@type": "Organization",
+      "name": "Scotia",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:person-glen",
+      "@type": "Person",
+      "name": "Glen",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:person-kerry",
+      "@type": "Person",
+      "name": "Kerry",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:person-ireland-interviews",
+      "@type": "Person",
+      "name": "Ireland Interviews",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-secrets-karnak",
+      "@type": "Organization",
+      "name": "Elena Danaan Secrets @ Karnak",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:person-abigae-lle-richard",
+      "@type": "Person",
+      "name": "Abiga\u00eblle Richard",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:date-2025",
+      "@type": "Date",
+      "name": "2025",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-interviews",
+      "@type": "Organization",
+      "name": "Interviews",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-being-elena-danaan-a",
+      "@type": "Organization",
+      "name": "Elena Danaan Being Elena Danaan - A",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:organization-elena",
+      "@type": "Organization",
+      "name": "Elena",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    },
+    {
+      "@id": "entity:event-genders-and-androgyny-androgynous",
+      "@type": "Event",
+      "name": "Genders and androgyny / androgynous",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0552"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardsep"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mar-3videosstar-nation-news"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nation-news"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-february-23-2025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tutankhamun"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-videos-sound-spirit"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scotia-sept-2021"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scotia"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-glen"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-kerry"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ireland-interviews"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-secrets-karnak"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richard"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-2025"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-interviews"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-being-elena-danaan-a"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-tutankhamun"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-videos-sound-spirit"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-videos-sound-spirit"
+      },
+      "predicate": "woo:partOf",
+      "object": {
+        "@id": "entity:organization-scotia-sept-2021"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scotia"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-glen"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scotia"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-kerry"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-scotia"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:person-ireland-interviews"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-secrets-karnak"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:person-ireland-interviews"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richard"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:date-2025"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-richard"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:organization-interviews"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-being-elena-danaan-a"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-interviews"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-genders-and-androgyny-androgynous"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0552"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardsep"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-genders-and-androgyny-androgynous"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-mar-3videosstar-nation-news"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-genders-and-androgyny-androgynous"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nation-news"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-genders-and-androgyny-androgynous"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-february-23-2025"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-genders-and-androgyny-androgynous"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-genders-and-androgyny-androgynous"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

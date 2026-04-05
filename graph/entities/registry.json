@@ -37351,6 +37351,24 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richardsep": {
+      "name": "Mokusho Abiga\u00eblle RichardSep",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-mar-3videosstar-nation-news": {
+      "name": "Mar 3VideosStar Nation News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nation-news": {
+      "name": "Nation News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

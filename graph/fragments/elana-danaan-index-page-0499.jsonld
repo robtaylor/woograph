@@ -1,0 +1,176 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0499",
+  "name": "Galactic center of Nataru",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0499",
+      "@type": "woo:Source",
+      "name": "Galactic center of Nataru"
+    },
+    {
+      "@id": "entity:organization-galactic-terran",
+      "@type": "Organization",
+      "name": "Galactic & Terran",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0499"
+    },
+    {
+      "@id": "entity:creativework-the-seeders",
+      "@type": "CreativeWork",
+      "name": "The Seeders",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0499"
+    },
+    {
+      "@id": "entity:organization-elena-danaan-galactic-terran-index",
+      "@type": "Organization",
+      "name": "Elena Danaan Galactic & Terran Index",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0499"
+    },
+    {
+      "@id": "entity:person-elena-danaan",
+      "@type": "Person",
+      "name": "Elena Danaan",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0499"
+    },
+    {
+      "@id": "entity:person-dan-willis",
+      "@type": "Person",
+      "name": "Dan Willis",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0499"
+    },
+    {
+      "@id": "entity:event-galactic-center-of-nataru",
+      "@type": "Event",
+      "name": "Galactic center of Nataru",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0499"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0499"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0499"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0499"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0499"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0499"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-elena-danaan"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:creativework-the-seeders"
+      },
+      "confidence": 1.0,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-galactic-center-of-nataru"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0499"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-galactic-center-of-nataru"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-elena-danaan-galactic-terran-index"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-galactic-center-of-nataru"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-dan-willis"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-galactic-center-of-nataru"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

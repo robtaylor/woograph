@@ -37369,6 +37369,30 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richardsep-3": {
+      "name": "Mokusho Abiga\u00eblle RichardSep 3",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-june-29-2025": {
+      "name": "June 29 2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elena-danaantrump": {
+      "name": "Elena DanaanTrump",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-the-galactic-federation": {
+      "name": "the Galactic Federation",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

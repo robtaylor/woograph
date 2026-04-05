@@ -37327,6 +37327,30 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-invideostar-nation-news": {
+      "name": "inVideoStar Nation News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-booksthe-seeders": {
+      "name": "BooksThe Seeders",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richardjan-1": {
+      "name": "Mokusho Abiga\u00eblle RichardJan 1",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-sarah-sylvester": {
+      "name": "Sarah Sylvester",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   }
 }

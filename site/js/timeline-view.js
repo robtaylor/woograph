@@ -73,9 +73,11 @@ function _computeLayout() {
     byYear[y].push(item);
   });
 
-  // Three stem heights spaced 1.2× card height apart so cards don't overlap
-  const step = Math.round(CARD_HEIGHT * 1.2);
-  const heights = [step, step * 2, step * 3];
+  // Three stem heights: shortest just clears the axis, each subsequent
+  // level adds ~1.1× card height so cards don't overlap vertically.
+  // Max stem + card must fit in half the container (~250px).
+  const gap = Math.round(CARD_HEIGHT * 1.1);
+  const heights = [8, 8 + gap, 8 + gap * 2];
 
   for (const [, group] of Object.entries(byYear)) {
     group.sort((a, b) => rankMap.get(a.id) - rankMap.get(b.id));

@@ -13,7 +13,7 @@
   ],
   "description": "UFO sighting recorded on September 18, 2013 in Wittenberge, Germany. No additional information known about the sighting.\nOriginal upload seems to be https://www.youtube.com/watch?v=KOXcxC25-H8",
   "content_file": "content.md",
-  "processed_at": "2026-04-05T09:19:03.930814+00:00",
+  "processed_at": "2026-04-05T09:45:35.171653+00:00",
   "video_metadata": {
     "total_frames": 5480,
     "extracted_frames": 5480,
@@ -31,7 +31,7 @@
     "best_frame_sharpness": 0.006785,
     "deconv_iterations": 15,
     "psf_sigma": 1.5,
-    "processed_at": "2026-04-05T09:19:00.908317+00:00",
+    "processed_at": "2026-04-05T09:45:30.407050+00:00",
     "output_files": {
       "best_frame": "best_frame.png",
       "best_frame_bicubic": "best_frame_bicubic.png",
@@ -55,9 +55,9 @@
       5690
     ],
     "r2_urls": {
-      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/bf4faef3-5f3b-4665-8c68-e375137777cd/crops.mp4",
-      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/540ea33b-9861-46d3-ae24-fa842963289f/debug_detections.mp4",
-      "wittenberge-ufo-2013": "https://woograph-upload.robtaylor.workers.dev/file/uploads/b58321a1-f4c5-4a1f-80cd-8e2b96f7e6f5/wittenberge-ufo-2013.mp4"
+      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/f81c7c8e-20d2-4276-b535-b27c704ee560/crops.mp4",
+      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/5298b7f8-5d06-4129-b6fe-6255c20f7a4f/debug_detections.mp4",
+      "wittenberge-ufo-2013": "https://woograph-upload.robtaylor.workers.dev/file/uploads/d2807d36-e05e-40b3-b2a6-29c172c6ea32/wittenberge-ufo-2013.mp4"
     }
   }
 }

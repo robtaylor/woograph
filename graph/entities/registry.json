@@ -37435,6 +37435,12 @@
       "type": "DATE",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle": {
+      "name": "Mokusho Abiga\u00eblle",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   }
 }

@@ -37411,6 +37411,30 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-nibiru": {
+      "name": "Nibiru",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-readwebsitea-flower": {
+      "name": "readWebsiteA Flower",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:place-eden": {
+      "name": "Eden",
+      "type": "GPE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-april-03-2024": {
+      "name": "April 03 2024",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
     }
   }
 }

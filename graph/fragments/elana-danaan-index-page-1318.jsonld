@@ -1,0 +1,157 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-1318",
+  "name": "South African Anacampseros (Flower on Terra and on the Nibiru ship)",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-1318",
+      "@type": "woo:Source",
+      "name": "South African Anacampseros (Flower on Terra and on the Nibiru ship)"
+    },
+    {
+      "@id": "entity:organization-nibiru",
+      "@type": "Organization",
+      "name": "Nibiru",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1318"
+    },
+    {
+      "@id": "entity:person-mokusho-abigae-lle-richardsep",
+      "@type": "Person",
+      "name": "Mokusho Abiga\u00eblle RichardSep",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1318"
+    },
+    {
+      "@id": "entity:organization-readwebsitea-flower",
+      "@type": "Organization",
+      "name": "readWebsiteA Flower",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1318"
+    },
+    {
+      "@id": "entity:place-eden",
+      "@type": "Place",
+      "name": "Eden",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1318"
+    },
+    {
+      "@id": "entity:date-april-03-2024",
+      "@type": "Date",
+      "name": "April 03 2024",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-1318"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nibiru"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1318"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardsep"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1318"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-readwebsitea-flower"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1318"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:place-eden"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1318"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:date-april-03-2024"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-1318"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-nibiru"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-eden"
+      },
+      "confidence": 0.8,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-mokusho-abigae-lle-richardsep"
+      },
+      "predicate": "woo:authored",
+      "object": {
+        "@id": "entity:organization-readwebsitea-flower"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-readwebsitea-flower"
+      },
+      "predicate": "woo:locatedIn",
+      "object": {
+        "@id": "entity:place-eden"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-readwebsitea-flower"
+      },
+      "predicate": "woo:occurredAt",
+      "object": {
+        "@id": "entity:date-april-03-2024"
+      },
+      "confidence": 0.9,
+      "extractedBy": "deepseek:deepseek-chat"
+    }
+  ]
+}

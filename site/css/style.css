@@ -916,98 +916,50 @@ body {
   top: 50%;
 }
 
-/* Small cards (years zoom) */
-.timeline-card-small {
+/* Timeline card — single style at all zoom levels */
+.timeline-card {
   position: absolute;
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 0;
-  width: 120px;
+  width: 140px;
   cursor: pointer;
   transition: transform 0.15s, border-color 0.15s;
   overflow: hidden;
 }
 
-.timeline-card-small:hover {
+.timeline-card:hover {
   transform: scale(1.05);
   border-color: var(--accent);
   z-index: 10;
 }
 
-.timeline-card-small .card-small-thumb {
+.timeline-card .card-thumb {
   width: 100%;
-  height: 48px;
+  height: 64px;
   object-fit: cover;
   display: block;
   background: var(--bg-primary);
 }
 
-.timeline-card-small .card-small-body {
-  padding: 4px 8px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.timeline-card-small .card-type-icon {
-  font-size: 12px;
-  flex-shrink: 0;
-}
-
-.timeline-card-small .card-title {
-  font-size: 11px;
-  color: var(--text-primary);
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Full cards (months zoom) */
-.timeline-card-full {
-  position: absolute;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 8px;
-  width: 160px;
-  cursor: pointer;
-  transition: transform 0.15s, border-color 0.15s;
-}
-
-.timeline-card-full:hover {
-  transform: scale(1.03);
-  border-color: var(--accent);
-  z-index: 10;
-}
-
-.timeline-card-full .card-thumb {
-  width: 100%;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 4px;
-  margin-bottom: 6px;
-  background: var(--bg-primary);
-}
-
-.timeline-card-full .card-body {
+.timeline-card .card-body {
+  padding: 6px 8px;
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-.timeline-card-full .card-type-icon {
+.timeline-card .card-type-icon {
   font-size: 12px;
 }
 
-.timeline-card-full .card-title {
-  font-size: 12px;
+.timeline-card .card-title {
+  font-size: 11px;
   color: var(--text-primary);
   line-height: 1.3;
 }
 
-.timeline-card-full .card-date {
+.timeline-card .card-date {
   font-size: 10px;
   color: var(--text-muted);
 }

@@ -1,9 +1,12 @@
 /**
  * timeline-view.js - Horizontal timeline visualization of dated entities and sources
  *
- * Continuous zoom from decades overview to individual months.
- * Zoom level 0..100 maps to pxPerYear from 6 (decades) to 960 (months).
- * Scroll position is preserved across zoom changes.
+ * Unified rendering at all zoom levels. Zoom controls how many items are
+ * visible (rank-filtered) and how spread out the axis is. Stem heights and
+ * card appearance stay consistent — only density changes.
+ *
+ * Items are ranked by: thumbnail > event connections > place connections > sources.
+ * At low zoom only top-ranked items show; at max zoom all items appear.
  */
 
 let timelineData = null;
@@ -13,8 +16,8 @@ let itemsEl = null;
 let zoomLevel = 0; // 0..100 continuous
 let currentFilters = null;
 
-// Stem height variation — seeded from item index for consistency
-const STEM_HEIGHTS = [50, 75, 100, 130, 65, 90, 115, 55, 85, 105, 70, 95, 120, 60, 80, 110];
+/** Pre-computed item data: rank, stemHeight, side (above/below) */
+let itemLayout = null;
 
 /**
  * Fetch timeline.json from the data directory.
@@ -25,10 +28,83 @@ export async function loadTimelineData() {
     const resp = await fetch('data/timeline.json');
     if (!resp.ok) return null;
     timelineData = await resp.json();
+    _computeLayout();
     return timelineData;
   } catch {
     return null;
   }
+}
+
+/**
+ * Pre-compute stable layout properties for each item.
+ * These never change with zoom — only visibility does.
+ */
+function _computeLayout() {
+  if (!timelineData) return;
+  itemLayout = new Map();
+
+  const items = timelineData.items;
+
+  // Score each item for ranking
+  const scored = items.map(item => {
+    let score = 0;
+    if (item.thumbnail) score += 20;
+    score += (item.events || []).length * 8;
+    score += (item.places || []).length * 4;
+    score += (item.sources || []).length * 2;
+    // Prefer day/month precision over year/decade
+    if (item.precision === 'day') score += 3;
+    else if (item.precision === 'month') score += 2;
+    else if (item.precision === 'season') score += 1;
+    return { item, score };
+  });
+
+  // Sort by score desc, assign rank (0 = best)
+  scored.sort((a, b) => b.score - a.score);
+  const rankMap = new Map();
+  scored.forEach((s, i) => rankMap.set(s.item.id, i));
+
+  // Assign stable stem heights and sides per item
+  // Group by year, alternate above/below within each year
+  const byYear = {};
+  items.forEach(item => {
+    const y = item.year;
+    if (!byYear[y]) byYear[y] = [];
+    byYear[y].push(item);
+  });
+
+  // Stem height pool — varied for visual interest
+  const heights = [55, 70, 90, 110, 130, 65, 85, 105, 120, 75, 95, 60, 80, 100, 115, 125];
+
+  for (const [, group] of Object.entries(byYear)) {
+    // Sort group by rank so best items get assigned first
+    group.sort((a, b) => rankMap.get(a.id) - rankMap.get(b.id));
+
+    group.forEach((item, idx) => {
+      const above = idx % 2 === 0;
+      const tier = Math.floor(idx / 2); // how far from axis (0 = closest pair)
+      const heightIdx = ((_hashCode(item.id) & 0x7fffffff) % heights.length);
+      const baseHeight = heights[heightIdx];
+      // Add tier offset so stacked items in same year don't overlap
+      const stemHeight = baseHeight + tier * 30;
+
+      itemLayout.set(item.id, {
+        rank: rankMap.get(item.id),
+        stemHeight,
+        above,
+        score: scored.find(s => s.item === item)?.score || 0,
+      });
+    });
+  }
+}
+
+/** Simple string hash for stable pseudo-random assignment */
+function _hashCode(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash + str.charCodeAt(i)) | 0;
+  }
+  return hash;
 }
 
 /**
@@ -68,30 +144,37 @@ export function initTimelineView() {
   if (zoomIn) zoomIn.addEventListener('click', () => setZoom(zoomLevel + 10));
   if (zoomOut) zoomOut.addEventListener('click', () => setZoom(zoomLevel - 10));
 
-  // Scroll wheel zoom (ctrl/cmd + scroll) — preserves scroll position
+  // Scroll wheel zoom (ctrl/cmd + scroll)
   container.addEventListener('wheel', (e) => {
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
-      const delta = e.deltaY < 0 ? 5 : -5;
-      setZoom(zoomLevel + delta);
+      setZoom(zoomLevel + (e.deltaY < 0 ? 5 : -5));
     }
   }, { passive: false });
 }
 
 function _zoomLabel(level) {
-  if (level < 15) return 'Decades';
-  if (level < 40) return 'Years';
-  if (level < 70) return 'Years (detail)';
-  return 'Months';
+  if (level < 15) return 'Overview';
+  if (level < 40) return 'Decades';
+  if (level < 70) return 'Years';
+  return 'Detail';
 }
 
 /**
  * Map zoom level 0..100 to pixels per year.
- * 0 → 6px/yr (decades), 50 → 100px/yr (years), 100 → 960px/yr (months)
+ * 0 → 6px/yr, 50 → 100px/yr, 100 → 960px/yr
  */
 function _pxPerYear(level) {
-  // Exponential curve: more resolution at higher zoom
   return Math.round(6 * Math.pow(160, level / 100));
+}
+
+/**
+ * How many items to show at a given zoom level.
+ * 0 → ~5% of items, 100 → 100%
+ */
+function _visibleFraction(level) {
+  // Smooth curve: starts slow, accelerates
+  return 0.05 + 0.95 * Math.pow(level / 100, 1.5);
 }
 
 /**
@@ -103,13 +186,12 @@ function _displayLabel(item) {
 
 /**
  * Render or re-render the timeline with current data and filters.
- * @param {Object} [filters] - Optional filter state {activeTypes, minConfidence}
  */
 export function renderTimeline(filters) {
   if (filters) currentFilters = filters;
-  if (!timelineData || !container) return;
+  if (!timelineData || !container || !itemLayout) return;
 
-  const items = _filterItems(timelineData.items);
+  let items = _filterItems(timelineData.items);
   if (items.length === 0) {
     itemsEl.innerHTML = '<div class="timeline-empty">No items match current filters</div>';
     axisEl.innerHTML = '';
@@ -119,20 +201,29 @@ export function renderTimeline(filters) {
   const loadingEl = document.getElementById('timeline-loading');
   if (loadingEl) loadingEl.style.display = 'none';
 
-  // Capture scroll position as a fraction of total width
+  // Capture scroll position as fraction of content
   const oldWidth = parseFloat(axisEl.style.width) || container.scrollWidth || 1;
   const scrollCenter = container.scrollLeft + container.clientWidth / 2;
   const scrollFraction = scrollCenter / oldWidth;
 
   const pxPerYear = _pxPerYear(zoomLevel);
 
-  if (pxPerYear < 15) {
-    _renderDecades(items, pxPerYear);
-  } else {
-    _renderItems(items, pxPerYear);
-  }
+  // Rank-filter: only show top N items based on zoom
+  const maxVisible = Math.max(3, Math.round(items.length * _visibleFraction(zoomLevel)));
+  items = items
+    .filter(item => itemLayout.has(item.id))
+    .sort((a, b) => itemLayout.get(a.id).rank - itemLayout.get(b.id).rank)
+    .slice(0, maxVisible);
 
-  // Restore scroll position — keep the same point centered
+  // Re-sort chronologically for rendering
+  items.sort((a, b) => {
+    if (a.year !== b.year) return a.year - b.year;
+    return (a.iso_start || '').localeCompare(b.iso_start || '');
+  });
+
+  _render(items, pxPerYear);
+
+  // Restore scroll position
   const newWidth = parseFloat(axisEl.style.width) || container.scrollWidth || 1;
   const newCenter = scrollFraction * newWidth;
   container.scrollLeft = newCenter - container.clientWidth / 2;
@@ -152,78 +243,9 @@ function _filterItems(items) {
   });
 }
 
-// ── Decades (low zoom) ───────────────────────────────────────────────
+// ── Unified Renderer ──────────────────────────────────────────────────
 
-function _renderDecades(items, pxPerYear) {
-  const decades = _groupByDecade(items);
-  const decadeKeys = Object.keys(decades).map(Number).sort();
-
-  const minDecade = decadeKeys[0];
-  const maxDecade = decadeKeys[decadeKeys.length - 1];
-  const totalWidth = ((maxDecade - minDecade) / 10 + 2) * pxPerYear * 10 + 100;
-
-  axisEl.innerHTML = '';
-  itemsEl.innerHTML = '';
-  axisEl.style.width = totalWidth + 'px';
-  itemsEl.style.width = totalWidth + 'px';
-
-  // Axis line
-  const line = document.createElement('div');
-  line.className = 'timeline-axis-line';
-  axisEl.appendChild(line);
-
-  decadeKeys.forEach((decade) => {
-    const x = 50 + ((decade - minDecade) / 10) * pxPerYear * 10;
-    const group = decades[decade];
-
-    // Tick + label
-    const tick = document.createElement('div');
-    tick.className = 'timeline-tick';
-    tick.style.left = x + 'px';
-    axisEl.appendChild(tick);
-
-    const label = document.createElement('div');
-    label.className = 'timeline-tick-label';
-    label.style.left = x + 'px';
-    label.textContent = decade + 's';
-    axisEl.appendChild(label);
-
-    // Cluster dot
-    const cluster = document.createElement('div');
-    cluster.className = 'timeline-cluster';
-    cluster.style.left = x + 'px';
-    cluster.style.width = Math.min(12 + group.length * 2, 40) + 'px';
-    cluster.style.height = Math.min(12 + group.length * 2, 40) + 'px';
-    cluster.title = `${decade}s: ${group.length} items`;
-
-    const badge = document.createElement('span');
-    badge.className = 'timeline-cluster-badge';
-    badge.textContent = group.length;
-    cluster.appendChild(badge);
-
-    cluster.addEventListener('click', () => {
-      // Zoom into this decade
-      const zoomSlider = document.getElementById('timeline-zoom');
-      const zoomLabel = document.getElementById('timeline-range-label');
-      zoomLevel = 30;
-      if (zoomSlider) zoomSlider.value = zoomLevel;
-      if (zoomLabel) zoomLabel.textContent = _zoomLabel(zoomLevel);
-
-      // Center on this decade
-      const minYear = timelineData.spans.min_year;
-      const newPx = _pxPerYear(zoomLevel);
-      const targetX = 50 + (decade - minYear) * newPx;
-      renderTimeline();
-      container.scrollLeft = targetX - container.clientWidth / 3;
-    });
-
-    itemsEl.appendChild(cluster);
-  });
-}
-
-// ── Items view (years / months depending on zoom) ─────────────────────
-
-function _renderItems(items, pxPerYear) {
+function _render(items, pxPerYear) {
   const minYear = timelineData.spans.min_year;
   const maxYear = timelineData.spans.max_year;
   const totalWidth = (maxYear - minYear + 2) * pxPerYear + 100;
@@ -238,24 +260,86 @@ function _renderItems(items, pxPerYear) {
   line.className = 'timeline-axis-line';
   axisEl.appendChild(line);
 
-  // Determine tick interval based on zoom
-  let tickInterval = 10;  // decades
-  if (pxPerYear >= 40) tickInterval = 5;
-  if (pxPerYear >= 80) tickInterval = 1;
+  // Axis ticks — adaptive density
+  _renderAxisTicks(minYear, maxYear, pxPerYear);
 
-  // Year ticks
-  for (let y = minYear; y <= maxYear; y++) {
-    if (y % tickInterval !== 0 && y !== minYear && y !== maxYear) continue;
+  // Cards + stems
+  for (const item of items) {
+    const layout = itemLayout.get(item.id);
+    if (!layout) continue;
+
+    // X position: year + optional month offset
+    let xFraction = 0.5;
+    if (pxPerYear >= 40) {
+      const month = _extractMonth(item.iso_start);
+      if (month) xFraction = (month - 1) / 12;
+    }
+    const x = 50 + (item.year - minYear + xFraction) * pxPerYear;
+
+    // Stem
+    const stem = document.createElement('div');
+    stem.className = 'timeline-stem' + (layout.above ? ' above' : ' below');
+    stem.style.left = x + 'px';
+    stem.style.height = layout.stemHeight + 'px';
+    itemsEl.appendChild(stem);
+
+    // Card — always the same style
+    const card = document.createElement('div');
+    card.className = 'timeline-card';
+    card.style.left = (x - 70) + 'px';
+    card.style.bottom = layout.above ? `calc(50% + ${layout.stemHeight}px)` : 'auto';
+    card.style.top = layout.above ? 'auto' : `calc(50% + ${layout.stemHeight}px)`;
+
+    const typeIcon = _typeIcon(item);
+    const displayText = _displayLabel(item);
+    const dateText = item.label;
+
+    let thumbHtml = '';
+    if (item.thumbnail) {
+      thumbHtml = `<img class="card-thumb" src="${_escapeHtml(item.thumbnail)}" alt="" loading="lazy">`;
+    }
+
+    const precisionLabel = item.precision === 'day' ? item.iso_start
+      : (item.precision === 'month' ? item.iso_start : item.year);
+
+    card.innerHTML = `
+      ${thumbHtml}
+      <div class="card-body">
+        <span class="card-type-icon">${typeIcon}</span>
+        <span class="card-title">${_escapeHtml(_truncate(displayText, 36))}</span>
+        <span class="card-date">${precisionLabel}${dateText !== displayText ? ' · ' + _escapeHtml(_truncate(dateText, 18)) : ''}</span>
+      </div>
+    `;
+    card.title = `${displayText}\n${dateText}`;
+    card.addEventListener('click', () => _onItemClick(item));
+
+    itemsEl.appendChild(card);
+  }
+}
+
+function _renderAxisTicks(minYear, maxYear, pxPerYear) {
+  // Choose tick interval so ticks are ~60-150px apart
+  const intervals = [100, 50, 20, 10, 5, 2, 1];
+  let tickInterval = 10;
+  for (const iv of intervals) {
+    if (iv * pxPerYear >= 50) {
+      tickInterval = iv;
+    }
+  }
+
+  for (let y = Math.floor(minYear / tickInterval) * tickInterval; y <= maxYear; y += tickInterval) {
+    if (y < minYear) continue;
     const x = 50 + (y - minYear) * pxPerYear;
     const isDecade = y % 10 === 0;
+    const isCentury = y % 100 === 0;
 
     const tick = document.createElement('div');
     tick.className = 'timeline-tick' + (isDecade ? ' decade' : '');
     tick.style.left = x + 'px';
     axisEl.appendChild(tick);
 
-    // Show label for decades, or for all visible ticks at higher zoom
-    if (isDecade || pxPerYear >= 80 || y === minYear || y === maxYear) {
+    // Label: always for decades+, and for single years at high zoom
+    if (isCentury || isDecade || tickInterval <= 5) {
       const label = document.createElement('div');
       label.className = 'timeline-tick-label';
       label.style.left = x + 'px';
@@ -263,101 +347,9 @@ function _renderItems(items, pxPerYear) {
       axisEl.appendChild(label);
     }
   }
-
-  // Determine card style based on zoom
-  const showThumbs = pxPerYear >= 50;
-  const showFullCards = pxPerYear >= 200;
-
-  // Group by year for stacking
-  const byYear = {};
-  items.forEach(item => {
-    const y = item.year;
-    if (!byYear[y]) byYear[y] = [];
-    byYear[y].push(item);
-  });
-
-  Object.entries(byYear).forEach(([year, group]) => {
-    group.forEach((item, idx) => {
-      // Position: use month precision at high zoom
-      let xFraction = 0.5; // default: middle of year
-      if (pxPerYear >= 80) {
-        const month = _extractMonth(item.iso_start);
-        if (month) xFraction = (month - 1) / 12;
-      }
-      const x = 50 + (year - minYear + xFraction) * pxPerYear;
-
-      const above = idx % 2 === 0;
-      const stemIdx = (parseInt(year) * 7 + idx * 3) % STEM_HEIGHTS.length;
-      const stemHeight = STEM_HEIGHTS[stemIdx];
-
-      // Vertical stem
-      const stem = document.createElement('div');
-      stem.className = 'timeline-stem' + (above ? ' above' : ' below');
-      stem.style.left = x + 'px';
-      stem.style.height = stemHeight + 'px';
-      itemsEl.appendChild(stem);
-
-      // Card
-      const card = document.createElement('div');
-      const cardClass = showFullCards ? 'timeline-card-full' : 'timeline-card-small';
-      card.className = cardClass;
-      const cardWidth = showFullCards ? 160 : 120;
-      card.style.left = (x - cardWidth / 2) + 'px';
-      card.style.bottom = above ? `calc(50% + ${stemHeight}px)` : 'auto';
-      card.style.top = above ? 'auto' : `calc(50% + ${stemHeight}px)`;
-
-      const typeIcon = _typeIcon(item);
-      const displayText = _displayLabel(item);
-      const dateText = item.label; // original date text
-
-      if (showFullCards) {
-        let thumbHtml = '';
-        if (item.thumbnail) {
-          thumbHtml = `<img class="card-thumb" src="${_escapeHtml(item.thumbnail)}" alt="" loading="lazy">`;
-        }
-        const precisionLabel = item.precision === 'day' ? item.iso_start
-          : (item.precision === 'month' ? item.iso_start : item.year);
-
-        card.innerHTML = `
-          ${thumbHtml}
-          <div class="card-body">
-            <span class="card-type-icon">${typeIcon}</span>
-            <span class="card-title">${_escapeHtml(_truncate(displayText, 40))}</span>
-            <span class="card-date">${precisionLabel} ${dateText !== displayText ? '· ' + _escapeHtml(_truncate(dateText, 20)) : ''}</span>
-          </div>
-        `;
-      } else {
-        let thumbHtml = '';
-        if (showThumbs && item.thumbnail) {
-          thumbHtml = `<img class="card-small-thumb" src="${_escapeHtml(item.thumbnail)}" alt="" loading="lazy">`;
-        }
-        card.innerHTML = `
-          ${thumbHtml}
-          <div class="card-small-body">
-            <span class="card-type-icon">${typeIcon}</span>
-            <span class="card-title">${_escapeHtml(_truncate(displayText, 30))}</span>
-          </div>
-        `;
-      }
-      card.title = `${displayText}\n${dateText}`;
-      card.addEventListener('click', () => _onItemClick(item));
-
-      itemsEl.appendChild(card);
-    });
-  });
 }
 
 // ── Helpers ─────────────────────────────────────────────────────────────
-
-function _groupByDecade(items) {
-  const decades = {};
-  items.forEach(item => {
-    const decade = Math.floor(item.year / 10) * 10;
-    if (!decades[decade]) decades[decade] = [];
-    decades[decade].push(item);
-  });
-  return decades;
-}
 
 function _extractMonth(isoStart) {
   if (!isoStart) return null;
@@ -374,14 +366,11 @@ function _typeIcon(item) {
 }
 
 function _onItemClick(item) {
-  // For video sources, open the video viewer
   if (item.source_type === 'video' && item.sources && item.sources.length > 0) {
     const slug = item.sources[0].replace('source:', '');
     window.open(`video.html?source=${encodeURIComponent(slug)}`, '_blank');
     return;
   }
-
-  // Show a detail popup
   _showItemDetail(item);
 }
 

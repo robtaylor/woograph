@@ -168,11 +168,11 @@ function _pxPerYear(level) {
   return Math.round(6 * Math.pow(160, level / 100));
 }
 
-/** Max items per spatial bucket. */
-const MAX_PER_BUCKET = 3;
+/** Max items per spatial bucket (1 above + 1 below axis). */
+const MAX_PER_BUCKET = 2;
 
-/** Bucket width in pixels (~half a card width). */
-const BUCKET_PX = 70;
+/** Bucket width in pixels (matches card width so cards don't overlap). */
+const BUCKET_PX = 140;
 
 /**
  * Get the preferred display label for a timeline item.
@@ -208,12 +208,23 @@ function _spatialFilter(items, pxPerYear, minYear) {
     buckets.get(bucketIdx).push(entry);
   }
 
-  // From each bucket, keep top MAX_PER_BUCKET by rank (lower rank = better)
+  // From each bucket, keep best above + best below (1 per side, 2 max)
   const result = [];
   for (const [, entries] of buckets) {
     entries.sort((a, b) => a.rank - b.rank);
-    for (let i = 0; i < Math.min(MAX_PER_BUCKET, entries.length); i++) {
-      result.push(entries[i].item);
+    let pickedAbove = false;
+    let pickedBelow = false;
+    for (const entry of entries) {
+      const layout = itemLayout.get(entry.item.id);
+      if (!layout) continue;
+      if (layout.above && !pickedAbove) {
+        result.push(entry.item);
+        pickedAbove = true;
+      } else if (!layout.above && !pickedBelow) {
+        result.push(entry.item);
+        pickedBelow = true;
+      }
+      if (pickedAbove && pickedBelow) break;
     }
   }
 

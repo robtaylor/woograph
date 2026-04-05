@@ -73,26 +73,22 @@ function _computeLayout() {
     byYear[y].push(item);
   });
 
-  // Three stem heights for clean visual rhythm
-  const heights = [60, 90, 125];
+  // Three stem heights spaced 1.2× card height apart so cards don't overlap
+  const step = Math.round(CARD_HEIGHT * 1.2);
+  const heights = [step, step * 2, step * 3];
 
   for (const [, group] of Object.entries(byYear)) {
-    // Sort group by rank so best items get assigned first
     group.sort((a, b) => rankMap.get(a.id) - rankMap.get(b.id));
 
     group.forEach((item, idx) => {
       const above = idx % 2 === 0;
-      const tier = Math.floor(idx / 2); // how far from axis (0 = closest pair)
       const heightIdx = ((_hashCode(item.id) & 0x7fffffff) % heights.length);
-      const baseHeight = heights[heightIdx];
-      // Add tier offset so stacked items in same year don't overlap
-      const stemHeight = baseHeight + tier * 30;
+      const stemHeight = heights[heightIdx];
 
       itemLayout.set(item.id, {
         rank: rankMap.get(item.id),
         stemHeight,
         above,
-        score: scored.find(s => s.item === item)?.score || 0,
       });
     });
   }
@@ -190,11 +186,9 @@ function _fitPxPerYear() {
   return Math.max(2, availableWidth / span);
 }
 
-/** Max items per spatial bucket (1 above + 1 below axis). */
-const MAX_PER_BUCKET = 2;
-
-/** Bucket width in pixels (matches card width so cards don't overlap). */
-const BUCKET_PX = 140;
+/** Card dimensions (must match CSS) */
+const CARD_WIDTH = 140;
+const CARD_HEIGHT = 80;
 
 /**
  * Get the preferred display label for a timeline item.
@@ -204,87 +198,44 @@ function _displayLabel(item) {
 }
 
 /**
- * Spatially filter items with monotonicity guarantee: items visible at
- * lower zoom never disappear at higher zoom.
- *
- * Works by computing the visible set at base zoom (level 0), then at
- * current zoom, and taking the union. This prevents items from vanishing
- * as bucket boundaries shift.
+ * Greedy exclusion-zone filter with monotonicity guarantee.
+ * Items are placed in rank order (best first). Each placed item creates
+ * an exclusion zone of CARD_WIDTH/pxPerYear years on its side (above/below).
+ * Because higher-ranked items are always placed first regardless of zoom,
+ * an item visible at zoom N is guaranteed visible at zoom N+1 (where the
+ * exclusion zone is smaller).
  */
-function _spatialFilter(items, pxPerYear, minYear) {
-  const validItems = items.filter(item => itemLayout.has(item.id));
+function _greedyFilter(items, pxPerYear) {
+  const validItems = items
+    .filter(item => itemLayout.has(item.id))
+    .sort((a, b) => itemLayout.get(a.id).rank - itemLayout.get(b.id).rank);
 
-  // Always include items that would be visible at base zoom
-  const basePxPerYear = _fitPxPerYear();
-  const baseVisible = _bucketFilter(validItems, basePxPerYear, minYear);
+  const exclusionYears = CARD_WIDTH / pxPerYear;
+  const placedAbove = [];
+  const placedBelow = [];
+  const result = [];
 
-  if (pxPerYear <= basePxPerYear) {
-    return _sortChronological(baseVisible);
-  }
-
-  // Add items visible at current zoom
-  const currentVisible = _bucketFilter(validItems, pxPerYear, minYear);
-
-  // Union: base set + current set
-  const seen = new Set(baseVisible.map(i => i.id));
-  const result = [...baseVisible];
-  for (const item of currentVisible) {
-    if (!seen.has(item.id)) {
-      result.push(item);
-      seen.add(item.id);
-    }
-  }
-
-  return _sortChronological(result);
-}
-
-/**
- * Core bucket filter: 1 above + 1 below per BUCKET_PX-wide bucket.
- */
-function _bucketFilter(items, pxPerYear, minYear) {
-  const withX = items.map(item => {
-    let xFrac = 0.5;
+  for (const item of validItems) {
+    const layout = itemLayout.get(item.id);
+    let yearPos = item.year;
     if (pxPerYear >= 40) {
       const month = _extractMonth(item.iso_start);
-      if (month) xFrac = (month - 1) / 12;
+      if (month) yearPos += (month - 1) / 12;
     }
-    const x = 100 + (item.year - minYear + xFrac) * pxPerYear;
-    return { item, x, rank: itemLayout.get(item.id).rank };
-  });
 
-  const buckets = new Map();
-  for (const entry of withX) {
-    const bucketIdx = Math.floor(entry.x / BUCKET_PX);
-    if (!buckets.has(bucketIdx)) buckets.set(bucketIdx, []);
-    buckets.get(bucketIdx).push(entry);
-  }
-
-  const result = [];
-  for (const [, entries] of buckets) {
-    entries.sort((a, b) => a.rank - b.rank);
-    let pickedAbove = false;
-    let pickedBelow = false;
-    for (const entry of entries) {
-      const layout = itemLayout.get(entry.item.id);
-      if (!layout) continue;
-      if (layout.above && !pickedAbove) {
-        result.push(entry.item);
-        pickedAbove = true;
-      } else if (!layout.above && !pickedBelow) {
-        result.push(entry.item);
-        pickedBelow = true;
-      }
-      if (pickedAbove && pickedBelow) break;
+    const sidePositions = layout.above ? placedAbove : placedBelow;
+    const tooClose = sidePositions.some(pos => Math.abs(pos - yearPos) < exclusionYears);
+    if (!tooClose) {
+      result.push(item);
+      sidePositions.push(yearPos);
     }
   }
-  return result;
-}
 
-function _sortChronological(items) {
-  return items.sort((a, b) => {
+  result.sort((a, b) => {
     if (a.year !== b.year) return a.year - b.year;
     return (a.iso_start || '').localeCompare(b.iso_start || '');
   });
+  return result;
 }
 
 /**
@@ -312,8 +263,8 @@ export function renderTimeline(filters) {
   const pxPerYear = _pxPerYear(zoomLevel);
   const minYear = timelineData.spans.min_year;
 
-  // Spatial filtering: max 3 items per ~70px bucket
-  const items = _spatialFilter(allItems, pxPerYear, minYear);
+  // Greedy exclusion-zone filter: rank-ordered, monotonic visibility
+  const items = _greedyFilter(allItems, pxPerYear);
 
   _render(items, pxPerYear);
 

@@ -923,6 +923,7 @@ body {
   border: 1px solid var(--border);
   border-radius: 6px;
   width: 140px;
+  min-height: 80px;
   cursor: pointer;
   transition: transform 0.15s, border-color 0.15s;
   overflow: hidden;

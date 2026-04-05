@@ -73,8 +73,8 @@ function _computeLayout() {
     byYear[y].push(item);
   });
 
-  // Stem height pool — varied for visual interest
-  const heights = [55, 70, 90, 110, 130, 65, 85, 105, 120, 75, 95, 60, 80, 100, 115, 125];
+  // Three stem heights for clean visual rhythm
+  const heights = [60, 90, 125];
 
   for (const [, group] of Object.entries(byYear)) {
     // Sort group by rank so best items get assigned first
@@ -186,7 +186,7 @@ function _pxPerYear(level) {
 function _fitPxPerYear() {
   if (!timelineData || !container) return 4;
   const span = timelineData.spans.max_year - timelineData.spans.min_year + 1;
-  const availableWidth = container.clientWidth - 200; // 100px padding each side
+  const availableWidth = container.clientWidth - 170; // 100px left + 70px right
   return Math.max(2, availableWidth / span);
 }
 
@@ -204,25 +204,54 @@ function _displayLabel(item) {
 }
 
 /**
- * Spatially filter items: divide timeline into buckets of BUCKET_PX width,
- * keep at most MAX_PER_BUCKET best-ranked items per bucket.
- * This ensures even distribution — no empty gaps or overcrowded clusters.
+ * Spatially filter items with monotonicity guarantee: items visible at
+ * lower zoom never disappear at higher zoom.
+ *
+ * Works by computing the visible set at base zoom (level 0), then at
+ * current zoom, and taking the union. This prevents items from vanishing
+ * as bucket boundaries shift.
  */
 function _spatialFilter(items, pxPerYear, minYear) {
-  // Compute x position for each item
-  const withX = items
-    .filter(item => itemLayout.has(item.id))
-    .map(item => {
-      let xFrac = 0.5;
-      if (pxPerYear >= 40) {
-        const month = _extractMonth(item.iso_start);
-        if (month) xFrac = (month - 1) / 12;
-      }
-      const x = 100 + (item.year - minYear + xFrac) * pxPerYear;
-      return { item, x, rank: itemLayout.get(item.id).rank };
-    });
+  const validItems = items.filter(item => itemLayout.has(item.id));
 
-  // Assign to buckets
+  // Always include items that would be visible at base zoom
+  const basePxPerYear = _fitPxPerYear();
+  const baseVisible = _bucketFilter(validItems, basePxPerYear, minYear);
+
+  if (pxPerYear <= basePxPerYear) {
+    return _sortChronological(baseVisible);
+  }
+
+  // Add items visible at current zoom
+  const currentVisible = _bucketFilter(validItems, pxPerYear, minYear);
+
+  // Union: base set + current set
+  const seen = new Set(baseVisible.map(i => i.id));
+  const result = [...baseVisible];
+  for (const item of currentVisible) {
+    if (!seen.has(item.id)) {
+      result.push(item);
+      seen.add(item.id);
+    }
+  }
+
+  return _sortChronological(result);
+}
+
+/**
+ * Core bucket filter: 1 above + 1 below per BUCKET_PX-wide bucket.
+ */
+function _bucketFilter(items, pxPerYear, minYear) {
+  const withX = items.map(item => {
+    let xFrac = 0.5;
+    if (pxPerYear >= 40) {
+      const month = _extractMonth(item.iso_start);
+      if (month) xFrac = (month - 1) / 12;
+    }
+    const x = 100 + (item.year - minYear + xFrac) * pxPerYear;
+    return { item, x, rank: itemLayout.get(item.id).rank };
+  });
+
   const buckets = new Map();
   for (const entry of withX) {
     const bucketIdx = Math.floor(entry.x / BUCKET_PX);
@@ -230,7 +259,6 @@ function _spatialFilter(items, pxPerYear, minYear) {
     buckets.get(bucketIdx).push(entry);
   }
 
-  // From each bucket, keep best above + best below (1 per side, 2 max)
   const result = [];
   for (const [, entries] of buckets) {
     entries.sort((a, b) => a.rank - b.rank);
@@ -249,14 +277,14 @@ function _spatialFilter(items, pxPerYear, minYear) {
       if (pickedAbove && pickedBelow) break;
     }
   }
+  return result;
+}
 
-  // Sort chronologically for rendering
-  result.sort((a, b) => {
+function _sortChronological(items) {
+  return items.sort((a, b) => {
     if (a.year !== b.year) return a.year - b.year;
     return (a.iso_start || '').localeCompare(b.iso_start || '');
   });
-
-  return result;
 }
 
 /**
@@ -314,7 +342,7 @@ function _filterItems(items) {
 function _render(items, pxPerYear) {
   const minYear = timelineData.spans.min_year;
   const maxYear = timelineData.spans.max_year;
-  const totalWidth = (maxYear - minYear + 2) * pxPerYear + 200;
+  const totalWidth = (maxYear - minYear + 2) * pxPerYear + 170;
 
   axisEl.innerHTML = '';
   itemsEl.innerHTML = '';

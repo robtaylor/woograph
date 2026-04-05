@@ -13,25 +13,25 @@
   ],
   "description": "UFO sighting recorded on September 18, 2013 in Wittenberge, Germany. No additional information known about the sighting.\nOriginal upload seems to be https://www.youtube.com/watch?v=KOXcxC25-H8",
   "content_file": "content.md",
-  "processed_at": "2026-04-04T23:46:03.386193+00:00",
+  "processed_at": "2026-04-05T09:13:12.017314+00:00",
   "video_metadata": {
-    "total_frames": 5900,
-    "extracted_frames": 5900,
-    "detected_frames": 645,
+    "total_frames": 5480,
+    "extracted_frames": 5480,
+    "detected_frames": 390,
     "crop_size": [
-      36,
-      42
+      54,
+      58
     ],
     "scale_factor": 3,
     "output_size": [
-      126,
-      108
+      174,
+      162
     ],
-    "best_frame_index": 70,
-    "best_frame_sharpness": 0.017255,
+    "best_frame_index": 336,
+    "best_frame_sharpness": 0.006785,
     "deconv_iterations": 15,
     "psf_sigma": 1.5,
-    "processed_at": "2026-04-04T23:45:59.387838+00:00",
+    "processed_at": "2026-04-05T09:13:08.540662+00:00",
     "output_files": {
       "best_frame": "best_frame.png",
       "best_frame_bicubic": "best_frame_bicubic.png",
@@ -49,10 +49,15 @@
       "ibp_similar15": "ibp_similar15.png",
       "wittenberge-ufo-2013": "wittenberge-ufo-2013.mp4"
     },
+    "vlm_scene_count": 9,
+    "vlm_footage_range": [
+      210,
+      5690
+    ],
     "r2_urls": {
-      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/16e9ef85-1f7f-4ffa-92a9-3e23871814ee/crops.mp4",
-      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/c4203b7d-96a8-44f6-8364-31fc06cb5f61/debug_detections.mp4",
-      "wittenberge-ufo-2013": "https://woograph-upload.robtaylor.workers.dev/file/uploads/9d562deb-c0d3-4474-890a-10cfcae552f5/wittenberge-ufo-2013.mp4"
+      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/3976fc90-108f-4163-8027-278a1aeaf422/crops.mp4",
+      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/e16a8c62-7f87-4f93-b95d-ef51416beebc/debug_detections.mp4",
+      "wittenberge-ufo-2013": "https://woograph-upload.robtaylor.workers.dev/file/uploads/03cc96f2-744d-4b10-b7e6-3bd2d35b4349/wittenberge-ufo-2013.mp4"
     }
   }
 }

@@ -37297,6 +37297,36 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richard-jan-1": {
+      "name": "Mokusho Abiga\u00eblle Richard\n- Jan 1",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-gift": {
+      "name": "Gift",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-seeders-pp": {
+      "name": "Seeders: pp",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-disclosure-vs-blue-beam": {
+      "name": "Disclosure vs Blue Beam",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-elena-danaan-elena-danaan-official": {
+      "name": "Elena Danaan\nElena Danaan Official",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   }
 }

@@ -111,8 +111,12 @@ export default {
 			return handleSubmit(request, env, credHeaders);
 		}
 
-		if (request.method === "GET" && url.pathname.startsWith("/file/")) {
-			return handleGet(url.pathname.slice(6), env, headers);
+		if ((request.method === "GET" || request.method === "HEAD") && url.pathname.startsWith("/file/")) {
+			const response = await handleGet(url.pathname.slice(6), env, headers, request);
+			if (request.method === "HEAD") {
+				return new Response(null, { status: response.status, headers: response.headers });
+			}
+			return response;
 		}
 
 		if (request.method === "GET" && url.pathname === "/auth/login") {
@@ -383,19 +387,44 @@ async function handleGet(
 	key: string,
 	env: Env,
 	headers: Record<string, string>,
+	request?: Request,
 ): Promise<Response> {
-	const object = await env.BUCKET.get(key);
+	// Support range requests for video streaming
+	const rangeHeader = request?.headers.get("Range") || undefined;
+	const options: R2GetOptions = {};
+	if (rangeHeader) {
+		// Parse "bytes=start-end"
+		const match = rangeHeader.match(/bytes=(\d+)-(\d*)/);
+		if (match) {
+			const start = parseInt(match[1]);
+			const end = match[2] ? parseInt(match[2]) : undefined;
+			options.range = end !== undefined ? { offset: start, length: end - start + 1 } : { offset: start };
+		}
+	}
+
+	const object = await env.BUCKET.get(key, options);
 	if (!object) {
 		return new Response("Not found", { status: 404, headers });
 	}
-	return new Response(object.body, {
-		headers: {
-			...headers,
-			"Content-Type": object.httpMetadata?.contentType || "application/octet-stream",
-			"Content-Disposition": `inline; filename="${key.split("/").pop()}"`,
-			"Cache-Control": "public, max-age=31536000, immutable",
-		},
-	});
+
+	const responseHeaders: Record<string, string> = {
+		...headers,
+		"Content-Type": object.httpMetadata?.contentType || "application/octet-stream",
+		"Content-Disposition": `inline; filename="${key.split("/").pop()}"`,
+		"Cache-Control": "public, max-age=31536000, immutable",
+		"Accept-Ranges": "bytes",
+	};
+
+	if (rangeHeader && object.range) {
+		const r = object.range as { offset: number; length: number };
+		const total = object.size;
+		responseHeaders["Content-Range"] = `bytes ${r.offset}-${r.offset + r.length - 1}/${total}`;
+		responseHeaders["Content-Length"] = String(r.length);
+		return new Response(object.body, { status: 206, headers: responseHeaders });
+	}
+
+	responseHeaders["Content-Length"] = String(object.size);
+	return new Response(object.body, { headers: responseHeaders });
 }
 
 // ── Submit ────────────────────────────────────────────────────────────────────

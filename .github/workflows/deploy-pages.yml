@@ -7,7 +7,7 @@ on:
     branches: [main]
   push:
     branches: [main]
-    paths: ['site/**', 'graph/global.jsonld']
+    paths: ['site/**', 'graph/global.jsonld', 'sources/**']
 
 permissions:
   pages: write

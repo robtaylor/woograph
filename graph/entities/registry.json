@@ -36253,6 +36253,90 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-mar-31videosstar-nation-news": {
+      "name": "Mar 31VideosStar Nation News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-telegram-channelhttps-t-me-elenadanaanofficialchannel-3791https-t-me-elenadanaanofficialchannel-3795https-t-me-elenadanaanofficialchannel-3812": {
+      "name": "Telegram channelhttps://t.me/ElenaDanaanOfficialChannel/3791https://t.me/ElenaDanaanOfficialChannel/3795https://t.me/ElenaDanaanOfficialChannel/3812",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-february-23-2025": {
+      "name": "February 23 2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-videos-sound-spirit": {
+      "name": "Videos Sound & Spirit",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-scotia-sept-2021": {
+      "name": "Scotia - Sept 2021",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-scotia": {
+      "name": "Scotia",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-glen": {
+      "name": "Glen",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-kerry": {
+      "name": "Kerry",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-ireland-interviews": {
+      "name": "Ireland Interviews",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-elena-danaan-secrets-karnak": {
+      "name": "Elena Danaan Secrets @ Karnak",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abigae-lle-richard": {
+      "name": "Abiga\u00eblle Richard",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-2025": {
+      "name": "2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-interviews": {
+      "name": "Interviews",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-elena-danaan-being-elena-danaan-a": {
+      "name": "Elena Danaan Being Elena Danaan - A",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

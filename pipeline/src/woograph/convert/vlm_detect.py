@@ -243,10 +243,11 @@ def get_footage_range(
         logger.warning("No footage scenes found, using all frames")
         return (0, total_frames)
 
-    # Span from first footage to last footage (inclusive of gaps)
-    first = min(footage, key=lambda s: s.start_idx)
-    last = max(footage, key=lambda s: s.end_idx)
-    start, end = first.start_idx, last.end_idx
+    # Use the longest footage scene — compilation videos contain multiple
+    # unrelated clips and mixing them breaks the temporal median background
+    # model used for object detection.
+    longest = max(footage, key=lambda s: s.frame_count)
+    start, end = longest.start_idx, longest.end_idx
 
     logger.info(
         "Footage range: frames %d-%d (%d frames, %.1f%% of video)",

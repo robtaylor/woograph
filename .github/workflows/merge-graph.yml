@@ -12,6 +12,7 @@ jobs:
       contents: write
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -40,6 +41,9 @@ jobs:
 
       - name: Geocode Place entities
         run: cd pipeline && uv run woograph geocode
+
+      - name: Generate timeline data
+        run: cd pipeline && uv run woograph timeline
 
       - name: Copy graph data to site
         run: |

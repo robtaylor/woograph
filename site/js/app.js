@@ -6,7 +6,8 @@ import { loadGraphData, loadStats } from './data-loader.js';
 import { initGraphView, updateLayout } from './graph-view.js';
 import { initFilters, initSearch } from './filters.js';
 import { initDetailPanel } from './detail-panel.js';
-import { loadGeocodedData, initMapView, renderMapMarkers, invalidateMapSize } from './map-view.js';
+import { loadGeocodedData, initMapView, renderMapMarkers, invalidateMapSize, loadTimelineDataForMap } from './map-view.js';
+import { loadTimelineData, initTimelineView, renderTimeline } from './timeline-view.js';
 
 // Store full data globally so filters can rebuild the graph
 let allNodes = [];
@@ -18,6 +19,9 @@ let currentCy = null;
 let mapInitialized = false;
 let geocodedData = null;
 let placeEdgeIndex = null;  // Map<placeId, Set<placeId>>
+
+// Timeline state
+let timelineInitialized = false;
 
 async function main() {
   const graphContainer = document.getElementById('cy');
@@ -168,7 +172,10 @@ function renderGraph(container, minDegree, minConfidence, activeTypes = null) {
     const mapPlaceNodes = allNodes.filter(n =>
       n.data.type === 'Place' && (!activeTypes || activeTypes.has('Place'))
     );
-    renderMapMarkers(mapPlaceNodes, geocodedData, placeEdgeIndex, filteredEdges);
+    const mapEventNodes = allNodes.filter(n =>
+      n.data.type === 'Event' && (!activeTypes || activeTypes.has('Event'))
+    );
+    renderMapMarkers(mapPlaceNodes, geocodedData, placeEdgeIndex, filteredEdges, mapEventNodes, allNodes);
   }
 }
 
@@ -183,7 +190,11 @@ async function initMap() {
     console.error('[map] initMapView threw:', err);
     return;
   }
-  geocodedData = await loadGeocodedData();
+  const [geoData, _tlData] = await Promise.all([
+    loadGeocodedData(),
+    loadTimelineDataForMap(),  // cache for thumbnail popups
+  ]);
+  geocodedData = geoData;
   console.log('[map] geocodedData loaded:', !!geocodedData, geocodedData?.stats);
 
   if (loadingMsg) loadingMsg.style.display = 'none';
@@ -206,8 +217,11 @@ async function initMap() {
   const placeNodes = allNodes.filter(n =>
     n.data.type === 'Place' && (!activeTypes || activeTypes.has('Place'))
   );
+  const eventNodes = allNodes.filter(n =>
+    n.data.type === 'Event' && (!activeTypes || activeTypes.has('Event'))
+  );
 
-  renderMapMarkers(placeNodes, geocodedData, placeEdgeIndex, allEdges);
+  renderMapMarkers(placeNodes, geocodedData, placeEdgeIndex, allEdges, eventNodes, allNodes);
   mapInitialized = true;
 
   // Wire up "View in graph" popup links via event delegation
@@ -229,6 +243,27 @@ async function initMap() {
   });
 }
 
+async function initTimeline() {
+  const loadingMsg = document.getElementById('timeline-loading');
+  if (loadingMsg) loadingMsg.style.display = 'block';
+
+  initTimelineView();
+  const data = await loadTimelineData();
+
+  if (loadingMsg) loadingMsg.style.display = 'none';
+
+  if (!data) {
+    const container = document.getElementById('timeline-container');
+    if (container) {
+      container.innerHTML = '<div class="map-error">Timeline data not available. Run <code>woograph timeline</code> to generate.</div>';
+    }
+    return;
+  }
+
+  renderTimeline();
+  timelineInitialized = true;
+}
+
 function setupTabs() {
   const tabs = document.querySelectorAll('.tab-nav button[data-tab]');
   const panels = document.querySelectorAll('.view-panel');
@@ -242,11 +277,23 @@ function setupTabs() {
         p.classList.toggle('active', p.id === target);
       });
 
+      // Show layout selector only for graph view
+      const layoutSelector = document.querySelector('.layout-selector');
+      if (layoutSelector) {
+        layoutSelector.style.display = target === 'graph-view' ? '' : 'none';
+      }
+
       if (target === 'map-view') {
         if (!mapInitialized) {
           await initMap();
         } else {
           invalidateMapSize();
+        }
+      }
+
+      if (target === 'timeline-view') {
+        if (!timelineInitialized) {
+          await initTimeline();
         }
       }
     });

@@ -28,6 +28,7 @@
     <!-- Tab Navigation -->
     <div class="tab-nav">
       <button class="active" data-tab="graph-view">Graph View</button>
+      <button data-tab="timeline-view">Timeline</button>
       <button data-tab="map-view">Map View</button>
       <div class="layout-selector">
         <label for="layout-select">Layout:</label>
@@ -88,6 +89,18 @@
         <div id="loading" class="loading-overlay">
           <div class="loading-spinner"></div>
         </div>
+      </div>
+
+      <!-- Timeline View -->
+      <div id="timeline-view" class="view-panel">
+        <div id="timeline-container"></div>
+        <div class="timeline-controls">
+          <button id="timeline-zoom-out" class="timeline-btn">&minus;</button>
+          <input type="range" id="timeline-zoom" min="0" max="2" step="1" value="0">
+          <button id="timeline-zoom-in" class="timeline-btn">+</button>
+          <span id="timeline-range-label">Decades</span>
+        </div>
+        <div id="timeline-loading" class="map-loading-msg">Loading timeline data...</div>
       </div>
 
       <!-- Map View -->

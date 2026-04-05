@@ -1544,3 +1544,29 @@ def geocode(ctx: click.Context, dry_run: bool, force: bool, delay: float) -> Non
         f"Geocoded: {len(successes)}/{len(places)} places "
         f"({len(failures)} failed) → {output_path}"
     )
+
+
+@main.command()
+@click.pass_context
+def timeline(ctx: click.Context) -> None:
+    """Generate timeline.json from Date entities and source metadata."""
+    from woograph.timeline import generate_timeline
+
+    repo_root: Path = ctx.obj["repo_root"]
+    global_path = repo_root / "graph" / "global.jsonld"
+
+    if not global_path.exists():
+        click.echo("No global.jsonld found. Run 'woograph merge' first.")
+        raise SystemExit(1)
+
+    sources_dir = repo_root / "sources"
+    output_path = repo_root / "site" / "data" / "timeline.json"
+
+    data = generate_timeline(global_path, sources_dir, output_path)
+    spans = data["spans"]
+
+    click.echo(
+        f"Timeline: {spans['total_items']} items "
+        f"({spans['min_year']}–{spans['max_year']}) → {output_path}"
+    )
+    click.echo(f"  Precision: {spans['by_precision']}")

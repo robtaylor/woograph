@@ -6,8 +6,10 @@
 
 let map = null;
 let markerClusterGroup = null;
+let eventMarkerGroup = null;
 let connectionLayer = null;
 let showConnections = false;
+let timelineDataCache = null;
 
 /**
  * Load geocoded.json (lazy, called once on first map tab activation).
@@ -60,6 +62,9 @@ export function initMapView() {
   }
   map.addLayer(markerClusterGroup);
 
+  // Event markers layer
+  eventMarkerGroup = L.layerGroup().addTo(map);
+
   // Connection lines layer
   connectionLayer = L.layerGroup().addTo(map);
 
@@ -89,16 +94,18 @@ let _lastRenderArgs = null;
  * @param {Object} geocoded - geocoded.json data
  * @param {Map} placeEdgeIndex - Map<placeId, Set<placeId>> of place-place edges
  * @param {Array} allEdges - all edges for connection data
+ * @param {Array} [eventNodes] - Event nodes to show at their occurredAt places
+ * @param {Array} [allNodes] - All nodes (for resolving event→place lookups)
  */
-export function renderMapMarkers(placeNodes, geocoded, placeEdgeIndex, allEdges) {
+export function renderMapMarkers(placeNodes, geocoded, placeEdgeIndex, allEdges, eventNodes, allNodes) {
   if (!map || !geocoded) { console.warn('[map] renderMapMarkers: map=', !!map, 'geocoded=', !!geocoded); return; }
 
-  _lastRenderArgs = [placeNodes, geocoded, placeEdgeIndex, allEdges];
+  _lastRenderArgs = [placeNodes, geocoded, placeEdgeIndex, allEdges, eventNodes, allNodes];
 
   const places = geocoded.places || {};
   console.log('[map] renderMapMarkers: placeNodes=', placeNodes.length, '| geocoded places=', Object.keys(places).length);
 
-  // Build markers
+  // Build place markers
   markerClusterGroup.clearLayers();
 
   const visibleMarkers = [];
@@ -112,12 +119,67 @@ export function renderMapMarkers(placeNodes, geocoded, placeEdgeIndex, allEdges)
     visibleMarkers.push({ node, geo });
   }
 
-  console.log('[map] markers added:', visibleMarkers.length);
+  // Build event markers at their occurredAt place coordinates
+  eventMarkerGroup.clearLayers();
+  if (eventNodes && eventNodes.length > 0) {
+    const eventPlaceMap = _buildEventPlaceMap(allEdges);
+    let eventCount = 0;
+
+    for (const eNode of eventNodes) {
+      const placeIds = eventPlaceMap.get(eNode.data.id);
+      if (!placeIds) continue;
+
+      for (const placeId of placeIds) {
+        const geo = places[placeId];
+        if (!geo) continue;
+
+        const marker = _createEventMarker(eNode, geo);
+        eventMarkerGroup.addLayer(marker);
+        eventCount++;
+      }
+    }
+    console.log('[map] event markers added:', eventCount);
+  }
+
+  console.log('[map] place markers added:', visibleMarkers.length);
   // Update stats overlay
   const countEl = document.getElementById('map-place-count');
   if (countEl) countEl.textContent = visibleMarkers.length;
 
   _renderConnections(visibleMarkers, geocoded, placeEdgeIndex);
+}
+
+/**
+ * Load timeline data for thumbnail enrichment in popups.
+ * @returns {Promise<Object|null>}
+ */
+export async function loadTimelineDataForMap() {
+  if (timelineDataCache) return timelineDataCache;
+  try {
+    const resp = await fetch('data/timeline.json');
+    if (!resp.ok) return null;
+    timelineDataCache = await resp.json();
+    return timelineDataCache;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Build event→place index from occurredAt edges.
+ * @returns {Map<string, string[]>}
+ */
+function _buildEventPlaceMap(allEdges) {
+  const map = new Map();
+  for (const e of allEdges) {
+    if (e.data.label === 'occurred at' || e.data.predicate === 'woo:occurredAt') {
+      const eventId = e.data.source;
+      const placeId = e.data.target;
+      if (!map.has(eventId)) map.set(eventId, []);
+      map.get(eventId).push(placeId);
+    }
+  }
+  return map;
 }
 
 function _renderConnections(visibleMarkers, geocoded, placeEdgeIndex) {
@@ -218,6 +280,46 @@ function _buildPopup(node, geo, placeEdgeIndex, allEdges) {
       <div class="popup-footer">${viewInGraph}</div>
     </div>
   `;
+}
+
+function _createEventMarker(node, geo) {
+  const icon = L.divIcon({
+    className: 'event-marker-icon',
+    html: '<div class="event-marker"></div>',
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+  });
+
+  const marker = L.marker([geo.lat, geo.lng], { icon });
+  const name = node.data.label || node.data.id.split(':').pop().replace(/-/g, ' ');
+  const sources = (node.data.mentionedIn || []).slice(0, 3)
+    .map(s => {
+      const srcId = typeof s === 'string' ? s : (s['@id'] || '');
+      const slug = srcId.split(':').pop();
+      const label = slug.replace(/-/g, ' ');
+      const thumb = _getThumbnailPath(slug);
+      return `<li>${thumb ? `<img src="${_escHtml(thumb)}" class="popup-thumb" alt="">` : ''}${_escHtml(label)}</li>`;
+    })
+    .join('');
+
+  marker.bindPopup(`
+    <div class="map-popup event-popup">
+      <h4>&#x26A1; ${_escHtml(name)}</h4>
+      ${sources ? `<div class="popup-section"><strong>Sources:</strong><ul>${sources}</ul></div>` : ''}
+    </div>
+  `, { maxWidth: 320, minWidth: 200 });
+  return marker;
+}
+
+/**
+ * Get thumbnail path for a source slug from cached timeline data.
+ */
+function _getThumbnailPath(slug) {
+  if (!timelineDataCache) return null;
+  const item = timelineDataCache.items.find(i =>
+    i.sources && i.sources.some(s => s.includes(slug))
+  );
+  return item ? item.thumbnail : null;
 }
 
 function _escHtml(str) {

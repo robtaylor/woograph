@@ -186,7 +186,7 @@ function _pxPerYear(level) {
 function _fitPxPerYear() {
   if (!timelineData || !container) return 4;
   const span = timelineData.spans.max_year - timelineData.spans.min_year + 1;
-  const availableWidth = container.clientWidth - 100; // 50px padding each side
+  const availableWidth = container.clientWidth - 200; // 100px padding each side
   return Math.max(2, availableWidth / span);
 }
 
@@ -218,7 +218,7 @@ function _spatialFilter(items, pxPerYear, minYear) {
         const month = _extractMonth(item.iso_start);
         if (month) xFrac = (month - 1) / 12;
       }
-      const x = 50 + (item.year - minYear + xFrac) * pxPerYear;
+      const x = 100 + (item.year - minYear + xFrac) * pxPerYear;
       return { item, x, rank: itemLayout.get(item.id).rank };
     });
 
@@ -314,7 +314,7 @@ function _filterItems(items) {
 function _render(items, pxPerYear) {
   const minYear = timelineData.spans.min_year;
   const maxYear = timelineData.spans.max_year;
-  const totalWidth = (maxYear - minYear + 2) * pxPerYear + 100;
+  const totalWidth = (maxYear - minYear + 2) * pxPerYear + 200;
 
   axisEl.innerHTML = '';
   itemsEl.innerHTML = '';
@@ -340,7 +340,7 @@ function _render(items, pxPerYear) {
       const month = _extractMonth(item.iso_start);
       if (month) xFraction = (month - 1) / 12;
     }
-    const x = 50 + (item.year - minYear + xFraction) * pxPerYear;
+    const x = 100 + (item.year - minYear + xFraction) * pxPerYear;
 
     // Stem
     const stem = document.createElement('div');
@@ -395,7 +395,7 @@ function _renderAxisTicks(minYear, maxYear, pxPerYear) {
 
   for (let y = Math.floor(minYear / tickInterval) * tickInterval; y <= maxYear; y += tickInterval) {
     if (y < minYear) continue;
-    const x = 50 + (y - minYear) * pxPerYear;
+    const x = 100 + (y - minYear) * pxPerYear;
     const isDecade = y % 10 === 0;
     const isCentury = y % 100 === 0;
 

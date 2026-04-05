@@ -1,6 +1,70 @@
 {
-  "generated": "2026-04-02T17:02:47.626370+00:00",
+  "generated": "2026-04-05T02:14:08.720652+00:00",
   "places": {
+    "entity:place-earth": {
+      "name": "Earth",
+      "lat": 34.2331373,
+      "lng": -102.4107493,
+      "display_name": "Earth, Lamb County, Texas, United States",
+      "osm_type": "administrative",
+      "confidence": 0.4584
+    },
+    "entity:place-france": {
+      "name": "France",
+      "lat": 46.603354,
+      "lng": 1.8883335,
+      "display_name": "France",
+      "osm_type": "administrative",
+      "confidence": 0.9782
+    },
+    "entity:place-paris": {
+      "name": "Paris",
+      "lat": 48.8588897,
+      "lng": 2.320041,
+      "display_name": "Paris, Ile-de-France, Metropolitan France, France",
+      "osm_type": "administrative",
+      "confidence": 0.8971
+    },
+    "entity:place-egypt": {
+      "name": "Egypt",
+      "lat": 26.2540493,
+      "lng": 29.2675469,
+      "display_name": "Egypt",
+      "osm_type": "administrative",
+      "confidence": 0.8377
+    },
+    "entity:place-karnak": {
+      "name": "Karnak",
+      "lat": 37.2936633,
+      "lng": -88.9753462,
+      "display_name": "Karnak, Pulaski County, Illinois, United States",
+      "osm_type": "administrative",
+      "confidence": 0.4477
+    },
+    "entity:place-luxor": {
+      "name": "Luxor",
+      "lat": 25.702096,
+      "lng": 32.647186,
+      "display_name": "Luxor, 85951, Egypt",
+      "osm_type": "city",
+      "confidence": 0.5911
+    },
+    "entity:place-cairo": {
+      "name": "Cairo",
+      "lat": 30.0443879,
+      "lng": 31.2357257,
+      "display_name": "Cairo, Egypt",
+      "osm_type": "city",
+      "confidence": 0.7515
+    },
+    "entity:place-dendera": {
+      "name": "Dendera",
+      "lat": 26.1689935,
+      "lng": 32.6571134,
+      "display_name": "Dendera, New Valley, Egypt",
+      "osm_type": "town",
+      "confidence": 0.4804
+    },
     "entity:place-holland": {
       "name": "Holland",
       "lat": 52.2434979,
@@ -43,19 +107,11 @@
     },
     "entity:place-sheridan-rd": {
       "name": "Sheridan Rd",
-      "lat": 42.101425,
-      "lng": -87.7201826,
-      "display_name": "Sheridan Road, Winnetka, New Trier Township, Cook County, Illinois, 60043, United States",
-      "osm_type": "tertiary",
+      "lat": 42.2122202,
+      "lng": -87.8164821,
+      "display_name": "Sheridan Road, Fort Sheridan, Highwood, Lake County, Illinois, 60037, United States",
+      "osm_type": "secondary",
       "confidence": 0.345
-    },
-    "entity:place-egypt": {
-      "name": "Egypt",
-      "lat": 26.2540493,
-      "lng": 29.2675469,
-      "display_name": "Egypt",
-      "osm_type": "administrative",
-      "confidence": 0.8377
     },
     "entity:place-greece": {
       "name": "Greece",
@@ -417,14 +473,6 @@
       "osm_type": "administrative",
       "confidence": 0.7492
     },
-    "entity:place-paris": {
-      "name": "Paris",
-      "lat": 48.8588897,
-      "lng": 2.320041,
-      "display_name": "Paris, Ile-de-France, Metropolitan France, France",
-      "osm_type": "administrative",
-      "confidence": 0.8971
-    },
     "entity:place-peking": {
       "name": "Peking",
       "lat": 39.9057136,
@@ -467,8 +515,8 @@
     },
     "entity:place-warsaw": {
       "name": "Warsaw",
-      "lat": 52.2319581,
-      "lng": 21.0067249,
+      "lat": 52.2333742,
+      "lng": 21.0711489,
       "display_name": "Warsaw, Masovian Voivodeship, Poland",
       "osm_type": "administrative",
       "confidence": 0.7999
@@ -539,8 +587,8 @@
     },
     "entity:place-krakow": {
       "name": "Krakow",
-      "lat": 50.0619474,
-      "lng": 19.9368564,
+      "lat": 50.0469432,
+      "lng": 19.9971534,
       "display_name": "Krakow, Lesser Poland Voivodeship, Poland",
       "osm_type": "administrative",
       "confidence": 0.7537
@@ -592,14 +640,6 @@
       "display_name": "Springfield, Sangamon County, Illinois, United States",
       "osm_type": "administrative",
       "confidence": 0.6126
-    },
-    "entity:place-france": {
-      "name": "France",
-      "lat": 46.603354,
-      "lng": 1.8883335,
-      "display_name": "France",
-      "osm_type": "administrative",
-      "confidence": 0.9782
     },
     "entity:place-the-netherlands": {
       "name": "The Netherlands",
@@ -809,14 +849,6 @@
       "osm_type": "administrative",
       "confidence": 0.7613
     },
-    "entity:place-ilinois": {
-      "name": "Ilinois",
-      "lat": 40.0796606,
-      "lng": -89.4337288,
-      "display_name": "Illinois, United States",
-      "osm_type": "administrative",
-      "confidence": 0.7992
-    },
     "entity:place-basel": {
       "name": "Basel",
       "lat": 47.5581077,
@@ -971,8 +1003,8 @@
     },
     "entity:place-u-k": {
       "name": "U.K.",
-      "lat": 52.0896865,
-      "lng": 5.7629448,
+      "lat": 52.0895167,
+      "lng": 5.762849,
       "display_name": "U/K, Otterlo, Ede, Gelderland, Netherlands, 6731 SM, Netherlands",
       "osm_type": "track",
       "confidence": 0.0534
@@ -1245,7 +1277,7 @@
       "name": "the Devils Tower",
       "lat": 44.6795515,
       "lng": -104.5925256,
-      "display_name": "The Golf Club at Devils Tower, Fawn Ridge Road, Hulett, Crook County, Wyoming, 82720, United States",
+      "display_name": "The Golf Club at Devils Tower, Pine Street, Hulett, Crook County, Wyoming, 82720, United States",
       "osm_type": "golf_course",
       "confidence": 0.0
     },
@@ -1288,14 +1320,6 @@
       "display_name": "Nassau, New Providence, Bahamas",
       "osm_type": "city",
       "confidence": 0.6197
-    },
-    "entity:place-cairo": {
-      "name": "Cairo",
-      "lat": 30.0443879,
-      "lng": 31.2357257,
-      "display_name": "Cairo, Egypt",
-      "osm_type": "city",
-      "confidence": 0.7515
     },
     "entity:place-quantico": {
       "name": "Quantico",
@@ -1425,14 +1449,6 @@
       "osm_type": "administrative",
       "confidence": 0.8242
     },
-    "entity:place-luxor": {
-      "name": "Luxor",
-      "lat": 25.702096,
-      "lng": 32.647186,
-      "display_name": "Luxor, 85951, Egypt",
-      "osm_type": "city",
-      "confidence": 0.5911
-    },
     "entity:place-aswan": {
       "name": "Aswan",
       "lat": 24.091071,
@@ -1544,14 +1560,6 @@
       "display_name": "Idaho, United States",
       "osm_type": "administrative",
       "confidence": 0.7358
-    },
-    "entity:place-earth": {
-      "name": "Earth",
-      "lat": 34.2331373,
-      "lng": -102.4107493,
-      "display_name": "Earth, Lamb County, Texas, United States",
-      "osm_type": "administrative",
-      "confidence": 0.4584
     },
     "entity:place-florida": {
       "name": "Florida",
@@ -1724,11 +1732,6 @@
   },
   "failures": [
     {
-      "id": "entity:place-york-city",
-      "name": ">York City",
-      "reason": "noise_filtered"
-    },
-    {
       "id": "entity:place-consortium-replication-a-experimental-design",
       "name": "Consortium Replication \n\nA. Experimental Design",
       "reason": "noise_filtered"
@@ -1761,6 +1764,11 @@
     {
       "id": "entity:place-extraterrestrials-199-citenote-202",
       "name": "extraterrestrials.[[199]](#citenote-202",
+      "reason": "noise_filtered"
+    },
+    {
+      "id": "entity:place-the-roswell-incident-272-citenote-276",
+      "name": "the Roswell incident.[[272]](#citenote-276",
       "reason": "noise_filtered"
     },
     {
@@ -1830,8 +1838,8 @@
     }
   ],
   "stats": {
-    "total": 236,
-    "geocoded": 215,
+    "total": 237,
+    "geocoded": 216,
     "failed": 21
   }
 }

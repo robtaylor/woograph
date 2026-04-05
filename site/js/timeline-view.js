@@ -168,14 +168,11 @@ function _pxPerYear(level) {
   return Math.round(6 * Math.pow(160, level / 100));
 }
 
-/**
- * How many items to show at a given zoom level.
- * 0 → ~5% of items, 100 → 100%
- */
-function _visibleFraction(level) {
-  // Smooth curve: starts slow, accelerates
-  return 0.05 + 0.95 * Math.pow(level / 100, 1.5);
-}
+/** Max items per spatial bucket. */
+const MAX_PER_BUCKET = 3;
+
+/** Bucket width in pixels (~half a card width). */
+const BUCKET_PX = 70;
 
 /**
  * Get the preferred display label for a timeline item.
@@ -185,14 +182,59 @@ function _displayLabel(item) {
 }
 
 /**
+ * Spatially filter items: divide timeline into buckets of BUCKET_PX width,
+ * keep at most MAX_PER_BUCKET best-ranked items per bucket.
+ * This ensures even distribution — no empty gaps or overcrowded clusters.
+ */
+function _spatialFilter(items, pxPerYear, minYear) {
+  // Compute x position for each item
+  const withX = items
+    .filter(item => itemLayout.has(item.id))
+    .map(item => {
+      let xFrac = 0.5;
+      if (pxPerYear >= 40) {
+        const month = _extractMonth(item.iso_start);
+        if (month) xFrac = (month - 1) / 12;
+      }
+      const x = 50 + (item.year - minYear + xFrac) * pxPerYear;
+      return { item, x, rank: itemLayout.get(item.id).rank };
+    });
+
+  // Assign to buckets
+  const buckets = new Map();
+  for (const entry of withX) {
+    const bucketIdx = Math.floor(entry.x / BUCKET_PX);
+    if (!buckets.has(bucketIdx)) buckets.set(bucketIdx, []);
+    buckets.get(bucketIdx).push(entry);
+  }
+
+  // From each bucket, keep top MAX_PER_BUCKET by rank (lower rank = better)
+  const result = [];
+  for (const [, entries] of buckets) {
+    entries.sort((a, b) => a.rank - b.rank);
+    for (let i = 0; i < Math.min(MAX_PER_BUCKET, entries.length); i++) {
+      result.push(entries[i].item);
+    }
+  }
+
+  // Sort chronologically for rendering
+  result.sort((a, b) => {
+    if (a.year !== b.year) return a.year - b.year;
+    return (a.iso_start || '').localeCompare(b.iso_start || '');
+  });
+
+  return result;
+}
+
+/**
  * Render or re-render the timeline with current data and filters.
  */
 export function renderTimeline(filters) {
   if (filters) currentFilters = filters;
   if (!timelineData || !container || !itemLayout) return;
 
-  let items = _filterItems(timelineData.items);
-  if (items.length === 0) {
+  const allItems = _filterItems(timelineData.items);
+  if (allItems.length === 0) {
     itemsEl.innerHTML = '<div class="timeline-empty">No items match current filters</div>';
     axisEl.innerHTML = '';
     return;
@@ -207,19 +249,10 @@ export function renderTimeline(filters) {
   const scrollFraction = scrollCenter / oldWidth;
 
   const pxPerYear = _pxPerYear(zoomLevel);
+  const minYear = timelineData.spans.min_year;
 
-  // Rank-filter: only show top N items based on zoom
-  const maxVisible = Math.max(3, Math.round(items.length * _visibleFraction(zoomLevel)));
-  items = items
-    .filter(item => itemLayout.has(item.id))
-    .sort((a, b) => itemLayout.get(a.id).rank - itemLayout.get(b.id).rank)
-    .slice(0, maxVisible);
-
-  // Re-sort chronologically for rendering
-  items.sort((a, b) => {
-    if (a.year !== b.year) return a.year - b.year;
-    return (a.iso_start || '').localeCompare(b.iso_start || '');
-  });
+  // Spatial filtering: max 3 items per ~70px bucket
+  const items = _spatialFilter(allItems, pxPerYear, minYear);
 
   _render(items, pxPerYear);
 

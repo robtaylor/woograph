@@ -1,0 +1,4324 @@
+{
+  "generated": "2026-04-05T01:04:35.661587+00:00",
+  "items": [
+    {
+      "id": "entity:date-the-early-1860-s",
+      "type": "date",
+      "label": "the early 1860's",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1860",
+      "iso_end": "1863",
+      "precision": "decade",
+      "year": 1860
+    },
+    {
+      "id": "entity:date-around-1910",
+      "type": "date",
+      "label": "around 1910",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-inertial-mass-quantum-vacuum-fields"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1910",
+      "iso_end": "1910",
+      "precision": "year",
+      "year": 1910
+    },
+    {
+      "id": "entity:date-the-late-1920-s",
+      "type": "date",
+      "label": "the late 1920's",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1927",
+      "iso_end": "1929",
+      "precision": "decade",
+      "year": 1927
+    },
+    {
+      "id": "entity:date-june-1936",
+      "type": "date",
+      "label": "June, 1936",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-modular-model-mind-mater-manifestation-m5"
+      ],
+      "events": [
+        "entity:event-the-second-international-congress"
+      ],
+      "places": [],
+      "iso_start": "1936-06",
+      "iso_end": "1936-06",
+      "precision": "month",
+      "year": 1936
+    },
+    {
+      "id": "entity:date-june-4-july-10-1947",
+      "type": "date",
+      "label": "June 4 \u2013 July 10, 1947",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947",
+      "iso_end": "1947",
+      "precision": "year",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-june-1947-olmsted-2009",
+      "type": "date",
+      "label": "June 1947.\"Olmsted 2009",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947",
+      "iso_end": "1947",
+      "precision": "year",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-june-4-1947",
+      "type": "date",
+      "label": "June 4, 1947",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947-06-04",
+      "iso_end": "1947-06-04",
+      "precision": "day",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-july-8-1947",
+      "type": "date",
+      "label": "July 8, 1947",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947-07-08",
+      "iso_end": "1947-07-08",
+      "precision": "day",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-july-9-1947",
+      "type": "date",
+      "label": "July 9, 1947",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947-07-09",
+      "iso_end": "1947-07-09",
+      "precision": "day",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-september-1947",
+      "type": "date",
+      "label": "September 1947",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947-09",
+      "iso_end": "1947-09",
+      "precision": "month",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-october-1-1947",
+      "type": "date",
+      "label": "October 1, 1947",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1947-10-01",
+      "iso_end": "1947-10-01",
+      "precision": "day",
+      "year": 1947
+    },
+    {
+      "id": "entity:date-the-years-1950-to-1986",
+      "type": "date",
+      "label": "the years 1950 to 1986",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1997-wishing-good-weather-group-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1950",
+      "iso_end": "1986",
+      "precision": "range",
+      "year": 1950
+    },
+    {
+      "id": "entity:date-june-3-1952",
+      "type": "date",
+      "label": "June 3, 1952",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2003-problems-reproducibility-mind-matter-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1952-06-03",
+      "iso_end": "1952-06-03",
+      "precision": "day",
+      "year": 1952
+    },
+    {
+      "id": "entity:date-october-14-1952",
+      "type": "date",
+      "label": "October 14, 1952",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1952-10-14",
+      "iso_end": "1952-10-14",
+      "precision": "day",
+      "year": 1952
+    },
+    {
+      "id": "entity:date-october-12-1974",
+      "type": "date",
+      "label": "October 12, 1974",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1974-10-12",
+      "iso_end": "1974-10-12",
+      "precision": "day",
+      "year": 1974
+    },
+    {
+      "id": "entity:date-november-1-1974",
+      "type": "date",
+      "label": "November 1, 1974",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1974-11-01",
+      "iso_end": "1974-11-01",
+      "precision": "day",
+      "year": 1974
+    },
+    {
+      "id": "entity:date-taplinger-1975",
+      "type": "date",
+      "label": "Taplinger, 1975",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1975",
+      "iso_end": "1975",
+      "precision": "year",
+      "year": 1975
+    },
+    {
+      "id": "entity:date-the-period-1976-to-1979",
+      "type": "date",
+      "label": "the period 1976 to 1979",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1976",
+      "iso_end": "1979",
+      "precision": "range",
+      "year": 1976
+    },
+    {
+      "id": "entity:date-between-1976-and-1999",
+      "type": "date",
+      "label": "between 1976 and 1999",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-information-uncertainty-remote-perception"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1976",
+      "iso_end": "1999",
+      "precision": "range",
+      "year": 1976
+    },
+    {
+      "id": "entity:date-between-1976-and-1979",
+      "type": "date",
+      "label": "between 1976 and 1979",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-information-uncertainty-remote-perception"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1976",
+      "iso_end": "1979",
+      "precision": "range",
+      "year": 1976
+    },
+    {
+      "id": "entity:date-january-1976",
+      "type": "date",
+      "label": "January 1976",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1976-01",
+      "iso_end": "1976-01",
+      "precision": "month",
+      "year": 1976
+    },
+    {
+      "id": "entity:date-the-spring-of-1976",
+      "type": "date",
+      "label": "the spring of 1976",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1979-precognitive-remote-viewing-stanford"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1976-03",
+      "iso_end": "1976-05",
+      "precision": "season",
+      "year": 1976
+    },
+    {
+      "id": "entity:date-august-21-1976",
+      "type": "date",
+      "label": "August 21, 1976",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1979-precognitive-remote-viewing-stanford"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1976-08-21",
+      "iso_end": "1976-08-21",
+      "precision": "day",
+      "year": 1976
+    },
+    {
+      "id": "entity:date-june-sept-1977",
+      "type": "date",
+      "label": "June-Sept. 1977",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1977",
+      "iso_end": "1977",
+      "precision": "year",
+      "year": 1977
+    },
+    {
+      "id": "entity:date-september-19-21-1977",
+      "type": "date",
+      "label": "September 19\u201321, 1977",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-endophysical-models-empirical-data",
+        "source:pear-2005-pear-proposition"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1977",
+      "iso_end": "1977",
+      "precision": "year",
+      "year": 1977
+    },
+    {
+      "id": "entity:date-the-period-1977-79",
+      "type": "date",
+      "label": "the period 1977\u201379",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-pear-proposition"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1977",
+      "iso_end": "1977",
+      "precision": "year",
+      "year": 1977
+    },
+    {
+      "id": "entity:date-july-1977",
+      "type": "date",
+      "label": "July 1977",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1977-07",
+      "iso_end": "1977-07",
+      "precision": "month",
+      "year": 1977
+    },
+    {
+      "id": "entity:date-parapsychology-1978",
+      "type": "date",
+      "label": "Parapsychology 1978",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1978",
+      "iso_end": "1978",
+      "precision": "year",
+      "year": 1978
+    },
+    {
+      "id": "entity:date-persinger-1979",
+      "type": "date",
+      "label": "Persinger, 1979",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1987-engineering-anomalies-research"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1979",
+      "iso_end": "1979",
+      "precision": "year",
+      "year": 1979
+    },
+    {
+      "id": "entity:date-between-1979-and-1993",
+      "type": "date",
+      "label": "between 1979 and 1993",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-gender-differences-human-machine"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-jersey"
+      ],
+      "iso_start": "1979",
+      "iso_end": "1993",
+      "precision": "range",
+      "year": 1979
+    },
+    {
+      "id": "source:pear-1979-precognitive-remote-viewing-stanford",
+      "type": "source",
+      "label": "PEAR: 1979 Precognitive Remote Viewing Stanford",
+      "iso_start": "1979",
+      "iso_end": "1979",
+      "precision": "year",
+      "year": 1979,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1979-precognitive-remote-viewing-stanford"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-holland",
+        "entity:place-chicago",
+        "entity:place-franklin-park",
+        "entity:place-illinois",
+        "entity:place-the-adler-planetarium",
+        "entity:place-the-playboy-building",
+        "entity:place-new-york",
+        "entity:place-sheridan-rd"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1979 Precognitive Remote Viewing Stanford"
+    },
+    {
+      "id": "entity:date-may-1979",
+      "type": "date",
+      "label": "May 1979",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1979-05",
+      "iso_end": "1979-05",
+      "precision": "month",
+      "year": 1979
+    },
+    {
+      "id": "entity:date-june-1979",
+      "type": "date",
+      "label": "June 1979",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-pear-proposition"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1979-06",
+      "iso_end": "1979-06",
+      "precision": "month",
+      "year": 1979
+    },
+    {
+      "id": "entity:date-december-19-1979",
+      "type": "date",
+      "label": "December 19, 1979",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1979-12-19",
+      "iso_end": "1979-12-19",
+      "precision": "day",
+      "year": 1979
+    },
+    {
+      "id": "entity:date-3-september-1980",
+      "type": "date",
+      "label": "3, September 1980",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1980",
+      "iso_end": "1980",
+      "precision": "year",
+      "year": 1980
+    },
+    {
+      "id": "entity:date-february-26-1980",
+      "type": "date",
+      "label": "February 26, 1980",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1980-02-26",
+      "iso_end": "1980-02-26",
+      "precision": "day",
+      "year": 1980
+    },
+    {
+      "id": "entity:date-september-20-1980",
+      "type": "date",
+      "label": "September 20, 1980",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1980-09-20",
+      "iso_end": "1980-09-20",
+      "precision": "day",
+      "year": 1980
+    },
+    {
+      "id": "entity:date-october-1980",
+      "type": "date",
+      "label": "October 1980",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1980-10",
+      "iso_end": "1980-10",
+      "precision": "month",
+      "year": 1980
+    },
+    {
+      "id": "entity:date-gruber-1981",
+      "type": "date",
+      "label": "Gruber, 1981",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-response-hansen-utts-markwick"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1981",
+      "iso_end": "1981",
+      "precision": "year",
+      "year": 1981
+    },
+    {
+      "id": "entity:date-june-1981",
+      "type": "date",
+      "label": "June 1981",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1981-06",
+      "iso_end": "1981-06",
+      "precision": "month",
+      "year": 1981
+    },
+    {
+      "id": "entity:date-jahn-1982",
+      "type": "date",
+      "label": "Jahn 1982",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1982",
+      "iso_end": "1982",
+      "precision": "year",
+      "year": 1982
+    },
+    {
+      "id": "entity:date-good-1982",
+      "type": "date",
+      "label": "Good 1982",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1982",
+      "iso_end": "1982",
+      "precision": "year",
+      "year": 1982
+    },
+    {
+      "id": "source:pear-1982-persistant-paradox-psychic-phenomena",
+      "type": "source",
+      "label": "PEAR: 1982 Persistant Paradox Psychic Phenomena",
+      "iso_start": "1982",
+      "iso_end": "1982",
+      "precision": "year",
+      "year": 1982,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1982-persistant-paradox-psychic-phenomena"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-illinois",
+        "entity:place-new-york",
+        "entity:place-egypt",
+        "entity:place-greece",
+        "entity:place-rome",
+        "entity:place-england",
+        "entity:place-the-white-house",
+        "entity:place-london",
+        "entity:place-boston",
+        "entity:place-western-europe",
+        "entity:place-the-united-states",
+        "entity:place-eastern-bloc",
+        "entity:place-helena",
+        "entity:place-bratislava",
+        "entity:place-czechoslovakia",
+        "entity:place-europe",
+        "entity:place-wisconsin",
+        "entity:place-secaucus",
+        "entity:place-colorado",
+        "entity:place-columbia",
+        "entity:place-delaware",
+        "entity:place-denver",
+        "entity:place-michigan",
+        "entity:place-missouri",
+        "entity:place-north-carolina",
+        "entity:place-oakland",
+        "entity:place-pittsburgh",
+        "entity:place-st-john-s",
+        "entity:place-st-joseph-s",
+        "entity:place-south-west-minnesota",
+        "entity:place-syracuse",
+        "entity:place-berkeley",
+        "entity:place-irvine",
+        "entity:place-santa-barbara",
+        "entity:place-virginia",
+        "entity:place-west-florida",
+        "entity:place-west-georgia",
+        "entity:place-andhra",
+        "entity:place-argentina",
+        "entity:place-benares",
+        "entity:place-bonn",
+        "entity:place-cambridge",
+        "entity:place-chile",
+        "entity:place-ghana",
+        "entity:place-iceland",
+        "entity:place-leningrad",
+        "entity:place-leyden",
+        "entity:place-new-south-wales",
+        "entity:place-paris",
+        "entity:place-peking",
+        "entity:place-south-africa",
+        "entity:place-tasmania",
+        "entity:place-tel-aviv",
+        "entity:place-utrecht",
+        "entity:place-warsaw",
+        "entity:place-zurich",
+        "entity:place-aberdeen",
+        "entity:place-san-francisco",
+        "entity:place-topeka",
+        "entity:place-san-antonio",
+        "entity:place-menlo-park",
+        "entity:place-west-berlin",
+        "entity:place-japan",
+        "entity:place-krakow",
+        "entity:place-arlington",
+        "entity:place-moscow",
+        "entity:place-ussr",
+        "entity:place-california",
+        "entity:place-the-soviet-union",
+        "entity:place-springfield",
+        "entity:place-france",
+        "entity:place-the-netherlands",
+        "entity:place-phoenix",
+        "entity:place-geneva",
+        "entity:place-switzerland",
+        "entity:place-cordoba",
+        "entity:place-spain",
+        "entity:place-pearisburg",
+        "entity:place-philadelphia",
+        "entity:place-salt-lake-city",
+        "entity:place-los-angeles",
+        "entity:place-elmsford"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1982 Persistant Paradox Psychic Phenomena"
+    },
+    {
+      "id": "entity:date-july-1982",
+      "type": "date",
+      "label": "July 1982",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1982-07",
+      "iso_end": "1982-07",
+      "precision": "month",
+      "year": 1982
+    },
+    {
+      "id": "entity:date-november-30-december-1-1983",
+      "type": "date",
+      "label": "November 30-December 1, 1983",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1983",
+      "iso_end": "1983",
+      "precision": "year",
+      "year": 1983
+    },
+    {
+      "id": "entity:date-july-1983",
+      "type": "date",
+      "label": "July 1983",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1983-07",
+      "iso_end": "1983-07",
+      "precision": "month",
+      "year": 1983
+    },
+    {
+      "id": "entity:date-october-1983",
+      "type": "date",
+      "label": "October, 1983",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1988-operator-related-anomalies-rmc"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1983-10",
+      "iso_end": "1983-10",
+      "precision": "month",
+      "year": 1983
+    },
+    {
+      "id": "entity:date-november-1983",
+      "type": "date",
+      "label": "November 1983",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1986-quantum-mechanics-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1983-11",
+      "iso_end": "1983-11",
+      "precision": "month",
+      "year": 1983
+    },
+    {
+      "id": "entity:date-jahn-1984",
+      "type": "date",
+      "label": "Jahn 1984",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1984",
+      "iso_end": "1984",
+      "precision": "year",
+      "year": 1984
+    },
+    {
+      "id": "entity:date-may-1984",
+      "type": "date",
+      "label": "May 1984",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1984-05",
+      "iso_end": "1984-05",
+      "precision": "month",
+      "year": 1984
+    },
+    {
+      "id": "entity:date-october-1984",
+      "type": "date",
+      "label": "October 1984",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-experiments-remote-human-machine"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1984-10",
+      "iso_end": "1984-10",
+      "precision": "month",
+      "year": 1984
+    },
+    {
+      "id": "entity:date-december-11-1984",
+      "type": "date",
+      "label": "December 11, 1984",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1984-12-11",
+      "iso_end": "1984-12-11",
+      "precision": "day",
+      "year": 1984
+    },
+    {
+      "id": "entity:date-april-16-1985",
+      "type": "date",
+      "label": "April 16, 1985",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1986-quantum-mechanics-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1985-04-16",
+      "iso_end": "1985-04-16",
+      "precision": "day",
+      "year": 1985
+    },
+    {
+      "id": "entity:date-august-1985",
+      "type": "date",
+      "label": "August 1985",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1986-quantum-mechanics-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1985-08",
+      "iso_end": "1985-08",
+      "precision": "month",
+      "year": 1985
+    },
+    {
+      "id": "entity:date-october-29-1985",
+      "type": "date",
+      "label": "October 29, 1985",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1986-quantum-mechanics-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1985-10-29",
+      "iso_end": "1985-10-29",
+      "precision": "day",
+      "year": 1985
+    },
+    {
+      "id": "entity:date-16-august-1986",
+      "type": "date",
+      "label": "16, August 1986",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1986",
+      "iso_end": "1986",
+      "precision": "year",
+      "year": 1986
+    },
+    {
+      "id": "source:pear-1986-quantum-mechanics-consciousness",
+      "type": "source",
+      "label": "PEAR: 1986 Quantum Mechanics Consciousness",
+      "iso_start": "1986",
+      "iso_end": "1986",
+      "precision": "year",
+      "year": 1986,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1986-quantum-mechanics-consciousness"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-illinois",
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-wisconsin",
+        "entity:place-colorado",
+        "entity:place-berkeley",
+        "entity:place-cambridge",
+        "entity:place-los-angeles",
+        "entity:place-new-jersey",
+        "entity:place-medford",
+        "entity:place-massachusetts",
+        "entity:place-amherst",
+        "entity:place-dover",
+        "entity:place-menasha",
+        "entity:place-scarborough",
+        "entity:place-ontario",
+        "entity:place-garden-city"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1986 Quantum Mechanics Consciousness"
+    },
+    {
+      "id": "entity:date-jahn-1987",
+      "type": "date",
+      "label": "Jahn 1987",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1987",
+      "iso_end": "1987",
+      "precision": "year",
+      "year": 1987
+    },
+    {
+      "id": "source:pear-1987-engineering-anomalies-research",
+      "type": "source",
+      "label": "PEAR: 1987 Engineering Anomalies Research",
+      "iso_start": "1987",
+      "iso_end": "1987",
+      "precision": "year",
+      "year": 1987,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1987-engineering-anomalies-research"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-illinois",
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-iceland",
+        "entity:place-moscow",
+        "entity:place-medford",
+        "entity:place-glencoe",
+        "entity:place-scotland",
+        "entity:place-york-city",
+        "entity:place-u-s-s-r",
+        "entity:place-san-diego",
+        "entity:place-the-parascience-conference-london"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1987 Engineering Anomalies Research"
+    },
+    {
+      "id": "entity:date-october-1987",
+      "type": "date",
+      "label": "october 1987",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1987-10",
+      "iso_end": "1987-10",
+      "precision": "month",
+      "year": 1987
+    },
+    {
+      "id": "entity:date-november-1987",
+      "type": "date",
+      "label": "November 1987",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-experiments-remote-human-machine"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1987-11",
+      "iso_end": "1987-11",
+      "precision": "month",
+      "year": 1987
+    },
+    {
+      "id": "source:pear-1988-operator-related-anomalies-rmc",
+      "type": "source",
+      "label": "PEAR: 1988 Operator Related Anomalies Rmc",
+      "iso_start": "1988",
+      "iso_end": "1988",
+      "precision": "year",
+      "year": 1988,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1988-operator-related-anomalies-rmc"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-san-diego"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1988 Operator Related Anomalies Rmc"
+    },
+    {
+      "id": "source:pear-1989-anomalies-aesthetics",
+      "type": "source",
+      "label": "PEAR: 1989 Anomalies Aesthetics",
+      "iso_start": "1989",
+      "iso_end": "1989",
+      "precision": "year",
+      "year": 1989,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-anomalies-aesthetics"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-boston",
+        "entity:place-san-diego",
+        "entity:place-toronto"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1989 Anomalies Aesthetics"
+    },
+    {
+      "id": "source:pear-1989-precognitive-remote-perception-iii",
+      "type": "source",
+      "label": "PEAR: 1989 Precognitive Remote Perception Iii",
+      "iso_start": "1989",
+      "iso_end": "1989",
+      "precision": "year",
+      "year": 1989,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-europe",
+        "entity:place-san-diego",
+        "entity:place-iowa"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1989 Precognitive Remote Perception Iii"
+    },
+    {
+      "id": "entity:date-august-1989",
+      "type": "date",
+      "label": "August 1989",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1989-precognitive-remote-perception-iii"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1989-08",
+      "iso_end": "1989-08",
+      "precision": "month",
+      "year": 1989
+    },
+    {
+      "id": "entity:date-august-5-1989",
+      "type": "date",
+      "label": "August 5, 1989",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1989-08-05",
+      "iso_end": "1989-08-05",
+      "precision": "day",
+      "year": 1989
+    },
+    {
+      "id": "entity:date-september-20-1989",
+      "type": "date",
+      "label": "September 20, 1989",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1989-09-20",
+      "iso_end": "1989-09-20",
+      "precision": "day",
+      "year": 1989
+    },
+    {
+      "id": "entity:date-jeffreys-1990",
+      "type": "date",
+      "label": "Jeffreys 1990",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990",
+      "iso_end": "1990",
+      "precision": "year",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-lindsey-1990",
+      "type": "date",
+      "label": "Lindsey 1990",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990",
+      "iso_end": "1990",
+      "precision": "year",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-feb-14-and-june-5-1990",
+      "type": "date",
+      "label": "Feb. 14 and June 5, 1990",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-response-hansen-utts-markwick"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990",
+      "iso_end": "1990",
+      "precision": "year",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-between-1978-and-the-early-1990s",
+      "type": "date",
+      "label": "Between 1978 and the early 1990s",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990",
+      "iso_end": "1993",
+      "precision": "decade",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-march-1990",
+      "type": "date",
+      "label": "March 1990",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990-03",
+      "iso_end": "1990-03",
+      "precision": "month",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-april-2-1990",
+      "type": "date",
+      "label": "April 2, 1990",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-response-hansen-utts-markwick"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990-04-02",
+      "iso_end": "1990-04-02",
+      "precision": "day",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-november-8-10-1991",
+      "type": "date",
+      "label": "November 8 - 10, 1991",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1991-complementarity-of-consciousness",
+        "source:pear-2005-pear-proposition"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1991",
+      "iso_end": "1991",
+      "precision": "year",
+      "year": 1991
+    },
+    {
+      "id": "source:pear-1991-complementarity-of-consciousness",
+      "type": "source",
+      "label": "PEAR: 1991 Complementarity Of Consciousness",
+      "iso_start": "1991",
+      "iso_end": "1991",
+      "precision": "year",
+      "year": 1991,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1991-complementarity-of-consciousness"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-secaucus"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1991 Complementarity Of Consciousness"
+    },
+    {
+      "id": "source:pear-1991-count-population-profiles",
+      "type": "source",
+      "label": "PEAR: 1991 Count Population Profiles",
+      "iso_start": "1991",
+      "iso_end": "1991",
+      "precision": "year",
+      "year": 1991,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1991-count-population-profiles"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-san-diego",
+        "entity:place-ilinois"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1991 Count Population Profiles"
+    },
+    {
+      "id": "entity:date-january-1991",
+      "type": "date",
+      "label": "January, 1991",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-experiments-remote-human-machine"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1991-01",
+      "iso_end": "1991-01",
+      "precision": "month",
+      "year": 1991
+    },
+    {
+      "id": "entity:date-october-27-1991",
+      "type": "date",
+      "label": "October 27, 1991",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1991-10-27",
+      "iso_end": "1991-10-27",
+      "precision": "day",
+      "year": 1991
+    },
+    {
+      "id": "entity:date-december-1991",
+      "type": "date",
+      "label": "December 1991",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1991-complementarity-of-consciousness",
+        "source:pear-1998-gender-differences-human-machine",
+        "source:pear-2005-consciousness-information-living-systems",
+        "source:pear-2006-johrei"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1991-12",
+      "iso_end": "1991-12",
+      "precision": "month",
+      "year": 1991
+    },
+    {
+      "id": "source:pear-1992-bayesian-analysis-reg-data",
+      "type": "source",
+      "label": "PEAR: 1992 Bayesian Analysis Reg Data",
+      "iso_start": "1992",
+      "iso_end": "1992",
+      "precision": "year",
+      "year": 1992,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-boston",
+        "entity:place-santa-barbara",
+        "entity:place-new-jersey",
+        "entity:place-san-diego",
+        "entity:place-basel",
+        "entity:place-leesburg",
+        "entity:place-alexandria",
+        "entity:place-newbury-park",
+        "entity:place-new-delhi"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1992 Bayesian Analysis Reg Data"
+    },
+    {
+      "id": "source:pear-1992-experiments-remote-human-machine",
+      "type": "source",
+      "label": "PEAR: 1992 Experiments Remote Human Machine",
+      "iso_start": "1992",
+      "iso_end": "1992",
+      "precision": "year",
+      "year": 1992,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-experiments-remote-human-machine"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-england",
+        "entity:place-kenya",
+        "entity:place-india",
+        "entity:place-new-zealand",
+        "entity:place-hawaii",
+        "entity:place-brazil",
+        "entity:place-russia",
+        "entity:place-hungary",
+        "entity:place-germany",
+        "entity:place-canada"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1992 Experiments Remote Human Machine"
+    },
+    {
+      "id": "source:pear-1992-response-hansen-utts-markwick",
+      "type": "source",
+      "label": "PEAR: 1992 Response Hansen Utts Markwick",
+      "iso_start": "1992",
+      "iso_end": "1992",
+      "precision": "year",
+      "year": 1992,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-response-hansen-utts-markwick"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york",
+        "entity:place-san-diego"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1992 Response Hansen Utts Markwick"
+    },
+    {
+      "id": "entity:date-june-1992",
+      "type": "date",
+      "label": "June, 1992",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1994-linear-pendulum-damping-rate"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1992-06",
+      "iso_end": "1992-06",
+      "precision": "month",
+      "year": 1992
+    },
+    {
+      "id": "entity:date-april-1993",
+      "type": "date",
+      "label": "April, 1993",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1993-04",
+      "iso_end": "1993-04",
+      "precision": "month",
+      "year": 1993
+    },
+    {
+      "id": "entity:date-december-1993",
+      "type": "date",
+      "label": "December, 1993",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1993-12",
+      "iso_end": "1993-12",
+      "precision": "month",
+      "year": 1993
+    },
+    {
+      "id": "entity:date-hays-1994",
+      "type": "date",
+      "label": "Hays, 1994",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-double-slit-consciousness-experiment"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994",
+      "iso_end": "1994",
+      "precision": "year",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-lucadou-1994",
+      "type": "date",
+      "label": "Lucadou, 1994",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2003-problems-reproducibility-mind-matter-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994",
+      "iso_end": "1994",
+      "precision": "year",
+      "year": 1994
+    },
+    {
+      "id": "source:pear-1994-linear-pendulum-damping-rate",
+      "type": "source",
+      "label": "PEAR: 1994 Linear Pendulum Damping Rate",
+      "iso_start": "1994",
+      "iso_end": "1994",
+      "precision": "year",
+      "year": 1994,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1994-linear-pendulum-damping-rate"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1994 Linear Pendulum Damping Rate"
+    },
+    {
+      "id": "source:pear-1994-series-position-effects-1",
+      "type": "source",
+      "label": "PEAR: 1994 Series Position Effects 1",
+      "iso_start": "1994",
+      "iso_end": "1994",
+      "precision": "year",
+      "year": 1994,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1994-series-position-effects-1"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-england",
+        "entity:place-london",
+        "entity:place-san-diego"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1994 Series Position Effects 1"
+    },
+    {
+      "id": "entity:date-march-1994",
+      "type": "date",
+      "label": "March 1994",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994-03",
+      "iso_end": "1994-03",
+      "precision": "month",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-june-1994",
+      "type": "date",
+      "label": "June, 1994",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994-06",
+      "iso_end": "1994-06",
+      "precision": "month",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-june-and-july-1994",
+      "type": "date",
+      "label": "June and July, 1994",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994-06",
+      "iso_end": "1994-07",
+      "precision": "month",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-july-1994",
+      "type": "date",
+      "label": "July 1994",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994-07",
+      "iso_end": "1994-07",
+      "precision": "month",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-september-18-1994",
+      "type": "date",
+      "label": "September 18, 1994",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994-09-18",
+      "iso_end": "1994-09-18",
+      "precision": "day",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-december-1994",
+      "type": "date",
+      "label": "December, 1994",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994-12",
+      "iso_end": "1994-12",
+      "precision": "month",
+      "year": 1994
+    },
+    {
+      "id": "entity:date-tetens-1995",
+      "type": "date",
+      "label": "Tetens, 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2003-problems-reproducibility-mind-matter-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995",
+      "iso_end": "1995",
+      "precision": "year",
+      "year": 1995
+    },
+    {
+      "id": "entity:date-late-1995",
+      "type": "date",
+      "label": "late 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2004-megareg-replication-interpretation"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995",
+      "iso_end": "1995",
+      "precision": "year",
+      "year": 1995
+    },
+    {
+      "id": "source:pear-1995-acoustical-resonances-ancient-structures-1",
+      "type": "source",
+      "label": "PEAR: 1995 Acoustical Resonances Ancient Structures 1",
+      "iso_start": "1995",
+      "iso_end": "1995",
+      "precision": "year",
+      "year": 1995,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1995-acoustical-resonances-ancient-structures-1"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-jersey",
+        "entity:place-dover",
+        "entity:place-united-kingdom",
+        "entity:place-penzance",
+        "entity:place-the-u-s-southwest",
+        "entity:place-the-united-kingdom",
+        "entity:place-wayland",
+        "entity:place-u-k",
+        "entity:place-cornwall",
+        "entity:place-ireland",
+        "entity:place-newgrange",
+        "entity:place-smithy-berkshire",
+        "entity:place-west-chambers",
+        "entity:place-the-west-chamber",
+        "entity:place-loughcrew",
+        "entity:place-loughcrew-hills",
+        "entity:place-louchcrew",
+        "entity:place-county-meath",
+        "entity:place-the-boyne-river",
+        "entity:place-loughcrew-i",
+        "entity:place-carn-euny",
+        "entity:place-loughcrew-l-composite",
+        "entity:place-dublin"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1995 Acoustical Resonances Ancient Structures 1"
+    },
+    {
+      "id": "source:pear-1995-consciousness-anomalous-physical-phenomena",
+      "type": "source",
+      "label": "PEAR: 1995 Consciousness Anomalous Physical Phenomena",
+      "iso_start": "1995",
+      "iso_end": "1995",
+      "precision": "year",
+      "year": 1995,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1995-consciousness-anomalous-physical-phenomena"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-boston",
+        "entity:place-san-diego"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1995 Consciousness Anomalous Physical Phenomena"
+    },
+    {
+      "id": "entity:date-january-1995",
+      "type": "date",
+      "label": "January, 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995-01",
+      "iso_end": "1995-01",
+      "precision": "month",
+      "year": 1995
+    },
+    {
+      "id": "entity:date-march-1995",
+      "type": "date",
+      "label": "March 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1995-acoustical-resonances-ancient-structures-1"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995-03",
+      "iso_end": "1995-03",
+      "precision": "month",
+      "year": 1995
+    },
+    {
+      "id": "entity:date-april-1995",
+      "type": "date",
+      "label": "April, 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995-04",
+      "iso_end": "1995-04",
+      "precision": "month",
+      "year": 1995
+    },
+    {
+      "id": "entity:date-may-1995",
+      "type": "date",
+      "label": "May 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1995-consciousness-anomalous-physical-phenomena"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995-05",
+      "iso_end": "1995-05",
+      "precision": "month",
+      "year": 1995
+    },
+    {
+      "id": "entity:date-november-1995",
+      "type": "date",
+      "label": "November, 1995",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-fieldreg-ii-consciousness-field-effects"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1995-11",
+      "iso_end": "1995-11",
+      "precision": "month",
+      "year": 1995
+    },
+    {
+      "id": "entity:date-wednesday-may-22-1996",
+      "type": "date",
+      "label": "Wednesday, May 22, 1996",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1997-wishing-good-weather-group-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-jeffers-1996",
+      "type": "date",
+      "label": "Jeffers, 1996",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-double-slit-consciousness-experiment"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-bierman-1996",
+      "type": "date",
+      "label": "Bierman, 1996",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-fieldreg-ii-consciousness-field-effects"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996
+    },
+    {
+      "id": "source:pear-1996-fieldreg-anomalies-group-situations",
+      "type": "source",
+      "label": "PEAR: 1996 Fieldreg Anomalies Group Situations",
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-fieldreg-anomalies-group-situations"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-illinois",
+        "entity:place-new-york",
+        "entity:place-boston",
+        "entity:place-los-angeles",
+        "entity:place-glencoe",
+        "entity:place-iowa",
+        "entity:place-newbury-park",
+        "entity:place-india",
+        "entity:place-texas",
+        "entity:place-huntington-beach"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1996 Fieldreg Anomalies Group Situations"
+    },
+    {
+      "id": "source:pear-1996-information-consciousness-health",
+      "type": "source",
+      "label": "PEAR: 1996 Information Consciousness Health",
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-information-consciousness-health"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1996 Information Consciousness Health"
+    },
+    {
+      "id": "source:pear-1996-precognitive-remote-perception-replication",
+      "type": "source",
+      "label": "PEAR: 1996 Precognitive Remote Perception Replication",
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-precognitive-remote-perception-replication"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1996 Precognitive Remote Perception Replication"
+    },
+    {
+      "id": "source:pear-1996-selection-versus-influence-revisited",
+      "type": "source",
+      "label": "PEAR: 1996 Selection Versus Influence Revisited",
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-selection-versus-influence-revisited"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1996 Selection Versus Influence Revisited"
+    },
+    {
+      "id": "entity:date-may-1996",
+      "type": "date",
+      "label": "MAY 1996",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1996-information-consciousness-health"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996-05",
+      "iso_end": "1996-05",
+      "precision": "month",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-august-1996",
+      "type": "date",
+      "label": "August 1996",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2004-megareg-replication-interpretation"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996-08",
+      "iso_end": "1996-08",
+      "precision": "month",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-2-august-1996",
+      "type": "date",
+      "label": "2 August 1996",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2004-megareg-replication-interpretation"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996-08-02",
+      "iso_end": "1996-08-02",
+      "precision": "day",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-september-27-29-1997",
+      "type": "date",
+      "label": "September 27\u201329, 1997",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1997-science-subjective"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997",
+      "iso_end": "1997",
+      "precision": "year",
+      "year": 1997
+    },
+    {
+      "id": "entity:date-98001-february-1997",
+      "type": "date",
+      "label": "98001 February, 1997",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-khufu.pit-.scan-"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997",
+      "iso_end": "1997",
+      "precision": "year",
+      "year": 1997
+    },
+    {
+      "id": "source:pear-1997-correlations-random-binary-sequences-12-year-review",
+      "type": "source",
+      "label": "PEAR: 1997 Correlations Random Binary Sequences 12 Year Review",
+      "iso_start": "1997",
+      "iso_end": "1997",
+      "precision": "year",
+      "year": 1997,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1997-correlations-random-binary-sequences-12-year-review"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-cambridge",
+        "entity:place-geneva",
+        "entity:place-switzerland",
+        "entity:place-menasha",
+        "entity:place-san-diego",
+        "entity:place-jordan",
+        "entity:place-beverly-hills",
+        "entity:place-washington",
+        "entity:place-tucson"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1997 Correlations Random Binary Sequences 12 Year Review"
+    },
+    {
+      "id": "source:pear-1997-science-subjective",
+      "type": "source",
+      "label": "PEAR: 1997 Science Subjective",
+      "iso_start": "1997",
+      "iso_end": "1997",
+      "precision": "year",
+      "year": 1997,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1997-science-subjective"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-secaucus",
+        "entity:place-san-diego",
+        "entity:place-toronto",
+        "entity:place-the-john-m-clayton-hall",
+        "entity:place-indianapolis"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1997 Science Subjective"
+    },
+    {
+      "id": "source:pear-1997-wishing-good-weather-group-consciousness",
+      "type": "source",
+      "label": "PEAR: 1997 Wishing Good Weather Group Consciousness",
+      "iso_start": "1997",
+      "iso_end": "1997",
+      "precision": "year",
+      "year": 1997,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1997-wishing-good-weather-group-consciousness"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-north-carolina",
+        "entity:place-california",
+        "entity:place-new-jersey",
+        "entity:place-nassau-hall",
+        "entity:place-new-brunswick",
+        "entity:place-trenton",
+        "entity:place-rosebow",
+        "entity:place-pasadena",
+        "entity:place-asheville",
+        "entity:place-moorestown",
+        "entity:place-indian-mills",
+        "entity:place-boonton"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1997 Wishing Good Weather Group Consciousness"
+    },
+    {
+      "id": "entity:date-january-1997",
+      "type": "date",
+      "label": "January, 1997",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-fieldreg-ii-consciousness-field-effects",
+        "source:pear-khufu.pit-.scan-"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997-01",
+      "iso_end": "1997-01",
+      "precision": "month",
+      "year": 1997
+    },
+    {
+      "id": "entity:date-march-30-1997",
+      "type": "date",
+      "label": "March 30, 1997",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997-03-30",
+      "iso_end": "1997-03-30",
+      "precision": "day",
+      "year": 1997
+    },
+    {
+      "id": "entity:date-june-1997",
+      "type": "date",
+      "label": "June, 1997",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-fieldreg-ii-consciousness-field-effects"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997-06",
+      "iso_end": "1997-06",
+      "precision": "month",
+      "year": 1997
+    },
+    {
+      "id": "entity:date-june-6-1997",
+      "type": "date",
+      "label": "June 6, 1997",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997-06-06",
+      "iso_end": "1997-06-06",
+      "precision": "day",
+      "year": 1997
+    },
+    {
+      "id": "entity:date-july-1997",
+      "type": "date",
+      "label": "July 1997",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1997-07",
+      "iso_end": "1997-07",
+      "precision": "month",
+      "year": 1997
+    },
+    {
+      "id": "entity:date-may-through-june-1998",
+      "type": "date",
+      "label": "May through June 1998",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2000-mmi-consortium-portreg-replication"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1998",
+      "iso_end": "1998",
+      "precision": "year",
+      "year": 1998
+    },
+    {
+      "id": "source:pear-1998-double-slit-consciousness-experiment",
+      "type": "source",
+      "label": "PEAR: 1998 Double Slit Consciousness Experiment",
+      "iso_start": "1998",
+      "iso_end": "1998",
+      "precision": "year",
+      "year": 1998,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-double-slit-consciousness-experiment"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-ontario",
+        "entity:place-canada",
+        "entity:place-tucson",
+        "entity:place-austin",
+        "entity:place-italy",
+        "entity:place-arizona",
+        "entity:place-orlando"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1998 Double Slit Consciousness Experiment"
+    },
+    {
+      "id": "source:pear-1998-fieldreg-ii-consciousness-field-effects",
+      "type": "source",
+      "label": "PEAR: 1998 Fieldreg Ii Consciousness Field Effects",
+      "iso_start": "1998",
+      "iso_end": "1998",
+      "precision": "year",
+      "year": 1998,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-fieldreg-ii-consciousness-field-effects"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-illinois",
+        "entity:place-new-york",
+        "entity:place-egypt",
+        "entity:place-boston",
+        "entity:place-the-united-states",
+        "entity:place-europe",
+        "entity:place-san-francisco",
+        "entity:place-switzerland",
+        "entity:place-los-angeles",
+        "entity:place-glencoe",
+        "entity:place-basel",
+        "entity:place-india",
+        "entity:place-germany",
+        "entity:place-texas",
+        "entity:place-wyoming",
+        "entity:place-the-devils-tower",
+        "entity:place-south-dakota",
+        "entity:place-marfa",
+        "entity:place-devils-tower",
+        "entity:place-new-york-city",
+        "entity:place-nassau",
+        "entity:place-cairo"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1998 Fieldreg Ii Consciousness Field Effects"
+    },
+    {
+      "id": "source:pear-1998-gender-differences-human-machine",
+      "type": "source",
+      "label": "PEAR: 1998 Gender Differences Human Machine",
+      "iso_start": "1998",
+      "iso_end": "1998",
+      "precision": "year",
+      "year": 1998,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-gender-differences-human-machine"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-san-diego",
+        "entity:place-beverly-hills"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1998 Gender Differences Human Machine"
+    },
+    {
+      "id": "source:pear-1998-information-uncertainty-remote-perception",
+      "type": "source",
+      "label": "PEAR: 1998 Information Uncertainty Remote Perception",
+      "iso_start": "1998",
+      "iso_end": "1998",
+      "precision": "year",
+      "year": 1998,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-information-uncertainty-remote-perception"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york",
+        "entity:place-greece",
+        "entity:place-san-diego",
+        "entity:place-quantico"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1998 Information Uncertainty Remote Perception"
+    },
+    {
+      "id": "entity:date-january-1998",
+      "type": "date",
+      "label": "January 1998",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1998-01",
+      "iso_end": "1998-01",
+      "precision": "month",
+      "year": 1998
+    },
+    {
+      "id": "entity:date-today-nov-1999",
+      "type": "date",
+      "label": "Today, Nov. 1999",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-inertial-mass-quantum-vacuum-fields"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1999",
+      "iso_end": "1999",
+      "precision": "year",
+      "year": 1999
+    },
+    {
+      "id": "source:pear-1999-physical-basis-intentional-healing",
+      "type": "source",
+      "label": "PEAR: 1999 Physical Basis Intentional Healing",
+      "iso_start": "1999",
+      "iso_end": "1999",
+      "precision": "year",
+      "year": 1999,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1999-physical-basis-intentional-healing"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-bratislava",
+        "entity:place-czechoslovakia",
+        "entity:place-wisconsin",
+        "entity:place-san-francisco",
+        "entity:place-scotland",
+        "entity:place-washington"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 1999 Physical Basis Intentional Healing"
+    },
+    {
+      "id": "entity:date-january-1999",
+      "type": "date",
+      "label": "January 1999",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1999-physical-basis-intentional-healing"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1999-01",
+      "iso_end": "1999-01",
+      "precision": "month",
+      "year": 1999
+    },
+    {
+      "id": "entity:date-february-1999",
+      "type": "date",
+      "label": "February 1999",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2003-problems-reproducibility-mind-matter-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1999-02",
+      "iso_end": "1999-02",
+      "precision": "month",
+      "year": 1999
+    },
+    {
+      "id": "entity:date-11-and-jan-2000",
+      "type": "date",
+      "label": "11 and Jan. 2000",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-inertial-mass-quantum-vacuum-fields"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2000",
+      "iso_end": "2000",
+      "precision": "year",
+      "year": 2000
+    },
+    {
+      "id": "entity:date-december-of-2000",
+      "type": "date",
+      "label": "December of 2000",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2006-johrei"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2000",
+      "iso_end": "2000",
+      "precision": "year",
+      "year": 2000
+    },
+    {
+      "id": "source:pear-2000-artreg",
+      "type": "source",
+      "label": "PEAR: 2000 Artreg",
+      "iso_start": "2000",
+      "iso_end": "2000",
+      "precision": "year",
+      "year": 2000,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2000-artreg"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-egypt",
+        "entity:place-japan",
+        "entity:place-moscow",
+        "entity:place-india",
+        "entity:place-russia"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2000 Artreg"
+    },
+    {
+      "id": "source:pear-2000-mmi-consortium-portreg-replication",
+      "type": "source",
+      "label": "PEAR: 2000 Mmi Consortium Portreg Replication",
+      "iso_start": "2000",
+      "iso_end": "2000",
+      "precision": "year",
+      "year": 2000,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2000-mmi-consortium-portreg-replication"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-san-francisco",
+        "entity:place-san-antonio",
+        "entity:place-germany",
+        "entity:place-texas",
+        "entity:place-beverly-hills",
+        "entity:place-consortium-replication-a-experimental-design"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2000 Mmi Consortium Portreg Replication"
+    },
+    {
+      "id": "entity:date-2-june-2000",
+      "type": "date",
+      "label": "2 June 2000",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-inertial-mass-quantum-vacuum-fields"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2000-06-02",
+      "iso_end": "2000-06-02",
+      "precision": "day",
+      "year": 2000
+    },
+    {
+      "id": "entity:date-september-2000",
+      "type": "date",
+      "label": "September 2000",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-inertial-mass-quantum-vacuum-fields"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2000-09",
+      "iso_end": "2000-09",
+      "precision": "month",
+      "year": 2000
+    },
+    {
+      "id": "source:pear-2001-20th-21st-century-science",
+      "type": "source",
+      "label": "PEAR: 2001 20Th 21St Century Science",
+      "iso_start": "2001",
+      "iso_end": "2001",
+      "precision": "year",
+      "year": 2001,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-20th-21st-century-science"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york",
+        "entity:place-cambridge"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2001 20Th 21St Century Science"
+    },
+    {
+      "id": "source:pear-2001-challenge-consciousness",
+      "type": "source",
+      "label": "PEAR: 2001 Challenge Consciousness",
+      "iso_start": "2001",
+      "iso_end": "2001",
+      "precision": "year",
+      "year": 2001,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-challenge-consciousness"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-cambridge"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2001 Challenge Consciousness"
+    },
+    {
+      "id": "source:pear-2001-inertial-mass-quantum-vacuum-fields",
+      "type": "source",
+      "label": "PEAR: 2001 Inertial Mass Quantum Vacuum Fields",
+      "iso_start": "2001",
+      "iso_end": "2001",
+      "precision": "year",
+      "year": 2001,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-inertial-mass-quantum-vacuum-fields"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-london",
+        "entity:place-san-francisco",
+        "entity:place-california",
+        "entity:place-leipzig",
+        "entity:place-hanover-street",
+        "entity:place-palo-alto",
+        "entity:place-long-beach",
+        "entity:place-calif"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2001 Inertial Mass Quantum Vacuum Fields"
+    },
+    {
+      "id": "source:pear-2001-modular-model-mind-mater-manifestation-m5",
+      "type": "source",
+      "label": "PEAR: 2001 Modular Model Mind Mater Manifestation M5",
+      "iso_start": "2001",
+      "iso_end": "2001",
+      "precision": "year",
+      "year": 2001,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-modular-model-mind-mater-manifestation-m5"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-secaucus",
+        "entity:place-cambridge",
+        "entity:place-new-jersey"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2001 Modular Model Mind Mater Manifestation M5"
+    },
+    {
+      "id": "entity:date-march-2001",
+      "type": "date",
+      "label": "March 2001",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2006-johrei"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2001-03",
+      "iso_end": "2001-03",
+      "precision": "month",
+      "year": 2001
+    },
+    {
+      "id": "entity:date-june-2001",
+      "type": "date",
+      "label": "June, 2001",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2001-challenge-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2001-06",
+      "iso_end": "2001-06",
+      "precision": "month",
+      "year": 2001
+    },
+    {
+      "id": "source:pear-2002-vector-representation-subliminal-seed-regime",
+      "type": "source",
+      "label": "PEAR: 2002 Vector Representation Subliminal Seed Regime",
+      "iso_start": "2002",
+      "iso_end": "2002",
+      "precision": "year",
+      "year": 2002,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2002-vector-representation-subliminal-seed-regime"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-new-jersey"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2002 Vector Representation Subliminal Seed Regime"
+    },
+    {
+      "id": "entity:date-november-2002",
+      "type": "date",
+      "label": "November 2002",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2006-johrei"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2002-11",
+      "iso_end": "2002-11",
+      "precision": "month",
+      "year": 2002
+    },
+    {
+      "id": "source:pear-2003-problems-reproducibility-mind-matter-systems",
+      "type": "source",
+      "label": "PEAR: 2003 Problems Reproducibility Mind Matter Systems",
+      "iso_start": "2003",
+      "iso_end": "2003",
+      "precision": "year",
+      "year": 2003,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2003-problems-reproducibility-mind-matter-systems"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-san-francisco",
+        "entity:place-germany",
+        "entity:place-garching",
+        "entity:place-griechenland",
+        "entity:place-frankfurt",
+        "entity:place-singapore",
+        "entity:place-mittelstrasse"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2003 Problems Reproducibility Mind Matter Systems"
+    },
+    {
+      "id": "entity:date-spring-2003",
+      "type": "date",
+      "label": "spring 2003",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-consciousness-information-living-systems",
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2003-03",
+      "iso_end": "2003-05",
+      "precision": "season",
+      "year": 2003
+    },
+    {
+      "id": "source:pear-2004-megareg-replication-interpretation",
+      "type": "source",
+      "label": "PEAR: 2004 Megareg Replication Interpretation",
+      "iso_start": "2004",
+      "iso_end": "2004",
+      "precision": "year",
+      "year": 2004,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2004-megareg-replication-interpretation"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2004 Megareg Replication Interpretation"
+    },
+    {
+      "id": "source:pear-2004-sensors-filters-source-reality",
+      "type": "source",
+      "label": "PEAR: 2004 Sensors Filters Source Reality",
+      "iso_start": "2004",
+      "iso_end": "2004",
+      "precision": "year",
+      "year": 2004,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2004-sensors-filters-source-reality"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2004 Sensors Filters Source Reality"
+    },
+    {
+      "id": "source:pear-2005-consciousness-information-living-systems",
+      "type": "source",
+      "label": "PEAR: 2005 Consciousness Information Living Systems",
+      "iso_start": "2005",
+      "iso_end": "2005",
+      "precision": "year",
+      "year": 2005,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-consciousness-information-living-systems"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-san-diego",
+        "entity:place-germany",
+        "entity:place-albuquerque"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2005 Consciousness Information Living Systems"
+    },
+    {
+      "id": "source:pear-2005-endophysical-models-empirical-data",
+      "type": "source",
+      "label": "PEAR: 2005 Endophysical Models Empirical Data",
+      "iso_start": "2005",
+      "iso_end": "2005",
+      "precision": "year",
+      "year": 2005,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-endophysical-models-empirical-data"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-new-jersey",
+        "entity:place-san-diego",
+        "entity:place-washington",
+        "entity:place-u-s-a"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2005 Endophysical Models Empirical Data"
+    },
+    {
+      "id": "source:pear-2005-pear-proposition",
+      "type": "source",
+      "label": "PEAR: 2005 Pear Proposition",
+      "iso_start": "2005",
+      "iso_end": "2005",
+      "precision": "year",
+      "year": 2005,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-pear-proposition"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-france",
+        "entity:place-san-diego",
+        "entity:place-toronto",
+        "entity:place-germany",
+        "entity:place-washington",
+        "entity:place-garching",
+        "entity:place-helsinki",
+        "entity:place-finland"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2005 Pear Proposition"
+    },
+    {
+      "id": "entity:date-february-24-2005",
+      "type": "date",
+      "label": "February 24, 2005",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2005-02-24",
+      "iso_end": "2005-02-24",
+      "precision": "day",
+      "year": 2005
+    },
+    {
+      "id": "entity:date-march-6-2005",
+      "type": "date",
+      "label": "March 6, 2005",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2005-03-06",
+      "iso_end": "2005-03-06",
+      "precision": "day",
+      "year": 2005
+    },
+    {
+      "id": "entity:date-april-7-2005",
+      "type": "date",
+      "label": "April 7, 2005",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-consciousness-information-living-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2005-04-07",
+      "iso_end": "2005-04-07",
+      "precision": "day",
+      "year": 2005
+    },
+    {
+      "id": "entity:date-april-15-2005",
+      "type": "date",
+      "label": "April 15, 2005",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-consciousness-information-living-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2005-04-15",
+      "iso_end": "2005-04-15",
+      "precision": "day",
+      "year": 2005
+    },
+    {
+      "id": "entity:date-december-14-2005",
+      "type": "date",
+      "label": "December 14, 2005",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2005-consciousness-information-living-systems"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2005-12-14",
+      "iso_end": "2005-12-14",
+      "precision": "day",
+      "year": 2005
+    },
+    {
+      "id": "source:pear-2006-johrei",
+      "type": "source",
+      "label": "PEAR: 2006 Johrei",
+      "iso_start": "2006",
+      "iso_end": "2006",
+      "precision": "year",
+      "year": 2006,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2006-johrei"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-london",
+        "entity:place-japan",
+        "entity:place-brazil",
+        "entity:place-thailand"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2006 Johrei"
+    },
+    {
+      "id": "entity:date-january-2006",
+      "type": "date",
+      "label": "January 2006",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2006-johrei"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2006-01",
+      "iso_end": "2006-01",
+      "precision": "month",
+      "year": 2006
+    },
+    {
+      "id": "source:pear-2007-jse-yantra-",
+      "type": "source",
+      "label": "PEAR: 2007 Jse Yantra ",
+      "iso_start": "2007",
+      "iso_end": "2007",
+      "precision": "year",
+      "year": 2007,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-2007-jse-yantra-"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: 2007 Jse Yantra "
+    },
+    {
+      "id": "entity:date-february-27-2008",
+      "type": "date",
+      "label": "February 27, 2008",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2008-02-27",
+      "iso_end": "2008-02-27",
+      "precision": "day",
+      "year": 2008
+    },
+    {
+      "id": "entity:date-december-9-2008",
+      "type": "date",
+      "label": "December 9, 2008",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2008-12-09",
+      "iso_end": "2008-12-09",
+      "precision": "day",
+      "year": 2008
+    },
+    {
+      "id": "entity:date-march-16-2011",
+      "type": "date",
+      "label": "March 16, 2011",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2011-03-16",
+      "iso_end": "2011-03-16",
+      "precision": "day",
+      "year": 2011
+    },
+    {
+      "id": "entity:date-june-3-2011",
+      "type": "date",
+      "label": "June 3, 2011",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2011-06-03",
+      "iso_end": "2011-06-03",
+      "precision": "day",
+      "year": 2011
+    },
+    {
+      "id": "entity:date-may-june-2012-the",
+      "type": "date",
+      "label": "May\u2013June 2012).\"The",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2012",
+      "iso_end": "2012",
+      "precision": "year",
+      "year": 2012
+    },
+    {
+      "id": "entity:date-february-16-2012",
+      "type": "date",
+      "label": "February 16, 2012",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2012-02-16",
+      "iso_end": "2012-02-16",
+      "precision": "day",
+      "year": 2012
+    },
+    {
+      "id": "entity:date-january-17-2013",
+      "type": "date",
+      "label": "January 17, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-01-17",
+      "iso_end": "2013-01-17",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-january-26-2013",
+      "type": "date",
+      "label": "January 26, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-01-26",
+      "iso_end": "2013-01-26",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-february-5-2013",
+      "type": "date",
+      "label": "February 5, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-02-05",
+      "iso_end": "2013-02-05",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-february-6-2013",
+      "type": "date",
+      "label": "February 6, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-02-06",
+      "iso_end": "2013-02-06",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-february-16-2013",
+      "type": "date",
+      "label": "February 16, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-02-16",
+      "iso_end": "2013-02-16",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-march-5-2013",
+      "type": "date",
+      "label": "March 5, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-03-05",
+      "iso_end": "2013-03-05",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-april-19-2013",
+      "type": "date",
+      "label": "April 19, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-04-19",
+      "iso_end": "2013-04-19",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-december-9-2013",
+      "type": "date",
+      "label": "December 9, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-12-09",
+      "iso_end": "2013-12-09",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-december-24-2013",
+      "type": "date",
+      "label": "December 24, 2013",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2013-12-24",
+      "iso_end": "2013-12-24",
+      "precision": "day",
+      "year": 2013
+    },
+    {
+      "id": "entity:date-april-3-2014",
+      "type": "date",
+      "label": "April 3, 2014",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2014-04-03",
+      "iso_end": "2014-04-03",
+      "precision": "day",
+      "year": 2014
+    },
+    {
+      "id": "entity:date-april-18-2014",
+      "type": "date",
+      "label": "April 18, 2014",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2014-04-18",
+      "iso_end": "2014-04-18",
+      "precision": "day",
+      "year": 2014
+    },
+    {
+      "id": "entity:date-april-7-2015",
+      "type": "date",
+      "label": "April 7, 2015",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2015-04-07",
+      "iso_end": "2015-04-07",
+      "precision": "day",
+      "year": 2015
+    },
+    {
+      "id": "entity:date-november-10-2015",
+      "type": "date",
+      "label": "November 10, 2015",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2015-11-10",
+      "iso_end": "2015-11-10",
+      "precision": "day",
+      "year": 2015
+    },
+    {
+      "id": "entity:date-november-17-2015",
+      "type": "date",
+      "label": "November 17, 2015",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2015-11-17",
+      "iso_end": "2015-11-17",
+      "precision": "day",
+      "year": 2015
+    },
+    {
+      "id": "entity:date-april-3-2016",
+      "type": "date",
+      "label": "April 3, 2016",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2016-04-03",
+      "iso_end": "2016-04-03",
+      "precision": "day",
+      "year": 2016
+    },
+    {
+      "id": "entity:date-september-30-2017",
+      "type": "date",
+      "label": "September 30, 2017",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2017-09-30",
+      "iso_end": "2017-09-30",
+      "precision": "day",
+      "year": 2017
+    },
+    {
+      "id": "entity:date-october-2-2017",
+      "type": "date",
+      "label": "October 2, 2017",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2017-10-02",
+      "iso_end": "2017-10-02",
+      "precision": "day",
+      "year": 2017
+    },
+    {
+      "id": "entity:date-october-29-2017",
+      "type": "date",
+      "label": "October 29, 2017",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2017-10-29",
+      "iso_end": "2017-10-29",
+      "precision": "day",
+      "year": 2017
+    },
+    {
+      "id": "entity:date-november-5-2017",
+      "type": "date",
+      "label": "November 5, 2017",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2017-11-05",
+      "iso_end": "2017-11-05",
+      "precision": "day",
+      "year": 2017
+    },
+    {
+      "id": "entity:date-march-19-2019",
+      "type": "date",
+      "label": "March 19, 2019",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2019-03-19",
+      "iso_end": "2019-03-19",
+      "precision": "day",
+      "year": 2019
+    },
+    {
+      "id": "entity:date-november-4-2019",
+      "type": "date",
+      "label": "November 4, 2019",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2019-11-04",
+      "iso_end": "2019-11-04",
+      "precision": "day",
+      "year": 2019
+    },
+    {
+      "id": "entity:date-february-8-2020",
+      "type": "date",
+      "label": "February 8, 2020",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2020-02-08",
+      "iso_end": "2020-02-08",
+      "precision": "day",
+      "year": 2020
+    },
+    {
+      "id": "entity:date-february-10-2020",
+      "type": "date",
+      "label": "February 10, 2020",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2020-02-10",
+      "iso_end": "2020-02-10",
+      "precision": "day",
+      "year": 2020
+    },
+    {
+      "id": "entity:date-june-2020",
+      "type": "date",
+      "label": "June 2020",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2020-06",
+      "iso_end": "2020-06",
+      "precision": "month",
+      "year": 2020
+    },
+    {
+      "id": "entity:date-december-2020",
+      "type": "date",
+      "label": "December 2020",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2020-12",
+      "iso_end": "2020-12",
+      "precision": "month",
+      "year": 2020
+    },
+    {
+      "id": "entity:date-winter-2020",
+      "type": "date",
+      "label": "Winter 2020",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2020-12",
+      "iso_end": "2020-02",
+      "precision": "season",
+      "year": 2020
+    },
+    {
+      "id": "entity:date-december-7-2020",
+      "type": "date",
+      "label": "December 7, 2020",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2020-12-07",
+      "iso_end": "2020-12-07",
+      "precision": "day",
+      "year": 2020
+    },
+    {
+      "id": "entity:date-april-18-2021",
+      "type": "date",
+      "label": "April 18, 2021",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2021-04-18",
+      "iso_end": "2021-04-18",
+      "precision": "day",
+      "year": 2021
+    },
+    {
+      "id": "entity:date-april-19-2021",
+      "type": "date",
+      "label": "April 19, 2021",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2021-04-19",
+      "iso_end": "2021-04-19",
+      "precision": "day",
+      "year": 2021
+    },
+    {
+      "id": "entity:date-april-27-2021",
+      "type": "date",
+      "label": "April 27, 2021",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2021-04-27",
+      "iso_end": "2021-04-27",
+      "precision": "day",
+      "year": 2021
+    },
+    {
+      "id": "entity:date-april-28-2021",
+      "type": "date",
+      "label": "April 28, 2021",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2021-04-28",
+      "iso_end": "2021-04-28",
+      "precision": "day",
+      "year": 2021
+    },
+    {
+      "id": "entity:date-june-5-2021",
+      "type": "date",
+      "label": "June 5, 2021",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2021-06-05",
+      "iso_end": "2021-06-05",
+      "precision": "day",
+      "year": 2021
+    },
+    {
+      "id": "entity:date-january-11-2022",
+      "type": "date",
+      "label": "January 11, 2022",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2022-01-11",
+      "iso_end": "2022-01-11",
+      "precision": "day",
+      "year": 2022
+    },
+    {
+      "id": "entity:date-july-8-2022",
+      "type": "date",
+      "label": "July 8, 2022",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2022-07-08",
+      "iso_end": "2022-07-08",
+      "precision": "day",
+      "year": 2022
+    },
+    {
+      "id": "entity:date-january-16-2023",
+      "type": "date",
+      "label": "January 16, 2023",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2023-01-16",
+      "iso_end": "2023-01-16",
+      "precision": "day",
+      "year": 2023
+    },
+    {
+      "id": "entity:date-august-17-2023",
+      "type": "date",
+      "label": "August 17, 2023",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2023-08-17",
+      "iso_end": "2023-08-17",
+      "precision": "day",
+      "year": 2023
+    },
+    {
+      "id": "entity:date-january-31-2024",
+      "type": "date",
+      "label": "January 31, 2024",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2024-01-31",
+      "iso_end": "2024-01-31",
+      "precision": "day",
+      "year": 2024
+    },
+    {
+      "id": "entity:date-july-6-2024",
+      "type": "date",
+      "label": "July 6, 2024",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2024-07-06",
+      "iso_end": "2024-07-06",
+      "precision": "day",
+      "year": 2024
+    },
+    {
+      "id": "entity:date-february-19-2025",
+      "type": "date",
+      "label": "February 19, 2025",
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "2025-02-19",
+      "iso_end": "2025-02-19",
+      "precision": "day",
+      "year": 2025
+    },
+    {
+      "id": "source:elena-danaan",
+      "type": "source",
+      "label": "Elena Danaan",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:elena-danaan"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-04-02",
+      "tags": [
+        "experiencer"
+      ],
+      "description": ""
+    },
+    {
+      "id": "source:elena-danaan-1",
+      "type": "source",
+      "label": "Elena Danaan",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:elena-danaan-1"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-04-02",
+      "tags": [
+        "experiencer"
+      ],
+      "description": ""
+    },
+    {
+      "id": "source:pear-egypt.fieldreg",
+      "type": "source",
+      "label": "PEAR: Egypt.Fieldreg",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-egypt.fieldreg"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-egypt",
+        "entity:place-los-angeles",
+        "entity:place-newbury-park",
+        "entity:place-huntington-beach",
+        "entity:place-cairo",
+        "entity:place-luxor",
+        "entity:place-aswan",
+        "entity:place-nile-delta",
+        "entity:place-the-great-pyramid",
+        "entity:place-the-grand-gallery",
+        "entity:place-sphinx"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: Egypt.Fieldreg"
+    },
+    {
+      "id": "source:pear-khufu.pit-.scan-",
+      "type": "source",
+      "label": "PEAR: Khufu.Pit .Scan ",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-khufu.pit-.scan-"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-egypt",
+        "entity:place-london",
+        "entity:place-cairo",
+        "entity:place-the-great-pyramid",
+        "entity:place-lower-egypt",
+        "entity:place-memphis",
+        "entity:place-the-mediterranean-sea",
+        "entity:place-plainfield",
+        "entity:place-indiana"
+      ],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: Khufu.Pit .Scan "
+    },
+    {
+      "id": "source:pear-reg-driven-robot",
+      "type": "source",
+      "label": "PEAR: Reg Driven Robot",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-reg-driven-robot"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-30",
+      "tags": [
+        "pear",
+        "consciousness",
+        "anomalies",
+        "princeton"
+      ],
+      "description": "PEAR scholarly publication: Reg Driven Robot"
+    },
+    {
+      "id": "source:roswell-wikipedia",
+      "type": "source",
+      "label": "Wikipedia: Roswell incident",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "url",
+      "thumbnail": null,
+      "sources": [
+        "source:roswell-wikipedia"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-new-york",
+        "entity:place-london",
+        "entity:place-the-united-states",
+        "entity:place-colorado",
+        "entity:place-north-carolina",
+        "entity:place-santa-barbara",
+        "entity:place-cambridge",
+        "entity:place-california",
+        "entity:place-philadelphia",
+        "entity:place-massachusetts",
+        "entity:place-texas",
+        "entity:place-washington",
+        "entity:place-albuquerque",
+        "entity:place-new-mexico",
+        "entity:place-fort-worth",
+        "entity:place-fort-worth-star-telegram-1947-7-28-citenote-30",
+        "entity:place-ohio",
+        "entity:place-idaho",
+        "entity:place-earth",
+        "entity:place-the-roswell-narrative-61-citenote-63-62-citenote-64",
+        "entity:place-florida",
+        "entity:place-the-gulf-of-mexico",
+        "entity:place-the-plains-of-san-agustin-98-citenote-goldberg-2001-p196-100-99-citenote-101",
+        "entity:place-kirtland-air-force-base",
+        "entity:place-documents-131-citenote-134",
+        "entity:place-debris-153-citenote-156",
+        "entity:place-highway-285",
+        "entity:place-extraterrestrials-199-citenote-202",
+        "entity:place-fort-bliss",
+        "entity:place-america",
+        "entity:place-manhattan",
+        "entity:place-mexico",
+        "entity:place-hollywood",
+        "entity:place-alamagordo",
+        "entity:place-san-agustin",
+        "entity:place-roswell-army-airfield",
+        "entity:place-minneapolis",
+        "entity:place-the-roswell-army-air-base",
+        "entity:place-ann-arbor-district",
+        "entity:place-newburyport",
+        "entity:place-new-haven",
+        "entity:place-connecticut",
+        "entity:place-hague",
+        "entity:place-charleston",
+        "entity:place-south-carolina",
+        "entity:place-roswell-and-chimayo",
+        "entity:place-southwest",
+        "entity:place-d-c",
+        "entity:place-the-united-statesjuly-1947",
+        "entity:place-the-united-statesroswell",
+        "entity:place-new-mexicoufo"
+      ],
+      "date_added": "2026-03-29",
+      "tags": [
+        "ufo",
+        "roswell",
+        "military"
+      ],
+      "description": "Wikipedia article on the 1947 Roswell UFO incident"
+    },
+    {
+      "id": "source:sighting-in-sheffield-cloaked-ufo",
+      "type": "source",
+      "label": "Sighting in Sheffield - cloaked UFO?",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:sighting-in-sheffield-cloaked-ufo"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-03-31",
+      "tags": [],
+      "description": ""
+    }
+  ],
+  "spans": {
+    "min_year": 1860,
+    "max_year": 2026,
+    "total_items": 215,
+    "by_precision": {
+      "decade": 3,
+      "year": 85,
+      "month": 49,
+      "day": 70,
+      "range": 5,
+      "season": 3
+    }
+  }
+}

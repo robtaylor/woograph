@@ -1,0 +1,64 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:ben-s-ufo-film",
+  "name": "Ben's UFO film",
+  "entities": [
+    {
+      "@id": "source:ben-s-ufo-film",
+      "@type": "woo:Source",
+      "name": "Ben's UFO film"
+    },
+    {
+      "@id": "entity:person-ben-s-ufo-film",
+      "@type": "Person",
+      "name": "ben-s-ufo-film",
+      "aliases": [],
+      "mentionedIn": "source:ben-s-ufo-film"
+    },
+    {
+      "@id": "entity:event-ben-s-ufo-film",
+      "@type": "Event",
+      "name": "Ben's UFO film",
+      "aliases": [],
+      "mentionedIn": "source:ben-s-ufo-film"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ben-s-ufo-film"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:ben-s-ufo-film"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-ben-s-ufo-film"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:ben-s-ufo-film"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-ben-s-ufo-film"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-ben-s-ufo-film"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

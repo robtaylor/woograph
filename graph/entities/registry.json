@@ -36163,6 +36163,12 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-ben-s-ufo-film": {
+      "name": "ben-s-ufo-film",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
     }
   }
 }

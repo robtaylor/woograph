@@ -1,0 +1,51 @@
+{
+  "source_slug": "ben-s-ufo-film",
+  "title": "Ben's UFO film",
+  "type": "video",
+  "author": "",
+  "date_added": "2026-06-06",
+  "tags": [
+    "uk ufo meetup"
+  ],
+  "description": "",
+  "content_file": "content.md",
+  "processed_at": "2026-06-07T00:51:12.470412+00:00",
+  "video_metadata": {
+    "total_frames": 1481,
+    "extracted_frames": 1481,
+    "detected_frames": 255,
+    "crop_size": [
+      24,
+      32
+    ],
+    "scale_factor": 2,
+    "output_size": [
+      64,
+      48
+    ],
+    "best_frame_index": 26,
+    "best_frame_sharpness": 0.044978,
+    "deconv_iterations": 15,
+    "psf_sigma": 1.5,
+    "processed_at": "2026-06-07T00:51:12.145517+00:00",
+    "output_files": {
+      "best_frame": "best_frame.png",
+      "best_frame_bicubic": "best_frame_bicubic.png",
+      "best_frame_esrgan4x": "best_frame_esrgan4x.png",
+      "drizzle_all": "drizzle_all.png",
+      "drizzle_consecutive5": "drizzle_consecutive5.png",
+      "drizzle_ibp_all": "drizzle_ibp_all.png",
+      "drizzle_ibp_consecutive5": "drizzle_ibp_consecutive5.png",
+      "drizzle_ibp_similar15": "drizzle_ibp_similar15.png",
+      "drizzle_similar15": "drizzle_similar15.png",
+      "ibp_all": "ibp_all.png",
+      "ibp_consecutive5": "ibp_consecutive5.png",
+      "ibp_similar15": "ibp_similar15.png"
+    },
+    "vlm_scene_count": 1,
+    "vlm_footage_range": null,
+    "r2_urls": {
+      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/d544a9a5-886d-444f-b0ab-988355dd8895/ben-s-ufo-film.MOV"
+    }
+  }
+}

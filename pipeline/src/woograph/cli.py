@@ -366,9 +366,9 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
         elif source_type == "video":
             file_name = source.get("file", "")
             video_url = source.get("url", "")
-            # Prefer a committed file over the URL: uploads are captured into
-            # submissions/files/ at submission time, so the local bytes are
-            # authoritative and immune to the original URL expiring.
+            # `file:` (a manual upload placed in submissions/files/) takes
+            # precedence when present; otherwise download from the URL. Web
+            # submissions carry only a `url:` pointing at durable R2 storage.
             if file_name:
                 video_path = repo_root / "submissions" / "files" / file_name
             elif video_url:

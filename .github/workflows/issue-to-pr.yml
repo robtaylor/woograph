@@ -149,39 +149,15 @@ jobs:
             TAGS_YAML="[]"
           fi
 
-          # Capture uploaded video bytes at submission time so processing is
-          # immune to the upload URL expiring (the upload worker serves files
-          # only temporarily). Store under submissions/files/ and reference via
-          # `file:` — the pipeline prefers the committed file over the URL. The
-          # URL is retained for provenance.
-          FILE_NAME=""
-          if [ "$TYPE" = "video" ] && [ -n "$URL" ]; then
-            EXT=$(printf '%s' "${URL%%[?#]*}" | grep -oE '\.[A-Za-z0-9]+$' | tr '[:upper:]' '[:lower:]')
-            if [ -z "$EXT" ]; then
-              echo "::warning::Could not determine a file extension from $URL — defaulting to .mp4"
-              EXT=".mp4"
-            fi
-            FILE_NAME="${SLUG}${EXT}"
-            mkdir -p submissions/files
-            URL_ENC="${URL// /%20}"  # encode spaces — upload filenames may contain them
-            echo "Downloading video source: $URL -> submissions/files/${FILE_NAME}"
-            if ! curl -fSL --retry 3 --retry-delay 2 \
-                 --connect-timeout 30 --max-time 600 \
-                 -H "User-Agent: Mozilla/5.0" \
-                 -o "submissions/files/${FILE_NAME}" "$URL_ENC"; then
-              echo "::error::Failed to download video source from $URL — the upload may have already expired."
-              exit 1
-            fi
-          fi
+          # Uploaded media stays in R2 (the upload worker stores objects durably;
+          # the URL does not expire), so we reference it via `url:` and never copy
+          # the bytes into git. See _upload_videos_to_r2 / the R2 storage model.
 
           # Build the YAML submission file
           {
             echo "source:"
             echo "  title: \"$(echo "$TITLE" | sed 's/"/\\"/g')\""
             echo "  type: $TYPE"
-            if [ -n "$FILE_NAME" ]; then
-              echo "  file: \"$FILE_NAME\""
-            fi
             if [ -n "$URL" ]; then
               echo "  url: \"$URL\""
             fi

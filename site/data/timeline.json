@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-05T02:14:13.294640+00:00",
+  "generated": "2026-06-07T08:58:57.691966+00:00",
   "items": [
     {
       "id": "entity:date-the-early-1860-s",
@@ -720,6 +720,26 @@
       "year": 1981
     },
     {
+      "id": "entity:date-jahn-1982",
+      "type": "date",
+      "label": "Jahn 1982",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york"
+      ],
+      "iso_start": "1982",
+      "iso_end": "1982",
+      "precision": "year",
+      "year": 1982
+    },
+    {
       "id": "entity:date-good-1982",
       "type": "date",
       "label": "Good 1982",
@@ -763,6 +783,7 @@
         "entity:place-the-white-house",
         "entity:place-london",
         "entity:place-boston",
+        "entity:place-u-s",
         "entity:place-western-europe",
         "entity:place-the-united-states",
         "entity:place-eastern-bloc",
@@ -906,7 +927,10 @@
         "source:pear-1988-operator-related-anomalies-rmc"
       ],
       "events": [],
-      "places": [],
+      "places": [
+        "entity:place-chicago",
+        "entity:place-new-york"
+      ],
       "iso_start": "1983-10",
       "iso_end": "1983-10",
       "precision": "month",
@@ -928,6 +952,23 @@
       "iso_end": "1983-11",
       "precision": "month",
       "year": 1983
+    },
+    {
+      "id": "entity:date-jahn-1984",
+      "type": "date",
+      "label": "Jahn 1984",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1984",
+      "iso_end": "1984",
+      "precision": "year",
+      "year": 1984
     },
     {
       "id": "entity:date-may-1984",
@@ -1133,8 +1174,7 @@
         "entity:place-glencoe",
         "entity:place-scotland",
         "entity:place-u-s-s-r",
-        "entity:place-san-diego",
-        "entity:place-the-parascience-conference-london"
+        "entity:place-san-diego"
       ],
       "date_added": "2026-03-30",
       "tags": [
@@ -1255,6 +1295,7 @@
         "entity:place-chicago",
         "entity:place-new-york",
         "entity:place-london",
+        "entity:place-u-s",
         "entity:place-europe",
         "entity:place-san-diego",
         "entity:place-iowa"
@@ -1318,6 +1359,40 @@
       "iso_end": "1989-09-20",
       "precision": "day",
       "year": 1989
+    },
+    {
+      "id": "entity:date-jeffreys-1990",
+      "type": "date",
+      "label": "Jeffreys 1990",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990",
+      "iso_end": "1990",
+      "precision": "year",
+      "year": 1990
+    },
+    {
+      "id": "entity:date-lindsey-1990",
+      "type": "date",
+      "label": "Lindsey 1990",
+      "display_label": "PEAR: 1992 Bayesian Analysis Reg Data",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1992-bayesian-analysis-reg-data"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1990",
+      "iso_end": "1990",
+      "precision": "year",
+      "year": 1990
     },
     {
       "id": "entity:date-feb-14-and-june-5-1990",
@@ -1449,7 +1524,8 @@
       "places": [
         "entity:place-new-york",
         "entity:place-london",
-        "entity:place-san-diego"
+        "entity:place-san-diego",
+        "entity:place-ilinois"
       ],
       "date_added": "2026-03-30",
       "tags": [
@@ -1567,6 +1643,7 @@
       "places": [
         "entity:place-new-york",
         "entity:place-england",
+        "entity:place-u-s",
         "entity:place-kenya",
         "entity:place-india",
         "entity:place-new-zealand",
@@ -1664,6 +1741,23 @@
       "iso_end": "1993-12",
       "precision": "month",
       "year": 1993
+    },
+    {
+      "id": "entity:date-hays-1994",
+      "type": "date",
+      "label": "Hays, 1994",
+      "display_label": "PEAR: 1998 Double Slit Consciousness Experiment",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-double-slit-consciousness-experiment"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1994",
+      "iso_end": "1994",
+      "precision": "year",
+      "year": 1994
     },
     {
       "id": "source:pear-1994-linear-pendulum-damping-rate",
@@ -1858,14 +1952,11 @@
         "entity:place-penzance",
         "entity:place-the-u-s-southwest",
         "entity:place-the-united-kingdom",
-        "entity:place-wayland",
         "entity:place-u-k",
         "entity:place-cornwall",
         "entity:place-ireland",
         "entity:place-newgrange",
         "entity:place-smithy-berkshire",
-        "entity:place-west-chambers",
-        "entity:place-the-west-chamber",
         "entity:place-loughcrew",
         "entity:place-loughcrew-hills",
         "entity:place-louchcrew",
@@ -1873,7 +1964,6 @@
         "entity:place-the-boyne-river",
         "entity:place-loughcrew-i",
         "entity:place-carn-euny",
-        "entity:place-loughcrew-l-composite",
         "entity:place-dublin"
       ],
       "date_added": "2026-03-30",
@@ -2008,6 +2098,40 @@
       "thumbnail": null,
       "sources": [
         "source:pear-1997-wishing-good-weather-group-consciousness"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-jeffers-1996",
+      "type": "date",
+      "label": "Jeffers, 1996",
+      "display_label": "PEAR: 1998 Double Slit Consciousness Experiment",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-double-slit-consciousness-experiment"
+      ],
+      "events": [],
+      "places": [],
+      "iso_start": "1996",
+      "iso_end": "1996",
+      "precision": "year",
+      "year": 1996
+    },
+    {
+      "id": "entity:date-bierman-1996",
+      "type": "date",
+      "label": "Bierman, 1996",
+      "display_label": "PEAR: 1998 Fieldreg Ii Consciousness Field Effects",
+      "source_type": "pdf",
+      "thumbnail": null,
+      "sources": [
+        "source:pear-1998-fieldreg-ii-consciousness-field-effects"
       ],
       "events": [],
       "places": [],
@@ -2317,7 +2441,6 @@
         "entity:place-nassau-hall",
         "entity:place-new-brunswick",
         "entity:place-trenton",
-        "entity:place-rosebow",
         "entity:place-pasadena",
         "entity:place-asheville",
         "entity:place-moorestown",
@@ -3317,6 +3440,7 @@
       "events": [],
       "places": [
         "entity:place-london",
+        "entity:place-u-s",
         "entity:place-japan",
         "entity:place-brazil",
         "entity:place-thailand"
@@ -4180,6 +4304,27 @@
       "year": 2025
     },
     {
+      "id": "source:ben-s-ufo-film",
+      "type": "source",
+      "label": "Ben's UFO film",
+      "iso_start": "2026",
+      "iso_end": "2026",
+      "precision": "year",
+      "year": 2026,
+      "source_type": "video",
+      "thumbnail": "data/sources/ben-s-ufo-film/best_frame.png",
+      "sources": [
+        "source:ben-s-ufo-film"
+      ],
+      "events": [],
+      "places": [],
+      "date_added": "2026-06-06",
+      "tags": [
+        "uk ufo meetup"
+      ],
+      "description": ""
+    },
+    {
       "id": "source:elena-danaan",
       "type": "source",
       "label": "Elena Danaan",
@@ -4366,18 +4511,12 @@
         "entity:place-albuquerque",
         "entity:place-new-mexico",
         "entity:place-fort-worth",
-        "entity:place-fort-worth-star-telegram-1947-7-28-citenote-30",
         "entity:place-ohio",
         "entity:place-idaho",
-        "entity:place-the-roswell-narrative-61-citenote-63-62-citenote-64",
         "entity:place-florida",
         "entity:place-the-gulf-of-mexico",
-        "entity:place-the-plains-of-san-agustin-98-citenote-goldberg-2001-p196-100-99-citenote-101",
         "entity:place-kirtland-air-force-base",
-        "entity:place-documents-131-citenote-134",
-        "entity:place-debris-153-citenote-156",
         "entity:place-highway-285",
-        "entity:place-extraterrestrials-199-citenote-202",
         "entity:place-fort-bliss",
         "entity:place-america",
         "entity:place-manhattan",
@@ -4385,7 +4524,6 @@
         "entity:place-hollywood",
         "entity:place-alamagordo",
         "entity:place-san-agustin",
-        "entity:place-the-roswell-incident-272-citenote-276",
         "entity:place-roswell-army-airfield",
         "entity:place-minneapolis",
         "entity:place-the-roswell-army-air-base",
@@ -4398,10 +4536,7 @@
         "entity:place-south-carolina",
         "entity:place-roswell-and-chimayo",
         "entity:place-southwest",
-        "entity:place-d-c",
-        "entity:place-the-united-statesjuly-1947",
-        "entity:place-the-united-statesroswell",
-        "entity:place-new-mexicoufo"
+        "entity:place-d-c"
       ],
       "date_added": "2026-03-29",
       "tags": [
@@ -4434,10 +4569,10 @@
   "spans": {
     "min_year": 1860,
     "max_year": 2026,
-    "total_items": 211,
+    "total_items": 219,
     "by_precision": {
       "decade": 3,
-      "year": 80,
+      "year": 88,
       "month": 49,
       "day": 71,
       "range": 5,

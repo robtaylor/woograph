@@ -1,15 +1,15 @@
 {
-  "total_entities": 2238,
-  "total_relationships": 5850,
-  "total_sources": 49,
+  "total_entities": 2033,
+  "total_relationships": 5133,
+  "total_sources": 50,
   "entities_by_type": {
-    "woo:Source": 51,
-    "Place": 237,
-    "Organization": 389,
+    "woo:Source": 52,
     "Person": 1190,
-    "CreativeWork": 172,
-    "Date": 161,
-    "Event": 38
+    "Event": 39,
+    "Place": 223,
+    "Organization": 190,
+    "CreativeWork": 171,
+    "Date": 168
   },
-  "last_updated": "2026-04-05T02:06:38.455235+00:00"
+  "last_updated": "2026-06-07T08:51:56.177336+00:00"
 }

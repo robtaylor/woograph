@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-05T02:14:08.720652+00:00",
+  "generated": "2026-06-07T08:58:53.629668+00:00",
   "places": {
     "entity:place-earth": {
       "name": "Earth",
@@ -47,7 +47,7 @@
       "lng": 32.647186,
       "display_name": "Luxor, 85951, Egypt",
       "osm_type": "city",
-      "confidence": 0.5911
+      "confidence": 0.5969
     },
     "entity:place-cairo": {
       "name": "Cairo",
@@ -63,7 +63,7 @@
       "lng": 32.6571134,
       "display_name": "Dendera, New Valley, Egypt",
       "osm_type": "town",
-      "confidence": 0.4804
+      "confidence": 0.4799
     },
     "entity:place-holland": {
       "name": "Holland",
@@ -107,10 +107,10 @@
     },
     "entity:place-sheridan-rd": {
       "name": "Sheridan Rd",
-      "lat": 42.2122202,
-      "lng": -87.8164821,
-      "display_name": "Sheridan Road, Fort Sheridan, Highwood, Lake County, Illinois, 60037, United States",
-      "osm_type": "secondary",
+      "lat": 42.062222,
+      "lng": -87.67701,
+      "display_name": "Sheridan Road, Evanston, Evanston Township, Cook County, Illinois, 60208, United States",
+      "osm_type": "cycleway",
       "confidence": 0.345
     },
     "entity:place-greece": {
@@ -161,28 +161,36 @@
       "osm_type": "administrative",
       "confidence": 0.773
     },
+    "entity:place-u-s": {
+      "name": "U.S.",
+      "lat": 39.7837304,
+      "lng": -100.445882,
+      "display_name": "United States",
+      "osm_type": "administrative",
+      "confidence": 1.0
+    },
     "entity:place-western-europe": {
       "name": "Western Europe",
       "lat": 53.8603366,
       "lng": 27.553006,
-      "display_name": "Western Europe, Minsk World, Kastrychnitski District, Minsk, Belarus",
+      "display_name": "Western Europe, Siarova, Kastrychnitski District, Minsk, Belarus",
       "osm_type": "quarter",
       "confidence": 0.1334
     },
     "entity:place-the-united-states": {
       "name": "the United States",
-      "lat": 47.8291375,
-      "lng": -122.5970742,
-      "display_name": "Buzzcut, Kitsap County, Washington, 98364, United States",
-      "osm_type": "cycleway",
-      "confidence": 0.04
+      "lat": 42.400947,
+      "lng": -83.9145336,
+      "display_name": "The, Peach Mountain Lane, Dover, Dexter Township, Washtenaw County, Michigan, 48130, United States",
+      "osm_type": "attraction",
+      "confidence": 0.0001
     },
     "entity:place-eastern-bloc": {
       "name": "Eastern Bloc",
-      "lat": 51.4698829,
-      "lng": -0.0673691,
-      "display_name": "Eastern Bloc, 133, Copeland Road, Clifton Estate, Peckham, London Borough of Southwark, Greater London, England, SE15 3SN, United Kingdom",
-      "osm_type": "restaurant",
+      "lat": 45.5445086,
+      "lng": -73.6556682,
+      "display_name": "Eastern Bloc, 55, Rue de Louvain Ouest, Ahuntsic, Ahuntsic-Cartierville, Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, H2N 1A4, Canada",
+      "osm_type": "community_centre",
       "confidence": 0.0001
     },
     "entity:place-helena": {
@@ -195,19 +203,19 @@
     },
     "entity:place-bratislava": {
       "name": "Bratislava",
-      "lat": 48.1559178,
-      "lng": 17.1313541,
+      "lat": 48.1516988,
+      "lng": 17.1093063,
       "display_name": "Bratislava, Region of Bratislava, Slovakia",
-      "osm_type": "city",
+      "osm_type": "administrative",
       "confidence": 0.7347
     },
     "entity:place-czechoslovakia": {
       "name": "Czechoslovakia",
-      "lat": 41.2134446,
+      "lat": 41.2134447,
       "lng": -98.62296,
       "display_name": "Czechoslovakia Cemetery, Farwell, Howard County, Nebraska, United States",
       "osm_type": "cemetery",
-      "confidence": 0.1067
+      "confidence": 0.08
     },
     "entity:place-europe": {
       "name": "Europe",
@@ -331,9 +339,9 @@
     },
     "entity:place-syracuse": {
       "name": "Syracuse",
-      "lat": 37.0646139,
-      "lng": 15.2907196,
-      "display_name": "Syracuse, Siracusa, Sicily, 96100, Italy",
+      "lat": 37.0315752,
+      "lng": 15.2124277,
+      "display_name": "Siracusa, Sicily, 96100, Italy",
       "osm_type": "administrative",
       "confidence": 0.6525
     },
@@ -371,10 +379,10 @@
     },
     "entity:place-west-florida": {
       "name": "West Florida",
-      "lat": 28.1170658,
-      "lng": -82.5980286,
-      "display_name": "West, Rainbow Terrace, Post Shores, Keystone, Hillsborough County, Florida, 33556, United States",
-      "osm_type": "camp_site",
+      "lat": 25.9488804,
+      "lng": -80.3149819,
+      "display_name": "West, Northwest 200th Terrace, Country Club, Miami-Dade County, Florida, 33015, United States",
+      "osm_type": "golf_course",
       "confidence": 0.0
     },
     "entity:place-west-georgia": {
@@ -419,8 +427,8 @@
     },
     "entity:place-cambridge": {
       "name": "Cambridge",
-      "lat": 52.2055314,
-      "lng": 0.1186637,
+      "lat": 52.1975846,
+      "lng": 0.1391537,
       "display_name": "Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, United Kingdom",
       "osm_type": "administrative",
       "confidence": 0.699
@@ -447,7 +455,7 @@
       "lng": -18.1059013,
       "display_name": "Iceland",
       "osm_type": "administrative",
-      "confidence": 0.7852
+      "confidence": 0.7876
     },
     "entity:place-leningrad": {
       "name": "Leningrad",
@@ -463,12 +471,12 @@
       "lng": -75.378872,
       "display_name": "Town of Leyden, Lewis County, New York, United States",
       "osm_type": "administrative",
-      "confidence": 0.415
+      "confidence": 0.4232
     },
     "entity:place-new-south-wales": {
       "name": "New South Wales",
-      "lat": -31.8759835,
-      "lng": 147.2869493,
+      "lat": -32.1629515,
+      "lng": 147.0320566,
       "display_name": "New South Wales, Australia",
       "osm_type": "administrative",
       "confidence": 0.7492
@@ -515,8 +523,8 @@
     },
     "entity:place-warsaw": {
       "name": "Warsaw",
-      "lat": 52.2333742,
-      "lng": 21.0711489,
+      "lat": 52.2319581,
+      "lng": 21.0067249,
       "display_name": "Warsaw, Masovian Voivodeship, Poland",
       "osm_type": "administrative",
       "confidence": 0.7999
@@ -535,7 +543,7 @@
       "lng": -2.0928095,
       "display_name": "Aberdeen City, Scotland, United Kingdom",
       "osm_type": "administrative",
-      "confidence": 0.6451
+      "confidence": 0.6509
     },
     "entity:place-san-francisco": {
       "name": "San Francisco",
@@ -595,11 +603,11 @@
     },
     "entity:place-arlington": {
       "name": "Arlington",
-      "lat": 32.7355816,
-      "lng": -97.1071186,
-      "display_name": "Arlington, Tarrant County, Texas, United States",
+      "lat": 38.8769326,
+      "lng": -77.0893094,
+      "display_name": "Arlington County, Virginia, United States",
       "osm_type": "administrative",
-      "confidence": 0.639
+      "confidence": 0.6035
     },
     "entity:place-moscow": {
       "name": "Moscow",
@@ -627,10 +635,10 @@
     },
     "entity:place-the-soviet-union": {
       "name": "the Soviet Union",
-      "lat": 56.3456965,
-      "lng": 43.844463,
-      "display_name": "Decorative Stone in honor of the hero of the Soviet Union Ryazanov V.G, улица Шимборского, Сормовский район, Nizhny Novgorod, Nizhny Novgorod Oblast, Volga Federal District, 603037, Russia",
-      "osm_type": "monument",
+      "lat": 61.7843836,
+      "lng": 34.3450855,
+      "display_name": "Memorial plaque to the Hero of the Soviet Union N.D.  Pavlov, 3, Gagarina Square, Centre (district of Petrozavodsk), Petrozavodsk, Petrozavodsk Urban Okrug, Karelia, Northwestern Federal District, 185035, Russia",
+      "osm_type": "memorial",
       "confidence": 0.0001
     },
     "entity:place-springfield": {
@@ -679,7 +687,7 @@
       "lng": -4.7760138,
       "display_name": "Córdoba, Andalusia, Spain",
       "osm_type": "administrative",
-      "confidence": 0.6509
+      "confidence": 0.659
     },
     "entity:place-spain": {
       "name": "Spain",
@@ -727,7 +735,7 @@
       "lng": -73.8201338,
       "display_name": "Village of Elmsford, Town of Greenburgh, Westchester County, New York, 10523, United States",
       "osm_type": "administrative",
-      "confidence": 0.4187
+      "confidence": 0.4268
     },
     "entity:place-new-jersey": {
       "name": "New Jersey",
@@ -759,14 +767,14 @@
       "lng": -72.5198761,
       "display_name": "Amherst, Hampshire County, Massachusetts, United States",
       "osm_type": "administrative",
-      "confidence": 0.5457
+      "confidence": 0.5522
     },
     "entity:place-dover": {
       "name": "Dover",
       "lat": 51.1251275,
       "lng": 1.3134228,
-      "display_name": "Dover, Kent, England, United Kingdom",
-      "osm_type": "administrative",
+      "display_name": "Dover, Kent, England, CT16 1NB, United Kingdom",
+      "osm_type": "town",
       "confidence": 0.6021
     },
     "entity:place-menasha": {
@@ -781,9 +789,9 @@
       "name": "Scarborough",
       "lat": 54.2820009,
       "lng": -0.4011868,
-      "display_name": "Scarborough, North Yorkshire, York and North Yorkshire, England, YO11 1LP, United Kingdom",
-      "osm_type": "town",
-      "confidence": 0.5537
+      "display_name": "Scarborough, North Yorkshire, York and North Yorkshire, England, United Kingdom",
+      "osm_type": "administrative",
+      "confidence": 0.558
     },
     "entity:place-ontario": {
       "name": "Ontario",
@@ -803,11 +811,11 @@
     },
     "entity:place-glencoe": {
       "name": "Glencoe",
-      "lat": 42.1350268,
-      "lng": -87.7581188,
-      "display_name": "Glencoe, New Trier Township, Cook County, Illinois, 60022, United States",
-      "osm_type": "administrative",
-      "confidence": 0.5104
+      "lat": 56.6827647,
+      "lng": -5.1014552,
+      "display_name": "Glencoe, Highland, Scotland, PH49 4HS, United Kingdom",
+      "osm_type": "village",
+      "confidence": 0.4516
     },
     "entity:place-scotland": {
       "name": "Scotland",
@@ -849,6 +857,14 @@
       "osm_type": "administrative",
       "confidence": 0.7613
     },
+    "entity:place-ilinois": {
+      "name": "Ilinois",
+      "lat": 40.0796606,
+      "lng": -89.4337288,
+      "display_name": "Illinois, United States",
+      "osm_type": "administrative",
+      "confidence": 0.7992
+    },
     "entity:place-basel": {
       "name": "Basel",
       "lat": 47.5581077,
@@ -867,11 +883,11 @@
     },
     "entity:place-alexandria": {
       "name": "Alexandria",
-      "lat": 38.8051095,
-      "lng": -77.0470229,
-      "display_name": "Alexandria, Virginia, United States",
-      "osm_type": "administrative",
-      "confidence": 0.6058
+      "lat": 31.1991806,
+      "lng": 29.8951716,
+      "display_name": "Alexandria, 21519, Egypt",
+      "osm_type": "city",
+      "confidence": 0.7174
     },
     "entity:place-newbury-park": {
       "name": "Newbury Park",
@@ -971,8 +987,8 @@
     },
     "entity:place-penzance": {
       "name": "Penzance",
-      "lat": 50.1194794,
-      "lng": -5.5352463,
+      "lat": 50.1191914,
+      "lng": -5.5358825,
       "display_name": "Penzance, Cornwall, England, United Kingdom",
       "osm_type": "administrative",
       "confidence": 0.5781
@@ -987,24 +1003,16 @@
     },
     "entity:place-the-united-kingdom": {
       "name": "the United Kingdom",
-      "lat": 52.4577754,
-      "lng": -1.8692099,
-      "display_name": "The (Oval) Banqueting Suite, 372, Stratford Road, Sparkhill, Sparkbrook, Birmingham, West Midlands, England, B11 4AB, United Kingdom",
-      "osm_type": "retail",
-      "confidence": 0.3586
-    },
-    "entity:place-wayland": {
-      "name": "Wayland",
-      "lat": 42.3632063,
-      "lng": -71.3606721,
-      "display_name": "Wayland, Middlesex County, Massachusetts, 01778, United States",
-      "osm_type": "administrative",
-      "confidence": 0.4567
+      "lat": 56.5651073,
+      "lng": -3.5802504,
+      "display_name": "The, Brae Street, Dunkeld, Perth and Kinross, Scotland, PH8 0JN, United Kingdom",
+      "osm_type": "garage",
+      "confidence": 0.0
     },
     "entity:place-u-k": {
       "name": "U.K.",
-      "lat": 52.0895167,
-      "lng": 5.762849,
+      "lat": 52.0896865,
+      "lng": 5.7629448,
       "display_name": "U/K, Otterlo, Ede, Gelderland, Netherlands, 6731 SM, Netherlands",
       "osm_type": "track",
       "confidence": 0.0534
@@ -1029,7 +1037,7 @@
       "name": "Newgrange",
       "lat": 53.6946974,
       "lng": -6.4755522,
-      "display_name": "Newgrange, L1608, Mellifont ED, The Municipal District of Laytown — Bettystown, County Meath, Leinster, C15 XW28, Ireland",
+      "display_name": "Newgrange, L1608, Mellifont ED, The Municipal District of Laytown — Bettystown, County Meath, Leinster, Ireland",
       "osm_type": "attraction",
       "confidence": 0.4607
     },
@@ -1037,29 +1045,13 @@
       "name": "Smithy, Berkshire",
       "lat": 51.5263879,
       "lng": -1.1850773,
-      "display_name": "The Smithy, Rectory Road, Streatley, West Berkshire, England, RG8 9QE, United Kingdom",
+      "display_name": "The Smithy, Rectory Road, Reading, West Berkshire, England, RG8 9QE, United Kingdom",
       "osm_type": "house",
       "confidence": 0.0
     },
-    "entity:place-west-chambers": {
-      "name": "West Chambers",
-      "lat": 37.8212166,
-      "lng": -81.8801204,
-      "display_name": "Chambers, Logan County, West Virginia, United States",
-      "osm_type": "hamlet",
-      "confidence": 0.321
-    },
-    "entity:place-the-west-chamber": {
-      "name": "The West Chamber",
-      "lat": 35.1519986,
-      "lng": -88.330398,
-      "display_name": "Chamber Field, Pittsburg Landing, Hardin County, West Tennessee, Tennessee, United States",
-      "osm_type": "farmland",
-      "confidence": 0.1067
-    },
     "entity:place-loughcrew": {
       "name": "Loughcrew",
-      "lat": 53.728989,
+      "lat": 53.7289891,
       "lng": -7.1405157,
       "display_name": "Loughcrew, Moylagh ED, The Municipal District of Kells, County Meath, Leinster, Ireland",
       "osm_type": "administrative",
@@ -1067,11 +1059,11 @@
     },
     "entity:place-loughcrew-hills": {
       "name": "Loughcrew Hills",
-      "lat": 53.7689422,
+      "lat": 53.7689423,
       "lng": -7.1681766,
       "display_name": "Loughcrew Hills, Oldcastle, Oldcastle ED, The Municipal District of Kells, County Meath, Leinster, Ireland",
       "osm_type": "residential",
-      "confidence": 0.1067
+      "confidence": 0.08
     },
     "entity:place-county-meath": {
       "name": "County Meath",
@@ -1085,13 +1077,13 @@
       "name": "the Boyne River",
       "lat": 53.576367,
       "lng": -6.7192767,
-      "display_name": "Boyne, Kilcooly ED, The Municipal District of Trim, County Meath, Leinster, C15 X3Y2, Ireland",
+      "display_name": "Boyne, Kilcooly ED, The Municipal District of Trim, County Meath, Leinster, Ireland",
       "osm_type": "river",
       "confidence": 0.1467
     },
     "entity:place-loughcrew-i": {
       "name": "Loughcrew I",
-      "lat": 53.728989,
+      "lat": 53.7289891,
       "lng": -7.1405157,
       "display_name": "Loughcrew, Moylagh ED, The Municipal District of Kells, County Meath, Leinster, Ireland",
       "osm_type": "administrative",
@@ -1127,7 +1119,7 @@
       "lng": -118.000016,
       "display_name": "Huntington Beach, Orange County, California, United States",
       "osm_type": "administrative",
-      "confidence": 0.5613
+      "confidence": 0.5651
     },
     "entity:place-jordan": {
       "name": "Jordan",
@@ -1171,11 +1163,11 @@
     },
     "entity:place-nassau-hall": {
       "name": "Nassau Hall",
-      "lat": 40.8228185,
-      "lng": -73.539329,
-      "display_name": "Nassau Hall, Village of Muttontown, Town of Oyster Bay, Nassau County, New York, United States",
-      "osm_type": "nature_reserve",
-      "confidence": 0.0801
+      "lat": 40.3486864,
+      "lng": -74.6593917,
+      "display_name": "Nassau Hall, Chapel Drive, Princeton, Mercer County, New Jersey, 08544, United States",
+      "osm_type": "university",
+      "confidence": 0.0001
     },
     "entity:place-new-brunswick": {
       "name": "New Brunswick",
@@ -1207,7 +1199,7 @@
       "lng": -82.5508407,
       "display_name": "Asheville, Buncombe County, North Carolina, United States",
       "osm_type": "administrative",
-      "confidence": 0.589
+      "confidence": 0.5924
     },
     "entity:place-moorestown": {
       "name": "Moorestown",
@@ -1215,7 +1207,7 @@
       "lng": -74.9426677,
       "display_name": "Moorestown Township, Burlington County, New Jersey, 08057, United States",
       "osm_type": "administrative",
-      "confidence": 0.4161
+      "confidence": 0.4639
     },
     "entity:place-indian-mills": {
       "name": "Indian Mills",
@@ -1223,7 +1215,7 @@
       "lng": -74.7443261,
       "display_name": "Indian Mills, Shamong Township, Burlington County, New Jersey, United States",
       "osm_type": "hamlet",
-      "confidence": 0.3159
+      "confidence": 0.3541
     },
     "entity:place-boonton": {
       "name": "Boonton",
@@ -1275,7 +1267,7 @@
     },
     "entity:place-the-devils-tower": {
       "name": "the Devils Tower",
-      "lat": 44.6795515,
+      "lat": 44.6795516,
       "lng": -104.5925256,
       "display_name": "The Golf Club at Devils Tower, Pine Street, Hulett, Crook County, Wyoming, 82720, United States",
       "osm_type": "golf_course",
@@ -1299,11 +1291,11 @@
     },
     "entity:place-devils-tower": {
       "name": "Devils Tower",
-      "lat": 44.5906121,
+      "lat": 44.5906122,
       "lng": -104.715103,
       "display_name": "Bear Lodge Butte, Crook County, Wyoming, United States",
       "osm_type": "bare_rock",
-      "confidence": 0.4648
+      "confidence": 0.453
     },
     "entity:place-new-york-city": {
       "name": "New York City",
@@ -1319,7 +1311,7 @@
       "lng": -77.3383438,
       "display_name": "Nassau, New Providence, Bahamas",
       "osm_type": "city",
-      "confidence": 0.6197
+      "confidence": 0.6152
     },
     "entity:place-quantico": {
       "name": "Quantico",
@@ -1391,7 +1383,7 @@
       "lng": 8.6820917,
       "display_name": "Frankfurt, Hesse, Germany",
       "osm_type": "administrative",
-      "confidence": 0.7474
+      "confidence": 0.7575
     },
     "entity:place-singapore": {
       "name": "Singapore",
@@ -1413,9 +1405,9 @@
       "name": "Albuquerque",
       "lat": 35.0841034,
       "lng": -106.650985,
-      "display_name": "Albuquerque, Bernalillo County, New Mexico, 87102, United States",
+      "display_name": "Albuquerque, Bernalillo County, New Mexico, United States",
       "osm_type": "city",
-      "confidence": 0.6411
+      "confidence": 0.6473
     },
     "entity:place-u-s-a": {
       "name": "U.S.A.",
@@ -1459,19 +1451,19 @@
     },
     "entity:place-nile-delta": {
       "name": "Nile delta",
-      "lat": 0.3182017,
-      "lng": 32.5753448,
-      "display_name": "Delta, Buganda Road, Kikuubo, Nakasero, Central, Kampala, Uganda",
-      "osm_type": "yes",
-      "confidence": 0.0001
+      "lat": 5.5437255,
+      "lng": 5.7819053,
+      "display_name": "Nile Nus and Pri Montessori School, 82, Enerhen Road, Warri, Uvwie, Delta State, 330102, Nigeria",
+      "osm_type": "school",
+      "confidence": 0.0
     },
     "entity:place-the-great-pyramid": {
       "name": "the Great Pyramid",
-      "lat": 35.1559704,
-      "lng": -90.0518931,
+      "lat": 35.1559726,
+      "lng": -90.0519146,
       "display_name": "Memphis Pyramid, Bass Pro Drive, Lauderdale Courts, Memphis, Shelby County, West Tennessee, Tennessee, 38103, United States",
       "osm_type": "retail",
-      "confidence": 0.4361
+      "confidence": 0.4443
     },
     "entity:place-the-grand-gallery": {
       "name": "the Grand Gallery",
@@ -1491,16 +1483,16 @@
     },
     "entity:place-lower-egypt": {
       "name": "Lower Egypt",
-      "lat": 37.5653071,
-      "lng": -111.2098343,
-      "display_name": "Lower Egypt 5, Garfield County, Utah, United States",
-      "osm_type": "stream",
-      "confidence": 0.1067
+      "lat": 50.633644,
+      "lng": -1.1852365,
+      "display_name": "Egypt Point, Lower Hyde, Shanklin, Isle of Wight, England, United Kingdom",
+      "osm_type": "locality",
+      "confidence": 0.0667
     },
     "entity:place-memphis": {
       "name": "Memphis",
-      "lat": 35.1460249,
-      "lng": -90.0517638,
+      "lat": 35.146026,
+      "lng": -90.0517786,
       "display_name": "Memphis, Shelby County, West Tennessee, Tennessee, United States",
       "osm_type": "administrative",
       "confidence": 0.6815
@@ -1515,11 +1507,11 @@
     },
     "entity:place-plainfield": {
       "name": "Plainfield",
-      "lat": 41.6086711,
-      "lng": -88.2054345,
-      "display_name": "Plainfield, Plainfield Township, Will County, Illinois, United States",
+      "lat": 40.6201412,
+      "lng": -74.4222416,
+      "display_name": "Plainfield, Union County, New Jersey, United States",
       "osm_type": "administrative",
-      "confidence": 0.5369
+      "confidence": 0.5096
     },
     "entity:place-indiana": {
       "name": "Indiana",
@@ -1571,9 +1563,9 @@
     },
     "entity:place-the-gulf-of-mexico": {
       "name": "the Gulf of Mexico",
-      "lat": 30.6886019,
+      "lat": 30.688602,
       "lng": -88.0375623,
-      "display_name": "National Maritime Museum of the Gulf of Mexico, 155, South Water Street, Mobile County Commission District 3, Mobile, Mobile County, Alabama, 36602, United States",
+      "display_name": "National Maritime Museum of the Gulf of Mexico, 155, South Water Street, Mobile County Commission District 3, Mobile, Mobile County, Alabama, 36601, United States",
       "osm_type": "museum",
       "confidence": 0.0001
     },
@@ -1631,7 +1623,7 @@
       "lng": -118.329523,
       "display_name": "Hollywood, Los Angeles, Los Angeles County, California, 90028, United States",
       "osm_type": "suburb",
-      "confidence": 0.7258
+      "confidence": 0.736
     },
     "entity:place-alamagordo": {
       "name": "Alamagordo",
@@ -1643,11 +1635,11 @@
     },
     "entity:place-san-agustin": {
       "name": "San Agustin",
-      "lat": 29.8946952,
-      "lng": -81.3145395,
-      "display_name": "Saint Augustine, Saint Johns County, Florida, 32084, United States",
+      "lat": 40.0591346,
+      "lng": -0.6930191,
+      "display_name": "San Agustín, Gúdar-Javalambre, Teruel, Aragon, 44480, Spain",
       "osm_type": "administrative",
-      "confidence": 0.5608
+      "confidence": 0.5199
     },
     "entity:place-minneapolis": {
       "name": "Minneapolis",
@@ -1661,9 +1653,9 @@
       "name": "Ann Arbor District",
       "lat": 42.2781734,
       "lng": -83.7457081,
-      "display_name": "Ann Arbor District Library Downtown, 343, South Fifth Avenue, Old Fourth Ward, Ann Arbor, Washtenaw County, Michigan, 48104, United States",
+      "display_name": "Ann Arbor District Library Downtown, 343, South Fifth Avenue, Germantown, Ann Arbor, Washtenaw County, Michigan, 48104, United States",
       "osm_type": "library",
-      "confidence": 0.2682
+      "confidence": 0.26
     },
     "entity:place-newburyport": {
       "name": "Newburyport",
@@ -1715,11 +1707,11 @@
     },
     "entity:place-southwest": {
       "name": "Southwest",
-      "lat": 44.9123474,
-      "lng": -93.3010387,
-      "display_name": "Southwest, Minneapolis, Hennepin County, Minnesota, United States",
+      "lat": 5.0577606,
+      "lng": 9.2289407,
+      "display_name": "Southwest, Cameroon",
       "osm_type": "administrative",
-      "confidence": 0.3146
+      "confidence": 0.514
     },
     "entity:place-d-c": {
       "name": "D.C.",
@@ -1737,41 +1729,6 @@
       "reason": "noise_filtered"
     },
     {
-      "id": "entity:place-fort-worth-star-telegram-1947-7-28-citenote-30",
-      "name": "Fort-Worth-Star-Telegram-1947-7)[[28]](#citenote-30",
-      "reason": "noise_filtered"
-    },
-    {
-      "id": "entity:place-the-roswell-narrative-61-citenote-63-62-citenote-64",
-      "name": "the Roswell narrative.[[61]](#citenote-63)[[62]](#citenote-64",
-      "reason": "noise_filtered"
-    },
-    {
-      "id": "entity:place-the-plains-of-san-agustin-98-citenote-goldberg-2001-p196-100-99-citenote-101",
-      "name": "the Plains of San Agustin.[[98]](#citenote-Goldberg-2001-p196-100)[[99]](#citenote-101",
-      "reason": "noise_filtered"
-    },
-    {
-      "id": "entity:place-documents-131-citenote-134",
-      "name": "documents.[[131]](#citenote-134",
-      "reason": "noise_filtered"
-    },
-    {
-      "id": "entity:place-debris-153-citenote-156",
-      "name": "debris.[[153]](#citenote-156",
-      "reason": "noise_filtered"
-    },
-    {
-      "id": "entity:place-extraterrestrials-199-citenote-202",
-      "name": "extraterrestrials.[[199]](#citenote-202",
-      "reason": "noise_filtered"
-    },
-    {
-      "id": "entity:place-the-roswell-incident-272-citenote-276",
-      "name": "the Roswell incident.[[272]](#citenote-276",
-      "reason": "noise_filtered"
-    },
-    {
       "id": "entity:place-the-adler-planetarium",
       "name": "the Adler Planetarium",
       "reason": "no_results"
@@ -1782,28 +1739,13 @@
       "reason": "no_results"
     },
     {
-      "id": "entity:place-the-parascience-conference-london",
-      "name": "the Parascience Conference, London",
-      "reason": "no_results"
-    },
-    {
       "id": "entity:place-louchcrew",
       "name": "Louchcrew",
       "reason": "no_results"
     },
     {
-      "id": "entity:place-loughcrew-l-composite",
-      "name": "Loughcrew L - composite",
-      "reason": "no_results"
-    },
-    {
       "id": "entity:place-the-john-m-clayton-hall",
       "name": "the John M Clayton Hall",
-      "reason": "no_results"
-    },
-    {
-      "id": "entity:place-rosebow",
-      "name": "Rosebow",
       "reason": "no_results"
     },
     {
@@ -1820,26 +1762,11 @@
       "id": "entity:place-roswell-and-chimayo",
       "name": "Roswell and Chimayó",
       "reason": "no_results"
-    },
-    {
-      "id": "entity:place-the-united-statesjuly-1947",
-      "name": "the United StatesJuly 1947",
-      "reason": "no_results"
-    },
-    {
-      "id": "entity:place-the-united-statesroswell",
-      "name": "the United StatesRoswell",
-      "reason": "no_results"
-    },
-    {
-      "id": "entity:place-new-mexicoufo",
-      "name": "New MexicoUFO",
-      "reason": "no_results"
     }
   ],
   "stats": {
-    "total": 237,
-    "geocoded": 216,
-    "failed": 21
+    "total": 223,
+    "geocoded": 215,
+    "failed": 8
   }
 }

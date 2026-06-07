@@ -674,6 +674,15 @@
         const submittedAs = result.submitted_as
           ? `<p style="color:#888; font-size:0.85rem;">Submitted as <strong style="color:#81C784;">@${result.submitted_as}</strong></p>`
           : '';
+        // If we have a predicted result link (video submissions), make it the
+        // primary CTA so submitters can reach their result without GitHub.
+        const resultLink = result.result_url
+          ? `<div style="margin:1.5rem 0; padding:1rem; border:1px solid #2e7d32; border-radius:8px; background:#1b2a1b;">
+               <p style="color:#ccc; margin:0 0 0.5rem;">Your processed video will appear here &mdash; bookmark this link:</p>
+               <p style="margin:0;"><a href="${result.result_url}" target="_blank" style="color:#81C784; word-break:break-all;">${result.result_url}</a></p>
+               <p style="color:#888; font-size:0.85rem; margin:0.5rem 0 0;">Processing takes a few minutes; the page updates automatically.</p>
+             </div>`
+          : '';
         document.getElementById('submit-form').innerHTML = `
           <div style="text-align:center; padding: 2rem 0;">
             <div style="font-size:3rem; margin-bottom:1rem;">&#10003;</div>
@@ -682,8 +691,9 @@
               Your source has been submitted for review.<br>
               A maintainer will process it into the knowledge graph.
             </p>
+            ${resultLink}
             ${submittedAs}
-            <p><a href="${result.issue_url}" target="_blank" style="color:#4FC3F7;">View submission on GitHub &rarr;</a></p>
+            <p style="font-size:0.85rem;"><a href="${result.issue_url}" target="_blank" style="color:#4FC3F7;">View submission on GitHub &rarr;</a></p>
             <p style="margin-top:2rem;"><a href="submit.html" style="color:#4FC3F7;">Submit another source</a></p>
           </div>
         `;

@@ -317,6 +317,24 @@
       return names[info.cat] || info.cat;
     }
 
+    // While a just-submitted video is still being processed, its metadata.json
+    // doesn't exist yet. Show a friendly pending state and poll until it lands,
+    // so a submitter's bookmarked link "just works" without a refresh.
+    let processingPolls = 0;
+    function showProcessing(slug) {
+      processingPolls++;
+      const longWait = processingPolls > 15 // ~5 min at 20s intervals
+        ? '<br><br><span style="color:#888;font-size:0.9rem;">This is taking longer than usual — processing stays queued, so you can safely close this and come back later via the same link.</span>'
+        : '';
+      document.getElementById('content').innerHTML = `
+        <div class="message">
+          <div style="font-size:2.5rem;margin-bottom:0.75rem;">&#9203;</div>
+          <strong>Your video is being processed.</strong><br>
+          This usually takes a few minutes. This page will update automatically when it's ready.${longWait}
+        </div>`;
+      setTimeout(loadAnalysis, 20000);
+    }
+
     async function loadAnalysis() {
       const slug = getSlug();
       if (!slug) {
@@ -326,16 +344,17 @@
 
       document.getElementById('page-title').textContent = `Video Analysis: ${slug.replace(/-/g, ' ')}`;
 
-      // Try loading metadata from sources dir
+      // Try loading metadata from sources dir. cache:no-store so the polling
+      // below (while a freshly-submitted video is still processing) sees the
+      // file as soon as it's deployed.
       const basePath = `data/sources/${slug}`;
       let meta;
       try {
-        const resp = await fetch(`${basePath}/metadata.json`);
+        const resp = await fetch(`${basePath}/metadata.json`, { cache: 'no-store' });
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         meta = await resp.json();
       } catch {
-        document.getElementById('content').innerHTML =
-          `<div class="message">Could not load analysis for "${slug}".<br>Ensure the source has been processed as a video type.</div>`;
+        showProcessing(slug);
         return;
       }
 

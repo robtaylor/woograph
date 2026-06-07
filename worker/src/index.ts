@@ -22,8 +22,33 @@ export interface Env {
 }
 
 const GITHUB_REPO = "robtaylor/woograph";
+const SITE_BASE = "https://robtaylor.github.io/woograph";
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 30; // 30 days
 const OAUTH_STATE_TTL_SECONDS = 60 * 10;        // 10 minutes
+
+// Video extensions, kept in sync with the CI auto-detect in issue-to-pr.yml
+// and _VIDEO_MIME_TYPES in pipeline/src/woograph/cli.py.
+const VIDEO_EXT_RE = /\.(mov|mp4|m4v|avi|webm|mkv|mpg|mpeg|wmv|flv)$/i;
+
+/**
+ * Derive the submission slug from a title. Must match the CI slug algorithm in
+ * .github/workflows/issue-to-pr.yml so the predicted result URL is correct:
+ * lowercase, non-alphanumerics -> "-", collapse repeats, trim ends.
+ */
+function slugify(title: string): string {
+	return title
+		.toLowerCase()
+		.replace(/[^a-z0-9]/g, "-")
+		.replace(/-+/g, "-")
+		.replace(/^-+|-+$/g, "");
+}
+
+/** A submission whose result is the video viewer (type=video or a video URL). */
+function isVideoSubmission(payload: SubmitPayload): boolean {
+	if (payload.type === "video") return true;
+	const path = (payload.url || "").split(/[?#]/)[0];
+	return VIDEO_EXT_RE.test(path);
+}
 
 interface Session {
 	login: string;
@@ -524,11 +549,22 @@ async function handleSubmit(
 		html_url: string;
 	};
 
+	// Predict where the processed result will land so the submitter gets a
+	// bookmarkable link immediately — no GitHub account required. The slug
+	// mirrors the CI algorithm; collisions (duplicate titles) get a numeric
+	// suffix in CI and are not reflected here, but those are rare.
+	const slug = slugify(payload.title);
+	const resultUrl = isVideoSubmission(payload)
+		? `${SITE_BASE}/video.html?source=${encodeURIComponent(slug)}`
+		: null;
+
 	return new Response(
 		JSON.stringify({
 			issue_number: issue.number,
 			issue_url: issue.html_url,
 			submitted_as: session?.login ?? null,
+			slug,
+			result_url: resultUrl,
 		}),
 		{ status: 201, headers: jsonHeaders },
 	);

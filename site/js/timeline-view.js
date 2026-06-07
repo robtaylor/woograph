@@ -200,6 +200,14 @@ function _displayLabel(item) {
 }
 
 /**
+ * Items that should always be visible regardless of zoom/exclusion filtering.
+ * Video sources are the site's headline content and there are very few of them.
+ */
+function _alwaysShow(item) {
+  return item.type === 'source' && item.source_type === 'video';
+}
+
+/**
  * Greedy exclusion-zone filter with monotonicity guarantee.
  * Items are placed in rank order (best first). Each placed item creates
  * an exclusion zone of CARD_WIDTH/pxPerYear years on its side (above/below).
@@ -208,9 +216,15 @@ function _displayLabel(item) {
  * exclusion zone is smaller).
  */
 function _greedyFilter(items, pxPerYear) {
+  // Video sources are the headline content — always show them. Placing them
+  // first lets them claim their slot so lower-ranked items yield to them, and
+  // they bypass the exclusion check below so they're never filtered out.
   const validItems = items
     .filter(item => itemLayout.has(item.id))
-    .sort((a, b) => itemLayout.get(a.id).rank - itemLayout.get(b.id).rank);
+    .sort((a, b) => {
+      if (_alwaysShow(a) !== _alwaysShow(b)) return _alwaysShow(a) ? -1 : 1;
+      return itemLayout.get(a.id).rank - itemLayout.get(b.id).rank;
+    });
 
   const exclusionYears = CARD_WIDTH / pxPerYear;
   const placedAbove = [];
@@ -227,7 +241,7 @@ function _greedyFilter(items, pxPerYear) {
 
     const sidePositions = layout.above ? placedAbove : placedBelow;
     const tooClose = sidePositions.some(pos => Math.abs(pos - yearPos) < exclusionYears);
-    if (!tooClose) {
+    if (_alwaysShow(item) || !tooClose) {
       result.push(item);
       sidePositions.push(yearPos);
     }

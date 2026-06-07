@@ -65,11 +65,21 @@ jobs:
           case "$SOURCE_TYPE" in
             "PDF link")         TYPE="pdf" ;;
             "Website")          TYPE="url" ;;
+            "Video")            TYPE="video" ;;
             "Personal account") TYPE="account" ;;
             *)                  TYPE="url" ;;
           esac
 
-          # Validate: PDF/Website require a URL
+          # Auto-detect video by file extension regardless of selected type —
+          # the external upload worker may not set the type correctly, and a
+          # video routed as "url" would be fed to the web extractor, not the
+          # video pipeline. Strip any query/fragment before matching.
+          URL_PATH="${URL%%[?#]*}"
+          if echo "$URL_PATH" | grep -qiE '\.(mov|mp4|m4v|avi|webm|mkv|mpg|mpeg|wmv|flv)$'; then
+            TYPE="video"
+          fi
+
+          # Validate: PDF/Website/Video require a URL
           if [ "$TYPE" != "account" ] && [ -z "$URL" ]; then
             echo "needs_url=true" >> "$GITHUB_OUTPUT"
             echo "source_type=$SOURCE_TYPE" >> "$GITHUB_OUTPUT"
@@ -139,11 +149,39 @@ jobs:
             TAGS_YAML="[]"
           fi
 
+          # Capture uploaded video bytes at submission time so processing is
+          # immune to the upload URL expiring (the upload worker serves files
+          # only temporarily). Store under submissions/files/ and reference via
+          # `file:` — the pipeline prefers the committed file over the URL. The
+          # URL is retained for provenance.
+          FILE_NAME=""
+          if [ "$TYPE" = "video" ] && [ -n "$URL" ]; then
+            EXT=$(printf '%s' "${URL%%[?#]*}" | grep -oE '\.[A-Za-z0-9]+$' | tr '[:upper:]' '[:lower:]')
+            if [ -z "$EXT" ]; then
+              echo "::warning::Could not determine a file extension from $URL — defaulting to .mp4"
+              EXT=".mp4"
+            fi
+            FILE_NAME="${SLUG}${EXT}"
+            mkdir -p submissions/files
+            URL_ENC="${URL// /%20}"  # encode spaces — upload filenames may contain them
+            echo "Downloading video source: $URL -> submissions/files/${FILE_NAME}"
+            if ! curl -fSL --retry 3 --retry-delay 2 \
+                 --connect-timeout 30 --max-time 600 \
+                 -H "User-Agent: Mozilla/5.0" \
+                 -o "submissions/files/${FILE_NAME}" "$URL_ENC"; then
+              echo "::error::Failed to download video source from $URL — the upload may have already expired."
+              exit 1
+            fi
+          fi
+
           # Build the YAML submission file
           {
             echo "source:"
             echo "  title: \"$(echo "$TITLE" | sed 's/"/\\"/g')\""
             echo "  type: $TYPE"
+            if [ -n "$FILE_NAME" ]; then
+              echo "  file: \"$FILE_NAME\""
+            fi
             if [ -n "$URL" ]; then
               echo "  url: \"$URL\""
             fi
@@ -167,6 +205,7 @@ jobs:
         if: steps.parse.outputs.needs_url != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WORKFLOW_PAT: ${{ secrets.WORKFLOW_PAT }}
           SLUG: ${{ steps.parse.outputs.slug }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
@@ -196,3 +235,12 @@ jobs:
             --body "Your submission has been converted into a pull request: ${PR_URL}
 
           A maintainer will review it shortly. Once approved and merged, the source will be processed into the knowledge graph."
+
+          # Trigger source processing explicitly. PRs created with the default
+          # GITHUB_TOKEN do NOT fire the pull_request event (GitHub's anti-recursion
+          # rule), so process-pr.yml would never run on its own. Dispatch it with a
+          # PAT — same pattern the index path uses for process-index.yml.
+          PR_NUMBER="${PR_URL##*/}"
+          GH_TOKEN="$WORKFLOW_PAT" gh workflow run process-pr.yml \
+            --ref main \
+            -f pr_number="$PR_NUMBER"

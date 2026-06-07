@@ -1,5 +1,5 @@
 name: Submit a Source
-description: Add a document, website, or personal account to the knowledge graph
+description: Add a document, website, video, or personal account to the knowledge graph
 title: "[Source] "
 labels: ["submission"]
 body:
@@ -10,6 +10,7 @@ body:
       options:
         - PDF link
         - Website
+        - Video
         - Personal account
     validations:
       required: true
@@ -17,7 +18,7 @@ body:
     id: url
     attributes:
       label: URL
-      description: Link to the PDF or website (not needed for personal accounts)
+      description: Link to the PDF, website, or video file (not needed for personal accounts)
   - type: input
     id: tags
     attributes:

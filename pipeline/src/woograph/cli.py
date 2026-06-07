@@ -251,6 +251,9 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
         if source_type == "pdf":
             file_name = source.get("file", "")
             pdf_url = source.get("url", "")
+            # Unlike video (which prefers a committed file), PDF prefers the URL:
+            # it fetches the current canonical document and has a Wayback fallback,
+            # so a possibly-stale committed copy is only the secondary source.
             if pdf_url:
                 # Download PDF from URL with browser headers
                 import requests as _requests
@@ -305,10 +308,13 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
         elif source_type == "video":
             file_name = source.get("file", "")
             video_url = source.get("url", "")
-            if video_url:
-                video_path = _download_video(video_url, output_dir, slug, source)
-            elif file_name:
+            # Prefer a committed file over the URL: uploads are captured into
+            # submissions/files/ at submission time, so the local bytes are
+            # authoritative and immune to the original URL expiring.
+            if file_name:
                 video_path = repo_root / "submissions" / "files" / file_name
+            elif video_url:
+                video_path = _download_video(video_url, output_dir, slug, source)
             else:
                 click.echo("Error: Video requires either 'file' or 'url'", err=True)
                 raise SystemExit(1)

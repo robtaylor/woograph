@@ -31,6 +31,20 @@ graph/.cache/
 # Downloaded PDFs (sourced from URLs, not stored in git)
 sources/**/*.pdf
 
+# Source/rendered videos are archived to R2 (referenced via r2_urls in
+# metadata.json), too large for git/GitHub Pages. See _upload_videos_to_r2.
+sources/**/*.mov
+sources/**/*.MOV
+sources/**/*.mp4
+sources/**/*.m4v
+sources/**/*.avi
+sources/**/*.webm
+sources/**/*.mkv
+sources/**/*.mpg
+sources/**/*.mpeg
+sources/**/*.wmv
+sources/**/*.flv
+
 # Site data - source media copied at deploy time (large/binary)
 site/data/sources/
 

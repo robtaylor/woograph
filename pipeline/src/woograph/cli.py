@@ -32,32 +32,57 @@ logger = logging.getLogger(__name__)
 R2_WORKER_URL = "https://woograph-upload.robtaylor.workers.dev"
 
 
+# Video MIME types by extension, for R2 uploads. Keys are the archival video
+# formats: rendered .mp4 outputs plus the original source (which may be .mov etc).
+_VIDEO_MIME_TYPES = {
+    ".mp4": "video/mp4",
+    ".m4v": "video/mp4",
+    ".mov": "video/quicktime",
+    ".avi": "video/x-msvideo",
+    ".webm": "video/webm",
+    ".mkv": "video/x-matroska",
+    ".mpg": "video/mpeg",
+    ".mpeg": "video/mpeg",
+    ".wmv": "video/x-ms-wmv",
+    ".flv": "video/x-flv",
+}
+
+
 def _upload_videos_to_r2(output_dir: Path) -> dict[str, str]:
-    """Upload .mp4 files from output_dir to R2, return {stem: url} mapping."""
+    """Upload video files from output_dir to R2, return {stem: url} mapping.
+
+    Covers both rendered outputs (.mp4 tracking videos) and the original source
+    video (which may be .mov/.webm/etc). Videos are too large for git/Pages, so
+    they live in R2 and are referenced via r2_urls in metadata.
+    """
     import requests as _requests
 
-    mp4_files = sorted(output_dir.glob("*.mp4"))
-    if not mp4_files:
+    video_files = sorted(
+        p for p in output_dir.iterdir()
+        if p.is_file() and p.suffix.lower() in _VIDEO_MIME_TYPES
+    )
+    if not video_files:
         return {}
 
     urls: dict[str, str] = {}
-    for mp4 in mp4_files:
+    for vid in video_files:
+        mime = _VIDEO_MIME_TYPES[vid.suffix.lower()]
         try:
-            with mp4.open("rb") as f:
+            with vid.open("rb") as f:
                 resp = _requests.post(
-                    f"{R2_WORKER_URL}/upload?filename={mp4.name}",
+                    f"{R2_WORKER_URL}/upload?filename={vid.name}",
                     data=f,
-                    headers={"Content-Type": "video/mp4"},
-                    timeout=120,
+                    headers={"Content-Type": mime},
+                    timeout=300,
                 )
             if resp.ok:
                 data = resp.json()
-                urls[mp4.stem] = data["url"]
-                logger.info("Uploaded %s to R2: %s", mp4.name, data["url"])
+                urls[vid.stem] = data["url"]
+                logger.info("Uploaded %s to R2: %s", vid.name, data["url"])
             else:
-                logger.warning("R2 upload failed for %s: HTTP %s", mp4.name, resp.status_code)
+                logger.warning("R2 upload failed for %s: HTTP %s", vid.name, resp.status_code)
         except Exception:
-            logger.warning("R2 upload failed for %s", mp4.name, exc_info=True)
+            logger.warning("R2 upload failed for %s", vid.name, exc_info=True)
     return urls
 
 
@@ -67,6 +92,24 @@ def _is_youtube_url(url: str) -> bool:
         host in url
         for host in ("youtube.com/watch", "youtu.be/", "youtube.com/shorts/")
     )
+
+
+# Extensions that should always route to the video pipeline. Derived from the
+# MIME map (single source of truth); also mirrored by the CI auto-detect regex
+# in .github/workflows/issue-to-pr.yml and the .gitignore video globs.
+_VIDEO_EXTENSIONS = tuple(_VIDEO_MIME_TYPES)
+
+
+def _looks_like_video(ref: str) -> bool:
+    """True if a URL or filename has a known video extension.
+
+    Strips any query string / fragment before matching so signed upload URLs
+    (e.g. ``foo.mov?token=...``) are still recognised.
+    """
+    if not ref:
+        return False
+    path = ref.split("?", 1)[0].split("#", 1)[0]
+    return path.lower().endswith(_VIDEO_EXTENSIONS)
 
 
 def _download_video(
@@ -239,6 +282,21 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
     source = submission.get("source", {})
     source_type = source.get("type", "")
     title = source.get("title", "unknown")
+
+    # Auto-route to the video pipeline if a "url"-typed submission actually
+    # points at a video file. The CI auto-detects this at submission time, but a
+    # manual YAML edit or a reprocess can bypass that and would otherwise feed a
+    # video to the web extractor (trafilatura). Re-check here so process() is
+    # correct in isolation. Mirrors the extension list in issue-to-pr.yml.
+    if source_type == "url" and (
+        _looks_like_video(source.get("url", ""))
+        or _looks_like_video(source.get("file", ""))
+    ):
+        logger.warning(
+            "Submission typed 'url' but source looks like a video — routing to "
+            "the video pipeline instead of the web extractor"
+        )
+        source_type = "video"
 
     # Derive slug from the YAML filename (without extension)
     slug = submission_yaml.stem

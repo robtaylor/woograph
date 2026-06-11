@@ -14,6 +14,7 @@ from woograph.convert.video import (
     _Track,
     _detect_median_subtraction,
     _link_tracks,
+    _merge_nearby_candidates,
     _select_best_track,
 )
 
@@ -102,6 +103,56 @@ def test_link_tracks_separates_distant_objects():
 
     assert len(tracks) == 2
     assert all(len(t.frame_indices) == 20 for t in tracks)
+
+
+def test_merge_combines_fragments_of_one_object():
+    """Contour fragments of one object must become a single candidate.
+
+    Pins the fragmentation lottery: a smeared speck (or the moon's rim)
+    thresholding into several contours per frame would spawn parallel
+    tracks, splitting the object's temporal coverage between them.
+    """
+    fragments = [
+        _Candidate(BBox(100, 100, 5, 4), 0.8),
+        _Candidate(BBox(107, 101, 4, 4), 0.7),  # 2px gap from the first
+    ]
+    far_away = _Candidate(BBox(300, 50, 6, 6), 0.8)
+
+    merged = _merge_nearby_candidates(fragments + [far_away], merge_dist=8.0)
+
+    assert len(merged) == 2
+    union = next(c for c in merged if c.bbox.x == 100)
+    assert (union.bbox.w, union.bbox.h) == (11, 5)
+    assert far_away in merged
+
+
+def test_fragmented_object_still_wins_coverage():
+    """An object drawn as two close fragments must form ONE winning track."""
+    n, w, h = 60, 320, 240
+    frames = []
+    dot_positions = []
+    for i in range(n):
+        f = np.full((h, w, 3), 120, dtype=np.uint8)
+        x = 40 + int(240 * i / (n - 1))
+        y = 60 + int(120 * i / (n - 1))
+        # Same object smeared into two blobs 6px apart
+        cv2.circle(f, (x - 3, y), 2, (255, 255, 255), -1)
+        cv2.circle(f, (x + 3, y), 2, (255, 255, 255), -1)
+        dot_positions.append((x, y))
+        if i < 15:
+            cv2.circle(f, (80, 180), 25, (255, 255, 255), -1)
+        frames.append(f)
+
+    bboxes = _detect_median_subtraction(frames)
+
+    detected = [(i, b) for i, b in enumerate(bboxes) if b is not None]
+    assert len(detected) > n * 0.6, f"only {len(detected)}/{n} frames detected"
+    for i, b in detected:
+        cx, cy = b.center
+        x, y = dot_positions[i]
+        assert abs(cx - x) < 6 and abs(cy - y) < 6, (
+            f"frame {i}: detection at ({cx:.0f},{cy:.0f}), object at ({x},{y})"
+        )
 
 
 def test_select_prefers_coverage_over_size():

@@ -425,6 +425,50 @@ class _Track:
     candidates: list[_Candidate]
 
 
+def _bbox_gap(a: BBox, b: BBox) -> float:
+    """Shortest distance between two bboxes (0 if they touch or overlap)."""
+    dx = max(0, max(a.x, b.x) - min(a.x + a.w, b.x + b.w))
+    dy = max(0, max(a.y, b.y) - min(a.y + a.h, b.y + b.h))
+    return float(np.hypot(dx, dy))
+
+
+def _merge_nearby_candidates(
+    candidates: list[_Candidate],
+    merge_dist: float,
+) -> list[_Candidate]:
+    """Merge candidates whose bboxes come within merge_dist of each other.
+
+    One object often thresholds into several contour fragments (a motion-
+    smeared speck, the moon's bright rim). Left separate, each fragment
+    spawns its own parallel track and the object's temporal coverage is
+    split between them — making track selection a lottery on stabilisation
+    quality. Merging fragments per frame gives each object one candidate.
+    """
+    merged = list(candidates)
+    changed = True
+    while changed:
+        changed = False
+        for i in range(len(merged)):
+            for j in range(i + 1, len(merged)):
+                a, b = merged[i], merged[j]
+                if _bbox_gap(a.bbox, b.bbox) > merge_dist:
+                    continue
+                x1 = min(a.bbox.x, b.bbox.x)
+                y1 = min(a.bbox.y, b.bbox.y)
+                x2 = max(a.bbox.x + a.bbox.w, b.bbox.x + b.bbox.w)
+                y2 = max(a.bbox.y + a.bbox.h, b.bbox.y + b.bbox.h)
+                union = BBox(x1, y1, x2 - x1, y2 - y1)
+                # Combined contour area over the union bbox
+                contour_area = a.fill_ratio * a.bbox.area + b.fill_ratio * b.bbox.area
+                merged[i] = _Candidate(union, contour_area / union.area)
+                del merged[j]
+                changed = True
+                break
+            if changed:
+                break
+    return merged
+
+
 def _link_tracks(
     frame_candidates: dict[int, list[_Candidate]],
     max_jump: float,
@@ -556,6 +600,7 @@ def _detect_median_subtraction(
     max_bbox_area = 0.05 * w * h
     x_margin, y_margin = 0.05 * w, 0.05 * h
     max_candidates_per_frame = 30  # cap track explosion on noisy frames
+    merge_dist = max(8.0, 0.01 * np.sqrt(h**2 + w**2))
     frame_candidates: dict[int, list[_Candidate]] = {}
 
     for i, g in enumerate(gray_frames):
@@ -597,6 +642,13 @@ def _detect_median_subtraction(
             fill_ratio = cv2.contourArea(contour) / bbox.area
             candidates.append(_Candidate(bbox, fill_ratio))
 
+        if len(candidates) > 200:  # keep O(n²) fragment merging tractable
+            candidates.sort(key=lambda c: c.bbox.area * c.fill_ratio, reverse=True)
+            candidates = candidates[:200]
+        candidates = [
+            c for c in _merge_nearby_candidates(candidates, merge_dist)
+            if c.bbox.area <= max_bbox_area
+        ]
         if len(candidates) > max_candidates_per_frame:
             candidates.sort(key=lambda c: c.bbox.area * c.fill_ratio, reverse=True)
             candidates = candidates[:max_candidates_per_frame]

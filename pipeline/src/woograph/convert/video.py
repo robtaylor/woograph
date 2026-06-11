@@ -689,6 +689,7 @@ def _filter_detections(
     frame_size: tuple[int, int],
     edge_margin: float = 0.05,
     size_tolerance: float = 2.0,
+    padding_factor: float = 2.0,
 ) -> list[BBox | None]:
     """Filter out detections that are outliers in size or near frame edges.
 
@@ -717,8 +718,12 @@ def _filter_detections(
     median_ar = float(np.median(aspect_ratios))
     speck_scale = median_area < 150
 
-    x_margin = w * edge_margin
-    y_margin = h * edge_margin
+    # Edge margin: just enough clearance for a clean padded crop. A speck
+    # needs ~20px, not 5% of a full HD frame — stabilisation drift can park
+    # a legitimate track near the border for long stretches.
+    crop_clearance = max(8.0, padding_factor * float(np.sqrt(median_area)))
+    x_margin = min(w * edge_margin, crop_clearance)
+    y_margin = min(h * edge_margin, crop_clearance)
     filtered: list[BBox | None] = []
     rejected = 0
 
@@ -2650,7 +2655,7 @@ def convert_video(
 
     # Step 2.5: Filter outlier detections (edge proximity, size jumps, banking)
     raw_bboxes = list(bboxes)  # save pre-filter state for debug video
-    bboxes = _filter_detections(bboxes, (h, w))
+    bboxes = _filter_detections(bboxes, (h, w), padding_factor=padding_factor)
 
     # Step 2.6: Trajectory filter — reject detections that jump to a second
     # object. Keeps only the smooth path of one consistent target.

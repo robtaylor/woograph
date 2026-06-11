@@ -222,6 +222,23 @@ def test_detect_handles_empty_frames():
     assert _detect_median_subtraction([]) == []
 
 
+def test_filter_detections_keeps_speck_near_edge():
+    """A speck track riding near the border must survive the edge filter.
+
+    Stabilisation drift can park a track 20-40px from the frame edge for
+    most of a clip; a 5%-of-frame margin (96px at full HD) rejected those
+    wholesale on CI. The margin only needs to clear the padded crop.
+    """
+    from woograph.convert.video import _filter_detections
+
+    bboxes = [BBox(25, 400 + i, 8, 9) for i in range(40)]
+
+    filtered = _filter_detections(bboxes, (1080, 1920), padding_factor=2.0)
+
+    kept = sum(1 for b in filtered if b is not None)
+    assert kept == 40
+
+
 def test_border_anchored_noise_never_wins():
     """A jittering border band (trees under bad stabilisation) must lose.
 

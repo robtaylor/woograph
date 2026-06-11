@@ -36175,6 +36175,18 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-abraham": {
+      "name": "Abraham",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:date-august-31-2025": {
+      "name": "August 31 2025",
+      "type": "DATE",
+      "aliases": [],
+      "sources": []
     }
   }
 }

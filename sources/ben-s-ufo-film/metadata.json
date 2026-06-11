@@ -9,7 +9,7 @@
   ],
   "description": "",
   "content_file": "content.md",
-  "processed_at": "2026-06-11T23:12:59.334645+00:00",
+  "processed_at": "2026-06-11T23:22:03.770686+00:00",
   "video_metadata": {
     "total_frames": 1481,
     "extracted_frames": 1481,
@@ -27,7 +27,7 @@
     "best_frame_sharpness": 0.005909,
     "deconv_iterations": 15,
     "psf_sigma": 1.5,
-    "processed_at": "2026-06-11T23:12:52.883324+00:00",
+    "processed_at": "2026-06-11T23:21:56.954727+00:00",
     "output_files": {
       "best_frame": "best_frame.png",
       "best_frame_bicubic": "best_frame_bicubic.png",
@@ -117,11 +117,11 @@
       }
     ],
     "r2_urls": {
-      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/af9c8a10-2285-4f46-860e-76c4e961d5a4/ben-s-ufo-film.MOV",
-      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/9b9d282b-e854-41bf-bb68-c1ed585587f1/crops.mp4",
-      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/e21266cf-c00f-47e0-8a08-8bc87e6e51d4/debug_detections.mp4",
-      "track2_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/61e73906-cfcc-49fe-ab29-0d2ce998c550/track2_crops.mp4",
-      "track3_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/f7d985f1-a5d5-48a7-90af-09cbd8ab12c4/track3_crops.mp4"
+      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/c89f79f9-1d71-4c43-835a-ba42a11ff920/ben-s-ufo-film.MOV",
+      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/266cb9de-8b42-4b16-a66c-95f9e0fa44ee/crops.mp4",
+      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/251c4275-d359-48b5-bbc8-5b001f81bb15/debug_detections.mp4",
+      "track2_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/d363e1f7-911b-45c1-85cb-4197509b16f4/track2_crops.mp4",
+      "track3_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/58489b7d-ca7f-4f72-bad1-ed898ca73467/track3_crops.mp4"
     }
   }
 }

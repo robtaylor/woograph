@@ -9,25 +9,25 @@
   ],
   "description": "",
   "content_file": "content.md",
-  "processed_at": "2026-06-07T15:12:30.804514+00:00",
+  "processed_at": "2026-06-11T16:32:43.287930+00:00",
   "video_metadata": {
     "total_frames": 1481,
     "extracted_frames": 1481,
-    "detected_frames": 255,
+    "detected_frames": 372,
     "crop_size": [
-      24,
-      32
+      116,
+      126
     ],
     "scale_factor": 2,
     "output_size": [
-      64,
-      48
+      252,
+      232
     ],
-    "best_frame_index": 26,
-    "best_frame_sharpness": 0.044978,
+    "best_frame_index": 369,
+    "best_frame_sharpness": 0.006674,
     "deconv_iterations": 15,
     "psf_sigma": 1.5,
-    "processed_at": "2026-06-07T15:12:13.991410+00:00",
+    "processed_at": "2026-06-11T16:32:35.178504+00:00",
     "output_files": {
       "best_frame": "best_frame.png",
       "best_frame_bicubic": "best_frame_bicubic.png",
@@ -47,9 +47,9 @@
     "vlm_scene_count": 1,
     "vlm_footage_range": null,
     "r2_urls": {
-      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/b236aa3e-b542-41cc-b978-484c63408163/ben-s-ufo-film.MOV",
-      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/30b0e769-1db2-4e33-a51a-b0aa946ba73c/crops.mp4",
-      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/27ce8c75-ca44-40dd-a93b-26fcd090c597/debug_detections.mp4"
+      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/cd8766d0-a753-4fbe-abda-be0f2fcb80de/ben-s-ufo-film.MOV",
+      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/babfb7f5-c543-46bd-8003-2fd45cc15c70/crops.mp4",
+      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/edaf197b-6a47-4fa9-9a49-cd7d78060f25/debug_detections.mp4"
     }
   }
 }

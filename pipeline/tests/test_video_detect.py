@@ -67,9 +67,9 @@ def test_link_tracks_splits_after_max_gap():
     """A dropout longer than max_gap must end the track and start a new one."""
     fc = {
         i: [_Candidate(BBox(10 + 2 * i, 50, 6, 6), 0.8)]
-        for i in range(20)
+        for i in range(50)
     }
-    for i in range(7, 14):  # 7-frame dropout > default max_gap of 5
+    for i in range(10, 30):  # 20-frame dropout > default max_gap of 15
         fc[i] = []
 
     tracks = _link_tracks(fc, max_jump=60.0)
@@ -153,6 +153,36 @@ def test_fragmented_object_still_wins_coverage():
         assert abs(cx - x) < 6 and abs(cy - y) < 6, (
             f"frame {i}: detection at ({cx:.0f},{cy:.0f}), object at ({x},{y})"
         )
+
+
+def test_stabilisation_does_not_create_phantom_objects():
+    """Border fill must not mirror real objects into the frame.
+
+    BORDER_REFLECT_101 fill created phantom mirror-copies of the moon and
+    specks in the bands exposed by stabilisation shifts; each phantom was
+    tracked as a separate object, splitting coverage unpredictably across
+    platforms.
+    """
+    from woograph.convert.video import _stabilise_frames
+
+    n, w, h = 12, 320, 240
+    frames = []
+    for _ in range(n):
+        f = np.full((h, w, 3), 120, dtype=np.uint8)
+        cv2.circle(f, (40, 120), 10, (255, 255, 255), -1)  # near left edge
+        frames.append(f)
+    # Transforms with a large rightward shift expose a band on the left
+    transforms = [
+        np.array([[1.0, 0.0, 60.0], [0.0, 1.0, 0.0]]) for _ in range(n)
+    ]
+
+    stabilised = _stabilise_frames(frames, transforms)
+
+    for f in stabilised:
+        gray = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY)
+        bright = (gray > 200).astype(np.uint8)
+        n_objects, _ = cv2.connectedComponents(bright)
+        assert n_objects - 1 <= 1, "phantom object created by border fill"
 
 
 def test_select_prefers_coverage_over_size():

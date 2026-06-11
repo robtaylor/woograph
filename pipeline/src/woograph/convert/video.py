@@ -226,10 +226,15 @@ def _stabilise_frames(
             [sin_a, cos_a, smooth_ty[i]],
         ], dtype=np.float64)
 
+        # BORDER_CONSTANT, not REFLECT: reflected fill creates phantom
+        # mirror-copies of real objects (moon, specks) in the exposed border
+        # bands, which the detector then tracks as separate objects. Black
+        # bands only produce border-touching contours, which detection
+        # rejects.
         warped = cv2.warpAffine(
             frame, mat, (w, h),
             flags=cv2.INTER_LINEAR,
-            borderMode=cv2.BORDER_REFLECT_101,
+            borderMode=cv2.BORDER_CONSTANT,
         )
         stabilised.append(warped)
 
@@ -439,10 +444,11 @@ def _merge_nearby_candidates(
     """Merge candidates whose bboxes come within merge_dist of each other.
 
     One object often thresholds into several contour fragments (a motion-
-    smeared speck, the moon's bright rim). Left separate, each fragment
-    spawns its own parallel track and the object's temporal coverage is
-    split between them — making track selection a lottery on stabilisation
-    quality. Merging fragments per frame gives each object one candidate.
+    smeared speck, the moon's washed-out disc splitting into rim arcs).
+    Left separate, each fragment spawns its own parallel track and the
+    object's temporal coverage is split between them — making track
+    selection a lottery on stabilisation quality. Merging fragments per
+    frame gives each object one candidate.
     """
     merged = list(candidates)
     changed = True
@@ -472,14 +478,14 @@ def _merge_nearby_candidates(
 def _link_tracks(
     frame_candidates: dict[int, list[_Candidate]],
     max_jump: float,
-    max_gap: int = 5,
+    max_gap: int = 15,
 ) -> list[_Track]:
     """Link per-frame candidates into tracks by nearest-neighbour matching.
 
     Each candidate joins the closest active track within max_jump whose last
     bbox is of comparable size; otherwise it starts a new track. Tracks stay
-    active for max_gap frames without a match, so brief detection dropouts
-    don't split one object into many tracks.
+    active for max_gap frames (~0.5s) without a match, so detection dropouts
+    of a dim near-threshold object don't split one object into many tracks.
     """
     tracks: list[_Track] = []
     active: list[_Track] = []
@@ -493,9 +499,14 @@ def _link_tracks(
             cx, cy = cand.bbox.center
             for tr in active:
                 last = tr.candidates[-1].bbox
-                area_ratio = cand.bbox.area / last.area
-                if not 0.25 <= area_ratio <= 4.0:
-                    continue  # size mismatch — likely a different object
+                # Size gate: a different-sized contour is likely a different
+                # object. Tiny near-threshold contours flicker over a 4x area
+                # range frame to frame, so the gate only applies above
+                # speck scale.
+                if cand.bbox.area >= 150 or last.area >= 150:
+                    area_ratio = cand.bbox.area / last.area
+                    if not 0.25 <= area_ratio <= 4.0:
+                        continue
                 lx, ly = last.center
                 dist = float(np.hypot(cx - lx, cy - ly))
                 if dist <= max_jump:
@@ -598,9 +609,12 @@ def _detect_median_subtraction(
     # a large fraction of the frame is residual stabilisation error (trees,
     # rooflines), and stacking its giant crops also exhausts CI runner memory.
     max_bbox_area = 0.05 * w * h
-    x_margin, y_margin = 0.05 * w, 0.05 * h
+    # Stabilisation drift can park a legitimate object near the frame edge
+    # for long stretches, so only reject bboxes that actually TOUCH the
+    # border (clamped contours like the treeline artefact all have x=0)
+    border = 2
     max_candidates_per_frame = 30  # cap track explosion on noisy frames
-    merge_dist = max(8.0, 0.01 * np.sqrt(h**2 + w**2))
+    merge_dist = max(6.0, 0.005 * np.sqrt(h**2 + w**2))
     frame_candidates: dict[int, list[_Candidate]] = {}
 
     for i, g in enumerate(gray_frames):
@@ -628,14 +642,14 @@ def _detect_median_subtraction(
                 continue
             if bbox.area < min_area or bbox.area > max_bbox_area:
                 continue
-            # The whole bbox must sit inside the frame margins: a bbox
-            # touching the border is an object partly out of view (or a
-            # border-anchored stabilisation artefact like trees/rooflines)
+            # A bbox touching the frame border is an object partly out of
+            # view, or a border-anchored stabilisation artefact like the
+            # treeline — either way not stackable
             if (
-                bbox.x < x_margin
-                or bbox.y < y_margin
-                or bbox.x + bbox.w > w - x_margin
-                or bbox.y + bbox.h > h - y_margin
+                bbox.x < border
+                or bbox.y < border
+                or bbox.x + bbox.w > w - border
+                or bbox.y + bbox.h > h - border
             ):
                 continue
 
@@ -2139,7 +2153,7 @@ class _ResidualDenseBlock(nn.Module if HAS_TORCH else object):  # type: ignore[m
         self.conv5 = nn.Conv2d(nf + 4 * gc, nf, 3, 1, 1)
         self.lrelu = nn.LeakyReLU(negative_slope=0.2, inplace=True)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self, x: "torch.Tensor") -> "torch.Tensor":
         x1 = self.lrelu(self.conv1(x))
         x2 = self.lrelu(self.conv2(torch.cat((x, x1), 1)))
         x3 = self.lrelu(self.conv3(torch.cat((x, x1, x2), 1)))
@@ -2155,7 +2169,7 @@ class _RRDB(nn.Module if HAS_TORCH else object):  # type: ignore[misc]
         self.rdb2 = _ResidualDenseBlock(nf, gc)
         self.rdb3 = _ResidualDenseBlock(nf, gc)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self, x: "torch.Tensor") -> "torch.Tensor":
         out = self.rdb1(x)
         out = self.rdb2(out)
         out = self.rdb3(out)
@@ -2175,7 +2189,7 @@ class _RRDBNet(nn.Module if HAS_TORCH else object):  # type: ignore[misc]
         self.conv_last = nn.Conv2d(nf, out_nc, 3, 1, 1)
         self.lrelu = nn.LeakyReLU(negative_slope=0.2, inplace=True)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self, x: "torch.Tensor") -> "torch.Tensor":
         feat = self.conv_first(x)
         body_feat = self.conv_body(self.body(feat))
         feat = feat + body_feat

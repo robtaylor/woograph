@@ -9,7 +9,7 @@
   ],
   "description": "",
   "content_file": "content.md",
-  "processed_at": "2026-06-11T23:12:59.334645+00:00",
+  "processed_at": "2026-06-11T23:21:06.156026+00:00",
   "video_metadata": {
     "total_frames": 1481,
     "extracted_frames": 1481,
@@ -27,13 +27,11 @@
     "best_frame_sharpness": 0.005909,
     "deconv_iterations": 15,
     "psf_sigma": 1.5,
-    "processed_at": "2026-06-11T23:12:52.883324+00:00",
+    "processed_at": "2026-06-11T23:21:00.988578+00:00",
     "output_files": {
       "best_frame": "best_frame.png",
       "best_frame_bicubic": "best_frame_bicubic.png",
       "best_frame_esrgan4x": "best_frame_esrgan4x.png",
-      "crops": "crops.mp4",
-      "debug_detections": "debug_detections.mp4",
       "drizzle_all": "drizzle_all.png",
       "drizzle_consecutive5": "drizzle_consecutive5.png",
       "drizzle_ibp_all": "drizzle_ibp_all.png",
@@ -46,7 +44,6 @@
       "track2_best_frame": "track2_best_frame.png",
       "track2_best_frame_bicubic": "track2_best_frame_bicubic.png",
       "track2_best_frame_esrgan4x": "track2_best_frame_esrgan4x.png",
-      "track2_crops": "track2_crops.mp4",
       "track2_drizzle_all": "track2_drizzle_all.png",
       "track2_drizzle_consecutive5": "track2_drizzle_consecutive5.png",
       "track2_drizzle_ibp_all": "track2_drizzle_ibp_all.png",
@@ -59,7 +56,6 @@
       "track3_best_frame": "track3_best_frame.png",
       "track3_best_frame_bicubic": "track3_best_frame_bicubic.png",
       "track3_best_frame_esrgan4x": "track3_best_frame_esrgan4x.png",
-      "track3_crops": "track3_crops.mp4",
       "track3_drizzle_all": "track3_drizzle_all.png",
       "track3_drizzle_consecutive5": "track3_drizzle_consecutive5.png",
       "track3_drizzle_ibp_all": "track3_drizzle_ibp_all.png",
@@ -117,11 +113,7 @@
       }
     ],
     "r2_urls": {
-      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/af9c8a10-2285-4f46-860e-76c4e961d5a4/ben-s-ufo-film.MOV",
-      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/9b9d282b-e854-41bf-bb68-c1ed585587f1/crops.mp4",
-      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/e21266cf-c00f-47e0-8a08-8bc87e6e51d4/debug_detections.mp4",
-      "track2_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/61e73906-cfcc-49fe-ab29-0d2ce998c550/track2_crops.mp4",
-      "track3_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/f7d985f1-a5d5-48a7-90af-09cbd8ab12c4/track3_crops.mp4"
+      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/b7998224-501b-40db-bd6f-559db18c7f34/ben-s-ufo-film.MOV"
     }
   }
 }

@@ -41,32 +41,7 @@ properties:
             type:
               const: video
         then:
-          anyOf:
-            - required: [file]
-            - required: [url]
-          properties:
-            processing:
-              type: object
-              properties:
-                start:
-                  type: string
-                  description: "Clip start time (e.g. '1:30' or '90')"
-                end:
-                  type: string
-                  description: "Clip end time (e.g. '2:45' or '165')"
-                scale:
-                  type: integer
-                  description: "Super-resolution scale factor (default 2)"
-                max_frames:
-                  type: integer
-                frame_step:
-                  type: integer
-                padding_factor:
-                  type: number
-                psf_sigma:
-                  type: number
-                save_crops:
-                  type: boolean
+          required: [url]
       - if:
           properties:
             type:

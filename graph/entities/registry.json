@@ -36169,6 +36169,12 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-esrgan": {
+      "name": "ESRGAN",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

@@ -16,6 +16,13 @@
       "mentionedIn": "source:ben-s-ufo-film"
     },
     {
+      "@id": "entity:organization-esrgan",
+      "@type": "Organization",
+      "name": "ESRGAN",
+      "aliases": [],
+      "mentionedIn": "source:ben-s-ufo-film"
+    },
+    {
       "@id": "entity:event-ben-s-ufo-film",
       "@type": "Event",
       "name": "Ben's UFO film",
@@ -28,6 +35,18 @@
       "@type": "woo:Relationship",
       "subject": {
         "@id": "entity:person-ben-s-ufo-film"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:ben-s-ufo-film"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-esrgan"
       },
       "predicate": "woo:mentionedIn",
       "object": {
@@ -52,6 +71,18 @@
       "@type": "woo:Relationship",
       "subject": {
         "@id": "entity:person-ben-s-ufo-film"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-ben-s-ufo-film"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-esrgan"
       },
       "predicate": "woo:relatedTo",
       "object": {

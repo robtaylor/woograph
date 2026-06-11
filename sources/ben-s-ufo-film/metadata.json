@@ -9,7 +9,7 @@
   ],
   "description": "",
   "content_file": "content.md",
-  "processed_at": "2026-06-11T22:30:30.011408+00:00",
+  "processed_at": "2026-06-11T23:12:59.334645+00:00",
   "video_metadata": {
     "total_frames": 1481,
     "extracted_frames": 1481,
@@ -27,7 +27,7 @@
     "best_frame_sharpness": 0.005909,
     "deconv_iterations": 15,
     "psf_sigma": 1.5,
-    "processed_at": "2026-06-11T22:30:23.418854+00:00",
+    "processed_at": "2026-06-11T23:12:52.883324+00:00",
     "output_files": {
       "best_frame": "best_frame.png",
       "best_frame_bicubic": "best_frame_bicubic.png",
@@ -42,14 +42,86 @@
       "drizzle_similar15": "drizzle_similar15.png",
       "ibp_all": "ibp_all.png",
       "ibp_consecutive5": "ibp_consecutive5.png",
-      "ibp_similar15": "ibp_similar15.png"
+      "ibp_similar15": "ibp_similar15.png",
+      "track2_best_frame": "track2_best_frame.png",
+      "track2_best_frame_bicubic": "track2_best_frame_bicubic.png",
+      "track2_best_frame_esrgan4x": "track2_best_frame_esrgan4x.png",
+      "track2_crops": "track2_crops.mp4",
+      "track2_drizzle_all": "track2_drizzle_all.png",
+      "track2_drizzle_consecutive5": "track2_drizzle_consecutive5.png",
+      "track2_drizzle_ibp_all": "track2_drizzle_ibp_all.png",
+      "track2_drizzle_ibp_consecutive5": "track2_drizzle_ibp_consecutive5.png",
+      "track2_drizzle_ibp_similar15": "track2_drizzle_ibp_similar15.png",
+      "track2_drizzle_similar15": "track2_drizzle_similar15.png",
+      "track2_ibp_all": "track2_ibp_all.png",
+      "track2_ibp_consecutive5": "track2_ibp_consecutive5.png",
+      "track2_ibp_similar15": "track2_ibp_similar15.png",
+      "track3_best_frame": "track3_best_frame.png",
+      "track3_best_frame_bicubic": "track3_best_frame_bicubic.png",
+      "track3_best_frame_esrgan4x": "track3_best_frame_esrgan4x.png",
+      "track3_crops": "track3_crops.mp4",
+      "track3_drizzle_all": "track3_drizzle_all.png",
+      "track3_drizzle_consecutive5": "track3_drizzle_consecutive5.png",
+      "track3_drizzle_ibp_all": "track3_drizzle_ibp_all.png",
+      "track3_drizzle_ibp_consecutive5": "track3_drizzle_ibp_consecutive5.png",
+      "track3_drizzle_ibp_similar15": "track3_drizzle_ibp_similar15.png",
+      "track3_drizzle_similar15": "track3_drizzle_similar15.png",
+      "track3_ibp_all": "track3_ibp_all.png",
+      "track3_ibp_consecutive5": "track3_ibp_consecutive5.png",
+      "track3_ibp_similar15": "track3_ibp_similar15.png"
     },
     "vlm_scene_count": 1,
     "vlm_footage_range": null,
+    "tracks": [
+      {
+        "track": 1,
+        "prefix": "",
+        "detections": 293,
+        "frame_range": [
+          708,
+          1265
+        ],
+        "crop_size": [
+          16,
+          16
+        ],
+        "best_frame_index": 25
+      },
+      {
+        "track": 2,
+        "prefix": "track2_",
+        "detections": 206,
+        "frame_range": [
+          707,
+          1178
+        ],
+        "crop_size": [
+          12,
+          12
+        ],
+        "best_frame_index": 47
+      },
+      {
+        "track": 3,
+        "prefix": "track3_",
+        "detections": 134,
+        "frame_range": [
+          827,
+          1217
+        ],
+        "crop_size": [
+          12,
+          12
+        ],
+        "best_frame_index": 1
+      }
+    ],
     "r2_urls": {
-      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/059baa45-7f51-473c-8b3b-399865b38693/ben-s-ufo-film.MOV",
-      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/124b33cb-bc80-465b-bda4-fe9af7ad8590/crops.mp4",
-      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/6b735e0d-6a16-432b-af1c-b68738087db4/debug_detections.mp4"
+      "ben-s-ufo-film": "https://woograph-upload.robtaylor.workers.dev/file/uploads/af9c8a10-2285-4f46-860e-76c4e961d5a4/ben-s-ufo-film.MOV",
+      "crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/9b9d282b-e854-41bf-bb68-c1ed585587f1/crops.mp4",
+      "debug_detections": "https://woograph-upload.robtaylor.workers.dev/file/uploads/e21266cf-c00f-47e0-8a08-8bc87e6e51d4/debug_detections.mp4",
+      "track2_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/61e73906-cfcc-49fe-ab29-0d2ce998c550/track2_crops.mp4",
+      "track3_crops": "https://woograph-upload.robtaylor.workers.dev/file/uploads/f7d985f1-a5d5-48a7-90af-09cbd8ab12c4/track3_crops.mp4"
     }
   }
 }

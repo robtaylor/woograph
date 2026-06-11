@@ -387,6 +387,7 @@ def process(ctx: click.Context, submission_yaml: Path) -> None:
                 max_frames=video_opts.get("max_frames", 0),
                 frame_step=video_opts.get("frame_step", 1),
                 padding_factor=video_opts.get("padding_factor", 2.0),
+                min_object_area=video_opts.get("min_object_area", 15),
                 psf_sigma=video_opts.get("psf_sigma", 1.5),
                 deconv_iterations=video_opts.get("deconv_iterations", 15),
                 save_crops=video_opts.get("save_crops", False),

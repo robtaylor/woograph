@@ -409,27 +409,136 @@ def _detect_and_track(
     return bboxes
 
 
+@dataclass
+class _Candidate:
+    """A single per-frame detection: bbox plus how densely the contour fills it."""
+
+    bbox: BBox
+    fill_ratio: float
+
+
+@dataclass
+class _Track:
+    """A sequence of candidates linked across frames as one object."""
+
+    frame_indices: list[int]
+    candidates: list[_Candidate]
+
+
+def _link_tracks(
+    frame_candidates: dict[int, list[_Candidate]],
+    max_jump: float,
+    max_gap: int = 5,
+) -> list[_Track]:
+    """Link per-frame candidates into tracks by nearest-neighbour matching.
+
+    Each candidate joins the closest active track within max_jump whose last
+    bbox is of comparable size; otherwise it starts a new track. Tracks stay
+    active for max_gap frames without a match, so brief detection dropouts
+    don't split one object into many tracks.
+    """
+    tracks: list[_Track] = []
+    active: list[_Track] = []
+
+    for i in sorted(frame_candidates):
+        candidates = frame_candidates[i]
+
+        # All viable (candidate, track) pairings, closest first
+        pairs: list[tuple[float, int, _Track]] = []
+        for ci, cand in enumerate(candidates):
+            cx, cy = cand.bbox.center
+            for tr in active:
+                last = tr.candidates[-1].bbox
+                area_ratio = cand.bbox.area / last.area
+                if not 0.25 <= area_ratio <= 4.0:
+                    continue  # size mismatch — likely a different object
+                lx, ly = last.center
+                dist = float(np.hypot(cx - lx, cy - ly))
+                if dist <= max_jump:
+                    pairs.append((dist, ci, tr))
+        pairs.sort(key=lambda p: p[0])
+
+        # Greedy one-to-one assignment
+        used_cands: set[int] = set()
+        used_tracks: set[int] = set()
+        for _dist, ci, tr in pairs:
+            if ci in used_cands or id(tr) in used_tracks:
+                continue
+            tr.frame_indices.append(i)
+            tr.candidates.append(candidates[ci])
+            used_cands.add(ci)
+            used_tracks.add(id(tr))
+
+        for ci, cand in enumerate(candidates):
+            if ci not in used_cands:
+                tr = _Track([i], [cand])
+                tracks.append(tr)
+                active.append(tr)
+
+        active = [t for t in active if i - t.frame_indices[-1] <= max_gap]
+
+    return tracks
+
+
+def _select_best_track(
+    tracks: list[_Track],
+    n_frames: int,
+    min_track_len: int = 10,
+) -> _Track | None:
+    """Pick the track that best covers the whole video.
+
+    Score = temporal coverage × mean fill ratio. Coverage favours the object
+    that is consistently in shot over a large transient (e.g. the moon
+    drifting through the opening seconds); fill ratio favours compact real
+    objects over diffuse noise like tree branches, which trace sparse
+    contours spread across a large bbox.
+    """
+    scored: list[tuple[float, float, _Track]] = []
+    for tr in tracks:
+        if len(tr.frame_indices) < min_track_len:
+            continue
+        coverage = len(tr.frame_indices) / n_frames
+        compactness = mean(c.fill_ratio for c in tr.candidates)
+        scored.append((coverage * compactness, coverage, tr))
+
+    if not scored:
+        return None
+
+    scored.sort(key=lambda s: s[0], reverse=True)
+    for score, coverage, tr in scored[:5]:
+        logger.info(
+            "track: frames %d-%d, detections=%d, coverage=%.2f, score=%.3f",
+            tr.frame_indices[0], tr.frame_indices[-1],
+            len(tr.frame_indices), coverage, score,
+        )
+    return scored[0][2]
+
+
 def _detect_median_subtraction(
     frames: list[NDArray[np.uint8]],
-    min_area: int = 30,
+    min_area: int = 15,
     threshold: int = 15,
     roi_y_max: float = 1.0,
     max_jump: float = 0.0,
 ) -> list[BBox | None]:
-    """Detect moving objects via temporal median subtraction.
+    """Detect the most persistent moving object via temporal median subtraction.
 
-    Computes the median frame as a background model, then finds objects in
-    each frame by thresholding the absolute difference from the median.
-    Much more effective than MOG2 for small objects against uniform backgrounds
-    (e.g. aircraft in sky).
+    Computes the median frame as a background model, finds ALL candidate
+    objects per frame by thresholding the difference from the median, links
+    candidates into tracks, and returns the track with the best coverage of
+    the video. Selecting whole tracks (rather than a per-frame winner) stops
+    a large transient object from hijacking detection from a small object
+    that is in shot throughout.
 
     Args:
-        min_area: Minimum contour area in pixels.
+        min_area: Minimum candidate bbox area in pixels.
         threshold: Absolute difference threshold (0-255).
         roi_y_max: Fraction of frame height to use (1.0 = full frame).
-        max_jump: Maximum distance the object can jump between frames.
+        max_jump: Maximum distance the object can move between frames.
                   0 = auto (15% of frame diagonal).
     """
+    if not frames:
+        return []
     h, w = frames[0].shape[:2]
     logger.debug(f"_detect_median_subtraction: w={w}, h={h}")
     if max_jump <= 0:
@@ -441,10 +550,10 @@ def _detect_median_subtraction(
     gray_frames = [cv2.cvtColor(f, cv2.COLOR_BGR2GRAY) for f in frames]
     median_bg = np.median(gray_frames, axis=0).astype(np.uint8)
 
-    bboxes: list[BBox | None] = []
-    last_center: tuple[float, float] | None = None
-    last_area = 0
-    frame_candidates = {}
+    max_bbox_area = 0.25 * w * h  # ignore contours > 25% of frame
+    x_margin, y_margin = 0.05 * w, 0.05 * h
+    max_candidates_per_frame = 30  # cap track explosion on noisy frames
+    frame_candidates: dict[int, list[_Candidate]] = {}
 
     for i, g in enumerate(gray_frames):
         diff = cv2.absdiff(g, median_bg)
@@ -463,64 +572,40 @@ def _detect_median_subtraction(
             thresh_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE,
         )
 
-        # Score contours: prefer compact objects near last known position.
-        # Compactness (fill ratio) distinguishes real objects from diffuse
-        # noise like tree branches — a jet fills its bounding box densely,
-        # tree edges are sparse and spread over a large bbox.
-        max_bbox_area = 0.25 * w * h  # ignore contours > 25% of frame
-        candidates: list[NDArray[np.int32]] = []
+        candidates: list[_Candidate] = []
         for contour in contours:
             bbox = BBox(*cv2.boundingRect(contour))
+            cx, cy = bbox.center
 
-            if bbox.center[1] >= y_limit:
+            if cy >= y_limit:
                 continue
             if bbox.area < min_area or bbox.area > max_bbox_area:
                 continue
+            # Objects this close to the border are partly out of frame and
+            # would be rejected by _filter_detections anyway
+            if cx < x_margin or cx > w - x_margin or cy < y_margin or cy > h - y_margin:
+                continue
 
-            candidates.append(contour)
+            fill_ratio = cv2.contourArea(contour) / bbox.area
+            candidates.append(_Candidate(bbox, fill_ratio))
+
+        if len(candidates) > max_candidates_per_frame:
+            candidates.sort(key=lambda c: c.bbox.area * c.fill_ratio, reverse=True)
+            candidates = candidates[:max_candidates_per_frame]
         frame_candidates[i] = candidates
 
-    # find candidates with most similar areas and smoothest centre path
+    tracks = _link_tracks(frame_candidates, max_jump=max_jump)
+    best = _select_best_track(tracks, len(frames))
 
-    logger.debug([cv2.contourArea(contour) for i, candidates in frame_candidates.items() for contour in candidates])
-    median_area = median([cv2.contourArea(contour) for i, candidates in frame_candidates.items() for contour in candidates])
-
-    def similarity(a,b):
-        return abs(a - b)/max(a, b)
-
-    def centroid(contour):
-        M = cv2.moments(contour)
-        cx = int(M['m10']/M['m00'])
-        cy = int(M['m01']/M['m00'])
-        return (cx,cy)
-
-    last_center = None
-    for i, candidates in frame_candidates.items():
-        best_bbox = None
-        best_score = 0
-        for contour in candidates:
-            area = cv2.contourArea(contour)
-            center = centroid(contour)
-            bbox = BBox(*cv2.boundingRect(contour))
-            score = 1.0 - abs(area - median_area)/max(area, median_area)
-            if last_center:
-                score *= 1.0 - similarity(center[0], last_center[0]) - similarity(center[1], last_center[1])
-
-            logger.debug(f"score = {score}, area ={area}, center={center}, bbox.area={bbox.area}, bbox.center={bbox.center}")
-            if score > best_score:
-                best_bbox = bbox
-                best_score = score
-        if best_bbox is not None:
-            logger.debug(f"frame {i}, best score = {best_score}, best area = {best_bbox.area}, best center = {best_bbox.center}")
-        else:
-            logger.debug(f"frame {i}, no valid detection")
-        bboxes.append(best_bbox)
-        last_center = center
+    bboxes: list[BBox | None] = [None] * len(frames)
+    if best is not None:
+        for idx, cand in zip(best.frame_indices, best.candidates):
+            bboxes[idx] = cand.bbox
 
     detected = sum(1 for b in bboxes if b is not None)
     logger.info(
-        "Median subtraction: detected object in %d / %d frames (threshold=%d)",
-        detected, len(frames), threshold,
+        "Median subtraction: %d tracks, best covers %d / %d frames (threshold=%d)",
+        len(tracks), detected, len(frames), threshold,
     )
     return bboxes
 
@@ -632,7 +717,6 @@ def _filter_trajectory(
 
     # Compute bbox areas for size-jump filtering
     areas = np.array([bboxes[i].w * bboxes[i].h for i in valid_indices])  # type: ignore[union-attr]
-    median_area = float(np.median(areas))
 
     # Running median filter for predicted trajectory
     half_w = window // 2
@@ -1910,7 +1994,6 @@ def _ibp_mosaic_resolve(
     norm_weights = [w / w_total for w in weights] if w_total > 0 else weights
 
     psf_t = psf[::-1, ::-1]
-    ch_hr, cw_hr = crop_h * scale, crop_h * scale
 
     prev_mse = float("inf")
     for it in range(iterations):
@@ -2363,7 +2446,7 @@ def convert_video(
     max_frames: int = 0,
     frame_step: int = 1,
     padding_factor: float = 1.3,
-    min_object_area: int = 100,
+    min_object_area: int = 15,
     warmup_frames: int = 10,
     psf_sigma: float = 0.5,
     deconv_iterations: int = 0,

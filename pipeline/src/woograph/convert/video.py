@@ -1071,30 +1071,41 @@ def _save_crop_video(
 
     sample = np.clip(crops[0], 0, 255).astype(np.uint8)
     h, w = sample.shape[:2]
+    # Tiny crops (a speck is ~16px) need more upscaling or the annotations
+    # drawn below would dwarf the object in the page's video player
+    scale_up = max(scale_up, -(-192 // max(h, w)))  # ceil-div: long side ≥192
     out_h, out_w = h * scale_up, w * scale_up
 
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     writer = cv2.VideoWriter(str(output_path), fourcc, fps, (out_w, out_h))
+
+    font_scale = min(max(out_h / 400.0, 0.35), 0.7)
+    label_y = int(14 * max(font_scale / 0.35, 1.0))
 
     for i, crop in enumerate(crops):
         frame = np.clip(crop, 0, 255).astype(np.uint8)
         frame = cv2.resize(frame, (out_w, out_h), interpolation=cv2.INTER_NEAREST)
         label = f"F{frame_indices[i]}" if frame_indices is not None else f"#{i}"
         cv2.putText(
-            frame, label, (5, 20),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 1,
+            frame, label, (4, label_y),
+            cv2.FONT_HERSHEY_SIMPLEX, font_scale, (0, 255, 0), 1,
         )
-        # Draw bbox centroid within crop as a crosshair
+        # Mark the bbox centroid with a gap-crosshair: arms point at the
+        # centre but stop short of it, so the object itself stays visible
         if raw_centers is not None and crop_corners is not None:
             cx, cy = raw_centers[i]
             x1, y1 = crop_corners[i]
-            # Centroid position relative to crop origin, scaled up
             rel_x = int((cx - x1) * scale_up)
             rel_y = int((cy - y1) * scale_up)
-            arm = 6  # crosshair arm length in pixels
+            inner, outer = out_h // 12, out_h // 5
             colour = (0, 0, 255)  # red
-            cv2.line(frame, (rel_x - arm, rel_y), (rel_x + arm, rel_y), colour, 1)
-            cv2.line(frame, (rel_x, rel_y - arm), (rel_x, rel_y + arm), colour, 1)
+            for dx, dy in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+                cv2.line(
+                    frame,
+                    (rel_x + dx * inner, rel_y + dy * inner),
+                    (rel_x + dx * outer, rel_y + dy * outer),
+                    colour, 1,
+                )
         writer.write(frame)
 
     writer.release()

@@ -699,6 +699,11 @@ def _filter_detections(
 
     This removes frames where the object is leaving the frame or banking
     (changing silhouette shape), which would add noise to the stack.
+
+    The size and aspect checks only apply above speck scale: a tiny
+    near-threshold contour routinely flickers across a 4x area range and
+    any aspect ratio (one pixel of halo either way), so at that scale
+    those checks reject most of a perfectly good track.
     """
     h, w = frame_size
     valid_bboxes = [b for b in bboxes if b is not None]
@@ -710,6 +715,7 @@ def _filter_detections(
     median_area = float(np.median(areas))
     aspect_ratios = [b.w / max(b.h, 1) for b in valid_bboxes]
     median_ar = float(np.median(aspect_ratios))
+    speck_scale = median_area < 150
 
     x_margin = w * edge_margin
     y_margin = h * edge_margin
@@ -732,13 +738,18 @@ def _filter_detections(
             continue
 
         # Reject if area is too different from median
-        if area > median_area * size_tolerance or area < median_area / size_tolerance:
+        if not speck_scale and (
+            area > median_area * size_tolerance
+            or area < median_area / size_tolerance
+        ):
             filtered.append(None)
             rejected += 1
             continue
 
         # Reject if aspect ratio flipped (e.g. wide→tall from banking)
-        if median_ar > 1 and ar < 0.7 or median_ar < 1 and ar > 1.4:
+        if not speck_scale and (
+            median_ar > 1 and ar < 0.7 or median_ar < 1 and ar > 1.4
+        ):
             filtered.append(None)
             rejected += 1
             continue
@@ -789,8 +800,11 @@ def _filter_trajectory(
         logger.info("Trajectory filter: median step=%.1f px, max_jump=%.1f px",
                     median_step, max_jump)
 
-    # Compute bbox areas for size-jump filtering
+    # Compute bbox areas for size-jump filtering. Like _filter_detections,
+    # the size check is meaningless at speck scale where tiny contour areas
+    # flicker frame to frame.
     areas = np.array([bboxes[i].w * bboxes[i].h for i in valid_indices])  # type: ignore[union-attr]
+    speck_scale = float(np.median(areas)) < 150
 
     # Running median filter for predicted trajectory
     half_w = window // 2
@@ -814,6 +828,8 @@ def _filter_trajectory(
             continue
 
         # Reject frames with sudden bbox size jump vs local median
+        if speck_scale:
+            continue
         local_areas = areas[lo:hi]
         local_median_area = float(np.median(local_areas))
         area_ratio = areas[idx_pos] / max(local_median_area, 1.0)

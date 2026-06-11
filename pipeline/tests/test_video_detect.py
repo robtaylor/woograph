@@ -15,7 +15,7 @@ from woograph.convert.video import (
     _detect_median_subtraction,
     _link_tracks,
     _merge_nearby_candidates,
-    _select_best_track,
+    _select_tracks,
 )
 
 
@@ -36,7 +36,9 @@ def test_coverage_beats_large_transient():
             cv2.circle(f, (80, 180), 25, (255, 255, 255), -1)
         frames.append(f)
 
-    bboxes = _detect_median_subtraction(frames)
+    tracks = _detect_median_subtraction(frames)
+    assert tracks, "no objects detected"
+    bboxes = tracks[0]
 
     detected = [(i, b) for i, b in enumerate(bboxes) if b is not None]
     assert len(detected) > n * 0.6, f"only {len(detected)}/{n} frames detected"
@@ -143,7 +145,9 @@ def test_fragmented_object_still_wins_coverage():
             cv2.circle(f, (80, 180), 25, (255, 255, 255), -1)
         frames.append(f)
 
-    bboxes = _detect_median_subtraction(frames)
+    tracks = _detect_median_subtraction(frames)
+    assert tracks, "no objects detected"
+    bboxes = tracks[0]
 
     detected = [(i, b) for i, b in enumerate(bboxes) if b is not None]
     assert len(detected) > n * 0.6, f"only {len(detected)}/{n} frames detected"
@@ -193,9 +197,9 @@ def test_select_prefers_coverage_over_size():
         list(range(60)), [_Candidate(BBox(0, 0, 6, 6), 0.7)] * 60,
     )
 
-    best = _select_best_track([big_short, small_long], n_frames=60)
+    selected = _select_tracks([big_short, small_long], n_frames=60, dedup_dist=20.0)
 
-    assert best is small_long
+    assert selected[0] is small_long
 
 
 def test_select_prefers_compact_over_diffuse():
@@ -207,19 +211,41 @@ def test_select_prefers_compact_over_diffuse():
         list(range(60)), [_Candidate(BBox(0, 0, 8, 6), 0.75)] * 60,
     )
 
-    best = _select_best_track([diffuse, compact], n_frames=60)
+    selected = _select_tracks([diffuse, compact], n_frames=60, dedup_dist=20.0)
 
-    assert best is compact
+    assert selected[0] is compact
 
 
 def test_select_ignores_short_tracks():
     short = _Track(list(range(5)), [_Candidate(BBox(0, 0, 6, 6), 0.9)] * 5)
 
-    assert _select_best_track([short], n_frames=60) is None
+    assert _select_tracks([short], n_frames=60, dedup_dist=20.0) == []
 
 
 def test_detect_handles_empty_frames():
     assert _detect_median_subtraction([]) == []
+
+
+def test_select_tracks_returns_distinct_objects():
+    """Two objects present together must both be selected, fragments not."""
+    obj_a = _Track(
+        list(range(40)),
+        [_Candidate(BBox(10 + 2 * i, 50, 6, 6), 0.8) for i in range(40)],
+    )
+    obj_b = _Track(
+        list(range(40)),
+        [_Candidate(BBox(10 + 2 * i, 250, 6, 6), 0.8) for i in range(40)],
+    )
+    fragment_of_a = _Track(
+        list(range(5, 35)),
+        [_Candidate(BBox(14 + 2 * i, 52, 5, 5), 0.7) for i in range(5, 35)],
+    )
+
+    selected = _select_tracks(
+        [obj_a, obj_b, fragment_of_a], n_frames=40, dedup_dist=20.0,
+    )
+
+    assert selected == [obj_a, obj_b]
 
 
 def test_filter_detections_keeps_speck_near_edge():
@@ -260,7 +286,9 @@ def test_border_anchored_noise_never_wins():
         f[band_top:, :] = 40
         frames.append(f)
 
-    bboxes = _detect_median_subtraction(frames)
+    tracks = _detect_median_subtraction(frames)
+    assert tracks, "no objects detected"
+    bboxes = tracks[0]
 
     detected = [(i, b) for i, b in enumerate(bboxes) if b is not None]
     assert len(detected) > n * 0.5, f"only {len(detected)}/{n} frames detected"

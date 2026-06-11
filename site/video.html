@@ -361,24 +361,29 @@
       const videoMeta = meta.video_metadata || meta;
       const outputFiles = videoMeta.output_files || {};
       const r2Urls = videoMeta.r2_urls || {};
+      const trackMeta = videoMeta.tracks || [];
 
-      // Separate videos and images
-      const videos = {};
-      let images = {};
+      // Group output files by tracked object: "track2_drizzle_all" belongs
+      // to object 2; unprefixed keys to object 1 (also the legacy layout).
+      const objects = {};
       for (const [key, filename] of Object.entries(outputFiles)) {
-        if (filename.endsWith('.mp4')) videos[key] = filename;
-        else if (filename.endsWith('.png') && key !== 'best_frame') images[key] = filename;
+        const m = key.match(/^track(\d+)_(.+)$/);
+        const n = m ? parseInt(m[1], 10) : 1;
+        const base = m ? m[2] : key;
+        (objects[n] ??= {})[base] = { key, filename };
       }
-      // Always include best_frame at the start if present
-      if (outputFiles.best_frame) {
-        images = { best_frame: outputFiles.best_frame, ...images };
-      }
+      // debug_detections covers every object — keep it out of object 1's group
+      const debugVideo = objects[1]?.debug_detections;
+      if (debugVideo) delete objects[1].debug_detections;
+      const objectNums = Object.keys(objects).map(Number).sort((a, b) => a - b);
+      const multi = objectNums.length > 1;
 
       let html = '';
 
       // Meta summary bar
       html += '<div class="meta-bar">';
       html += metaItem('Total Frames', videoMeta.total_frames);
+      if (multi) html += metaItem('Objects', objectNums.length);
       html += metaItem('Detected', videoMeta.detected_frames);
       html += metaItem('Crop Size', `${(videoMeta.crop_size||[])[1]}x${(videoMeta.crop_size||[])[0]}`);
       html += metaItem('Scale', `${videoMeta.scale_factor}x`);
@@ -387,75 +392,22 @@
       html += metaItem('Processed', new Date(videoMeta.processed_at).toLocaleDateString());
       html += '</div>';
 
-      // Video section
-      if (Object.keys(videos).length > 0) {
+      // Detection overlay video (all objects, colour-coded boxes)
+      if (debugVideo) {
+        const info = VIDEO_LABELS.debug_detections;
+        const desc = multi
+          ? "Each object's bounding boxes overlaid on the stabilised video, colour-coded per object (red = filtered out)"
+          : info.desc;
         html += '<div class="video-section">';
-        html += '<h2>Tracking Videos</h2>';
+        html += '<h2>Detection Tracking</h2>';
         html += '<div class="video-grid">';
-        // Prefer debug_detections first, then crops
-        const videoOrder = ['debug_detections', 'crops', ...Object.keys(videos).filter(k => k !== 'debug_detections' && k !== 'crops')];
-        for (const key of videoOrder) {
-          if (!videos[key]) continue;
-          const info = VIDEO_LABELS[key] || { title: formatLabel(key), desc: '' };
-          const videoSrc = r2Urls[key] || `${basePath}/${videos[key]}`;
-          html += `
-            <div class="video-card">
-              <video controls preload="metadata" loop>
-                <source src="${videoSrc}" type="video/mp4">
-              </video>
-              <div class="caption">
-                <strong>${info.title}</strong><br>
-                ${info.desc}
-              </div>
-            </div>`;
-        }
+        html += videoCard(r2Urls.debug_detections || `${basePath}/${debugVideo.filename}`, info.title, desc);
         html += '</div></div>';
       }
 
-      // Reference images (best frame, bicubic, ESRGAN)
-      const refKeys = ['best_frame', 'best_frame_bicubic', 'best_frame_esrgan4x'].filter(k => images[k]);
-      if (refKeys.length > 0) {
-        html += '<div class="compare-section">';
-        html += '<h2>Reference (Best Frame)</h2>';
-        html += '<div class="compare-container">';
-        for (const key of refKeys) {
-          html += imageCard(basePath, key, images[key]);
-        }
-        html += '</div></div>';
+      for (const n of objectNums) {
+        html += renderObject(n, objects[n], basePath, r2Urls, trackMeta, multi);
       }
-
-      // Stacking variants grouped by method
-      const stackGroups = [
-        { label: 'Drizzle', prefix: 'drizzle_', exclude: 'drizzle_ibp_' },
-        { label: 'IBP', prefix: 'ibp_' },
-        { label: 'Drizzle + IBP', prefix: 'drizzle_ibp_' },
-      ];
-
-      for (const group of stackGroups) {
-        const keys = Object.keys(images).filter(k => {
-          if (refKeys.includes(k)) return false;
-          if (group.exclude && k.startsWith(group.exclude)) return false;
-          return k.startsWith(group.prefix);
-        });
-        if (keys.length === 0) continue;
-
-        html += '<div class="compare-section">';
-        html += `<h2>${group.label} Variants</h2>`;
-        html += '<div class="compare-container">';
-        for (const key of keys) {
-          html += imageCard(basePath, key, images[key]);
-        }
-        html += '</div></div>';
-      }
-
-      // All images grid
-      html += '<div class="image-section">';
-      html += '<h2>All Outputs</h2>';
-      html += '<div class="image-grid">';
-      for (const [key, filename] of Object.entries(images)) {
-        html += imageCard(basePath, key, filename);
-      }
-      html += '</div></div>';
 
       document.getElementById('content').innerHTML = html;
 
@@ -473,6 +425,109 @@
 
     function metaItem(label, value) {
       return `<div class="meta-item"><span class="label">${label}</span><span class="value">${value ?? '--'}</span></div>`;
+    }
+
+    // Matches _TRACK_COLOURS in the pipeline's debug video renderer
+    const OBJECT_COLOURS = ['#00e676', '#ffa726', '#00e5ff', '#e040fb'];
+
+    function videoCard(src, title, desc) {
+      return `
+        <div class="video-card">
+          <video controls preload="metadata" loop>
+            <source src="${src}" type="video/mp4">
+          </video>
+          <div class="caption">
+            <strong>${title}</strong><br>
+            ${desc}
+          </div>
+        </div>`;
+    }
+
+    function renderObject(n, files, basePath, r2Urls, trackMeta, multi) {
+      // files: { baseKey: {key, filename} } with any trackN_ prefix stripped
+      const images = {};
+      const videos = {};
+      for (const [base, f] of Object.entries(files)) {
+        if (f.filename.endsWith('.mp4')) videos[base] = f;
+        else if (f.filename.endsWith('.png')) images[base] = f;
+      }
+
+      let html = '';
+
+      if (multi) {
+        const colour = OBJECT_COLOURS[(n - 1) % OBJECT_COLOURS.length];
+        const tm = trackMeta.find(t => t.track === n);
+        const stats = tm
+          ? ` <span style="color:var(--text-muted);font-weight:400;font-size:13px">
+              ${tm.detections} detections, frames ${tm.frame_range[0]}&ndash;${tm.frame_range[1]}</span>`
+          : '';
+        html += `<h2 style="margin-top:24px">
+          <span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${colour};margin-right:8px"></span>
+          Object ${n}${stats}</h2>`;
+      }
+
+      // Per-object crops video
+      if (videos.crops) {
+        const info = VIDEO_LABELS.crops;
+        html += '<div class="video-section"><div class="video-grid">';
+        html += videoCard(
+          r2Urls[videos.crops.key] || `${basePath}/${videos.crops.filename}`,
+          info.title, info.desc,
+        );
+        html += '</div></div>';
+      }
+
+      // Reference images (best frame, bicubic, ESRGAN)
+      const refKeys = ['best_frame', 'best_frame_bicubic', 'best_frame_esrgan4x'].filter(k => images[k]);
+      if (refKeys.length > 0) {
+        html += '<div class="compare-section">';
+        html += '<h2>Reference (Best Frame)</h2>';
+        html += '<div class="compare-container">';
+        for (const key of refKeys) {
+          html += imageCard(basePath, key, images[key].filename);
+        }
+        html += '</div></div>';
+      }
+
+      // Stacking variants grouped by method
+      const stackGroups = [
+        { label: 'Drizzle', prefix: 'drizzle_', exclude: 'drizzle_ibp_' },
+        { label: 'IBP', prefix: 'ibp_' },
+        { label: 'Drizzle + IBP', prefix: 'drizzle_ibp_' },
+      ];
+
+      const grouped = new Set(refKeys);
+      for (const group of stackGroups) {
+        const keys = Object.keys(images).filter(k => {
+          if (refKeys.includes(k)) return false;
+          if (group.exclude && k.startsWith(group.exclude)) return false;
+          return k.startsWith(group.prefix);
+        });
+        if (keys.length === 0) continue;
+        keys.forEach(k => grouped.add(k));
+
+        html += '<div class="compare-section">';
+        html += `<h2>${group.label} Variants</h2>`;
+        html += '<div class="compare-container">';
+        for (const key of keys) {
+          html += imageCard(basePath, key, images[key].filename);
+        }
+        html += '</div></div>';
+      }
+
+      // Anything the groups above didn't cover
+      const leftover = Object.keys(images).filter(k => !grouped.has(k));
+      if (leftover.length > 0) {
+        html += '<div class="compare-section">';
+        html += '<h2>Other Outputs</h2>';
+        html += '<div class="compare-container">';
+        for (const key of leftover) {
+          html += imageCard(basePath, key, images[key].filename);
+        }
+        html += '</div></div>';
+      }
+
+      return html;
     }
 
     function imageCard(basePath, key, filename) {

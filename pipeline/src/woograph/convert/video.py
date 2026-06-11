@@ -66,6 +66,7 @@ class ProcessingMetadata:
     output_files: dict[str, str] = field(default_factory=dict)
     vlm_scene_count: int = 0
     vlm_footage_range: tuple[int, int] | None = None
+    tracks: list[dict] = field(default_factory=list)
 
 
 def _extract_frames(
@@ -535,18 +536,28 @@ def _link_tracks(
     return tracks
 
 
-def _select_best_track(
+def _select_tracks(
     tracks: list[_Track],
     n_frames: int,
+    dedup_dist: float,
+    max_tracks: int = 3,
     min_track_len: int = 10,
-) -> _Track | None:
-    """Pick the track that best covers the whole video.
+    min_score_frac: float = 0.2,
+    min_overlap: int = 10,
+) -> list[_Track]:
+    """Pick up to max_tracks distinct objects, best score first.
 
-    Score = temporal coverage × mean fill ratio. Coverage favours the object
-    that is consistently in shot over a large transient (e.g. the moon
+    Score = temporal coverage × mean fill ratio. Coverage favours objects
+    that are consistently in shot over a large transient (e.g. the moon
     drifting through the opening seconds); fill ratio favours compact real
     objects over diffuse noise like tree branches, which trace sparse
     contours spread across a large bbox.
+
+    A candidate that co-moves with an already-selected track (sharing at
+    least min_overlap frames with median centroid distance under dedup_dist)
+    is a parallel
+    fragment of the same object, not a second object, and is skipped.
+    Tracks scoring under min_score_frac of the best are noise.
     """
     scored: list[tuple[float, float, _Track]] = []
     for tr in tracks:
@@ -557,16 +568,42 @@ def _select_best_track(
         scored.append((coverage * compactness, coverage, tr))
 
     if not scored:
-        return None
+        return []
 
     scored.sort(key=lambda s: s[0], reverse=True)
-    for score, coverage, tr in scored[:5]:
+    best_score = scored[0][0]
+
+    selected: list[_Track] = []
+    selected_maps: list[dict[int, _Candidate]] = []
+    for score, coverage, tr in scored:
+        if len(selected) >= max_tracks or score < best_score * min_score_frac:
+            break
+        tr_map = dict(zip(tr.frame_indices, tr.candidates))
+        is_fragment = False
+        for smap in selected_maps:
+            common = tr_map.keys() & smap.keys()
+            if len(common) < min_overlap:
+                continue
+            dists = [
+                np.hypot(
+                    tr_map[f].bbox.center[0] - smap[f].bbox.center[0],
+                    tr_map[f].bbox.center[1] - smap[f].bbox.center[1],
+                )
+                for f in common
+            ]
+            if float(np.median(dists)) < dedup_dist:
+                is_fragment = True
+                break
+        if is_fragment:
+            continue
+        selected.append(tr)
+        selected_maps.append(tr_map)
         logger.info(
-            "track: frames %d-%d, detections=%d, coverage=%.2f, score=%.3f",
-            tr.frame_indices[0], tr.frame_indices[-1],
+            "object %d: frames %d-%d, detections=%d, coverage=%.2f, score=%.3f",
+            len(selected), tr.frame_indices[0], tr.frame_indices[-1],
             len(tr.frame_indices), coverage, score,
         )
-    return scored[0][2]
+    return selected
 
 
 def _detect_median_subtraction(
@@ -575,15 +612,15 @@ def _detect_median_subtraction(
     threshold: int = 15,
     roi_y_max: float = 1.0,
     max_jump: float = 0.0,
-) -> list[BBox | None]:
-    """Detect the most persistent moving object via temporal median subtraction.
+) -> list[list[BBox | None]]:
+    """Detect persistent moving objects via temporal median subtraction.
 
     Computes the median frame as a background model, finds ALL candidate
     objects per frame by thresholding the difference from the median, links
-    candidates into tracks, and returns the track with the best coverage of
-    the video. Selecting whole tracks (rather than a per-frame winner) stops
-    a large transient object from hijacking detection from a small object
-    that is in shot throughout.
+    candidates into tracks, and returns up to a few distinct tracks ordered
+    by coverage of the video (one bbox-per-frame list each). Selecting whole
+    tracks (rather than a per-frame winner) stops a large transient object
+    from hijacking detection from a small object that is in shot throughout.
 
     Args:
         min_area: Minimum candidate bbox area in pixels.
@@ -669,19 +706,24 @@ def _detect_median_subtraction(
         frame_candidates[i] = candidates
 
     tracks = _link_tracks(frame_candidates, max_jump=max_jump)
-    best = _select_best_track(tracks, len(frames))
-
-    bboxes: list[BBox | None] = [None] * len(frames)
-    if best is not None:
-        for idx, cand in zip(best.frame_indices, best.candidates):
-            bboxes[idx] = cand.bbox
-
-    detected = sum(1 for b in bboxes if b is not None)
-    logger.info(
-        "Median subtraction: %d tracks, best covers %d / %d frames (threshold=%d)",
-        len(tracks), detected, len(frames), threshold,
+    selected = _select_tracks(
+        tracks, len(frames), dedup_dist=0.02 * np.sqrt(h**2 + w**2),
     )
-    return bboxes
+
+    results: list[list[BBox | None]] = []
+    for tr in selected:
+        bboxes: list[BBox | None] = [None] * len(frames)
+        for idx, cand in zip(tr.frame_indices, tr.candidates):
+            bboxes[idx] = cand.bbox
+        results.append(bboxes)
+
+    best_detected = len(selected[0].frame_indices) if selected else 0
+    logger.info(
+        "Median subtraction: %d tracks, %d objects selected, "
+        "best covers %d / %d frames (threshold=%d)",
+        len(tracks), len(selected), best_detected, len(frames), threshold,
+    )
+    return results
 
 
 def _filter_detections(
@@ -1060,17 +1102,22 @@ def _save_crop_video(
     logger.info("Saved crop video: %s (%d frames, %dx%d)", output_path, len(crops), out_w, out_h)
 
 
+# BGR colours for objects 1..N in the debug video (green, orange, cyan,
+# magenta); red is reserved for filtered-out detections
+_TRACK_COLOURS = [(0, 255, 0), (0, 165, 255), (255, 255, 0), (255, 0, 255)]
+
+
 def _save_debug_video(
     frames: list[NDArray[np.uint8]],
-    raw_bboxes: list[BBox | None],
-    filtered_bboxes: list[BBox | None],
+    raw_tracks: list[list[BBox | None]],
+    filtered_tracks: list[list[BBox | None]],
     output_path: Path,
     fps: int = 30,
 ) -> None:
-    """Save full-size video with bounding boxes, centroids, and frame numbers.
+    """Save full-size video with each object's bounding boxes overlaid.
 
-    Shows raw detections in green (kept) or red (filtered out).
-    Filtered frames are labelled "FILTERED".
+    Each tracked object gets its own colour; detections rejected by the
+    outlier filters are drawn in red with a FILTERED label.
     """
     if not frames:
         return
@@ -1081,34 +1128,35 @@ def _save_debug_video(
 
     for i, frame in enumerate(frames):
         annotated = frame.copy()
-        raw_bb = raw_bboxes[i] if i < len(raw_bboxes) else None
-        kept_bb = filtered_bboxes[i] if i < len(filtered_bboxes) else None
-
-        # Determine if this frame was filtered out
-        was_filtered = raw_bb is not None and kept_bb is None
-
-        # Frame number (top-left)
-        label_color = (0, 0, 255) if was_filtered else (255, 255, 255)
-        status = f"#{i} FILTERED" if was_filtered else f"#{i}"
         cv2.putText(
-            annotated, status, (10, 30),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.8, label_color, 2,
+            annotated, f"#{i}", (10, 30),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2,
         )
 
-        if raw_bb is not None:
-            # Box colour: green=kept, red=filtered
-            box_color = (0, 0, 255) if was_filtered else (0, 255, 0)
+        for t, (raw_bboxes, filtered_bboxes) in enumerate(
+            zip(raw_tracks, filtered_tracks),
+        ):
+            raw_bb = raw_bboxes[i] if i < len(raw_bboxes) else None
+            if raw_bb is None:
+                continue
+            kept_bb = filtered_bboxes[i] if i < len(filtered_bboxes) else None
+            was_filtered = kept_bb is None
+
+            box_color = (
+                (0, 0, 255) if was_filtered
+                else _TRACK_COLOURS[t % len(_TRACK_COLOURS)]
+            )
             cv2.rectangle(
                 annotated,
                 (raw_bb.x, raw_bb.y),
                 (raw_bb.x + raw_bb.w, raw_bb.y + raw_bb.h),
                 box_color, 1,
             )
-            # Centroid
             cx, cy = raw_bb.center
-            cv2.circle(annotated, (int(cx), int(cy)), 3, (0, 0, 255), -1)
-            # Label: bbox size and centre
-            info = f"{raw_bb.w}x{raw_bb.h} ({cx:.1f},{cy:.1f})"
+            cv2.circle(annotated, (int(cx), int(cy)), 3, box_color, -1)
+            info = f"T{t + 1} {raw_bb.w}x{raw_bb.h}"
+            if was_filtered:
+                info += " FILTERED"
             cv2.putText(
                 annotated, info, (raw_bb.x, raw_bb.y - 5),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.4, box_color, 1,
@@ -2533,6 +2581,229 @@ def _enhance_output(image: NDArray[np.float64]) -> NDArray[np.float64]:
     return result.astype(np.float64)
 
 
+def _process_track(
+    frames: list[NDArray[np.uint8]],
+    bboxes: list[BBox | None],
+    output_dir: Path,
+    prefix: str,
+    *,
+    scale: int,
+    padding_factor: float,
+    psf_sigma: float,
+    save_crops: bool,
+) -> dict:
+    """Crop, align, and stack one tracked object; write its output files.
+
+    Output filenames are prefixed (e.g. ``track2_``); the primary object
+    uses an empty prefix so its files keep their original names.
+
+    Returns a summary dict for the metadata ``tracks`` list.
+    """
+    # Crop around object at raw bbox centres (object stays centred)
+    crops, crop_size, raw_centers, crop_corners, frame_indices = _crop_with_padding(
+        frames, bboxes, padding_factor=padding_factor,
+    )
+
+    logger.debug(f"crop corners = {crop_corners}")
+    crop_h, crop_w = crop_size
+
+    # Log per-frame detail: frame_idx, bbox, centre, crop corner
+    valid_bboxes = [b for b in bboxes if b is not None]
+    for i in range(len(crops)):
+        bb = valid_bboxes[i]
+        cx, cy = raw_centers[i]
+        x1, y1 = crop_corners[i]
+        logger.debug(
+            "crop %3d: bbox=(%d,%d,%d,%d) centre=(%.1f,%.1f) "
+            "crop_corner=(%d,%d) float_origin=(%.1f,%.1f)",
+            i, bb.x, bb.y, bb.w, bb.h, cx, cy,
+            x1, y1, cx - crop_w / 2, cy - crop_h / 2,
+        )
+
+    # Compute offsets from the ACTUAL crop corner positions
+    raw_origins = [(float(x1), float(y1)) for x1, y1 in crop_corners]
+    min_ox = min(ox for ox, _ in raw_origins)
+    min_oy = min(oy for _, oy in raw_origins)
+    offsets = [(ox - min_ox, oy - min_oy) for ox, oy in raw_origins]
+
+    ox_span = max(ox for ox, _ in offsets)
+    oy_span = max(oy for _, oy in offsets)
+    logger.info("Crop offsets: span %.1f×%.1f px, %d crops at %dx%d",
+                ox_span, oy_span, len(crops), crop_w, crop_h)
+    logger.debug("Origin min: (%.2f, %.2f), offsets (first 5): %s",
+                 min_ox, min_oy, offsets[:5])
+
+    # Sharpness weights and best frame (for comparison output)
+    weights = _compute_sharpness(crops)
+    best_idx = int(np.argmax(weights))
+    best_crop = crops[best_idx]
+    cv2.imwrite(str(output_dir / f"{prefix}best_frame.png"), best_crop)
+    logger.info(
+        "Best frame: index %d, sharpness weight %.4f", best_idx, weights[best_idx],
+    )
+
+    if save_crops:
+        _save_crop_video(
+            [c.astype(np.float64) for c in crops],
+            output_dir / f"{prefix}crops.mp4", fps=10,
+            raw_centers=raw_centers, crop_corners=crop_corners,
+            frame_indices=frame_indices,
+        )
+
+    # Phase-correlation alignment — integer-align crops and extract
+    # sub-pixel residuals. Crops with large shifts (dissimilar frames) are
+    # rejected so they don't blur the stack.
+    aligned_crops, frac_shifts, kept = _align_crops_phase(
+        crops, ref_idx=best_idx, max_shift=3.0,
+    )
+    aligned_weights = [weights[i] for i in kept]
+
+    if len(aligned_crops) < 3:
+        logger.warning(
+            "Phase alignment kept only %d crops — falling back to all crops without alignment",
+            len(aligned_crops),
+        )
+        aligned_crops = [c.astype(np.float64) for c in crops]
+        frac_shifts = [(0.0, 0.0)] * len(crops)
+        aligned_weights = list(weights)
+
+    # Frame subset selection and transforms:
+    # "all" — every aligned crop (may blur rotating objects)
+    # "consecutive" — 5 frames nearest the best frame (minimal rotation)
+    # "similar" — top N most similar to reference (NCC-ranked)
+
+    def _build_transforms(shifts: list[tuple[float, float]]) -> list[NDArray[np.float64]]:
+        return [np.array([[1.0, 0.0, dx], [0.0, 1.0, dy]], dtype=np.float64)
+                for dx, dy in shifts]
+
+    def _ncc_to_ref(crops_list: list[NDArray], ref: NDArray) -> NDArray[np.float64]:
+        """Normalised cross-correlation of each crop with the reference."""
+        ref_gray = cv2.cvtColor(np.clip(ref, 0, 255).astype(np.uint8),
+                                cv2.COLOR_BGR2GRAY).astype(np.float64) if ref.ndim == 3 \
+            else ref.astype(np.float64)
+        ref_norm = ref_gray - ref_gray.mean()
+        ref_std = ref_norm.std()
+        if ref_std < 1e-6:
+            return np.ones(len(crops_list))
+        scores = np.zeros(len(crops_list))
+        for i, c in enumerate(crops_list):
+            g = cv2.cvtColor(np.clip(c, 0, 255).astype(np.uint8),
+                             cv2.COLOR_BGR2GRAY).astype(np.float64) if c.ndim == 3 \
+                else c.astype(np.float64)
+            g_norm = g - g.mean()
+            g_std = g_norm.std()
+            if g_std < 1e-6:
+                scores[i] = 0.0
+            else:
+                scores[i] = float(np.sum(ref_norm * g_norm) / (ref_std * g_std * ref_gray.size))
+        return scores
+
+    def _ref_pos() -> int:
+        for i, ki in enumerate(kept):
+            if ki == best_idx:
+                return i
+        return 0
+
+    def _select_consecutive(n: int = 5) -> tuple[list[NDArray], list[tuple[float, float]], list[float]]:
+        """Select n frames centred on the best frame (within aligned set)."""
+        half = n // 2
+        lo = max(0, _ref_pos() - half)
+        hi = min(len(aligned_crops), lo + n)
+        lo = max(0, hi - n)
+        sel = list(range(lo, hi))
+        return ([aligned_crops[i] for i in sel],
+                [frac_shifts[i] for i in sel],
+                [aligned_weights[i] for i in sel])
+
+    def _select_similar(n: int = 15) -> tuple[list[NDArray], list[tuple[float, float]], list[float]]:
+        """Select n crops most similar to reference by NCC."""
+        ncc = _ncc_to_ref(aligned_crops, aligned_crops[_ref_pos()])
+        top_n = min(n, len(aligned_crops))
+        sel = np.argsort(ncc)[-top_n:][::-1].tolist()
+        return ([aligned_crops[i] for i in sel],
+                [frac_shifts[i] for i in sel],
+                [aligned_weights[i] for i in sel])
+
+    def _run_drizzle_ibp(sel_crops: list[NDArray], sel_shifts: list[tuple[float, float]],
+                         sel_weights: list[float], label: str) -> None:
+        """Run drizzle, IBP, and drizzle+IBP for a frame selection, save outputs."""
+        sel_transforms = _build_transforms(sel_shifts)
+        sel_f64 = [c.astype(np.float64) for c in sel_crops]
+
+        # Drizzle
+        driz = _drizzle(sel_f64, sel_weights, scale=scale, pixfrac=0.7, shifts=sel_shifts)
+        driz_out = _enhance_output(driz)
+        cv2.imwrite(str(output_dir / f"{prefix}drizzle_{label}.png"),
+                    np.clip(driz_out, 0, 255).astype(np.uint8))
+        logger.info("Saved %sdrizzle_%s: %d frames", prefix, label, len(sel_crops))
+
+        # IBP only (weighted-average init)
+        ibp = _ibp_super_resolve(
+            observations=sel_f64, transforms=sel_transforms, weights=sel_weights,
+            scale=scale, iterations=20, psf_sigma=psf_sigma, learning_rate=0.1,
+        )
+        ibp_out = _enhance_output(ibp)
+        cv2.imwrite(str(output_dir / f"{prefix}ibp_{label}.png"),
+                    np.clip(ibp_out, 0, 255).astype(np.uint8))
+        logger.info("Saved %sibp_%s: %d frames", prefix, label, len(sel_crops))
+
+        # Drizzle + IBP
+        driz_ibp = _ibp_super_resolve(
+            observations=sel_f64, transforms=sel_transforms, weights=sel_weights,
+            scale=scale, iterations=20, psf_sigma=psf_sigma, learning_rate=0.1,
+            aligned_for_init=sel_f64,
+        )
+        driz_ibp_out = _enhance_output(driz_ibp)
+        cv2.imwrite(str(output_dir / f"{prefix}drizzle_ibp_{label}.png"),
+                    np.clip(driz_ibp_out, 0, 255).astype(np.uint8))
+        logger.info("Saved %sdrizzle_ibp_%s: %d frames", prefix, label, len(sel_crops))
+
+    # ── Save all output variants for comparison ──
+
+    _run_drizzle_ibp(aligned_crops, frac_shifts, aligned_weights, "all")
+
+    cons_crops, cons_shifts, cons_weights = _select_consecutive(5)
+    _run_drizzle_ibp(cons_crops, cons_shifts, cons_weights, "consecutive5")
+
+    sim_crops, sim_shifts, sim_weights = _select_similar(15)
+    _run_drizzle_ibp(sim_crops, sim_shifts, sim_weights, "similar15")
+
+    # Best frame bicubic upscale (baseline comparison)
+    bicubic = cv2.resize(best_crop, (best_crop.shape[1] * scale, best_crop.shape[0] * scale),
+                         interpolation=cv2.INTER_CUBIC)
+    cv2.imwrite(str(output_dir / f"{prefix}best_frame_bicubic.png"), bicubic)
+    logger.info("Saved bicubic %dx: %s", scale, output_dir / f"{prefix}best_frame_bicubic.png")
+
+    # Best frame neural upscale (Real-ESRGAN 4x) — optional, requires torch
+    best_u8 = np.clip(best_crop, 0, 255).astype(np.uint8)
+    esrgan_result = _esrgan_upscale(best_u8)
+    if esrgan_result is not None:
+        cv2.imwrite(str(output_dir / f"{prefix}best_frame_esrgan4x.png"), esrgan_result)
+        logger.info("Saved ESRGAN 4x: %s (%dx%d)",
+                    output_dir / f"{prefix}best_frame_esrgan4x.png",
+                    esrgan_result.shape[1], esrgan_result.shape[0])
+
+    # Optionally save individual crops
+    if save_crops:
+        frames_dir = output_dir / f"{prefix}frames"
+        frames_dir.mkdir(exist_ok=True)
+        for i, crop in enumerate(crops):
+            cv2.imwrite(str(frames_dir / f"crop_{i:04d}.png"), crop)
+        logger.info("Saved %d crops to %s", len(crops), frames_dir)
+
+    return {
+        "prefix": prefix,
+        "detections": len(crops),
+        "frame_range": [int(frame_indices[0]), int(frame_indices[-1])],
+        "crop_size": crop_size,
+        "output_size": (best_crop.shape[1] * scale, best_crop.shape[0] * scale),
+        "shifts": [list(o) for o in offsets],
+        "sharpness_weights": [round(w_, 6) for w_ in weights],
+        "best_frame_index": best_idx,
+        "best_frame_sharpness": round(weights[best_idx], 6),
+    }
+
+
 def convert_video(
     video_path: Path,
     output_dir: Path,
@@ -2558,7 +2829,6 @@ def convert_video(
         frame_step: Extract every Nth frame.
         padding_factor: Crop padding around detected object.
         min_object_area: Minimum contour area for detection (pixels).
-        warmup_frames: Frames for MOG2 warmup before detection starts.
         psf_sigma: Gaussian PSF sigma in LR pixels (0.3-0.8 for phone video).
         deconv_iterations: Richardson-Lucy iterations (0 = skip, IBP already deconvolves).
         save_crops: If True, save individual aligned crops to frames/ subdir.
@@ -2626,63 +2896,56 @@ def convert_video(
     transforms = _estimate_global_motion(frames, mask=feature_mask)
     frames = _stabilise_frames(frames, transforms)
 
-    # Step 2: Detect and track object (Pass 2 — on stabilised frames)
-    # Try temporal median subtraction first (better for small objects in sky),
-    # fall back to MOG2 if it doesn't find enough detections.
-    bboxes = _detect_median_subtraction(
+    # Step 2: Detect and track objects (Pass 2 — on stabilised frames)
+    track_bboxes = _detect_median_subtraction(
         frames, min_area=min_object_area, roi_y_max=roi_y_max,
     )
-    raw_detected_count = sum(1 for b in bboxes if b is not None)
-    logger.debug(f"bboxes = {bboxes}")
-
-    # if raw_detected_count < 10:
-    #     logger.info(
-    #         "Median subtraction found only %d frames — trying MOG2 fallback",
-    #         raw_detected_count,
-    #     )
-    #     bboxes_mog2 = _detect_and_track(
-    #         frames, min_area=min_object_area, warmup_frames=warmup_frames,
-    #         roi_y_max=roi_y_max,
-    #     )
-    #     mog2_count = sum(1 for b in bboxes_mog2 if b is not None)
-    #     if mog2_count > raw_detected_count:
-    #         logger.info("MOG2 found more detections (%d vs %d), using MOG2",
-    #                     mog2_count, raw_detected_count)
-    #         bboxes = bboxes_mog2
-    #         raw_detected_count = mog2_count
+    raw_detected_count = sum(
+        1 for b in (track_bboxes[0] if track_bboxes else []) if b is not None
+    )
 
     logger.info("Detected %d frames", raw_detected_count)
 
-    # Step 2.5: Filter outlier detections (edge proximity, size jumps, banking)
-    raw_bboxes = list(bboxes)  # save pre-filter state for debug video
-    bboxes = _filter_detections(bboxes, (h, w), padding_factor=padding_factor)
+    # Step 2.5/2.6: Per-track outlier + trajectory filtering. Tracks left
+    # with too few detections to stack are dropped.
+    filtered_tracks = []
+    for bb in track_bboxes:
+        filtered = _filter_detections(bb, (h, w), padding_factor=padding_factor)
+        filtered_tracks.append(_filter_trajectory(filtered))
 
-    # Step 2.6: Trajectory filter — reject detections that jump to a second
-    # object. Keeps only the smooth path of one consistent target.
-    bboxes = _filter_trajectory(bboxes)
+    keep = [
+        t for t, flt in enumerate(filtered_tracks)
+        if sum(1 for b in flt if b is not None) >= 3
+    ]
+    logger.info(
+        "%d object(s) after filtering (detections: %s)",
+        len(keep),
+        ", ".join(
+            str(sum(1 for b in filtered_tracks[t] if b is not None))
+            for t in keep
+        ) or "none",
+    )
 
-    raw_detected_count = sum(1 for b in bboxes if b is not None)
-
-    logger.info("%d frames after filtering", raw_detected_count)
-
-    # Step 2.8: Save debug video with raw + filtered bboxes
+    # Step 2.8: Save debug video with every object's raw + filtered bboxes
+    # (when nothing survived filtering, draw all rejects for diagnosis)
     if save_crops:
-        _save_debug_video(frames, raw_bboxes, bboxes,
-                          output_dir / "debug_detections.mp4")
-
-    if raw_detected_count < 3:
-        logger.warning(
-            "Only %d frames with detections — need at least 3 for stacking",
-            raw_detected_count,
+        debug_tracks = keep or range(len(track_bboxes))
+        _save_debug_video(
+            frames,
+            [track_bboxes[t] for t in debug_tracks],
+            [filtered_tracks[t] for t in debug_tracks],
+            output_dir / "debug_detections.mp4",
         )
+
+    if not keep:
+        logger.warning("No object with enough detections for stacking")
         mid = len(frames) // 2
-        best_path = output_dir / "best_frame.png"
-        cv2.imwrite(str(best_path), frames[mid])
+        cv2.imwrite(str(output_dir / "best_frame.png"), frames[mid])
         meta = ProcessingMetadata(
             video_path=str(video_path),
             total_frames=total_frames,
             extracted_frames=total_frames,
-            detected_frames=raw_detected_count,
+            detected_frames=0,
             crop_size=(0, 0),
             scale_factor=scale,
             output_size=(frames[mid].shape[1], frames[mid].shape[0]),
@@ -2694,215 +2957,20 @@ def convert_video(
         logger.warning("Insufficient detections, saved fallback best_frame.png only")
         return output_dir
 
-    # Step 3: Crop around object at raw bbox centres (object stays centred)
-    crops, crop_size, raw_centers, crop_corners, frame_indices = _crop_with_padding(
-        frames, bboxes, padding_factor=padding_factor,
-    )
+    # Step 3+: Crop, align, and stack each object. The primary object keeps
+    # unprefixed filenames so existing sources and pages stay valid.
+    track_infos = []
+    for n, t in enumerate(keep):
+        prefix = "" if n == 0 else f"track{n + 1}_"
+        if prefix:
+            logger.info("Processing object %d", n + 1)
+        track_infos.append(_process_track(
+            frames, filtered_tracks[t], output_dir, prefix,
+            scale=scale, padding_factor=padding_factor,
+            psf_sigma=psf_sigma, save_crops=save_crops,
+        ))
 
-    logger.debug(f"crop corners = {crop_corners}")
-    # Step 4: Compute offsets from the ACTUAL crop corner positions.
-    crop_h, crop_w = crop_size
-
-    # Log per-frame detail: frame_idx, bbox, centre, crop corner
-    valid_bboxes = [b for b in bboxes if b is not None]
-    for i in range(len(crops)):
-        bb = valid_bboxes[i]
-        cx, cy = raw_centers[i]
-        x1, y1 = crop_corners[i]
-        logger.debug(
-            "crop %3d: bbox=(%d,%d,%d,%d) centre=(%.1f,%.1f) "
-            "crop_corner=(%d,%d) float_origin=(%.1f,%.1f)",
-            i, bb.x, bb.y, bb.w, bb.h, cx, cy,
-            x1, y1, cx - crop_w / 2, cy - crop_h / 2,
-        )
-
-    # Use actual integer crop corners as origins (matches where pixels came from)
-    raw_origins = [(float(x1), float(y1)) for x1, y1 in crop_corners]
-    min_ox = min(ox for ox, _ in raw_origins)
-    min_oy = min(oy for _, oy in raw_origins)
-    offsets = [(ox - min_ox, oy - min_oy) for ox, oy in raw_origins]
-
-    ox_span = max(ox for ox, _ in offsets)
-    oy_span = max(oy for _, oy in offsets)
-    logger.info("Crop offsets: span %.1f×%.1f px, %d crops at %dx%d",
-                ox_span, oy_span, len(crops), crop_w, crop_h)
-    logger.debug("Origin min: (%.2f, %.2f), offsets (first 5): %s",
-                 min_ox, min_oy, offsets[:5])
-
-    # Step 5: Compute sharpness weights on raw crops
-    weights = _compute_sharpness(crops)
-
-    # Step 6: Best frame (for comparison output)
-    best_idx = int(np.argmax(weights))
-    best_crop = crops[best_idx]
-    best_path = output_dir / "best_frame.png"
-    cv2.imwrite(str(best_path), best_crop)
-    logger.info(
-        "Best frame: index %d, sharpness weight %.4f", best_idx, weights[best_idx],
-    )
-
-    # Step 6.5: Save diagnostic video
-    if save_crops:
-        _save_crop_video(
-            [c.astype(np.float64) for c in crops],
-            output_dir / "crops.mp4", fps=10,
-            raw_centers=raw_centers, crop_corners=crop_corners,
-            frame_indices=frame_indices,
-        )
-
-    # Step 7: Phase-correlation alignment — integer-align crops and extract
-    # sub-pixel residuals.  Crops with large shifts (dissimilar frames) are
-    # rejected so they don't blur the stack.
-    aligned_crops, frac_shifts, kept = _align_crops_phase(
-        crops, ref_idx=best_idx, max_shift=3.0,
-    )
-    aligned_weights = [weights[i] for i in kept]
-
-    if len(aligned_crops) < 3:
-        logger.warning(
-            "Phase alignment kept only %d crops — falling back to all crops without alignment",
-            len(aligned_crops),
-        )
-        aligned_crops = [c.astype(np.float64) for c in crops]
-        frac_shifts = [(0.0, 0.0)] * len(crops)
-        aligned_weights = list(weights)
-
-    # Step 7b: Select frame subsets and build transforms.
-    #
-    # "all" — every aligned crop (may blur rotating objects)
-    # "consecutive" — 5 frames nearest the best frame (minimal rotation)
-    # "similar" — top N most similar to reference (NCC-ranked)
-
-    def _build_transforms(shifts: list[tuple[float, float]]) -> list[NDArray[np.float64]]:
-        return [np.array([[1.0, 0.0, dx], [0.0, 1.0, dy]], dtype=np.float64)
-                for dx, dy in shifts]
-
-    def _ncc_to_ref(crops_list: list[NDArray], ref: NDArray) -> NDArray[np.float64]:
-        """Normalised cross-correlation of each crop with the reference."""
-        ref_gray = cv2.cvtColor(np.clip(ref, 0, 255).astype(np.uint8),
-                                cv2.COLOR_BGR2GRAY).astype(np.float64) if ref.ndim == 3 \
-            else ref.astype(np.float64)
-        ref_norm = ref_gray - ref_gray.mean()
-        ref_std = ref_norm.std()
-        if ref_std < 1e-6:
-            return np.ones(len(crops_list))
-        scores = np.zeros(len(crops_list))
-        for i, c in enumerate(crops_list):
-            g = cv2.cvtColor(np.clip(c, 0, 255).astype(np.uint8),
-                             cv2.COLOR_BGR2GRAY).astype(np.float64) if c.ndim == 3 \
-                else c.astype(np.float64)
-            g_norm = g - g.mean()
-            g_std = g_norm.std()
-            if g_std < 1e-6:
-                scores[i] = 0.0
-            else:
-                scores[i] = float(np.sum(ref_norm * g_norm) / (ref_std * g_std * ref_gray.size))
-        return scores
-
-    def _select_consecutive(n: int = 5) -> tuple[list[NDArray], list[tuple[float, float]], list[float]]:
-        """Select n frames centred on the best frame (within aligned set)."""
-        # Find best_idx within aligned_crops
-        ref_pos = None
-        for i, ki in enumerate(kept):
-            if ki == best_idx:
-                ref_pos = i
-                break
-        if ref_pos is None:
-            ref_pos = 0
-        half = n // 2
-        lo = max(0, ref_pos - half)
-        hi = min(len(aligned_crops), lo + n)
-        lo = max(0, hi - n)
-        sel = list(range(lo, hi))
-        return ([aligned_crops[i] for i in sel],
-                [frac_shifts[i] for i in sel],
-                [aligned_weights[i] for i in sel])
-
-    def _select_similar(n: int = 15) -> tuple[list[NDArray], list[tuple[float, float]], list[float]]:
-        """Select n crops most similar to reference by NCC."""
-        ref_pos = None
-        for i, ki in enumerate(kept):
-            if ki == best_idx:
-                ref_pos = i
-                break
-        if ref_pos is None:
-            ref_pos = 0
-        ncc = _ncc_to_ref(aligned_crops, aligned_crops[ref_pos])
-        top_n = min(n, len(aligned_crops))
-        sel = np.argsort(ncc)[-top_n:][::-1].tolist()
-        return ([aligned_crops[i] for i in sel],
-                [frac_shifts[i] for i in sel],
-                [aligned_weights[i] for i in sel])
-
-    def _run_drizzle_ibp(sel_crops: list[NDArray], sel_shifts: list[tuple[float, float]],
-                         sel_weights: list[float], label: str) -> None:
-        """Run drizzle, IBP, and drizzle+IBP for a frame selection, save outputs."""
-        sel_transforms = _build_transforms(sel_shifts)
-        sel_f64 = [c.astype(np.float64) for c in sel_crops]
-
-        # Drizzle
-        driz = _drizzle(sel_f64, sel_weights, scale=scale, pixfrac=0.7, shifts=sel_shifts)
-        driz_out = _enhance_output(driz)
-        cv2.imwrite(str(output_dir / f"drizzle_{label}.png"),
-                    np.clip(driz_out, 0, 255).astype(np.uint8))
-        logger.info("Saved drizzle_%s: %d frames", label, len(sel_crops))
-
-        # IBP only (weighted-average init)
-        ibp = _ibp_super_resolve(
-            observations=sel_f64, transforms=sel_transforms, weights=sel_weights,
-            scale=scale, iterations=20, psf_sigma=psf_sigma, learning_rate=0.1,
-        )
-        ibp_out = _enhance_output(ibp)
-        cv2.imwrite(str(output_dir / f"ibp_{label}.png"),
-                    np.clip(ibp_out, 0, 255).astype(np.uint8))
-        logger.info("Saved ibp_%s: %d frames", label, len(sel_crops))
-
-        # Drizzle + IBP
-        driz_ibp = _ibp_super_resolve(
-            observations=sel_f64, transforms=sel_transforms, weights=sel_weights,
-            scale=scale, iterations=20, psf_sigma=psf_sigma, learning_rate=0.1,
-            aligned_for_init=sel_f64,
-        )
-        driz_ibp_out = _enhance_output(driz_ibp)
-        cv2.imwrite(str(output_dir / f"drizzle_ibp_{label}.png"),
-                    np.clip(driz_ibp_out, 0, 255).astype(np.uint8))
-        logger.info("Saved drizzle_ibp_%s: %d frames", label, len(sel_crops))
-
-    # ── Save all output variants for comparison ──
-
-    # 1. All aligned frames
-    _run_drizzle_ibp(aligned_crops, frac_shifts, aligned_weights, "all")
-
-    # 2. 5 consecutive frames around best
-    cons_crops, cons_shifts, cons_weights = _select_consecutive(5)
-    _run_drizzle_ibp(cons_crops, cons_shifts, cons_weights, "consecutive5")
-
-    # 3. Top 15 most similar frames
-    sim_crops, sim_shifts, sim_weights = _select_similar(15)
-    _run_drizzle_ibp(sim_crops, sim_shifts, sim_weights, "similar15")
-
-    # 4. Best frame bicubic upscale (baseline comparison)
-    bicubic = cv2.resize(best_crop, (best_crop.shape[1] * scale, best_crop.shape[0] * scale),
-                         interpolation=cv2.INTER_CUBIC)
-    cv2.imwrite(str(output_dir / "best_frame_bicubic.png"), bicubic)
-    logger.info("Saved bicubic %dx: %s", scale, output_dir / "best_frame_bicubic.png")
-
-    # 4. Best frame neural upscale (Real-ESRGAN 4x) — optional, requires torch
-    best_u8 = np.clip(best_crop, 0, 255).astype(np.uint8)
-    esrgan_result = _esrgan_upscale(best_u8)
-    if esrgan_result is not None:
-        cv2.imwrite(str(output_dir / "best_frame_esrgan4x.png"), esrgan_result)
-        logger.info("Saved ESRGAN 4x: %s (%dx%d)", output_dir / "best_frame_esrgan4x.png",
-                    esrgan_result.shape[1], esrgan_result.shape[0])
-
-    # Optionally save individual crops
-    if save_crops:
-        frames_dir = output_dir / "frames"
-        frames_dir.mkdir(exist_ok=True)
-        for i, crop in enumerate(crops):
-            crop_path = frames_dir / f"crop_{i:04d}.png"
-            cv2.imwrite(str(crop_path), crop)
-        logger.info("Saved %d crops to %s", len(crops), frames_dir)
+    primary = track_infos[0]
 
     # Collect output file manifest
     output_files: dict[str, str] = {}
@@ -2910,25 +2978,37 @@ def convert_video(
         if f.suffix in (".png", ".mp4"):
             output_files[f.stem] = f.name
 
-    # Build and save metadata
+    # Build and save metadata. Top-level fields describe the primary object
+    # (backwards compatible); the tracks list covers every object.
     meta = ProcessingMetadata(
         video_path=str(video_path),
         total_frames=total_frames,
         extracted_frames=len(frames),
-        detected_frames=raw_detected_count,
-        crop_size=crop_size,
+        detected_frames=primary["detections"],
+        crop_size=primary["crop_size"],
         scale_factor=scale,
-        output_size=(best_crop.shape[1] * scale, best_crop.shape[0] * scale),
-        shifts=[list(o) for o in offsets],
-        sharpness_weights=[round(w, 6) for w in weights],
-        best_frame_index=best_idx,
-        best_frame_sharpness=round(weights[best_idx], 6),
+        output_size=primary["output_size"],
+        shifts=primary["shifts"],
+        sharpness_weights=primary["sharpness_weights"],
+        best_frame_index=primary["best_frame_index"],
+        best_frame_sharpness=primary["best_frame_sharpness"],
         deconv_iterations=deconv_iterations,
         psf_sigma=psf_sigma,
         processed_at=datetime.now(timezone.utc).isoformat(),
         output_files=output_files,
         vlm_scene_count=vlm_scene_count,
         vlm_footage_range=vlm_footage_range,
+        tracks=[
+            {
+                "track": n + 1,
+                "prefix": info["prefix"],
+                "detections": info["detections"],
+                "frame_range": info["frame_range"],
+                "crop_size": list(info["crop_size"]),
+                "best_frame_index": info["best_frame_index"],
+            }
+            for n, info in enumerate(track_infos)
+        ],
     )
 
     meta_path = output_dir / "metadata.json"
@@ -2942,15 +3022,16 @@ def convert_video(
         f"Source: {video_path.name}\n\n"
         f"## Processing Summary\n\n"
         f"- Frames extracted: {len(frames)}\n"
-        f"- Frames with detection: {raw_detected_count}\n"
-        f"- Crop size: {crop_size[1]}x{crop_size[0]}\n"
-        f"- Output size: {best_crop.shape[1] * scale}x{best_crop.shape[0] * scale} "
+        f"- Objects tracked: {len(track_infos)}\n"
+        f"- Frames with detection (primary object): {primary['detections']}\n"
+        f"- Crop size: {primary['crop_size'][1]}x{primary['crop_size'][0]}\n"
+        f"- Output size: {primary['output_size'][0]}x{primary['output_size'][1]} "
         f"({scale}x drizzle)\n"
         f"- Deconvolution: {deconv_iterations} iterations, "
         f"sigma={psf_sigma}\n"
-        f"- Best frame sharpness: {weights[best_idx]:.4f} "
-        f"(frame {best_idx})\n\n"
-        f"*Enhanced image saved as enhanced.png*\n"
+        f"- Best frame sharpness: {primary['best_frame_sharpness']:.4f} "
+        f"(frame {primary['best_frame_index']})\n\n"
+        f"*Enhanced stills (drizzle/IBP/ESRGAN variants) saved alongside this file.*\n"
     )
 
     return output_dir

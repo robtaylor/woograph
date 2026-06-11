@@ -139,3 +139,36 @@ def test_select_ignores_short_tracks():
 
 def test_detect_handles_empty_frames():
     assert _detect_median_subtraction([]) == []
+
+
+def test_border_anchored_noise_never_wins():
+    """A jittering border band (trees under bad stabilisation) must lose.
+
+    Pins the CI failure where a huge frame-edge-anchored vegetation region
+    won track selection and its giant crops exhausted runner memory.
+    """
+    n, w, h = 60, 320, 240
+    frames = []
+    dot_positions = []
+    for i in range(n):
+        f = np.full((h, w, 3), 120, dtype=np.uint8)
+        x = 40 + int(240 * i / (n - 1))
+        y = 30 + int(100 * i / (n - 1))
+        cv2.circle(f, (x, y), 3, (255, 255, 255), -1)
+        dot_positions.append((x, y))
+        # Full-width "treeline" band at the bottom, jittering vertically so
+        # it differs from the median background in every frame
+        band_top = 200 + (i % 5)
+        f[band_top:, :] = 40
+        frames.append(f)
+
+    bboxes = _detect_median_subtraction(frames)
+
+    detected = [(i, b) for i, b in enumerate(bboxes) if b is not None]
+    assert len(detected) > n * 0.5, f"only {len(detected)}/{n} frames detected"
+    for i, b in detected:
+        cx, cy = b.center
+        x, y = dot_positions[i]
+        assert abs(cx - x) < 5 and abs(cy - y) < 5, (
+            f"frame {i}: detection at ({cx:.0f},{cy:.0f}), dot at ({x},{y})"
+        )

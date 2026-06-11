@@ -550,7 +550,10 @@ def _detect_median_subtraction(
     gray_frames = [cv2.cvtColor(f, cv2.COLOR_BGR2GRAY) for f in frames]
     median_bg = np.median(gray_frames, axis=0).astype(np.uint8)
 
-    max_bbox_area = 0.25 * w * h  # ignore contours > 25% of frame
+    # The pipeline super-resolves small distant objects; a "detection" covering
+    # a large fraction of the frame is residual stabilisation error (trees,
+    # rooflines), and stacking its giant crops also exhausts CI runner memory.
+    max_bbox_area = 0.05 * w * h
     x_margin, y_margin = 0.05 * w, 0.05 * h
     max_candidates_per_frame = 30  # cap track explosion on noisy frames
     frame_candidates: dict[int, list[_Candidate]] = {}
@@ -575,15 +578,20 @@ def _detect_median_subtraction(
         candidates: list[_Candidate] = []
         for contour in contours:
             bbox = BBox(*cv2.boundingRect(contour))
-            cx, cy = bbox.center
 
-            if cy >= y_limit:
+            if bbox.center[1] >= y_limit:
                 continue
             if bbox.area < min_area or bbox.area > max_bbox_area:
                 continue
-            # Objects this close to the border are partly out of frame and
-            # would be rejected by _filter_detections anyway
-            if cx < x_margin or cx > w - x_margin or cy < y_margin or cy > h - y_margin:
+            # The whole bbox must sit inside the frame margins: a bbox
+            # touching the border is an object partly out of view (or a
+            # border-anchored stabilisation artefact like trees/rooflines)
+            if (
+                bbox.x < x_margin
+                or bbox.y < y_margin
+                or bbox.x + bbox.w > w - x_margin
+                or bbox.y + bbox.h > h - y_margin
+            ):
                 continue
 
             fill_ratio = cv2.contourArea(contour) / bbox.area
@@ -2538,7 +2546,7 @@ def convert_video(
         frames, min_area=min_object_area, roi_y_max=roi_y_max,
     )
     raw_detected_count = sum(1 for b in bboxes if b is not None)
-    logger.info(f"bboxes = {bboxes}")
+    logger.debug(f"bboxes = {bboxes}")
 
     # if raw_detected_count < 10:
     #     logger.info(

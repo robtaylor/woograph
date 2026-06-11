@@ -1,0 +1,126 @@
+{
+  "@context": "../context.jsonld",
+  "@id": "source:elana-danaan-index-page-0240",
+  "name": "\u200b",
+  "entities": [
+    {
+      "@id": "source:elana-danaan-index-page-0240",
+      "@type": "woo:Source",
+      "name": "\u200b"
+    },
+    {
+      "@id": "entity:organization-galactic-terran",
+      "@type": "Organization",
+      "name": "Galactic & Terran",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0240"
+    },
+    {
+      "@id": "entity:person-abigae-lle-mokusho",
+      "@type": "Person",
+      "name": "Abiga\u00eblle Mokusho",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0240"
+    },
+    {
+      "@id": "entity:organization-widget-didn-t-load-check",
+      "@type": "Organization",
+      "name": "Widget Didn\u2019t Load\nCheck",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0240"
+    },
+    {
+      "@id": "entity:event-",
+      "@type": "Event",
+      "name": "\u200b",
+      "aliases": [],
+      "mentionedIn": "source:elana-danaan-index-page-0240"
+    }
+  ],
+  "relationships": [
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0240"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-mokusho"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0240"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-widget-didn-t-load-check"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0240"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:event-"
+      },
+      "predicate": "woo:mentionedIn",
+      "object": {
+        "@id": "source:elana-danaan-index-page-0240"
+      },
+      "confidence": 1.0,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-galactic-terran"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:person-abigae-lle-mokusho"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    },
+    {
+      "@type": "woo:Relationship",
+      "subject": {
+        "@id": "entity:organization-widget-didn-t-load-check"
+      },
+      "predicate": "woo:relatedTo",
+      "object": {
+        "@id": "entity:event-"
+      },
+      "confidence": 0.3,
+      "extractedBy": "pipeline"
+    }
+  ]
+}

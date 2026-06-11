@@ -36187,6 +36187,24 @@
       "type": "DATE",
       "aliases": [],
       "sources": []
+    },
+    "entity:organization-galactic-terran": {
+      "name": "Galactic & Terran",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-abigae-lle-mokusho": {
+      "name": "Abiga\u00eblle Mokusho",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-widget-didn-t-load-check": {
+      "name": "Widget Didn\u2019t Load\nCheck",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

@@ -37375,6 +37375,18 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richardoct-15": {
+      "name": "Mokusho Abiga\u00eblle RichardOct 15",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-nation-news": {
+      "name": "Nation News",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }

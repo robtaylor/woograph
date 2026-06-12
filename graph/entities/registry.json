@@ -37429,6 +37429,30 @@
       "type": "PERSON",
       "aliases": [],
       "sources": []
+    },
+    "entity:person-mokusho-abigae-lle-richard-sep": {
+      "name": "Mokusho Abiga\u00eblle Richard\n- Sep",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-the-seeders-pp": {
+      "name": "The Seeders: pp",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:person-galactica": {
+      "name": "Galactica",
+      "type": "PERSON",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:creativework-webinars": {
+      "name": "Webinars",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
     }
   }
 }

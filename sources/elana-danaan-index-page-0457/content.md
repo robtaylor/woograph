@@ -1,0 +1,3 @@
+<!-- Source: https://www.elenadanaanindex.org/post/education-schools -->
+
+Education / Schools Mokusho Abigaëlle RichardJan 15, 17571 min readWebsiteJanuary 7 2021- Emotional Resonance / Evolution of Religions / Ship Schools / Annunaki. 1.7.21 Transcript by Sam MastMarch 25 2021: JEN HAN ( first appearance) background and terraforming education: Merkabah / Southern Cross & Lyra constellations / Inter-density Procreation / Mercury / Venus / Jupiter / Saturn / Uranus / Nhorr music / Off-world spiritualities / Aquatic planets / Jen Han's background and terraforming education VideosStar Nation News 70 ~ 31 03 2025

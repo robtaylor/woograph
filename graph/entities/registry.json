@@ -37297,6 +37297,18 @@
       "type": "ORG",
       "aliases": [],
       "sources": []
+    },
+    "entity:creativework-the-seeders": {
+      "name": "The Seeders",
+      "type": "WORK_OF_ART",
+      "aliases": [],
+      "sources": []
+    },
+    "entity:organization-elena-danaan-galactic-terran-index": {
+      "name": "Elena Danaan Galactic & Terran Index",
+      "type": "ORG",
+      "aliases": [],
+      "sources": []
     }
   }
 }
